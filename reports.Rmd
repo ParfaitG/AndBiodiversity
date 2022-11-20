@@ -22,10 +22,14 @@ layout: default
      font-size: 14px;
   }
 
+  .logo {
+    text-align: right;
+    margin: -100px 0 0 0;
+  }
+
   .logo img {
-     float: right;
-     margin: 5px;
-     width: 200px;
+    margin: 5px;
+    width: 200px;
   }
   
   .reports_banner {
@@ -101,10 +105,6 @@ $(function() {
 ### See below links to major global reports regarding the biodiversity loss crisis:
 
 <br/>
-<br/>
-<br/>
-<br/>
-
 
 <div class="reports_banner"><img src="images/report_covers.png" alt="global report covers"/></div>
 

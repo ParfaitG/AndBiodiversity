@@ -18,10 +18,14 @@ layout: default
     .fa { font-size: initial; }
   }
 
+  .logo {
+    text-align: right;
+    margin: -100px 0 0 0;
+  }
+
   .logo img {
-     float: right;
-     margin: 5px;
-     width: 200px;
+    margin: 5px;
+    width: 200px;
   }
   
   table {
@@ -52,7 +56,7 @@ layout: default
   }
 
   .footer_box {
-     width: 70%;
+     width: 60%;
      margin: 0 auto;
   }
   
@@ -84,11 +88,9 @@ $(function() {
 
 ### See below figures from major reports, papers, and resources regarding the biodiversity loss crisis:
 
-<br/>
-<br/>
-<br/>
-
 ---
+
+<br/>
 
 ```{r echo=FALSE}
 library(pixture)

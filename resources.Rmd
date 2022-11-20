@@ -18,10 +18,14 @@ layout: default
     .fa { font-size: initial; }
   }
 
+  .logo {
+    text-align: right;
+    margin: -100px 0 0 0;
+  }
+
   .logo img {
-     float: right;
-     margin: 5px;
-     width: 200px;
+    margin: 5px;
+    width: 200px;
   }
   
   .nav-pills {
@@ -113,12 +117,9 @@ $(function() {
 
 <div class="logo"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></div>
 
-## See below external resources regarding biodiversity:
+## See below resources regarding biodiversity:
 
 <br/>
-<br/>
-<br/>
-
 
 # {.tabset .tabset-fade .tabset-pills}
 

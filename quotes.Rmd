@@ -17,9 +17,13 @@ layout: default
     }
     .fa { font-size: initial; }
   }
+  
+  .logo {
+    text-align: right;
+    margin: -100px 0 0 0;
+  }
 
   .logo img {
-    float: right;
     margin: 5px;
     width: 200px;
   }
@@ -38,8 +42,11 @@ layout: default
   .accordion {
       width: 100%;
       color: white;
-      overflow-y: auto;
+      overflow: hidden;
       margin-bottom: 16px;
+  }
+  .accordion:hover, .accordion:focus, .accordion:active {
+      overflow-y: auto;
   }
   .accordion img {
       display: block;

@@ -155,7 +155,7 @@ $(function() {
   <p><a href="overview.html">OVERVIEW</a></p>
   </div>
   <div class="cardbody">
-  <p>See the what, who, when, where, why, and how about <b><i>biodiversity loss</i></b></p>
+  <p>Learn the what, who, when, where, why, and how about <b><i>biodiversity loss</i></b></p>
   <a href="overview.html"><img src="images/fa_info.png" alt="info icon"/></a>
   </div>
 </div>
