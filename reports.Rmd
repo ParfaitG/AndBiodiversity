@@ -120,8 +120,8 @@ $(function() {
 
 - ### [World Wildlife Fund: Living Planet Report](https://livingplanet.panda.org/en-us/)
 - ### [BLI: State of the World’s Birds 2022](https://www.birdlife.org/papers-reports/state-of-the-worlds-birds-2022/)
-- ### [IPBES: Wild Species](https://www.ibpes.net)
-- ### [IPBES: Value Assessments](https://www.ibpes.net)
+- ### [IPBES: Assessment Report on Diverse Values and Valuation of Nature](https://ipbes.net/media_release/Values_Assessment_Published)
+- ### [IPBES: Assessment Report on the Sustainable Use of Wild Species](https://ipbes.net/sustainable-use-assessment)
 - ### [IPCC: Sixth Assessment Part 2: Climate Change - Impacts, Adaptation and Vulnerability](https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/)
 - ### [Stockholm Environment Institute: A comprehensive approach to nitrogen in the UK](https://www.sei.org/publications/nitrogen-in-uk-wwf/)
 
