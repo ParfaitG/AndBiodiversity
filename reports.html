@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Reports</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">And Biodiversity</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    home
+  </a>
+</li>
+<li>
+  <a href="overview.html">
+    <span class="fa fa-info-circle"></span>
+     
+    overview
+  </a>
+</li>
+<li>
+  <a href="reports.html">
+    <span class="fa fa-book"></span>
+     
+    reports
+  </a>
+</li>
+<li>
+  <a href="figures.html">
+    <span class="fa fa-image"></span>
+     
+    figures
+  </a>
+</li>
+<li>
+  <a href="quotes.html">
+    <span class="fa fa-comment"></span>
+     
+    quotes
+  </a>
+</li>
+<li>
+  <a href="resources.html">
+    <span class="fa fa-link"></span>
+     
+    resources
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Reports</h1>
+
+</div>
+
+
+<style type="text/css">
+  .main-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width:1200px) and (min-width:760px) {
+    #navbar > ul > li > a {
+       font-size: 0;
+       display:inline-block;
+    }
+    .fa { font-size: initial; }
+  }
+  
+  .nav-pills {
+     font-size: 14px;
+  }
+
+  .logo img {
+     float: right;
+     margin: 5px;
+     width: 200px;
+  }
+  
+  .reports_banner {
+     text-align: center;
+  }
+  .reports_banner img {
+     width: 800px;
+  }
+  
+  .table_container {
+     overflow-x: auto;
+     width: 100%;
+     margin: 0 auto;
+  }
+  
+  #bottom_icons {
+     margin: 0 auto;
+  }
+  
+  #bottom_icons img {
+     padding: 10px;
+     width: 100px;
+  }
+  
+  .table_container #bottom_icons h3 {
+     text-align: center;
+     font-size: 16px;
+  }
+  
+  .footer {
+     font-size: 14px;
+     bottom: 0;
+     width: 100%;
+     height: 140px;
+     margin: 0px auto -40px auto;
+     color: #ffffff;
+     background-color: #808080;
+     border-color: #93c54b;
+     overflow-y: auto;
+  }
+  
+  .footer_box {
+     width: 70%;
+     margin: 0 auto;
+  }
+  
+  .footer_label {
+     padding: 5px;
+     font-size: 16px;
+     width: 80%;
+  }
+  
+  .footer_space {
+     float: left;
+     width: 15%;
+  }
+  .footer_column {
+     float: left;
+     width: 25%;
+  }
+</style>
+<script type="text/javascript">
+$(function() {
+  $('.main-container').after($('.footer'));
+})
+</script>
+<p><br/></p>
+<div class="logo">
+<img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/>
+</div>
+<div
+id="see-below-links-to-major-global-reports-regarding-the-biodiversity-loss-crisis"
+class="section level3">
+<h3>See below links to major global reports regarding the biodiversity
+loss crisis:</h3>
+<p><br/> <br/> <br/> <br/></p>
+<div class="reports_banner">
+<img src="images/report_covers.png" alt="global report covers"/>
+</div>
+<p><br/> <br/></p>
+</div>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills">
+<h1 class="tabset tabset-fade tabset-pills"></h1>
+<div id="section-1" class="section level2">
+<h2>2020-2022</h2>
+<div id="section-2" class="section level3">
+<h3>2022</h3>
+<ul>
+<li><h3 id="world-wildlife-fund-living-planet-report"><a
+href="https://livingplanet.panda.org/en-us/">World Wildlife Fund: Living
+Planet Report</a></h3></li>
+<li><h3 id="bli-state-of-the-worlds-birds-2022"><a
+href="https://www.birdlife.org/papers-reports/state-of-the-worlds-birds-2022/">BLI:
+State of the World’s Birds 2022</a></h3></li>
+<li><h3 id="ipbes-wild-species"><a href="https://www.ibpes.net">IPBES:
+Wild Species</a></h3></li>
+<li><h3 id="ipbes-value-assessments"><a
+href="https://www.ibpes.net">IPBES: Value Assessments</a></h3></li>
+<li><h3
+id="ipcc-sixth-assessment-part-2-climate-change---impacts-adaptation-and-vulnerability"><a
+href="https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/">IPCC:
+Sixth Assessment Part 2: Climate Change - Impacts, Adaptation and
+Vulnerability</a></h3></li>
+<li><h3
+id="stockholm-environment-institute-a-comprehensive-approach-to-nitrogen-in-the-uk"><a
+href="https://www.sei.org/publications/nitrogen-in-uk-wwf/">Stockholm
+Environment Institute: A comprehensive approach to nitrogen in the
+UK</a></h3></li>
+</ul>
+<p><br/> <br/></p>
+</div>
+<div id="section-3" class="section level3">
+<h3>2021</h3>
+<ul>
+<li><h3
+id="unep-from-pollution-to-solution-a-global-assessment-of-marine-litter-and-plastic-pollution"><a
+href="https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution">UNEP:
+From Pollution to Solution: A global assessment of marine litter and
+plastic pollution</a></h3></li>
+<li><h3
+id="ipcc-sixth-assessment-part-2-climate-change---the-physical-science-basis"><a
+href="https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/">IPCC:
+Sixth Assessment Part 2: Climate Change - The Physical Science
+Basis</a></h3></li>
+<li><h3 id="ipbes-and-ipcc-co-sponsored-workshop-report"><a
+href="https://ipbes.net/events/ipbes-ipcc-co-sponsored-workshop-biodiversity-and-climate-change">IPBES
+and IPCC Co-Sponsored Workshop Report</a></h3></li>
+<li><h3 id="bgci-the-state-of-trees-report"><a
+href="https://www.bgci.org/news-events/bgci-launches-the-state-of-the-worlds-trees-report/">BGCI:
+The State of Trees Report</a></h3></li>
+<li><h3 id="unep-making-peace-with-nature"><a
+href="https://www.unep.org/events/unep-event/launch-unep-making-peace-nature-report">UNEP:
+Making Peace with Nature</a></h3></li>
+<li><h3 id="the-economics-of-biodiversity-the-dasgupta-review"><a
+href="https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review">The
+Economics of Biodiversity: The Dasgupta Review</a></h3></li>
+</ul>
+<p><br/> <br/></p>
+</div>
+<div id="section-4" class="section level3">
+<h3>2020</h3>
+<ul>
+<li><h3 id="world-wildlife-fund-living-planet-report-2020"><a
+href="https://www.worldwildlife.org/publications/living-planet-report-2020">World
+Wildlife Fund: Living Planet Report (2020)</a></h3></li>
+<li><h3
+id="pew-charitable-trusts-breaking-the-plastic-wave-top-findings-for-preventing-plastic-pollution-2020"><a
+href="https://www.pewtrusts.org/en/research-and-analysis/articles/2020/07/23/breaking-the-plastic-wave-top-findings">Pew
+Charitable Trusts: Breaking the Plastic Wave: Top Findings for
+Preventing Plastic Pollution (2020)</a></h3></li>
+<li><h3 id="ipbes-workshop-report-on-biodiversity-and-pandemics-2020"><a
+href="https://ipbes.net/sites/default/files/2020-12/IPBES%20Workshop%20on%20Biodiversity%20and%20Pandemics%20Report_0.pdf">IPBES
+Workshop Report on Biodiversity and Pandemics (2020)</a></h3></li>
+<li><h3 id="un-cbd-global-biodiversity-outlook-5-2020"><a
+href="https://www.unep.org/resources/report/global-biodiversity-outlook-5-gbo-5?_ga=2.87214558.710523140.1666576950-1438871190.1665938202">UN
+CBD: Global Biodiversity Outlook 5 (2020)</a></h3></li>
+</ul>
+</div>
+</div>
+<div id="section-5" class="section level2">
+<h2>2010 - 2019</h2>
+<ul>
+<li><h3
+id="ipbes-global-assessment-on-biodiversity-and-ecosystem-services-2019"><a
+href="https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/">IPBES
+Global Assessment on Biodiversity and Ecosystem Services
+(2019)</a></h3></li>
+<li><h3
+id="unep-frontiers-201819-emerging-issues-of-environmental-concern-2019"><a
+href="https://www.unep.org/resources/frontiers-201819-emerging-issues-environmental-concern">UNEP:
+Frontiers 2018/19: Emerging Issues of Environmental Concern
+(2019)</a></h3></li>
+<li><h3 id="ipcc-special-report-global-warming-of-1.5-ºc-2018"><a
+href="https://www.ipcc.ch/sr15/">IPCC: Special Report Global Warming of
+1.5 ºC (2018)</a></h3></li>
+<li><h3
+id="ipbes-assessment-report-on-land-degradation-and-restoration-2018"><a
+href="https://ipbes.net/assessment-reports/ldr">IPBES: Assessment Report
+on Land Degradation and Restoration (2018)</a></h3></li>
+<li><h3 id="world-wildlife-fund-living-planet-report-2018"><a
+href="https://www.worldwildlife.org/pages/living-planet-report-2018">World
+Wildlife Fund: Living Planet Report (2018)</a></h3></li>
+<li><h3
+id="ipbes-assessment-report-on-pollinators-pollination-and-food-production-2016"><a
+href="https://ipbes.net/assessment-reports/pollinators">IPBES Assessment
+Report on Pollinators, Pollination and Food Production
+(2016)</a></h3></li>
+<li><h3 id="world-wildlife-fund-living-planet-report-2016"><a
+href="https://www.worldwildlife.org/pages/living-planet-report-2016">World
+Wildlife Fund: Living Planet Report (2016)</a></h3></li>
+<li><h3
+id="who-and-cbd-connecting-global-priorities-biodiversity-and-human-health-2015"><a
+href="https://www.cbd.int/health/SOK-biodiversity-en.pdf">WHO and CBD:
+Connecting Global Priorities: Biodiversity and Human Health
+(2015)</a></h3></li>
+<li><h3 id="world-wildlife-fund-living-planet-report-2014"><a
+href="https://www.worldwildlife.org/pages/living-planet-report-2014">World
+Wildlife Fund: Living Planet Report (2014)</a></h3></li>
+<li><h3
+id="protected-planet-report-2014-tracking-progress-towards-global-targets-for-protected-areas"><a
+href="https://wedocs.unep.org/handle/20.500.11822/9280">Protected Planet
+Report 2014: Tracking progress towards global targets for protected
+areas</a></h3></li>
+<li><h3 id="un-cbd-global-biodiversity-outlook-4-2014"><a
+href="https://www.cbd.int/gbo4/">UN CBD: Global Biodiversity Outlook 4
+(2014)</a></h3></li>
+<li><h3 id="world-wildlife-fund-living-planet-report-2012"><a
+href="https://wwf.panda.org/discover/knowledge_hub/all_publications/living_planet_report_timeline/lpr_2012/">World
+Wildlife Fund: Living Planet Report (2012)</a></h3></li>
+<li><h3
+id="unep-the-economics-of-ecosystems-and-biodiversity-in-national-and-international-policy-making-2011"><a
+href="https://wedocs.unep.org/handle/20.500.11822/28231">UNEP: The
+Economics of Ecosystems and Biodiversity in National and International
+Policy Making (2011)</a></h3></li>
+<li><h3 id="un-cbd-global-biodiversity-outlook-3-2010"><a
+href="https://www.cbd.int/gbo3/">UN CBD: Global Biodiversity Outlook 3
+(2010)</a></h3></li>
+<li><h3
+id="unep-dead-planet-living-planet-biodiversity-and-ecosystem-restoration-for-sustainable-development-2010"><a
+href="https://wedocs.unep.org/handle/20.500.11822/7895">UNEP: Dead
+planet, living planet: biodiversity and ecosystem restoration for
+sustainable development (2010)</a></h3></li>
+<li><h3
+id="caff-arctic-biodiversity-trends---selected-indicators-of-change-2010"><a
+href="https://www.caff.is/assessment-series/162-arctic-biodiversity-trends-2010-selected-indicators-of-change">CAFF:
+Arctic Biodiversity Trends - Selected Indicators of Change
+(2010)</a></h3></li>
+</ul>
+</div>
+<div id="section-6" class="section level2">
+<h2>2000 - 2009</h2>
+<ul>
+<li><h3
+id="unep-review-of-the-literature-on-the-links-between-biodiversity-and-climate-change-2009"><a
+href="https://wedocs.unep.org/handle/20.500.11822/7896">UNEP: Review of
+the literature on the links between biodiversity and climate change
+(2009)</a></h3></li>
+<li><h3
+id="unep-the-linkages-between-biodiversity-and-climate-change-mitigation-a-review-of-the-recent-scientific-literature-2008"><a
+href="https://wedocs.unep.org/handle/20.500.11822/8199">UNEP: The
+linkages between biodiversity and climate change mitigation :A review of
+the recent scientific literature (2008)</a></h3></li>
+<li><h3
+id="ipcc-ar4-climate-change---impacts-adaptation-and-vulnerability-2007"><a
+href="https://www.ipcc.ch/report/ar4/wg2/">IPCC: AR4 Climate Change -
+Impacts, Adaptation, and Vulnerability (2007)</a></h3></li>
+<li><h3
+id="stern-review-report-on-the-economics-of-climate-change-2007"><a
+href="https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/https:/www.hm-treasury.gov.uk/stern_review_report.htm">Stern
+Review Report on the Economics of Climate Change (2007)</a></h3></li>
+<li><h3
+id="unep-global-environment-outlook-4-geo-4-environment-for-development-2007"><a
+href="https://wedocs.unep.org/handle/20.500.11822/7646">UNEP: Global
+Environment Outlook 4 (GEO-4): Environment for Development
+(2007)</a></h3></li>
+<li><h3
+id="wcmc-crossroads-of-life-on-earth---exploring-means-to-meet-the-2010-biodiversity-target-2007"><a
+href="https://wedocs.unep.org/handle/20.500.11822/8767">WCMC: Crossroads
+of Life on Earth - Exploring means to meet the 2010 Biodiversity Target
+(2007)</a></h3></li>
+<li><h3 id="un-cbd-global-biodiversity-outlook-2-2006"><a
+href="https://www.cbd.int/gbo2/">UN CBD: Global Biodiversity Outlook 2
+(2006)</a></h3></li>
+<li><h3 id="millennium-ecosystem-assessment-2005"><a
+href="https://www.millenniumassessment.org/en/Condition.html">Millennium
+Ecosystem Assessment (2005)</a></h3></li>
+<li><h3 id="arctic-climate-impact-assessment-acia-2004"><a
+href="https://acia.amap.no/">Arctic Climate Impact Assessment (ACIA)
+(2004)</a></h3></li>
+<li><h3
+id="unep-global-environment-outlook-3-geo-3-past-present-and-future-perspectives-2003"><a
+href="https://wedocs.unep.org/handle/20.500.11822/8609">UNEP: Global
+Environment Outlook 3 (GEO-3): Past, Present and Future Perspectives
+(2003)</a></h3></li>
+<li><h3
+id="ipcc-climate-change-and-biodiversity-technical-paper-v-2002"><a
+href="https://wedocs.unep.org/handle/20.500.11822/32705">IPCC: Climate
+Change and Biodiversity: Technical Paper V (2002)</a></h3></li>
+<li><h3 id="caff-arctic-flora-and-fauna-status-and-conservation-2001"><a
+href="https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation">CAFF:
+Arctic Flora and Fauna: Status and Conservation (2001)</a></h3></li>
+<li><h3
+id="wcmc-a-global-overview-of-protected-areas-on-the-world-heritage-list-of-particular-importance-for-biodiversity-2000"><a
+href="https://wedocs.unep.org/handle/20.500.11822/9543">WCMC: A Global
+Overview of Protected Areas on the World Heritage List of Particular
+Importance for Biodiversity (2000)</a></h3></li>
+</ul>
+</div>
+<div id="section-7" class="section level2">
+<h2>1990 - 1999</h2>
+<ul>
+<li><h3 id="unep-cultural-and-spiritual-values-of-biodiversity-1999"><a
+href="https://www.unep.org/resources/publication/cultural-and-spiritual-values-biodiversity">UNEP:
+Cultural and spiritual values of biodiversity (1999)</a></h3></li>
+<li><h3 id="wcmc-industrial-reliance-on-biodiversity-1997"><a
+href="https://wedocs.unep.org/handle/20.500.11822/8860">WCMC: Industrial
+reliance on biodiversity (1997)</a></h3></li>
+<li><h3 id="unep-global-biodiversity-assessment-1995"><a
+href="https://press.un.org/en/1995/19951114.he916.html">UNEP: Global
+Biodiversity Assessment (1995)</a></h3></li>
+<li><h3
+id="the-unep-biodiversity-programme-and-implementation-strategy-a-framework-for-supporting-global-conservation-and-sustainable-use-of-biodiversity-1995"><a
+href="https://wedocs.unep.org/handle/20.500.11822/30293">The UNEP
+Biodiversity Programme and Implementation Strategy: A Framework for
+Supporting Global Conservation and Sustainable Use of Biodiversity
+(1995)</a></h3></li>
+<li><h3
+id="unep-the-world-environment-1972-1992-two-decades-of-challenge-1992"><a
+href="https://wedocs.unep.org/handle/20.500.11822/30320">UNEP: The World
+Environment 1972-1992: Two Decades of Challenge (1992)</a></h3></li>
+<li><h3
+id="wcmc-global-biodiversity-status-of-the-earths-living-resources-1992"><a
+href="https://www.unep.org/resources/report/global-biodiversity-status-earths-living-resources">WCMC:
+Global Biodiversity: status of the Earth’s living resources
+(1992)</a></h3></li>
+<li><h3 id="world-plant-conservation-bibliography-1990"><a
+href="https://wedocs.unep.org/handle/20.500.11822/8320">World Plant
+Conservation Bibliography (1990)</a></h3></li>
+</ul>
+</div>
+<div id="earlier" class="section level2">
+<h2>Earlier</h2>
+<ul>
+<li><h3
+id="unep-the-state-of-the-world-environment-1989---unepgc.157add.2"><a
+href="https://wedocs.unep.org/handle/20.500.11822/28295">UNEP: The State
+of the World Environment 1989 - UNEP/GC.15/7/Add.2</a></h3></li>
+<li><h3
+id="un-report-of-the-world-commission-on-environment-and-development-our-common-future-brundtland-commission-1987"><a
+href="https://sustainabledevelopment.un.org/content/documents/5987our-common-future.pdf">UN:
+Report of the World Commission on Environment and Development: Our
+Common Future (Brundtland Commission) (1987)</a></h3></li>
+<li><h3
+id="unep-the-world-environment-1972---1982-a-report-by-the-united-nations-environment-programme-1982"><a
+href="https://wedocs.unep.org/handle/20.500.11822/30379">UNEP: The World
+Environment 1972 - 1982: A Report by The United Nations Environment
+Programme (1982)</a></h3></li>
+<li><h3 id="unep-the-state-of-the-environment-1975"><a
+href="https://wedocs.unep.org/handle/20.500.11822/28254">UNEP: The State
+of the Environment 1975</a></h3></li>
+<li><h3
+id="unep-report-of-the-united-nations-conference-on-the-human-environment---stockholm-5-16-june-1972"><a
+href="https://wedocs.unep.org/handle/20.500.11822/30829">UNEP: Report of
+the United Nations Conference on the Human Environment - Stockholm, 5-16
+June 1972</a></h3></li>
+<li><h3
+id="un-activities-of-united-nations-organizations-and-programmes-relevant-to-the-human-environment-1968"><a
+href="https://digitallibrary.un.org/record/729430?ln=en">UN: Activities
+of United Nations Organizations and Programmes Relevant to the Human
+Environment (1968)</a></h3></li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="section-8" class="section level1">
+<h1></h1>
+<p><br/> <br/></p>
+<hr />
+<div id="why-and-biodiversity-to-study-the-issues"
+class="section level3">
+<h3>Why <em>And Biodiversity</em>? To study the issues:</h3>
+<p><br/> <br/></p>
+<div class="table_container">
+<table id="bottom_icons">
+<tr>
+<td>
+<img src="images/stick_figure_tree_green.png" alt="tree icon" title="100 million hectares of agricultural expansion in the tropics occurred from 1980 to 2000, mainly cattle ranching in Latin America (+/-42 million ha), and plantations in Southeast Asia (+/-7.5 million ha, of which 80% is oil palm), half of it at the expense of intact forests (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Deforestation
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="Population sizes of wild vertebrate species have tended to decline over the last 50 years on land, in freshwater and in the sea (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Over-<br/>exploitation
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_fish_blue.png" alt="fish icon" title="Industrial fishing covers over 55% of ocean area (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Sea Use<br/>Changes
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="Fertilizers have caused 400 low oxygen (hypoxic) coastal ecosystem 'dead zones', affecting over 245,000 km2 (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Coastal<br/>Loss
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="47% of terrestrial flightless mammals and 23% of threatened birds whose distributions may have been negatively impacted by climate change already (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Greenhouse Gas<br/>Emissions
+</h3>
+</td>
+</tr>
+<tr>
+<td>
+<img src="images/stick_figure_insect.png" alt="insect icon" title="Between $235 to $577 billion in annual value of global crop output are at risk due to pollinator loss (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Pollinator<br/>Decline
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_ocean_blue.png" alt="ocean icon" title="Almost 33% of reef forming corals, sharks and shark relatives, and over 33% marine mammals threatened with extinction (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Marine<br/>Pollution
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_wetlands_green.png" alt="wetlands icon" title="Urban areas have grown 100% since 1992 (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Land Use<br/>Changes
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Over 500,000 of the world’s estimated 5.9 million terrestrial species have insufficient habitat for long term survival without habitat restoration (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Habitat<br/>Loss
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_soil_green.png" alt="soil icon" title="Food crop production have increased by 300% since 1970 with 23% of land areas seeing a reduction in productivity due to land degradation (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Intensive<br/>Agriculture
+</h3>
+</td>
+</tr>
+</table>
+</div>
+<p><br/> <br/></p>
+<div class="footer">
+<div class="footer_box">
+<div class="footer_label">
+And Biodiversity
+</div>
+<div class="footer_space">
+<br/><br/>
+</div>
+<div class="footer_column">
+…Sweet is the lore which Nature brings; <br/> Our meddling intellect
+<br/> Mis-shapes the beauteous forms of things:— <br/> We murder to
+dissect. <br/>
+</div>
+<div class="footer_column">
+Enough of Science and of Art; <br/> Close up those barren leaves; <br/>
+Come forth, and bring with you a heart <br/> That watches and receives.
+<br/>
+</div>
+<div class="footer_column">
+-“The Tables Turned” <br/> William Wordsworth<br/>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

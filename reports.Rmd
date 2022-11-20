@@ -1,0 +1,273 @@
+---
+title: "Reports"
+layout: default
+---
+
+```{css, echo=FALSE}
+  .main-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width:1200px) and (min-width:760px) {
+    #navbar > ul > li > a {
+       font-size: 0;
+       display:inline-block;
+    }
+    .fa { font-size: initial; }
+  }
+  
+  .nav-pills {
+     font-size: 14px;
+  }
+
+  .logo img {
+     float: right;
+     margin: 5px;
+     width: 200px;
+  }
+  
+  .reports_banner {
+     text-align: center;
+  }
+  .reports_banner img {
+     width: 800px;
+  }
+  
+  .table_container {
+     overflow-x: auto;
+     width: 100%;
+     margin: 0 auto;
+  }
+  
+  #bottom_icons {
+     margin: 0 auto;
+  }
+  
+  #bottom_icons img {
+     padding: 10px;
+     width: 100px;
+  }
+  
+  .table_container #bottom_icons h3 {
+     text-align: center;
+     font-size: 16px;
+  }
+  
+  .footer {
+     font-size: 14px;
+     bottom: 0;
+     width: 100%;
+     height: 140px;
+     margin: 0px auto -40px auto;
+     color: #ffffff;
+     background-color: #808080;
+     border-color: #93c54b;
+     overflow-y: auto;
+  }
+  
+  .footer_box {
+     width: 70%;
+     margin: 0 auto;
+  }
+  
+  .footer_label {
+     padding: 5px;
+     font-size: 16px;
+     width: 80%;
+  }
+  
+  .footer_space {
+     float: left;
+     width: 15%;
+  }
+  .footer_column {
+     float: left;
+     width: 25%;
+  }
+```
+
+```{js, echo=FALSE}
+$(function() {
+  $('.main-container').after($('.footer'));
+})
+```
+
+<br/>
+
+<div class="logo"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></div>
+
+### See below links to major global reports regarding the biodiversity loss crisis:
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<div class="reports_banner"><img src="images/report_covers.png" alt="global report covers"/></div>
+
+<br/>
+<br/>
+
+
+# {.tabset .tabset-fade .tabset-pills}
+
+## 2020-2022
+
+### 2022
+
+- ### [World Wildlife Fund: Living Planet Report](https://livingplanet.panda.org/en-us/)
+- ### [BLI: State of the World’s Birds 2022](https://www.birdlife.org/papers-reports/state-of-the-worlds-birds-2022/)
+- ### [IPBES: Wild Species](https://www.ibpes.net)
+- ### [IPBES: Value Assessments](https://www.ibpes.net)
+- ### [IPCC: Sixth Assessment Part 2: Climate Change - Impacts, Adaptation and Vulnerability](https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/)
+- ### [Stockholm Environment Institute: A comprehensive approach to nitrogen in the UK](https://www.sei.org/publications/nitrogen-in-uk-wwf/)
+
+<br/>
+<br/>
+
+### 2021
+
+- ### [UNEP: From Pollution to Solution: A global assessment of marine litter and plastic pollution](https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution)
+- ### [IPCC: Sixth Assessment Part 2: Climate Change - The Physical Science Basis](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/)
+- ### [IPBES and IPCC Co-Sponsored Workshop Report](https://ipbes.net/events/ipbes-ipcc-co-sponsored-workshop-biodiversity-and-climate-change)
+- ### [BGCI: The State of Trees Report](https://www.bgci.org/news-events/bgci-launches-the-state-of-the-worlds-trees-report/)
+- ### [UNEP: Making Peace with Nature](https://www.unep.org/events/unep-event/launch-unep-making-peace-nature-report)
+- ### [The Economics of Biodiversity: The Dasgupta Review](https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review)
+
+<br/>
+<br/>
+
+### 2020
+
+- ### [World Wildlife Fund: Living Planet Report (2020)](https://www.worldwildlife.org/publications/living-planet-report-2020)
+- ### [Pew Charitable Trusts: Breaking the Plastic Wave: Top Findings for Preventing Plastic Pollution (2020)](https://www.pewtrusts.org/en/research-and-analysis/articles/2020/07/23/breaking-the-plastic-wave-top-findings)
+- ### [IPBES Workshop Report on Biodiversity and Pandemics (2020)](https://ipbes.net/sites/default/files/2020-12/IPBES%20Workshop%20on%20Biodiversity%20and%20Pandemics%20Report_0.pdf)
+- ### [UN CBD: Global Biodiversity Outlook 5 (2020)](https://www.unep.org/resources/report/global-biodiversity-outlook-5-gbo-5?_ga=2.87214558.710523140.1666576950-1438871190.1665938202)
+
+
+## 2010 - 2019
+
+- ### [IPBES Global Assessment on Biodiversity and Ecosystem Services (2019)](https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/)
+- ### [UNEP: Frontiers 2018/19: Emerging Issues of Environmental Concern (2019)](https://www.unep.org/resources/frontiers-201819-emerging-issues-environmental-concern)
+- ### [IPCC: Special Report Global Warming of 1.5 ºC (2018)](https://www.ipcc.ch/sr15/)
+- ### [IPBES: Assessment Report on Land Degradation and Restoration (2018)](https://ipbes.net/assessment-reports/ldr)
+- ### [World Wildlife Fund: Living Planet Report (2018)](https://www.worldwildlife.org/pages/living-planet-report-2018)
+- ### [IPBES Assessment Report on Pollinators, Pollination and Food Production (2016)](https://ipbes.net/assessment-reports/pollinators)
+- ### [World Wildlife Fund: Living Planet Report (2016)](https://www.worldwildlife.org/pages/living-planet-report-2016)
+- ### [WHO and CBD: Connecting Global Priorities: Biodiversity and Human Health (2015)](https://www.cbd.int/health/SOK-biodiversity-en.pdf)
+- ### [World Wildlife Fund: Living Planet Report (2014)](https://www.worldwildlife.org/pages/living-planet-report-2014)
+- ### [Protected Planet Report 2014: Tracking progress towards global targets for protected areas](https://wedocs.unep.org/handle/20.500.11822/9280)
+- ### [UN CBD: Global Biodiversity Outlook 4 (2014)](https://www.cbd.int/gbo4/)
+- ### [World Wildlife Fund: Living Planet Report (2012)](https://wwf.panda.org/discover/knowledge_hub/all_publications/living_planet_report_timeline/lpr_2012/)
+- ### [UNEP: The Economics of Ecosystems and Biodiversity in National and International Policy Making (2011)](https://wedocs.unep.org/handle/20.500.11822/28231)
+- ### [UN CBD: Global Biodiversity Outlook 3 (2010)](https://www.cbd.int/gbo3/)
+- ### [UNEP: Dead planet, living planet: biodiversity and ecosystem restoration for sustainable development (2010)](https://wedocs.unep.org/handle/20.500.11822/7895)
+- ### [CAFF: Arctic Biodiversity Trends - Selected Indicators of Change (2010)](https://www.caff.is/assessment-series/162-arctic-biodiversity-trends-2010-selected-indicators-of-change)
+
+## 2000 - 2009
+
+- ### [UNEP: Review of the literature on the links between biodiversity and climate change (2009)](https://wedocs.unep.org/handle/20.500.11822/7896)
+- ### [UNEP: The linkages between biodiversity and climate change mitigation :A review of the recent scientific literature (2008)](https://wedocs.unep.org/handle/20.500.11822/8199)
+- ### [IPCC: AR4 Climate Change - Impacts, Adaptation, and Vulnerability (2007)](https://www.ipcc.ch/report/ar4/wg2/)
+- ### [Stern Review Report on the Economics of Climate Change (2007)](https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/https:/www.hm-treasury.gov.uk/stern_review_report.htm)
+- ### [UNEP: Global Environment Outlook 4 (GEO-4): Environment for Development (2007)](https://wedocs.unep.org/handle/20.500.11822/7646)
+- ### [WCMC: Crossroads of Life on Earth - Exploring means to meet the 2010 Biodiversity Target (2007)](https://wedocs.unep.org/handle/20.500.11822/8767)
+- ### [UN CBD: Global Biodiversity Outlook 2 (2006)](https://www.cbd.int/gbo2/)
+- ### [Millennium Ecosystem Assessment (2005)](https://www.millenniumassessment.org/en/Condition.html)
+- ### [Arctic Climate Impact Assessment (ACIA) (2004)](https://acia.amap.no/)
+- ### [UNEP: Global Environment Outlook 3 (GEO-3): Past, Present and Future Perspectives (2003)](https://wedocs.unep.org/handle/20.500.11822/8609)
+- ### [IPCC: Climate Change and Biodiversity: Technical Paper V (2002)](https://wedocs.unep.org/handle/20.500.11822/32705)
+- ### [CAFF: Arctic Flora and Fauna: Status and Conservation (2001)](https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation)
+- ### [WCMC: A Global Overview of Protected Areas on the World Heritage List of Particular Importance for Biodiversity (2000)](https://wedocs.unep.org/handle/20.500.11822/9543)
+
+## 1990 - 1999
+
+- ### [UNEP: Cultural and spiritual values of biodiversity (1999)](https://www.unep.org/resources/publication/cultural-and-spiritual-values-biodiversity)
+- ### [WCMC: Industrial reliance on biodiversity (1997)](https://wedocs.unep.org/handle/20.500.11822/8860)
+- ### [UNEP: Global Biodiversity Assessment (1995)](https://press.un.org/en/1995/19951114.he916.html)
+- ### [The UNEP Biodiversity Programme and Implementation Strategy: A Framework for Supporting Global Conservation and Sustainable Use of Biodiversity (1995)](https://wedocs.unep.org/handle/20.500.11822/30293)
+- ### [UNEP: The World Environment 1972-1992: Two Decades of Challenge (1992)](https://wedocs.unep.org/handle/20.500.11822/30320)
+- ### [WCMC: Global Biodiversity: status of the Earth's living resources (1992)](https://www.unep.org/resources/report/global-biodiversity-status-earths-living-resources)
+- ### [World Plant Conservation Bibliography (1990)](https://wedocs.unep.org/handle/20.500.11822/8320)
+
+## Earlier
+
+- ### [UNEP: The State of the World Environment 1989 - UNEP/GC.15/7/Add.2](https://wedocs.unep.org/handle/20.500.11822/28295)
+- ### [UN: Report of the World Commission on Environment and Development: Our Common Future (Brundtland Commission) (1987)](https://sustainabledevelopment.un.org/content/documents/5987our-common-future.pdf)
+- ### [UNEP: The World Environment 1972 - 1982: A Report by The United Nations Environment Programme (1982)](https://wedocs.unep.org/handle/20.500.11822/30379)
+- ### [UNEP: The State of the Environment 1975](https://wedocs.unep.org/handle/20.500.11822/28254)
+- ### [UNEP: Report of the United Nations Conference on the Human Environment - Stockholm, 5-16 June 1972](https://wedocs.unep.org/handle/20.500.11822/30829)
+- ### [UN: Activities of United Nations Organizations and Programmes Relevant to the Human Environment (1968)](https://digitallibrary.un.org/record/729430?ln=en)
+
+---
+
+#
+
+<br/>
+<br/>
+
+---
+
+### Why _And Biodiversity_? To study the issues:
+
+<br/>
+<br/>
+
+<div class="table_container">
+  <table id="bottom_icons">
+   <tr>
+      <td><img src="images/stick_figure_tree_green.png" alt="tree icon" title="100 million hectares of agricultural expansion in the tropics occurred from 1980 to 2000, mainly cattle ranching in Latin America (+/-42 million ha), and plantations in Southeast Asia (+/-7.5 million ha, of which 80% is oil palm), half of it at the expense of intact forests (IPBES GA)"/></td>
+      <td><h3>Deforestation</h3></td>
+      <td><img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="Population sizes of wild vertebrate species have tended to decline over the last 50 years on land, in freshwater and in the sea (IPBES GA)"/></td>
+      <td><h3>Over-<br/>exploitation</h3></td>
+      <td><img src="images/stick_figure_fish_blue.png" alt="fish icon" title="Industrial fishing covers over 55% of ocean area (IPBES GA)"/></td>
+      <td><h3>Sea Use<br/>Changes</h3></td>
+      <td><img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="Fertilizers have caused 400 low oxygen (hypoxic) coastal ecosystem 'dead zones', affecting over 245,000 km2 (IPBES GA)"/></td>
+      <td><h3>Coastal<br/>Loss</h3></td>
+      <td><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="47% of terrestrial flightless mammals and 23% of threatened birds whose distributions may have been negatively impacted by climate change already (IPBES GA)"/></td>
+      <td><h3>Greenhouse Gas<br/>Emissions</h3></td>
+   </tr>
+   <tr>
+      <td><img src="images/stick_figure_insect.png" alt="insect icon" title="Between $235 to $577 billion in annual value of global crop output are at risk due to pollinator loss (IPBES GA)"/></td>
+      <td><h3>Pollinator<br/>Decline</h3></td>
+      <td><img src="images/stick_figure_ocean_blue.png" alt="ocean icon" title="Almost 33% of reef forming corals, sharks and shark relatives, and over 33% marine mammals threatened with extinction (IPBES GA)"/></td>
+      <td><h3>Marine<br/>Pollution</h3></td>
+      <td><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon" title="Urban areas have grown 100% since 1992 (IPBES GA)"/></td>
+      <td><h3>Land Use<br/>Changes</h3></td>
+      <td><img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Over 500,000 of the world’s estimated 5.9 million terrestrial species have insufficient habitat for long term survival without habitat restoration (IPBES GA)"/></td>
+      <td><h3>Habitat<br/>Loss</h3></td>
+      <td><img src="images/stick_figure_soil_green.png" alt="soil icon" title="Food crop production have increased by 300% since 1970 with 23% of land areas seeing a reduction in productivity due to land degradation (IPBES GA)"/></td>
+      <td><h3>Intensive<br/>Agriculture</h3></td>
+   </tr>
+  </table>
+</div>
+
+<br/>
+<br/>
+
+::: {.footer}
+<div class="footer_box">
+  <div class="footer_label">And Biodiversity</div>
+  <div class="footer_space"><br/><br/></div>
+  <div class="footer_column">
+...Sweet is the lore which Nature brings; <br/>
+Our meddling intellect <br/>
+Mis-shapes the beauteous forms of things:— <br/>
+We murder to dissect. <br/>
+  </div>
+  <div class="footer_column">
+Enough of Science and of Art; <br/>
+Close up those barren leaves; <br/>
+Come forth, and bring with you a heart <br/>
+That watches and receives. <br/>
+  </div>
+  <div class="footer_column"> 
+-"The Tables Turned" <br/>
+  William Wordsworth<br/>
+   </div>
+</div>
+:::
+

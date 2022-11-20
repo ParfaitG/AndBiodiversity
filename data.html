@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Data</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">And Biodiversity</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    home
+  </a>
+</li>
+<li>
+  <a href="overview.html">
+    <span class="fa fa-info-circle"></span>
+     
+    overview
+  </a>
+</li>
+<li>
+  <a href="reports.html">
+    <span class="fa fa-book"></span>
+     
+    reports
+  </a>
+</li>
+<li>
+  <a href="figures.html">
+    <span class="fa fa-image"></span>
+     
+    figures
+  </a>
+</li>
+<li>
+  <a href="quotes.html">
+    <span class="fa fa-comment"></span>
+     
+    quotes
+  </a>
+</li>
+<li>
+  <a href="resources.html">
+    <span class="fa fa-link"></span>
+     
+    resources
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Data</h1>
+
+</div>
+
+
+<style type="text/css">
+  .main-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width:1200px) and (min-width:760px) {
+    #navbar > ul > li > a {
+       font-size: 0;
+       display:inline-block;
+    }
+    .fa { font-size: initial; }
+  }
+
+  .logo img {
+     float: right;
+     margin: 5px;
+     width: 200px;
+  }
+  
+  table {
+     width: 1000px;
+     margin: 0px auto;
+  }
+  
+  table img {
+     padding: 10px;
+     width: 100px;
+  }
+  
+  table h3 {
+     font-size: 16px;
+     text-align: center;
+  }
+  
+  .footer {
+     font-size: 14px;
+     bottom: 0;
+     width: 100%;
+     height: 140px;
+     margin: 0px 0px -40px 0px;
+     color: #ffffff;
+     background-color: #808080;
+     border-color: #93c54b;
+     overflow-y: auto;
+  }
+
+  .footer_box {
+     width: 90%;
+     margin: 0 auto;
+  }
+  
+  .footer_label {
+     padding: 5px;
+     font-size: 16px;
+     width: 30%;
+     text-align: center;
+  }
+  
+  .footer_space {
+     float: left;
+     width: 25%;
+  }
+  .footer_column {
+     float: left;
+     width: 25%;
+     padding: 0 20px 0 0;
+  }
+</style>
+<script type="text/javascript">
+$(function() {
+  $('.main-container').after($('.footer'));
+})
+</script>
+<p><br/></p>
+<div class="logo">
+<img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/>
+</div>
+<div id="see-below-resources-regarding-biodiversity-data"
+class="section level2">
+<h2>See below resources regarding biodiversity data:</h2>
+<p><br/> <br/> <br/></p>
+<hr />
+<ul>
+<li><h3 id="bgci-threatsearch-database"><a
+href="https://tools.bgci.org/threat_search.php" target="_blank">BGCI:
+ThreatSearch Database</a></h3>
+<h4
+id="the-most-comprehensive-database-of-conservation-assessments-of-plants">The
+most comprehensive database of conservation assessments of
+plants</h4></li>
+<li><h3 id="global-biodiversity-information-facility"><a
+href="https://www.gbif.org/" target="_blank">Global Biodiversity
+Information Facility</a></h3>
+<h4
+id="an-international-network-and-data-infrastructure-funded-by-the-worlds-governments-and-aimed-at-providing-anyone-anywhere-open-access-to-data-about-all-types-of-life-on-earth">An
+international network and data infrastructure funded by the world’s
+governments and aimed at providing anyone, anywhere, open access to data
+about all types of life on Earth</h4></li>
+<li><h3
+id="ipbes-modelling-impacts-of-drivers-on-biodiversity-and-ecosystems"><a
+href="https://ipbes.net/modelling-impacts-drivers-biodiversity-ecosystems"
+target="_blank">IPBES: Modelling impacts of drivers on biodiversity and
+ecosystems</a></h3>
+<h4
+id="primer-on-models-of-biodiversity-and-ecosystem-function-with-additional-resources">Primer
+on models of biodiversity and ecosystem function with additional
+resources</h4></li>
+<li><h3 id="ipcc-data-distribution-centre"><a
+href="https://www.ipcc-data.org/" target="_blank">IPCC: Data
+Distribution Centre</a></h3>
+<h4
+id="the-ddc-provides-a-transparent-traceable-stable-and-assessable-archive-for-the-climate-socio-economic-and-environmental-data-and-scenarios-used-in-the-reports-and-key-figures-produced-by-the-ipcc.">The
+DDC provides a transparent, traceable, stable and assessable archive for
+the climate, socio-economic and environmental data and scenarios used in
+the reports and key figures produced by the IPCC.</h4></li>
+<li><h3 id="iucn-red-list-of-threatened-species"><a
+href="https://www.iucnredlist.org/resources/grid" target="_blank">IUCN
+Red List of Threatened Species</a></h3>
+<h4
+id="the-most-comprehensive-information-source-on-the-global-extinction-risk-status-of-animal-fungus-and-plant-species">The
+most comprehensive information source on the global extinction risk
+status of animal, fungus and plant species</h4></li>
+<li><h3
+id="nasa-earth-data-biological-diversity-and-ecological-forecasting"><a
+href="https://www.earthdata.nasa.gov/learn/biodiversity-data-resources"
+target="_blank">NASA Earth Data: Biological Diversity and Ecological
+Forecasting</a></h3>
+<h4
+id="nasa-earth-observation-data-are-a-key-component-of-research-into-the-causes-behind-changes-in-biodiversity-and-the-impacts-of-these-changes.">NASA
+Earth observation data are a key component of research into the causes
+behind changes in biodiversity and the impacts of these
+changes.</h4></li>
+<li><h3 id="natureserve-explorer"><a
+href="https://explorer.natureserve.org/" target="_blank">NatureServe
+Explorer</a></h3>
+<h4
+id="the-definitive-source-for-information-on-rare-and-endangered-species-and-ecosystems-in-the-americas.">The
+definitive source for information on rare and endangered species and
+ecosystems in the Americas.</h4></li>
+<li><h3 id="ocean-biodiversity-information-system-obis"><a
+href="https://obis.org/" target="_blank">Ocean Biodiversity Information
+System (OBIS)</a></h3>
+<h4
+id="global-open-access-data-and-information-clearing-house-on-marine-biodiversity-for-science-conservation-and-sustainable">Global
+open-access data and information clearing-house on marine biodiversity
+for science, conservation and sustainable</h4></li>
+<li><h3 id="un-biodiversity-lab"><a
+href="https://unbiodiversitylab.org/" target="_blank">UN Biodiversity
+Lab</a></h3>
+<h4
+id="provides-access-to-global-spatial-data-to-generate-insight-and-impact-for-conservation-and-sustainable-development.">Provides
+access to global spatial data to generate insight and impact for
+conservation and sustainable development.</h4></li>
+<li><h3 id="usa-epa-ecoregions-maps"><a
+href="https://www.epa.gov/eco-research/ecoregions" target="_blank">USA
+EPA: Ecoregions Maps</a></h3>
+<h4
+id="continental-and-conterminous-us-ecoregions-maps-and-gis-datasets-for-spatial-analysis">Continental
+and conterminous US ecoregions maps and GIS datasets for spatial
+analysis</h4></li>
+<li><h3 id="world-flora-online"><a
+href="http://www.worldfloraonline.org/" target="_blank">World Flora
+Online</a></h3>
+<h4 id="global-overview-of-the-diversity-of-plant-species">Global
+overview of the diversity of plant species</h4></li>
+<li><h3 id="wwf-living-planet-index"><a
+href="https://livingplanetindex.org/data_portal">WWF: Living Planet
+Index</a></h3>
+<h4
+id="dataset-contains-time-series-of-population-abundance-data-for-vertebrate-species-spanning-years-between-1970-and-2021.">Dataset
+contains time-series of population abundance data for vertebrate species
+spanning years between 1970 and 2021.</h4></li>
+<li><h3 id="wwf-terrestrial-ecoregions-of-the-world-biomes-in-arcgis"><a
+href="https://www.arcgis.com/apps/View/index.html?appid=d60ec415febb4874ac5e0960a6a2e448"
+target="_blank">WWF Terrestrial Ecoregions Of The World (Biomes) in
+ArcGIS</a></h3>
+<h4
+id="arcgis-app-to-explorer-the-worlds-800-terrestial-ecoregions-classified-in-14-different-biome-types">ArcGIS
+app to explorer the world’s 800+ terrestial ecoregions classified in 14
+different biome types</h4></li>
+<li><h3
+id="york-university-ecological-footprint-initiative-global-footprint-networkk"><a
+href="https://data.footprintnetwork.org" target="_blank">York University
+Ecological Footprint Initiative &amp; Global Footprint Networkk</a></h3>
+<h4
+id="data-materials-and-outputs-assessing-national-footprint-and-biocapacity-accounts-across-the-world">Data
+materials and outputs assessing national footprint and biocapacity
+accounts across the world</h4></li>
+</ul>
+<p><br/> <br/></p>
+<hr />
+<div id="why-and-biodiversity-to-analyze-solutions"
+class="section level3">
+<h3>Why <em>And Biodiversity</em>? To analyze solutions:</h3>
+<p><br/> <br/></p>
+<div class="table_container">
+<table class="stick_image_left">
+<tr>
+<td>
+<img src="images/stick_figure_tree_green.png" alt="tree icon" title="Measures such as the diversification of planted crop and forest species, agroforestry and agroecology enhance biodiversity and nature’s contributions to people in landscapes focused on the production of food, feed, fibre, or energy (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Agroforestry
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="The 'scape approach integrates functionally intact biodiversity with provisioning of material, non-material and regulatory benefits, from local to larger scales, linking 'sharing' and 'sparing' concepts. It includes networks of protected areas and corridors, 'working' or 'managed' 'scapes modified for human use, and profoundly transformed ecosystems, such as urban and intensively farmed areas (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Wildlife<br/>Corridor
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_fish_blue.png" alt="fish icon" title="Reducing overfishing and bycatch, as well as focusing new aquaculture activities on low trophic level species (e.g., plankton feeders such as bivalve molluscs) and broadening the range of species cultivated could both increase global seafood production and reduce impact to the environment and biodiversity (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Aquaculture
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="Nature-based solutions for coastal flood protection, such as using natural coastal habitats (vegetation or coral reefs) to provide protection from flooding during storm events, increasingly likely due to sea-level rise, is frequently preferred to engineered defences (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Coastal Restoration
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="Reducing greenhouse gas (GHGs) emissions through the development of renewable energies in the transport and energy sector are important options for mitigating climate change with the co-benefit of reducing pollutants that have deleterious effects on human health and the environment (IPBES-IPCC)."/>
+</td>
+<td>
+<h3>
+Decarbonization
+</h3>
+</td>
+</tr>
+<tr>
+<td>
+<img src="images/stick_figure_insect.png" alt="insect icon" title="Irrigated rice agriculture has evolved over centuries and led to a well-balanced food web in paddies with an insect diversity even higher than in many (pristine) temperate forests. This diversity reduces the risk of pest outbreaks and stabilizes yield. Pesticides normally rather cause pest problems than solving them. (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Pest Control
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_ocean_blue.png" alt="ocean icon" title="Local management (e.g., integrated coastal zone management and marine protected areas) can play an important role to improve ocean health. (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Local<br/>Management
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_wetlands_green.png" alt="wetlands icon" title="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 removal (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Wetland Restoration
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Trophic rewilding, the reintroduction of herbivores and carnivores to systems where they have been lost, is foremost discussed as a measure to enhance biodiversity and can also contribute to ecosystem restoration (IPBES-IPCC)."/>
+</td>
+<td>
+<h3>
+Trophic<br/>Rewilding
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_soil_green.png" alt="soil icon" title="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms, and participates in making soils more resistant and resilient in the face of climate change. (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Agroecology
+</h3>
+</td>
+</tr>
+</table>
+</div>
+<p><br/></p>
+<div class="footer">
+<div class="footer_box">
+<div class="footer_label">
+And Biodiversity
+</div>
+<div class="footer_space">
+<br/><br/>
+</div>
+<div class="footer_column">
+The morning sea of silence broke into ripples of bird songs; and the
+flowers were all merry by the roadside; and the wealth of gold was
+scattered through the rift of the clouds while we busily went on our way
+and paid no heed.
+</div>
+<div class="footer_column">
+We sang no glad songs nor played; we went not to the village for barter;
+we spoke not a word nor smiled; we lingered not on the way. We quickened
+our pace more and more as the time sped by….
+</div>
+<div class="footer_column">
+-“48”<br/> Rabindranath Tagore<br/> <i>Gitanjali</i><br/>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Resources</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">And Biodiversity</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    home
+  </a>
+</li>
+<li>
+  <a href="overview.html">
+    <span class="fa fa-info-circle"></span>
+     
+    overview
+  </a>
+</li>
+<li>
+  <a href="reports.html">
+    <span class="fa fa-book"></span>
+     
+    reports
+  </a>
+</li>
+<li>
+  <a href="figures.html">
+    <span class="fa fa-image"></span>
+     
+    figures
+  </a>
+</li>
+<li>
+  <a href="quotes.html">
+    <span class="fa fa-comment"></span>
+     
+    quotes
+  </a>
+</li>
+<li>
+  <a href="resources.html">
+    <span class="fa fa-link"></span>
+     
+    resources
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Resources</h1>
+
+</div>
+
+
+<style type="text/css">
+  .main-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width:1200px) and (min-width:760px) {
+    #navbar > ul > li > a {
+       font-size: 0;
+       display:inline-block;
+    }
+    .fa { font-size: initial; }
+  }
+
+  .logo img {
+     float: right;
+     margin: 5px;
+     width: 200px;
+  }
+  
+  .nav-pills {
+     font-size: 14px;
+  }
+  
+  .icons, .docs {
+     width: 750px;
+     margin: 0px auto;
+  }
+  
+  .icons img {
+     padding: 10px;
+     width: 150px;
+  }
+  
+  .docs img {
+     padding: 10px;
+     height: 200px;
+  }
+  
+  .framecontainer {
+     width: 80%;
+     margin: 0px auto;
+  } 
+  
+  iframe {
+     border-radius: 20px;
+  }
+  
+  .bottom_icons {
+     width: 1000px;
+     margin: 0px auto;
+  }
+  
+  .bottom_icons img {
+     padding: 10px;
+     width: 100px;
+  }
+  
+  .bottom_icons h3 {
+     font-size: 16px;
+     text-align: center;
+  }
+  
+  .footer {
+     font-size: 14px;
+     bottom: 0;
+     width: 100%;
+     height: 120px;
+     margin: 0px 0px -60px 0px;
+     color: #ffffff;
+     background-color: #808080;
+     border-color: #93c54b;
+     overflow-y: auto;
+  }
+
+  .footer_box {
+     width: 90%;
+     margin: 0 auto;
+  }
+  
+  .footer_label {
+     padding: 5px;
+     font-size: 16px;
+     width: 30%;
+     text-align: center;
+  }
+  
+  .footer_space {
+     float: left;
+     width: 25%;
+  }
+  
+  .footer_column {
+     float: left;
+     width: 25%;
+     padding: 0 20px 0 0;
+  }
+</style>
+<script type="text/javascript">
+$(function() {
+  $('.main-container').after($('.footer'));
+})
+</script>
+<p><br/></p>
+<div class="logo">
+<img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/>
+</div>
+<div id="see-below-external-resources-regarding-biodiversity"
+class="section level2">
+<h2>See below external resources regarding biodiversity:</h2>
+<p><br/> <br/> <br/></p>
+</div>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills">
+<h1 class="tabset tabset-fade tabset-pills"></h1>
+<div id="about" class="section level2">
+<h2>About</h2>
+<p><em>And Biodiversity</em></p>
+<p>RMarkdown site by ParfaitG with source code:</p>
+<p><GitHub Repo I-Frame></p>
+<p><br/> <br/> <br/> <br/> <br/> <br/></p>
+</div>
+<div id="sites" class="section level2">
+<h2>Sites</h2>
+<div id="section-1" class="section level3">
+<h3></h3>
+<table class="icons">
+<tr>
+<td>
+<a href="https://earthtimes.org/" target="blank"><img src="images/icon_earthtimes.png" alt="Earth Times logo" title="The Earth Times"/></a>
+</td>
+<td>
+<a href="https://www.ecowatch.com/" target="blank"><img src="images/icon_ecowatch.png" alt="Ecowatch logo" title="Ecowatch"/></a>
+</td>
+<td>
+<a href="https://www.enn.com/" target="blank"><img src="images/icon_enn.png" alt="ENN logo" title="Environmental News Network (ENN)"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://grist.org/" target="blank"><img src="images/icon_grist.png" alt="Grist logo" title="Grist"/></a>
+</td>
+<td>
+<a href="https://www.theguardian.com/us/environment" target="blank"><img src="images/icon_guardian.png" alt="The Guardian logo" title="The Guardian | Environment"/></a>
+</td>
+<td>
+<a href="https://www.loe.org/" target="blank"/><img src="images/icon_livingonearth.png" alt="Living on Earth logo" title="Living On Earth"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://www.nationalgeographic.com/" target="blank"><img src="images/icon_nationalgeographic.png" alt="National Geographic logo" title="National Geographic"/></a>
+</td>
+<td>
+<a href="https://www.overshootday.org/" target="blank"><img src="images/icon_earthovershoot.png" alt="OvershootDay.org logo" title="OvershootDay.org"/></a>
+</td>
+<td>
+<a href="https://www.treehugger.com/" target="blank"><img src="images/icon_treehugger.png" alt="Treehugger.org logo" title="Treehugger"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://mahb.stanford.edu/" target="blank"><img src="images/icon_mahb.png" alt="MAHB logo" title="Stanford University: MAHB"/></a>
+</td>
+<td>
+<a href="https://news.mongabay.com/" target="blank"><img src="images/icon_mongabay.png" alt="Mongabay logo" title="Mongabay"/></a>
+</td>
+<td>
+<a href="https://e360.yale.edu/" target="blank"><img src="images/icon_e360.png" alt="Yale E360 logo" title="Yale University: E360"/></a>
+</td>
+</tr>
+</table>
+<p><br/> <br/> <br/></p>
+</div>
+</div>
+<div id="data" class="section level2">
+<h2>Data</h2>
+<p><br/></p>
+<ul>
+<li><h4 id="atlas-of-living-australia"><a
+href="https://www.ala.org.au/"><strong>Atlas of Living
+Australia</strong></a></h4>
+<h4 id="open-access-to-australias-biodiversity-data">Open Access to
+Australia’s biodiversity data</h4></li>
+<li><h4 id="bgci-threatsearch-database"><a
+href="https://tools.bgci.org/threat_search.php"
+target="_blank"><strong>BGCI: ThreatSearch Database</strong></a></h4>
+<h4
+id="the-most-comprehensive-database-of-conservation-assessments-of-plants">The
+most comprehensive database of conservation assessments of
+plants</h4></li>
+<li><h4 id="birdlife-international-data-zone"><a
+href="http://datazone.birdlife.org/home"><strong>BirdLife International:
+Data Zone</strong></a></h4>
+<h4
+id="web-portal-for-case-studies-important-bird-and-biodiversity-areas-ibas-country-profiles-and-case-studies-regarding-bird-species.">Web
+portal for case studies, Important Bird and Biodiversity Areas (IBAs),
+country profiles, and case studies regarding bird species.</h4></li>
+<li><h4 id="global-biodiversity-information-facility"><a
+href="https://www.gbif.org/" target="_blank"><strong>Global Biodiversity
+Information Facility</strong></a></h4>
+<h4
+id="an-international-network-and-data-infrastructure-funded-by-the-worlds-governments-and-aimed-at-providing-anyone-anywhere-open-access-to-data-about-all-types-of-life-on-earth">An
+international network and data infrastructure funded by the world’s
+governments and aimed at providing anyone, anywhere, open access to data
+about all types of life on Earth</h4></li>
+<li><h4 id="integrated-biodiversity-assessment-tool"><a
+href="https://www.ibat-alliance.org/"><strong>Integrated Biodiversity
+Assessment Tool</strong></a></h4>
+<h4
+id="the-worlds-most-authoritative-biodiversity-data-for-your-world-shaping-decisions">The
+world’s most authoritative biodiversity data for your world-shaping
+decisions</h4></li>
+<li><h4
+id="ipbes-modelling-impacts-of-drivers-on-biodiversity-and-ecosystems"><a
+href="https://ipbes.net/modelling-impacts-drivers-biodiversity-ecosystems"
+target="_blank"><strong>IPBES: Modelling impacts of drivers on
+biodiversity and ecosystems</strong></a></h4>
+<h4
+id="primer-on-models-of-biodiversity-and-ecosystem-function-with-additional-resources">Primer
+on models of biodiversity and ecosystem function with additional
+resources</h4></li>
+<li><h4 id="ipcc-data-distribution-centre"><a
+href="https://www.ipcc-data.org/" target="_blank"><strong>IPCC: Data
+Distribution Centre</strong></a></h4>
+<h4
+id="the-ddc-provides-a-transparent-traceable-stable-and-assessable-archive-for-the-climate-socio-economic-and-environmental-data-and-scenarios-used-in-the-reports-and-key-figures-produced-by-the-ipcc.">The
+DDC provides a transparent, traceable, stable and assessable archive for
+the climate, socio-economic and environmental data and scenarios used in
+the reports and key figures produced by the IPCC.</h4></li>
+<li><h4 id="iucn-red-list-of-threatened-species"><a
+href="https://www.iucnredlist.org/resources/grid"
+target="_blank"><strong>IUCN Red List of Threatened
+Species</strong></a></h4>
+<h4
+id="the-most-comprehensive-information-source-on-the-global-extinction-risk-status-of-animal-fungus-and-plant-species">The
+most comprehensive information source on the global extinction risk
+status of animal, fungus and plant species</h4></li>
+<li><h4
+id="nasa-earth-data-biological-diversity-and-ecological-forecasting"><a
+href="https://www.earthdata.nasa.gov/learn/biodiversity-data-resources"
+target="_blank"><strong>NASA Earth Data: Biological Diversity and
+Ecological Forecasting</strong></a></h4>
+<h4
+id="nasa-earth-observation-data-are-a-key-component-of-research-into-the-causes-behind-changes-in-biodiversity-and-the-impacts-of-these-changes.">NASA
+Earth observation data are a key component of research into the causes
+behind changes in biodiversity and the impacts of these
+changes.</h4></li>
+<li><h4 id="natureserve-explorer"><a
+href="https://explorer.natureserve.org/"
+target="_blank"><strong>NatureServe Explorer</strong></a></h4>
+<h4
+id="the-definitive-source-for-information-on-rare-and-endangered-species-and-ecosystems-in-the-americas.">The
+definitive source for information on rare and endangered species and
+ecosystems in the Americas.</h4></li>
+<li><h4 id="nbn-atlas"><a href="https://nbnatlas.org/"><strong>NBN
+Atlas</strong></a></h4>
+<h4 id="uks-largest-collection-of-biodiversity-information">UK’s largest
+collection of biodiversity information</h4></li>
+<li><h4 id="ocean-biodiversity-information-system-obis"><a
+href="https://obis.org/" target="_blank"><strong>Ocean Biodiversity
+Information System (OBIS)</strong></a></h4>
+<h4
+id="global-open-access-data-and-information-clearing-house-on-marine-biodiversity-for-science-conservation-and-sustainable">Global
+open-access data and information clearing-house on marine biodiversity
+for science, conservation and sustainable</h4></li>
+<li><h4 id="un-biodiversity-lab"><a
+href="https://unbiodiversitylab.org/" target="_blank"><strong>UN
+Biodiversity Lab</strong></a></h4>
+<h4
+id="provides-access-to-global-spatial-data-to-generate-insight-and-impact-for-conservation-and-sustainable-development.">Provides
+access to global spatial data to generate insight and impact for
+conservation and sustainable development.</h4></li>
+<li><h4 id="usa-epa-ecoregions-maps"><a
+href="https://www.epa.gov/eco-research/ecoregions"
+target="_blank"><strong>USA EPA: Ecoregions Maps</strong></a></h4>
+<h4
+id="continental-and-conterminous-us-ecoregions-maps-and-gis-datasets-for-spatial-analysis">Continental
+and conterminous US ecoregions maps and GIS datasets for spatial
+analysis</h4></li>
+<li><h4 id="world-flora-online"><a
+href="http://www.worldfloraonline.org/" target="_blank"><strong>World
+Flora Online</strong></a></h4>
+<h4 id="global-overview-of-the-diversity-of-plant-species">Global
+overview of the diversity of plant species</h4></li>
+<li><h4 id="wwf-living-planet-index"><a
+href="https://livingplanetindex.org/data_portal"
+target="_blank"><strong>WWF: Living Planet Index</strong></a></h4>
+<p>Dataset contains time-series of population abundance data for
+vertebrate species spanning years between 1970 and 2021.</p></li>
+<li><h4 id="wwf-terrestrial-ecoregions-of-the-world-biomes-in-arcgis"><a
+href="https://www.arcgis.com/apps/View/index.html?appid=d60ec415febb4874ac5e0960a6a2e448"
+target="_blank"><strong>WWF Terrestrial Ecoregions Of The World (Biomes)
+in ArcGIS</strong></a></h4>
+<h4
+id="arcgis-app-to-explorer-the-worlds-800-terrestial-ecoregions-classified-in-14-different-biome-types">ArcGIS
+app to explorer the world’s 800+ terrestial ecoregions classified in 14
+different biome types</h4></li>
+<li><h4
+id="york-university-ecological-footprint-initiative-global-footprint-network"><a
+href="https://data.footprintnetwork.org" target="_blank"><strong>York
+University Ecological Footprint Initiative &amp; Global Footprint
+Network</strong></a></h4>
+<h4
+id="data-materials-and-outputs-assessing-national-footprint-and-biocapacity-accounts-across-the-world">Data
+materials and outputs assessing national footprint and biocapacity
+accounts across the world</h4></li>
+</ul>
+<p><br/> <br/></p>
+</div>
+<div id="research" class="section level2">
+<h2>Research</h2>
+<table class="icons">
+<tr>
+<td>
+<a href="https://www.biodiversa.org/" target="blank"><img src="images/icon_biodiversa.png" alt="Biodiversa logo" title="Biodiversa"/></a>
+</td>
+<td>
+<a href="https://briwildlife.org/" target="blank"><img src="images/icon_biodiversityresearchInstitute.png" alt="Biodiversity Research Institute logo" title="Biodiversity Research Institute"/></a>
+</td>
+<td>
+<a href="https://www.biodiversitylibrary.org/" target="blank"><img src="images/icon_biodiversityheritagelibrary.png" alt="Biodiversity Heritage Library logo" title="Biodiversity Heritage Library"/></a>
+</td>
+<td>
+<a href="https://www.epa.gov/enviroatlas/enviroatlas-benefit-category-biodiversity-conservation" target="blank"><img src="images/icon_epa.png" alt="US EPA logo" title="EPA | EnviroAtlas"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://fwbg.org/" target="blank"><img src="images/icon_fwbg.png" alt="Fort Worth Botanic Garden and BRIT logo" title="Fort Worth Botanic Garden and Botanical Research Institute of Texas"/></a>
+</td>
+<td>
+<a href="https://www.frontiersin.org/" targe="blank"><img src="images/icon_frontiers.png" alt="Frontiers logo" title="Frontiers"/></a>
+</td>
+<blockquote>
+<td>
+<a href="https://www.gbif.org" target="blank"><img src="images/icon_gbif.png" alt="GBIF logo" title="Global Biodiversity Information Facility"/></a>
+</td>
+<td>
+<a href="https://www.globalsoilbiodiversity.org/"><img src="images/icon_globalsoilbiodiversity.png" alt="Global Soil Biodiversity logo" title="Global Soil Biodiversity Initiative"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://cce.nasa.gov/biodiversity/index.html" target="blank"><img src="images/icon_nasabiodiversity.png" alt="NASA Biological Diversity Program logo" title="NASA | Biological Diversity"/></a>
+</td>
+<td>
+<a href="https://www.nature.com/subjects/biodiversity" target="blank"><img src="images/icon_nature.png" alt="Nature.com logo" title="Nature | Biodiversity"/></a>
+</td>
+<td>
+<a href="https://www.pnas.org/topic/bio-sci" target="blank"><img src="images/icon_pnas.png" alt="PNAS logo" title="PNAS | Biological Sciences"/></a>
+</td>
+<td>
+<a href="https://www.researchgate.net/" target="blank"><img src="images/icon_researchgate.png" alt="ResearchGate logo" title="ResearchGate"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://www.scientificamerican.com/environment" target="blank"><img src="images/icon_scientificamerican.png" alt="Scientific American logo" title="Scientific American | Environment"/></a>
+</td>
+<td>
+<a href="https://www.stockholmresilience.org/" target="blank"><img src="images/icon_stockholm.png" alt="Stockholm Resilience Centre icon" title="Stockholm Resilience Centre"/></a>
+</td>
+<td>
+<a href="https://biodiversity.ubc.ca/research" target="blank"><img src="images/icon_ubc.png" alt="UBC logo" title="UBC | Biodiversity Research Centre"/></a>
+</td>
+<td>
+<a href="https://www.usgs.gov/programs/science-analytics-and-synthesis-sas/biodiversity-science" target="blank"><img src="images/icon_usgs.png" alt="USGS logo" alt="USGS | Biodiversity Science"/></a>
+</td>
+</tr>
+</table>
+</blockquote>
+<p><br/> <br/> <br/></p>
+</div>
+<div id="organizations" class="section level2">
+<h2>Organizations</h2>
+<table class="icons">
+<tr>
+<td>
+<a href="https://zeroextinction.org" target="blank"><img src="images/icon_allianceforzeroextinction.png" alt="Alliance for Zero Extinction (AZE) logo" title="Alliance for Zero Extinction (AZE)"/></a>
+</td>
+<td>
+<a href="https://www.bgci.org/" target="blank"><img src="images/icon_bgci.png" alt="BGCI logo" title="Botanic Gardens Conservation International (BGCI)"/></a>
+</td>
+<td>
+<a href="https://www.biologicaldiversity.org/" target="blank"><img src="images/icon_centerbiodiversity.png" alt="Center for Biological Diversity logo" title="Center for Biological Diversity (CBD)"/></a>
+</td>
+<td>
+<a href="https://cites.org/eng" target="blank"><img src="images/icon_cites.png" alt="CITES logo" title="Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)"/></a>
+</td>
+<td>
+<a href="https://www.cbd.int/" target="blank"><img src="images/icon_conventionbiodiversity.png" alt="Convention for Biological Diversity logo" title="UN Convention for Biological Diversity (CBD)"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://www.edf.org/" target="blank"><img src="images/icon_edf.png" alt="Environment Defense Fund logo" title="Environment Defense Fund"/></a>
+</td>
+<td>
+<a href="https://www.fauna-flora.org/" target="blank"><img src="images/icon_faunaandflora.png" alt="Fauna and Flora logo" title="Fauna and Flora International"/></a>
+</td>
+<td>
+<a href="https://www.footprintnetwork.org/" target="blank"><img src="images/icon_globalfootprintnetwork.png" alt="Global Footprint Network logo" title="Global Footprint Network"/></a>
+</td>
+<td>
+<a href="https://www.greenpeace.org/international/" target="blank"><img src="images/icon_greenpeace.png" alt="Greenpeace logo" title="Greenpeace"/></a>
+</td>
+<td>
+<a href="https://ipbes.net/" target="blank"><img src="images/icon_ipbes.png" alt="IPBES logo" title="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES)"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://www.ipcc.ch/" target="blank"><img src="images/icon_ipcc.png" alt="IPCC logo" title="Intergovernmental Panel on Climate Change (IPCC)"/></a>
+</td>
+<td>
+<a href="https://iucn.org/" target="blank"><img src="images/icon_iucn.png" alt="IUCN logo" title="International Union for Conservation of Nature (IUCN)"/></a>
+</td>
+<td>
+<a href="https://www.natureserve.org/" target="blank"><img src="images/icon_natureserve.png" alt="NatureServe logo" title="NatureServe"/></a>
+</td>
+<td>
+<a href="https://www.nature.org/" target="blank"><img src="images/icon_natureconservancy.png" alt="Nature Conservancy logo" title="Nature Conservancy"/></a>
+</td>
+<td>
+<a href="https://www.nrdc.org/" target="blank"><img src="images/icon_nrdc.png" alt="Natural Resources Defense Council logo" title="Natural Resources Defense Council"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://oceanconservancy.org/" target="blank"><img src="images/icon_oceanconservancy.png" alt="Ocean Conservancy logo" title="Ocean Conservancy"/></a>
+</td>
+<td>
+<a href="https://www.sierraclub.org/" target="blank"><img src="images/icon_sierraclub.png" alt="Sierra Club logo" title="Sierra Club"/></a>
+</td>
+<td>
+<a href="https://www.unccd.int/" target="blank"><img src="images/icon_unccd.png" alt="UN Convention to Combat Desertification (UNCCD) logo" title="UN Convention to Combat Desertification "/></a>
+</td>
+<td>
+<a href="https://whc.unesco.org/" target="blank"><img src="images/icon_unesco.png" alt="UNESCO World Heritage logo" title="UNESCO World Heritage"/></a>
+</td>
+<td>
+<a href="https://www.unep.org/" target="blank"><img src="images/icon_unep.png" alt="UNEP logo" title="UN Environmental Programme (UNEP)"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://www.unep-wcmc.org/en" target="blank"><img src="images/icon_wcmc.png" alt="UNEP WCMC logo" title="World Conservation Monitoring Centre (WCMC)"/></a>
+</td>
+<td>
+<a href="" target="blank"><img src="images/icon_wildlifeconservationsociety.png" alt="Wildlife Conservation Society logo" title="Wildlife Conservation Society"/></a>
+</td>
+<td>
+<a href="https://wildlife.org/" target="blank"><img src="images/icon_wildlifesociety.png" alt="Wildlife Society logo" title="The Wildlife Society"/></a>
+</td>
+<td>
+<a href="https://www.worldwildlife.org/" target="blank"><img src="images/icon_wwf.png" alt="WWF logo" title="World Wildlife Fund (WWF)"/></a>
+</td>
+<td>
+<a href="https://www.zsl.org/" target="blank"><img src="images/icon_zsl.png" alt="ZSL logo" title="Zoological Society of London"/></a>
+</td>
+</tr>
+</table>
+<p><br/> <br/> <br/></p>
+</div>
+<div id="documentaries" class="section level2">
+<h2>Documentaries</h2>
+<table class="docs">
+<tr>
+<td>
+<a href="https://www.imdb.com/title/tt0296310" target="blank"><img src="images/doc_blueplanet.png" alt="The Blue Planet poster" title="The Blue Planet (2001)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt14539726" target="blank"><img src="images/doc_breakingboundaries.png" alt="Breaking Boundaries poster" title="Breaking Boundaries (2021)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt6333054/" target="blank"><img src="images/doc_chasingcoral.png" alt="Chasing Coral poster" title="Chasing Coral (2017)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt0365109" target="blank"><img src="images/doc_deepblue.png" alt="Deep Blue poster" title="Deep Blue (2003)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt13099124" target="blank"><img src="images/doc_extinctionsthefacts.png" alt="Extinctions the Facts poster" title="Extinction: the Facts (2020)"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://www.imdb.com/title/tt16986646" target="blank"><img src="images/doc_greenplanet.png" alt="The Green Planet poster" title="The Green Planet (2022)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt5952266" target="blank"><img src="images/doc_ivorygame.png" alt="The Ivory Game poster" title="The Ivory Game (2016)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt11989890" target="blank"><img src="images/doc_lifeonourplanet.png" alt="Life on Our Planet poster" title="Life on Our Planet (2020)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt2004304" target="blank"><img src="images/doc_missionblue.png" alt="Mission Blue poster" title="Mission Blue (2014)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt9253866" target="blank"><img src="images/doc_ourplanet.png" alt="Our Planet poster" title="Our Planet (2014)"/></a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://www.imdb.com/title/tt0795176" target="blank"><img src="images/doc_planetearth.png" alt="Planet Earth poster" title="Planet Earth (2016)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt14152756" target="blank"><img src="images/doc_seaspiracy.png" alt="Seaspiracy poster" title="Seaspiracy (2021)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt5203824" target="blank"><img src="images/doc_plasticocean.png" alt="A Plastic Ocean poster" title="A Plastic Ocean (2016)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt6769208" target="blank"><img src="images/doc_blueplanet2.png" alt="Blue Planet II poster" title="Blue Planet II (2017-2022)"/></a>
+</td>
+<td>
+<a href="https://www.imdb.com/title/tt5491994" target="blank"><img src="images/doc_planetearth2.png" alt="Planet Earth II poster" title="Planet Earth II (2016)"/></a>
+</td>
+</tr>
+</table>
+<p><br/> <br/> <br/></p>
+</div>
+<div id="videos" class="section level2">
+<h2>Videos</h2>
+<p><br/></p>
+<div id="eowilson-biodiversity-foundation-what-is-biodiversity"
+class="section level3">
+<h3>EOWilson Biodiversity Foundation: What is Biodiversity?</h3>
+<div class="framecontainer">
+<p><iframe src="https://player.vimeo.com/video/34930003" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+</div>
+<p><br/></p>
+</div>
+<div id="greenpeace-biodiversity-loss-from-land-use"
+class="section level3">
+<h3>Greenpeace – Biodiversity loss from land use</h3>
+<div class="framecontainer">
+<p><iframe src="https://player.vimeo.com/video/385534892" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+</div>
+</div>
+<div
+id="ipbes-global-assessment-animation-direct-drivers-of-biodiversity-loss"
+class="section level3">
+<h3>IPBES Global Assessment Animation: Direct Drivers of Biodiversity
+Loss</h3>
+<div class="framecontainer">
+<p><iframe src="https://player.vimeo.com/video/334457422" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+</div>
+<p><br/> <br/> <br/></p>
+<hr />
+</div>
+</div>
+</div>
+<div id="section-2" class="section level1">
+<h1></h1>
+<p><br/> <br/></p>
+<hr />
+<div id="why-and-biodiversity-to-capture-synergies"
+class="section level3">
+<h3>Why <em>And Biodiversity</em>? To capture synergies:</h3>
+<p><br/> <br/></p>
+<div class="table_container">
+<table class="bottom_icons">
+<tr>
+<td>
+<img src="images/stick_figure_tree_green.png" alt="tree icon" title="Reforestation or restoration of degraded forests and woodlands with indigenous species plays a role in addressing losses of biodiversity and ecosystem services, including through recovering the soil carbon stocks of these ecosystems (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Reforestation
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="Some recent analysis have discussed the impact of rewilding on ecosystem carbon cycling and hence climate change mitigation, given the effects animals and trophic cascades have on biomass consumption, carbon turnover, or methane emissions (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Rewilding
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_fish_blue.png" alt="fish icon" title="Fisheries management currently does not take into account the potential role of exploited species in the carbon cycle and in biogeochemical processes, nor does it consider the potential for carbon release from sediment disturbance (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Sustainable<br/>Fishing
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="While cities have generally low levels of biodiversity, many efforts are undertaken to green cities with multiple co-benefits for human well-being, with the potential to connect to surrounding natural or managed areas, and contribute to both biodiversity conservation and climate change mitigation regionally, as is the case in coastal cities for example (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Spatial Planning
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="Eliminating subsidies that support local and national activities harmful to biodiversity can also add up to support climate change mitigation, e.g., halting deforestation, overfertilization or overfishing (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Eliminate Subsidies
+</h3>
+</td>
+</tr>
+<tr>
+<td>
+<img src="images/stick_figure_insect.png" alt="insect icon" title="Actions like reducing pollution, making sure that exploitation is at levels that allow for resistance and resilience and managing invasive alien species can make substantial contributions to adaptive capacity of species and ecosystems (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Reduce Invasive<br/>Alien Species
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_ocean_blue.png" alt="ocean icon" title="The situation in the high-seas and areas beyond national jurisdiction (ABNJ) require Regional fisheries management organizations (RFMO) to promote solutions to ocean pollution that amplifies climate change impacts as part of the Ecosystem Approach to Fisheries implementation. (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Reduced<br/>Pollution
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_wetlands_green.png" alt="wetlands icon" title="Because biodiversity conservation in protected areas alone is insufficient to successfully safeguard biodiversity (and as shown earlier to contribute to climate change mitigation), biodiversity mainstreaming (i.e., making it a consideration in all sectors, rather than just in its own domain) is now accorded high priority in the CBD. (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+<i><strong>Mainstreaming<br/>Biodiversity</strong></i>
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Ecosystem restoration provides opportunities for co-benefits for climate change mitigation and biodiversity conservation, which are maximized if restoration occurs in priority areas for both goals (IPBES-IPCC)."/>
+</td>
+<td>
+<h3>
+Ecosystem<br/>Restoration<br/>
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_soil_green.png" alt="soil icon" title="The contribution of conventional agriculture to biodiversity loss can be addressed through alternative agricultural systems, including sustainable intensification and complete redesign of farm management systems (e.g., ecological intensification and climate-smart agriculture) (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Regenerative<br/>Agriculture
+</h3>
+</td>
+</tr>
+</table>
+</div>
+<p><br/></p>
+<div class="footer">
+<div class="footer_box">
+<div class="footer_label">
+And Biodiversity
+</div>
+<div class="footer_space">
+<br/><br/>
+</div>
+<div class="footer_column">
+The highest good is like water.<br/> Water gives life to the ten
+thousand things and does not strive.<br/> It flows in places men reject
+and so is like the Tao.<br/>
+</div>
+<div class="footer_column">
+In dwelling, be close to the land.<br/> In meditation, go deep in the
+heart.<br/> In dealing with others, be gentle and kind…
+</div>
+<div class="footer_space">
+-“Eight”<br/> Lao Tsu<br/> <i>Tao Te Ching</i><br/>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

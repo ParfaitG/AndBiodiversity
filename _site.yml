@@ -1,0 +1,29 @@
+name: "And Biodiversity" 
+output_dir: "."
+navbar:
+  title: "And Biodiversity"
+  type: inverse
+  right:
+    - text: "home"
+      icon: fa-home
+      href: index.html
+    - text: "overview"
+      icon: fa-info-circle
+      href: overview.html
+    - text: "reports"
+      icon: fa-book 
+      href: reports.html
+    - text: "figures"
+      icon: fa-image
+      href: figures.html
+    - text: "quotes"
+      icon: fa-comment
+      href: quotes.html
+    - text: "resources"
+      icon: fa-link
+      href: resources.html
+output:
+  html_document:
+    css: style.css
+    theme: sandstone
+    highlight: textmate

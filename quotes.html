@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Quotes</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">And Biodiversity</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    home
+  </a>
+</li>
+<li>
+  <a href="overview.html">
+    <span class="fa fa-info-circle"></span>
+     
+    overview
+  </a>
+</li>
+<li>
+  <a href="reports.html">
+    <span class="fa fa-book"></span>
+     
+    reports
+  </a>
+</li>
+<li>
+  <a href="figures.html">
+    <span class="fa fa-image"></span>
+     
+    figures
+  </a>
+</li>
+<li>
+  <a href="quotes.html">
+    <span class="fa fa-comment"></span>
+     
+    quotes
+  </a>
+</li>
+<li>
+  <a href="resources.html">
+    <span class="fa fa-link"></span>
+     
+    resources
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Quotes</h1>
+
+</div>
+
+
+<style type="text/css">
+  .main-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width:1200px) and (min-width:760px) {
+    #navbar > ul > li > a {
+       font-size: 0;
+       display:inline-block;
+    }
+    .fa { font-size: initial; }
+  }
+
+  .logo img {
+    float: right;
+    margin: 5px;
+    width: 200px;
+  }
+
+  input {
+      position: absolute;
+      opacity: 0;
+      z-index: -1;
+  }
+  .accordion-wrapper {
+      border-radius: 8px;
+      overflow: hidden;
+      width: 80%;
+      margin: 0 auto;
+  }
+  .accordion {
+      width: 100%;
+      color: white;
+      overflow-y: auto;
+      margin-bottom: 16px;
+  }
+  .accordion img {
+      display: block;
+      margin: 20px auto;
+  }
+  .accordion-label {
+      border-radius: 8px;
+      display: flex;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      padding: 16px;
+      background: rgba(128,181,51,.8);
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 20px;
+  }
+  .accordion-label:hover {
+      background: rgba(128,181,51,1);
+  }
+  .accordion-label::after {
+      content: "\276F";
+      width: 16px;
+      height: 16px;
+      text-align: center;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+  .accordion-content {
+      max-height: 0;
+      padding: 0 16px;
+      color: black;
+      background: white;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+  .accordion-content p{
+      margin: 0;
+      font-size: 18px;
+  }
+  input:checked + .accordion-label {
+      background: rgba(128,181,51,1);
+  }
+  input:checked + .accordion-label::after {
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+  }
+  input:checked ~ .accordion-content {
+      max-height: 100vh;
+      padding: 16px;
+  }
+
+  table {
+     width: 1000px;
+     margin: 0px auto;
+  }
+  
+  table img {
+     padding: 5px;
+     width: 100px;
+  }
+  
+  table h3 {
+     font-size: 16px;
+     text-align: center;
+  }
+  
+  .footer {
+     font-size: 14px;
+     bottom: 0;
+     width: 100%;
+     height: 140px;
+     margin: 0px 0px -40px 0px;
+     color: #ffffff;
+     background-color: #808080;
+     border-color: #93c54b;
+     overflow-y: auto;
+  }
+
+  .footer_box {
+     width: 75%;
+     margin: 0 auto;
+  }
+  
+  .footer_label {
+     padding: 5px;
+     font-size: 16px;
+     width: 80%;
+  }
+  
+  .footer_space {
+     float: left;
+     width: 15%;
+  }
+  .footer_column {
+     float: left;
+     width: 25%;
+  }
+</style>
+<script type="text/javascript">
+$(function() {
+  $('.main-container').after($('.footer'));
+})
+</script>
+<p><br/></p>
+<div class="logo">
+<img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/>
+</div>
+<div
+id="read-and-share-cited-quotes-from-major-reports-regarding-the-biodiversity-loss-crisis"
+class="section level3">
+<h3>Read and share cited quotes from major reports regarding the
+biodiversity loss crisis</h3>
+<p><br/> <br/></p>
+<hr />
+<div class="accordion-wrapper">
+<div class="accordion">
+<input type="checkbox" name="radio-a" id="check1">
+<label class="accordion-label" for="check1">World Wildlife Fund Living
+Planet Report (2022)</label>
+<div class="accordion-content">
+<blockquote>
+<p>Today we face the double, interlinked emergencies of human-induced
+climate change and the loss of biodiversity, threatening the well-being
+of current and future generations. As our future is critically dependent
+on biodiversity and a stable climate, it is essential that we understand
+how nature’s decline and climate change are connected.</p>
+</blockquote>
+<blockquote>
+<p>Land-use change is still the biggest current threat to nature,
+destroying or fragmenting the natural habitats of many plant and animal
+species on land, in freshwater and in the sea. However, if we are unable
+to limit warming to 1.5°C, climate change is likely to become the
+dominant cause of biodiversity loss in the coming decades.</p>
+</blockquote>
+<blockquote>
+<p>Tracking the health of nature over almost 50 years, the Living Planet
+Index acts as an early warning indicator by tracking trends in the
+abundance of mammals, fish, reptiles, birds and amphibians around the
+world. In its most comprehensive finding to date, this edition shows an
+average 69% decline in the relative abundance of monitored wildlife
+populations around the world between 1970 and 2018.</p>
+</blockquote>
+<blockquote>
+<p>Latin America shows the greatest regional decline in average
+population abundance (94%), while freshwater species populations have
+seen the greatest overall global decline (83%).</p>
+</blockquote>
+<blockquote>
+<p>We know that transformational change – game-changing shifts– will be
+essential to put theory into practice. We need system-wide changes in
+how we produce and consume, the technology we use, and our economic and
+financial systems. Underpinning these changes must be a move from goals
+and targets to values and rights, in policy-making and in day-to-day
+life.</p>
+</blockquote>
+<blockquote>
+<p>A nature-positive future needs transformative - game changing -
+shifts in how we produce, how we consume, how we govern, and what we
+finance.</p>
+</blockquote>
+<blockquote>
+<p>Achieving net-zero loss for nature is certainly not enough; we need a
+nature- or net-positive goal to restore nature and not simply halt its
+loss. Firstly, because we have lost and continue to lose so much nature
+at such a speed that we need this higher ambition.</p>
+</blockquote>
+<blockquote>
+<p>Climate change and biodiversity loss are not only environmental
+issues, but economic, development, security, social, moral and ethical
+issues too – and they must therefore be addressed together along with
+the 17 UN Sustainable Development Goals (SDGs).</p>
+</blockquote>
+<p><br/> <br/> <br/></p>
+</div>
+</div>
+<div class="accordion">
+<input type="checkbox" name="radio-a" id="check2">
+<label class="accordion-label" for="check2">IPBES-IPCC Biodiversity and
+Climate Change Workshop Report (2021)</label>
+<div class="accordion-content">
+<blockquote>
+<p>Climate change and biodiversity loss are two of the most pressing
+issues of the Anthropocene. While there is recognition in both
+scientific and policy-making circles that the two are interconnected, in
+practice they are largely addressed in their own domains.</p>
+</blockquote>
+<blockquote>
+<p>Each issue has its own international Convention (the UN Framework
+Convention on Climate Change and the Convention on Biological
+Diversity), and each has an intergovernmental body which assesses
+available knowledge (the Intergovernmental Panel on Climate Change
+(IPCC) and the Intergovernmental Platform on Biodiversity and Ecosystem
+Services (IPBES)). This functional separation creates a risk of
+incompletely identifying, understanding and dealing with the connections
+between the two.</p>
+</blockquote>
+<blockquote>
+<p>Increasing energy consumption, overexploitation of natural resources
+and unprecedented transformation of land-, freshwater- and seascapes
+over the past 150 years have paralleled technological advances and
+supported better living standards for many but have also led to changes
+in climate and the accelerating decline of biological diversity
+worldwide, both negatively impacting many aspects of good quality of
+life.</p>
+</blockquote>
+<blockquote>
+<p>To be holistically effective, renewable energy development will
+benefit from consideration of a circular economy and, ultimately,
+biodiversity</p>
+</blockquote>
+<blockquote>
+<p>The mutual reinforcing of climate change and biodiversity loss means
+that satisfactorily resolving either issue requires consideration of the
+other.</p>
+</blockquote>
+<blockquote>
+<p>Avoiding and reversing the loss and degradation of carbon- and
+species-rich ecosystems on land and in the ocean is of highest
+importance for combined biodiversity protection and climate change
+mitigation actions with large adaptation co-benefits.</p>
+</blockquote>
+<blockquote>
+<p>Planting bioenergy crops (including trees, perennial grasses or
+annual crops) in monocultures over a very large share of total land area
+is detrimental to ecosystems, reduces supply of many other nature’s
+contributions to people and impedes achievement of numerous Sustainable
+Development Goals.</p>
+</blockquote>
+<blockquote>
+<p>Technology-based measures that are effective for climate change
+mitigation can pose serious threats to biodiversity.</p>
+</blockquote>
+<blockquote>
+<p>Changes in per capita consumption, shift in diets, and progress
+towards sustainable exploitation of natural resources, including reduced
+post-harvest waste, could make substantial contributions to addressing
+the biodiversity crisis, climate change mitigation and adaptation.</p>
+</blockquote>
+<blockquote>
+<p>Achieving the scale and scope of transformative change needed to meet
+the goals of the UNFCCC and CBD and the Sustainable Development Goals
+relies on rapid and far-reaching actions of a type never before
+attempted.</p>
+</blockquote>
+<p><br/> <br/> <br/></p>
+</div>
+</div>
+<div class="accordion">
+<input type="checkbox" name="radio-a" id="check3">
+<label class="accordion-label" for="check3">UNEP Making Peace with
+Nature (2021)</label>
+<div class="accordion-content">
+<blockquote>
+<p>Human well-being critically depends on the Earth’s natural systems.
+Yet the economic, technological and social advances have also led to a
+reduction of the Earth’s capacity to sustain current and future human
+well-being. Human prosperity relies on the wise use of the planet’s
+finite space and remaining resources, as well as on the protection and
+restoration of its life-supporting processes and capacity to absorb
+waste.</p>
+</blockquote>
+<blockquote>
+<p>The international community has set targets, informed by science, in
+multi-lateral agreements for protecting natural assets and limiting
+harmful environmental change. Despite some progress, efforts to date
+have failed to meet any of the agreed targets.</p>
+</blockquote>
+<blockquote>
+<p>Economic and financial systems fail to account for the essential
+benefits that humanity gets from nature and to provide incentives to
+manage nature wisely and maintain its value.</p>
+</blockquote>
+<blockquote>
+<p>Climate change, loss of biodiversity, land degradation, and
+accumulating chemicals and waste reinforce each other and are caused by
+the same indirect drivers.</p>
+</blockquote>
+<blockquote>
+<p>As a result of the loss of biodiversity and ecosystem services,
+nature’s ability to support human health through regulation of air and
+water quality is in decline in many places, as well as its ability to
+provide opportunities for recreation and relaxation, which support
+physical and mental health and well-being. Biodiversity loss is also
+negatively affecting nature’s ability to supply medicines.</p>
+</blockquote>
+<blockquote>
+<p>Global warming of more than 2°C combined with continued loss of
+biodiversity and increasing pollution will likely have dire consequences
+for humanity.</p>
+</blockquote>
+<blockquote>
+<p>Only system-wide transformation will enable humanity to achieve
+well-being for all within the Earth’s finite capacity to provide
+resources and absorb human waste.</p>
+</blockquote>
+<p><br/> <br/> <br/></p>
+</div>
+</div>
+<div class="accordion">
+<input type="checkbox" name="radio-a" id="check4">
+<label class="accordion-label" for="check4">Dasgupta Review: The
+Economics of Biodiversity (2021)</label>
+<div class="accordion-content">
+<blockquote>
+<p>But like education and health, Nature is more than a mere economic
+good. Nature nurtures and nourishes us, so we will think of assets as
+durable entities that not only have use value, but may also have
+intrinsic worth. Once we make that extension, the economics of
+biodiversity becomes a study in portfolio management.</p>
+</blockquote>
+<blockquote>
+<p>The damage inflicted on each type of asset (buildings, forests, the
+atmosphere, fisheries, human health) should be interpreted as
+depreciation of that asset. Pollution is the reverse of
+conservation.</p>
+</blockquote>
+<blockquote>
+<p>These three features of Nature – mobility, invisibility and silence –
+are of profound significance to the economics of biodiversity</p>
+</blockquote>
+<blockquote>
+<p>There is thus a tension between our demand for provisioning services
+on the one hand and our need for regulating, maintenance, and cultural
+services on the other. The distinction between drawing on Nature and
+depending on Nature is all-important here. Tensions between the two
+became manifest in recent centuries, but at the global scale it did so
+only gradually. As we confirm below, it has become acute since the
+middle of the 20th century.</p>
+</blockquote>
+<blockquote>
+<p>Environmental externalities, for that is what we are focusing on
+here, are prevalent because we do not have to pay for many of our
+biosphere’s services. Being free, we demand too much; that is, we demand
+more than is in our collective interest.</p>
+</blockquote>
+<blockquote>
+<p>Governments almost everywhere amplify adverse environmental
+externalities by paying people more to exploit the biosphere than they
+do to protect it. These payments have been called perverse subsidies.
+Examples include subsidies to agriculture, water, fossil fuels,
+fisheries, energy and fertilisers. These subsidies encourage
+over-extraction and harvesting of the biosphere.</p>
+</blockquote>
+<blockquote>
+<p>The ecosystems supplying those public goods differ from one another,
+which means different remedies are required if their supply is to
+improve. Consider that the world’s rainforests are a seat of global
+public goods but fall within national jurisdictions. They thereby give
+rise to unidirectional externalities. If we are to preserve the world’s
+rainforests, the global community should be prepared to pay the nations
+harbouring them to do that.</p>
+</blockquote>
+<blockquote>
+<p>Protection of the oceans should therefore be subject to international
+control (e.g. global taxation on ocean fisheries and transportation;
+extensions of Protected Areas, and so on).</p>
+</blockquote>
+<blockquote>
+<p>The social world can be as powerful a carrier of externalities as the
+material environment. A common form in which they appear in the social
+world is in the way our relationships influence our preferences and
+wants. This is cause for hope that transitions to sustainable
+development are possible and with lower human costs than may be
+feared.</p>
+</blockquote>
+<blockquote>
+<p>Advances in mapping the geographical spread of natural capital and in
+methods to monitor its use can help enforce property rights.</p>
+</blockquote>
+<blockquote>
+<p>The macroeconomic models of growth and development in use in economic
+and finance ministries and Planning Commissions, however, do not
+acknowledge that material must balance – from source to sink.</p>
+</blockquote>
+<blockquote>
+<p>Models are now urgently needed that follow the ecological principles
+outlined in the global economic model in the Review (Chapter 4*),
+including data on natural capital. Empirical estimations of such models
+are needed to address the question of whether, and for how long, the
+redirection of consumption and investment that is now required is
+compatible with global GDP growth in the immediate future.</p>
+</blockquote>
+<blockquote>
+<p>For unidirectional externalities, payments by beneficiaries to those
+holding property rights to ecosystems is an arrangement resembling
+market operations. Named ‘Payments for Ecosystem Services’ (PES), the
+underlying idea is simple enough.</p>
+</blockquote>
+<blockquote>
+<p>Polycentric structures that are best placed to protect and promote
+biodiversity are thus layered institutions: global, regional, national,
+and community based. Each layer requires an authority at the apex to
+achieve coordination below and with other layers laterally.</p>
+</blockquote>
+<blockquote>
+<p>Standard economic measures such as GDP can mislead. If the goal is to
+protect and promote well-being across the generations (i.e. social
+well-being), governments should measure inclusive wealth (a measure of
+societal means). Inclusive wealth is the sum of the accounting values of
+produced capital, human capital, and natural capital.</p>
+</blockquote>
+<blockquote>
+<p>Natural capital accounting is a necessary step towards the creation
+of inclusive wealth accounts. It enables us to understand and appreciate
+the place of Nature’s services in our economies, including the services
+that are usually overlooked; it enables us to track the movement of
+natural capital over time (a prerequisite for sustainability
+assessment); and it offers us a way to estimate the impact of policies
+on natural capital (a prerequisite for policy analysis).</p>
+</blockquote>
+<blockquote>
+<p>Increased investment in physical accounts and in ecosystem valuation
+would improve them. International cooperation in the construction of
+national accounts and the sharing of data would improve decision-making
+around the world. Harmonisation of national accounts should be coupled
+with technical assistance. Incorporating natural capital accounts in
+macroeconomic surveillance undertaken by international financial
+institutions – for example, the International Monetary Fund’s Article IV
+surveillance activities (IMF, 2020) – would also send a strong signal,
+inspiring governments’ reform agendas to reflect the scale and urgency
+of the problems societies face.</p>
+</blockquote>
+<blockquote>
+<p>Whether we account for Nature in economic measures is key for how we
+interpret productivity. Contemporary models of economic growth and
+development tend only to consider produced and human capital as primary
+factors of production, not explicitly natural capital.</p>
+</blockquote>
+<blockquote>
+<p>Neither top-down nor bottom-up institutional structures work well.
+What the inhabitant of an ecosystem knows and can observe differs from
+what an agent from the national government knows and can observe.
+Moreover, institutions that work well are neither entirely rigid nor
+entirely flexible, they are both ‘polycentric’ and ‘layered’, meaning
+that knowledge and perspectives at all levels from different
+organisations, communities and individuals are pooled and spread.</p>
+</blockquote>
+<blockquote>
+<p>Finance plays a crucial role. A significant portion of the
+responsibility for helping us to shift course will fall on the global
+financial system. Governments, central banks, international financial
+institutions (such as Multilateral Development Banks) and private
+financial institutions all have a role to play in making the shift.</p>
+</blockquote>
+<blockquote>
+<p>To leave Nature alone so that it is able to thrive is to invest in
+it. Governments have tools at their disposal to make that happen, even
+if through indirect means. They range from taxes, subsidies, regulations
+and prohibitions to Nature-specific mechanisms, such as payments for
+ecosystem services (Box 13) and biodiversity offsetting schemes.</p>
+</blockquote>
+<blockquote>
+<p>Far more global support is needed for initiatives directed at
+enhancing the understanding and awareness among financial institutions
+of Nature-related financial risks, learning and building on the advances
+on climate-related financial risks. Central banks and financial
+supervisors can support this by assessing the systemic extent of
+Nature-related financial risks.</p>
+</blockquote>
+<blockquote>
+<p>A set of global standards is required. They should be underpinned by
+data that are both credible and useful for decision-making. Businesses
+and financial institutions could then be obliged to integrate
+Nature-related considerations with their other objectives. The idea
+ultimately is to have them assess and disclose their use of natural
+capital.</p>
+</blockquote>
+<blockquote>
+<p>As citizens, we need to demand and shape the change we seek. We can
+do this, for example, by insisting that financiers invest our money
+sustainably, that firms disclose environmental conditions along their
+supply chains (product labelling is a partial method for doing that),
+even boycotting products that do not meet standards.</p>
+</blockquote>
+<blockquote>
+<p>If we are not acting now, it is because we have grown distant from
+Nature. Such detachment is in part a symptom of societal change,
+including growing urbanisation, the profusion of technology, and reduced
+access to green spaces. Detachment from Nature has meant a loss in our
+physical and emotional state.</p>
+</blockquote>
+<blockquote>
+<p>Establishing the natural world within educational policy would
+contribute to countering the shifting baseline, whereby we progressively
+redefine ourselves as inhabitants of an emptying world and believe that
+what we see is how it is and how it will continue to be.</p>
+</blockquote>
+<p><br/> <br/> <br/></p>
+</div>
+</div>
+<div class="accordion">
+<input type="checkbox" name="radio-a" id="check5">
+<label class="accordion-label" for="check5">World Wildlife Fund Living
+Planet Report (2020)</label>
+<div class="accordion-content">
+<blockquote>
+<p>Since the industrial revolution, human activities have increasingly
+destroyed and degraded forests, grasslands, wetlands and other important
+ecosystems, threatening human well-being. Seventy- five per cent of the
+Earth’s ice-free land surface has already been significantly altered,
+most of the oceans are polluted, and more than 85% of the area of
+wetlands has been lost.</p>
+</blockquote>
+<blockquote>
+<p>The challenge is to transform agricultural and fishing practices,
+many of which are unsustainable today, into ones that produce the
+affordable and nourishing food we need while protecting and conserving
+biodiversity. For agriculture, this means using sustainable
+agroecological practices, reducing the use of chemicals, fertilisers and
+pesticides, and protecting our soils and pollinators.</p>
+</blockquote>
+<blockquote>
+<p>Using the data from 20,811 populations of 4,392 species, the 2020
+global LPI shows an average 68% decline in monitored populations between
+1970 and 2016 (range: -73% to -62%).</p>
+</blockquote>
+<blockquote>
+<p>The 94% decline in the LPI for the tropical subregions of the
+Americas is the most striking result observed in any region. The
+conversion of grasslands, savannahs, forests and wetlands, the
+overexploitation of species, climate change, and the introduction of
+alien species are key drivers.</p>
+</blockquote>
+<blockquote>
+<p>The 3,741 monitored populations – representing 944 species of
+mammals, birds, amphibians, reptiles and fishes – in the Freshwater
+Living Planet Index have declined by an average of 84% (range: -89% to
+-77%), equivalent to 4% per year since 1970.</p>
+</blockquote>
+<blockquote>
+<p>The Status of the World’s Soil Resources 33 concluded that the loss
+of soil biodiversity is considered one of the major soil threats in many
+regions of the world. Some responses to bend the curve of biodiversity
+loss include sustainable use of soil genetic resources and improved soil
+management to safeguard soil biota as well as its multiple
+functions.</p>
+</blockquote>
+<blockquote>
+<p>Assessment of a sample of thousands of species representing the
+taxonomic and geographic breadth of global plant diversity showed that
+one in five (22%) are threatened with extinction, most of them in the
+tropics 50. Plant extinction risk is comparable to that of mammals and
+higher than for birds.</p>
+</blockquote>
+<blockquote>
+<p>There is evidence of recent, rapid declines in insect abundance,
+diversity and biomass, but the picture is complex and most evidence
+comes from a few taxa and a few countries in the northern
+hemisphere.</p>
+</blockquote>
+<p><br/> <br/> <br/></p>
+</div>
+</div>
+<div class="accordion">
+<input type="checkbox" name="radio-a" id="check6">
+<label class="accordion-label" for="check6">IPBES Global Assessment
+(2019)</label>
+<div class="accordion-content">
+<blockquote>
+<p>Of the estimated 8 million animal and plant species (75 per cent of
+which are insects), around 1 million are threatened with extinction</p>
+</blockquote>
+<blockquote>
+<p>The global rate of species extinction is already at least tens to
+hundreds of times higher than the average rate over the past 10 million
+years and is accelerating</p>
+</blockquote>
+<blockquote>
+<p>The direct drivers of change in nature with the largest global impact
+have been (starting with those with most impact): changes in land and
+sea use; direct exploitation of organisms; climate change; pollution;
+and invasion of alien species.</p>
+</blockquote>
+<blockquote>
+<p>The rate of global change in nature during the past 50 years is
+unprecedented in human history.</p>
+</blockquote>
+<blockquote>
+<p>75% of terrestrial environment ((66% of marine environment) “severely
+altered” to date by human actions.</p>
+</blockquote>
+<blockquote>
+<p>300-400 million tons of heavy metals, solvents, toxic sludge and
+other wastes from industrial facilities are dumped annually into the
+world’s waters.</p>
+</blockquote>
+<blockquote>
+<p>85% of wetlands present in 1700 had been lost by 2000 where loss of
+wetlands is currently three times faster, in percentage terms, than
+forest loss.</p>
+</blockquote>
+<blockquote>
+<p>Average abundance of native species in most major land-based habitats
+has fallen by at least 20%, mostly since 1900.</p>
+</blockquote>
+<blockquote>
+<p>Population sizes of wild vertebrate species have tended to decline
+over the last 50 years on land, in freshwater and in the sea.</p>
+</blockquote>
+<blockquote>
+<p>Almost 33% of reef forming corals, sharks and shark relatives, and
+over 33% marine mammals threatened with extinction.</p>
+</blockquote>
+<blockquote>
+<p>Over 500,000 of the world’s estimated 5.9 million terrestrial species
+have insufficient habitat for long term survival without habitat
+restoration</p>
+</blockquote>
+<blockquote>
+<p>Goals for conserving and sustainably using nature and achieving
+sustainability cannot be met by current trajectories, and goals for 2030
+and beyond may only be achieved through transformative changes across
+economic, social, political and technological factors.</p>
+</blockquote>
+<p><br/> <br/> <br/></p>
+</div>
+</div>
+<div class="accordion">
+<input type="checkbox" name="radio-a" id="check7">
+<label class="accordion-label" for="check7">Millennium Ecosystem
+Assessment (2005)</label>
+<div class="accordion-content">
+<blockquote>
+<p>Over the past 50 years, humans have changed ecosystems more rapidly
+and extensively than in any comparable period of time in human history,
+largely to meet rapidly growing demands for food, fresh water, timber,
+fiber, and fuel. This has resulted in a sub-stantial and largely
+irreversible loss in the diversity of life on Earth.</p>
+</blockquote>
+<blockquote>
+<p>Approximately 60% (15 out of 24) of the ecosystem services examined
+during the Millennium Ecosystem Assessment are being degraded or used
+unsustainably, including fresh water, capture fisheries, air and water
+purification, and the regulation of regional and local climate, natural
+hazards, and pests.</p>
+</blockquote>
+<blockquote>
+<p>There is established but incomplete evidence that changes being made
+in ecosystems are increasing the likelihood of nonlinear changes in
+ecosystems (including accelerating, abrupt, and potentially irreversible
+changes) that have important consequences for human well-being.</p>
+</blockquote>
+<blockquote>
+<p>Humans are fundamentally, and to a significant extent irreversibly,
+changing the diversity of life on Earth, and most of these changes
+represent a loss of biodiversity.</p>
+</blockquote>
+<blockquote>
+<p>The harmful effects of the degradation of ecosystem services (the
+persistent decrease in the capacity of an ecosystem to deliver services)
+are being borne disproportionately by the poor, are contributing to
+growing inequities and disparities across groups of people, and are
+sometimes the principal factor causing poverty and social conflict.</p>
+</blockquote>
+<blockquote>
+<p>More land was converted to cropland in the 30 years after 1950 than
+in the 150 years between 1700 and 1850. Cultivated systems (areas where
+at least 30% of the landscape is in crop-lands, shifting cultivation,
+confined livestock production, or freshwater aquaculture) now cover one
+quarter of Earth’s terrestrial surface.</p>
+</blockquote>
+<blockquote>
+<p>The amount of water impounded behind dams quadrupled since 1960, and
+three to six times as much water is held in reservoirs as in natural
+rivers. Water withdrawals from rivers and lakes doubled since 1960; most
+water use (70% worldwide) is for agriculture.</p>
+</blockquote>
+<blockquote>
+<p>Since 1960, flows of reactive (biologically available) nitrogen in
+terrestrial ecosystems have doubled, and flows of phosphorus have
+tripled. More than half of all the synthetic nitrogen fertilizer, which
+was first manufactured in 1913, ever used on the planet has been used
+since 1985.</p>
+</blockquote>
+<blockquote>
+<p>Since 1750, the atmospheric concentration of carbon dioxide has
+increased by about 32% (from about 280 to 376 parts per million in
+2003), primarily due to the combustion of fossil fuels and land use
+changes. Approximately 60% of that increase (60 parts per million) has
+taken place since 1959.</p>
+</blockquote>
+<blockquote>
+<p>More than two thirds of the area of 2 of the world’s 14 major
+terrestrial biomes and more than half of the area of 4 other biomes had
+been converted by 1990, primarily to agriculture.</p>
+</blockquote>
+<p><br/> <br/> <br/></p>
+</div>
+</div>
+</div>
+<p><br/> <br/> <br/></p>
+<hr />
+</div>
+<div id="why-and-biodiversity-to-review-natures-contributions-to-people"
+class="section level3">
+<h3>Why <em>And Biodiversity</em>? To review nature’s contributions to
+people:</h3>
+<p><br/> <br/></p>
+<div class="table_container">
+<table class="stick_image_left">
+<tr>
+<td>
+<img src="images/stick_figure_tree_green.png" alt="tree icon" title="Marine and terrestrial ecosystems are the sole sinks for anthropogenic carbon emissions, with a gross sequestration of 5.6 gigatons of carbon per year (the equivalent of some 60 per cent of global anthropogenic emissions). (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Carbon Sequestration
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="The great expansion in the production of food, feed, fibre and bioenergy has occurred at the cost of many other contributions of nature to quality of life, including regulation of air and water quality, climate regulation and habitat provision. (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Habitat<br/>Maintenance
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_fish_blue.png" alt="fish icon" title="Ecosystem restoration also provides multiple nature´s contribution to people, such as the regulation of water quality, regulation of the hydrological cycle, decrease the frequency and severity of floods and droughts and pollination services (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Water Quality<br/>Regulation
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="Loss of coastal habitats and coral reefs reduces coastal protection, which increases the risk from floods and hurricanes to life and property for the 100 million to 300 million people living within coastal 100-year flood zones. (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Hazard Regulation
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="Climate extremes disrupt food production and water supply, damage crops, infrastructure and transport networks, and reduce air quality with consequences for human health and good quality of life. (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Air<br/>Quality
+</h3>
+</td>
+</tr>
+<tr>
+<td>
+<img src="images/stick_figure_insect.png" alt="insect icon" title="Over 75% of global food crop types rely on animal pollination (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Plant<br/>Pollination
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_ocean_blue.png" alt="ocean icon" title="The capacity to sequester carbon by marine and terrestrial environments serves as a selected indicator for regulation of ocean acidification (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Ocean Acidification<br/>Regulation
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_wetlands_green.png" alt="wetlands icon" title="Protection and restoration of wetlands, peatlands and coastal habitats reduces net
+carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 (IPBES-IPCC)"/>
+</td>
+<td>
+<h3>
+Climate<br/>Regulation
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Decline and disappearance of large herbivores and predators has dramatically affected the structure, fire regimes, seed dispersal, land surface albedo and nutrient availability within many ecosystems (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Seed<br/>Dispersal
+</h3>
+</td>
+<td>
+<img src="images/stick_figure_soil_green.png" alt="soil icon" title="Nature, through its ecological and evolutionary processes, sustains the quality of the air, fresh water and soils on which humanity depends (IPBES GA)"/>
+</td>
+<td>
+<h3>
+Soil Formation
+</h3>
+</td>
+</tr>
+</table>
+</div>
+<div class="footer">
+<div class="footer_box">
+<div class="footer_label">
+And Biodiversity
+</div>
+<div class="footer_space">
+<br/><br/>
+</div>
+<div class="footer_column">
+Through the long afternoon, and creeks at dusk<br/> Are guttural.
+Whip-poor-wills wake and cry,<br/> Drawing the twilight close about
+their throats.<br/> Only my heart makes answer. Eager vines
+</div>
+<div class="footer_column">
+Go up the rocks and wait; flushed apple-trees<br/> Pause in their dance
+and break the ring for me;<br/> And bayberry, that through sweet bevies
+thread<br/> Of round-faced roses, pink and petulant,<br/>
+</div>
+<div class="footer_column">
+Look back and beckon ere they disappear.<br/> Only my heart, only my
+heart responds… <br/> -“Journey” <br/> Edna St. Vincent Millay<br/>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

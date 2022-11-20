@@ -1,0 +1,275 @@
+---
+title: "Overview"
+layout: default
+---
+
+```{css, echo=FALSE}
+  .main-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width:1200px) and (min-width:760px) {
+    #navbar > ul > li > a {
+       font-size: 0;
+       display:inline-block;
+    }
+    .fa { font-size: initial; }
+  }
+
+  .logo img {
+     float: right;
+     margin: 5px;
+     width: 200px;
+  }
+  
+  input {
+      position: absolute;
+      opacity: 0;
+      z-index: -1;
+  }
+  
+  .accordion-wrapper {
+      border-radius: 8px;
+      overflow: hidden;
+      width: 80%;
+      margin: 0 auto;
+  }
+  .accordion {
+      width: 100%;
+      color: white;
+      overflow: hidden;
+      margin-bottom: 16px;
+  }
+  .accordion img {
+      display: block;
+      margin: 20px auto;
+  }
+  .accordion-label {
+      border-radius: 8px;
+      display: flex;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      padding: 16px;
+      background: rgba(128,181,51,.8);
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 20px;
+  }
+  .accordion-label:hover {
+      background: rgba(128,181,51,1);
+  }
+  .accordion-label::after {
+      content: "\276F";
+      width: 16px;
+      height: 16px;
+      text-align: center;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+  .accordion-content {
+      max-height: 0;
+      padding: 0 16px;
+      color: black;
+      background: white;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+  .accordion-content p{
+      margin: 0;
+      font-size: 18px;
+  }
+  input:checked + .accordion-label {
+      background: rgba(128,181,51,1);
+  }
+  input:checked + .accordion-label::after {
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+  }
+  input:checked ~ .accordion-content {
+      max-height: 100vh;
+      padding: 16px;
+  }
+  
+  table {
+     width: 1000px;
+     margin: 0px auto;
+  }
+  
+  table img {
+     padding: 10px;
+     width: 100px;
+  }
+  
+  table h3 {
+     font-size: 16px;
+     text-align: center;
+  }
+  
+  .footer {
+     font-size: 14px;
+     bottom: 0;
+     width: 100%;
+     height: 140px;
+     margin: 0px 0px -40px 0px;
+     color: #ffffff;
+     background-color: #808080;
+     border-color: #93c54b;
+     overflow-y: auto;
+  }
+
+  .footer_box {
+     width: 90%;
+     margin: 0 auto;
+  }
+  
+  .footer_label {
+     padding: 5px;
+     font-size: 16px;
+     width: 30%;
+     text-align: center;
+  }
+  
+  .footer_space {
+     float: left;
+     width: 25%;
+  }
+  .footer_column {
+     float: left;
+     width: 25%;
+     padding: 0 20px 0 0;
+  }
+```
+
+```{js, echo=FALSE}
+$(function() {
+  $('.main-container').after($('.footer'));
+})
+```
+
+<br/>
+
+<div class="logo"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></div>
+
+## See below to learn more about biodiversity loss:
+
+<br/>
+<br/>
+<br/>
+
+---
+
+<br/>
+
+<div class="accordion-wrapper">
+<div class="accordion">
+  <input type="radio" name="radio-a" id="check1" checked>
+  <label class="accordion-label" for="check1">What?</label>
+  <div class="accordion-content">
+  <p>**What is biodiversity loss?**<br/>The rapid, accelerating loss of variability and abundance of life on Earth including plant and animal species, populations, wild and domesticated varieties, and natural habitats recently caused by human activities with direct drivers of land/sea use change, overexploitation of organisms, climate change, pollution, and invasive alien species. _See_ IPBES 2019 Global Assessment.</p>
+  <img src="images/clip_trees.png" height="100px" alt="different tree color icons"/>
+  </div>
+</div>
+<div class="accordion">
+  <input type="radio" name="radio-a" id="check2">
+  <label class="accordion-label" for="check2">Who?</label>
+  <div class="accordion-content">
+  <p>**Who are affected by biodiversity loss?**<br/>Due to reliance on biodiversity for feed, fiber, fuel, air, water, climate, medicines, hazard protection, and other ecosystem services, all flora and fauna including humans are affected by this crisis. _See_ IPBES-IPCC co-sponsored 2021 report.</p>
+  <img src="images/clip_peoplefigureworld.png" alt="people figures around world"/>
+  </div>
+</div>
+<div class="accordion">
+  <input type="radio" name="radio-a" id="check3">
+  <label class="accordion-label" for="check3">Where</label>
+  <div class="accordion-content">
+  <p>**Where does biodiversity loss occur?**<br/>While disappearing species and damaged ecosystems vary by regions and biomes, consistent evidence indicates a global scale to biodiversity loss. _See_ World Wildlife Fund's Living Planet biennual reports.</p>
+  <img src="images/clip_globes.png" height="100px" alt="different globe color icon"/>
+  </div>
+</div>
+<div class="accordion">
+  <input type="radio" name="radio-a" id="check4">
+  <label class="accordion-label" for="check4">When</label>
+  <div class="accordion-content">
+  <p>**When did biodiversity loss start?**<br/>Since the Industrial Age and notably mid-20th century with the rapid rise of human population, global trade, industrial farming and fishing, expansive urbanization, biodiversity loss has occurred at unprecedented levels in human history with signs of acceleration. _See_ all biodiversity global assessments from 1995, 2005, and 2019.</p>
+  <img src="images/clip_calendars.png" height="100px" alt="different calendar color icons"/>
+  </div>
+</div>
+<div class="accordion">
+  <input type="radio" name="radio-a" id="check5">
+  <label class="accordion-label" for="check5">Why</label>
+  <div class="accordion-content">
+  <p>**Why is biodiversity loss important?**<br/>For life-critical services, environmental, economic, ethical, security, and moral issues, biodiversity loss plays an instrumental role from food webs to GDP accounting. _See_ the Dasgupta Review in 2021 on The Economics of Biodiversity.</p>
+  <img src="images/clip_exclamations.png" height="100px" alt="different exclamation point color icon"/>
+  </div>
+</div>
+<div class="accordion">
+  <input type="radio" name="radio-a" id="check6">
+  <label class="accordion-label" for="check6">How</label>
+  <div class="accordion-content">
+  <p>**How can we stop biodiversity loss?**<br/>Raise awareness. Start discussions. Adjust lifestyle and diet. Change behaviors. Avoid waste and excessive consumption. Accept changes in standard of living. Boycott goods, services, and industries that destroy nature. Advocate the end to forest logging, wetland draining, and other actions. Implore public and business leaders. Exercise consumer and voting power. Insist on sustainable spatial planning with nature. _See_ recommendations in most reports and papers.</p>
+  <img src="images/clip_lightbulbs.png" height="150px" alt="different light bulb color icon"/>
+  </div>
+</div>
+</div>
+
+
+<br/>
+<br/>
+
+---
+
+### Why _And Biodiversity_? To analyze solutions:
+
+<br/>
+<br/>
+
+<div class="table_container">
+<table class="stick_image_left">
+   <tr>
+      <td><img src="images/stick_figure_tree_green.png" alt="tree icon" title="Measures such as the diversification of planted crop and forest species, agroforestry and agroecology enhance biodiversity and nature’s contributions to people in landscapes focused on the production of food, feed, fibre, or energy (IPBES-IPCC)"/></td>
+      <td><h3>Agroforestry</h3></td>
+      <td><img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="The 'scape approach integrates functionally intact biodiversity with provisioning of material, non-material and regulatory benefits, from local to larger scales, linking 'sharing' and 'sparing' concepts. It includes networks of protected areas and corridors, 'working' or 'managed' 'scapes modified for human use, and profoundly transformed ecosystems, such as urban and intensively farmed areas (IPBES-IPCC)"/></td>
+      <td><h3>Wildlife<br/>Corridor</h3></td>
+      <td><img src="images/stick_figure_fish_blue.png" alt="fish icon" title="Reducing overfishing and bycatch, as well as focusing new aquaculture activities on low trophic level species (e.g., plankton feeders such as bivalve molluscs) and broadening the range of species cultivated could both increase global seafood production and reduce impact to the environment and biodiversity (IPBES-IPCC)"/></td>
+      <td><h3>Aquaculture</h3></td>
+      <td><img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="Nature-based solutions for coastal flood protection, such as using natural coastal habitats (vegetation or coral reefs) to provide protection from flooding during storm events, increasingly likely due to sea-level rise, is frequently preferred to engineered defences (IPBES-IPCC)"/></td>
+      <td><h3>Coastal Restoration</h3></td>
+      <td><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="Reducing greenhouse gas (GHGs) emissions through the development of renewable energies in the transport and energy sector are important options for mitigating climate change with the co-benefit of reducing pollutants that have deleterious effects on human health and the environment (IPBES-IPCC)."/></td>
+      <td><h3>Decarbonization</h3></td>
+   </tr>
+   <tr>
+      <td><img src="images/stick_figure_insect.png" alt="insect icon" title="Irrigated rice agriculture has evolved over centuries and led to a well-balanced food web in paddies with an insect diversity even higher than in many (pristine) temperate forests. This diversity reduces the risk of pest outbreaks and stabilizes yield. Pesticides normally rather cause pest problems than solving them. (IPBES-IPCC)"/></td>
+      <td><h3>Pest Control</h3></td>
+      <td><img src="images/stick_figure_ocean_blue.png" alt="ocean icon" title="Local management (e.g., integrated coastal zone management and marine protected areas) can play an important role to improve ocean health. (IPBES-IPCC)"/></td>
+      <td><h3>Local<br/>Management</h3></td>
+      <td><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon" title="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 removal (IPBES-IPCC)"/></td> 
+      <td><h3>Wetland Restoration</h3></td>
+      <td><img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Trophic rewilding, the reintroduction of herbivores and carnivores to systems where they have been lost, is foremost discussed as a measure to enhance biodiversity and can also contribute to ecosystem restoration (IPBES-IPCC)."/></td>
+      <td><h3>Trophic<br/>Rewilding</h3></td>
+      <td><img src="images/stick_figure_soil_green.png" alt="soil icon" title="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms, and participates in making soils more resistant and resilient in the face of climate change. (IPBES-IPCC)"/></td>
+      <td><h3>Agroecology</h3></td>
+   </tr>
+</table>
+</div>
+
+
+<br/>
+
+::: {.footer}
+<div class="footer_box">
+  <div class="footer_label">And Biodiversity</div>
+  <div class="footer_space"><br/><br/></div>
+  <div class="footer_column">
+The morning sea of silence broke into ripples of bird songs; and the flowers were all merry by the roadside; and the wealth of gold was scattered through the rift of the clouds while we busily went on our way and paid no heed.
+  </div>
+  <div class="footer_column">
+We sang no glad songs nor played; we went not to the village for barter; we spoke not a word nor smiled; we lingered not on the way. We quickened our pace more and more as the time sped by....
+  </div>
+  <div class="footer_column">
+-"48"<br/>
+Rabindranath Tagore<br/>
+<i>Gitanjali</i><br/>
+  </div>
+</div>
+:::

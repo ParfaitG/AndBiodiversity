@@ -1,0 +1,397 @@
+---
+title: '...And Biodiversity'
+layout: default
+---
+
+```{css, echo=FALSE}
+  .main-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (max-width:1200px) and (min-width:760px) {
+    #navbar > ul > li > a {
+       font-size: 0;
+       display:inline-block;
+    }
+    .fa { font-size: initial; }
+    
+    .plotly.html-widget {
+       max-width: 100%;
+       height: 200px;
+    }
+  }
+
+  .logo img {
+     float: right;
+     margin: 5px;
+     width: 350px;
+  }
+  
+  .cards {
+     width: 100%;
+     text-align: center;
+  }
+  .card {
+     width: 15%;
+     height: 200px;
+     display: inline-block;
+     font-size: 16px;
+     border: 1px rgba(128,181,51) solid;
+     margin: 0 5px;
+     border-radius: 30px;
+     overflow: hidden;
+  }
+  .cardheader {
+     height: 15%;
+     background: rgba(128,181,51);
+     font-weight: bold;
+     color: white;
+     text-align: center;
+     border-radius: 30px 30px 0 0;
+     padding: 5px 0;
+  }
+  .cardheader a:link, 
+  .cardheader a:visited, 
+  .cardheader a:hover, 
+  .cardheader a:active {
+     color: #ffffff;
+  }
+  .cardbody {
+     padding: 2px 16px;
+     white-space: normal;
+  }
+  
+  .banner {
+     text-align: center;
+     margin: 5px;
+  }
+  .banner img {
+     width: 450px;
+     border-radius: 30px;
+     margin: 10px;
+  }
+
+  .table_container {
+     overflow-x: auto;
+     width: 100%;
+  }
+  
+  #bottom_icons {
+     margin: 0 auto;
+  }
+  
+  #bottom_icons img {
+     padding: 10px;
+     width: 100px;
+  }
+  
+  #bottom_icons h3 {
+     text-align: center;
+     font-size: 16px;
+  }
+  
+  .stick_image img {
+     float: left;
+     margin: 5px;
+     width: 100px;
+  }
+
+  .footer {
+     font-size: 14px;
+     bottom: 0;
+     width: 100%;
+     height: 160px;
+     margin: 0px auto -40px auto;
+     color: #ffffff;
+     background-color: #808080;
+     border-color: #93c54b;
+     overflow-y: auto;
+  }
+
+  .footer_box {
+     width: 70%;
+     margin: 0 auto;
+  }
+  
+  .footer_label {
+     padding: 5px;
+     font-size: 16px;
+     width: 80%;
+  }
+  
+  .footer_space {
+     float: left;
+     width: 15%;
+  }
+  .footer_column {
+     float: left;
+     width: 25%;
+  }
+```
+
+```{js, echo=FALSE}
+$(function() {
+  $('.main-container').after($('.footer'));
+})
+```
+
+<div class="logo"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud" /></div>
+<br/>
+
+### From the opening of their joint workshop report, IPBES and IPCC selected authors, stated (emphasis added):
+
+> ### Climate change ***and biodiversity loss*** are two of the most pressing issues of the Anthropocene.
+
+<br/>
+
+### This informational site, _And Biodiversity_, aims to serve as a resource to study the latter crisis by review of the topic, major reports, figures, quotes, data, and resources.
+<br/>
+
+<div class="cards">
+<div class="card">
+  <div class="cardheader">
+  <p><a href="overview.html">OVERVIEW</a></p>
+  </div>
+  <div class="cardbody">
+  <p>See the what, who, when, where, why, and how about <b><i>biodiversity loss</i></b></p>
+  <a href="overview.html"><img src="images/fa_info.png" alt="info icon"/></a>
+  </div>
+</div>
+<div class="card">
+  <div class="cardheader">
+  <p><a href="reports.html">REPORTS</a></p>
+  </div>
+  <div class="cardbody">
+  <p>Review past and present global reports on <b><i>biodiversity loss</i></b></p>
+  <a href="reports.html"><img src="images/fa_book.png" alt="book icon"/></a>
+  </div>
+</div>
+<div class="card">
+  <div class="cardheader">
+  <p><a href="figures.html">FIGURES</a></p>
+  </div>
+  <div class="cardbody">
+  <p>Visually study report graphics to learn the extent of <b><i>biodiversity loss</i></b></p>
+  <a href="figures.html"><img src="images/fa_image.png" alt="image icon"/></a>
+  </div>
+</div>
+<div class="card">
+  <div class="cardheader">
+  <p><a href="quotes.html">QUOTES</a></p>
+  </div>
+  <div class="cardbody">
+  <p>Find, read, and cite line snippets from major reports about <b><i>biodiversity loss</i></b></p>
+  <a href="quotes.html"><img src="images/fa_comment.png" alt="comment icon"/></a>
+  </div>
+</div>
+<div class="card">
+  <div class="cardheader">
+  <p><a href="resources.html">RESOURCES</a></p>
+  </div>
+  <div class="cardbody">
+  <p>Dive into news, data, research, and initiatives related to <b><i>biodiversity loss</i></b></p>
+  <a href="resources.html"><img src="images/fa_link.png" alt="link icon"/></a>
+  </div>
+</div>
+</div>
+
+
+---
+
+### Why _And Biodiversity_? To hopefully mainstream the issue across institutions:
+
+<br/>
+
+<div class="stick_image"><img src="images/stick_figure_media.png" alt="media person icon"/></div>
+
+### Media
+
+> #### "We continue to provde the latest on our series on Climate Change ***and Biodiversity Loss***."
+
+<br/>
+
+<div class="stick_image"><img src="images/stick_figure_politician.png" alt="politician icon"/></div>
+
+### Politics
+
+> #### "Climate change ***and biodiversity loss*** are existential threats and are on the ballot this election."
+
+<br/>
+
+<div class="stick_image"><img src="images/stick_figure_business.png" alt="business icon"/></div>
+
+### Business
+
+> #### "We forecast in next quarter into next few fiscal years losses due to climate change ***and biodiversity loss***."
+
+<br/>
+
+<div class="stick_image"><img src="images/stick_figure_school.png" alt="school icon"/></div>
+
+### Education
+
+> #### "Class, we will continue our lesson on issues very important to the Earth: climate change ***and biodiversity loss***."
+
+<br/>
+
+<div class="stick_image"><img src="images/stick_figure_protesters.png" alt="protester icon"/></div>
+
+### Activism
+
+> #### "Save our planet from the Climate Crisis ***and Biodiversity Crisis!***"
+
+<br/>
+
+<div class="stick_image"><img src="images/stick_figure_talking.png" alt="people talking icon"/></div>
+
+### Civil Society
+
+> #### "You know I'm really starting to worry about climate change ***and biodiversity loss***."
+
+<br/>
+
+---
+
+### Why _And Biodiversity_? To dispel common misunderstandings:
+
+<br/>
+
+- ### <a href="###" data-toggle="collapse" data-target="#Block1">Climate change covers biodiversity loss and other environment issues</a> 
+
+  <div id="Block1" class="collapse">  
+
+  #### Owing to its popularity over the years, _climate change_ has become synonymous with the environment and all "green" issues and therefore encompasses all ecological crises. In reality, _climate change_ is only one issue under the umbrella of nature crises. 
+  
+  #### In fact, climate is just one of several planetary boundaries of the Earth System which includes biodiversity, ozone, freshwater, land use, nitrogen and phosophorus cycle, chemicals, and others. _See_ [**Figures**](figures.html) for other diagrams of planetary boundaries.
+
+  <div class="banner">
+    <img src="images/mahm_ecological_crises.jpg" alt="multiple ecological crises diagram"/>
+    <p>Source: [MAHB - The End of Being](https://mahb.stanford.edu/blog/end-being-boundaries/)</p>
+  </div>
+  
+  </div>
+
+- ### <a href="###" data-toggle="collapse" data-target="#Block2">Climate change causes biodiversity loss, so are the same thing</a> ### 
+
+  <div id="Block2" class="collapse">  
+
+  #### While the two crises share mutually reinforcing and overlapping causes and effects, the scientific evidence over decades demonstrates both crises are distinct issues and should not be conflated without acknowledgment of their unique and shared qualities. Consequently, the approach to solve one may negatively or positively affect the other. 
+
+  #### _See_ [**Figures**](figures.html) that show graphics of overlap, trade-offs, and synergies between the two planetary emergencies.
+  
+  <div class="banner">
+    <img src="images/tree_climate_biodiversity.png" alt="dry and fertile tree"/>
+    <p>Source: [European Commission Article](tree_climate_biodiversity.png)</p>
+  </div>
+  
+  </div>
+  
+- ### <a href="###" data-toggle="collapse" data-target="#Block3">Biodiversity loss is not as immediate an issue as climate change</a> ###
+
+  <div id="Block3" class="collapse">  
+
+  #### For decades, scientists have asserted the devastating consequences of continued loss of biodiversity which is accelerating at unprecedented levels in human history. Such loss negatively impacts ecosystem services or nature's contribution to people such as life-critical needs of food production, soil cultivation, water availability, air quality, climate regulation, medicines, and still others.
+
+  <div class="banner">
+    <img src="images/biodiversity_emergency_banner.png" alt="biodiversity emergency protest banner"/>
+    <p>Source: [Nature.com - Sustainability at the Crossroads](https://www.nature.com/articles/d41586-021-03781-z)</p>
+  </div>
+
+  </div>
+ 
+- ### <a href="###" data-toggle="collapse" data-target="#Block4">Biodiversity loss is a new topic and not as well-researched or widely accepted</a> ###
+
+  <div id="Block4" class="collapse">  
+
+  #### Biodiversity loss has been an enduring subject matter in the ecological and environment science literature since the 1970s. It is widely accepted in science with enough impetus to erect UN's Convention for Biological Diversity in 1992 to convene global initiatives on the issue and Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) in 2012 to assess the current knowledge on the topic for policymakers. 
+  
+  #### _See_ [**Reports**](reports.html) that includes three global assessments across the decades (1995, 2005, and 2019) each with stark findings of rapid biodiversity loss due to human activities.
+
+  <div class="banner">
+    <img src="images/ipbes_covers.png" alt="IPBES report covers"/>
+    <p>Source: [EcoScan - Useful Sites](https://eco-scan.fr/useful-sites-2/)</p>
+  </div>
+
+  </div>
+ 
+- ### <a href="###" data-toggle="collapse" data-target="#Block5">Biodiversity loss is a natural phenomenon</a> ###
+
+  <div id="Block5" class="collapse">  
+
+  #### While species extinctions and ecosystem shifts are natural processes on Earth including five known mass extinction events, the present situation of biodiversity loss exceeds the natural occurrence in geological timescales. Also, unlike past events, the current rapid loss of biodiversity and ecosystems is mostly due to human activities. 
+  
+  #### _See_ [**Quotes**](quotes.html) which includes the finding from IPBES' 2019 Global Assessment: the rate of extinction is ten to hundreds of times higher than the average background rate in the last 10 million years and is accelerating. 
+  
+  <div class="banner">
+    <img src="images/anthropocene_diagram.png" alt="Anthropocene diagram"/>
+    <p>Source: [TheConversation.com Article](https://theconversation.com/an-official-welcome-to-the-anthropocene-epoch-but-who-gets-to-decide-its-here-57113)</p>
+  </div>
+  
+  </div>
+   
+<br/>
+
+---
+
+### Why _And Biodiversity_? To help stop:
+
+<br/>
+<br/>
+
+<div class="table_container">
+  <table id="bottom_icons">
+   <tr>
+      <td><img src="images/stick_figure_tree_green.png" alt="tree icon" title="Net rate of forest loss have decreased by 50% since the 1990s (excluding those managed for timber or agricultural extraction) (IPBES GA)"/></td>
+      <td><h3>Logging</h3></td>
+      <td><img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="African elephants have declined by 30-fold over the last century (from 12 million to ~400,000) with more than 100,000 elephants killed by poachers between 2010 and 2012 (IPBES 2020)"/></td>
+      <td><h3>Poaching</h3></td>
+      <td><img src="images/stick_figure_fish_blue.png" alt="fish icon" title="33% of marine fish stocks in 2015 have been harvested at unsustainable levels; 60% are maximally sustainably fished; 7% are underfished (IPBES GA)"/></td>
+      <td><h3>Overfishing</h3></td>
+      <td><img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="The extent of seagrass meadows have decreased over 10% per decade from 1970-2000 (IPBES GA)"/></td>
+      <td><h3>Dredging</h3></td>
+      <td><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="Since 1980 greenhouse gas emissions have increased 100%, raising average global temperature by at least 0.7 degree (IPBES GA)"/></td>
+      <td><h3>Emitting</h3></td>
+   </tr>
+   <tr>
+      <td><img src="images/stick_figure_insect.png" alt="insect icon" title="Tentative estimate of +/-10% of insect species are threatened with extinction (IPBES GA)"/></td>
+      <td><h3>Spraying</h3></td>
+      <td><img src="images/stick_figure_ocean_blue.png" alt="ocean icon" title="300-400 million tons of heavy metals, solvents, toxic sludge and other wastes from industrial facilities are dumped annually into the world’s waters (IPBES GA)"/></td>
+      <td><h3>Dumping</h3></td>
+      <td><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon" title="85% of wetlands present in 1700 had been lost by 2000 where loss of wetlands is currently three times faster, in percentage terms, than forest loss (IPBES GA)"/></td>
+      <td><h3>Draining</h3></td>
+      <td><img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Average abundance of native species in most major land-based habitats has fallen by at least 20%, mostly since 1900 (IPBES GA)"/></td>
+      <td><h3>Encroaching</h3></td>
+      <td><img src="images/stick_figure_soil_green.png" alt="soil icon" title="Over 33% of world’s land surface (and +/-75% of freshwater resources) is devoted to crop or livestock production (IPBES GA)"/></td>
+      <td><h3>Overfarming</h3></td>
+   </tr>
+  </table>
+</div>
+
+
+::: {.footer}
+<div class="footer_box">
+  <div class="footer_label">And Biodiversity</div>
+  <div class="footer_space"><br/><br/></div>
+  <div class="footer_column">
+...Hence, these shades <br/>
+Are still the abodes of gladness; the thick roof <br/>
+Of green and stirring branches is alive <br/>
+And musical with birds, that sing and sport <br/>
+In wantonness of spirit; while below
+  </div>
+  <div class="footer_column">
+The squirrel, with raised paws and form erect, <br/>
+Chirps merrily. Throngs of insects in the shade <br/>
+Try their thin wings and dance in the warm beam <br/>
+That waked them into life. Even the green trees <br/>
+Partake the deep contentment...
+  </div>
+  <div class="footer_column"> 
+-"Inscription for the Entrance to a Wood" <br/>
+William Cullen Bryant<br/>
+   </div>
+</div>
+:::
+
