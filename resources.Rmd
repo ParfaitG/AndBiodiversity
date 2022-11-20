@@ -42,6 +42,13 @@ layout: default
      width: 150px;
   }
   
+  .repo_page {
+     margin: 0 0 0 100px;
+  }
+  .repo_page img {
+     height: 500px;
+  }
+  
   .docs img {
      padding: 10px;
      height: 200px;
@@ -129,15 +136,13 @@ $(function() {
 _And Biodiversity_
 
 RMarkdown site by ParfaitG with source code:
-  
-<GitHub Repo I-Frame>
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<div class="repo_page">
+ <a href="https://github.com/ParfaitG/AndBiodiversity" target="blank">
+   <img src="images/github_andbiodiversity.png" alt="GitHub AndBiodiversity Mobile Image" title="GitHub AndBiodiversity Page"/>
+ </a>
+</div>
+
 
 ## Sites
 
