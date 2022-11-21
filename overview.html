@@ -400,18 +400,22 @@ $(document).ready(function () {
       padding: 16px;
   }
   
-  table {
-     width: 1000px;
+  .table_container {
+     overflow-x: auto;
+     width: 100%;
+  }
+  
+  #bottom_icons {
      margin: 0px auto;
   }
   
-  table img {
+  #bottom_icons img {
      padding: 10px;
      width: 100px;
   }
   
-  table h3 {
-     font-size: 16px;
+  #bottom_icons h3 {
+     font-size: 1.5vh;
      text-align: center;
   }
   
@@ -561,7 +565,7 @@ class="section level3">
 <h3>Why <em>And Biodiversity</em>? To analyze solutions:</h3>
 <p><br/> <br/></p>
 <div class="table_container">
-<table class="stick_image_left">
+<table id="bottom_icons">
 <tr>
 <td>
 <img src="images/stick_figure_tree_green.png" alt="tree icon" title="Measures such as the diversification of planted crop and forest species, agroforestry and agroecology enhance biodiversity and nature’s contributions to people in landscapes focused on the production of food, feed, fibre, or energy (IPBES-IPCC)"/>
@@ -592,7 +596,7 @@ Aquaculture
 </td>
 <td>
 <h3>
-Coastal Restoration
+Coastal<br/>Restoration
 </h3>
 </td>
 <td>
@@ -610,7 +614,7 @@ Decarbonization
 </td>
 <td>
 <h3>
-Pest Control
+Pest<br/>Control
 </h3>
 </td>
 <td>
@@ -626,7 +630,7 @@ Local<br/>Management
 </td>
 <td>
 <h3>
-Wetland Restoration
+Wetland<br/>Restoration
 </h3>
 </td>
 <td>

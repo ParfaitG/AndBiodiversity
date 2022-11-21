@@ -96,18 +96,22 @@ layout: default
       padding: 16px;
   }
   
-  table {
-     width: 1000px;
+  .table_container {
+     overflow-x: auto;
+     width: 100%;
+  }
+  
+  #bottom_icons {
      margin: 0px auto;
   }
   
-  table img {
+  #bottom_icons img {
      padding: 10px;
      width: 100px;
   }
   
-  table h3 {
-     font-size: 16px;
+  #bottom_icons h3 {
+     font-size: 1.5vh;
      text-align: center;
   }
   
@@ -225,7 +229,7 @@ $(function() {
 <br/>
 
 <div class="table_container">
-<table class="stick_image_left">
+<table id="bottom_icons">
    <tr>
       <td><img src="images/stick_figure_tree_green.png" alt="tree icon" title="Measures such as the diversification of planted crop and forest species, agroforestry and agroecology enhance biodiversity and nature’s contributions to people in landscapes focused on the production of food, feed, fibre, or energy (IPBES-IPCC)"/></td>
       <td><h3>Agroforestry</h3></td>
@@ -234,17 +238,17 @@ $(function() {
       <td><img src="images/stick_figure_fish_blue.png" alt="fish icon" title="Reducing overfishing and bycatch, as well as focusing new aquaculture activities on low trophic level species (e.g., plankton feeders such as bivalve molluscs) and broadening the range of species cultivated could both increase global seafood production and reduce impact to the environment and biodiversity (IPBES-IPCC)"/></td>
       <td><h3>Aquaculture</h3></td>
       <td><img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="Nature-based solutions for coastal flood protection, such as using natural coastal habitats (vegetation or coral reefs) to provide protection from flooding during storm events, increasingly likely due to sea-level rise, is frequently preferred to engineered defences (IPBES-IPCC)"/></td>
-      <td><h3>Coastal Restoration</h3></td>
+      <td><h3>Coastal<br/>Restoration</h3></td>
       <td><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="Reducing greenhouse gas (GHGs) emissions through the development of renewable energies in the transport and energy sector are important options for mitigating climate change with the co-benefit of reducing pollutants that have deleterious effects on human health and the environment (IPBES-IPCC)."/></td>
       <td><h3>Decarbonization</h3></td>
    </tr>
    <tr>
       <td><img src="images/stick_figure_insect.png" alt="insect icon" title="Irrigated rice agriculture has evolved over centuries and led to a well-balanced food web in paddies with an insect diversity even higher than in many (pristine) temperate forests. This diversity reduces the risk of pest outbreaks and stabilizes yield. Pesticides normally rather cause pest problems than solving them. (IPBES-IPCC)"/></td>
-      <td><h3>Pest Control</h3></td>
+      <td><h3>Pest<br/>Control</h3></td>
       <td><img src="images/stick_figure_ocean_blue.png" alt="ocean icon" title="Local management (e.g., integrated coastal zone management and marine protected areas) can play an important role to improve ocean health. (IPBES-IPCC)"/></td>
       <td><h3>Local<br/>Management</h3></td>
       <td><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon" title="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 removal (IPBES-IPCC)"/></td> 
-      <td><h3>Wetland Restoration</h3></td>
+      <td><h3>Wetland<br/>Restoration</h3></td>
       <td><img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Trophic rewilding, the reintroduction of herbivores and carnivores to systems where they have been lost, is foremost discussed as a measure to enhance biodiversity and can also contribute to ecosystem restoration (IPBES-IPCC)."/></td>
       <td><h3>Trophic<br/>Rewilding</h3></td>
       <td><img src="images/stick_figure_soil_green.png" alt="soil icon" title="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms, and participates in making soils more resistant and resilient in the face of climate change. (IPBES-IPCC)"/></td>

@@ -402,18 +402,22 @@ $(document).ready(function () {
       padding: 16px;
   }
 
-  table {
-     width: 1000px;
+  .table_container {
+     overflow-x: auto;
+     width: 100%;
+  }
+  
+  #bottom_icons {
      margin: 0px auto;
   }
   
-  table img {
+  #bottom_icons img {
      padding: 5px;
      width: 100px;
   }
   
-  table h3 {
-     font-size: 16px;
+  #bottom_icons h3 {
+     font-size: 1.5vh;
      text-align: center;
   }
   
@@ -1050,14 +1054,14 @@ class="section level3">
 people:</h3>
 <p><br/> <br/></p>
 <div class="table_container">
-<table class="stick_image_left">
+<table id="bottom_icons">
 <tr>
 <td>
 <img src="images/stick_figure_tree_green.png" alt="tree icon" title="Marine and terrestrial ecosystems are the sole sinks for anthropogenic carbon emissions, with a gross sequestration of 5.6 gigatons of carbon per year (the equivalent of some 60 per cent of global anthropogenic emissions). (IPBES GA)"/>
 </td>
 <td>
 <h3>
-Carbon Sequestration
+Carbon<br/>Sequestration
 </h3>
 </td>
 <td>
@@ -1081,7 +1085,7 @@ Water Quality<br/>Regulation
 </td>
 <td>
 <h3>
-Hazard Regulation
+Hazard<br/>Regulation
 </h3>
 </td>
 <td>
@@ -1132,7 +1136,7 @@ Seed<br/>Dispersal
 </td>
 <td>
 <h3>
-Soil Formation
+Soil<br/>Formation
 </h3>
 </td>
 </tr>

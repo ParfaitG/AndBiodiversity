@@ -98,18 +98,22 @@ layout: default
       padding: 16px;
   }
 
-  table {
-     width: 1000px;
+  .table_container {
+     overflow-x: auto;
+     width: 100%;
+  }
+  
+  #bottom_icons {
      margin: 0px auto;
   }
   
-  table img {
+  #bottom_icons img {
      padding: 5px;
      width: 100px;
   }
   
-  table h3 {
-     font-size: 16px;
+  #bottom_icons h3 {
+     font-size: 1.5vh;
      text-align: center;
   }
   
@@ -433,16 +437,16 @@ and conserving biodiversity. For agriculture, this means using sustainable agroe
 <br/>
 
 <div class="table_container">
-<table class="stick_image_left">
+<table id="bottom_icons">
    <tr>
       <td><img src="images/stick_figure_tree_green.png" alt="tree icon" title="Marine and terrestrial ecosystems are the sole sinks for anthropogenic carbon emissions, with a gross sequestration of 5.6 gigatons of carbon per year (the equivalent of some 60 per cent of global anthropogenic emissions). (IPBES GA)"/></td>
-      <td><h3>Carbon Sequestration</h3></td>
+      <td><h3>Carbon<br/>Sequestration</h3></td>
       <td><img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="The great expansion in the production of food, feed, fibre and bioenergy has occurred at the cost of many other contributions of nature to quality of life, including regulation of air and water quality, climate regulation and habitat provision. (IPBES GA)"/></td>
       <td><h3>Habitat<br/>Maintenance</h3></td>
       <td><img src="images/stick_figure_fish_blue.png" alt="fish icon" title="Ecosystem restoration also provides multiple nature´s contribution to people, such as the regulation of water quality, regulation of the hydrological cycle, decrease the frequency and severity of floods and droughts and pollination services (IPBES-IPCC)"/></td>
       <td><h3>Water Quality<br/>Regulation</h3></td>
       <td><img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="Loss of coastal habitats and coral reefs reduces coastal protection, which increases the risk from floods and hurricanes to life and property for the 100 million to 300 million people living within coastal 100-year flood zones. (IPBES GA)"/></td>
-      <td><h3>Hazard Regulation</h3></td>
+      <td><h3>Hazard<br/>Regulation</h3></td>
       <td><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="Climate extremes disrupt food production and water supply, damage crops, infrastructure and transport networks, and reduce air quality with consequences for human health and good quality of life. (IPBES-IPCC)"/></td>
       <td><h3>Air<br/>Quality</h3></td>
    </tr>
@@ -457,7 +461,7 @@ carbon loss to the atmosphere (primarily from the oxidation of sediments and soi
       <td><img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Decline and disappearance of large herbivores and predators has dramatically affected the structure, fire regimes, seed dispersal, land surface albedo and nutrient availability within many ecosystems (IPBES GA)"/></td>
       <td><h3>Seed<br/>Dispersal</h3></td>
       <td><img src="images/stick_figure_soil_green.png" alt="soil icon" title="Nature, through its ecological and evolutionary processes, sustains the quality of the air, fresh water and soils on which humanity depends (IPBES GA)"/></td>
-      <td><h3>Soil Formation</h3></td>
+      <td><h3>Soil<br/>Formation</h3></td>
    </tr>
 </table>
 </div>

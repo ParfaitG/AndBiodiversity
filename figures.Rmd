@@ -28,18 +28,23 @@ layout: default
     width: 200px;
   }
   
-  table {
-     width: 1000px;
+  .table_container {
+     overflow-x: auto;
+     width: 100%;
+     margin: 0 auto;
+  }
+  
+  #bottom_icons {
      margin: 0px auto;
   }
   
-  table img {
+  #bottom_icons img {
      padding: 10px;
      width: 100px;
   }
   
-  table h3 {
-     font-size: 16px;
+  #bottom_icons h3 {
+     font-size: 1.5vh;
      text-align: center;
   }
   
@@ -68,7 +73,7 @@ layout: default
   
   .footer_space {
      float: left;
-     width: 15%;
+     width: 25%;
   }
   .footer_column {
      float: left;
@@ -229,26 +234,26 @@ planet', Science, 347(6223:1–10).
 <br/>
 
 <div class="table_container">
-<table class="stick_image_left">
+<table id="bottom_icons">
    <tr>
       <td><img src="images/stick_figure_tree_green.png" alt="tree icon" title="75% of terrestrial environment “severely altered” to date by human actions (IPBES GA)"/></td>
       <td><h3>Terrestrial<br/>Environments</h3></td>
       <td><img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="At least 680 vertebrate species were driven to extinction by human actions since the 16th century (IPBES GA)"/></td>
       <td><h3>Wild Verterbrate<br/>Species</h3></td>
       <td><img src="images/stick_figure_fish_blue.png" alt="fish icon" title="66% of terrestrial environment “severely altered” to date by human actions (IPBES GA)"/></td>
-      <td><h3>Marine Environments</h3></td>
+      <td><h3>Marine<br/>Environments</h3></td>
       <td><img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="Approximately half the live coral cover on coral reefs has been lost since the 1870s, with accelerating losses in recent decades due to climate change exacerbating other drivers (IPBES GA)"/></td>
-      <td><h3>Coral Reef Decline</h3></td>
+      <td><h3>Coral Reef<br/>Decline</h3></td>
       <td><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="Humans are estimated to have caused an observed warming of approximately 1.0°C by 2017 relative to pre-industrial levels, with average temperatures over the past 30 years rising by 0.2°C per decade. (IPBES GA)"/></td>
-      <td><h3>Global Warming</h3></td>
+      <td><h3>Global<br/>Warming</h3></td>
    </tr>
    <tr>
       <td><img src="images/stick_figure_insect.png" alt="insect icon" title="Insect abundance has declined very rapidly in some places even without large-scale land-use change, but the global extent of such declines is not known (IPBES GA)"/></td>
       <td><h3>Insect<br/>Abundance</h3></td>
       <td><img src="images/stick_figure_ocean_blue.png" alt="ocean icon" title="Cumulative records of alien species have increased by 40 per cent since 1980, associated with increased trade and human population dynamics and trends. (IPBES GA)"/></td>
-      <td><h3>Increased Trade</h3></td>
+      <td><h3>Increased<br/>Trade</h3></td>
       <td><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon" title="Humans have been enjoying such benefits for millennia for agriculture, aquaculture, and urban development, among other activities, which often led to widespread wetland degradation (IPBES-IPCC)"/></td> 
-      <td><h3>Wetland Degradation</h3></td>
+      <td><h3>Wetland<br/>Degradation</h3></td>
       <td><img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="The global biomass of wild mammals has fallen by 82 per cent since prehistory (IPBES GA)"/></td>
       <td><h3>Global<br/>Biomass</h3></td>
       <td><img src="images/stick_figure_soil_green.png" alt="soil icon" title="Over 33% of world’s land surface (and +/-75% of freshwater resources) devoted to crop or livestock production (IPBES GA)"/></td>

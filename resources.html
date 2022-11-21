@@ -336,6 +336,11 @@ $(document).ready(function () {
      font-size: 14px;
   }
   
+  .logo_container {
+     width: 100%;
+     margin: 0 auto;
+  }
+  
   .icons, .docs {
      width: 750px;
      margin: 0px auto;
@@ -367,18 +372,23 @@ $(document).ready(function () {
      border-radius: 20px;
   }
   
-  .bottom_icons {
-     width: 1000px;
+  .table_container {
+     overflow-x: auto;
+     width: 100%;
+     margin: 0 auto;
+  }
+  
+  #bottom_icons {
      margin: 0px auto;
   }
   
-  .bottom_icons img {
+  #bottom_icons img {
      padding: 10px;
      width: 100px;
   }
   
-  .bottom_icons h3 {
-     font-size: 16px;
+  #bottom_icons h3 {
+     font-size: 1.5vh;
      text-align: center;
   }
   
@@ -448,6 +458,7 @@ class="section level1 tabset tabset-fade tabset-pills">
 <h2>Sites</h2>
 <div id="section-1" class="section level3">
 <h3></h3>
+<div class="logo_container">
 <table class="icons">
 <tr>
 <td>
@@ -494,6 +505,7 @@ class="section level1 tabset tabset-fade tabset-pills">
 </td>
 </tr>
 </table>
+</div>
 <p><br/> <br/> <br/></p>
 </div>
 </div>
@@ -634,6 +646,7 @@ accounts across the world</h4></li>
 </div>
 <div id="research" class="section level2">
 <h2>Research</h2>
+<div class="logo_container">
 <table class="icons">
 <tr>
 <td>
@@ -654,9 +667,8 @@ accounts across the world</h4></li>
 <a href="https://fwbg.org/" target="blank"><img src="images/icon_fwbg.png" alt="Fort Worth Botanic Garden and BRIT logo" title="Fort Worth Botanic Garden and Botanical Research Institute of Texas"/></a>
 </td>
 <td>
-<a href="https://www.frontiersin.org/" targe="blank"><img src="images/icon_frontiers.png" alt="Frontiers logo" title="Frontiers"/></a>
+<a href="https://www.frontiersin.org/" target="blank"><img src="images/icon_frontiers.png" alt="Frontiers logo" title="Frontiers"/></a>
 </td>
-<blockquote>
 <td>
 <a href="https://www.gbif.org" target="blank"><img src="images/icon_gbif.png" alt="GBIF logo" title="Global Biodiversity Information Facility"/></a>
 </td>
@@ -693,11 +705,12 @@ accounts across the world</h4></li>
 </td>
 </tr>
 </table>
-</blockquote>
+</div>
 <p><br/> <br/> <br/></p>
 </div>
 <div id="organizations" class="section level2">
 <h2>Organizations</h2>
+<div class="logo_container">
 <table class="icons">
 <tr>
 <td>
@@ -785,10 +798,12 @@ accounts across the world</h4></li>
 </td>
 </tr>
 </table>
+</div>
 <p><br/> <br/> <br/></p>
 </div>
 <div id="documentaries" class="section level2">
 <h2>Documentaries</h2>
+<div>
 <table class="docs">
 <tr>
 <td>
@@ -842,6 +857,7 @@ accounts across the world</h4></li>
 </td>
 </tr>
 </table>
+</div>
 <p><br/> <br/> <br/></p>
 </div>
 <div id="videos" class="section level2">
@@ -884,7 +900,7 @@ class="section level3">
 <h3>Why <em>And Biodiversity</em>? To capture synergies:</h3>
 <p><br/> <br/></p>
 <div class="table_container">
-<table class="bottom_icons">
+<table id="bottom_icons">
 <tr>
 <td>
 <img src="images/stick_figure_tree_green.png" alt="tree icon" title="Reforestation or restoration of degraded forests and woodlands with indigenous species plays a role in addressing losses of biodiversity and ecosystem services, including through recovering the soil carbon stocks of these ecosystems (IPBES-IPCC)"/>
@@ -915,7 +931,7 @@ Sustainable<br/>Fishing
 </td>
 <td>
 <h3>
-Spatial Planning
+Spatial<br/>Planning
 </h3>
 </td>
 <td>
@@ -923,7 +939,7 @@ Spatial Planning
 </td>
 <td>
 <h3>
-Eliminate Subsidies
+Eliminate<br/>Subsidies
 </h3>
 </td>
 </tr>
