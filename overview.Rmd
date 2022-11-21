@@ -116,7 +116,6 @@ layout: default
   }
   
   .footer {
-     font-size: 14px;
      bottom: 0;
      width: 100%;
      height: 140px;
@@ -140,13 +139,20 @@ layout: default
   }
   
   .footer_space {
+     font-size: 1.5vh;
      float: left;
      width: 25%;
   }
   .footer_column {
+     font: normal italic 1.5vh Arial;
      float: left;
      width: 25%;
      padding: 0 20px 0 0;
+  }
+  @media screen and (max-width: 750px) {
+      .footer_column, .footer_space {
+          width: 70%;
+      }
   }
 ```
 
@@ -270,7 +276,7 @@ The morning sea of silence broke into ripples of bird songs; and the flowers wer
   <div class="footer_column">
 We sang no glad songs nor played; we went not to the village for barter; we spoke not a word nor smiled; we lingered not on the way. We quickened our pace more and more as the time sped by....
   </div>
-  <div class="footer_column">
+  <div class="footer_space">
 -"48"<br/>
 Rabindranath Tagore<br/>
 <i>Gitanjali</i><br/>

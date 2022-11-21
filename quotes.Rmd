@@ -118,7 +118,6 @@ layout: default
   }
   
   .footer {
-     font-size: 14px;
      bottom: 0;
      width: 100%;
      height: 140px;
@@ -139,14 +138,22 @@ layout: default
      font-size: 16px;
      width: 80%;
   }
-  
   .footer_space {
-     float: left;
-     width: 15%;
-  }
-  .footer_column {
+     font-size: 1.5vh;
      float: left;
      width: 25%;
+  }
+  .footer_column {
+     font: normal italic 1.5vh Arial;
+     float: left;
+     width: 25%;
+     font-size: 1.5vh;
+     font-style: italic;
+  }
+  @media screen and (max-width: 750px) {
+      .footer_column, .footer_space {
+          width: 70%;
+      }
   }
 ```
 
@@ -368,7 +375,7 @@ and conserving biodiversity. For agriculture, this means using sustainable agroe
 
 > The rate of global change in nature during the past 50 years is unprecedented in human history.
 
-> 75% of terrestrial environment ((66% of marine environment) "severely altered" to date by human actions.
+> 75% of terrestrial environment (66% of marine environment) "severely altered" to date by human actions.
 
 > 300-400 million tons of heavy metals, solvents, toxic sludge and other wastes from industrial facilities are dumped annually into the world's waters.
 
@@ -482,9 +489,9 @@ Pause in their dance and break the ring for me;<br/>
 And bayberry, that through sweet bevies thread<br/>
 Of round-faced roses, pink and petulant,<br/>
   </div>
-  <div class="footer_column">
-Look back and beckon ere they disappear.<br/>
-Only my heart, only my heart responds... <br/>
+  <div class="footer_space">
+<i>Look back and beckon ere they disappear.</i><br/>
+<i>Only my heart, only my heart responds...</i><br/>
 -"Journey" <br/>
   Edna St. Vincent Millay<br/>
   </div>
