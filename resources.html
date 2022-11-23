@@ -335,10 +335,14 @@ $(document).ready(function () {
   .nav-pills {
      font-size: 14px;
   }
+  .tabset {
+     width: 80%;
+  }
   
   .logo_container {
      width: 100%;
      margin: 0 auto;
+     overflow-x: auto;
   }
   
   .icons, .docs {
@@ -352,7 +356,7 @@ $(document).ready(function () {
   }
   
   .repo_page {
-     margin: 0 0 0 100px;
+     text-align: center;
   }
   .repo_page img {
      height: 500px;
@@ -364,12 +368,18 @@ $(document).ready(function () {
   }
   
   .framecontainer {
-     width: 80%;
+     position: relative;
      margin: 0px auto;
+     width: 560px;
+     height: 315px;
   } 
   
-  iframe {
+  .framecontainer iframe {
+     position: absolute;
+     overflow-x: auto;
      border-radius: 20px;
+       width: 100%;
+       height: 100%;
   }
   
   .table_container {
@@ -462,82 +472,93 @@ class="section level1 tabset tabset-fade tabset-pills">
 </div>
 <div id="sites" class="section level2">
 <h2>Sites</h2>
-<div id="section-1" class="section level3">
-<h3></h3>
-<div class="logo_container">
-<table class="icons">
-<tr>
-<td>
-<a href="https://earthtimes.org/" target="blank"><img src="images/icon_earthtimes.png" alt="Earth Times logo" title="The Earth Times"/></a>
-</td>
-<td>
-<a href="https://www.ecowatch.com/" target="blank"><img src="images/icon_ecowatch.png" alt="Ecowatch logo" title="Ecowatch"/></a>
-</td>
-<td>
-<a href="https://www.enn.com/" target="blank"><img src="images/icon_enn.png" alt="ENN logo" title="Environmental News Network (ENN)"/></a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://grist.org/" target="blank"><img src="images/icon_grist.png" alt="Grist logo" title="Grist"/></a>
-</td>
-<td>
-<a href="https://www.theguardian.com/us/environment" target="blank"><img src="images/icon_guardian.png" alt="The Guardian logo" title="The Guardian | Environment"/></a>
-</td>
-<td>
-<a href="https://www.loe.org/" target="blank"/><img src="images/icon_livingonearth.png" alt="Living on Earth logo" title="Living On Earth"/></a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://www.nationalgeographic.com/" target="blank"><img src="images/icon_nationalgeographic.png" alt="National Geographic logo" title="National Geographic"/></a>
-</td>
-<td>
-<a href="https://www.overshootday.org/" target="blank"><img src="images/icon_earthovershoot.png" alt="OvershootDay.org logo" title="OvershootDay.org"/></a>
-</td>
-<td>
-<a href="https://www.treehugger.com/" target="blank"><img src="images/icon_treehugger.png" alt="Treehugger.org logo" title="Treehugger"/></a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://mahb.stanford.edu/" target="blank"><img src="images/icon_mahb.png" alt="MAHB logo" title="Stanford University: MAHB"/></a>
-</td>
-<td>
-<a href="https://news.mongabay.com/" target="blank"><img src="images/icon_mongabay.png" alt="Mongabay logo" title="Mongabay"/></a>
-</td>
-<td>
-<a href="https://e360.yale.edu/" target="blank"><img src="images/icon_e360.png" alt="Yale E360 logo" title="Yale University: E360"/></a>
-</td>
-</tr>
-</table>
+<p><br/></p>
+<div id="news-blogs" class="section level3">
+<h3>News / Blogs</h3>
+<ul>
+<li><h4 id="earthtimes"><a
+href="https://earthtimes.org/"><strong>EarthTimes</strong></a></h4>
+<h4
+id="news-and-blog-articles-about-the-environment-and-information-on-current-environmental-issues-and-topics-affecting-planet-earth.">News
+and blog articles about the environment and information on current
+environmental issues and topics affecting planet earth.</h4></li>
+<li><h4 id="ecowatch"><a
+href="https://www.ecowatch.com/"><strong>EcoWatch</strong></a></h4>
+<h4
+id="a-digital-platform-still-dedicated-to-publishing-quality-science-based-content-on-environmental-issues-causes-and-solutions.">A
+digital platform still dedicated to publishing quality, science-based
+content on environmental issues, causes, and solutions.</h4></li>
+<li><h4 id="environmental-news-network"><a
+href="https://www.enn.com/"><strong>Environmental News
+Network</strong></a></h4>
+<h4
+id="aggregator-of-environmental-news-and-collection-of-resources-teachers-experts-and-tools-that-provide-objective-information-and-knowledge-about-the-increasingly-complex-field-of-environmental-science.">Aggregator
+of environmental news and collection of resources, teachers, experts and
+tools that provide objective information and knowledge about the
+increasingly complex field of environmental science.</h4></li>
+<li><h4 id="grist"><a
+href="https://grist.org/"><strong>Grist</strong></a></h4>
+<h4
+id="a-nonprofit-media-organization-telling-stories-of-climate-solutions-and-a-just-future.">A
+nonprofit media organization telling stories of climate solutions and a
+just future.</h4></li>
+<li><h4 id="the-guardian-environment"><a
+href="https://www.theguardian.com/us/environment"><strong>The Guardian |
+Environment</strong></a></h4>
+<h4
+id="latest-environmental-news-opinion-and-analysis-from-the-guardian">Latest
+environmental news, opinion and analysis from the Guardian</h4></li>
+<li><h4 id="mongabay"><a
+href="https://news.mongabay.com/"><strong>Mongabay</strong></a></h4>
+<h4
+id="u.s.-based-non-profit-conservation-and-environmental-science-news-platform">U.S.-based
+non-profit conservation and environmental science news
+platform</h4></li>
+<li><h4 id="national-geographic"><a
+href="https://www.nationalgeographic.com/environment"><strong>National
+Geographic</strong></a></h4>
+<h4 id="latest-stories-about-the-environment">Latest stories about the
+environment</h4></li>
+<li><h4 id="stanford-university-mahb"><a
+href="https://mahb.stanford.edu/"><strong>Stanford University:
+MAHB</strong></a></h4>
+<h4
+id="millennium-alliance-for-humanity-and-the-biosphere-mahb-is-a-meeting-place-for-global-civil-society-citizens-concerned-with-the-interconnections-among-the-greatest-threats-to-human-well-being-this-is-the-human-predicament.">Millennium
+Alliance for Humanity and the Biosphere (MAHB) is a meeting place for
+global civil society — citizens concerned with the interconnections
+among the greatest threats to human well-being: this is the human
+predicament.</h4></li>
+<li><h4 id="yale-university-e360"><a
+href="https://e360.yale.edu/"><strong>Yale University:
+E360</strong></a></h4>
+<h4
+id="an-original-independent-voice-in-environmental-journalism-e360-is-an-online-magazine-that-publishes-opinion-analysis-reporting-and-debate-on-global-environmental-issues.">An
+original, independent voice in environmental journalism, E360 is an
+online magazine that publishes opinion, analysis, reporting, and debate
+on global environmental issues.</h4></li>
+</ul>
+<p><br/></p>
 </div>
+<div id="other" class="section level3">
+<h3>Other</h3>
+<ul>
+<li><h4 id="overshoot-day"><a
+href="https://www.overshootday.org/%22"><strong>Overshoot
+Day</strong></a></h4>
+<h4
+id="earth-overshoot-day-marks-the-date-when-humanity-has-used-all-the-biological-resources-that-earth-regenerates-during-the-entire-year.">Earth
+Overshoot Day marks the date when humanity has used all the biological
+resources that Earth regenerates during the entire year.</h4></li>
+</ul>
 <p><br/> <br/> <br/></p>
 </div>
 </div>
 <div id="data" class="section level2">
 <h2>Data</h2>
 <p><br/></p>
+<div id="global" class="section level3">
+<h3>Global</h3>
 <ul>
-<li><h4 id="atlas-of-living-australia"><a
-href="https://www.ala.org.au/"><strong>Atlas of Living
-Australia</strong></a></h4>
-<h4 id="open-access-to-australias-biodiversity-data">Open Access to
-Australia’s biodiversity data</h4></li>
-<li><h4 id="bgci-threatsearch-database"><a
-href="https://tools.bgci.org/threat_search.php"
-target="_blank"><strong>BGCI: ThreatSearch Database</strong></a></h4>
-<h4
-id="the-most-comprehensive-database-of-conservation-assessments-of-plants">The
-most comprehensive database of conservation assessments of
-plants</h4></li>
-<li><h4 id="birdlife-international-data-zone"><a
-href="http://datazone.birdlife.org/home"><strong>BirdLife International:
-Data Zone</strong></a></h4>
-<h4
-id="web-portal-for-case-studies-important-bird-and-biodiversity-areas-ibas-country-profiles-and-case-studies-regarding-bird-species.">Web
-portal for case studies, Important Bird and Biodiversity Areas (IBAs),
-country profiles, and case studies regarding bird species.</h4></li>
 <li><h4 id="global-biodiversity-information-facility"><a
 href="https://www.gbif.org/" target="_blank"><strong>Global Biodiversity
 Information Facility</strong></a></h4>
@@ -588,6 +609,33 @@ id="nasa-earth-observation-data-are-a-key-component-of-research-into-the-causes-
 Earth observation data are a key component of research into the causes
 behind changes in biodiversity and the impacts of these
 changes.</h4></li>
+<li><h4 id="un-biodiversity-lab"><a
+href="https://unbiodiversitylab.org/" target="_blank"><strong>UN
+Biodiversity Lab</strong></a></h4>
+<h4
+id="provides-access-to-global-spatial-data-to-generate-insight-and-impact-for-conservation-and-sustainable-development">Provides
+access to global spatial data to generate insight and impact for
+conservation and sustainable development</h4></li>
+<li><h4
+id="york-university-ecological-footprint-initiative-global-footprint-network"><a
+href="https://data.footprintnetwork.org" target="_blank"><strong>York
+University Ecological Footprint Initiative &amp; Global Footprint
+Network</strong></a></h4>
+<h4
+id="data-materials-and-outputs-assessing-national-footprint-and-biocapacity-accounts-across-the-world">Data
+materials and outputs assessing national footprint and biocapacity
+accounts across the world</h4></li>
+</ul>
+<p><br/></p>
+</div>
+<div id="regional" class="section level3">
+<h3>Regional</h3>
+<ul>
+<li><h4 id="atlas-of-living-australia"><a
+href="https://www.ala.org.au/"><strong>Atlas of Living
+Australia</strong></a></h4>
+<h4 id="open-access-to-australias-biodiversity-data">Open Access to
+Australia’s biodiversity data</h4></li>
 <li><h4 id="natureserve-explorer"><a
 href="https://explorer.natureserve.org/"
 target="_blank"><strong>NatureServe Explorer</strong></a></h4>
@@ -599,20 +647,14 @@ ecosystems in the Americas.</h4></li>
 Atlas</strong></a></h4>
 <h4 id="uks-largest-collection-of-biodiversity-information">UK’s largest
 collection of biodiversity information</h4></li>
-<li><h4 id="ocean-biodiversity-information-system-obis"><a
-href="https://obis.org/" target="_blank"><strong>Ocean Biodiversity
-Information System (OBIS)</strong></a></h4>
+<li><h4 id="noaa-diver"><a
+href="https://www.diver.orr.noaa.gov/"><strong>NOAA:
+DIVER</strong></a></h4>
 <h4
-id="global-open-access-data-and-information-clearing-house-on-marine-biodiversity-for-science-conservation-and-sustainable">Global
-open-access data and information clearing-house on marine biodiversity
-for science, conservation and sustainable</h4></li>
-<li><h4 id="un-biodiversity-lab"><a
-href="https://unbiodiversitylab.org/" target="_blank"><strong>UN
-Biodiversity Lab</strong></a></h4>
-<h4
-id="provides-access-to-global-spatial-data-to-generate-insight-and-impact-for-conservation-and-sustainable-development.">Provides
-access to global spatial data to generate insight and impact for
-conservation and sustainable development.</h4></li>
+id="the-diver-data-integration-visualization-exploration-and-reporting-tool-was-developed-by-noaa-to-support-these-natural-resource-damage-assessment-nrda-efforts.">The
+DIVER (Data Integration, Visualization, Exploration, and Reporting) tool
+was developed by NOAA to support these natural resource damage
+assessment (NRDA) efforts.</h4></li>
 <li><h4 id="usa-epa-ecoregions-maps"><a
 href="https://www.epa.gov/eco-research/ecoregions"
 target="_blank"><strong>USA EPA: Ecoregions Maps</strong></a></h4>
@@ -620,16 +662,73 @@ target="_blank"><strong>USA EPA: Ecoregions Maps</strong></a></h4>
 id="continental-and-conterminous-us-ecoregions-maps-and-gis-datasets-for-spatial-analysis">Continental
 and conterminous US ecoregions maps and GIS datasets for spatial
 analysis</h4></li>
+</ul>
+<p><br/></p>
+</div>
+<div id="plants" class="section level3">
+<h3>Plants</h3>
+<ul>
+<li><h4 id="bgci-threatsearch-database"><a
+href="https://tools.bgci.org/threat_search.php"
+target="_blank"><strong>BGCI: ThreatSearch Database</strong></a></h4>
+<h4
+id="the-most-comprehensive-database-of-conservation-assessments-of-plants">The
+most comprehensive database of conservation assessments of
+plants</h4></li>
+<li><h4 id="kew-plants-of-the-world-online"><a
+href="https://powo.science.kew.org/"><strong>Kew: Plants of the World
+Online</strong></a></h4>
+<h4
+id="an-international-collaborative-programme-that-has-as-a-primary-aim-to-make-available-digitized-data-of-the-worlds-flora-gathered-from-the-past-250-years-of-botanical-exploration-and-research">An
+international collaborative programme that has as a primary aim to make
+available digitized data of the world’s flora gathered from the past 250
+years of botanical exploration and research</h4></li>
 <li><h4 id="world-flora-online"><a
 href="http://www.worldfloraonline.org/" target="_blank"><strong>World
 Flora Online</strong></a></h4>
 <h4 id="global-overview-of-the-diversity-of-plant-species">Global
 overview of the diversity of plant species</h4></li>
+</ul>
+<p><br/></p>
+</div>
+<div id="animals" class="section level3">
+<h3>Animals</h3>
+<ul>
+<li><h4 id="birdlife-international-data-zone"><a
+href="http://datazone.birdlife.org/home"><strong>BirdLife International:
+Data Zone</strong></a></h4>
+<h4
+id="web-portal-for-case-studies-important-bird-and-biodiversity-areas-ibas-country-profiles-and-case-studies-regarding-bird-species.">Web
+portal for case studies, Important Bird and Biodiversity Areas (IBAs),
+country profiles, and case studies regarding bird species.</h4></li>
 <li><h4 id="wwf-living-planet-index"><a
 href="https://livingplanetindex.org/data_portal"
 target="_blank"><strong>WWF: Living Planet Index</strong></a></h4>
-<p>Dataset contains time-series of population abundance data for
-vertebrate species spanning years between 1970 and 2021.</p></li>
+<h4
+id="dataset-contains-time-series-of-population-abundance-data-for-vertebrate-species-spanning-years-between-1970-and-2021.">Dataset
+contains time-series of population abundance data for vertebrate species
+spanning years between 1970 and 2021.</h4></li>
+</ul>
+<p><br/></p>
+</div>
+<div id="fungi" class="section level3">
+<h3>Fungi</h3>
+<ul>
+<li><h4 id="globalfungi-database"><a
+href="https://globalfungi.com/"><strong>GlobalFungi
+Database</strong></a></h4>
+<h4
+id="validated-collection-of-published-data-on-the-composition-of-soil-fungal-communities-in-terrestrial-environments-including-soil-and-plant-associated-habitats-and-made-them-publicly-accessible-through-a-user-interface">Validated
+collection of published data on the composition of soil fungal
+communities in terrestrial environments including soil and
+plant-associated habitats and made them publicly accessible through a
+user interface</h4></li>
+</ul>
+<p><br/></p>
+</div>
+<div id="land" class="section level3">
+<h3>Land</h3>
+<ul>
 <li><h4 id="wwf-terrestrial-ecoregions-of-the-world-biomes-in-arcgis"><a
 href="https://www.arcgis.com/apps/View/index.html?appid=d60ec415febb4874ac5e0960a6a2e448"
 target="_blank"><strong>WWF Terrestrial Ecoregions Of The World (Biomes)
@@ -638,17 +737,22 @@ in ArcGIS</strong></a></h4>
 id="arcgis-app-to-explorer-the-worlds-800-terrestial-ecoregions-classified-in-14-different-biome-types">ArcGIS
 app to explorer the world’s 800+ terrestial ecoregions classified in 14
 different biome types</h4></li>
-<li><h4
-id="york-university-ecological-footprint-initiative-global-footprint-network"><a
-href="https://data.footprintnetwork.org" target="_blank"><strong>York
-University Ecological Footprint Initiative &amp; Global Footprint
-Network</strong></a></h4>
+</ul>
+<p><br/></p>
+</div>
+<div id="ocean" class="section level3">
+<h3>Ocean</h3>
+<ul>
+<li><h4 id="ocean-biodiversity-information-system-obis"><a
+href="https://obis.org/" target="_blank"><strong>Ocean Biodiversity
+Information System (OBIS)</strong></a></h4>
 <h4
-id="data-materials-and-outputs-assessing-national-footprint-and-biocapacity-accounts-across-the-world">Data
-materials and outputs assessing national footprint and biocapacity
-accounts across the world</h4></li>
+id="global-open-access-data-and-information-clearing-house-on-marine-biodiversity-for-science-conservation-and-sustainable">Global
+open-access data and information clearing-house on marine biodiversity
+for science, conservation and sustainable</h4></li>
 </ul>
 <p><br/> <br/></p>
+</div>
 </div>
 <div id="research" class="section level2">
 <h2>Research</h2>
@@ -809,7 +913,7 @@ accounts across the world</h4></li>
 </div>
 <div id="documentaries" class="section level2">
 <h2>Documentaries</h2>
-<div>
+<div class="logo_container">
 <table class="docs">
 <tr>
 <td>
@@ -869,35 +973,35 @@ accounts across the world</h4></li>
 <div id="videos" class="section level2">
 <h2>Videos</h2>
 <p><br/></p>
-<div id="eowilson-biodiversity-foundation-what-is-biodiversity"
-class="section level3">
-<h3>EOWilson Biodiversity Foundation: What is Biodiversity?</h3>
-<div class="framecontainer">
-<p><iframe src="https://player.vimeo.com/video/34930003" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
-</div>
-<p><br/></p>
-</div>
-<div id="greenpeace-biodiversity-loss-from-land-use"
-class="section level3">
-<h3>Greenpeace – Biodiversity loss from land use</h3>
-<div class="framecontainer">
-<p><iframe src="https://player.vimeo.com/video/385534892" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
-</div>
-</div>
 <div
 id="ipbes-global-assessment-animation-direct-drivers-of-biodiversity-loss"
 class="section level3">
 <h3>IPBES Global Assessment Animation: Direct Drivers of Biodiversity
 Loss</h3>
 <div class="framecontainer">
-<p><iframe src="https://player.vimeo.com/video/334457422" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+<p><iframe src="https://player.vimeo.com/video/334457422" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+</div>
+<p><br/></p>
+</div>
+<div id="greenpeace-biodiversity-loss-from-land-use"
+class="section level3">
+<h3>Greenpeace: Biodiversity loss from land use</h3>
+<div class="framecontainer">
+<p><iframe src="https://player.vimeo.com/video/385534892" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+</div>
+<p><br/></p>
+</div>
+<div id="wwf-untangled-biodiversity-loss" class="section level3">
+<h3>WWF: Untangled: Biodiversity Loss</h3>
+<div class="framecontainer">
+<p><iframe src="https://www.youtube.com/embed/KM0EZP5ijbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 <p><br/> <br/> <br/></p>
 <hr />
 </div>
 </div>
 </div>
-<div id="section-2" class="section level1">
+<div id="section-1" class="section level1">
 <h1></h1>
 <p><br/> <br/></p>
 <hr />
@@ -909,7 +1013,7 @@ class="section level3">
 <table id="bottom_icons">
 <tr>
 <td>
-<img src="images/stick_figure_tree_green.png" alt="tree icon" title="Reforestation or restoration of degraded forests and woodlands with indigenous species plays a role in addressing losses of biodiversity and ecosystem services, including through recovering the soil carbon stocks of these ecosystems (IPBES-IPCC)"/>
+<img class="img" src="images/stick_figure_tree_green.png" alt="tree icon" title="Reforestation or restoration of degraded forests and woodlands with indigenous species plays a role in addressing losses of biodiversity and ecosystem services, including through recovering the soil carbon stocks of these ecosystems (IPBES-IPCC)"/>
 </td>
 <td>
 <h3>

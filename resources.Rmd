@@ -31,10 +31,14 @@ layout: default
   .nav-pills {
      font-size: 14px;
   }
+  .tabset {
+     width: 80%;
+  }
   
   .logo_container {
      width: 100%;
      margin: 0 auto;
+     overflow-x: auto;
   }
   
   .icons, .docs {
@@ -48,7 +52,7 @@ layout: default
   }
   
   .repo_page {
-     margin: 0 0 0 100px;
+     text-align: center;
   }
   .repo_page img {
      height: 500px;
@@ -60,12 +64,18 @@ layout: default
   }
   
   .framecontainer {
-     width: 80%;
+     position: relative;
      margin: 0px auto;
+     width: 560px;
+     height: 315px;
   } 
   
-  iframe {
+  .framecontainer iframe {
+     position: absolute;
+     overflow-x: auto;
      border-radius: 20px;
+	   width: 100%;
+	   height: 100%;
   }
   
   .table_container {
@@ -162,32 +172,43 @@ RMarkdown site by ParfaitG with source code:
 
 ## Sites
 
-###  
+<br/>
 
-<div class="logo_container">
-  <table class="icons">
-     <tr>
-        <td><a href="https://earthtimes.org/" target="blank"><img src="images/icon_earthtimes.png" alt="Earth Times logo" title="The Earth Times"/></a></td> 
-        <td><a href="https://www.ecowatch.com/" target="blank"><img src="images/icon_ecowatch.png" alt="Ecowatch logo" title="Ecowatch"/></a></td>
-        <td><a href="https://www.enn.com/" target="blank"><img src="images/icon_enn.png" alt="ENN logo" title="Environmental News Network (ENN)"/></a></td>
-     </tr>
-     <tr>
-        <td><a href="https://grist.org/" target="blank"><img src="images/icon_grist.png" alt="Grist logo" title="Grist"/></a></td>
-        <td><a href="https://www.theguardian.com/us/environment" target="blank"><img src="images/icon_guardian.png" alt="The Guardian logo" title="The Guardian | Environment"/></a></td>
-        <td><a href="https://www.loe.org/" target="blank"/><img src="images/icon_livingonearth.png" alt="Living on Earth logo" title="Living On Earth"/></a></td>
-     </tr>
-     <tr>
-        <td><a href="https://www.nationalgeographic.com/" target="blank"><img src="images/icon_nationalgeographic.png" alt="National Geographic logo" title="National Geographic"/></a></td>
-        <td><a href="https://www.overshootday.org/" target="blank"><img src="images/icon_earthovershoot.png" alt="OvershootDay.org logo" title="OvershootDay.org"/></a></td>
-        <td><a href="https://www.treehugger.com/" target="blank"><img src="images/icon_treehugger.png" alt="Treehugger.org logo" title="Treehugger"/></a></td>
-     </tr>
-     <tr>
-        <td><a href="https://mahb.stanford.edu/" target="blank"><img src="images/icon_mahb.png" alt="MAHB logo" title="Stanford University: MAHB"/></a></td>
-        <td><a href="https://news.mongabay.com/" target="blank"><img src="images/icon_mongabay.png" alt="Mongabay logo" title="Mongabay"/></a></td>
-        <td><a href="https://e360.yale.edu/" target="blank"><img src="images/icon_e360.png" alt="Yale E360 logo" title="Yale University: E360"/></a></td>
-     </tr>
-  </table>
-</div>
+### News / Blogs
+
+- #### [**EarthTimes**](https://earthtimes.org/)
+  #### News and blog articles about the environment and information on current environmental issues and topics affecting planet earth.
+
+- #### [**EcoWatch**](https://www.ecowatch.com/)
+  #### A digital platform still dedicated to publishing quality, science-based content on environmental issues, causes, and solutions.
+
+- #### [**Environmental News Network**](https://www.enn.com/)
+  #### Aggregator of environmental news and collection of resources, teachers, experts and tools that provide objective information and knowledge about the increasingly complex field of environmental science.
+
+- #### [**Grist**](https://grist.org/)
+  #### A nonprofit media organization telling stories of climate solutions and a just future.
+  
+- #### [**The Guardian | Environment**](https://www.theguardian.com/us/environment)
+  #### Latest environmental news, opinion and analysis from the Guardian
+  
+- #### [**Mongabay**](https://news.mongabay.com/)
+  #### U.S.-based non-profit conservation and environmental science news platform
+  
+- #### [**National Geographic**](https://www.nationalgeographic.com/environment)
+  #### Latest stories about the environment
+
+- #### [**Stanford University: MAHB**](https://mahb.stanford.edu/)
+  #### Millennium Alliance for Humanity and the Biosphere (MAHB) is a meeting place for global civil society — citizens concerned with the interconnections among the greatest threats to human well-being: this is the human predicament.
+  
+- #### [**Yale University: E360**](https://e360.yale.edu/)
+  #### An original, independent voice in environmental journalism, E360 is an online magazine that publishes opinion, analysis, reporting, and debate on global environmental issues.
+
+<br/>
+
+### Other
+
+- #### [**Overshoot Day**](https://www.overshootday.org/")
+  #### Earth Overshoot Day marks the date when humanity has used all the biological resources that Earth regenerates during the entire year.
 
 <br/>
 <br/>
@@ -197,14 +218,7 @@ RMarkdown site by ParfaitG with source code:
 
 <br/>
 
-- #### [**Atlas of Living Australia**](https://www.ala.org.au/)
-  #### Open Access to Australia's biodiversity data
-
-- #### [**BGCI: ThreatSearch Database**](https://tools.bgci.org/threat_search.php){target="_blank"}  
-  #### The most comprehensive database of conservation assessments of plants
-
-- #### [**BirdLife International: Data Zone**](http://datazone.birdlife.org/home)
-  #### Web portal for case studies, Important Bird and Biodiversity Areas (IBAs), country profiles, and case studies regarding bird species.
+### Global
 
 - #### [**Global Biodiversity Information Facility**](https://www.gbif.org/){target="_blank"}  
   #### An international network and data infrastructure funded by the world's governments and aimed at providing anyone, anywhere, open access to data about all types of life on Earth
@@ -223,33 +237,75 @@ RMarkdown site by ParfaitG with source code:
 
 - #### [**NASA Earth Data: Biological Diversity and Ecological Forecasting**](https://www.earthdata.nasa.gov/learn/biodiversity-data-resources){target="_blank"}  
   #### NASA Earth observation data are a key component of research into the causes behind changes in biodiversity and the impacts of these changes.
+  
+- #### [**UN Biodiversity Lab**](https://unbiodiversitylab.org/){target="_blank"}  
+  #### Provides access to global spatial data to generate insight and impact for conservation and sustainable development
+  
+- #### [**York University Ecological Footprint Initiative & Global Footprint Network**](https://data.footprintnetwork.org){target="_blank"}  
+  #### Data materials and outputs assessing national footprint and biocapacity accounts across the world
+  
+<br/>
+
+### Regional
+
+- #### [**Atlas of Living Australia**](https://www.ala.org.au/)
+  #### Open Access to Australia's biodiversity data
 
 - #### [**NatureServe Explorer**](https://explorer.natureserve.org/){target="_blank"}  
   #### The definitive source for information on rare and endangered species and ecosystems in the Americas.
-
+  
 - #### [**NBN Atlas**](https://nbnatlas.org/)
   #### UK's largest collection of biodiversity information
+
+- #### [**NOAA: DIVER**](https://www.diver.orr.noaa.gov/)
+  #### The DIVER (Data Integration, Visualization, Exploration, and Reporting) tool was developed by NOAA to support these natural resource damage assessment (NRDA) efforts.
   
-- #### [**Ocean Biodiversity Information System (OBIS)**](https://obis.org/){target="_blank"}  
-  #### Global open-access data and information clearing-house on marine biodiversity for science, conservation and sustainable
-
-- #### [**UN Biodiversity Lab**](https://unbiodiversitylab.org/){target="_blank"}  
-  #### Provides access to global spatial data to generate insight and impact for conservation and sustainable development.
-
 - #### [**USA EPA: Ecoregions Maps**](https://www.epa.gov/eco-research/ecoregions){target="_blank"}  
   #### Continental and conterminous US ecoregions maps and GIS datasets for spatial analysis
+  
+<br/>
+
+### Plants
+
+- #### [**BGCI: ThreatSearch Database**](https://tools.bgci.org/threat_search.php){target="_blank"}  
+  #### The most comprehensive database of conservation assessments of plants
+
+- #### [**Kew: Plants of the World Online**](https://powo.science.kew.org/)
+  #### An international collaborative programme that has as a primary aim to make available digitized data of the world’s flora gathered from the past 250 years of botanical exploration and research
   
 - #### [**World Flora Online**](http://www.worldfloraonline.org/){target="_blank"}  
   #### Global overview of the diversity of plant species
   
+<br/>
+
+### Animals
+
+- #### [**BirdLife International: Data Zone**](http://datazone.birdlife.org/home)
+  #### Web portal for case studies, Important Bird and Biodiversity Areas (IBAs), country profiles, and case studies regarding bird species.
+
 - #### [**WWF: Living Planet Index**](https://livingplanetindex.org/data_portal){target="_blank"}  
-  Dataset contains time-series of population abundance data for vertebrate species spanning years between 1970 and 2021.
-  
+  #### Dataset contains time-series of population abundance data for vertebrate species spanning years between 1970 and 2021.
+
+<br/>
+
+### Fungi
+
+- #### [**GlobalFungi Database**](https://globalfungi.com/)
+  #### Validated collection of published data on the composition of soil fungal communities in terrestrial environments including soil and plant-associated habitats and made them publicly accessible through a user interface 
+
+<br/>
+
+### Land
+
 - #### [**WWF Terrestrial Ecoregions Of The World (Biomes) in ArcGIS**](https://www.arcgis.com/apps/View/index.html?appid=d60ec415febb4874ac5e0960a6a2e448){target="_blank"}  
   #### ArcGIS app to explorer the world's 800+ terrestial ecoregions classified in 14 different biome types
 
-- #### [**York University Ecological Footprint Initiative & Global Footprint Network**](https://data.footprintnetwork.org){target="_blank"}  
-  #### Data materials and outputs assessing national footprint and biocapacity accounts across the world
+<br/>
+
+### Ocean
+
+- #### [**Ocean Biodiversity Information System (OBIS)**](https://obis.org/){target="_blank"}  
+  #### Global open-access data and information clearing-house on marine biodiversity for science, conservation and sustainable
 
 <br/>
 <br/>
@@ -337,7 +393,7 @@ RMarkdown site by ParfaitG with source code:
 
 ## Documentaries
 
-<div>
+<div class="logo_container">
   <table class="docs">
    <tr>
       <td><a href="https://www.imdb.com/title/tt0296310" target="blank"><img src="images/doc_blueplanet.png" alt="The Blue Planet poster" title="The Blue Planet (2001)"/></a></td>
@@ -371,27 +427,28 @@ RMarkdown site by ParfaitG with source code:
 
 <br/>
 
-### EOWilson Biodiversity Foundation: What is Biodiversity?
-
-<div class="framecontainer">
-  <iframe src="https://player.vimeo.com/video/34930003" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-### Greenpeace – Biodiversity loss from land use
-
-<div class="framecontainer">
-  <iframe src="https://player.vimeo.com/video/385534892" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
 
 ### IPBES Global Assessment Animation: Direct Drivers of Biodiversity Loss
 
 <div class="framecontainer">
-  <iframe src="https://player.vimeo.com/video/334457422" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/334457422" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
+<br/>
 
+### Greenpeace: Biodiversity loss from land use
+
+<div class="framecontainer">
+  <iframe src="https://player.vimeo.com/video/385534892" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
+<br/>
+
+### WWF: Untangled: Biodiversity Loss
+
+<div class="framecontainer">
+  <iframe src="https://www.youtube.com/embed/KM0EZP5ijbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 <br/>
@@ -415,7 +472,7 @@ RMarkdown site by ParfaitG with source code:
 <div class="table_container">
 <table id="bottom_icons">
    <tr>
-      <td><img src="images/stick_figure_tree_green.png" alt="tree icon" title="Reforestation or restoration of degraded forests and woodlands with indigenous species plays a role in addressing losses of biodiversity and ecosystem services, including through recovering the soil carbon stocks of these ecosystems (IPBES-IPCC)"/></td>
+      <td><img class="img" src="images/stick_figure_tree_green.png" alt="tree icon" title="Reforestation or restoration of degraded forests and woodlands with indigenous species plays a role in addressing losses of biodiversity and ecosystem services, including through recovering the soil carbon stocks of these ecosystems (IPBES-IPCC)"/></td>
       <td><h3>Reforestation</h3></td>
       <td><img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="Some recent analysis have discussed the impact of rewilding on ecosystem carbon cycling and hence climate change mitigation, given the effects animals and trophic cascades have on biomass consumption, carbon turnover, or methane emissions (IPBES-IPCC)"/></td>
       <td><h3>Rewilding</h3></td>

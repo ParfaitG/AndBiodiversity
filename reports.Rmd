@@ -126,7 +126,9 @@ $(function() {
 
 - ### [World Wildlife Fund: Living Planet Report](https://livingplanet.panda.org/en-us/)
 - ### [BLI: State of the World’s Birds 2022](https://www.birdlife.org/papers-reports/state-of-the-worlds-birds-2022/)
+- ### [UNCCD: Global Land Outlook 2](https://unccd.int/resources/global-land-outlook/glo2)
 - ### [IPBES: Assessment Report on Diverse Values and Valuation of Nature](https://ipbes.net/media_release/Values_Assessment_Published)
+- ### [FAO; The State of World Fisheries and Aquaculture (SOFIA) 2022](https://www.fao.org/publications/sofia/2022/en/)
 - ### [IPBES: Assessment Report on the Sustainable Use of Wild Species](https://ipbes.net/sustainable-use-assessment)
 - ### [IPCC: Sixth Assessment Part 2: Climate Change - Impacts, Adaptation and Vulnerability](https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/)
 - ### [Stockholm Environment Institute: A comprehensive approach to nitrogen in the UK](https://www.sei.org/publications/nitrogen-in-uk-wwf/)
@@ -149,29 +151,94 @@ $(function() {
 ### 2020
 
 - ### [World Wildlife Fund: Living Planet Report (2020)](https://www.worldwildlife.org/publications/living-planet-report-2020)
+- ### [OECD: A Comprehensive Overview of Global Biodiversity Finance](https://www.oecd.org/environment/resources/biodiversity/report-a-comprehensive-overview-of-global-biodiversity-finance.pdf)
 - ### [Pew Charitable Trusts: Breaking the Plastic Wave: Top Findings for Preventing Plastic Pollution (2020)](https://www.pewtrusts.org/en/research-and-analysis/articles/2020/07/23/breaking-the-plastic-wave-top-findings)
 - ### [IPBES Workshop Report on Biodiversity and Pandemics (2020)](https://ipbes.net/sites/default/files/2020-12/IPBES%20Workshop%20on%20Biodiversity%20and%20Pandemics%20Report_0.pdf)
+- ### [Kew: State of the World's Plants and Fungi](https://www.kew.org/science/state-of-the-worlds-plants-and-fungi)
 - ### [UN CBD: Global Biodiversity Outlook 5 (2020)](https://www.unep.org/resources/report/global-biodiversity-outlook-5-gbo-5?_ga=2.87214558.710523140.1666576950-1438871190.1665938202)
 
 
 ## 2010 - 2019
 
+### 2019
+
+- ### [IPCC: Special Report Climate Change and Land (2019)](https://www.ipcc.ch/srccl/)
 - ### [IPBES Global Assessment on Biodiversity and Ecosystem Services (2019)](https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/)
 - ### [UNEP: Frontiers 2018/19: Emerging Issues of Environmental Concern (2019)](https://www.unep.org/resources/frontiers-201819-emerging-issues-environmental-concern)
+- ### [OECD: Biodiversity: Finance and the Business and Economic Case for Action (2019)](https://www.oecd.org/env/resources/biodiversity/biodiversity-finance-and-the-economic-and-business-case-for-action.htm)
+- ### [UNEP: Global Environment Outlook 6](https://www.unep.org/resources/global-environment-outlook-6)
+
+<br/>
+<br/>
+
+### 2018
+
 - ### [IPCC: Special Report Global Warming of 1.5 ºC (2018)](https://www.ipcc.ch/sr15/)
 - ### [IPBES: Assessment Report on Land Degradation and Restoration (2018)](https://ipbes.net/assessment-reports/ldr)
 - ### [World Wildlife Fund: Living Planet Report (2018)](https://www.worldwildlife.org/pages/living-planet-report-2018)
+- ### [Kew: State of the World's Fungi 2018](https://kew.iro.bl.uk/concern/reports/e30de436-455d-410e-8605-8c533a0398ce?locale=en)
+
+<br/>
+<br/>
+
+### 2017
+
+- ### [UNCCD: Global Land Outlook 1](https://unccd.int/resources/global-land-outlook/glo1)
+- ### [Kew: State of the World's Plants 2017](https://kew.iro.bl.uk/concern/reports/2e0d292a-c3da-49ea-a500-32a4f9aff281?locale=en)
+
+<br/>
+<br/>
+
+### 2016
+
 - ### [IPBES Assessment Report on Pollinators, Pollination and Food Production (2016)](https://ipbes.net/assessment-reports/pollinators)
 - ### [World Wildlife Fund: Living Planet Report (2016)](https://www.worldwildlife.org/pages/living-planet-report-2016)
+- ### [Kew: State of the World's Plants 2016](https://kew.iro.bl.uk/concern/reports/f931f1de-72c7-46b4-b57c-28eb417c53ec?locale=en)
+
+<br/>
+<br/>
+
+### 2015
+
+- ### [FAO: Status of the World's Soil Resources (2015)](https://www.fao.org/documents/card/en/c/c6814873-efc3-41db-b7d3-2081a10ede50/)
+- ### [IPBES Conceptual Framework - Connecting Nature and People (2015)](https://ipbes.net/document-library-catalogue/ipbes-conceptual-framework-connecting-nature-and-people)
 - ### [WHO and CBD: Connecting Global Priorities: Biodiversity and Human Health (2015)](https://www.cbd.int/health/SOK-biodiversity-en.pdf)
+
+<br/>
+<br/>
+
+### 2014
+
 - ### [World Wildlife Fund: Living Planet Report (2014)](https://www.worldwildlife.org/pages/living-planet-report-2014)
 - ### [Protected Planet Report 2014: Tracking progress towards global targets for protected areas](https://wedocs.unep.org/handle/20.500.11822/9280)
 - ### [UN CBD: Global Biodiversity Outlook 4 (2014)](https://www.cbd.int/gbo4/)
+
+<br/>
+<br/>
+
+### 2012
+
+- ### [UNEP: Fifth Global Environment Outlook Report: Environment for the Future We Want (2012)](https://www.unep.org/resources/global-environment-outlook-5)
 - ### [World Wildlife Fund: Living Planet Report (2012)](https://wwf.panda.org/discover/knowledge_hub/all_publications/living_planet_report_timeline/lpr_2012/)
+
+<br/>
+<br/>
+
+### 2011
+
 - ### [UNEP: The Economics of Ecosystems and Biodiversity in National and International Policy Making (2011)](https://wedocs.unep.org/handle/20.500.11822/28231)
 - ### [UN CBD: Global Biodiversity Outlook 3 (2010)](https://www.cbd.int/gbo3/)
+
+<br/>
+<br/>
+
+### 2010
+
 - ### [UNEP: Dead planet, living planet: biodiversity and ecosystem restoration for sustainable development (2010)](https://wedocs.unep.org/handle/20.500.11822/7895)
 - ### [CAFF: Arctic Biodiversity Trends - Selected Indicators of Change (2010)](https://www.caff.is/assessment-series/162-arctic-biodiversity-trends-2010-selected-indicators-of-change)
+
+<br/>
+<br/>
 
 ## 2000 - 2009
 
