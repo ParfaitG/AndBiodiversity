@@ -167,9 +167,8 @@ $(function() {
 
 <div class="logo"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></div>
 
-### Read and share cited quotes from major reports regarding the biodiversity loss crisis
+#### Read, cite, and share quotes from major reports regarding biodiversity loss.
 
-<br/>
 <br/>
 
 ---
@@ -438,9 +437,8 @@ and conserving biodiversity. For agriculture, this means using sustainable agroe
 
 ---
 
-### Why _And Biodiversity_? To review nature's contributions to people:
+#### Why _And Biodiversity_? To review nature's contributions to people:
 
-<br/>
 <br/>
 
 <div class="table_container">

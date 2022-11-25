@@ -166,7 +166,7 @@ $(function() {
 
 <div class="logo"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></div>
 
-## See below to learn more about biodiversity loss:
+#### Learn more about biodiversity loss at a high level overview.
 
 ---
 
@@ -229,9 +229,8 @@ $(function() {
 
 ---
 
-### Why _And Biodiversity_? To analyze solutions:
+#### Why _And Biodiversity_? To analyze solutions:
 
-<br/>
 <br/>
 
 <div class="table_container">

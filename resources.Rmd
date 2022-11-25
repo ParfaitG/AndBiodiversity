@@ -150,7 +150,7 @@ $(function() {
 
 <div class="logo"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></div>
 
-## See below resources regarding biodiversity:
+#### Check out the many resources and affiliations regarding biodiversity.
 
 <br/>
 
@@ -428,7 +428,7 @@ RMarkdown site by ParfaitG with source code:
 <br/>
 
 
-### IPBES Global Assessment Animation: Direct Drivers of Biodiversity Loss
+#### IPBES Global Assessment Animation: Direct Drivers of Biodiversity Loss
 
 <div class="framecontainer">
   <iframe src="https://player.vimeo.com/video/334457422" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -436,7 +436,7 @@ RMarkdown site by ParfaitG with source code:
 
 <br/>
 
-### Greenpeace: Biodiversity loss from land use
+#### Greenpeace: Biodiversity loss from land use
 
 <div class="framecontainer">
   <iframe src="https://player.vimeo.com/video/385534892" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -444,7 +444,7 @@ RMarkdown site by ParfaitG with source code:
 
 <br/>
 
-### WWF: Untangled: Biodiversity Loss
+#### WWF: Untangled: Biodiversity Loss
 
 <div class="framecontainer">
   <iframe src="https://www.youtube.com/embed/KM0EZP5ijbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -464,9 +464,8 @@ RMarkdown site by ParfaitG with source code:
 
 ---
 
-### Why _And Biodiversity_? To capture synergies:
+#### Why _And Biodiversity_? To capture synergies:
 
-<br/>
 <br/>
 
 <div class="table_container">
