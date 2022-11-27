@@ -1,6 +1,11 @@
 ---
 title: "Resources"
+pagetitle: "And Biodiversity | Resources"
 layout: default
+output: 
+  html_document:
+    includes:
+      in_header: "favicon.html" 
 ---
 
 ```{css, echo=FALSE}
@@ -120,6 +125,12 @@ layout: default
      width: 30%;
      text-align: center;
   }
+  .footer_label a, 
+  .footer_label a:hover, 
+  .footer_label a:focus, 
+  .footer_label a:active {
+     color: #ffffff;
+  }
   
   .footer_space {
      font-size: 1.5vh;
@@ -134,8 +145,12 @@ layout: default
      padding: 0 20px 0 0;
   }
   @media screen and (max-width: 750px) {
-      .footer_column, .footer_space {
+      .footer_column {
           width: 70%;
+          padding: 0 0 20px 0;
+      }
+      .footer_space {
+          width: 70%
       }
   }
 ```
@@ -502,7 +517,10 @@ RMarkdown site by ParfaitG with source code:
 
 ::: {.footer}
 <div class="footer_box">
-  <div class="footer_label">And Biodiversity</div>
+  <div class="footer_label">
+  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
   <div class="footer_space"><br/><br/></div>
   <div class="footer_column">
 The highest good is like water.<br/>

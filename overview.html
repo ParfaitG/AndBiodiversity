@@ -11,7 +11,7 @@
 
 
 
-<title>Overview</title>
+<title>And Biodiversity | Overiew</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -34,6 +34,9 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="192x192" href="images/favicon192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon16x16.png">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -331,13 +334,15 @@ $(document).ready(function () {
     margin: 5px;
     width: 200px;
   }
-  
+  .qheader {
+    font: bold 18px Arial;
+    text-align: center;
+  }
   input {
       position: absolute;
       opacity: 0;
       z-index: -1;
   }
-  
   .accordion-wrapper {
       border-radius: 8px;
       overflow: hidden;
@@ -353,6 +358,7 @@ $(document).ready(function () {
   .accordion img {
       display: block;
       margin: 20px auto;
+      object-fit: cover;
   }
   .accordion-label {
       border-radius: 8px;
@@ -386,6 +392,9 @@ $(document).ready(function () {
   }
   .accordion-content p{
       margin: 0;
+      font-size: 18px;
+  }
+  .accordion-content li {
       font-size: 18px;
   }
   input:checked + .accordion-label {
@@ -441,6 +450,12 @@ $(document).ready(function () {
      width: 30%;
      text-align: center;
   }
+  .footer_label a, 
+  .footer_label a:hover, 
+  .footer_label a:focus, 
+  .footer_label a:active {
+     color: #ffffff;
+  }
   
   .footer_space {
      font-size: 1.5vh;
@@ -454,8 +469,12 @@ $(document).ready(function () {
      padding: 0 20px 0 0;
   }
   @media screen and (max-width: 750px) {
-      .footer_column, .footer_space {
+      .footer_column {
           width: 70%;
+          padding: 0 0 20px 0;
+      }
+      .footer_space {
+          width: 70%
       }
   }
 </style>
@@ -506,7 +525,7 @@ IPBES-IPCC co-sponsored 2021 report.
 </div>
 <div class="accordion">
 <input type="radio" name="radio-a" id="check3">
-<label class="accordion-label" for="check3">Where</label>
+<label class="accordion-label" for="check3">Where?</label>
 <div class="accordion-content">
 <p>
 <strong>Where does biodiversity loss occur?</strong><br/>While
@@ -519,7 +538,7 @@ consistent evidence indicates a global scale to biodiversity loss.
 </div>
 <div class="accordion">
 <input type="radio" name="radio-a" id="check4">
-<label class="accordion-label" for="check4">When</label>
+<label class="accordion-label" for="check4">When?</label>
 <div class="accordion-content">
 <p>
 <strong>When did biodiversity loss start?</strong><br/>Since the
@@ -534,7 +553,7 @@ global assessments from 1995, 2005, and 2019.
 </div>
 <div class="accordion">
 <input type="radio" name="radio-a" id="check5">
-<label class="accordion-label" for="check5">Why</label>
+<label class="accordion-label" for="check5">Why?</label>
 <div class="accordion-content">
 <p>
 <strong>Why is biodiversity loss important?</strong><br/>For
@@ -548,7 +567,7 @@ Economics of Biodiversity.
 </div>
 <div class="accordion">
 <input type="radio" name="radio-a" id="check6">
-<label class="accordion-label" for="check6">How</label>
+<label class="accordion-label" for="check6">How?</label>
 <div class="accordion-content">
 <p>
 <strong>How can we stop biodiversity loss?</strong><br/>Raise awareness.
@@ -567,6 +586,380 @@ recommendations in most reports and papers.
 <p><br/> <br/></p>
 <hr />
 </div>
+<div id="when-were-key-global-moments-regarding-biodiversity-loss"
+class="section level3">
+<h3>When were key global moments regarding biodiversity loss?</h3>
+<p><br/></p>
+<div class="accordion-wrapper">
+<div class="accordion">
+<input type="radio" name="radio-b" id="check7" checked>
+<label class="accordion-label" for="check7">1970s</label>
+<div class="accordion-content">
+<ul>
+<li>
+United Nations Conference on the Human Environment convened in
+Stockholm, Sweden leads to formation of UN Environment Programme (UNEP)
+that would oversee among other global environment issues: climate change
+and biodiversity. <em>See</em>
+<a href="https://www.unep.org/environmental-moments-unep50-timeline" target="_blank"><b>UNEP
+history</b></a>.
+</li>
+<li>
+UNEP environment reports recognize species diversity and ecosystems.
+<em>See</em> <a href="reports.html" target="_blank"><b>Reports</b></a>.
+</li>
+<li>
+States adopt the Convention on International Trade in Endangered Species
+of Wild Fauna and Flora (CITES), an international conservation efforts
+to protect the planet’s most endangered species. <em>See</em>
+<a href="https://www.unep.org/environmental-moments-unep50-timeline" target="_blank"><b>UNEP
+history</b></a>.
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion">
+<input type="radio" name="radio-b" id="check8">
+<label class="accordion-label" for="check8">1980s</label>
+<div class="accordion-content">
+<ul>
+<li>
+Scientific papers and books begin to formally use the term,
+<em>biological diversity</em>, and its contraction,
+<em>biodiversity</em>.
+</li>
+<li>
+The landmark World Commission on Sustainable Developments Bruntland
+Report, <em>Our Common Future</em>, is published to guide sustainable
+development in the face of enviornmental challenges. <em>See</em>
+<a href="reports.html" target="_blank"><b>Reports</b></a>.
+</li>
+<li>
+The Intergovernmental Panel on Climate Change (IPCC) is established to
+formalize the intergovernmental science-policy interface.
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion">
+<input type="radio" name="radio-b" id="check9">
+<label class="accordion-label" for="check9">1990s</label>
+<div class="accordion-content">
+<ul>
+<li>
+Convention for Biological Diversity (CBD) is established, signed at the
+Rio Earth Summit along with UNFCCC. <em>See</em>
+<a href="https://www.cbd.int/history/" target="_blank"><b>CBD
+history</b></a>.
+</li>
+<li>
+The most comprehensive review of global biodiversity ever compiled,
+<em>Global Biodiversity: Status of the Earth’s living resources</em>, is
+published. <em>See</em>
+<a href="reports.html" target="_blank"><b>Reports</b></a>.
+</li>
+<li>
+UNEP publishes the first global biodiversity assessment, the work of
+over 1,500 scientists and experts from all parts of the world, to
+provide a snapshot of the current state of the biodiversity sciences and
+of the subject as perceived by the world’s scientific community.
+<em>See</em>
+<a href="https://press.un.org/en/1995/19951114.he916.html" target="_blank"><b>press
+release</b></a>.
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion">
+<input type="radio" name="radio-b" id="check10">
+<label class="accordion-label" for="check10">2000s</label>
+<div class="accordion-content">
+<ul>
+<li>
+UN commits to achieve the Millennium Development Goals which
+specifically includes biodiversity loss in target 7. <em>See</em>
+<a href="https://www.unep.org/environmental-moments-unep50-timeline" target="_blank"><b>UNEP
+history</b></a>.
+</li>
+<li>
+The landmark Millennium Ecosystem Assessment (MEA) is published that
+assessed the consequences of ecosystem change for human well-being and
+involved the work of more than 1,300 experts worldwide from 2001-2005.
+<em>See</em>
+<a href="https://press.un.org/en/2005/unep302.doc.htm" target="_blank"><b>press
+release</b></a>.
+</li>
+<li>
+Research team lead by Johan Rockström and Will Steffen publish the
+Planetary Boundaries Framework that recognizes biodiversity as one of
+the transgressed boundary. <em>See</em>
+<a href="https://www.stockholmresilience.org/research/planetary-boundaries.html" target="_blank"><b>Stockholm
+Resilience Center research</b></a>.
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion">
+<input type="radio" name="radio-b" id="check11">
+<label class="accordion-label" for="check11">2010s</label>
+<div class="accordion-content">
+<ul>
+<li>
+Conference of the Parties to the Convention for Biological Diversity
+(CBD) at its tenth meeting (COP10) in Aichi, Japan commit to the Aichi
+20 biodiversity targets to be achieved by 2020. <em>See</em>
+<a href="https://www.cbd.int/sp/targets/" target="_blank"><b>targets</b></a>.
+</li>
+<li>
+Intergovernmental Science-Policy Platform for Biodiversity and Ecosystem
+Services (IPBES) is established as an independent intergovernmental
+body. <em>See</em>
+<a href="https://ipbes.net/history-establishment" target="_blank"><b>IPBES
+history</b></a>.
+</li>
+<li>
+IPBES published its landmark Global Assessment to assess the status and
+trends of biodiversity and ecosystem services over past 5 decades, its
+impact on human wellbeing, and the effectiveness of responses.
+<em>See</em>
+<a href="https://ipbes.net/news/Media-Release-Global-Assessment" target="_blank"><b>media
+release</b></a>.
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion">
+<input type="radio" name="radio-b" id="check12">
+<label class="accordion-label" for="check12">2020s</label>
+<div class="accordion-content">
+<ul>
+<li>
+IPBES and IPCC launches its first-ever collaboration with a workshop
+report of selected authors, stressing the interlinked nature of climate
+change and biodiversity loss. <em>See</em>
+<a href="reports.html" target="_blank"><b>Reports</b></a>.
+</li>
+<li>
+G7 leaders commit to halt and reverse biodiversity loss, reverse land
+degradation and forest loss, and protect and conserve at least 30% of
+land and sea by 2030.
+</li>
+<li>
+Conference of the Parties to the Convention for Biological Diversity
+(CBD) is set to convene at COP15 to adopt the post-2020 Global
+Biodiversity framework. <em>See</em>
+<a href="https://www.cbd.int/conferences/post2020" target="_blank"><b>preparations</b></a>.
+</li>
+</ul>
+</div>
+</div>
+</div>
+<p><br/> <br/></p>
+<hr />
+</div>
+<div id="what-are-proposed-solutions" class="section level3">
+<h3>What are proposed solutions?</h3>
+<p><br/></p>
+<div class="accordion-wrapper">
+<div class="accordion">
+<input type="radio" name="radio-c" id="check13" checked>
+<label class="accordion-label" for="check13">Restoration</label>
+<div class="accordion-content">
+<ul>
+<li>
+Rewild with herbivores and carnivores to systems where they have been
+lost. <em>See</em> <a href="reports.html"><b>IPBES-IPCC joint
+report</b>.</a>
+</li>
+<li>
+Manage and restore natural and modified ecosystems. <em>See</em>
+<a href="reports.html"><b>IPBES-IPCC joint report</b>.</a>
+</li>
+<li>
+Rebuild terrestrial and marine carbon stocks. <em>See</em>
+<a href="reports.html"><b>IPBES-IPCC joint report</b>.</a>
+</li>
+<li>
+Rebuild overexploited or depleted fish stocks. <em>See</em>
+<a href="reports.html"><b>IPBES-IPCC joint report</b>.</a>
+</li>
+<li>
+Intervene at the watershed or river basin scale. <em>See</em>
+<a href="reports.html"><b>UNEP blueprint report</b>.</a>
+</li>
+<li>
+… <em>See</em> <a href="reports.html"><b>most reports</b>.</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion">
+<input type="radio" name="radio-c" id="check14">
+<label class="accordion-label" for="check14">Sustainability</label>
+<div class="accordion-content">
+<ul>
+<li>
+Agroecological practices such as increasing crop and livestock diversity
+including by using varietal mixes, more complex crop rotations,
+intercropping, wild relatives for crop and livestock selection, on-farm
+crop selection, and integrated farming. <em>See</em>
+<a href="reports.html"><b>IPBES-IPCC joint report</b>.</a>
+</li>
+<li>
+Agroforestry including mixing trees with crops. <em>See</em>
+<a href="reports.html"><b>IPBES-IPCC joint report</b>.</a>
+</li>
+<li>
+Sustainable fisheries to avoid overfishing. <em>See</em>
+<a href="reports.html"><b>IPBES-IPCC joint report</b>.</a>
+</li>
+<li>
+Sustainable agriculture to reduce pesticide use and nitrogen and
+phosphorus imbalances. <em>See</em> <a href="reports.html"><b>UNEP
+blueprint report</b>.</a>
+</li>
+<li>
+Sustainable urban planning; encouraging densification for compact
+communities, especially in sprawling cities. <em>See</em>
+<a href="reports.html"><b>UNEP blueprint report</b>.</a>
+</li>
+<li>
+… <em>See</em> <a href="reports.html"><b>most reports</b>.</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion">
+<input type="radio" name="radio-c" id="check15">
+<label class="accordion-label" for="check15">Finance</label>
+<div class="accordion-content">
+<ul>
+<li>
+Eliminating subsidies harmful to biodiversity. <em>See</em>
+<a href="reports.html"><b>IPBES Global Assessment</b>.</a>
+</li>
+<li>
+Nature capital accounting in national accounts. <em>See</em>
+<a href="reports.html"><b>Dasgupta Review and IPBES values
+report</b>.</a>
+</li>
+<li>
+Private sector financing for biodiversity. <em>See</em>
+<a href="reports.html"><b>Dasgupta Review</b>.</a>
+</li>
+<li>
+Payments for Ecosystem Services (PES). <em>See</em>
+<a href="reports.html"><b>Dasgupta Review</b>.</a>
+</li>
+<li>
+Integrating the protection of biodiversity with the fiduciary duties of
+institutional investors and asset managers. <em>See</em>
+<a href="reports.html"><b>Dasgupta Review</b>.</a>
+</li>
+<li>
+… <em>See</em> <a href="reports.html"><b>most reports</b>.</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion">
+<input type="radio" name="radio-c" id="check16">
+<label class="accordion-label" for="check16">Industry</label>
+<div class="accordion-content">
+<ul>
+<li>
+Decarbonization of the energy system. <em>See</em>
+<a href="reports.html"><b>IPCC reports</b>.</a>
+</li>
+<li>
+Localization of food supply chain. <em>See</em>
+<a href="reports.html"><b>IPBES-IPCC joint report</b>.</a>
+</li>
+<li>
+Promoting resource efficiency and circular and other economic models.
+<em>See</em> <a href="reports.html"><b>IPBES Global Assessment</b>.</a>
+</li>
+<li>
+Innovation and new business models to reduce global and local chemical
+pollution. <em>See</em> <a href="reports.html"><b>UNEP blueprint
+report</b>.</a>
+</li>
+<li>
+Mainstreaming biodiversity in global financial system. <em>See</em>
+<a href="reports.html"><b>Dasgupta Review</b>.</a>
+</li>
+<li>
+… <em>See</em> <a href="reports.html"><b>most reports</b>.</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion">
+<input type="radio" name="radio-c" id="check17">
+<label class="accordion-label" for="check17">Planning</label>
+<div class="accordion-content">
+<ul>
+<li>
+Multifunctional land- and seascapes. <em>See</em>
+<a href="reports.html"><b>IPBES-IPCC joint report</b>.</a>
+</li>
+<li>
+Well-connected protected areas. <em>See</em>
+<a href="reports.html"><b>IPBES-IPCC joint report</b>.</a>
+</li>
+<li>
+Management of invasive species encroachment. <em>See</em>
+<a href="reports.html"><b>IPBES-IPCC joint report</b>.</a>
+</li>
+<li>
+Transboundary conservation planning. <em>See</em>
+<a href="reports.html"><b>IPBES Global Assessment</b>.</a>
+</li>
+<li>
+Mainstreaming biodiversity in landscape planning. <em>See</em>
+<a href="reports.html"><b>IPBES-IPCC joint report</b>.</a>
+</li>
+<li>
+… <em>See</em> <a href="reports.html"><b>most reports</b>.</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion">
+<input type="radio" name="radio-c" id="check18">
+<label class="accordion-label" for="check18">Governance</label>
+<div class="accordion-content">
+<ul>
+<li>
+Adopting integrative, inclusive, informed, and adaptive governance.
+<em>See</em> <a href="reports.html"><b>IPBES Global Assessment</b>.</a>
+</li>
+<li>
+Implementing polycentric and layered institutions. <em>See</em>
+<a href="reports.html"><b>Dasgupta Review</b>.</a>
+</li>
+<li>
+Advanced science-policy processes to generate actions needed to address
+more complex problems such as climate change and biodiversity loss.
+<em>See</em> <a href="reports.html"><b>UNEP blueprint report</b>.</a>
+</li>
+<li>
+Empowered citizenship with informed consumer decision-making.
+<em>See</em> <a href="reports.html"><b>Dasgupta Review</b>.</a>
+</li>
+<li>
+Mainstreaming biodiversity in policymaking. <em>See</em>
+<a href="reports.html"><b>IPBES Global Assessment</b>.</a>
+</li>
+<li>
+… <em>See</em> <a href="reports.html"><b>most reports</b>.</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<p><br/> <br/></p>
+<hr />
 <div id="why-and-biodiversity-to-analyze-solutions"
 class="section level4">
 <h4>Why <em>And Biodiversity</em>? To analyze solutions:</h4>
@@ -663,7 +1056,8 @@ Agroecology
 <div class="footer">
 <div class="footer_box">
 <div class="footer_label">
-And Biodiversity
+<a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+<a href="index.html"> | And Biodiversity</a>
 </div>
 <div class="footer_space">
 <br/><br/>
@@ -681,6 +1075,7 @@ our pace more and more as the time sped by….
 </div>
 <div class="footer_space">
 -“48”<br/> Rabindranath Tagore<br/> <i>Gitanjali</i><br/>
+</div>
 </div>
 </div>
 </div>

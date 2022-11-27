@@ -1,6 +1,11 @@
 ---
 title: "Quotes"
+pagetitle: "And Biodiversity | Quotes"
 layout: default
+output: 
+  html_document:
+    includes:
+      in_header: "favicon.html" 
 ---
 
 ```{css, echo=FALSE}
@@ -138,6 +143,12 @@ layout: default
      font-size: 16px;
      width: 80%;
   }
+  .footer_label a, 
+  .footer_label a:hover, 
+  .footer_label a:focus, 
+  .footer_label a:active  {
+     color: #ffffff;
+  }
   .footer_space {
      font-size: 1.5vh;
      float: left;
@@ -151,8 +162,12 @@ layout: default
      font-style: italic;
   }
   @media screen and (max-width: 750px) {
-      .footer_column, .footer_space {
+      .footer_column {
           width: 70%;
+          padding: 0 0 20px 0;
+      }
+      .footer_space {
+          width: 70%
       }
   }
 ```
@@ -473,7 +488,10 @@ carbon loss to the atmosphere (primarily from the oxidation of sediments and soi
 
 ::: {.footer}
 <div class="footer_box">
-  <div class="footer_label">And Biodiversity</div>
+  <div class="footer_label">
+  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
   <div class="footer_space"><br/><br/></div>
   <div class="footer_column">
 Through the long afternoon, and creeks at dusk<br/>

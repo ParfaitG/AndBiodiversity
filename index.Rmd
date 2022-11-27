@@ -1,6 +1,10 @@
 ---
-title: '...And Biodiversity'
+title: "And Biodiversity"
 layout: default
+output: 
+  html_document:
+    includes:
+      in_header: "favicon.html" 
 ---
 
 ```{css, echo=FALSE}
@@ -123,7 +127,12 @@ layout: default
      font-size: 16px;
      width: 80%;
   }
-  
+  .footer_label a, 
+  .footer_label a:hover, 
+  .footer_label a:focus, 
+  .footer_label a:active {
+     color: #ffffff;
+  }
   .footer_space {
      font-size: 1.5vh;
      float: left;
@@ -135,8 +144,12 @@ layout: default
      width: 25%;
   }
   @media screen and (max-width: 750px) {
-      .footer_column, .footer_space {
+      .footer_column {
           width: 70%;
+          padding: 0 0 20px 0;
+      }
+      .footer_space {
+          width: 70%
       }
       .card { 
           width: 50%;
@@ -150,6 +163,15 @@ $(function() {
 })
 ```
 
+```{r, echo=FALSE}
+library(metathis)
+
+meta(
+) |> meta_general(
+  description = "Online information resource to study the other planetary crisis, biodiversity loss, with overview, reports, figures, quotes, and resources."
+)
+```
+
 <div class="logo"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud" /></div>
 <br/>
 
@@ -161,7 +183,7 @@ $(function() {
 
 #### This information site, _And Biodiversity_, aims to serve as a resource to study the latter crisis which often runs silent, invisible, and in the background to the general public. 
 
-#### For any explanation, citation, or justification regarding ***biodiversity loss***, bookmark this resource and review the topic, major reports, figures, quotes, and resources.
+#### For any explanation, citation, or justification regarding ***biodiversity loss***, bookmark this site and review the topic, major reports, figures, quotes, and resources.
 
 <br/>
 
@@ -387,7 +409,10 @@ $(function() {
 
 ::: {.footer}
 <div class="footer_box">
-  <div class="footer_label">And Biodiversity</div>
+  <div class="footer_label">
+  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
   <div class="footer_space"><br/><br/></div>
   <div class="footer_column">
 ...Hence, these shades <br/>
