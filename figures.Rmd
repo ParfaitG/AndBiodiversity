@@ -92,12 +92,37 @@ output:
      width: 25%;
   }
   @media screen and (max-width: 750px) {
+      .footer {
+         height: auto;
+         min-height: 100% !important;
+      }
       .footer_column {
           width: 70%;
-          padding: 0 0 20px 0;
+          padding: 0 20px 20px 20px;
       }
       .footer_space {
-          width: 70%
+          width: 70%;
+          padding: 0 20px;
+      }
+      
+      #bottom_icons tr {
+          display: block;
+          margin-bottom: .625em;
+      }
+      #bottom_icons td {
+          display: block;
+          text-align: right;
+      }
+      #bottom_icons h3 {
+          font-size: 2vh;
+      }
+      #bottom_icons img {
+          width: 150px;
+      }
+      #bottom_icons td::before {
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
       }
   }
 ```

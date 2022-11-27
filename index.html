@@ -344,7 +344,7 @@ $(document).ready(function () {
   }
   .card {
      width: 15%;
-     height: 25%;
+     min-height: 220px;
      display: inline-block;
      font-size: 16px;
      border: 1px rgba(128,181,51) solid;
@@ -386,7 +386,6 @@ $(document).ready(function () {
   }
 
   .table_container {
-     overflow-x: auto;
      width: 100%;
   }
   
@@ -448,15 +447,41 @@ $(document).ready(function () {
      width: 25%;
   }
   @media screen and (max-width: 750px) {
+      .footer {
+         height: auto;
+         min-height: 100% !important;
+      }
       .footer_column {
           width: 70%;
-          padding: 0 0 20px 0;
+          padding: 0 20px 20px 20px;
       }
       .footer_space {
-          width: 70%
+          width: 70%;
+          padding: 0 20px;
       }
       .card { 
-          width: 50%;
+          width: 40%;
+          height: 200px;
+      }
+      
+      #bottom_icons tr {
+          display: block;
+          margin-bottom: .625em;
+      }
+      #bottom_icons td {
+          display: block;
+          text-align: right;
+      }
+      #bottom_icons h3 {
+          font-size: 2vh;
+      }
+      #bottom_icons img {
+          width: 150px;
+      }
+      #bottom_icons td::before {
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
       }
   }
 </style>

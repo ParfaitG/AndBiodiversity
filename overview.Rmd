@@ -167,12 +167,39 @@ output:
      padding: 0 20px 0 0;
   }
   @media screen and (max-width: 750px) {
+      .footer {
+         height: auto;
+         min-height: 100% !important;
+      }
       .footer_column {
           width: 70%;
-          padding: 0 0 20px 0;
+          padding: 0 20px 20px 20px;
       }
       .footer_space {
-          width: 70%
+          width: 70%;
+          padding: 0 20px;
+      }
+      
+      #bottom_icons tr {
+          display: block;
+          margin-bottom: .625em;
+      }
+      #bottom_icons td {
+          display: block;
+          font-size: .8em;
+          text-align: right;
+      }
+      #bottom_icons h3 {
+          font-size: 2vh;
+      }
+      
+      #bottom_icons img {
+          width: 150px;
+      }
+      #bottom_icons td::before {
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
       }
   }
 ```
@@ -198,7 +225,7 @@ $(function() {
   <input type="radio" name="radio-a" id="check1" checked>
   <label class="accordion-label" for="check1">What?</label>
   <div class="accordion-content">
-  <p>**What is biodiversity loss?**<br/>The rapid, accelerating loss of variability and abundance of life on Earth including plant and animal species, populations, wild and domesticated varieties, and natural habitats recently caused by human activities with direct drivers of land/sea use change, overexploitation of organisms, climate change, pollution, and invasive alien species. _See_ IPBES 2019 Global Assessment.</p>
+  <p>**What is biodiversity loss?**<br/>The rapid, accelerating loss of variability and abundance of life on Earth across the hierarchies of genes, species, and ecosystems including: plant and animal species; wild and domesticated varieties; and natural habitats and biomes. In historical terms, such loss has been caused by human activities with direct drivers of land/sea use change, overexploitation of organisms, climate change, pollution, and invasive alien species. _See_ IPBES 2019 Global Assessment.</p>
   <img src="images/clip_trees.png" height="100px" alt="different tree color icons"/>
   </div>
 </div>
