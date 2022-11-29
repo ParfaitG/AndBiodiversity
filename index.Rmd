@@ -149,12 +149,17 @@ output:
          height: auto;
       }
       
+      .logo {
+         float: right;
+         margin: 0 0 0 0;
+      }
+      
       .logo img {
          clear: both;
          text-align: right;
          position: relative;
          z-index: -1;
-         width: 200px;
+         width: 40vw;
       }
       
       .footer {
@@ -170,8 +175,9 @@ output:
           padding: 0 20px;
       }
       .card { 
-          width: 40%;
+          width: 50%;
           height: 200px;
+          margin: 0 0 20px 0;
       }
       
       #bottom_icons tr {
