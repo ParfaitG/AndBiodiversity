@@ -69,7 +69,7 @@ output:
   
   #bottom_icons h3 {
      text-align: center;
-     font-size: 1.5vh;
+     font-size: 18px;
   }
   
   .footer {
@@ -101,12 +101,12 @@ output:
   }
   
   .footer_space {
-     font-size: 1.5vh;
+     font-size: 14px;
      float: left;
      width: 15%;
   }
   .footer_column {
-     font: normal italic 1.5vh Arial;
+     font: normal italic 14px Arial;
      float: left;
      width: 25%;
   }
@@ -293,7 +293,7 @@ $(function() {
     <img src="images/report_sei2022.png" alt="SEI 2022 report cover"/>
   </a>
   
-  #### Since the 1960s, human use of synthetic Nr fertilizers has increased 9-fold globally and a further substantial increase of around 40-50% is expected over the next 40 years based on current trends. Together with increased fossil fuel combustion, humans have now created excess Nr pollution that spans all environmental compartments with multiple threats, to the extent that the *disruption of the natural nitrogen cycle is now one of the greatest global threats to the environment of the 21st century.* Key N threats include: reductions in ***biodiversity***  (i.e. degradation of sensitive habitats); accelerated climate change via the production of nitrous oxide gas (N2O); widespread air pollution leading to growing incidences of upper respiratory disease and cancer in humans; depletion of stratospheric ozone layer via the production of nitrous oxide gas (N2O); eutrophication of aquatic ecosystems and hypoxic “dead zones” in the coastal ocean; and acidification of soils and forests of natural ecosystems. [***See* report**](https://www.sei.org/publications/nitrogen-in-uk-wwf/){target="_blank"}.
+  #### Since the 1960s, human use of synthetic Nr fertilizers has increased 9-fold globally and a further substantial increase of around 40-50% is expected over the next 40 years based on current trends. Together with increased fossil fuel combustion, humans have now created excess Nr pollution that spans all environmental compartments with multiple threats, to the extent that the disruption of the natural nitrogen cycle is now one of the greatest global threats to the environment of the 21st century. Key N threats include: reductions in ***biodiversity***  (i.e. degradation of sensitive habitats); accelerated climate change via the production of nitrous oxide gas (N2O); widespread air pollution leading to growing incidences of upper respiratory disease and cancer in humans; depletion of stratospheric ozone layer via the production of nitrous oxide gas (N2O); eutrophication of aquatic ecosystems and hypoxic “dead zones” in the coastal ocean; and acidification of soils and forests of natural ecosystems. [***See* report**](https://www.sei.org/publications/nitrogen-in-uk-wwf/){target="_blank"}.
 
   <br/>
   
@@ -328,7 +328,7 @@ $(function() {
     <img src="images/report_ipcc6ar1_2021.png" alt="IPCC Sixth Assessment Part 1 report cover"/>
   </a>
 
-  #### It is unequivocal that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere and ***biosphere*** have occurred. Observed increases in well-mixed greenhouse gas (GHG) concentrations since around 1750 are unequivocally caused by human activities. Since 2011 (measurements reported in AR5), concentrations have continued to increase in the atmosphere, reaching annual averages of 410 parts per million (ppm) for carbon dioxide (CO2), 1866 parts per billion (ppb) for methane (CH4), and 332 ppb for nitrous oxide (N2O) in 2019. Land and ocean have taken up a near-constant proportion (globally about 56% per year) of CO2 emissions from human activities over the past six decades, with regional differences. [***See* report**](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/){target="_blank"}.
+  #### It is unequivocal that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere and biosphere have occurred. Observed increases in well-mixed greenhouse gas (GHG) concentrations since around 1750 are unequivocally caused by human activities. Since 2011 (measurements reported in AR5), concentrations have continued to increase in the atmosphere, reaching annual averages of 410 parts per million (ppm) for carbon dioxide (CO2), 1866 parts per billion (ppb) for methane (CH4), and 332 ppb for nitrous oxide (N2O) in 2019. Land and ocean have taken up a near-constant proportion (globally about 56% per year) of CO2 emissions from human activities over the past six decades, with regional differences. [***See* report**](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/){target="_blank"}.
 
   <br/>
   
@@ -568,7 +568,7 @@ $(function() {
     <img src="images/report_unepglobal2019.png" alt="UNEP 2019 report cover"/>
   </a>
   
-  #### Urgent action at an unprecedented scale is necessary to arrest and reverse this situation, thereby protecting human and environmental health and maintaining the current and future integrity of global ecosystems. Key actions include reducing land degradation, ***biodiversity loss***, and air, land and water pollution; improving water management and resource management; climate change mitigation and adaptation; resource efficiency; addressing decarbonization, decoupling and detoxification; and the prevention and management of risk and disasters. Those all require more ambitious and effective policies, including sustainable consumption and production, greater resource efficiency and improved resource management, integrated ecosystem management, and integrated waste management and prevention. *Mainstreaming environmental considerations into social and economic decisions at all levels is of vital importance.* [***See* report**](https://www.unep.org/resources/global-environment-outlook-6){target="_blank"}.
+  #### Urgent action at an unprecedented scale is necessary to arrest and reverse this situation, thereby protecting human and environmental health and maintaining the current and future integrity of global ecosystems. Key actions include reducing land degradation, ***biodiversity loss***, and air, land and water pollution; improving water management and resource management; climate change mitigation and adaptation; resource efficiency; addressing decarbonization, decoupling and detoxification; and the prevention and management of risk and disasters. Those all require more ambitious and effective policies, including sustainable consumption and production, greater resource efficiency and improved resource management, integrated ecosystem management, and integrated waste management and prevention. Mainstreaming environmental considerations into social and economic decisions at all levels is of vital importance. [***See* report**](https://www.unep.org/resources/global-environment-outlook-6){target="_blank"}.
 
   <br/>
   
@@ -961,7 +961,7 @@ $(function() {
     <img src="images/report_unep2008.png" alt="UNEP 2008 report cover"/>
   </a>
 
-  #### Research since IPCC AR4 has served to strengthen the conclusion that ***biodiversity*** is important in mitigating climate change. This importance stems from the role of ecosystems in the carbon cycle. Ecosystems sequester carbon dioxide from the atmosphere and then store it. Human-induced changes in those ecosystems can lead either to increased sequestration of carbon dioxide or to increased emissions of carbon dioxide and other greenhouse gases. Promoting the former type of change and reducing the latter type of change can make a very significant contribution to climate change mitigation. The use of ecosystem-based mitigation policies can also contribute to sustaining a variety of ecosystem services including ***biodiversity*** conservation [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8199)){target="_blank"}.
+  #### Research since IPCC AR4 has served to strengthen the conclusion that ***biodiversity*** is important in mitigating climate change. This importance stems from the role of ecosystems in the carbon cycle. Ecosystems sequester carbon dioxide from the atmosphere and then store it. Human-induced changes in those ecosystems can lead either to increased sequestration of carbon dioxide or to increased emissions of carbon dioxide and other greenhouse gases. Promoting the former type of change and reducing the latter type of change can make a very significant contribution to climate change mitigation. The use of ecosystem-based mitigation policies can also contribute to sustaining a variety of ecosystem services including ***biodiversity*** conservation [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8199){target="_blank"}.
 
   <br/>
   
@@ -1217,7 +1217,7 @@ $(function() {
     <img src="images/report_plantbib1990.png" alt="Plant Bibliography 1990 report cover"/>
   </a>
 
-  #### The relatively recent explosion in 'green' thinking and policy making worldwide, together with the concern at the rate of loss of both species and habitats, has led to a growing demand for up-to-date facts and figures about plant species and vegetation types and how they should be conserved. Fortunately, much has been published on this subject in recent years, yet there has been no obvious route for the conservation and development community to gain access to this information quickly and easily. The relevant literature tends to be markedly mulu- disciplinary, and is thinly scattered across such varied fields as botany, forestry, ecology, horticulture, planning, economics, politics and environmental law...This volume contains over 10,000 reference citations to published literature considered relevant to international, national or local plant conservation. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/8320){target="_blank"}
+  #### The relatively recent explosion in 'green' thinking and policy making worldwide, together with the concern at the rate of ***loss of both species and habitats***, has led to a growing demand for up-to-date facts and figures about plant species and vegetation types and how they should be conserved. Fortunately, much has been published on this subject in recent years, yet there has been no obvious route for the conservation and development community to gain access to this information quickly and easily. The relevant literature tends to be markedly mulu- disciplinary, and is thinly scattered across such varied fields as botany, forestry, ecology, horticulture, planning, economics, politics and environmental law...This volume contains over 10,000 reference citations to published literature considered relevant to international, national or local plant conservation. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/8320){target="_blank"}
 
   <br/>
   
@@ -1233,7 +1233,7 @@ $(function() {
     <img src="images/report_unep1989.png" alt="UNEP 1989 report cover"/>
   </a>
 
-  #### Environmental indicators reveal mixed signals. improvement, stabilization, and deterioration...Rapid destruction of natural environments is reducing the nunber of species and the amount of genetic variation within individual species. So ***biological diversity*** is declining. If this trend is not hailed and reversed it could have serious and far-reaching repercussions for humanity. ***Biological diversity*** must be seen as a global resource, like the atmosphere or the oceans. All nations have a common interest in it and all have a common responsibility towards it. Despite such action as has already been taken to promote conservation, there is a pressing need for a comprehensive strategy, including a global convention to provide a strong legal basis for international co-operation in conserving ***biological diversity***. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/28295){target="_blank"}
+  #### Environmental indicators reveal mixed signals. improvement, stabilization, and deterioration...Rapid destruction of natural environments is reducing the number of species and the amount of genetic variation within individual species. So ***biological diversity*** is declining. If this trend is not hailed and reversed it could have serious and far-reaching repercussions for humanity. ***Biological diversity*** must be seen as a global resource, like the atmosphere or the oceans. All nations have a common interest in it and all have a common responsibility towards it. Despite such action as has already been taken to promote conservation, there is a pressing need for a comprehensive strategy, including a global convention to provide a strong legal basis for international co-operation in conserving ***biological diversity***. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/28295){target="_blank"}
 
   <br/>
   

@@ -99,7 +99,7 @@ output:
   }
   
   #bottom_icons h3 {
-     font-size: 1.5vh;
+     font-size: 18px;
      text-align: center;
   }
   
@@ -133,18 +133,67 @@ output:
   }
   
   .footer_space {
-     font-size: 1.5vh;
+     font-size: 14px;
      float: left;
      width: 25%;
   }
   
   .footer_column {
-     font: normal italic 1.5vh Arial;
+     font: normal italic 14px Arial;
      float: left;
      width: 25%;
      padding: 0 20px 0 0;
   }
   @media screen and (max-width: 750px) {
+      img {
+        height: auto
+      }
+      
+      .icons, .docs {
+          width: 200px;
+      }
+      .icons tr {
+          display: block;
+          margin-bottom: .625em;
+      }
+      .icons td {
+          display: block;
+          font-size: .8em;
+          text-align: right;
+      }
+      .icons h3 {
+          font-size: 2vh;
+      }
+      .icons img {
+          width: 150px;
+      }
+      .icons td::before {
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
+      }
+      
+      .docs tr {
+          display: block;
+          margin-bottom: .625em;
+      }
+      .docs td {
+          display: block;
+          font-size: .8em;
+          text-align: right;
+      }
+      .docs h3 {
+          font-size: 2vh;
+      }
+      .docs img {
+          width: 150px;
+      }
+      .docs td::before {
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
+      }
+      
       .footer {
          height: auto;
          min-height: 100% !important;
