@@ -323,7 +323,7 @@ $(function() {
   <label class="accordion-label" for="check10">2000s</label>
   <div class="accordion-content">
   <ul>
-   <li>UN commits to achieve the Millennium Development Goals which specifically includes biodiversity loss in target 7. <em>See</em> <a href="https://www.unep.org/environmental-moments-unep50-timeline" target="_blank"><b>UNEP history</b></a>.</li>
+   <li>UN commits to achieve the Millennium Development Goals which specifically includes biodiversity loss under target 7 for environmental sustainability. <em>See</em> <a href="https://www.unep.org/environmental-moments-unep50-timeline" target="_blank"><b>UNEP history</b></a>.</li>
    <li>The landmark Millennium Ecosystem Assessment (MEA) is published that assessed the consequences of ecosystem change for human well-being and involved the work of more than 1,300 experts worldwide from 2001-2005. <em>See</em> <a href="https://press.un.org/en/2005/unep302.doc.htm" target="_blank"><b>press release</b></a>.</li>
    <li>Research team lead by Johan Rockström and Will Steffen publish the Planetary Boundaries Framework that recognizes biodiversity as one of the transgressed boundary. <em>See</em> <a href="https://www.stockholmresilience.org/research/planetary-boundaries.html" target="_blank"><b>Stockholm Resilience Center research</b></a>.</li>
   </ul>
