@@ -340,11 +340,11 @@ meta(
 
 <br/>
 
-- #### <a href="####" data-toggle="collapse" data-target="#mis1">Biodiversity loss is not as immediate an issue as climate change</a>
+- #### <a href="####" data-toggle="collapse" data-target="#mis1">Biodiversity loss is not as immediate an issue as climate change.</a>
 
   <div id="mis1" class="collapse">  
 
-  #### Although studies have shown biodiversity coverage in the media unfortunately lagging in comparison to climate change since the 1990s, scientists have consistently asserted the devastating consequences of continued loss of biodiversity which is accelerating at unprecedented levels in human history. 
+  #### Although media and general public overlook biodiversity loss for various reasons, scientists have consistently asserted the devastating consequences of continued loss of biodiversity which is accelerating at unprecedented levels in human history. 
   
   #### Such loss negatively impacts ecosystem services such as life-critical needs of food production, soil formation, water availability, air quality, climate regulation, medicines, and still others. _See_ [**Reports**](figures.html) for discussion of this crisis over the last 50 years.
 
@@ -355,7 +355,7 @@ meta(
 
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#mis2">Climate change covers biodiversity loss and other environment issues</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#mis2">Climate change encompasses biodiversity loss and other environment issues.</a> 
 
   <div id="mis2" class="collapse">  
 
@@ -370,11 +370,11 @@ meta(
   
   </div>
  
-- #### <a href="####" data-toggle="collapse" data-target="#mis3">Biodiversity loss is a new topic and not as well-researched or widely accepted</a>
+- #### <a href="####" data-toggle="collapse" data-target="#mis3">Biodiversity loss is a fairly new topic and not as widely accepted.</a>
 
   <div id="mis3" class="collapse">  
 
-  #### Though it lacks mainstream media attention, biodiversity loss has been an enduring subject matter in the ecological and environment science literature since the 1970s. It is widely accepted in science with enough impetus to erect UN's Convention for Biological Diversity in 1992 to convene global initiatives on the issue and Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) in 2012 to assess the current knowledge on the topic for policymakers. 
+  #### Though it lacks mainstream media attention, biodiversity loss has been an enduring subject matter in the ecological and environment science literature since the 1970s. It is widely accepted in science with enough impetus to erect a UN convention in 1992 for global initiatives on the issue and intergovernmental science body in 2012 to assess the current knowledge on the topic for policymakers. 
   
   #### _See_ [**Reports**](reports.html) that includes three global assessments across the decades (1995, 2005, and 2019) each with stark findings of rapid biodiversity loss due to human activities.
 
@@ -385,7 +385,7 @@ meta(
 
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#mis4">Climate change causes biodiversity loss, so are the same thing</a>
+- #### <a href="####" data-toggle="collapse" data-target="#mis4">Climate change causes biodiversity loss, so are the same thing.</a>
 
   <div id="mis4" class="collapse">  
 
@@ -400,7 +400,7 @@ meta(
   
   </div>
  
-- #### <a href="####" data-toggle="collapse" data-target="#mis5">Biodiversity loss is a natural phenomenon</a>
+- #### <a href="####" data-toggle="collapse" data-target="#mis5">Biodiversity loss is a natural phenomenon.</a>
 
   <div id="mis5" class="collapse">  
 
@@ -414,7 +414,22 @@ meta(
   </div>
   
   </div>
-   
+
+- #### <a href="####" data-toggle="collapse" data-target="#mis6">Biodiversity loss would not be hardly known if it is so important.</a>
+
+  <div id="mis6" class="collapse">  
+
+  #### Since biodiversity loss lacks visibility and immediate connection with most people like extreme weather events, the issue remains in the silent and invisible background. Additionally, one [study](https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full){target="_blank"} showed how climate change maintained far more media coverage than biodiversity since the 1990s despite similar scientific output between both issues. Consequently, only experts tend to know about this planetary crisis. 
+  
+  #### Even Sir Robert Watson, who either chaired or co-chaired all three global biodiversity assessments acknowledge in a [Guardian editorial](https://www.theguardian.com/environment/2019/sep/19/biodiversity-touches-every-aspect-of-our-lives-so-why-has-its-loss-been-ignored){target="_blank"} how much biodiversity has been ignored despite its severity and critical importance.
+  
+  <div class="banner">
+    <img src="images/climate_biodiversity_media.jpg" alt="Climate and Biodiversity Media Area Chart"/>
+    <p>Source: [Frontiers - Legagneux, et al. (2018) paper](https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full)</p>
+  </div>
+  
+  </div>
+
 <br/>
 
 ---

@@ -264,41 +264,65 @@ RMarkdown site by ParfaitG with source code:
 
 <br/>
 
-### News / Blogs
+- #### [**ABC | Environment**](https://abcnews.go.com/alerts/environment){target="_blank"}  
+  #### Follow the latest Environment news, videos, and analysis from ABC News.
 
-- #### [**EarthTimes**](https://earthtimes.org/)
+- #### [**AP | Climate & Environment**](https://apnews.com/hub/climate-and-environment){target="_blank"}  
+  #### The latest news from The Associated Press on climate change, threats to biodiversity and renewable energies.
+
+- #### [**BBC | Environment**](https://www.bbc.com/news/topics/cnx753jenyjt){target="_blank"}  
+  #### All the latest content about Environment from the BBC.
+
+- #### [**Britannica: Biodiversity Loss**](https://www.britannica.com/explore/savingearth/biodiversity-loss){target="_blank"}  
+  #### Encyclopedia article on biodiversity loss.
+
+- #### [**EarthTimes**](https://earthtimes.org/){target="_blank"}  
   #### News and blog articles about the environment and information on current environmental issues and topics affecting planet earth.
 
-- #### [**EcoWatch**](https://www.ecowatch.com/)
+- #### [**EcoWatch**](https://www.ecowatch.com/){target="_blank"}  
   #### A digital platform still dedicated to publishing quality, science-based content on environmental issues, causes, and solutions.
 
-- #### [**Environmental News Network**](https://www.enn.com/)
+- #### [**Environmental News Network**](https://www.enn.com/){target="_blank"}  
   #### Aggregator of environmental news and collection of resources, teachers, experts and tools that provide objective information and knowledge about the increasingly complex field of environmental science.
 
-- #### [**Grist**](https://grist.org/)
+- #### [**Grist**](https://grist.org/){target="_blank"}  
   #### A nonprofit media organization telling stories of climate solutions and a just future.
   
-- #### [**The Guardian | Environment**](https://www.theguardian.com/us/environment)
+- #### [**The Guardian | Environment**](https://www.theguardian.com/us/environment){target="_blank"}  
   #### Latest environmental news, opinion and analysis from the Guardian
   
-- #### [**Mongabay**](https://news.mongabay.com/)
+- #### [**Mongabay**](https://news.mongabay.com/){target="_blank"}  
   #### U.S.-based non-profit conservation and environmental science news platform
   
-- #### [**National Geographic**](https://www.nationalgeographic.com/environment)
+- #### [**National Geographic**](https://www.nationalgeographic.com/environment){target="_blank"}  
   #### Latest stories about the environment
 
-- #### [**Stanford University: MAHB**](https://mahb.stanford.edu/)
+- #### [**NBC News | Environment**](https://www.nbcnews.com/science/environment){target="_blank"}  
+  #### Read about the latest headlines covering global warming, recycling, conservation efforts, pollution and more from NBCNews.com
+
+- #### [**NPR | Environment**](https://www.npr.org/sections/environment/){target="_blank"}  
+  #### Breaking news on the environment, climate change, pollution, and endangered species from NPR.
+
+- #### [**Overshoot Day**](https://www.overshootday.org/"){target="_blank"}  
+  #### Earth Overshoot Day marks the date when humanity has used all the biological resources that Earth regenerates during the entire year.
+
+- #### [**PBS | Environment**](https://www.pbs.org/show/environment/){target="_blank"}  
+  #### News and features on our changing environment from PBS.
+
+- #### [**Propublica | Environment**](https://www.propublica.org/topics/environment){target="_blank"}  
+  #### Environment news from an independent, non-profit newsroom that produces investigative journalism in the public interest.
+
+- #### [**Reuters | Environment**](https://www.reuters.com/business/environment/){target="_blank"}  
+  #### Find latest environment news from every corner of the globe at Reuters.com
+
+- #### [**Science Daily | Environment**](https://www.sciencedaily.com/news/top/environment/){target="_blank"}  
+  #### Source for the latest research news
+  
+- #### [**Stanford University: MAHB**](https://mahb.stanford.edu/){target="_blank"}  
   #### Millennium Alliance for Humanity and the Biosphere (MAHB) is a meeting place for global civil society — citizens concerned with the interconnections among the greatest threats to human well-being: this is the human predicament.
   
-- #### [**Yale University: E360**](https://e360.yale.edu/)
+- #### [**Yale University: E360**](https://e360.yale.edu/){target="_blank"}  
   #### An original, independent voice in environmental journalism, E360 is an online magazine that publishes opinion, analysis, reporting, and debate on global environmental issues.
-
-<br/>
-
-### Other
-
-- #### [**Overshoot Day**](https://www.overshootday.org/")
-  #### Earth Overshoot Day marks the date when humanity has used all the biological resources that Earth regenerates during the entire year.
 
 <br/>
 <br/>
