@@ -417,6 +417,13 @@ $(document).ready(function () {
      margin: 0px auto;
   }
   
+  #bottom_icons a, 
+  #bottom_icons a:active, 
+  #bottom_icons a:focus { 
+     outline: none;
+     text-align: center;
+  }
+  
   #bottom_icons img {
      padding: 10px;
      width: 100px;
@@ -468,8 +475,16 @@ $(document).ready(function () {
      padding: 0 20px 0 0;
   }
   @media screen and (max-width: 750px) {
-      .accordion img {
+      img {
          height: auto;
+      }
+      
+      .logo img {
+         clear: both;
+         text-align: right;
+         position: relative;
+         z-index: -1;
+         width: 40vw;
       }
       
       .footer {
@@ -477,7 +492,7 @@ $(document).ready(function () {
          min-height: 100% !important;
       }
       .footer_column {
-          width: 70%;
+          width: 100%;
           padding: 0 20px 20px 20px;
       }
       .footer_space {
@@ -491,14 +506,12 @@ $(document).ready(function () {
       }
       #bottom_icons td {
           display: block;
-          font-size: .8em;
-          text-align: right;
+          text-align: center;
       }
       #bottom_icons h3 {
           font-size: 2vh;
       }
-      
-      #bottom_icons img {
+      #bottom_icons td.img {
           width: 150px;
       }
       #bottom_icons td::before {
@@ -506,6 +519,27 @@ $(document).ready(function () {
           font-weight: bold;
           text-transform: uppercase;
       }
+  }
+  
+  @media (pointer: coarse), (hover: none) {
+    [title] {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+    }
+    [title]:focus::after {
+      content: attr(title);
+      position: absolute;
+      top: 10%;
+      left: 90%;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 1px solid;
+      border-radius: 10px;
+      width: 80px;
+      padding: 3px;
+      font-size: 10px;
+    }
   }
 </style>
 <script type="text/javascript">
@@ -517,9 +551,9 @@ $(function() {
 <div class="logo">
 <img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/>
 </div>
-<div id="learn-more-about-biodiversity-loss-at-a-high-level-overview."
+<div id="learn-more-about-biodiversity-loss-with-a-high-level-overview."
 class="section level4">
-<h4>Learn more about biodiversity loss at a high level overview.</h4>
+<h4>Learn more about biodiversity loss with a high level overview.</h4>
 <hr />
 <p><br/></p>
 <div class="accordion-wrapper">
@@ -766,7 +800,7 @@ release</b></a>.
 <div class="accordion-content">
 <ul>
 <li>
-IPBES and IPCC launches its first-ever collaboration with a workshop
+IPBES and IPCC launches their first-ever collaboration with a workshop
 report of selected authors, stressing the interlinked nature of climate
 change and biodiversity loss. <em>See</em>
 <a href="reports.html" target="_blank"><b>Reports</b></a>.
@@ -1001,7 +1035,7 @@ class="section level4">
 <table id="bottom_icons">
 <tr>
 <td>
-<img src="images/stick_figure_tree_green.png" alt="tree icon" title="Measures such as the diversification of planted crop and forest species, agroforestry and agroecology enhance biodiversity and nature’s contributions to people in landscapes focused on the production of food, feed, fibre, or energy (IPBES-IPCC)"/>
+<a title="Measures such as the diversification of planted crop and forest species, agroforestry and agroecology enhance biodiversity and nature’s contributions to people in landscapes focused on the production of food, feed, fibre, or energy (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></a>
 </td>
 <td>
 <h3>
@@ -1009,15 +1043,16 @@ Agroforestry
 </h3>
 </td>
 <td>
-<img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="The 'scape approach integrates functionally intact biodiversity with provisioning of material, non-material and regulatory benefits, from local to larger scales, linking 'sharing' and 'sparing' concepts. It includes networks of protected areas and corridors, 'working' or 'managed' 'scapes modified for human use, and profoundly transformed ecosystems, such as urban and intensively farmed areas (IPBES-IPCC)"/>
+<a title="The 'scape approach integrates functionally intact biodiversity with provisioning of material, non-material and regulatory benefits, from local to larger scales, linking 'sharing' and 'sparing' concepts. It includes networks of protected areas and corridors, 'working' or 'managed' 'scapes modified for human use, and profoundly transformed ecosystems, such as urban and intensively farmed areas (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/>
 </td>
 <td>
 <h3>
 Wildlife<br/>Corridor
 </h3>
+</a>
 </td>
 <td>
-<img src="images/stick_figure_fish_blue.png" alt="fish icon" title="Reducing overfishing and bycatch, as well as focusing new aquaculture activities on low trophic level species (e.g., plankton feeders such as bivalve molluscs) and broadening the range of species cultivated could both increase global seafood production and reduce impact to the environment and biodiversity (IPBES-IPCC)"/>
+<a title="Reducing overfishing and bycatch, as well as focusing new aquaculture activities on low trophic level species (e.g., plankton feeders such as bivalve molluscs) and broadening the range of species cultivated could both increase global seafood production and reduce impact to the environment and biodiversity (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></a>
 </td>
 <td>
 <h3>
@@ -1025,7 +1060,7 @@ Aquaculture
 </h3>
 </td>
 <td>
-<img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="Nature-based solutions for coastal flood protection, such as using natural coastal habitats (vegetation or coral reefs) to provide protection from flooding during storm events, increasingly likely due to sea-level rise, is frequently preferred to engineered defences (IPBES-IPCC)"/>
+<a title="Nature-based solutions for coastal flood protection, such as using natural coastal habitats (vegetation or coral reefs) to provide protection from flooding during storm events, increasingly likely due to sea-level rise, is frequently preferred to engineered defences (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></a>
 </td>
 <td>
 <h3>
@@ -1033,7 +1068,7 @@ Coastal<br/>Restoration
 </h3>
 </td>
 <td>
-<img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="Reducing greenhouse gas (GHGs) emissions through the development of renewable energies in the transport and energy sector are important options for mitigating climate change with the co-benefit of reducing pollutants that have deleterious effects on human health and the environment (IPBES-IPCC)."/>
+<a title="Reducing greenhouse gas (GHGs) emissions through the development of renewable energies in the transport and energy sector are important options for mitigating climate change with the co-benefit of reducing pollutants that have deleterious effects on human health and the environment (IPBES-IPCC)." tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></a>
 </td>
 <td>
 <h3>
@@ -1043,7 +1078,7 @@ Decarbonization
 </tr>
 <tr>
 <td>
-<img src="images/stick_figure_insect.png" alt="insect icon" title="Irrigated rice agriculture has evolved over centuries and led to a well-balanced food web in paddies with an insect diversity even higher than in many (pristine) temperate forests. This diversity reduces the risk of pest outbreaks and stabilizes yield. Pesticides normally rather cause pest problems than solving them. (IPBES-IPCC)"/>
+<a title="Irrigated rice agriculture has evolved over centuries and led to a well-balanced food web in paddies with an insect diversity even higher than in many (pristine) temperate forests. This diversity reduces the risk of pest outbreaks and stabilizes yield. Pesticides normally rather cause pest problems than solving them. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></a>
 </td>
 <td>
 <h3>
@@ -1051,7 +1086,7 @@ Pest<br/>Control
 </h3>
 </td>
 <td>
-<img src="images/stick_figure_ocean_blue.png" alt="ocean icon" title="Local management (e.g., integrated coastal zone management and marine protected areas) can play an important role to improve ocean health. (IPBES-IPCC)"/>
+<a title="Local management (e.g., integrated coastal zone management and marine protected areas) can play an important role to improve ocean health. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></a>
 </td>
 <td>
 <h3>
@@ -1059,7 +1094,7 @@ Local<br/>Management
 </h3>
 </td>
 <td>
-<img src="images/stick_figure_wetlands_green.png" alt="wetlands icon" title="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 removal (IPBES-IPCC)"/>
+<a title="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 removal (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></a>
 </td>
 <td>
 <h3>
@@ -1067,15 +1102,16 @@ Wetland<br/>Restoration
 </h3>
 </td>
 <td>
-<img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Trophic rewilding, the reintroduction of herbivores and carnivores to systems where they have been lost, is foremost discussed as a measure to enhance biodiversity and can also contribute to ecosystem restoration (IPBES-IPCC)."/>
+<a title="Trophic rewilding, the reintroduction of herbivores and carnivores to systems where they have been lost, is foremost discussed as a measure to enhance biodiversity and can also contribute to ecosystem restoration (IPBES-IPCC)." tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/>
 </td>
 <td>
 <h3>
 Trophic<br/>Rewilding
 </h3>
+</a>
 </td>
 <td>
-<img src="images/stick_figure_soil_green.png" alt="soil icon" title="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms, and participates in making soils more resistant and resilient in the face of climate change. (IPBES-IPCC)"/>
+<a title="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms, and participates in making soils more resistant and resilient in the face of climate change. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></a>
 </td>
 <td>
 <h3>

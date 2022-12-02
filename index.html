@@ -342,7 +342,10 @@ $(document).ready(function () {
   .cards {
      width: 100%;
      height: 100%;
+     margin: 0 auto;
+     display: inline-flex;
      text-align: center;
+     justify-content: center;
   }
   .card {
      width: 15%;
@@ -391,13 +394,15 @@ $(document).ready(function () {
      width: 100%;
   }
   
-  a, a:active, a:focus { 
-     outline: none; 
-     z-index: 5;
-  }
-  
   #bottom_icons {
      margin: 0 auto;
+  }
+  
+  #bottom_icons a, 
+  #bottom_icons a:active, 
+  #bottom_icons a:focus { 
+     outline: none;
+     text-align: center;
   }
   
   #bottom_icons img {
@@ -476,12 +481,18 @@ $(document).ready(function () {
          min-height: 100% !important;
       }
       .footer_column {
-          width: 70%;
+          width: 100%;
           padding: 0 0 20px 20px;
       }
       .footer_space {
           width: 70%;
           padding: 0 20px;
+      }
+      .cards {
+          display: block;
+           width: 100%;
+           height: 100%;
+           margin: 0 auto;
       }
       .card { 
           width: 50%;
@@ -495,7 +506,7 @@ $(document).ready(function () {
       }
       #bottom_icons td {
           display: block;
-          text-align: right;
+          text-align: center;
       }
       #bottom_icons h3 {
           font-size: 2vh;
@@ -520,12 +531,12 @@ $(document).ready(function () {
       content: attr(title);
       position: absolute;
       top: 10%;
-      left: 100px;
+      left: 90%;
       color: #fff;
       background-color: rgba(0, 0, 0, 0.5);
       border: 1px solid;
       border-radius: 10px;
-      width: fit-content;
+      width: 80px;
       padding: 3px;
       font-size: 10px;
     }
@@ -840,12 +851,13 @@ id="biodiversity-loss-is-a-natural-phenomenon."><a href="####" data-toggle="coll
 loss is a natural phenomenon.</a></h4>
 <div id="mis5" class="collapse">
 <h4
-id="while-species-extinctions-and-ecosystem-shifts-are-natural-processes-on-earth-including-five-known-mass-extinction-events-the-present-situation-of-biodiversity-loss-exceeds-the-natural-occurrence-in-geological-timescales.-also-unlike-past-events-the-current-rapid-loss-of-biodiversity-and-ecosystems-is-mostly-due-to-human-activities.">While
+id="while-species-extinctions-and-ecosystem-shifts-are-natural-processes-on-earth-including-five-known-mass-extinction-events-the-present-situation-of-biodiversity-loss-exceeds-the-natural-occurrence-in-geological-timescales.-also-unlike-past-events-the-current-rapid-loss-of-biodiversity-and-ecosystems-is-mostly-due-to-a-single-species-aware-of-their-actions.">While
 species extinctions and ecosystem shifts are natural processes on Earth
 including five known mass extinction events, the present situation of
 biodiversity loss exceeds the natural occurrence in geological
 timescales. Also, unlike past events, the current rapid loss of
-biodiversity and ecosystems is mostly due to human activities.</h4>
+biodiversity and ecosystems is mostly due to a single species aware of
+their actions.</h4>
 <h4
 id="see-quotes-which-includes-the-finding-from-ipbess-2019-global-assessment-the-rate-of-extinction-is-ten-to-hundreds-of-times-higher-than-the-average-background-rate-in-the-last-10-million-years-and-is-accelerating."><em>See</em>
 <a href="quotes.html"><strong>Quotes</strong></a> which includes the

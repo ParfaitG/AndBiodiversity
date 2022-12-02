@@ -114,6 +114,13 @@ output:
      margin: 0px auto;
   }
   
+  #bottom_icons a, 
+  #bottom_icons a:active, 
+  #bottom_icons a:focus { 
+     outline: none;
+     text-align: center;
+  }
+  
   #bottom_icons img {
      padding: 5px;
      width: 100px;
@@ -127,7 +134,7 @@ output:
   .footer {
      bottom: 0;
      width: 100%;
-     height: 140px;
+     height: 150px;
      margin: 0px 0px -40px 0px;
      color: #ffffff;
      background-color: #808080;
@@ -154,7 +161,7 @@ output:
   .footer_space {
      font-size: 14px;
      float: left;
-     width: 25%;
+     width: 15%;
   }
   .footer_column {
      font: normal italic 14px Arial;
@@ -162,12 +169,24 @@ output:
      width: 25%;
   }
   @media screen and (max-width: 750px) {
+      img {
+         height: auto;
+      }
+      
+      .logo img {
+         clear: both;
+         text-align: right;
+         position: relative;
+         z-index: -1;
+         width: 40vw;
+      }
+      
       .footer {
          height: auto;
          min-height: 100% !important;
       }
       .footer_column {
-          width: 70%;
+          width: 100%;
           padding: 0 20px 20px 20px;
       }
       .footer_space {
@@ -181,12 +200,12 @@ output:
       }
       #bottom_icons td {
           display: block;
-          text-align: right;
+          text-align: center;
       }
       #bottom_icons h3 {
           font-size: 2vh;
       }
-      #bottom_icons img {
+      #bottom_icons td.img {
           width: 150px;
       }
       #bottom_icons td::before {
@@ -194,6 +213,27 @@ output:
           font-weight: bold;
           text-transform: uppercase;
       }
+  }
+  
+  @media (pointer: coarse), (hover: none) {
+    [title] {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+    }
+    [title]:focus::after {
+      content: attr(title);
+      position: absolute;
+      top: 10%;
+      left: 100%;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 1px solid;
+      border-radius: 10px;
+      width: 80px;
+      padding: 3px;
+      font-size: 10px;
+    }
   }
 ```
 
@@ -664,28 +704,28 @@ goals, such as those embodied in the Aichi Biodiversity Targets and the 2030 Age
 <div class="table_container">
 <table id="bottom_icons">
    <tr>
-      <td><img src="images/stick_figure_tree_green.png" alt="tree icon" title="Marine and terrestrial ecosystems are the sole sinks for anthropogenic carbon emissions, with a gross sequestration of 5.6 gigatons of carbon per year (the equivalent of some 60 per cent of global anthropogenic emissions). (IPBES GA)"/></td>
+      <td><a title="Marine and terrestrial ecosystems are the sole sinks for anthropogenic carbon emissions, with a gross sequestration of 5.6 gigatons of carbon per year (the equivalent of some 60 per cent of global anthropogenic emissions). (IPBES GA)" tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></a></td>
       <td><h3>Carbon<br/>Sequestration</h3></td>
-      <td><img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="The great expansion in the production of food, feed, fibre and bioenergy has occurred at the cost of many other contributions of nature to quality of life, including regulation of air and water quality, climate regulation and habitat provision. (IPBES GA)"/></td>
+      <td><a title="The great expansion in the production of food, feed, fibre and bioenergy has occurred at the cost of many other contributions of nature to quality of life, including regulation of air and water quality, climate regulation and habitat provision. (IPBES GA)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></a></td>
       <td><h3>Habitat<br/>Maintenance</h3></td>
-      <td><img src="images/stick_figure_fish_blue.png" alt="fish icon" title="Ecosystem restoration also provides multiple nature´s contribution to people, such as the regulation of water quality, regulation of the hydrological cycle, decrease the frequency and severity of floods and droughts and pollination services (IPBES-IPCC)"/></td>
+      <td><a title="Ecosystem restoration also provides multiple nature´s contribution to people, such as the regulation of water quality, regulation of the hydrological cycle, decrease the frequency and severity of floods and droughts and pollination services (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></a></td>
       <td><h3>Water Quality<br/>Regulation</h3></td>
-      <td><img src="images/stick_figure_kelp_green.png" alt="kelp icon" title="Loss of coastal habitats and coral reefs reduces coastal protection, which increases the risk from floods and hurricanes to life and property for the 100 million to 300 million people living within coastal 100-year flood zones. (IPBES GA)"/></td>
+      <td><a title="Loss of coastal habitats and coral reefs reduces coastal protection, which increases the risk from floods and hurricanes to life and property for the 100 million to 300 million people living within coastal 100-year flood zones. (IPBES GA)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></a></td>
       <td><h3>Hazard<br/>Regulation</h3></td>
-      <td><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon" title="Climate extremes disrupt food production and water supply, damage crops, infrastructure and transport networks, and reduce air quality with consequences for human health and good quality of life. (IPBES-IPCC)"/></td>
+      <td><a title="Climate extremes disrupt food production and water supply, damage crops, infrastructure and transport networks, and reduce air quality with consequences for human health and good quality of life. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></a></td>
       <td><h3>Air<br/>Quality</h3></td>
    </tr>
    <tr>
-      <td><img src="images/stick_figure_insect.png" alt="insect icon" title="Over 75% of global food crop types rely on animal pollination (IPBES GA)"/></td>
+      <td><a title="Over 75% of global food crop types rely on animal pollination (IPBES GA)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></a></td>
       <td><h3>Plant<br/>Pollination</h3></td>
-      <td><img src="images/stick_figure_ocean_blue.png" alt="ocean icon" title="The capacity to sequester carbon by marine and terrestrial environments serves as a selected indicator for regulation of ocean acidification (IPBES GA)"/></td>
+      <td><a title="The capacity to sequester carbon by marine and terrestrial environments serves as a selected indicator for regulation of ocean acidification (IPBES GA)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></a></td>
       <td><h3>Ocean Acidification<br/>Regulation</h3></td>
-      <td><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon" title="Protection and restoration of wetlands, peatlands and coastal habitats reduces net
-carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 (IPBES-IPCC)"/></td>
+      <td><a title="Protection and restoration of wetlands, peatlands and coastal habitats reduces net
+carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></a></td>
       <td><h3>Climate<br/>Regulation</h3></td>
-      <td><img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Decline and disappearance of large herbivores and predators has dramatically affected the structure, fire regimes, seed dispersal, land surface albedo and nutrient availability within many ecosystems (IPBES GA)"/></td>
+      <td><a title="Decline and disappearance of large herbivores and predators has dramatically affected the structure, fire regimes, seed dispersal, land surface albedo and nutrient availability within many ecosystems (IPBES GA)" tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></a></td>
       <td><h3>Seed<br/>Dispersal</h3></td>
-      <td><img src="images/stick_figure_soil_green.png" alt="soil icon" title="Nature, through its ecological and evolutionary processes, sustains the quality of the air, fresh water and soils on which humanity depends (IPBES GA)"/></td>
+      <td><a title="Nature, through its ecological and evolutionary processes, sustains the quality of the air, fresh water and soils on which humanity depends (IPBES GA)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></a></td>
       <td><h3>Soil<br/>Formation</h3></td>
    </tr>
 </table>
@@ -699,20 +739,21 @@ carbon loss to the atmosphere (primarily from the oxidation of sediments and soi
   </div>
   <div class="footer_space"><br/><br/></div>
   <div class="footer_column">
-Through the long afternoon, and creeks at dusk<br/>
-Are guttural. Whip-poor-wills wake and cry,<br/>
-Drawing the twilight close about their throats.<br/>
-Only my heart makes answer. Eager vines
+Ah, could I lay me down in this long grass<br/>
+And close my eyes, and let the quiet wind<br/>
+Blow over me—I am so tired, so tired<br/>
+Of passing pleasant places! All my life,<br/>
+Following Care along the dusty road,<br/>
   </div>
   <div class="footer_column">
-Go up the rocks and wait; flushed apple-trees<br/>
-Pause in their dance and break the ring for me;<br/>
-And bayberry, that through sweet bevies thread<br/>
-Of round-faced roses, pink and petulant,<br/>
+Have I looked back at loveliness and sighed;<br/>
+Yet at my hand an unrelenting hand<br/>
+Tugged ever, and I passed. All my life long<br/>
+Over my shoulder have I looked at peace;<br/>
+And now I fain would lie in this long grass<br/>
+And close my eyes...<br/>
   </div>
   <div class="footer_space">
-<i>Look back and beckon ere they disappear.</i><br/>
-<i>Only my heart, only my heart responds...</i><br/>
 -"Journey" <br/>
   Edna St. Vincent Millay<br/>
   </div>
