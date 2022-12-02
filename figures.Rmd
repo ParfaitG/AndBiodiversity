@@ -99,7 +99,7 @@ output:
      width: 25%;
   }
   @media screen and (max-width: 750px) {
-      img {
+      #bottom_icons img {
          height: auto;
       }
       
