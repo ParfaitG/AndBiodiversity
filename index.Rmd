@@ -461,7 +461,7 @@ meta(
 <div class="table_container">
   <table id="bottom_icons">
    <tr>
-      <td><a title="Net rate of forest loss have decreased by 50% since the 1990s (excluding those managed for timber or agricultural extraction) (IPBES GA)"><img src="images/stick_figure_tree_green.png" alt="tree icon" /></a></td>
+      <td><a title="Net rate of forest loss have decreased by 50% since the 1990s (excluding those managed for timber or agricultural extraction) (IPBES GA)"  tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon" /></a></td>
       <td><h3>Logging</h3></td>
       <td><img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="African elephants have declined by 30-fold over the last century (from 12 million to ~400,000) with more than 100,000 elephants killed by poachers between 2010 and 2012 (IPBES 2020)"/></td>
       <td><h3>Poaching</h3></td>
@@ -481,7 +481,7 @@ meta(
       <td><h3>Draining</h3></td>
       <td><img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Average abundance of native species in most major land-based habitats has fallen by at least 20%, mostly since 1900 (IPBES GA)"/></td>
       <td><h3>Encroaching</h3></td>
-      <td><a title="Over 33% of world’s land surface (and +/-75% of freshwater resources) is devoted to crop or livestock production (IPBES GA)"/><img src="images/stick_figure_soil_green.png" alt="soil icon" /></a></td>
+      <td><a title="Over 33% of world’s land surface (and +/-75% of freshwater resources) is devoted to crop or livestock production (IPBES GA)" tabindex="0"/><img src="images/stick_figure_soil_green.png" alt="soil icon" /></a></td>
       <td><h3>Overfarming</h3></td>
    </tr>
   </table>
