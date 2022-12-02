@@ -391,6 +391,10 @@ $(document).ready(function () {
      width: 100%;
   }
   
+  a, a:active, a:focus { 
+     outline: none; 
+  }
+  
   #bottom_icons {
      margin: 0 auto;
   }
@@ -514,7 +518,8 @@ $(document).ready(function () {
     [title]:focus::after {
       content: attr(title);
       position: absolute;
-      top: 90%;
+      top: 10%;
+      left: 100px;
       color: #fff;
       background-color: rgba(0, 0, 0, 0.5);
       border: 1px solid;
