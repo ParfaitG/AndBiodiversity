@@ -503,7 +503,7 @@ RMarkdown site by ParfaitG with source code:
       <td><a href="https://www.bgci.org/" target="blank"><img src="images/icon_bgci.png" alt="BGCI logo" title="Botanic Gardens Conservation International (BGCI)"/></a></td>
       <td><a href="https://www.biologicaldiversity.org/" target="blank"><img src="images/icon_centerbiodiversity.png" alt="Center for Biological Diversity logo" title="Center for Biological Diversity (CBD)"/></a></td>
       <td><a href="https://cites.org/eng" target="blank"><img src="images/icon_cites.png" alt="CITES logo" title="Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)"/></a></td>
-      <td><a href="https://www.cbd.int/" target="blank"><img src="images/icon_conventionbiodiversity.png" alt="Convention for Biological Diversity logo" title="UN Convention for Biological Diversity (CBD)"/></a></td>
+      <td><a href="https://www.cbd.int/" target="blank"><img src="images/icon_conventionbiodiversity.png" alt="Convention on Biological Diversity logo" title="UN Convention on Biological Diversity (CBD)"/></a></td>
    </tr>
    <tr>
       <td><a href="https://www.edf.org/" target="blank"><img src="images/icon_edf.png" alt="Environment Defense Fund logo" title="Environment Defense Fund"/></a></td>

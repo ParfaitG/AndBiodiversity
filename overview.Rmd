@@ -346,7 +346,7 @@ $(function() {
   <label class="accordion-label" for="check9">1990s</label>
   <div class="accordion-content">
   <ul>
-   <li>Convention for Biological Diversity (CBD) opens for signature at the Rio Earth Summit along with UNFCCC and enters into full force a year later as an intergovernmental agreement. <em>See</em> <a href="https://www.cbd.int/history/" target="_blank"><b>CBD history</b></a>.</li>
+   <li>Convention on Biological Diversity (CBD) opens for signature at the Rio Earth Summit along with UNFCCC and enters into full force a year later as an intergovernmental agreement. <em>See</em> <a href="https://www.cbd.int/history/" target="_blank"><b>CBD history</b></a>.</li>
    <li>WCMC publishes the most comprehensive review of global biodiversity ever compiled, *Global Biodiversity: Status of the Earth's living resources*. <em>See</em> <a href="reports.html" target="_blank"><b>Reports</b></a>.</li>
    <li>UNEP publishes the first global biodiversity assessment, the work of over 1,500 scientists and experts from all parts of the world, to provide a snapshot of the current state of the biodiversity sciences and of the subject as perceived by the world's scientific community. <em>See</em> <a href="https://press.un.org/en/1995/19951114.he916.html" target="_blank"><b>press release</b></a>.</li>
   </ul>
@@ -368,8 +368,8 @@ $(function() {
   <label class="accordion-label" for="check11">2010s</label>
   <div class="accordion-content">
   <ul>
-   <li>Conference of the Parties to the Convention for Biological Diversity (CBD) at its tenth meeting (COP10) in Aichi, Japan agree to the Aichi 20 biodiversity targets to be achieved by 2020. <em>See</em> <a href="https://www.cbd.int/sp/targets/" target="_blank"><b>targets</b></a>.</li>
-   <li>Intergovernmental Science-Policy Platform for Biodiversity and Ecosystem Services (IPBES) launches as an independent, intergovernmental body to serve as a science-policy interface. <em>See</em> <a href="https://ipbes.net/history-establishment" target="_blank"><b>IPBES history</b></a>.</li>
+   <li>Conference of the Parties to the Convention on Biological Diversity (CBD) at its tenth meeting (COP10) in Aichi, Japan agree to the Aichi 20 biodiversity targets to be achieved by 2020. <em>See</em> <a href="https://www.cbd.int/sp/targets/" target="_blank"><b>targets</b></a>.</li>
+   <li>Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) launches as an independent, intergovernmental body to serve as a science-policy interface. <em>See</em> <a href="https://ipbes.net/history-establishment" target="_blank"><b>IPBES history</b></a>.</li>
    <li>IPBES publishes its landmark, comprehensive Global Assessment to assess the status and trends of biodiversity and ecosystem services over past five decades, its impact on human wellbeing, and the effectiveness of responses. <em>See</em> <a href="https://ipbes.net/news/Media-Release-Global-Assessment" target="_blank"><b>media release</b></a>.</li>
   </ul>
   </div>
@@ -381,7 +381,7 @@ $(function() {
   <ul>
    <li>IPBES and IPCC launches their first-ever collaboration with a workshop report of selected authors, stressing the interlinked nature of climate change and biodiversity loss. <em>See</em> <a href="reports.html" target="_blank"><b>Reports</b></a>.</li>
    <li>G7 leaders commit to halt and reverse biodiversity loss, reverse land degradation and forest loss, and protect and conserve at least 30% of land and sea by 2030.</li>
-   <li>Conference of the Parties to the Convention for Biological Diversity (CBD) prepares to convene at COP15 to adopt the Post-2020 Global Biodiversity framework. <em>See</em> <a href="https://www.cbd.int/conferences/post2020" target="_blank"><b>preparations</b></a>.</li>
+   <li>Conference of the Parties to the Convention on Biological Diversity (CBD) prepares to convene at COP15 to adopt the Post-2020 Global Biodiversity framework. <em>See</em> <a href="https://www.cbd.int/conferences/post2020" target="_blank"><b>preparations</b></a>.</li>
   </ul>
   </div>
  </div>

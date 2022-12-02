@@ -411,7 +411,7 @@ meta(
 
   <div id="mis3" class="collapse">  
 
-  #### Though it lacks mainstream media attention, biodiversity loss has been an enduring subject matter in the ecological and environment science literature since the 1970s. It is widely accepted in science with enough impetus to erect a UN convention in 1992 for global initiatives on the issue and intergovernmental science body in 2012 to assess the current knowledge on the topic for policymakers. 
+  #### Though it lacks mainstream media attention, biodiversity loss has been an enduring subject matter in the ecological and environment science literature since the 1970s. It is widely accepted in science with enough impetus to establish a UN convention in 1992 for global initiatives on the issue and intergovernmental science body in 2012 to assess the current knowledge on the topic for policymakers. 
   
   #### _See_ [**Reports**](reports.html) that includes three global assessments across the decades (1995, 2005, and 2019) each with stark findings of rapid biodiversity loss due to human activities.
 
