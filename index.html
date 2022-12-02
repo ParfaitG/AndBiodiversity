@@ -383,7 +383,7 @@ $(document).ready(function () {
      border-radius: 30px;
      margin: 10px;
   }
-  #ipbes_reports img {
+  #ipbes_reports img, #media_chart img {
      border: 1px solid #ccc;
   }
 
@@ -495,7 +495,7 @@ $(document).ready(function () {
       #bottom_icons h3 {
           font-size: 2vh;
       }
-      #bottom_icons img {
+      #bottom_icons td.img {
           width: 150px;
       }
       #bottom_icons td::before {
@@ -503,6 +503,26 @@ $(document).ready(function () {
           font-weight: bold;
           text-transform: uppercase;
       }
+  }
+      
+  @media (pointer: coarse), (hover: none) {
+    [title] {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+    }
+    [title]:focus::after {
+      content: attr(title);
+      position: absolute;
+      top: 90%;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 1px solid;
+      border-radius: 10px;
+      width: fit-content;
+      padding: 3px;
+      font-size: 10px;
+    }
   }
 </style>
 <script type="text/javascript">
@@ -840,23 +860,25 @@ id="biodiversity-loss-would-not-be-hardly-known-if-it-is-so-important."><a href=
 loss would not be hardly known if it is so important.</a></h4>
 <div id="mis6" class="collapse">
 <h4
-id="since-biodiversity-loss-lacks-visibility-and-immediate-connection-with-most-people-like-extreme-weather-events-the-issue-remains-in-the-silent-and-invisible-background.-additionally-one-study-showed-how-climate-change-maintained-far-more-media-coverage-than-biodiversity-since-the-1990s-despite-similar-scientific-output-between-both-issues.-consequently-only-experts-tend-to-know-about-this-planetary-crisis.">Since
-biodiversity loss lacks visibility and immediate connection with most
-people like extreme weather events, the issue remains in the silent and
-invisible background. Additionally, one <a
+id="biodiversity-coverage-in-the-media-has-been-a-challenge-for-decades-and-in-turn-causes-a-lack-of-awareness-among-the-general-public-and-especially-an-ever-growing-urbanized-public.-studies-legagneux-et-al.-2018-iied-2008-have-shown-the-under-reported-media-coverage-of-biodiversity-loss-especially-compared-to-climate-change.-as-an-unfortunate-result-only-experts-tend-to-know-about-this-planetary-crisis.">Biodiversity
+coverage in the media has been a challenge for decades and in turn
+causes a lack of awareness among the general public and especially an
+ever growing urbanized public. Studies (<a
 href="https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full"
-target="_blank">study</a> showed how climate change maintained far more
-media coverage than biodiversity since the 1990s despite similar
-scientific output between both issues. Consequently, only experts tend
-to know about this planetary crisis.</h4>
+target="_blank">Legagneux, et al. (2018)</a>, <a
+href="https://www.jstor.org/stable/resrep01416#metadata_info_tab_contents"
+target="_blank">IIED (2008)</a>) have shown the under-reported media
+coverage of biodiversity loss especially compared to climate change. As
+an unfortunate result, only experts tend to know about this planetary
+crisis.</h4>
 <h4
-id="even-sir-robert-watson-who-either-chaired-or-co-chaired-all-three-global-biodiversity-assessments-acknowledge-in-a-guardian-editorial-how-much-biodiversity-has-been-ignored-despite-its-severity-and-critical-importance.">Even
+id="even-sir-robert-watson-who-either-chaired-or-co-chaired-all-three-global-biodiversity-assessments-acknowledge-in-a-guardian-op-ed-how-much-biodiversity-has-been-ignored-despite-its-severity-and-critical-importance.">Even
 Sir Robert Watson, who either chaired or co-chaired all three global
 biodiversity assessments acknowledge in a <a
 href="https://www.theguardian.com/environment/2019/sep/19/biodiversity-touches-every-aspect-of-our-lives-so-why-has-its-loss-been-ignored"
-target="_blank">Guardian editorial</a> how much biodiversity has been
+target="_blank">Guardian op-ed</a> how much biodiversity has been
 ignored despite its severity and critical importance.</h4>
-<div class="banner">
+<div id="media_chart" class="banner">
 <img src="images/climate_biodiversity_media.jpg" alt="Climate and Biodiversity Media Area Chart"/>
 <p>
 Source: <a
@@ -876,7 +898,7 @@ href="https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full">Frontie
 <table id="bottom_icons">
 <tr>
 <td>
-<img src="images/stick_figure_tree_green.png" alt="tree icon" title="Net rate of forest loss have decreased by 50% since the 1990s (excluding those managed for timber or agricultural extraction) (IPBES GA)"/>
+<a title="Net rate of forest loss have decreased by 50% since the 1990s (excluding those managed for timber or agricultural extraction) (IPBES GA)"><img src="images/stick_figure_tree_green.png" alt="tree icon" /></a>
 </td>
 <td>
 <h3>
@@ -950,7 +972,7 @@ Encroaching
 </h3>
 </td>
 <td>
-<img src="images/stick_figure_soil_green.png" alt="soil icon" title="Over 33% of world’s land surface (and +/-75% of freshwater resources) is devoted to crop or livestock production (IPBES GA)"/>
+<a title="Over 33% of world’s land surface (and +/-75% of freshwater resources) is devoted to crop or livestock production (IPBES GA)"/><img src="images/stick_figure_soil_green.png" alt="soil icon" /></a>
 </td>
 <td>
 <h3>

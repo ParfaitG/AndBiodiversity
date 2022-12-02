@@ -79,7 +79,7 @@ output:
      border-radius: 30px;
      margin: 10px;
   }
-  #ipbes_reports img {
+  #ipbes_reports img, #media_chart img {
      border: 1px solid #ccc;
   }
 
@@ -191,7 +191,7 @@ output:
       #bottom_icons h3 {
           font-size: 2vh;
       }
-      #bottom_icons img {
+      #bottom_icons td.img {
           width: 150px;
       }
       #bottom_icons td::before {
@@ -199,6 +199,26 @@ output:
           font-weight: bold;
           text-transform: uppercase;
       }
+  }
+      
+  @media (pointer: coarse), (hover: none) {
+    [title] {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+    }
+    [title]:focus::after {
+      content: attr(title);
+      position: absolute;
+      top: 90%;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 1px solid;
+      border-radius: 10px;
+      width: fit-content;
+      padding: 3px;
+      font-size: 10px;
+    }
   }
 ```
 
@@ -419,11 +439,11 @@ meta(
 
   <div id="mis6" class="collapse">  
 
-  #### Since biodiversity loss lacks visibility and immediate connection with most people like extreme weather events, the issue remains in the silent and invisible background. Additionally, one [study](https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full){target="_blank"} showed how climate change maintained far more media coverage than biodiversity since the 1990s despite similar scientific output between both issues. Consequently, only experts tend to know about this planetary crisis. 
+  #### Biodiversity coverage in the media has been a challenge for decades and in turn causes a lack of awareness among the general public and especially an ever growing urbanized public. Studies ([Legagneux, et al. (2018)](https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full){target="_blank"}, [IIED (2008)](https://www.jstor.org/stable/resrep01416#metadata_info_tab_contents){target="_blank"}) have shown the under-reported media coverage of biodiversity loss especially compared to climate change. As an unfortunate result, only experts tend to know about this planetary crisis. 
   
-  #### Even Sir Robert Watson, who either chaired or co-chaired all three global biodiversity assessments acknowledge in a [Guardian editorial](https://www.theguardian.com/environment/2019/sep/19/biodiversity-touches-every-aspect-of-our-lives-so-why-has-its-loss-been-ignored){target="_blank"} how much biodiversity has been ignored despite its severity and critical importance.
+  #### Even Sir Robert Watson, who either chaired or co-chaired all three global biodiversity assessments acknowledge in a [Guardian op-ed](https://www.theguardian.com/environment/2019/sep/19/biodiversity-touches-every-aspect-of-our-lives-so-why-has-its-loss-been-ignored){target="_blank"} how much biodiversity has been ignored despite its severity and critical importance.
   
-  <div class="banner">
+  <div class="banner" id="media_chart">
     <img src="images/climate_biodiversity_media.jpg" alt="Climate and Biodiversity Media Area Chart"/>
     <p>Source: [Frontiers - Legagneux, et al. (2018) paper](https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full)</p>
   </div>
@@ -441,7 +461,7 @@ meta(
 <div class="table_container">
   <table id="bottom_icons">
    <tr>
-      <td><img src="images/stick_figure_tree_green.png" alt="tree icon" title="Net rate of forest loss have decreased by 50% since the 1990s (excluding those managed for timber or agricultural extraction) (IPBES GA)"/></td>
+      <td><a title="Net rate of forest loss have decreased by 50% since the 1990s (excluding those managed for timber or agricultural extraction) (IPBES GA)"><img src="images/stick_figure_tree_green.png" alt="tree icon" /></a></td>
       <td><h3>Logging</h3></td>
       <td><img src="images/stick_figure_elephant_gray.png" alt="elephant icon" title="African elephants have declined by 30-fold over the last century (from 12 million to ~400,000) with more than 100,000 elephants killed by poachers between 2010 and 2012 (IPBES 2020)"/></td>
       <td><h3>Poaching</h3></td>
@@ -461,7 +481,7 @@ meta(
       <td><h3>Draining</h3></td>
       <td><img src="images/stick_figure_monkey_brown.png" alt="monkey icon" title="Average abundance of native species in most major land-based habitats has fallen by at least 20%, mostly since 1900 (IPBES GA)"/></td>
       <td><h3>Encroaching</h3></td>
-      <td><img src="images/stick_figure_soil_green.png" alt="soil icon" title="Over 33% of world’s land surface (and +/-75% of freshwater resources) is devoted to crop or livestock production (IPBES GA)"/></td>
+      <td><a title="Over 33% of world’s land surface (and +/-75% of freshwater resources) is devoted to crop or livestock production (IPBES GA)"/><img src="images/stick_figure_soil_green.png" alt="soil icon" /></a></td>
       <td><h3>Overfarming</h3></td>
    </tr>
   </table>

@@ -1,6 +1,6 @@
 ---
 title: "Overview"
-pagetitle: "And Biodiversity | Overiew"
+pagetitle: "And Biodiversity | Overview"
 layout: default
 output: 
   html_document:
@@ -335,7 +335,7 @@ $(function() {
   <div class="accordion-content">
   <ul>
    <li>Conference of the Parties to the Convention for Biological Diversity (CBD) at its tenth meeting (COP10) in Aichi, Japan agree to the Aichi 20 biodiversity targets to be achieved by 2020. <em>See</em> <a href="https://www.cbd.int/sp/targets/" target="_blank"><b>targets</b></a>.</li>
-   <li>Intergovernmental Science-Policy Platform for Biodiversity and Ecosystem Services (IPBES) is established as an independent intergovernmental body. <em>See</em> <a href="https://ipbes.net/history-establishment" target="_blank"><b>IPBES history</b></a>.</li>
+   <li>Intergovernmental Science-Policy Platform for Biodiversity and Ecosystem Services (IPBES) launches as an independent, intergovernmental body to serve as a science-policy interface. <em>See</em> <a href="https://ipbes.net/history-establishment" target="_blank"><b>IPBES history</b></a>.</li>
    <li>IPBES publishes its landmark, comprehensive Global Assessment to assess the status and trends of biodiversity and ecosystem services over past five decades, its impact on human wellbeing, and the effectiveness of responses. <em>See</em> <a href="https://ipbes.net/news/Media-Release-Global-Assessment" target="_blank"><b>media release</b></a>.</li>
   </ul>
   </div>

@@ -173,6 +173,22 @@ $(function() {
 
 ### 2022
 
+
+
+- #### <a href="###" data-toggle="collapse" data-target="#unep2022">UNEP: State of Finance for Nature 2022</a> 
+
+  <div id="unep2022" class="collapse">  
+
+  <a href="https://www.unep.org/resources/report/state-finance-nature-2022" target="_blank">
+    <img src="images/report_unep2022.png" alt="UNEP 2022 report cover"/>
+  </a>
+
+  #### With sufficient finance, nature-based solutions (NbS) provide the means to cost-effectively reach climate, ***biodiversity*** and land degradation neutrality targets, particularly if investments simultaneously contribute to ***biodiversity*** (National Biodiversity Strategies and Action Plans [NBSAPs]), climate (Nationally determined contributions [NDC]) and restoration (Land Degradation Neutrality [LDN]) targets. This “double” or “triple” win potential is particularly alluring given the current economic situation...Delayed action is no longer an option in the face of the devastating effects of climate change, the extinction crisis and severe land degradation globally. Politicians, business and finance leaders and citizens globally must transform their relationship with nature to work with it rather than against it...Private sector investment in NbS must increase by several orders of magnitude in the coming years...Nature-negative expenditures far outweigh investments in nature-based solutions...increase direct finance flows to NbS through public domestic expenditure, nature-focused Official Development Assistance (ODA), ensuring that multilateral development banks (MDBs) and development finance institutions (DFIs) prioritise green finance, and providing regulation and incentives for private sector investment, particularly in nature markets and sustainable supply chains. [***See* report.**](https://www.unep.org/resources/report/state-finance-nature-2022){target="_blank"}
+
+  <br/>
+  
+  </div>
+  
 - #### <a href="####" data-toggle="collapse" data-target="#wwf2022">World Wildlife Fund: Living Planet Report</a> 
 
   <div id="wwf2022" class="collapse">  
@@ -299,7 +315,6 @@ $(function() {
   
   </div>
   
-  
 
 <br/>
 <br/>
@@ -344,6 +359,20 @@ $(function() {
   
 
   #### Climate change ***and biodiversity loss*** are closely interconnected and share common drivers through human activities. Both have predominantly negative impacts on human well-being and quality of life...Ignoring the inseparable nature of climate, ***biodiversity***, and human quality of life will result in non-optimal solutions to either crisis. [***See* report**](https://ipbes.net/events/ipbes-ipcc-co-sponsored-workshop-biodiversity-and-climate-change){target="_blank"} and [***see* quotes**](quotes.html).
+
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#unepfinance2021">UNEP: State of Finance for Nature</a> 
+
+  <div id="unepfinance2021" class="collapse">  
+
+  <a href="https://www.unep.org/resources/state-finance-nature" target="_blank">
+    <img src="images/report_unepfinance2021.png" alt="UNEP 2021 finance report cover"/>
+  </a>
+
+  #### Nature loss is at the heart of many societal challenges, while nature-based solutions hold the potential to address interlinked crises...The integrity of the Earth’s ecosystems has been significantly compromised as a result of human activity and the paradigm that has prioritised short-term economic growth...The report finds that approximately USD 133 billion/year currently flows into NbS (using 2020 as base year), with public funds making up 86 per cent and private finance 14 per cent...Looking to the future, investment in NbS ought to at least triple in real terms by 2030 and increase four-fold by 2050 if the world is to meet its climate change, ***biodiversity*** and land degradation targets.  [***See* report.**](https://www.unep.org/resources/state-finance-nature){target="_blank"}
 
   <br/>
   
@@ -525,7 +554,7 @@ $(function() {
     <img src="images/report_ipbes2019.png" alt="IPBES 2019 report cover"/>
   </a>
   
-  #### Nature and its vital contributions to people, which together embody ***biodiversity*** and ecosystem functions and services, are deteriorating worldwide...Nature across most of the globe has now been significantly altered by multiple human drivers, with the great majority of indicators of ecosystems and ***biodiversity*** showing rapid decline...The rate of global change in nature during the past 50 years is unprecedented in human history...An average of around 25 per cent of species in assessed animal and plant groups are threatened, suggesting that around 1 million species already face extinction, many within decades, unless action is taken to reduce the intensity of drivers of ***biodiversity loss***. Without such action, there will be a further acceleration in the global rate of species extinction, which is already at least tens to hundreds of times higher than it has averaged over the past 10 million years. [***See* report**](https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/){target="_blank"} and [***see* quotes**.](quotes.html).
+  #### Nature and its vital contributions to people, which together embody ***biodiversity*** and ecosystem functions and services, are deteriorating worldwide...Nature across most of the globe has now been significantly altered by multiple human drivers, with the great majority of indicators of ecosystems and ***biodiversity*** showing rapid decline...The rate of global change in nature during the past 50 years is unprecedented in human history...An average of around 25 per cent of species in assessed animal and plant groups are threatened, suggesting that around 1 million species already face extinction, many within decades, unless action is taken to reduce the intensity of drivers of ***biodiversity loss***. Without such action, there will be a further acceleration in the global rate of species extinction, which is already at least tens to hundreds of times higher than it has averaged over the past 10 million years. [***See* report**](https://ipbes.net/global-assessment){target="_blank"} and [***see* quotes**.](quotes.html).
 
   <br/>
   
