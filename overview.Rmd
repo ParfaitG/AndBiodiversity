@@ -135,7 +135,7 @@ output:
   .footer {
      bottom: 0;
      width: 100%;
-     height: 140px;
+     height: 120px;
      margin: 0px 0px -40px 0px;
      color: #ffffff;
      background-color: #808080;
@@ -144,34 +144,31 @@ output:
   }
 
   .footer_box {
-     width: 90%;
+     width: 80%;
+     height: 100%;
      margin: 0 auto;
-  }
-  
-  .footer_label {
-     padding: 5px;
-     font-size: 16px;
-     width: 30%;
-     text-align: center;
-  }
-  .footer_label a, 
-  .footer_label a:hover, 
-  .footer_label a:focus, 
-  .footer_label a:active {
-     color: #ffffff;
-  }
-  
-  .footer_space {
-     font-size: 14px;
-     float: left;
-     width: 25%;
+     display: flex;
+     justify-content: center;
   }
   .footer_column {
      font: normal italic 14px Arial;
-     float: left;
-     width: 25%;
-     padding: 0 20px 0 0;
+     display: inline-block;
+     width: fit-content;
+     min-width: 15%;
+     padding: 25px 20px 20px 20px;
   }
+  
+  #footer_label {
+     padding: 5px 0 0 0;
+     font: 16px Arial;
+  }
+  #footer_label a, 
+  #footer_label a:hover, 
+  #footer_label a:focus, 
+  #footer_label a:active {
+     color: #ffffff;
+  }
+  
   @media screen and (max-width: 750px) {
       img {
          height: auto;
@@ -183,19 +180,6 @@ output:
          position: relative;
          z-index: -1;
          width: 40vw;
-      }
-      
-      .footer {
-         height: auto;
-         min-height: 100% !important;
-      }
-      .footer_column {
-          width: 100%;
-          padding: 0 20px 20px 20px;
-      }
-      .footer_space {
-          width: 70%;
-          padding: 0 20px;
       }
       
       #bottom_icons tr {
@@ -216,6 +200,20 @@ output:
           float: left;
           font-weight: bold;
           text-transform: uppercase;
+      }
+      
+      .footer {
+         height: auto;
+         margin: 0 0 -40px 0;
+         min-height: 100% !important;
+      }
+      .footer_box {
+         display: block;
+         padding: 0 0 10px 0;
+      }
+      .footer_column {
+          width: 100%;
+          padding: 15px 0 0 20px;
       }
   }
   
@@ -336,7 +334,7 @@ $(function() {
   <div class="accordion-content">
   <ul>
    <li>Scientific papers and books begin to formally use the term, *biological diversity*, and its contraction, *biodiversity*.</li>
-   <li>UN publishes the landmark World Commission on Sustainable Developments Bruntland Report, *Our Common Future*, to guide sustainable development in the face of enviornmental challenges. <em>See</em> <a href="reports.html" target="_blank"><b>Reports</b></a>.</li>
+   <li>UN publishes the landmark World Commission on Sustainable Developments Bruntland Report, *Our Common Future*, to guide sustainable development in the face of environmental challenges. <em>See</em> <a href="reports.html" target="_blank"><b>Reports</b></a>.</li>
    <li>The Intergovernmental Panel on Climate Change (IPCC) launches to formalize the intergovernmental science-policy interface.</li>
   </ul>
   </div>
@@ -526,18 +524,22 @@ $(function() {
 
 ::: {.footer}
 <div class="footer_box">
-  <div class="footer_label">
+  <div class="footer_column" id="footer_label">
   <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
-  <div class="footer_space"><br/><br/></div>
   <div class="footer_column">
-The morning sea of silence broke into ripples of bird songs; and the flowers were all merry by the roadside; and the wealth of gold was scattered through the rift of the clouds while we busily went on our way and paid no heed.
+The morning sea of silence broke into ripples of bird songs; <br/>
+and the flowers were all merry by the roadside; and the wealth <br/>
+of gold was scattered through the rift of the clouds while we <br/>
+busily went on our way and paid no heed.
   </div>
   <div class="footer_column">
-We sang no glad songs nor played; we went not to the village for barter; we spoke not a word nor smiled; we lingered not on the way. We quickened our pace more and more as the time sped by....
+We sang no glad songs nor played; we went not to the village <br/>
+for barter; we spoke not a word nor smiled; we lingered not <br/>
+on the way. We quickened our pace more and more as the time sped by....
   </div>
-  <div class="footer_space">
+  <div class="footer_column">
 -"48"<br/>
 Rabindranath Tagore<br/>
 <i>Gitanjali</i><br/>

@@ -120,8 +120,8 @@ output:
   .footer {
      bottom: 0;
      width: 100%;
-     height: 160px;
-     margin: 0px auto -40px auto;
+     height: 140px;
+     margin: 0 0 -40px 0;
      color: #ffffff;
      background-color: #808080;
      border-color: #93c54b;
@@ -130,30 +130,30 @@ output:
 
   .footer_box {
      width: 80%;
+     height: 100%;
      margin: 0 auto;
-  }
-  
-  .footer_label {
-     padding: 5px;
-     font-size: 16px;
-     width: 80%;
-  }
-  .footer_label a, 
-  .footer_label a:hover, 
-  .footer_label a:focus, 
-  .footer_label a:active {
-     color: #ffffff;
-  }
-  .footer_space {
-     font-size: 14px;
-     float: left;
-     width: 15%;
+     display: flex;
+     justify-content: center;
   }
   .footer_column {
      font: normal italic 14px Arial;
-     float: left;
-     width: 25%;
+     display: inline-block;
+     width: fit-content;
+     min-width: 15%;
+     padding: 25px 20px 20px 20px;
   }
+  
+  #footer_label {
+     padding: 5px 0 0 0;
+     font: 16px Arial;
+  }
+  #footer_label a, 
+  #footer_label a:hover, 
+  #footer_label a:focus, 
+  #footer_label a:active {
+     color: #ffffff;
+  }
+  
   @media screen and (max-width: 750px) {
       img {
          height: auto;
@@ -172,23 +172,11 @@ output:
          width: 40vw;
       }
       
-      .footer {
-         height: auto;
-         min-height: 100% !important;
-      }
-      .footer_column {
-          width: 100%;
-          padding: 0 0 20px 20px;
-      }
-      .footer_space {
-          width: 70%;
-          padding: 0 20px;
-      }
       .cards {
           display: block;
-           width: 100%;
-           height: 100%;
-           margin: 0 auto;
+          width: 100%;
+          height: 100%;
+          margin: 0 auto;
       }
       .card { 
           width: 50%;
@@ -214,6 +202,20 @@ output:
           float: left;
           font-weight: bold;
           text-transform: uppercase;
+      }
+      
+      .footer {
+         height: auto;
+         margin: 0 0 -40px 0;
+         min-height: 100% !important;
+      }
+      .footer_box {
+         display: block;
+         padding: 0 0 10px 0;
+      }
+      .footer_column {
+          width: 100%;
+          padding: 15px 0 0 20px;
       }
   }
 
@@ -507,11 +509,10 @@ meta(
 
 ::: {.footer}
 <div class="footer_box">
-  <div class="footer_label">
+  <div class="footer_column" id="footer_label">
   <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
-  <div class="footer_space"><br/><br/></div>
   <div class="footer_column">
 ...Hence, these shades <br/>
 Are still the abodes of gladness; the thick roof <br/>
@@ -526,7 +527,7 @@ Try their thin wings and dance in the warm beam <br/>
 That waked them into life. Even the green trees <br/>
 Partake the deep contentment...<br/>
   </div>
-  <div class="footer_space"> 
+  <div class="footer_column"> 
 -"Inscription for the Entrance to a Wood" <br/>
 William Cullen Bryant<br/>
    </div>
