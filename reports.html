@@ -355,9 +355,7 @@ $(document).ready(function () {
   }
   
   .table_container {
-     overflow-x: auto;
      width: 100%;
-     margin: 0 auto;
   }
   
   #bottom_icons {
@@ -418,6 +416,45 @@ $(document).ready(function () {
      color: #ffffff;
   }
   
+  @media screen and (min-width: 750px) and (pointer: coarse), 
+         screen and (min-width: 750px) and (hover: none)  {
+    [title] {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+    }
+    
+    [title]:focus {
+      opacity: 0.7
+    }
+    
+    [title]:focus::after {
+      content: attr(title);
+      position: absolute;
+      top: 10%;
+      left: 95%;
+      color: #fff;
+      background-color: black;
+      border-radius: 10px;
+      width: 80px;
+      padding: 3px;
+      font-size: 10px;
+    }
+    
+    [title]:focus::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      top: 25%;
+      left: 78%;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-right: 10px solid black;
+    }
+
+  }
+  
   @media screen and (max-width: 750px) {
       img {
          height: auto;
@@ -466,37 +503,70 @@ $(document).ready(function () {
       }
   }
   
-  @media (pointer: coarse), (hover: none) {
+  @media screen and (max-width: 750px) and (pointer: coarse), 
+         screen and (max-width: 750px) and (hover: none) {
     [title] {
       position: relative;
       display: inline-flex;
       justify-content: center;
     }
+    
+    td:nth-child(4n+1) a[title]:focus {
+      opacity: 0.7
+    }
+    
     td:nth-child(4n+1) a[title]:focus::after {
       content: attr(title);
       position: absolute;
       top: 10%;
-      left: 90%;
+      right: 95%;
       color: #fff;
-      background-color: rgba(0, 0, 0, 0.5);
-      border: 1px solid;
+      background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
     }
+    
+    td:nth-child(4n+1) a[title]:focus::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      top: 25%;
+      right: 85%;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-left: 10px solid black;
+    }
+    
+    td:nth-child(4n-1) a[title]:focus {
+      opacity: 0.7
+    }
+    
     td:nth-child(4n-1) a[title]:focus::after {
       content: attr(title);
       position: absolute;
       top: 10%;
-      right: 90%;
+      left: 95%;
       color: #fff;
-      background-color: rgba(0, 0, 0, 0.5);
-      border: 1px solid;
+      background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
+    }
+    
+    td:nth-child(4n-1) a[title]:focus::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      top: 25%;
+      left: 85%;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-right: 10px solid black;
     }
   }
 </style>
@@ -559,7 +629,7 @@ and development finance institutions (DFIs) prioritise green finance,
 and providing regulation and incentives for private sector investment,
 particularly in nature markets and sustainable supply chains. <a
 href="https://www.unep.org/resources/report/state-finance-nature-2022"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -570,7 +640,7 @@ Wildlife Fund: Living Planet Report</a></h4>
 <img src="images/report_wwf2022.png" alt="WWF 2022 report cover"/>
 </a></p>
 <h4
-id="today-we-face-the-double-interlinked-emergencies-of-human-induced-climate-change-and-the-loss-of-biodiversity-threatening-the-well-being-of-current-and-future-generations.-as-our-future-is-critically-dependent-on-biodiversity-and-a-stable-climate-it-is-essential-that-we-understand-how-natures-decline-and-climate-change-are-connected.-see-report">Today
+id="today-we-face-the-double-interlinked-emergencies-of-human-induced-climate-change-and-the-loss-of-biodiversity-threatening-the-well-being-of-current-and-future-generations.-as-our-future-is-critically-dependent-on-biodiversity-and-a-stable-climate-it-is-essential-that-we-understand-how-natures-decline-and-climate-change-are-connected.-see-report.">Today
 we face the double, interlinked emergencies of human-induced climate
 change and the <strong><em>loss of biodiversity</em></strong>,
 threatening the well-being of current and future generations. As our
@@ -578,7 +648,7 @@ future is critically dependent on <strong><em>biodiversity</em></strong>
 and a stable climate, it is essential that we understand how nature’s
 decline and climate change are connected. <a
 href="https://livingplanet.panda.org/en-us/"
-target="_blank"><strong><em>See</em> report</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -861,7 +931,7 @@ future, investment in NbS ought to at least triple in real terms by 2030
 and increase four-fold by 2050 if the world is to meet its climate
 change, <strong><em>biodiversity</em></strong> and land degradation
 targets. <a href="https://www.unep.org/resources/state-finance-nature"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -1133,7 +1203,7 @@ Global Assessment on Biodiversity and Ecosystem Services</a></h4>
 <img src="images/report_ipbes2019.png" alt="IPBES 2019 report cover"/>
 </a></p>
 <h4
-id="nature-and-its-vital-contributions-to-people-which-together-embody-biodiversity-and-ecosystem-functions-and-services-are-deteriorating-worldwidenature-across-most-of-the-globe-has-now-been-significantly-altered-by-multiple-human-drivers-with-the-great-majority-of-indicators-of-ecosystems-and-biodiversity-showing-rapid-declinethe-rate-of-global-change-in-nature-during-the-past-50-years-is-unprecedented-in-human-historyan-average-of-around-25-per-cent-of-species-in-assessed-animal-and-plant-groups-are-threatened-suggesting-that-around-1-million-species-already-face-extinction-many-within-decades-unless-action-is-taken-to-reduce-the-intensity-of-drivers-of-biodiversity-loss.-without-such-action-there-will-be-a-further-acceleration-in-the-global-rate-of-species-extinction-which-is-already-at-least-tens-to-hundreds-of-times-higher-than-it-has-averaged-over-the-past-10-million-years.-see-report-and-see-quotes..">Nature
+id="nature-and-its-vital-contributions-to-people-which-together-embody-biodiversity-and-ecosystem-functions-and-services-are-deteriorating-worldwidenature-across-most-of-the-globe-has-now-been-significantly-altered-by-multiple-human-drivers-with-the-great-majority-of-indicators-of-ecosystems-and-biodiversity-showing-rapid-declinethe-rate-of-global-change-in-nature-during-the-past-50-years-is-unprecedented-in-human-historyan-average-of-around-25-per-cent-of-species-in-assessed-animal-and-plant-groups-are-threatened-suggesting-that-around-1-million-species-already-face-extinction-many-within-decades-unless-action-is-taken-to-reduce-the-intensity-of-drivers-of-biodiversity-loss.-without-such-action-there-will-be-a-further-acceleration-in-the-global-rate-of-species-extinction-which-is-already-at-least-tens-to-hundreds-of-times-higher-than-it-has-averaged-over-the-past-10-million-years.-see-report-and-see-quotes.">Nature
 and its vital contributions to people, which together embody
 <strong><em>biodiversity</em></strong> and ecosystem functions and
 services, are deteriorating worldwide…Nature across most of the globe
@@ -1150,7 +1220,7 @@ acceleration in the global rate of species extinction, which is already
 at least tens to hundreds of times higher than it has averaged over the
 past 10 million years. <a href="https://ipbes.net/global-assessment"
 target="_blank"><strong><em>See</em> report</strong></a> and <a
-href="quotes.html"><strong><em>see</em> quotes</strong>.</a>.</h4>
+href="quotes.html"><strong><em>see</em> quotes</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2037,7 +2107,7 @@ data, observations, and indigenous knowledge.
 displacements due to climate change, UV radiation effects, and feedback
 processes as the vegetation and the hydrological regime change are
 discussed. <a href="https://acia.amap.no/"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2064,7 +2134,7 @@ conflict are further contributory factors to <strong><em>biodiversity
 loss</em></strong>. Over the past three decades, decline and extinction
 of species have emerged as major environmental issues. <a
 href="https://wedocs.unep.org/handle/20.500.11822/8609"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2092,7 +2162,7 @@ the projected changes have to take into account the impacts from other
 past, present, and future human activities, including increasing
 atmospheric concentrations of carbon dioxide (CO2). <a
 href="https://wedocs.unep.org/handle/20.500.11822/32705"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2116,7 +2186,7 @@ particularly noted that the information necessary to determine status
 and trends of Arctic fauna was fragmentary and almost non-existent for
 flora. <a
 href="https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2142,7 +2212,7 @@ theme studies. A total of 141 sites, representing 65 countries and over
 142 million ha of protected areas were identified as being of particular
 importance for <strong><em>biodiversity</em></strong>. <a
 href="https://wedocs.unep.org/handle/20.500.11822/9543"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 </ul>
@@ -2171,7 +2241,7 @@ communities, nations and future generations depend…Respect for
 diversity. Indeed, both elements are fundamental to stability and
 durable peace on earth. <a
 href="https://www.unep.org/resources/publication/cultural-and-spiritual-values-biodiversity"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2193,7 +2263,7 @@ very important role in the activities of some of our industries.
 However, there is very little direct evidence of the degree to which the
 industries depend on this biodiversity. <a
 href="https://wedocs.unep.org/handle/20.500.11822/8860"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2224,7 +2294,7 @@ to the landscape scale may be the most appropriate tool with which to
 conserve the vast majority of <strong><em>biological
 diversity</em></strong>. <a
 href="https://wedocs.unep.org/handle/20.500.11822/29355"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2250,7 +2320,7 @@ including biotechnology. It calls for charting a new path, with a new
 vision, vigour and renewed mandate. It calls for an effective
 implementation strategy. <a
 href="https://wedocs.unep.org/handle/20.500.11822/30293"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2275,7 +2345,7 @@ loss). They also include those that have emerged over the period under
 review - stratospheric ozone depletion, <strong><em>loss of
 biodiversity</em></strong> and climate change. <a
 href="https://wedocs.unep.org/handle/20.500.11822/30320"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2298,7 +2368,7 @@ resources - the genes, species and ecosystems that comprise the planet’s
 biotic wealth - and the threats that these resources now face, that this
 massive effort has barely scratched the surface. <a
 href="https://www.unep.org/resources/report/global-biodiversity-status-earths-living-resources"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2324,7 +2394,7 @@ politics and environmental law…This volume contains over 10,000
 reference citations to published literature considered relevant to
 international, national or local plant conservation. <a
 href="https://wedocs.unep.org/handle/20.500.11822/8320"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 </ul>
@@ -2355,7 +2425,7 @@ a comprehensive strategy, including a global convention to provide a
 strong legal basis for international co-operation in conserving
 <strong><em>biological diversity</em></strong>. <a
 href="https://wedocs.unep.org/handle/20.500.11822/28295"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2388,7 +2458,7 @@ in our analysis and recommendations. What is needed now is a new era of
 economic growth - growth that is forceful and at the same time socially
 and environmentally sustainable. <a
 href="https://digitallibrary.un.org/record/139811?ln=en"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2415,7 +2485,7 @@ resources</em></strong>, especially in the tropical forests, was much
 debated. The volume and number of manufactured chemicals reaching the
 environment increased enormously. <a
 href="https://wedocs.unep.org/handle/20.500.11822/30379"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2441,7 +2511,7 @@ unexploited tracts available to serve as reservoirs of
 <strong><em>species diversity</em></strong> and natural ecosystems
 become smaller and smaller. <a
 href="https://wedocs.unep.org/handle/20.500.11822/28254"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2468,7 +2538,7 @@ with a more prudent care for their environmental consequences. Through
 ignorance or indifference we can do massive and irreversible harm to the
 earthly environment on which our life and well-being depend. <a
 href="https://wedocs.unep.org/handle/20.500.11822/30829"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2497,7 +2567,7 @@ on those problems which threaten humanity in an environment that permits
 the realization of the highest human aspirations, and on the action
 necessary to deal with them. <a
 href="https://digitallibrary.un.org/record/729455?ln=en"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -2522,7 +2592,7 @@ FAO. The proper and rational use of land, including problems of soil
 erosion, soil conservation and the establishment and protection of
 forests, is being studied particularly by FAO. <a
 href="https://digitallibrary.un.org/record/729430?ln=en"
-target="_blank"><strong><em>See</em> report.</strong></a></h4>
+target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 </ul>

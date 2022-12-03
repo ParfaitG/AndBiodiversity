@@ -53,9 +53,7 @@ output:
   }
   
   .table_container {
-     overflow-x: auto;
      width: 100%;
-     margin: 0 auto;
   }
   
   #bottom_icons {
@@ -116,6 +114,45 @@ output:
      color: #ffffff;
   }
   
+  @media screen and (min-width: 750px) and (pointer: coarse), 
+         screen and (min-width: 750px) and (hover: none)  {
+    [title] {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+    }
+    
+    [title]:focus {
+      opacity: 0.7
+    }
+    
+    [title]:focus::after {
+      content: attr(title);
+      position: absolute;
+      top: 10%;
+      left: 95%;
+      color: #fff;
+      background-color: black;
+      border-radius: 10px;
+      width: 80px;
+      padding: 3px;
+      font-size: 10px;
+    }
+    
+    [title]:focus::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      top: 25%;
+      left: 78%;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-right: 10px solid black;
+    }
+
+  }
+  
   @media screen and (max-width: 750px) {
       img {
          height: auto;
@@ -164,37 +201,70 @@ output:
       }
   }
   
-  @media (pointer: coarse), (hover: none) {
+  @media screen and (max-width: 750px) and (pointer: coarse), 
+         screen and (max-width: 750px) and (hover: none) {
     [title] {
       position: relative;
       display: inline-flex;
       justify-content: center;
     }
+    
+    td:nth-child(4n+1) a[title]:focus {
+      opacity: 0.7
+    }
+    
     td:nth-child(4n+1) a[title]:focus::after {
       content: attr(title);
       position: absolute;
       top: 10%;
-      left: 90%;
+      right: 95%;
       color: #fff;
-      background-color: rgba(0, 0, 0, 0.5);
-      border: 1px solid;
+      background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
     }
+    
+    td:nth-child(4n+1) a[title]:focus::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      top: 25%;
+      right: 85%;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-left: 10px solid black;
+    }
+    
+    td:nth-child(4n-1) a[title]:focus {
+      opacity: 0.7
+    }
+    
     td:nth-child(4n-1) a[title]:focus::after {
       content: attr(title);
       position: absolute;
       top: 10%;
-      right: 90%;
+      left: 95%;
       color: #fff;
-      background-color: rgba(0, 0, 0, 0.5);
-      border: 1px solid;
+      background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
+    }
+    
+    td:nth-child(4n-1) a[title]:focus::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      top: 25%;
+      left: 85%;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-right: 10px solid black;
     }
   }
 ```
@@ -235,7 +305,7 @@ $(function() {
     <img src="images/report_unep2022.png" alt="UNEP 2022 report cover"/>
   </a>
 
-  #### With sufficient finance, nature-based solutions (NbS) provide the means to cost-effectively reach climate, ***biodiversity*** and land degradation neutrality targets, particularly if investments simultaneously contribute to ***biodiversity*** (National Biodiversity Strategies and Action Plans [NBSAPs]), climate (Nationally determined contributions [NDC]) and restoration (Land Degradation Neutrality [LDN]) targets. This “double” or “triple” win potential is particularly alluring given the current economic situation...Delayed action is no longer an option in the face of the devastating effects of climate change, the extinction crisis and severe land degradation globally. Politicians, business and finance leaders and citizens globally must transform their relationship with nature to work with it rather than against it...Private sector investment in NbS must increase by several orders of magnitude in the coming years...Nature-negative expenditures far outweigh investments in nature-based solutions...increase direct finance flows to NbS through public domestic expenditure, nature-focused Official Development Assistance (ODA), ensuring that multilateral development banks (MDBs) and development finance institutions (DFIs) prioritise green finance, and providing regulation and incentives for private sector investment, particularly in nature markets and sustainable supply chains. [***See* report.**](https://www.unep.org/resources/report/state-finance-nature-2022){target="_blank"}
+  #### With sufficient finance, nature-based solutions (NbS) provide the means to cost-effectively reach climate, ***biodiversity*** and land degradation neutrality targets, particularly if investments simultaneously contribute to ***biodiversity*** (National Biodiversity Strategies and Action Plans [NBSAPs]), climate (Nationally determined contributions [NDC]) and restoration (Land Degradation Neutrality [LDN]) targets. This “double” or “triple” win potential is particularly alluring given the current economic situation...Delayed action is no longer an option in the face of the devastating effects of climate change, the extinction crisis and severe land degradation globally. Politicians, business and finance leaders and citizens globally must transform their relationship with nature to work with it rather than against it...Private sector investment in NbS must increase by several orders of magnitude in the coming years...Nature-negative expenditures far outweigh investments in nature-based solutions...increase direct finance flows to NbS through public domestic expenditure, nature-focused Official Development Assistance (ODA), ensuring that multilateral development banks (MDBs) and development finance institutions (DFIs) prioritise green finance, and providing regulation and incentives for private sector investment, particularly in nature markets and sustainable supply chains. [***See* report**](https://www.unep.org/resources/report/state-finance-nature-2022){target="_blank"}.
 
   <br/>
   
@@ -249,7 +319,7 @@ $(function() {
      <img src="images/report_wwf2022.png" alt="WWF 2022 report cover"/>
   </a>
   
-  #### Today we face the double, interlinked emergencies of human-induced climate change and the ***loss of biodiversity***, threatening the well-being of current and future generations. As our future is critically dependent on ***biodiversity*** and a stable climate, it is essential that we understand how nature’s decline and climate change are connected. [***See* report**](https://livingplanet.panda.org/en-us/){target="_blank"}
+  #### Today we face the double, interlinked emergencies of human-induced climate change and the ***loss of biodiversity***, threatening the well-being of current and future generations. As our future is critically dependent on ***biodiversity*** and a stable climate, it is essential that we understand how nature’s decline and climate change are connected. [***See* report**](https://livingplanet.panda.org/en-us/){target="_blank"}.
 
   <br/>
   
@@ -424,7 +494,7 @@ $(function() {
     <img src="images/report_unepfinance2021.png" alt="UNEP 2021 finance report cover"/>
   </a>
 
-  #### Nature loss is at the heart of many societal challenges, while nature-based solutions hold the potential to address interlinked crises...The integrity of the Earth’s ecosystems has been significantly compromised as a result of human activity and the paradigm that has prioritised short-term economic growth...The report finds that approximately USD 133 billion/year currently flows into NbS (using 2020 as base year), with public funds making up 86 per cent and private finance 14 per cent...Looking to the future, investment in NbS ought to at least triple in real terms by 2030 and increase four-fold by 2050 if the world is to meet its climate change, ***biodiversity*** and land degradation targets.  [***See* report.**](https://www.unep.org/resources/state-finance-nature){target="_blank"}
+  #### Nature loss is at the heart of many societal challenges, while nature-based solutions hold the potential to address interlinked crises...The integrity of the Earth’s ecosystems has been significantly compromised as a result of human activity and the paradigm that has prioritised short-term economic growth...The report finds that approximately USD 133 billion/year currently flows into NbS (using 2020 as base year), with public funds making up 86 per cent and private finance 14 per cent...Looking to the future, investment in NbS ought to at least triple in real terms by 2030 and increase four-fold by 2050 if the world is to meet its climate change, ***biodiversity*** and land degradation targets.  [***See* report**](https://www.unep.org/resources/state-finance-nature){target="_blank"}.
 
   <br/>
   
@@ -606,7 +676,7 @@ $(function() {
     <img src="images/report_ipbes2019.png" alt="IPBES 2019 report cover"/>
   </a>
   
-  #### Nature and its vital contributions to people, which together embody ***biodiversity*** and ecosystem functions and services, are deteriorating worldwide...Nature across most of the globe has now been significantly altered by multiple human drivers, with the great majority of indicators of ecosystems and ***biodiversity*** showing rapid decline...The rate of global change in nature during the past 50 years is unprecedented in human history...An average of around 25 per cent of species in assessed animal and plant groups are threatened, suggesting that around 1 million species already face extinction, many within decades, unless action is taken to reduce the intensity of drivers of ***biodiversity loss***. Without such action, there will be a further acceleration in the global rate of species extinction, which is already at least tens to hundreds of times higher than it has averaged over the past 10 million years. [***See* report**](https://ipbes.net/global-assessment){target="_blank"} and [***see* quotes**.](quotes.html).
+  #### Nature and its vital contributions to people, which together embody ***biodiversity*** and ecosystem functions and services, are deteriorating worldwide...Nature across most of the globe has now been significantly altered by multiple human drivers, with the great majority of indicators of ecosystems and ***biodiversity*** showing rapid decline...The rate of global change in nature during the past 50 years is unprecedented in human history...An average of around 25 per cent of species in assessed animal and plant groups are threatened, suggesting that around 1 million species already face extinction, many within decades, unless action is taken to reduce the intensity of drivers of ***biodiversity loss***. Without such action, there will be a further acceleration in the global rate of species extinction, which is already at least tens to hundreds of times higher than it has averaged over the past 10 million years. [***See* report**](https://ipbes.net/global-assessment){target="_blank"} and [***see* quotes**](quotes.html).
 
   <br/>
   
@@ -1140,7 +1210,7 @@ $(function() {
     <img src="images/report_acia2004.png" alt="ACIA 2004 report cover"/>
   </a>
 
-  #### The Arctic Climate Impact Assessment (ACIA) is the first comprehensive, integrated assessment of climate change and ultraviolet (UV) radiation across the entire Arctic region...The primary impacts of climate change and increased UV radiation in the Arctic will be to its physical and biological systems. Chapter 6 describes the changes that have already been observed, and the impacts that are expected to occur in the frozen regions of the Arctic, including sea ice, permafrost, glaciers, and snow cover. River discharge and river and lake ice break-up and freeze-up are also discussed. Chapter 7 discusses impacts on the terrestrial ecosystems of the Arctic, drawing on extensive research, experimental data, observations, and indigenous knowledge. ***Biodiversity***, risks to species, including displacements due to climate change, UV radiation effects, and feedback processes as the vegetation and the hydrological regime change are discussed. [***See* report.**](https://acia.amap.no/){target="_blank"}
+  #### The Arctic Climate Impact Assessment (ACIA) is the first comprehensive, integrated assessment of climate change and ultraviolet (UV) radiation across the entire Arctic region...The primary impacts of climate change and increased UV radiation in the Arctic will be to its physical and biological systems. Chapter 6 describes the changes that have already been observed, and the impacts that are expected to occur in the frozen regions of the Arctic, including sea ice, permafrost, glaciers, and snow cover. River discharge and river and lake ice break-up and freeze-up are also discussed. Chapter 7 discusses impacts on the terrestrial ecosystems of the Arctic, drawing on extensive research, experimental data, observations, and indigenous knowledge. ***Biodiversity***, risks to species, including displacements due to climate change, UV radiation effects, and feedback processes as the vegetation and the hydrological regime change are discussed. [***See* report**](https://acia.amap.no/){target="_blank"}.
 
   <br/>
   
@@ -1154,7 +1224,7 @@ $(function() {
     <img src="images/report_unep2003.png" alt="UNEP 2003 report cover"/>
   </a>
 
-  #### Global ***biodiversity*** is being lost at a rate many times higher than that of natural extinction due to land conversion, climate change, pollution, unsustainable harvesting of natural resources and the introduction of exotic species. Land conversion is most intensive in tropical forests and less intensive in temperate, boreal and arctic regions; atmospheric nitrogen deposition is largest in northern temperate areas close to cities; introduction of exotic species is related to patterns of human activity. Human population growth together with unsustainable patterns of consumption, increasing production of waste and pollutants, urban development and international conflict are further contributory factors to ***biodiversity loss***. Over the past three decades, decline and extinction of species have emerged as major environmental issues. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/8609){target="_blank"}
+  #### Global ***biodiversity*** is being lost at a rate many times higher than that of natural extinction due to land conversion, climate change, pollution, unsustainable harvesting of natural resources and the introduction of exotic species. Land conversion is most intensive in tropical forests and less intensive in temperate, boreal and arctic regions; atmospheric nitrogen deposition is largest in northern temperate areas close to cities; introduction of exotic species is related to patterns of human activity. Human population growth together with unsustainable patterns of consumption, increasing production of waste and pollutants, urban development and international conflict are further contributory factors to ***biodiversity loss***. Over the past three decades, decline and extinction of species have emerged as major environmental issues. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8609){target="_blank"}.
 
   <br/>
   
@@ -1168,7 +1238,7 @@ $(function() {
     <img src="images/report_ipcc2002.png" alt="IPCC 2002 report cover"/>
   </a>
 
-  #### At the global level, human activities have caused and will continue to cause a loss in ***biodiversity*** through, inter alia, land-use and land-cover change; soil and water pollution and degradation (including desertification), and air pollution; diversion of water to intensively managed ecosystems and urban systems; habitat fragmentation; selective exploitation of species; the introduction of non-native species; and stratospheric ozone depletion. The current rate of ***biodiversity loss*** is greater than the natural background rate of extinction. Changes in climate exert additional pressure and have already begun to affect ***biodiversity***. Climate change is projected to affect all aspects of ***biodiversity***; however, the projected changes have to take into account the impacts from other past, present, and future human activities, including increasing atmospheric concentrations of carbon dioxide (CO2). [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/32705){target="_blank"}
+  #### At the global level, human activities have caused and will continue to cause a loss in ***biodiversity*** through, inter alia, land-use and land-cover change; soil and water pollution and degradation (including desertification), and air pollution; diversion of water to intensively managed ecosystems and urban systems; habitat fragmentation; selective exploitation of species; the introduction of non-native species; and stratospheric ozone depletion. The current rate of ***biodiversity loss*** is greater than the natural background rate of extinction. Changes in climate exert additional pressure and have already begun to affect ***biodiversity***. Climate change is projected to affect all aspects of ***biodiversity***; however, the projected changes have to take into account the impacts from other past, present, and future human activities, including increasing atmospheric concentrations of carbon dioxide (CO2). [***See* report**](https://wedocs.unep.org/handle/20.500.11822/32705){target="_blank"}.
 
   <br/>
   
@@ -1182,7 +1252,7 @@ $(function() {
     <img src="images/report_caff2001.png" alt="CAFF 2001 report cover"/>
   </a>
 
-  #### This is the first truely circumpolar overview of Arctic ***biodiversity*** and provides a clear understanding of the importance of the Earth's largest ecoregion and its status in the face of a rapidly changing world. It observes that while much of the Arctic was in its natural state and that the impacts of human activity were relatively minor, individuals, species and ecosystems throughout the Arctic faced threats from many causes, and that the long-term consequencies of human impacts were unknown. It particularly noted that the information necessary to determine status and trends of Arctic fauna was fragmentary and almost non-existent for flora. [***See* report.**](https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation){target="_blank"}
+  #### This is the first truely circumpolar overview of Arctic ***biodiversity*** and provides a clear understanding of the importance of the Earth's largest ecoregion and its status in the face of a rapidly changing world. It observes that while much of the Arctic was in its natural state and that the impacts of human activity were relatively minor, individuals, species and ecosystems throughout the Arctic faced threats from many causes, and that the long-term consequencies of human impacts were unknown. It particularly noted that the information necessary to determine status and trends of Arctic fauna was fragmentary and almost non-existent for flora. [***See* report**](https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation){target="_blank"}.
 
   <br/>
   
@@ -1196,7 +1266,7 @@ $(function() {
     <img src="images/report_wcmc2000.png" alt="WCMC 2000 report cover"/>
   </a>
 
-  #### This working paper provides a global overview of the current coverage of existing World Heritage Sites of particular importance for the conservation of ***biodiversity***, and suggests existing protected areas of significant ***biodiversity*** value, which may merit future World Heritage nomination. In 1996, IUCN initiated a project to prepare a global strategy for Natural World Heritage sites, and as part of this process began to prepare a series of thematic global overviews on World Heritage site coverage. This document is an updated addition to these theme studies. A total of 141 sites, representing 65 countries and over 142 million ha of protected areas were identified as being of particular importance for ***biodiversity***. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/9543){target="_blank"}
+  #### This working paper provides a global overview of the current coverage of existing World Heritage Sites of particular importance for the conservation of ***biodiversity***, and suggests existing protected areas of significant ***biodiversity*** value, which may merit future World Heritage nomination. In 1996, IUCN initiated a project to prepare a global strategy for Natural World Heritage sites, and as part of this process began to prepare a series of thematic global overviews on World Heritage site coverage. This document is an updated addition to these theme studies. A total of 141 sites, representing 65 countries and over 142 million ha of protected areas were identified as being of particular importance for ***biodiversity***. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/9543){target="_blank"}.
 
   <br/>
   
@@ -1214,7 +1284,7 @@ $(function() {
     <img src="images/report_unep1999.png" alt="UNEP 1999 report cover"/>
   </a>
 
-  #### Besides the profound ethical and aesthetic implications, it is clear that the ***loss of biodiversity*** has serious economic and social costs. The genes, species, ecosystems and human knowledge that are being lost represent a living library of options available for preventing and/ or adapting to local and global change. ***Biodiversity*** is a part of our daily lives and livelihoods, and constitutes the resources on which families, communities, nations and future generations depend...Respect for ***biological diversity*** implies respect for human diversity. Indeed, both elements are fundamental to stability and durable peace on earth. [***See* report.**](https://www.unep.org/resources/publication/cultural-and-spiritual-values-biodiversity){target="_blank"}
+  #### Besides the profound ethical and aesthetic implications, it is clear that the ***loss of biodiversity*** has serious economic and social costs. The genes, species, ecosystems and human knowledge that are being lost represent a living library of options available for preventing and/ or adapting to local and global change. ***Biodiversity*** is a part of our daily lives and livelihoods, and constitutes the resources on which families, communities, nations and future generations depend...Respect for ***biological diversity*** implies respect for human diversity. Indeed, both elements are fundamental to stability and durable peace on earth. [***See* report**](https://www.unep.org/resources/publication/cultural-and-spiritual-values-biodiversity){target="_blank"}.
 
   <br/>
   
@@ -1228,7 +1298,7 @@ $(function() {
     <img src="images/report_wcmc1997.png" alt="WCMC 1997 report cover"/>
   </a>
 
-  #### The object of this study is to ascertain the extent of industrial reliance on ***biological diversity***; we are attempting to determine the extent to which ***biodiversity*** feeds directly into western industries, and the extent to which they rely upon it. There is a general consensus among environmental scientists that ***biological diversity*** plays a very important role in the activities of some of our industries. However, there is very little direct evidence of the degree to which the industries depend on this biodiversity.  [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/8860){target="_blank"}
+  #### The object of this study is to ascertain the extent of industrial reliance on ***biological diversity***; we are attempting to determine the extent to which ***biodiversity*** feeds directly into western industries, and the extent to which they rely upon it. There is a general consensus among environmental scientists that ***biological diversity*** plays a very important role in the activities of some of our industries. However, there is very little direct evidence of the degree to which the industries depend on this biodiversity.  [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8860){target="_blank"}.
 
   <br/>
   
@@ -1242,7 +1312,7 @@ $(function() {
     <img src="images/report_unepglobal1995.png" alt="UNEP Global 1995 report cover"/>
   </a>
 
-  #### It is clear that even if the above-mentioned numbers should be regarded as only crude estimates, current extinction rates are dramatically higher than background extinction rates. For every species that goes extinct, many populations have become extinct (termed local extinction or extirpation)...Causes of extinction, i.e. those factors that make populations vulnerable to extinction in the first place, include habitat degradation (loss, change in quality and fragmentation), over-exploitation and persecution, and introductions of alien species...The rich complexity of both the physical environment and the interactions among organisms and species appears to be crucial for the maintenance and generation of ***biodiversity***. Thus, the ecosystem and its component communities appear to be very appropriate targets for conservation, because they take into account explicitly the many ecological interactions between organisms and their biotic and abiotic natural environment. A space-orientated approach up to the landscape scale may be the most appropriate tool with which to conserve the vast majority of ***biological diversity***. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/29355){target="_blank"}
+  #### It is clear that even if the above-mentioned numbers should be regarded as only crude estimates, current extinction rates are dramatically higher than background extinction rates. For every species that goes extinct, many populations have become extinct (termed local extinction or extirpation)...Causes of extinction, i.e. those factors that make populations vulnerable to extinction in the first place, include habitat degradation (loss, change in quality and fragmentation), over-exploitation and persecution, and introductions of alien species...The rich complexity of both the physical environment and the interactions among organisms and species appears to be crucial for the maintenance and generation of ***biodiversity***. Thus, the ecosystem and its component communities appear to be very appropriate targets for conservation, because they take into account explicitly the many ecological interactions between organisms and their biotic and abiotic natural environment. A space-orientated approach up to the landscape scale may be the most appropriate tool with which to conserve the vast majority of ***biological diversity***. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/29355){target="_blank"}.
 
   <br/>
   
@@ -1256,7 +1326,7 @@ $(function() {
     <img src="images/report_unepstrategy1995.png" alt="UNEP Strategy 2005 report cover"/>
   </a>
 
-  #### ***Biodiversity***, the product of millions of years of biological evolution has always provided mankind with food, fibre, shelter, medicines and socio-cultural enrichment. Yet we are destroying vast numbers of invaluable species and genetic combinations and compromising vital terrestrial and aquatic habitats and ecosystems at a time when human dependence on genetic resources and ecological services of ecosystems is increasing rapidly due to human population growth...Such changes call for a major recasting of political principles and covenants/contracts governing international co-operation, production and consumption patterns, exchange of commodities and information, as well as transfer of technologies including biotechnology. It calls for charting a new path, with a new vision, vigour and renewed mandate. It calls for an effective implementation strategy.  [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/30293){target="_blank"}
+  #### ***Biodiversity***, the product of millions of years of biological evolution has always provided mankind with food, fibre, shelter, medicines and socio-cultural enrichment. Yet we are destroying vast numbers of invaluable species and genetic combinations and compromising vital terrestrial and aquatic habitats and ecosystems at a time when human dependence on genetic resources and ecological services of ecosystems is increasing rapidly due to human population growth...Such changes call for a major recasting of political principles and covenants/contracts governing international co-operation, production and consumption patterns, exchange of commodities and information, as well as transfer of technologies including biotechnology. It calls for charting a new path, with a new vision, vigour and renewed mandate. It calls for an effective implementation strategy.  [***See* report**](https://wedocs.unep.org/handle/20.500.11822/30293){target="_blank"}.
 
   <br/>
   
@@ -1270,7 +1340,7 @@ $(function() {
     <img src="images/report_unep1992.png" alt="UNEP 1992 report cover"/>
   </a>
 
-  #### Three times since its inception (1982, 1987 and 1992) UNEP has undertaken a more wide-ranging study. The results of the present study are the most disturbing of the three....The World Environment 1972-1992 offers a look at the environment from three perspectives. Ten introductory chapters detail the range of environmental threats and examine how they have unfolded over the past two decades. The threats include those that were well known two decades ago, such as toxic chemicals, air and water pollution, and land degradation (desertlilcation, deforestation and soil loss). They also include those that have emerged over the period under review - stratospheric ozone depletion, ***loss of biodiversity*** and climate change. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/30320){target="_blank"}
+  #### Three times since its inception (1982, 1987 and 1992) UNEP has undertaken a more wide-ranging study. The results of the present study are the most disturbing of the three....The World Environment 1972-1992 offers a look at the environment from three perspectives. Ten introductory chapters detail the range of environmental threats and examine how they have unfolded over the past two decades. The threats include those that were well known two decades ago, such as toxic chemicals, air and water pollution, and land degradation (desertlilcation, deforestation and soil loss). They also include those that have emerged over the period under review - stratospheric ozone depletion, ***loss of biodiversity*** and climate change. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/30320){target="_blank"}.
 
   <br/>
   
@@ -1284,7 +1354,7 @@ $(function() {
     <img src="images/report_wcmc1992.png" alt="WCMC 1992 report cover"/>
   </a>
 
-  #### In your hands you now hold the most comprehensive review of global ***biodiversity*** ever compiled. It represents the product of numerous scientists, consultants and research institutes each of whom has generously contributed data or assistance to the compilation of this Report, together with the substantial information holdings that WCMC already manages. Yet so vast and diverse are the Earth's living resources - the genes, species and ecosystems that comprise the planet's biotic wealth - and the threats that these resources now face, that this massive effort has barely scratched the surface. [***See* report.**](https://www.unep.org/resources/report/global-biodiversity-status-earths-living-resources){target="_blank"}
+  #### In your hands you now hold the most comprehensive review of global ***biodiversity*** ever compiled. It represents the product of numerous scientists, consultants and research institutes each of whom has generously contributed data or assistance to the compilation of this Report, together with the substantial information holdings that WCMC already manages. Yet so vast and diverse are the Earth's living resources - the genes, species and ecosystems that comprise the planet's biotic wealth - and the threats that these resources now face, that this massive effort has barely scratched the surface. [***See* report**](https://www.unep.org/resources/report/global-biodiversity-status-earths-living-resources){target="_blank"}.
 
   <br/>
   
@@ -1298,7 +1368,7 @@ $(function() {
     <img src="images/report_plantbib1990.png" alt="Plant Bibliography 1990 report cover"/>
   </a>
 
-  #### The relatively recent explosion in 'green' thinking and policy making worldwide, together with the concern at the rate of ***loss of both species and habitats***, has led to a growing demand for up-to-date facts and figures about plant species and vegetation types and how they should be conserved. Fortunately, much has been published on this subject in recent years, yet there has been no obvious route for the conservation and development community to gain access to this information quickly and easily. The relevant literature tends to be markedly mulu- disciplinary, and is thinly scattered across such varied fields as botany, forestry, ecology, horticulture, planning, economics, politics and environmental law...This volume contains over 10,000 reference citations to published literature considered relevant to international, national or local plant conservation. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/8320){target="_blank"}
+  #### The relatively recent explosion in 'green' thinking and policy making worldwide, together with the concern at the rate of ***loss of both species and habitats***, has led to a growing demand for up-to-date facts and figures about plant species and vegetation types and how they should be conserved. Fortunately, much has been published on this subject in recent years, yet there has been no obvious route for the conservation and development community to gain access to this information quickly and easily. The relevant literature tends to be markedly mulu- disciplinary, and is thinly scattered across such varied fields as botany, forestry, ecology, horticulture, planning, economics, politics and environmental law...This volume contains over 10,000 reference citations to published literature considered relevant to international, national or local plant conservation. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8320){target="_blank"}.
 
   <br/>
   
@@ -1314,7 +1384,7 @@ $(function() {
     <img src="images/report_unep1989.png" alt="UNEP 1989 report cover"/>
   </a>
 
-  #### Environmental indicators reveal mixed signals. improvement, stabilization, and deterioration...Rapid destruction of natural environments is reducing the number of species and the amount of genetic variation within individual species. So ***biological diversity*** is declining. If this trend is not hailed and reversed it could have serious and far-reaching repercussions for humanity. ***Biological diversity*** must be seen as a global resource, like the atmosphere or the oceans. All nations have a common interest in it and all have a common responsibility towards it. Despite such action as has already been taken to promote conservation, there is a pressing need for a comprehensive strategy, including a global convention to provide a strong legal basis for international co-operation in conserving ***biological diversity***. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/28295){target="_blank"}
+  #### Environmental indicators reveal mixed signals. improvement, stabilization, and deterioration...Rapid destruction of natural environments is reducing the number of species and the amount of genetic variation within individual species. So ***biological diversity*** is declining. If this trend is not hailed and reversed it could have serious and far-reaching repercussions for humanity. ***Biological diversity*** must be seen as a global resource, like the atmosphere or the oceans. All nations have a common interest in it and all have a common responsibility towards it. Despite such action as has already been taken to promote conservation, there is a pressing need for a comprehensive strategy, including a global convention to provide a strong legal basis for international co-operation in conserving ***biological diversity***. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/28295){target="_blank"}.
 
   <br/>
   
@@ -1328,7 +1398,7 @@ $(function() {
     <img src="images/report_un1987.png" alt="UN 1987 report cover"/>
   </a>
 
-  #### But the "environment" is where we all live; and "development" is what we all do in attempting to improve our lot within that abode. The two are inseparable. Further, development issues must be seen as crucial by the political leaders who feel that their countries have reached a plateau towards which other nations must strive. Many of the development paths of the industrialized nations are clearly unsustainable. And the development decisions of these countries, because of their great economic and political power, will have a profound effect upon the ability of all peoples to sustain human progress for generations to come. Many critical survival issues are related to uneven development, poverty, and population growth. They all place unprecedented pressures on the planet's lands, waters, forests, and other natural resources, not least in the developing countries. The downward spiral of poverty and environmental degradation is a waste of opportunities and of resources. In particular, it is a waste of human resources. These links between poverty, inequality, and environmental degradation formed a major theme in our analysis and recommendations. What is needed now is a new era of economic growth - growth that is forceful and at the same time socially and environmentally sustainable. [***See* report.**](https://digitallibrary.un.org/record/139811?ln=en){target="_blank"}
+  #### But the "environment" is where we all live; and "development" is what we all do in attempting to improve our lot within that abode. The two are inseparable. Further, development issues must be seen as crucial by the political leaders who feel that their countries have reached a plateau towards which other nations must strive. Many of the development paths of the industrialized nations are clearly unsustainable. And the development decisions of these countries, because of their great economic and political power, will have a profound effect upon the ability of all peoples to sustain human progress for generations to come. Many critical survival issues are related to uneven development, poverty, and population growth. They all place unprecedented pressures on the planet's lands, waters, forests, and other natural resources, not least in the developing countries. The downward spiral of poverty and environmental degradation is a waste of opportunities and of resources. In particular, it is a waste of human resources. These links between poverty, inequality, and environmental degradation formed a major theme in our analysis and recommendations. What is needed now is a new era of economic growth - growth that is forceful and at the same time socially and environmentally sustainable. [***See* report**](https://digitallibrary.un.org/record/139811?ln=en){target="_blank"}.
 
   <br/>
   
@@ -1342,7 +1412,7 @@ $(function() {
     <img src="images/report_unep1982.png" alt="UNEP 1982 report cover"/>
   </a>
 
-  #### The condition of the physical environment, so obviously a focus of emphasis in the years leading up to Stockholm, has become of lesser concern to those commissioning these reviews. As the chapters of the present volume reveal, this shift of emphasis does not mean that there have not been significant changes in the physical environment. Carbon dioxide concentrations in the atmosphere continued to rise, concern about acid rains grew, and fears about man's impact on stratospheric ozone remained. The pollution of the oceans and inland waters and the loss of soil and of productivity through erosion, desertification and salinity, were at the forefront of attention. The depletion of ***genetic resources***, especially in the tropical forests, was much debated. The volume and number of manufactured chemicals reaching the environment increased enormously. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/30379){target="_blank"}
+  #### The condition of the physical environment, so obviously a focus of emphasis in the years leading up to Stockholm, has become of lesser concern to those commissioning these reviews. As the chapters of the present volume reveal, this shift of emphasis does not mean that there have not been significant changes in the physical environment. Carbon dioxide concentrations in the atmosphere continued to rise, concern about acid rains grew, and fears about man's impact on stratospheric ozone remained. The pollution of the oceans and inland waters and the loss of soil and of productivity through erosion, desertification and salinity, were at the forefront of attention. The depletion of ***genetic resources***, especially in the tropical forests, was much debated. The volume and number of manufactured chemicals reaching the environment increased enormously. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/30379){target="_blank"}.
 
   <br/>
   
@@ -1356,7 +1426,7 @@ $(function() {
     <img src="images/report_unep1975.png" alt="UNEP 1975 report cover"/>
   </a>
 
-  #### Land and water are important requirements for food production. As the need to increase food production becomes more urgent, man is faced with continued loss of productive soil through desertification, erosion, salination and other forms of destructive land use...Overlogging of tropical forests has had similar effects. It is estimated that already man's activities have despoiled some 10 per cent of the world's arable land. In addition, good agricultural land is coming under intense pressure, in both developed and developing countries, from urban uses. There is still land available which can be brought under cultivation, but as larger and larger areas are given over to farming, the unexploited tracts available to serve as reservoirs of ***species diversity*** and natural ecosystems become smaller and smaller. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/28254){target="_blank"}
+  #### Land and water are important requirements for food production. As the need to increase food production becomes more urgent, man is faced with continued loss of productive soil through desertification, erosion, salination and other forms of destructive land use...Overlogging of tropical forests has had similar effects. It is estimated that already man's activities have despoiled some 10 per cent of the world's arable land. In addition, good agricultural land is coming under intense pressure, in both developed and developing countries, from urban uses. There is still land available which can be brought under cultivation, but as larger and larger areas are given over to farming, the unexploited tracts available to serve as reservoirs of ***species diversity*** and natural ecosystems become smaller and smaller. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/28254){target="_blank"}.
 
   <br/>
   
@@ -1370,7 +1440,7 @@ $(function() {
     <img src="images/report_un1972.png" alt="UN 1972 report cover"/>
   </a>
 
-  #### Man is both creature and moulder of his environment, which gives him physical sustenance and affords him the opportunity for intellectual, moral, social and spiritual growth. In the long and tortuous evolution of the human race on this planet a stage has been reached when, through the rapid acceleration of science and technology, man has acquired the power to transform his environment in countless ways and on an unprecedented scale. Both aspects of man’s environment, the natural and the man-made, are essential to his well-being and to the enjoyment of basic human rights-even the right to life itself...A point has been reached in history when we must shape our actions throughout the world with a more prudent care for their environmental consequences. Through ignorance or indifference we can do massive and irreversible harm to the earthly environment on which our life and well-being depend. [***See* report.**](https://wedocs.unep.org/handle/20.500.11822/30829){target="_blank"}
+  #### Man is both creature and moulder of his environment, which gives him physical sustenance and affords him the opportunity for intellectual, moral, social and spiritual growth. In the long and tortuous evolution of the human race on this planet a stage has been reached when, through the rapid acceleration of science and technology, man has acquired the power to transform his environment in countless ways and on an unprecedented scale. Both aspects of man’s environment, the natural and the man-made, are essential to his well-being and to the enjoyment of basic human rights-even the right to life itself...A point has been reached in history when we must shape our actions throughout the world with a more prudent care for their environmental consequences. Through ignorance or indifference we can do massive and irreversible harm to the earthly environment on which our life and well-being depend. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/30829){target="_blank"}.
 
   <br/>
   
@@ -1384,7 +1454,7 @@ $(function() {
     <img src="images/report_un1969.png" alt="UN 1969 report cover"/>
   </a>
 
-  #### In the discussions held by the General Assembly at its twenty-third session it was emphasized that for the first time in the history of mankind, there is arising a crisis of world-wide proportions involving developed and developing countries alike -the crisis of the human environment. Portents of this crisis have long been apparent- in the explosive growth of human populations, in the poor integration of a powerful and efficient technology with environmental requirements, in the deterioration of agricultural lands, in the unplanned extension of urban areas, in the decrease of available space and the growing danger of extinction of many forms of animal and plant life. It is becoming apparent that if current trends continue, the future of life on earth could be endangered. It is urgent, therefore, to focus world attention on those problems which threaten humanity in an environment that permits the realization of the highest human aspirations, and on the action necessary to deal with them. [***See* report.**](https://digitallibrary.un.org/record/729455?ln=en){target="_blank"}
+  #### In the discussions held by the General Assembly at its twenty-third session it was emphasized that for the first time in the history of mankind, there is arising a crisis of world-wide proportions involving developed and developing countries alike -the crisis of the human environment. Portents of this crisis have long been apparent- in the explosive growth of human populations, in the poor integration of a powerful and efficient technology with environmental requirements, in the deterioration of agricultural lands, in the unplanned extension of urban areas, in the decrease of available space and the growing danger of extinction of many forms of animal and plant life. It is becoming apparent that if current trends continue, the future of life on earth could be endangered. It is urgent, therefore, to focus world attention on those problems which threaten humanity in an environment that permits the realization of the highest human aspirations, and on the action necessary to deal with them. [***See* report**](https://digitallibrary.un.org/record/729455?ln=en){target="_blank"}.
 
   <br/>
   
@@ -1399,7 +1469,7 @@ $(function() {
     <img src="images/report_un1968.png" alt="UN 1968 report cover"/>
   </a>
 
-  #### Generally, emphasis has been put on work programmes concerned with pollution of the human environment, this being an aspect of the subject-matter outlined in the Swedish memornndum which has up to the present time concerned United Nations organizations and prograrmues more than others. Pollution of the environment, air, water and soiil, from different sources, is dealt with by the ILO, FAO, UNESCO, WHO, WMO, IAEA and, on the regional level, ECE. Pollution of the sea caused by ships is the concern of IMCO. Pollution caused by radiation is the concern of IAEA, UNSCEAR, WHO and FAO. The proper and rational use of land, including problems of soil erosion, soil conservation and the establishment and protection of forests, is being studied particularly by FAO. [***See* report.**](https://digitallibrary.un.org/record/729430?ln=en){target="_blank"}
+  #### Generally, emphasis has been put on work programmes concerned with pollution of the human environment, this being an aspect of the subject-matter outlined in the Swedish memornndum which has up to the present time concerned United Nations organizations and prograrmues more than others. Pollution of the environment, air, water and soiil, from different sources, is dealt with by the ILO, FAO, UNESCO, WHO, WMO, IAEA and, on the regional level, ECE. Pollution of the sea caused by ships is the concern of IMCO. Pollution caused by radiation is the concern of IAEA, UNSCEAR, WHO and FAO. The proper and rational use of land, including problems of soil erosion, soil conservation and the establishment and protection of forests, is being studied particularly by FAO. [***See* report**](https://digitallibrary.un.org/record/729430?ln=en){target="_blank"}.
 
   <br/>
   
