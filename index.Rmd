@@ -389,7 +389,7 @@ meta(
 
   <div class="banner">
     <img src="images/biodiversity_emergency_banner.png" alt="biodiversity emergency protest banner"/>
-    <p>Source: [Nature.com - Sustainability at the Crossroads](https://www.nature.com/articles/d41586-021-03781-z)</p>
+    <p>Source: [Nature.com - Sustainability at the Crossroads](https://www.nature.com/articles/d41586-021-03781-z){target="_blank"}</p>
   </div>
 
   </div>
@@ -404,7 +404,7 @@ meta(
 
   <div class="banner">
     <img src="images/mahm_ecological_crises.jpg" alt="multiple ecological crises diagram"/>
-    <p>Source: [MAHB - The End of Being](https://mahb.stanford.edu/blog/end-being-boundaries/)</p>
+    <p>Source: [MAHB - The End of Being](https://mahb.stanford.edu/blog/end-being-boundaries/){target="_blank"}</p>
   </div>
   
   </div>
@@ -419,7 +419,7 @@ meta(
 
   <div class="banner" id="ipbes_reports">
     <img src="images/ipbes_covers.png" alt="IPBES report covers"/>
-    <p>Source: [EcoScan - Useful Sites](https://eco-scan.fr/useful-sites-2/)</p>
+    <p>Source: [EcoScan - Useful Sites](https://eco-scan.fr/useful-sites-2/){target="_blank"}</p>
   </div>
 
   </div>
@@ -434,7 +434,7 @@ meta(
   
   <div class="banner">
     <img src="images/tree_climate_biodiversity.png" alt="dry and fertile tree"/>
-    <p>Source: [European Commission Article](tree_climate_biodiversity.png)</p>
+    <p>Source: [European Commission Article](tree_climate_biodiversity.png){target="_blank"}</p>
   </div>
   
   </div>
@@ -449,7 +449,7 @@ meta(
   
   <div class="banner">
     <img src="images/anthropocene_diagram.png" alt="Anthropocene diagram"/>
-    <p>Source: [TheConversation.com Article](https://theconversation.com/an-official-welcome-to-the-anthropocene-epoch-but-who-gets-to-decide-its-here-57113)</p>
+    <p>Source: [TheConversation.com Article](https://theconversation.com/an-official-welcome-to-the-anthropocene-epoch-but-who-gets-to-decide-its-here-57113){target="_blank"}</p>
   </div>
   
   </div>
@@ -464,7 +464,7 @@ meta(
   
   <div class="banner" id="media_chart">
     <img src="images/climate_biodiversity_media.jpg" alt="Climate and Biodiversity Media Area Chart"/>
-    <p>Source: [Frontiers - Legagneux, et al. (2018) paper](https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full)</p>
+    <p>Source: [Frontiers - Legagneux, et al. (2018) paper](https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full){target="_blank"}</p>
   </div>
   
   </div>
