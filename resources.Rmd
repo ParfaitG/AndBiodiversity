@@ -294,11 +294,7 @@ RMarkdown site created by ParfaitG with source code:
 
 **Contributors**
 
-- Parfait Gasana is an economics-trained data and research analyst from the Chicago area,  
-with passionate interests in public infrastructure, energy, environment, empirical methods,   
-and data analytics. Active on GitHub and StackOverflow communities, he is also an avid  
-reader of global environment news and creates environment-themed data projects usually  
-in R, Python, and SQL databases.  
+- Parfait Gasana is an economics-trained data and research analyst from the Chicago area, with passionate interests in public infrastructure, energy, environment, empirical methods, and data analytics. Active on GitHub and StackOverflow communities, he is also an avid reader of global environment news and creates environment-themed data projects usually in R, Python, and SQL databases.  
 
 - You...
 
