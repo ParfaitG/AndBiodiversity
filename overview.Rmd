@@ -125,7 +125,9 @@ output:
      padding: 10px;
      width: 100px;
   }
-  
+  #bottom_icons img:hover {
+      opacity: 0.8
+  }
   #bottom_icons h3 {
      font-size: 18px;
      text-align: center;
@@ -219,6 +221,11 @@ output:
          width: 40vw;
       }
       
+      #bottom_icons img:hover,
+      #bottom_icons img:active,
+      #bottom_icons img:focus {
+         opacity: 0.8
+      }
       #bottom_icons tr {
           display: block;
           margin-bottom: .625em;
@@ -440,7 +447,7 @@ $(function() {
   <ul>
    <li>UN commits to achieve the Millennium Development Goals which specifically includes biodiversity loss under target 7 for environmental sustainability. <em>See</em> <a href="https://www.unep.org/environmental-moments-unep50-timeline" target="_blank"><b>UNEP history</b></a>.</li>
    <li>The landmark Millennium Ecosystem Assessment (MEA) publishes its findings on the consequences of ecosystem change for human well-being which involved the work of more than 1,300 experts worldwide from 2001-2005. <em>See</em> <a href="https://press.un.org/en/2005/unep302.doc.htm" target="_blank"><b>press release</b></a>.</li>
-   <li>Research team lead by Johan Rockström and Will Steffen publish the Planetary Boundaries Framework that recognizes biodiversity as one of the transgressed boundary. <em>See</em> <a href="https://www.stockholmresilience.org/research/planetary-boundaries.html" target="_blank"><b>Stockholm Resilience Center research</b></a>.</li>
+   <li>Research team lead by Johan Rockström and Will Steffen publish the Planetary Boundaries Framework that recognizes biodiversity as one of the transgressed boundaries. <em>See</em> <a href="https://www.stockholmresilience.org/research/planetary-boundaries.html" target="_blank"><b>Stockholm Resilience Center research</b></a>.</li>
   </ul>
   </div>
  </div>
@@ -601,9 +608,6 @@ $(function() {
    </tr>
 </table>
 </div>
-
-
-<br/>
 
 ::: {.footer}
 <div class="footer_box">

@@ -55,6 +55,11 @@ output:
      padding: 10px;
      width: 150px;
   }
+  .icons img:hover,
+  .icons img:active,
+  .icons img:focus {
+     opacity: 0.8
+  }
   
   .repo_page {
      text-align: center;
@@ -67,7 +72,11 @@ output:
      padding: 10px;
      height: 200px;
   }
-  
+  .docs img:hover,
+  .docs img:active,
+  .docs img:focus {
+     opacity: 0.8
+  }
   .framecontainer {
      position: relative;
      margin: 0px auto;
@@ -102,7 +111,9 @@ output:
      padding: 10px;
      width: 100px;
   }
-  
+  #bottom_icons img:hover {
+      opacity: 0.8
+  }
   #bottom_icons h3 {
      font-size: 18px;
      text-align: center;
@@ -241,6 +252,11 @@ output:
           text-transform: uppercase;
       }
       
+      #bottom_icons img:hover,
+      #bottom_icons img:active,
+      #bottom_icons img:focus {
+         opacity: 0.8
+      }
       #bottom_icons tr {
           display: block;
           margin-bottom: .625em;

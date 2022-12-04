@@ -53,6 +53,13 @@ output:
      border-radius: 30px;
      overflow: hidden;
   }
+  .card a:link, 
+  .card a:visited, 
+  .card a:hover, 
+  .card a:active {
+     color: inherit;
+     text-decoration: none;
+  }
   .cardheader {
      height: 15%;
      background: rgba(128,181,51);
@@ -67,7 +74,20 @@ output:
   .cardheader a:hover, 
   .cardheader a:active {
      color: #ffffff;
+     text-decoration: none;
   }
+  
+  .card:hover {
+      border: 1px rgba(128,181,51,0.8) solid;
+      color: rgb(62, 63, 58, 0.8)
+  }
+  .card a:hover > .cardheader {
+      background: rgba(128,181,51,0.8)
+  }
+  .card a:hover > .cardbody img {
+      opacity: 0.8
+  }
+  
   .cardbody {
      padding: 2px 16px;
      white-space: normal;
@@ -105,7 +125,9 @@ output:
      padding: 10px;
      width: 100px;
   }
-  
+  #bottom_icons img:hover {
+      opacity: 0.8
+  }
   #bottom_icons h3 {
      text-align: center;
      font-size: 18px;
@@ -222,6 +244,11 @@ output:
           margin: 0 0 20px 0;
       }
       
+      #bottom_icons img:hover,
+      #bottom_icons img:active,
+      #bottom_icons img:focus {
+         opacity: 0.8
+      }
       #bottom_icons tr {
           display: block;
           margin-bottom: .625em;
@@ -356,49 +383,59 @@ meta(
 
 <div class="cards">
 <div class="card">
+  <a href="overview.html">
   <div class="cardheader">
-  <p><a href="overview.html">OVERVIEW</a></p>
+  <p>OVERVIEW</p>
   </div>
   <div class="cardbody">
   <p>Learn the what, who, when, where, why, and how about <b><i>biodiversity loss</i></b></p>
-  <a href="overview.html"><img src="images/fa_info.png" alt="info icon"/></a>
+  <img src="images/fa_info.png" alt="info icon"/>
   </div>
+  </a>
 </div>
 <div class="card">
+  <a href="reports.html">
   <div class="cardheader">
-  <p><a href="reports.html">REPORTS</a></p>
+  <p>REPORTS</p>
   </div>
   <div class="cardbody">
   <p>Review past and present global reports on <b><i>biodiversity loss</i></b></p>
-  <a href="reports.html"><img src="images/fa_book.png" alt="book icon"/></a>
+  <img src="images/fa_book.png" alt="book icon"/>
   </div>
+  </a>
 </div>
 <div class="card">
+  <a href="figures.html">
   <div class="cardheader">
-  <p><a href="figures.html">FIGURES</a></p>
+  <p>FIGURES</p>
   </div>
   <div class="cardbody">
   <p>Visually study report graphics to learn the extent of <b><i>biodiversity loss</i></b></p>
-  <a href="figures.html"><img src="images/fa_image.png" alt="image icon"/></a>
+  <img src="images/fa_image.png" alt="image icon"/>
   </div>
+  </a>
 </div>
 <div class="card">
+  <a href="quotes.html">
   <div class="cardheader">
-  <p><a href="quotes.html">QUOTES</a></p>
+  <p>QUOTES</p>
   </div>
   <div class="cardbody">
   <p>Find, read, and cite line snippets from major reports about <b><i>biodiversity loss</i></b></p>
-  <a href="quotes.html"><img src="images/fa_comment.png" alt="comment icon"/></a>
+  <img src="images/fa_comment.png" alt="comment icon"/>
   </div>
+  </a>
 </div>
 <div class="card">
+  <a href="resources.html">
   <div class="cardheader">
-  <p><a href="resources.html">RESOURCES</a></p>
+  <p>RESOURCES</p>
   </div>
   <div class="cardbody">
   <p>Dive into news, data, research, and initiatives related to <b><i>biodiversity loss</i></b></p>
-  <a href="resources.html"><img src="images/fa_link.png" alt="link icon"/></a>
+  <img src="images/fa_link.png" alt="link icon"/>
   </div>
+  </a>
 </div>
 </div>
 
@@ -584,8 +621,8 @@ meta(
       <td><h3>Draining</h3></td>
       <td><a title="Average abundance of native species in most major land-based habitats has fallen by at least 20%, mostly since 1900 (IPBES GA)" tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></a></td>
       <td><h3>Encroaching</h3></td>
-      <td><a title="Over 33% of world’s land surface (and +/-75% of freshwater resources) is devoted to crop or livestock production (IPBES GA)" tabindex="0"/><img src="images/stick_figure_soil_green.png" alt="soil icon" /></a></td>
-      <td><h3>Overfarming</h3></td>
+      <td><a title="Land degradation has reduced productivity in 23 per cent of the global terrestrial area (IPBES GA)" tabindex="0"/><img src="images/stick_figure_soil_green.png" alt="soil icon" /></a></td>
+      <td><h3>Degrading</h3></td>
    </tr>
   </table>
 </div>

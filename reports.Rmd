@@ -71,7 +71,9 @@ output:
      padding: 10px;
      width: 100px;
   }
-  
+  #bottom_icons img:hover {
+      opacity: 0.8
+  }
   #bottom_icons h3 {
      text-align: center;
      font-size: 18px;
@@ -166,6 +168,11 @@ output:
          width: 40vw;
       }
       
+      #bottom_icons img:hover,
+      #bottom_icons img:active,
+      #bottom_icons img:focus {
+         opacity: 0.8
+      }
       #bottom_icons tr {
           display: block;
           margin-bottom: .625em;
@@ -465,7 +472,7 @@ $(function() {
     <img src="images/report_ipcc6ar1_2021.png" alt="IPCC Sixth Assessment Part 1 report cover"/>
   </a>
 
-  #### It is unequivocal that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere and biosphere have occurred. Observed increases in well-mixed greenhouse gas (GHG) concentrations since around 1750 are unequivocally caused by human activities. Since 2011 (measurements reported in AR5), concentrations have continued to increase in the atmosphere, reaching annual averages of 410 parts per million (ppm) for carbon dioxide (CO2), 1866 parts per billion (ppb) for methane (CH4), and 332 ppb for nitrous oxide (N2O) in 2019. Land and ocean have taken up a near-constant proportion (globally about 56% per year) of CO2 emissions from human activities over the past six decades, with regional differences. [***See* report**](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/){target="_blank"}.
+  #### It is unequivocal that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere and ***biosphere*** have occurred. Observed increases in well-mixed greenhouse gas (GHG) concentrations since around 1750 are unequivocally caused by human activities. Since 2011 (measurements reported in AR5), concentrations have continued to increase in the atmosphere, reaching annual averages of 410 parts per million (ppm) for carbon dioxide (CO2), 1866 parts per billion (ppb) for methane (CH4), and 332 ppb for nitrous oxide (N2O) in 2019. Land and ocean have taken up a near-constant proportion (globally about 56% per year) of CO2 emissions from human activities over the past six decades, with regional differences. [***See* report**](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/){target="_blank"}.
 
   <br/>
   
@@ -480,7 +487,7 @@ $(function() {
   </a>
   
 
-  #### Climate change ***and biodiversity loss*** are closely interconnected and share common drivers through human activities. Both have predominantly negative impacts on human well-being and quality of life...Ignoring the inseparable nature of climate, ***biodiversity***, and human quality of life will result in non-optimal solutions to either crisis. [***See* report**](https://ipbes.net/events/ipbes-ipcc-co-sponsored-workshop-biodiversity-and-climate-change){target="_blank"} and [***see* quotes**](quotes.html).
+  #### Climate change and ***biodiversity loss*** are closely interconnected and share common drivers through human activities. Both have predominantly negative impacts on human well-being and quality of life...Ignoring the inseparable nature of climate, ***biodiversity***, and human quality of life will result in non-optimal solutions to either crisis. [***See* report**](https://ipbes.net/events/ipbes-ipcc-co-sponsored-workshop-biodiversity-and-climate-change){target="_blank"} and [***see* quotes**](quotes.html).
 
   <br/>
   
@@ -628,7 +635,7 @@ $(function() {
     <img src="images/report_kew2020.png" alt="Kew 2020 report cover"/>
   </a>
   
-  #### Never before has the biosphere, the thin layer of life we call home, been under such intensive and urgent threat. Deforestation rates have soared as we have cleared land to feed ever-more people, global emissions are disrupting the climate system, new pathogens threaten our crops and our health, illegal trade has eradicated entire plant populations, and non-native species are outcompeting local floras. ***Biodiversity*** is being lost – locally, regionally and globally. [***See* report**](https://www.kew.org/science/state-of-the-worlds-plants-and-fungi){target="_blank"}.
+  #### Never before has the ***biosphere***, the thin layer of life we call home, been under such intensive and urgent threat. Deforestation rates have soared as we have cleared land to feed ever-more people, global emissions are disrupting the climate system, new pathogens threaten our crops and our health, illegal trade has eradicated entire plant populations, and non-native species are outcompeting local floras. ***Biodiversity*** is being lost – locally, regionally and globally. [***See* report**](https://www.kew.org/science/state-of-the-worlds-plants-and-fungi){target="_blank"}.
 
   <br/>
   
@@ -1490,7 +1497,7 @@ $(function() {
    <tr>
       <td><a title="100 million hectares of agricultural expansion in the tropics occurred from 1980 to 2000, mainly cattle ranching in Latin America (+/-42 million ha), and plantations in Southeast Asia (+/-7.5 million ha, of which 80% is oil palm), half of it at the expense of intact forests (IPBES GA)" tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></a></td>
       <td><h3>Deforestation</h3></td>
-      <td><a title="Population sizes of wild vertebrate species have tended to decline over the last 50 years on land, in freshwater and in the sea (IPBES GA)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></a></td>
+      <td><a title="For terrestrial and freshwater ecosystems, land-use change has had the largest relative negative impact on nature since 1970, followed by the direct exploitation, in particular overexploitation, of animals, plants and other organisms, mainly via harvesting, logging, hunting and fishing. (IPBES GA)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></a></td>
       <td><h3>Over-<br/>exploitation</h3></td>
       <td><a title="Industrial fishing covers over 55% of ocean area (IPBES GA)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></a></td>
       <td><h3>Sea Use<br/>Changes</h3></td>
