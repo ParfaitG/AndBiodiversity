@@ -136,7 +136,7 @@ output:
   .footer {
      bottom: 0;
      width: 100%;
-     height: 120px;
+     height: 140px;
      margin: 0px 0px -40px 0px;
      color: #ffffff;
      background-color: #808080;
@@ -626,15 +626,17 @@ $(function() {
   <a href="index.html"> | And Biodiversity</a>
   </div>
   <div class="footer_column">
-The morning sea of silence broke into ripples of bird songs; <br/>
-and the flowers were all merry by the roadside; and the wealth <br/>
-of gold was scattered through the rift of the clouds while we <br/>
-busily went on our way and paid no heed.
+The morning sea of silence broke into ripples<br/>
+of bird songs; and the flowers were all merry<br/>
+by the roadside; and the wealth of gold was<br/>
+scattered through the rift of the clouds while<br/> 
+we busily went on our way and paid no heed.
   </div>
   <div class="footer_column">
-We sang no glad songs nor played; we went not to the village <br/>
-for barter; we spoke not a word nor smiled; we lingered not <br/>
-on the way. We quickened our pace more and more as the time sped by....
+We sang no glad songs nor played; we went not<br/>
+to the village for barter; we spoke not a word<br/>
+nor smiled; we lingered not on the way. We<br/>
+quickened our pace more and more as the time sped by...<br/>
   </div>
   <div class="footer_column">
 -"48"<br/>
