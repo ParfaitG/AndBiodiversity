@@ -158,6 +158,10 @@ output:
   
   @media screen and (min-width: 750px) and (pointer: coarse), 
          screen and (min-width: 750px) and (hover: none)  {
+    #bottom_icons img {
+       z-index: -10;
+    }
+    
     [title] {
       position: relative;
       display: inline-flex;
@@ -172,13 +176,14 @@ output:
       content: attr(title);
       position: absolute;
       top: 10%;
-      left: 95%;
+      left: 120%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
+      z-index: 1;
     }
     
     [title]:focus::before {
@@ -187,10 +192,11 @@ output:
       width: 0;
       height: 0;
       top: 25%;
-      left: 78%;
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      border-right: 10px solid black;
+      left: 95%;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 14px solid black;
+      z-index: 1;
     }
   }
   
@@ -308,13 +314,14 @@ output:
       content: attr(title);
       position: absolute;
       top: 10%;
-      right: 95%;
+      right: 120%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
+      z-index: 1;
     }
     
     td:nth-child(4n+1) a[title]:focus::before {
@@ -323,10 +330,11 @@ output:
       width: 0;
       height: 0;
       top: 25%;
-      right: 85%;
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      border-left: 10px solid black;
+      right: 106%;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-left: 14px solid black;
+      z-index: 1;
     }
     
     td:nth-child(4n-1) a[title]:focus {
@@ -337,13 +345,14 @@ output:
       content: attr(title);
       position: absolute;
       top: 10%;
-      left: 95%;
+      left: 120%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
+      z-index: 1;
     }
     
     td:nth-child(4n-1) a[title]:focus::before {
@@ -352,10 +361,11 @@ output:
       width: 0;
       height: 0;
       top: 25%;
-      left: 85%;
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      border-right: 10px solid black;
+      left: 106%;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 14px solid black;
+      z-index: 1;
     }
   }
 ```
@@ -379,9 +389,13 @@ $(function() {
 
 ## About
 
-#### _AndBiodiversity_
+<br/>
 
-RMarkdown site created by ParfaitG with source code:
+#### [**AndBiodiversity**](https://github.com/ParfaitG/AndBiodiversity)
+
+RMarkdown site created by ParfaitG with source code.
+
+<br/>
 
 <div class="repo_page">
  <a href="https://github.com/ParfaitG/AndBiodiversity" target="blank">

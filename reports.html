@@ -420,6 +420,10 @@ $(document).ready(function () {
   
   @media screen and (min-width: 750px) and (pointer: coarse), 
          screen and (min-width: 750px) and (hover: none)  {
+    #bottom_icons img {
+       z-index: -10;
+    }
+    
     [title] {
       position: relative;
       display: inline-flex;
@@ -434,13 +438,14 @@ $(document).ready(function () {
       content: attr(title);
       position: absolute;
       top: 10%;
-      left: 95%;
+      left: 120%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
+      z-index: 1;
     }
     
     [title]:focus::before {
@@ -449,12 +454,12 @@ $(document).ready(function () {
       width: 0;
       height: 0;
       top: 25%;
-      left: 78%;
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      border-right: 10px solid black;
+      left: 95%;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 14px solid black;
+      z-index: 1;
     }
-
   }
   
   @media screen and (max-width: 750px) {
@@ -526,13 +531,14 @@ $(document).ready(function () {
       content: attr(title);
       position: absolute;
       top: 10%;
-      right: 95%;
+      right: 120%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
+      z-index: 1;
     }
     
     td:nth-child(4n+1) a[title]:focus::before {
@@ -541,10 +547,11 @@ $(document).ready(function () {
       width: 0;
       height: 0;
       top: 25%;
-      right: 85%;
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      border-left: 10px solid black;
+      right: 106%;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-left: 14px solid black;
+      z-index: 1;
     }
     
     td:nth-child(4n-1) a[title]:focus {
@@ -555,13 +562,14 @@ $(document).ready(function () {
       content: attr(title);
       position: absolute;
       top: 10%;
-      left: 95%;
+      left: 120%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
+      z-index: 1;
     }
     
     td:nth-child(4n-1) a[title]:focus::before {
@@ -570,10 +578,11 @@ $(document).ready(function () {
       width: 0;
       height: 0;
       top: 25%;
-      left: 85%;
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      border-right: 10px solid black;
+      left: 106%;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 14px solid black;
+      z-index: 1;
     }
   }
 </style>
@@ -920,6 +929,31 @@ href="quotes.html"><strong><em>see</em> quotes</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
+id="iucn-red-list-quadrennial-report-20172020"><a href="###" data-toggle="collapse" data-target="#iucn2021">IUCN
+Red List Quadrennial Report 2017–2020</a></h4>
+<div id="iucn2021" class="collapse">
+<p><a href="https://www.iucnredlist.org/resources/" target="_blank">
+<img src="images/report_iucn2021.png" alt="IUCN 2021 report cover"/>
+</a></p>
+<h4
+id="the-iucn-red-list-is-the-acknowledged-authority-on-species-extinction-risk-and-an-authoritative-compendium-of-information-on-the-global-conservation-status-of-species.-the-iucn-red-list-tracks-and-measures-the-status-and-trends-in-wild-species-across-the-globe.-assessments-of-all-major-species-groups-such-as-plants-fungi-invertebrates-reptiles-and-fish-continue-to-expand-in-number-and-scope.-the-iucn-red-list-of-threatened-species-expanded-its-coverage-of-the-worlds-biodiversity-by-51-between-2017-and-2020.-the-iucn-red-list-includes-128918-species-of-which-35765-28-are-threatened-with-extinction.-certain-groups-are-known-to-be-considerably-threatened-such-as-amphibians-41-sharks-31-and-corals-33-with-increased-extinction-risks-observed-since-1990.-see-report.">The
+IUCN Red List is the acknowledged authority on species extinction risk
+and an authoritative compendium of information on the global
+conservation status of species. The IUCN Red List tracks and measures
+the status and trends in wild species across the globe. Assessments of
+all major species groups such as plants, fungi, invertebrates, reptiles,
+and fish, continue to expand in number and scope. The IUCN Red List of
+Threatened Species expanded its coverage of the world’s
+<strong><em>biodiversity</em></strong> by 51% between 2017 and 2020. The
+IUCN Red List includes 128,918 species of which 35,765 (28%) are
+threatened with extinction. Certain groups are known to be considerably
+threatened, such as amphibians (41%), sharks (31%) and corals (33%) with
+increased extinction risks observed since 1990. <a
+href="https://www.iucnredlist.org/resources/"
+target="_blank"><strong><em>See</em> report.</strong></a></h4>
+<p><br/></p>
+</div></li>
+<li><h4
 id="unep-state-of-finance-for-nature"><a href="###" data-toggle="collapse" data-target="#unepfinance2021">UNEP:
 State of Finance for Nature</a></h4>
 <div id="unepfinance2021" class="collapse">
@@ -965,6 +999,32 @@ invasive pests and diseases. Climate change is also having a clearly
 measurable impact. <a
 href="https://www.bgci.org/news-events/bgci-launches-the-state-of-the-worlds-trees-report/"
 target="_blank"><strong><em>See</em> report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
+<li><h4
+id="ramsar-global-wetland-outlook-special-edition-2021"><a href="###" data-toggle="collapse" data-target="#ramsar2021">Ramsar:
+Global Wetland Outlook Special Edition 2021</a></h4>
+<div id="ramsar2021" class="collapse">
+<p><a href="https://www.global-wetland-outlook.ramsar.org/report-1" target="_blank">
+<img src="images/report_ramsar2021.png" alt="Ramsar 2021 report cover"/>
+</a></p>
+<h4
+id="ecosystem-degradation-and-careless-wildlife-trade-both-increase-the-risks-of-pandemics-with-up-to-three-quarters-of-new-diseases-being-zoonotic-in-origin.-meanwhile-water-borne-diseases-like-infant-diarrhoea-are-increased-by-poor-wetland-management-and-cause-millions-of-deaths-every-year.-control-of-emergent-zoonotic-diseases-is-increasingly-seen-as-dependent-on-maintenance-of-well-managed-intact-ecosystems-and-native-biodiversity.-deterioration-of-wetlands-is-widespread-but-more-wetlands-are-still-reported-as-in-good-rather-than-bad-ecological-character.-biodiversity-losses-are-linked-to-land-use-change-and-still-rising.-wetlands-are-particularly-impacted-by-sea-level-rise-coral-bleaching-and-changing-hydrology-with-arctic-and-montane-wetlands-especially-at-risk.-wetlands-need-to-be-part-of-delivering-climate-solutions.-see-report.">Ecosystem
+degradation and careless wildlife trade both increase the risks of
+pandemics, with up to three quarters of new diseases being zoonotic in
+origin. Meanwhile, water-borne diseases ‘like infant diarrhoea’ are
+increased by poor wetland management and cause millions of deaths every
+year. Control of emergent zoonotic diseases is increasingly seen as
+dependent on maintenance of well-managed, intact ecosystems and native
+<strong><em>biodiversity</em></strong>. Deterioration of wetlands is
+widespread, but more wetlands are still reported as in ‘good’ rather
+than ‘bad’ ecological character. <strong><em>Biodiversity
+losses</em></strong> are linked to land-use change and still rising.
+Wetlands are particularly impacted by sea-level rise, coral bleaching
+and changing hydrology, with Arctic and montane wetlands especially at
+risk. Wetlands need to be part of delivering climate solutions. <a
+href="https://www.global-wetland-outlook.ramsar.org/report-1"
+target="_blank"><strong><em>See</em> report.</strong></a></h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -1110,6 +1170,37 @@ target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
+id="fao-the-state-of-world-fisheries-and-aquaculture"><a href="###" data-toggle="collapse" data-target="#faofish2020">FAO:
+The State of World Fisheries and Aquaculture</a></h4>
+<div id="faofish2020" class="collapse">
+<p><a href="https://www.fao.org/publications/card/en/c/CA9229EN" target="_blank">
+<img src="images/report_faofish2020.png" alt="FAO Fisheries 2020 report cover"/>
+</a></p>
+<h4
+id="the-2020-edition-of-the-state-of-world-fisheries-and-aquaculture-continues-to-demonstrate-the-significant-and-growing-role-of-fisheries-and-aquaculture-in-providing-food-nutrition-and-employment.-it-also-shows-the-major-challenges-ahead-despite-the-progress-made-on-a-number-of-fronts.-for-example-there-is-growing-evidence-that-when-fisheries-are-properly-managed-stocks-are-consistently-above-target-levels-or-rebuilding-giving-credibility-to-the-fishery-managers-and-governments-around-the-world-that-are-willing-to-take-strong-action.-however-the-report-also-demonstrates-that-the-successes-achieved-in-some-countries-and-regions-have-not-been-sufficient-to-reverse-the-global-trend-of-overfished-stocks-indicating-that-in-places-where-fisheries-management-is-not-in-place-or-is-ineffective-the-status-of-fish-stocks-is-poor-and-deteriorating.-this-unequal-progress-highlights-the-urgent-need-to-replicate-and-re-adapt-successful-policies-and-measures-in-the-light-of-the-realities-and-needs-of-specific-fisheries.-it-calls-for-new-mechanisms-to-support-the-effective-implementation-of-policy-and-management-reg-ulations-for-sustainable-fisheries-and-ecosystems-as-the-only-solution-to-ensure-fisheries-around-the-world-are-sustainable.-see-report.">The
+2020 edition of The State of World Fisheries and Aquaculture continues
+to demonstrate the significant and growing role of fisheries and
+aquaculture in providing food, nutrition and employment. It also shows
+the major challenges ahead despite the progress made on a number of
+fronts. For example, there is growing evidence that when fisheries are
+properly managed, stocks are consistently above target levels or
+rebuilding, giving credibility to the fishery managers and governments
+around the world that are willing to take strong action. However, the
+report also demonstrates that the successes achieved in some countries
+and regions have not been sufficient to reverse the global trend of
+overfished stocks, indicating that in places where fisheries management
+is not in place, or is ineffective, the status of fish stocks is poor
+and deteriorating. This unequal progress highlights the urgent need to
+replicate and re-adapt successful policies and measures in the light of
+the realities and needs of specific fisheries. It calls for new
+mechanisms to support the effective implementation of policy and
+management reg ulations for sustainable fisheries and ecosystems, as the
+only solution to ensure fisheries around the world are sustainable. <a
+href="https://www.fao.org/publications/card/en/c/CA9229EN"
+target="_blank"><strong><em>See</em> report.</strong></a></h4>
+<p><br/></p>
+</div></li>
+<li><h4
 id="annual-reviews-the-state-of-the-worlds-insects"><a href="####" data-toggle="collapse" data-target="#ar2020">Annual
 Reviews: The State of the World’s Insects</a></h4>
 <div id="ar2020" class="collapse">
@@ -1130,6 +1221,38 @@ everywhere. There is a pressing need for more basic research on insect
 diversity in the context of a changing world. <a
 href="https://www.annualreviews.org/doi/abs/10.1146/annurev-environ-012420-050035"
 target="_blank"><strong><em>See</em> report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
+<li><h4
+id="fao-the-state-of-the-worlds-forests"><a href="###" data-toggle="collapse" data-target="#faoforests2020">FAO:
+The State of the World’s Forests</a></h4>
+<div id="faoforests2020" class="collapse">
+<p><a href="https://www.fao.org/publications/card/en/c/CA8642EN" target="_blank">
+<img src="images/report_faoforests2020.png" alt="FAO Forests 2020 report cover"/>
+</a></p>
+<h4
+id="forests-harbour-most-of-earths-terrestrial-biodiversity.-the-conservation-of-the-worlds-biodiversity-is-thus-utterly-dependent-on-the-way-in-which-we-interact-with-and-use-the-worlds-forestsforests-cover-31-percent-of-the-global-land-area-but-are-not-equally-distributed-around-the-globe.-almost-half-the-forest-area-is-relatively-intact-and-more-than-one-third-is-primary-forest.-more-than-half-of-the-worlds-forests-are-found-in-only-five-countries-brazil-canada-china-russian-federation-and-united-states-of-americadeforestation-and-forest-degradation-continue-to-take-place-at-alarming-rates-which-contributes-significantly-to-the-ongoing-loss-of-biodiversity.-since-1990-it-is-estimated-that-some-420-million-hectares-of-forest-have-been-lost-through-conversion-to-other-land-uses-although-the-rate-of-deforestation-has-decreased-over-the-past-three-decadesagricultural-expansion-continues-to-be-the-main-driver-of-deforestation-and-forest-fragmentation-and-the-associated-loss-of-forest-biodiversityprogress-on-preventing-the-extinction-of-known-threatened-species-and-improving-their-conservation-status-has-been-slow.-see-report.">Forests
+harbour most of Earth’s terrestrial
+<strong><em>biodiversity</em></strong>. The conservation of the world’s
+<strong><em>biodiversity</em></strong> is thus utterly dependent on the
+way in which we interact with and use the world’s forests…Forests cover
+31 percent of the global land area but are not equally distributed
+around the globe. Almost half the forest area is relatively intact, and
+more than one-third is primary forest. More than half of the world’s
+forests are found in only five countries (Brazil, Canada, China, Russian
+Federation and United States of America)…Deforestation and forest
+degradation continue to take place at alarming rates, which contributes
+significantly to the ongoing <strong><em>loss of
+biodiversity</em></strong>. Since 1990, it is estimated that some 420
+million hectares of forest have been lost through conversion to other
+land uses, although the rate of deforestation has decreased over the
+past three decades…Agricultural expansion continues to be the main
+driver of deforestation and forest fragmentation and the associated loss
+of forest <strong><em>biodiversity</em></strong>…Progress on preventing
+the extinction of known threatened species and improving their
+conservation status has been slow. <a
+href="https://www.fao.org/publications/card/en/c/CA8642EN"
+target="_blank"><strong><em>See</em> report.</strong></a></h4>
 <p><br/></p>
 </div></li>
 <li><h4
@@ -1332,6 +1455,29 @@ report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
+id="ramsar-global-wetlook-outlook---state-of-the-worlds-wetlands"><a href="###" data-toggle="collapse" data-target="#ramsar2018">Ramsar:
+Global Wetlook Outlook - State of the World’s Wetlands</a></h4>
+<div id="ramsar2018" class="collapse">
+<p><a href="https://ramsar.org/document/global-wetland-outlook" target="_blank">
+<img src="images/report_ramsar2018.png" alt="Ramsar 2018 report cover"/>
+</a></p>
+<h4
+id="healthy-functioning-natural-wetlands-are-critical-to-human-livelihoods-and-sustainable-development.-although-still-covering-a-global-area-almost-as-large-as-greenland-wetlands-are-declining-fast-with-35-losses-since-1970-where-data-are-available.-wetland-plants-and-animals-are-therefore-in-crisis-with-a-quarter-of-species-at-risk-of-extinction.-quality-of-remaining-wetlands-is-also-suffering-due-to-drainage-pollution-invasive-species-unsustainable-use-disrupted-flow-regimes-and-climate-change.-yet-wetland-ecosystem-services-ranging-from-food-security-to-climate-change-mitigation-are-enormous-far-outweighing-those-of-terrestrial-ecosystems-see-report.">Healthy,
+functioning natural wetlands are critical to human livelihoods and
+sustainable development. Although still covering a global area almost as
+large as Greenland, wetlands are declining fast, with 35% losses since
+1970, where data are available. Wetland plants and animals are therefore
+in crisis, with a quarter of species at risk of extinction. Quality of
+remaining wetlands is also suffering, due to drainage, pollution,
+invasive species, unsustainable use, disrupted flow regimes and climate
+change. Yet wetland ecosystem services, ranging from food security to
+climate change mitigation, are enormous, far outweighing those of
+terrestrial ecosystems <a
+href="https://ramsar.org/document/global-wetland-outlook"
+target="_blank"><strong><em>See</em> report.</strong></a></h4>
+<p><br/></p>
+</div></li>
+<li><h4
 id="ipbes-assessment-report-on-land-degradation-and-restoration"><a href="####" data-toggle="collapse" data-target="#ipbes2018">IPBES:
 Assessment Report on Land Degradation and Restoration</a></h4>
 <div id="ipbes2018" class="collapse">
@@ -1375,6 +1521,40 @@ target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
+id="fao-the-state-of-world-fisheries-and-aquaculture-1"><a href="###" data-toggle="collapse" data-target="#faofish2018">FAO:
+The State of World Fisheries and Aquaculture</a></h4>
+<div id="faofish2018" class="collapse">
+<p><a href="https://www.fao.org/publications/card/en/c/I9540EN" target="_blank">
+<img src="images/report_faofish2018.png" alt="FAO Fisheries 2018 report cover"/>
+</a></p>
+<h4
+id="the-state-of-marine-fishery-resources-based-on-faos-monitoring-of-assessed-marine-fish-stocks-has-continued-to-decline.-the-fraction-of-marine-fish-stocks-fished-within-biologically-sustainable-levels-has-exhibited-a-decreasing-trend-from-90.0-percent-in-1974-to-66.9-percent-in-2015.-in-contrast-the-percentage-of-stocks-fished-at-biologically-unsustainable-levels-increased-from-10-percent-in-1974-to-33.1-percent-in-2015-with-the-largest-increases-in-the-late-1970s-and-1980s.-in-2015-maximally-sustainably-fished-stocks-formerly-termed-fully-fished-stocks-accounted-for-59.9-percent-and-underfished-stocks-for-7.0-percent-of-the-total-assessed-stocks.-the-underfished-stocks-decreased-continuously-from-1974-to-2015-whereas-the-maximally-sustainably-fished-stocks-decreased-from-1974-to-1989-and-then-increased-to-59.9-percent-in-2015-partly-as-a-result-of-increased-implementation-of-management-measuresthe-persistence-of-overfished-stocks-is-an-area-of-great-concern.-the-united-nations-sustainable-development-goals-sdgs-include-a-target-14.4-or-regulating-har-vesting-ending-overfishing-and-restoring-stocks-to-levels-that-can-produce-maximum-sustainable-yield-msy-in-the-shortest-time-feasible.-however-it-seems-unlikely-that-the-worlds-fisheries-can-rebuild-the-33.1-percent-of-stocks-that-are-currently-overfished-in-the-very-near-future-because-rebuilding-requires-time-usually-two-to-three-times-the-species-life-span.see-report.">The
+state of marine fishery resources, based on FAO’s monitoring of assessed
+marine fish stocks, has continued to decline. The fraction of marine
+fish stocks fished within biologically sustainable levels has exhibited
+a decreasing trend, from 90.0 percent in 1974 to 66.9 percent in 2015.
+In contrast, the percentage of stocks fished at biologically
+unsustainable levels increased from 10 percent in 1974 to 33.1 percent
+in 2015, with the largest increases in the late 1970s and 1980s. In
+2015, maximally sustainably fished stocks (formerly termed fully fished
+stocks) accounted for 59.9 percent and underfished stocks for 7.0
+percent of the total assessed stocks. The underfished stocks decreased
+continuously from 1974 to 2015, whereas the maximally sustainably fished
+stocks decreased from 1974 to 1989, and then increased to 59.9 percent
+in 2015, partly as a result of increased implementation of management
+measures…The persistence of overfished stocks is an area of great
+concern. The United Nations Sustainable Development Goals (SDGs) include
+a target (14.4) or regulating har vesting, ending overfishing and
+restoring stocks to levels that can produce maximum sustainable yield
+(MSY) in the shortest time feasible. However, it seems unlikely that the
+world’s fisheries can rebuild the 33.1 percent of stocks that are
+currently overfished in the very near future, because rebuilding
+requires time, usually two to three times the species’ life span.<a
+href="https://www.fao.org/publications/card/en/c/I9540EN"
+target="_blank"><strong><em>See</em> report.</strong></a></h4>
+<p><br/></p>
+</div></li>
+<li><h4
 id="kew-state-of-the-worlds-fungi"><a href="####" data-toggle="collapse" data-target="#kew2018">Kew:
 State of the World’s Fungi</a></h4>
 <div id="kew2018" class="collapse">
@@ -1401,6 +1581,30 @@ and cheese production. The global market in edible mushrooms is also
 huge and increasing. <a
 href="https://kew.iro.bl.uk/concern/reports/e30de436-455d-410e-8605-8c533a0398ce?locale=en"
 target="_blank"><strong><em>See</em> report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
+<li><h4
+id="fao-the-state-of-the-worlds-forests-1"><a href="###" data-toggle="collapse" data-target="#faoforests2018">FAO:
+The State of the World’s Forests</a></h4>
+<div id="faoforests2018" class="collapse">
+<p><a href="https://www.fao.org/publications/card/en/c/I9535EN" target="_blank">
+<img src="images/report_faoforests2018.png" alt="FAO Forests 2018 report cover"/>
+</a></p>
+<h4
+id="forests-and-trees-make-vital-contributions-both-to-people-and-the-planet-bolstering-livelihoods-providing-clean-air-and-water-conserving-biodiversity-and-responding-to-climate-changedeforestation-chiefly-caused-by-the-conversion-of-forest-land-to-agriculture-and-livestock-areas-threatens-not-only-the-livelihoods-of-foresters-forest-communities-and-indigenous-peoples-but-also-the-variet-y-of-life-on-our-planet.-land-use-changes-result-in-a-loss-of-valuable-habitats-land-degradation-soil-erosion-a-decrease-in-clean-water-and-the-release-of-carbon-into-the-atmosphere.-how-to-increase-agricultural-production-and-improve-food-security-without-reducing-forest-area-is-one-of-the-great-challenges-of-our-times.-see-report.">Forests
+and trees make vital contributions both to people and the planet,
+bolstering livelihoods, providing clean air and water, conserving
+<strong><em>biodiversity</em></strong> and responding to climate
+change…Deforestation, chiefly caused by the conversion of forest land to
+agriculture and livestock areas, threatens not only the livelihoods of
+foresters, forest communities and indigenous peoples, but also the
+variet y of life on our planet. Land-use changes result in a loss of
+valuable habitats, land degradation, soil erosion, a decrease in clean
+water, and the release of carbon into the atmosphere. How to increase
+agricultural production and improve food security without reducing
+forest area is one of the great challenges of our times. <a
+href="https://www.fao.org/publications/card/en/c/I9535EN"
+target="_blank"><strong><em>See</em> report.</strong></a></h4>
 <p><br/></p>
 </div></li>
 </ul>
@@ -1507,6 +1711,36 @@ target="_blank"><strong><em>See</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
+id="fao-the-state-of-world-fisheries-and-aquaculture-2"><a href="###" data-toggle="collapse" data-target="#faofish2016">FAO:
+The State of World Fisheries and Aquaculture</a></h4>
+<div id="faofish2016" class="collapse">
+<p><a href="https://www.fao.org/publications/card/en/c/2c8bcf47-2214-4aeb-95b0-62ddef8a982a" target="_blank">
+<img src="images/report_faofish2016.png" alt="FAO Fisheries 2016 report cover"/>
+</a></p>
+<h4
+id="many-millennia-after-terrestrial-food-production-shifted-from-hunter-gatherer-activities-to-agriculture-aquatic-food-production-has-transitioned-from-being-primarily-based-on-capture-of-wild-fish-to-culture-of-increasing-numbers-of-farmed-species.-a-milestone-was-reached-in-2014-when-the-aquaculture-sectors-contribution-to-the-supply-of-fish-for-human-consumption-overtook-that-of-wild-caught-fish-for-the-first-time.-meeting-the-ever-growing-demand-for-fish-as-food-in-conformit-y-with-the-2030-agenda-will-be-imperative-and-also-immensely-challengingwith-capture-fisher-y-production-relatively-static-since-the-late-1980s-aquaculture-has-been-responsible-for-the-impressive-growth-in-the-supply-of-fish-for-human-consumptiongrowth-in-the-global-supply-of-fish-for-human-consumption-has-outpaced-population-growth-in-the-past-five-decades-increasing-at-an-average-annual-rate-of-3.2-percent-in-the-period-19612013-double-that-of-population-growth-resulting-in-increasing-average-per-capita-availabilitythus-governance-needs-to-ensure-that-fisheries-and-aquaculture-adapt-to-the-impacts-of-climate-change-and-improve-the-resilience-of-food-production-systems.-see-report.">Many
+millennia after terrestrial food production shifted from hunter-gatherer
+activities to agriculture, aquatic food production has transitioned from
+being primarily based on capture of wild fish to culture of increasing
+numbers of farmed species. A milestone was reached in 2014 when the
+aquaculture sector’s contribution to the supply of fish for human
+consumption overtook that of wild-caught fish for the first time.
+Meeting the ever-growing demand for fish as food in conformit y with the
+2030 Agenda will be imperative, and also immensely challenging…With
+capture fisher y production relatively static since the late 1980s,
+aquaculture has been responsible for the impressive growth in the supply
+of fish for human consumption…Growth in the global supply of fish for
+human consumption has outpaced population growth in the past five
+decades, increasing at an average annual rate of 3.2 percent in the
+period 1961–2013, double that of population growth, resulting in
+increasing average per capita availability…Thus, governance needs to
+ensure that fisheries and aquaculture adapt to the impacts of climate
+change and improve the resilience of food production systems. <a
+href="https://www.fao.org/publications/card/en/c/2c8bcf47-2214-4aeb-95b0-62ddef8a982a"
+target="_blank"><strong><em>See</em> report.</strong></a></h4>
+<p><br/></p>
+</div></li>
+<li><h4
 id="kew-state-of-the-worlds-plants-1"><a href="####" data-toggle="collapse" data-target="#kew2016">Kew:
 State of the World’s Plants</a></h4>
 <div id="kew2016" class="collapse">
@@ -1525,6 +1759,39 @@ emerging from the review process, and an update on current knowledge
 gaps. <a
 href="https://kew.iro.bl.uk/concern/reports/f931f1de-72c7-46b4-b57c-28eb417c53ec?locale=en"
 target="_blank"><strong><em>See</em> report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
+<li><h4
+id="fao-the-state-of-the-worlds-forests-2"><a href="###" data-toggle="collapse" data-target="#faoforests2016">FAO:
+The State of the World’s Forests</a></h4>
+<div id="faoforests2016" class="collapse">
+<p><a href="https://www.fao.org/publications/card/en/c/ffed061b-82e0-4c74-af43-1a999a443fbf" target="_blank">
+<img src="images/report_faoforests2016.png" alt="FAO Forests 2016 report cover"/>
+</a></p>
+<h4
+id="there-was-a-net-forest-loss-of-7-million-hectares-per-year-in-tropical-countries-in-20002010-and-a-net-gain-in-agricultural-land-of-6-million-hectares-per-year.-the-greatest-net-loss-of-forests-and-net-gain-in-agricultural-land-over-the-period-was-in-the-low-income-group-of-countries-where-rural-populations-are-growing.-large-scale-commercial-agriculture-accounts-for-about-40-percent-of-deforestation-in-the-tropics-and-subtropics-local-subsistence-agriculture-for-33-percent-infrastructure-for-10-percent-urban-expansion-for-10-percent-and-mining-for-7-percent.-there-are-significant-regional-variations-however-for-example-commercial-agriculture-accounts-for-almost-70-percent-of-the-deforestation-in-latin-america-but-for-only-one-third-in-africa-where-small-scale-agriculture-is-a-more-significant-driver-of-deforestation.-underlying-factors-affecting-forest-conversion-include-population-growth-and-changing-food-consumption-patterns-agricultural-developments-such-as-changing-markets-technological-improvements-and-active-policy-interventions-land-tenure-security-and-the-governance-of-land-use-change.-forest-losses-in-20102015-most-of-which-was-natural-forest-were-offset-partially-by-a-combination-of-natural-expansion-often-on-abandoned-agricultural-land-2.2-million-hectares-per-year-and-the-establishment-of-planted-forests-3.1-million-hectares-per-year.-see-report.">There
+was a net forest loss of 7 million hectares per year in tropical
+countries in 2000–2010 and a net gain in agricultural land of 6 million
+hectares per year. The greatest net loss of forests and net gain in
+agricultural land over the period was in the low-income group of
+countries, where rural populations are growing. Large-scale commercial
+agriculture accounts for about 40 percent of deforestation in the
+tropics and subtropics, local subsistence agriculture for 33 percent,
+infrastructure for 10 percent, urban expansion for 10 percent and mining
+for 7 percent. There are significant regional variations, however: for
+example, commercial agriculture accounts for almost 70 percent of the
+deforestation in Latin America but for only one-third in Africa, where
+small-scale agriculture is a more significant driver of deforestation.
+Underlying factors affecting forest conversion include population growth
+and changing food consumption patterns; agricultural developments, such
+as changing markets, technological improvements and active policy
+interventions; land-tenure security; and the governance of land-use
+change. Forest losses in 2010–2015 (most of which was natural forest)
+were offset partially by a combination of natural expansion, often on
+abandoned agricultural land (2.2 million hectares per year), and the
+establishment of planted forests (3.1 million hectares per year). <a
+href="https://www.fao.org/publications/card/en/c/ffed061b-82e0-4c74-af43-1a999a443fbf"
+target="_blank"><strong><em>See</em> report.</strong></a></h4>
 <p><br/></p>
 </div></li>
 </ul>

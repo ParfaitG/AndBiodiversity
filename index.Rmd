@@ -178,6 +178,10 @@ output:
   
   @media screen and (min-width: 750px) and (pointer: coarse), 
          screen and (min-width: 750px) and (hover: none)  {
+    #bottom_icons img {
+       z-index: -10;
+    }
+    
     [title] {
       position: relative;
       display: inline-flex;
@@ -192,13 +196,14 @@ output:
       content: attr(title);
       position: absolute;
       top: 10%;
-      left: 95%;
+      left: 116%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
+      z-index: 1;
     }
     
     [title]:focus::before {
@@ -207,10 +212,11 @@ output:
       width: 0;
       height: 0;
       top: 25%;
-      left: 78%;
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      border-right: 10px solid black;
+      left: 97%;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 14px solid black;
+      z-index: 1;
     }
   }
   
@@ -300,13 +306,14 @@ output:
       content: attr(title);
       position: absolute;
       top: 10%;
-      right: 95%;
+      right: 120%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
+      z-index: 1;
     }
     
     td:nth-child(4n+1) a[title]:focus::before {
@@ -315,10 +322,11 @@ output:
       width: 0;
       height: 0;
       top: 25%;
-      right: 85%;
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      border-left: 10px solid black;
+      right: 106%;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-left: 14px solid black;
+      z-index: 1;
     }
     
     td:nth-child(4n-1) a[title]:focus {
@@ -329,13 +337,14 @@ output:
       content: attr(title);
       position: absolute;
       top: 10%;
-      left: 95%;
+      left: 120%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
+      z-index: 1;
     }
     
     td:nth-child(4n-1) a[title]:focus::before {
@@ -344,10 +353,11 @@ output:
       width: 0;
       height: 0;
       top: 25%;
-      left: 85%;
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      border-right: 10px solid black;
+      left: 106%;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 14px solid black;
+      z-index: 1;
     }
   }
 ```
@@ -601,7 +611,7 @@ meta(
 <div class="table_container">
   <table id="bottom_icons">
    <tr>
-      <td><a title="Net rate of forest loss have decreased by 50% since the 1990s (excluding those managed for timber or agricultural extraction) (IPBES GA)"  tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon" /></a></td>
+      <td><a title="Global forest area is now approximately 68% of the estimated pre-industrial leve (IPBES GA)"  tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon" /></a></td>
       <td><h3>Logging</h3></td>
       <td><a title="African elephants have declined by 30-fold over the last century (from 12 million to ~400,000) with more than 100,000 elephants killed by poachers between 2010 and 2012 (IPBES 2020)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></a></td>
       <td><h3>Poaching</h3></td>
