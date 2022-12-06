@@ -316,19 +316,6 @@ $(document).ready(function () {
 
 
 <style type="text/css">
-  .main-container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  @media (max-width:1200px) and (min-width:760px) {
-    #navbar > ul > li > a {
-       font-size: 0;
-       display:inline-block;
-    }
-    .fa { font-size: initial; }
-  }
 
   .logo {
     text-align: right;
@@ -340,236 +327,8 @@ $(document).ready(function () {
     width: 200px;
   }
   
-  .table_container {
-     width: 100%;
-  }
-  
-  #bottom_icons {
-     margin: 0px auto;
-  }
-  
-  #bottom_icons a, 
-  #bottom_icons a:active, 
-  #bottom_icons a:focus { 
-     outline: none;
-     text-align: center;
-  }
-  
-  #bottom_icons img {
-     padding: 10px;
-     width: 100px;
-  }
-  #bottom_icons img:hover {
-      opacity: 0.8
-  }
-  #bottom_icons h3 {
-     font-size: 18px;
-     text-align: center;
-  }
-  
   .footer {
-     bottom: 0;
-     width: 100%;
      height: 120px;
-     margin: 0px 0px -40px 0px;
-     color: #ffffff;
-     background-color: #808080;
-     border-color: #93c54b;
-     overflow-y: auto;
-  }
-
-  .footer_box {
-     width: 80%;
-     height: 100%;
-     margin: 0 auto;
-     display: flex;
-     justify-content: center;
-  }
-  .footer_column {
-     font: normal italic 14px Arial;
-     display: inline-block;
-     width: fit-content;
-     min-width: 15%;
-     padding: 25px 20px 20px 20px;
-  }
-  
-  #footer_label {
-     padding: 5px 0 0 0;
-     font: 16px Arial;
-  }
-  #footer_label a, 
-  #footer_label a:hover, 
-  #footer_label a:focus, 
-  #footer_label a:active {
-     color: #ffffff;
-  }
-  
-  @media screen and (min-width: 750px) and (pointer: coarse), 
-         screen and (min-width: 750px) and (hover: none)  {
-    #bottom_icons img {
-       z-index: -10;
-    }
-    
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    [title]:focus {
-      opacity: 0.7
-    }
-    
-    [title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    [title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 95%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
-  }
-  
-  @media screen and (max-width: 750px) {
-      .pixgallery-child-grid {
-         text-align: center;
-      }
-      
-      .logo img {
-         clear: both;
-         text-align: right;
-         position: relative;
-         z-index: -1;
-         width: 40vw;
-      }
-      
-      #bottom_icons img:hover,
-      #bottom_icons img:active,
-      #bottom_icons img:focus {
-         opacity: 0.8
-      }
-      #bottom_icons tr {
-         display: block;
-         margin-bottom: .625em;
-      }
-      #bottom_icons td {
-         display: block;
-         text-align: center;
-      }
-      #bottom_icons h3 {
-         font-size: 2vh;
-      }
-      #bottom_icons td.img {
-         width: 150px;
-      }
-      #bottom_icons td::before {
-         float: left;
-         font-weight: bold;
-         text-transform: uppercase;
-      }
-      
-      .footer {
-         height: auto;
-         margin: 0 0 -40px 0;
-         min-height: 100% !important;
-      }
-      .footer_box {
-         display: block;
-         padding: 0 0 10px 0;
-      }
-      .footer_column {
-          width: 100%;
-          padding: 15px 0 0 20px;
-      }
-  }
-  
-  @media screen and (max-width: 750px) and (pointer: coarse), 
-         screen and (max-width: 750px) and (hover: none) {
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      right: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      right: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-left: 14px solid black;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
   }
 </style>
 <script type="text/javascript">
@@ -588,8 +347,8 @@ class="section level4">
 resources regarding biodiversity loss.</h4>
 <hr />
 <p><br/></p>
-<div id="htmlwidget-805952b0e1a6d1869766" style="width:100%;height:100%;" class="pixgallery html-widget"></div>
-<script type="application/json" data-for="htmlwidget-805952b0e1a6d1869766">{"x":{"path":["images/ibpes_fig_spm1.jpg","images/ibpes_fig_spm2.png","images/ibpes_fig_spm3.png","images/planetary_boundaries_2009.jpg","images/ipbes_ipcc_fig1_2.png","images/ipbes_ipcc_fig1_3.png","images/ipbes_ipcc_fig2_2.png","images/ipbes_ipcc_fig6_5.png","images/ipbes_ipcc_fig7_2.png","images/ipbes_ipcc_fig7_4.png","images/sei_nitrogen-report-summary-intro-infographic.png","images/unep_makingpeace_fig2_6.png","images/unep_makingpeace_fig2_7.png","images/unep_makingpeace_fig3_1.png","images/unep_makingpeace_fig3_3.png","images/unep_makingpeace_fig3_4.png","images/unep_makingpeace_fig3_7.png","images/unep_makingpeace_fig3_9.png","images/unep_makingpeace_fig6_2.png","images/unep_makingpeace_fig6_3.png","images/unep_makingpeace_fig8_1.png","images/planetary_boundaries_2022.png","images/wwf_living_planet_2020_fig_indexes.png","images/dasgupta_review_fig2.png","images/dasgupta_review_fig3.png","images/dasgupta_review_fig6.png","images/dasgupta_review_fig9.png","images/dasgupta_review_fig10.png","images/dasgupta_review_fig11.png","images/dasgupta_review_fig12.png","images/dasgupta_review_fig13.png","images/dasgupta_review_fig15.png","images/dasgupta_review_fig16.png","images/dasgupta_review_fig18.png","images/dasgupta_review_fig19.png","images/dasgupta_review_fig20.png","images/dasgupta_review_fig21.png","images/wwf_living_planet_2020_fig4.png","images/wwf_living_planet_2020_fig5.png","images/wwf_living_planet_2020_fig8.png","images/wwf_living_planet_2020_fig10.png","images/wwf_living_planet_2020_fig12.png","images/wwf_living_planet_2020_fig13.png","images/wwf_living_planet_2020_fig15.png","images/wwf_living_planet_2020_fig17.png","images/wwf_living_planet_2020_fig20.png","images/wwf_living_planet_2020_fig22.png","images/wwf_living_planet_2020_fig23.png","images/wwf_living_planet_2020_fig24.png","images/wwf_living_planet_2020_fig25.png","images/wwf_living_planet_2020_fig26.png","images/wwf_living_planet_2020_fig27.png","images/wwf_living_planet_2020_fig28.png","images/brauman_fig1.jpg","images/brauman_fig2.jpg","images/wwf_living_planet_2022_fig1.png","images/wwf_living_planet_2022_fig2.png","images/wwf_living_planet_2022_fig3.png","images/wwf_living_planet_2022_fig4.png","images/wwf_living_planet_2022_fig5.png","images/wwf_living_planet_2022_fig6.png","images/wwf_living_planet_2022_fig7.png","images/wwf_living_planet_2022_fig8.png","images/wwf_living_planet_2022_fig10.png","images/wwf_living_planet_2022_fig11.png","images/wwf_living_planet_2022_fig12.png","images/wwf_living_planet_2022_fig13.png","images/wwf_living_planet_2022_fig14.png","images/wwf_living_planet_2022_fig15.png","images/wwf_living_planet_2022_fig16.png","images/wwf_living_planet_2022_fig17.png","images/wwf_living_planet_2022_fig18.png","images/wwf_living_planet_2022_fig19.png","images/wwf_living_planet_2022_fig21.png","images/wwf_living_planet_2022_fig23.png","images/mea_fig3.png","images/mea_fig4.png","images/mea_fig9.png","images/mea_fig13.png","images/mea_fig15.png"],"caption":["IPBES Global Assessment: Summary for Policymakers - Fig 1","IPBES Global Assessment: Summary for Policymakers - Fig 2","IPBES Global Assessment: Summary for Policymakers - Fig 3","Stockholm Resilience Centre: Planetary Boundary Framework (2009)","IPBES and IPCC Workshop Report - Fig 1.2","IPBES and IPCC Workshop Report - Fig 1.3","IPBES and IPCC Workshop Report - Fig 2.2","IPBES and IPCC Workshop Report - Fig 6.5","IPBES and IPCC Workshop Report - Fig 7.2","IPBES and IPCC Workshop Report - Fig 7.4","SEI UK Nitrogen Report: Intro Infographic","UNEP: Making Peace with Nature - Fig 2.6","UNEP: Making Peace with Nature - Fig 2.7","UNEP: Making Peace with Nature - Fig 3.1","UNEP: Making Peace with Nature - Fig 3.3","UNEP: Making Peace with Nature - Fig 3.4","UNEP: Making Peace with Nature - Fig 3.7","UNEP: Making Peace with Nature - Fig 3.9","UNEP: Making Peace with Nature - Fig 6.2","UNEP: Making Peace with Nature - Fig 6.3","UNEP: Making Peace with Nature - Fig 8.1","Stockholm Resilience Centre: Planetary Boundary Framework (2022)","WWF Living Planet (2020) - Indexes","Dasgupta Review - Fig 2","Dasgupta Review - Fig 3","Dasgupta Review - Fig 6","Dasgupta Review - Fig 9","Dasgupta Review - Fig 10","Dasgupta Review - Fig 11","Dasgupta Review - Fig 12","Dasgupta Review - Fig 13","Dasgupta Review - Fig 15","Dasgupta Review - Fig 16","Dasgupta Review - Fig 18","Dasgupta Review - Fig 19","Dasgupta Review - Fig 20","Dasgupta Review - Fig 21","WWF Living Planet (2020) - Fig 4","WWF Living Planet (2020) - Fig 5","WWF Living Planet (2020) - Fig 8","WWF Living Planet (2020) - Fig 10","WWF Living Planet (2020) - Fig 12","WWF Living Planet (2020) - Fig 13","WWF Living Planet (2020) - Fig 15","WWF Living Planet (2020) - Fig 17","WWF Living Planet (2020) - Fig 20","WWF Living Planet (2020) - Fig 22","WWF Living Planet (2020) - Fig 23","WWF Living Planet (2020) - Fig 24","WWF Living Planet (2020) - Fig 25","WWF Living Planet (2020) - Fig 26","WWF Living Planet (2020) - Fig 27","WWF Living Planet (2020) - Fig 28","Brauman - Fig 1","Brauman - Fig 2","WWF Living Planet (2022) - Fig 1","WWF Living Planet (2022) - Fig 2","WWF Living Planet (2022) - Fig 3","WWF Living Planet (2022) - Fig 4","WWF Living Planet (2022) - Fig 5","WWF Living Planet (2022) - Fig 6","WWF Living Planet (2022) - Fig 7","WWF Living Planet (2022) - Fig 8","WWF Living Planet (2022) - Fig 10","WWF Living Planet (2022) - Fig 11","WWF Living Planet (2022) - Fig 11","WWF Living Planet (2022) - Fig 13","WWF Living Planet (2022) - Fig 14","WWF Living Planet (2022) - Fig 15","WWF Living Planet (2022) - Fig 16","WWF Living Planet (2022) - Fig 17","WWF Living Planet (2022) - Fig 18","WWF Living Planet (2022) - Fig 19","WWF Living Planet (2022) - Fig 21","WWF Living Planet (2022) - Fig 23","Millennium Ecosystem Assessment - Fig 3","Millennium Ecosystem Assessment - Fig 4","Millennium Ecosystem Assessment - Fig 9","Millennium Ecosystem Assessment - Fig 13","Millennium Ecosystem Assessment - Fig 15"],"dim":"200px","gap":"6px","type":"grid"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-fa93a45af7d69a822157" style="width:100%;height:100%;" class="pixgallery html-widget"></div>
+<script type="application/json" data-for="htmlwidget-fa93a45af7d69a822157">{"x":{"path":["images/ibpes_fig_spm1.jpg","images/ibpes_fig_spm2.png","images/ibpes_fig_spm3.png","images/planetary_boundaries_2009.jpg","images/ipbes_ipcc_fig1_2.png","images/ipbes_ipcc_fig1_3.png","images/ipbes_ipcc_fig2_2.png","images/ipbes_ipcc_fig6_5.png","images/ipbes_ipcc_fig7_2.png","images/ipbes_ipcc_fig7_4.png","images/sei_nitrogen-report-summary-intro-infographic.png","images/unep_makingpeace_fig2_6.png","images/unep_makingpeace_fig2_7.png","images/unep_makingpeace_fig3_1.png","images/unep_makingpeace_fig3_3.png","images/unep_makingpeace_fig3_4.png","images/unep_makingpeace_fig3_7.png","images/unep_makingpeace_fig3_9.png","images/unep_makingpeace_fig6_2.png","images/unep_makingpeace_fig6_3.png","images/unep_makingpeace_fig8_1.png","images/planetary_boundaries_2022.png","images/wwf_living_planet_2020_fig_indexes.png","images/dasgupta_review_fig2.png","images/dasgupta_review_fig3.png","images/dasgupta_review_fig6.png","images/dasgupta_review_fig9.png","images/dasgupta_review_fig10.png","images/dasgupta_review_fig11.png","images/dasgupta_review_fig12.png","images/dasgupta_review_fig13.png","images/dasgupta_review_fig15.png","images/dasgupta_review_fig16.png","images/dasgupta_review_fig18.png","images/dasgupta_review_fig19.png","images/dasgupta_review_fig20.png","images/dasgupta_review_fig21.png","images/wwf_living_planet_2020_fig4.png","images/wwf_living_planet_2020_fig5.png","images/wwf_living_planet_2020_fig8.png","images/wwf_living_planet_2020_fig10.png","images/wwf_living_planet_2020_fig12.png","images/wwf_living_planet_2020_fig13.png","images/wwf_living_planet_2020_fig15.png","images/wwf_living_planet_2020_fig17.png","images/wwf_living_planet_2020_fig20.png","images/wwf_living_planet_2020_fig22.png","images/wwf_living_planet_2020_fig23.png","images/wwf_living_planet_2020_fig24.png","images/wwf_living_planet_2020_fig25.png","images/wwf_living_planet_2020_fig26.png","images/wwf_living_planet_2020_fig27.png","images/wwf_living_planet_2020_fig28.png","images/brauman_fig1.jpg","images/brauman_fig2.jpg","images/wwf_living_planet_2022_fig1.png","images/wwf_living_planet_2022_fig2.png","images/wwf_living_planet_2022_fig3.png","images/wwf_living_planet_2022_fig4.png","images/wwf_living_planet_2022_fig5.png","images/wwf_living_planet_2022_fig6.png","images/wwf_living_planet_2022_fig7.png","images/wwf_living_planet_2022_fig8.png","images/wwf_living_planet_2022_fig10.png","images/wwf_living_planet_2022_fig11.png","images/wwf_living_planet_2022_fig12.png","images/wwf_living_planet_2022_fig13.png","images/wwf_living_planet_2022_fig14.png","images/wwf_living_planet_2022_fig15.png","images/wwf_living_planet_2022_fig16.png","images/wwf_living_planet_2022_fig17.png","images/wwf_living_planet_2022_fig18.png","images/wwf_living_planet_2022_fig19.png","images/wwf_living_planet_2022_fig21.png","images/wwf_living_planet_2022_fig23.png","images/mea_fig3.png","images/mea_fig4.png","images/mea_fig9.png","images/mea_fig13.png","images/mea_fig15.png"],"caption":["IPBES Global Assessment: Summary for Policymakers - Fig 1","IPBES Global Assessment: Summary for Policymakers - Fig 2","IPBES Global Assessment: Summary for Policymakers - Fig 3","Stockholm Resilience Centre: Planetary Boundary Framework (2009)","IPBES and IPCC Workshop Report - Fig 1.2","IPBES and IPCC Workshop Report - Fig 1.3","IPBES and IPCC Workshop Report - Fig 2.2","IPBES and IPCC Workshop Report - Fig 6.5","IPBES and IPCC Workshop Report - Fig 7.2","IPBES and IPCC Workshop Report - Fig 7.4","SEI UK Nitrogen Report: Intro Infographic","UNEP: Making Peace with Nature - Fig 2.6","UNEP: Making Peace with Nature - Fig 2.7","UNEP: Making Peace with Nature - Fig 3.1","UNEP: Making Peace with Nature - Fig 3.3","UNEP: Making Peace with Nature - Fig 3.4","UNEP: Making Peace with Nature - Fig 3.7","UNEP: Making Peace with Nature - Fig 3.9","UNEP: Making Peace with Nature - Fig 6.2","UNEP: Making Peace with Nature - Fig 6.3","UNEP: Making Peace with Nature - Fig 8.1","Stockholm Resilience Centre: Planetary Boundary Framework (2022)","WWF Living Planet (2020) - Indexes","Dasgupta Review - Fig 2","Dasgupta Review - Fig 3","Dasgupta Review - Fig 6","Dasgupta Review - Fig 9","Dasgupta Review - Fig 10","Dasgupta Review - Fig 11","Dasgupta Review - Fig 12","Dasgupta Review - Fig 13","Dasgupta Review - Fig 15","Dasgupta Review - Fig 16","Dasgupta Review - Fig 18","Dasgupta Review - Fig 19","Dasgupta Review - Fig 20","Dasgupta Review - Fig 21","WWF Living Planet (2020) - Fig 4","WWF Living Planet (2020) - Fig 5","WWF Living Planet (2020) - Fig 8","WWF Living Planet (2020) - Fig 10","WWF Living Planet (2020) - Fig 12","WWF Living Planet (2020) - Fig 13","WWF Living Planet (2020) - Fig 15","WWF Living Planet (2020) - Fig 17","WWF Living Planet (2020) - Fig 20","WWF Living Planet (2020) - Fig 22","WWF Living Planet (2020) - Fig 23","WWF Living Planet (2020) - Fig 24","WWF Living Planet (2020) - Fig 25","WWF Living Planet (2020) - Fig 26","WWF Living Planet (2020) - Fig 27","WWF Living Planet (2020) - Fig 28","Brauman - Fig 1","Brauman - Fig 2","WWF Living Planet (2022) - Fig 1","WWF Living Planet (2022) - Fig 2","WWF Living Planet (2022) - Fig 3","WWF Living Planet (2022) - Fig 4","WWF Living Planet (2022) - Fig 5","WWF Living Planet (2022) - Fig 6","WWF Living Planet (2022) - Fig 7","WWF Living Planet (2022) - Fig 8","WWF Living Planet (2022) - Fig 10","WWF Living Planet (2022) - Fig 11","WWF Living Planet (2022) - Fig 11","WWF Living Planet (2022) - Fig 13","WWF Living Planet (2022) - Fig 14","WWF Living Planet (2022) - Fig 15","WWF Living Planet (2022) - Fig 16","WWF Living Planet (2022) - Fig 17","WWF Living Planet (2022) - Fig 18","WWF Living Planet (2022) - Fig 19","WWF Living Planet (2022) - Fig 21","WWF Living Planet (2022) - Fig 23","Millennium Ecosystem Assessment - Fig 3","Millennium Ecosystem Assessment - Fig 4","Millennium Ecosystem Assessment - Fig 9","Millennium Ecosystem Assessment - Fig 13","Millennium Ecosystem Assessment - Fig 15"],"dim":"200px","gap":"6px","type":"grid"},"evals":[],"jsHooks":[]}</script>
 <p><br/> <br/> <br/></p>
 <hr />
 </div>
@@ -685,7 +444,9 @@ class="section level4">
 <table id="bottom_icons">
 <tr>
 <td>
-<a title="75% of terrestrial environment “severely altered” to date by human actions (IPBES GA)" tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></a>
+<span
+data-text="75% of terrestrial environment “severely altered” to date by human actions (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></span>
 </td>
 <td>
 <h3>
@@ -693,7 +454,9 @@ Terrestrial<br/>Environments
 </h3>
 </td>
 <td>
-<a title="At least 680 vertebrate species were driven to extinction by human actions since the 16th century (IPBES GA)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></a>
+<span
+data-text="At least 680 vertebrate species were driven to extinction by human actions since the 16th century (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span>
 </td>
 <td>
 <h3>
@@ -701,7 +464,9 @@ Wild Verterbrate<br/>Species
 </h3>
 </td>
 <td>
-<a title="66% of marine environment “severely altered” to date by human actions (IPBES GA)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></a>
+<span
+data-text="66% of marine environment “severely altered” to date by human actions (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></span>
 </td>
 <td>
 <h3>
@@ -709,7 +474,9 @@ Marine<br/>Environments
 </h3>
 </td>
 <td>
-<a title="Approximately half the live coral cover on coral reefs has been lost since the 1870s, with accelerating losses in recent decades due to climate change exacerbating other drivers (IPBES GA)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></a>
+<span
+data-text="Approximately half the live coral cover on coral reefs has been lost since the 1870s, with accelerating losses in recent decades due to climate change exacerbating other drivers (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></span>
 </td>
 <td>
 <h3>
@@ -717,7 +484,9 @@ Coral Reef<br/>Decline
 </h3>
 </td>
 <td>
-<a title="Humans are estimated to have caused an observed warming of approximately 1.0°C by 2017 relative to pre-industrial levels, with average temperatures over the past 30 years rising by 0.2°C per decade. (IPBES GA)" tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></a>
+<span
+data-text="Humans are estimated to have caused an observed warming of approximately 1.0°C by 2017 relative to pre-industrial levels, with average temperatures over the past 30 years rising by 0.2°C per decade. (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></span>
 </td>
 <td>
 <h3>
@@ -727,7 +496,9 @@ Global<br/>Warming
 </tr>
 <tr>
 <td>
-<a title="Insect abundance has declined very rapidly in some places even without large-scale land-use change, but the global extent of such declines is not known (IPBES GA)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></a>
+<span
+data-text="Insect abundance has declined very rapidly in some places even without large-scale land-use change, but the global extent of such declines is not known (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></span>
 </td>
 <td>
 <h3>
@@ -735,7 +506,9 @@ Insect<br/>Abundance
 </h3>
 </td>
 <td>
-<a title="Cumulative records of alien species have increased by 40 per cent since 1980, associated with increased trade and human population dynamics and trends. (IPBES GA)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></a>
+<span
+data-text="Cumulative records of alien species have increased by 40 per cent since 1980, associated with increased trade and human population dynamics and trends. (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></span>
 </td>
 <td>
 <h3>
@@ -743,7 +516,9 @@ Increased<br/>Trade
 </h3>
 </td>
 <td>
-<a title="Humans have been enjoying such benefits for millennia for agriculture, aquaculture, and urban development, among other activities, which often led to widespread wetland degradation (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></a>
+<span
+data-text="Humans have been enjoying such benefits for millennia for agriculture, aquaculture, and urban development, among other activities, which often led to widespread wetland degradation (IPBES-IPCC)"
+tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></span>
 </td>
 <td>
 <h3>
@@ -751,7 +526,9 @@ Wetland<br/>Degradation
 </h3>
 </td>
 <td>
-<a title="The global biomass of wild mammals has fallen by 82 per cent since prehistory (IPBES GA)" tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></a>
+<span
+data-text="The global biomass of wild mammals has fallen by 82 per cent since prehistory (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></span>
 </td>
 <td>
 <h3>
@@ -759,7 +536,9 @@ Global<br/>Biomass
 </h3>
 </td>
 <td>
-<a title="Over 33% of world’s land surface (and +/-75% of freshwater resources) devoted to crop or livestock production (IPBES GA)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></a>
+<span
+data-text="Over 33% of world’s land surface (and +/-75% of freshwater resources) devoted to crop or livestock production (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></span>
 </td>
 <td>
 <h3>

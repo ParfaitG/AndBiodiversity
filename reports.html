@@ -311,279 +311,19 @@ $(document).ready(function () {
 
 
 <style type="text/css">
-  .main-container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  @media (max-width:1200px) and (min-width:760px) {
-    #navbar > ul > li > a {
-       font-size: 0;
-       display:inline-block;
-    }
-    .fa { font-size: initial; }
-  }
-  
-  .nav-pills {
-     font-size: 14px;
-  }
-
   .logo {
     text-align: right;
     margin: -100px 0 0 0;
   }
 
   .logo img {
-    margin: 5px;
-    width: 200px;
-  }
-  
-  .reports_banner {
-     text-align: center;
-  }
-  .reports_banner img {
-     width: 800px;
-  }
-  
-  .collapse {
-     overflow: hidden;
-  }
-  .collapse img {
-     padding: 10px;
-     float: left;
-  }
-  
-  .table_container {
-     width: 100%;
-  }
-  
-  #bottom_icons {
-     margin: 0 auto;
-  }
-  
-  #bottom_icons a, 
-  #bottom_icons a:active, 
-  #bottom_icons a:focus { 
-     outline: none;
-     text-align: center;
-  }
-  
-  #bottom_icons img {
-     padding: 10px;
-     width: 100px;
-  }
-  #bottom_icons img:hover {
-      opacity: 0.8
-  }
-  #bottom_icons h3 {
-     text-align: center;
-     font-size: 18px;
+     margin: 5px;
+     width: 200px;
   }
   
   .footer {
-     bottom: 0;
-     width: 100%;
      height: 120px;
      margin: 0px auto -40px auto;
-     color: #ffffff;
-     background-color: #808080;
-     border-color: #93c54b;
-     overflow-y: auto;
-  }
-  
-  .footer_box {
-     width: 80%;
-     height: 100%;
-     margin: 0 auto;
-     display: flex;
-     justify-content: center;
-  }
-  .footer_column {
-     font: normal italic 14px Arial;
-     display: inline-block;
-     width: fit-content;
-     min-width: 15%;
-     padding: 25px 20px 20px 20px;
-  }
-  
-  #footer_label {
-     padding: 5px 0 0 0;
-     font: 16px Arial;
-  }
-  #footer_label a, 
-  #footer_label a:hover, 
-  #footer_label a:focus, 
-  #footer_label a:active {
-     color: #ffffff;
-  }
-  
-  @media screen and (min-width: 750px) and (pointer: coarse), 
-         screen and (min-width: 750px) and (hover: none)  {
-    #bottom_icons img {
-       z-index: -10;
-    }
-    
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    [title]:focus {
-      opacity: 0.7
-    }
-    
-    [title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    [title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 95%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
-  }
-  
-  @media screen and (max-width: 750px) {
-      img {
-         height: auto;
-      }
-      
-      .logo img {
-         clear: both;
-         text-align: right;
-         position: relative;
-         z-index: -1;
-         width: 40vw;
-      }
-      
-      #bottom_icons img:hover,
-      #bottom_icons img:active,
-      #bottom_icons img:focus {
-         opacity: 0.8
-      }
-      #bottom_icons tr {
-          display: block;
-          margin-bottom: .625em;
-      }
-      #bottom_icons td {
-          display: block;
-          text-align: center;
-      }
-      #bottom_icons h3 {
-          font-size: 2vh;
-      }
-      #bottom_icons td.img {
-          width: 150px;
-      }
-      #bottom_icons td::before {
-          float: left;
-          font-weight: bold;
-          text-transform: uppercase;
-      }
-      
-      .footer {
-         height: auto;
-         margin: 0 0 -40px 0;
-         min-height: 100% !important;
-      }
-      .footer_box {
-         display: block;
-         padding: 0 0 10px 0;
-      }
-      .footer_column {
-          width: 100%;
-          padding: 15px 0 0 20px;
-      }
-  }
-  
-  @media screen and (max-width: 750px) and (pointer: coarse), 
-         screen and (max-width: 750px) and (hover: none) {
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      right: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      right: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-left: 14px solid black;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
   }
 </style>
 <script type="text/javascript">
@@ -2885,7 +2625,9 @@ class="section level4">
 <table id="bottom_icons">
 <tr>
 <td>
-<a title="100 million hectares of agricultural expansion in the tropics occurred from 1980 to 2000, mainly cattle ranching in Latin America (+/-42 million ha), and plantations in Southeast Asia (+/-7.5 million ha, of which 80% is oil palm), half of it at the expense of intact forests (IPBES GA)" tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></a>
+<span
+data-text="100 million hectares of agricultural expansion in the tropics occurred from 1980 to 2000, mainly cattle ranching in Latin America (+/-42 million ha), and plantations in Southeast Asia (+/-7.5 million ha, of which 80% is oil palm), half of it at the expense of intact forests (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></span>
 </td>
 <td>
 <h3>
@@ -2893,7 +2635,9 @@ Deforestation
 </h3>
 </td>
 <td>
-<a title="For terrestrial and freshwater ecosystems, land-use change has had the largest relative negative impact on nature since 1970, followed by the direct exploitation, in particular overexploitation, of animals, plants and other organisms, mainly via harvesting, logging, hunting and fishing. (IPBES GA)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></a>
+<span
+data-text="For terrestrial and freshwater ecosystems, land-use change has had the largest relative negative impact on nature since 1970, followed by the direct exploitation, in particular overexploitation, of animals, plants and other organisms, mainly via harvesting, logging, hunting and fishing. (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span>
 </td>
 <td>
 <h3>
@@ -2901,7 +2645,9 @@ Over-<br/>exploitation
 </h3>
 </td>
 <td>
-<a title="Industrial fishing covers over 55% of ocean area (IPBES GA)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></a>
+<span
+data-text="Industrial fishing covers over 55% of ocean area (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></span>
 </td>
 <td>
 <h3>
@@ -2909,7 +2655,9 @@ Sea Use<br/>Changes
 </h3>
 </td>
 <td>
-<a title="Fertilizers have caused 400 low oxygen (hypoxic) coastal ecosystem 'dead zones', affecting over 245,000 km2 (IPBES GA)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></a>
+<span
+data-text="Fertilizers have caused 400 low oxygen (hypoxic) coastal ecosystem &#39;dead zones&#39;, affecting over 245,000 km2 (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></span>
 </td>
 <td>
 <h3>
@@ -2917,7 +2665,9 @@ Coastal<br/>Loss
 </h3>
 </td>
 <td>
-<a title="47% of terrestrial flightless mammals and 23% of threatened birds whose distributions may have been negatively impacted by climate change already (IPBES GA)" tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></a>
+<span
+data-text="47% of terrestrial flightless mammals and 23% of threatened birds whose distributions may have been negatively impacted by climate change already (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></span>
 </td>
 <td>
 <h3>
@@ -2927,7 +2677,9 @@ Greenhouse Gas<br/>Emissions
 </tr>
 <tr>
 <td>
-<a title="Between $235 to $577 billion in annual value of global crop output are at risk due to pollinator loss (IPBES GA)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></a>
+<span
+data-text="Between $235 to $577 billion in annual value of global crop output are at risk due to pollinator loss (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></span>
 </td>
 <td>
 <h3>
@@ -2935,7 +2687,9 @@ Pollinator<br/>Decline
 </h3>
 </td>
 <td>
-<a title="Almost 33% of reef forming corals, sharks and shark relatives, and over 33% marine mammals threatened with extinction (IPBES GA)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></a>
+<span
+data-text="Almost 33% of reef forming corals, sharks and shark relatives, and over 33% marine mammals threatened with extinction (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></span>
 </td>
 <td>
 <h3>
@@ -2943,7 +2697,8 @@ Marine<br/>Pollution
 </h3>
 </td>
 <td>
-<a title="Urban areas have grown 100% since 1992 (IPBES GA)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></a>
+<span data-text="Urban areas have grown 100% since 1992 (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></span>
 </td>
 <td>
 <h3>
@@ -2951,7 +2706,9 @@ Land Use<br/>Changes
 </h3>
 </td>
 <td>
-<a title="Over 500,000 of the world’s estimated 5.9 million terrestrial species have insufficient habitat for long term survival without habitat restoration (IPBES GA)" tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></a>
+<span
+data-text="Over 500,000 of the world’s estimated 5.9 million terrestrial species have insufficient habitat for long term survival without habitat restoration (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></span>
 </td>
 <td>
 <h3>
@@ -2959,7 +2716,9 @@ Habitat<br/>Loss
 </h3>
 </td>
 <td>
-<a title="Food crop production have increased by 300% since 1970 with 23% of land areas seeing a reduction in productivity due to land degradation (IPBES GA)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></a>
+<span
+data-text="Food crop production have increased by 300% since 1970 with 23% of land areas seeing a reduction in productivity due to land degradation (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></span>
 </td>
 <td>
 <h3>

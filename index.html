@@ -311,360 +311,6 @@ $(document).ready(function () {
 </div>
 
 
-<style type="text/css">
-  .main-container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  @media (max-width:1200px) and (min-width:760px) {
-    #navbar > ul > li > a {
-       font-size: 0;
-       display:inline-block;
-    }
-    .fa { font-size: initial; }
-    
-    .plotly.html-widget {
-       max-width: 100%;
-       height: 200px;
-    }
-  }
-
-  .logo {
-    float: right;
-    margin: -50px 0 0 0;
-  }
-  .logo img {
-     margin: 5px;
-  }
-  
-  .cards {
-     width: 100%;
-     height: 100%;
-     margin: 0 auto;
-     display: inline-flex;
-     text-align: center;
-     justify-content: center;
-  }
-  .card {
-     width: 15%;
-     min-height: 220px;
-     display: inline-block;
-     font-size: 16px;
-     border: 1px rgba(128,181,51) solid;
-     margin: 0 5px;
-     border-radius: 30px;
-     overflow: hidden;
-  }
-  .card a:link, 
-  .card a:visited, 
-  .card a:hover, 
-  .card a:active {
-     color: inherit;
-     text-decoration: none;
-  }
-  .cardheader {
-     height: 15%;
-     background: rgba(128,181,51);
-     font-weight: bold;
-     color: white;
-     text-align: center;
-     border-radius: 30px 30px 0 0;
-     padding: 5px 0;
-  }
-  .cardheader a:link, 
-  .cardheader a:visited, 
-  .cardheader a:hover, 
-  .cardheader a:active {
-     color: #ffffff;
-     text-decoration: none;
-  }
-  
-  .card:hover {
-      border: 1px rgba(128,181,51,0.8) solid;
-      color: rgb(62, 63, 58, 0.8)
-  }
-  .card a:hover > .cardheader {
-      background: rgba(128,181,51,0.8)
-  }
-  .card a:hover > .cardbody img {
-      opacity: 0.8
-  }
-  
-  .cardbody {
-     padding: 2px 16px;
-     white-space: normal;
-  }
-  
-  .banner {
-     text-align: center;
-     margin: 5px;
-  }
-  .banner img {
-     width: 400px;
-     border-radius: 30px;
-     margin: 10px;
-  }
-  #ipbes_reports img, #media_chart img {
-     border: 1px solid #ccc;
-  }
-
-  .table_container {
-     width: 100%;
-  }
-  
-  #bottom_icons {
-     margin: 0 auto;
-  }
-  
-  #bottom_icons a, 
-  #bottom_icons a:active, 
-  #bottom_icons a:focus { 
-     outline: none;
-     text-align: center;
-  }
-  
-  #bottom_icons img {
-     padding: 10px;
-     width: 100px;
-  }
-  #bottom_icons img:hover {
-      opacity: 0.8
-  }
-  #bottom_icons h3 {
-     text-align: center;
-     font-size: 18px;
-  }
-  
-  .stick_image img {
-     float: left;
-     margin: 5px;
-     width: 100px;
-  }
-
-  .footer {
-     bottom: 0;
-     width: 100%;
-     height: 140px;
-     margin: 0 0 -40px 0;
-     color: #ffffff;
-     background-color: #808080;
-     border-color: #93c54b;
-     overflow-y: auto;
-  }
-
-  .footer_box {
-     width: 80%;
-     height: 100%;
-     margin: 0 auto;
-     display: flex;
-     justify-content: center;
-  }
-  .footer_column {
-     font: normal italic 14px Arial;
-     display: inline-block;
-     width: fit-content;
-     min-width: 15%;
-     padding: 25px 20px 20px 20px;
-  }
-  
-  #footer_label {
-     padding: 5px 0 0 0;
-     font: 16px Arial;
-  }
-  #footer_label a, 
-  #footer_label a:hover, 
-  #footer_label a:focus, 
-  #footer_label a:active {
-     color: #ffffff;
-  }
-  
-  @media screen and (min-width: 750px) and (pointer: coarse), 
-         screen and (min-width: 750px) and (hover: none)  {
-    #bottom_icons img {
-       z-index: -10;
-    }
-    
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    [title]:focus {
-      opacity: 0.7
-    }
-    
-    [title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 116%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    [title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 97%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
-  }
-  
-  @media screen and (max-width: 750px) {
-      img {
-         height: auto;
-      }
-      
-      .logo {
-         float: right;
-         margin: 0 0 0 0;
-      }
-      
-      .logo img {
-         clear: both;
-         text-align: right;
-         position: relative;
-         z-index: -1;
-         width: 40vw;
-      }
-      
-      .cards {
-          display: block;
-          width: 100%;
-          height: 100%;
-          margin: 0 auto;
-      }
-      .card { 
-          width: 50%;
-          height: 200px;
-          margin: 0 0 20px 0;
-      }
-      
-      #bottom_icons img:hover,
-      #bottom_icons img:active,
-      #bottom_icons img:focus {
-         opacity: 0.8
-      }
-      #bottom_icons tr {
-          display: block;
-          margin-bottom: .625em;
-      }
-      #bottom_icons td {
-          display: block;
-          text-align: center;
-      }
-      #bottom_icons h3 {
-          font-size: 2vh;
-      }
-      #bottom_icons td.img {
-          width: 150px;
-      }
-      #bottom_icons td::before {
-          float: left;
-          font-weight: bold;
-          text-transform: uppercase;
-      }
-      
-      .footer {
-         height: auto;
-         margin: 0 0 -40px 0;
-         min-height: 100% !important;
-      }
-      .footer_box {
-         display: block;
-         padding: 0 0 10px 0;
-      }
-      .footer_column {
-          width: 100%;
-          padding: 15px 0 0 20px;
-      }
-  }
-
-  @media screen and (max-width: 750px) and (pointer: coarse), 
-         screen and (max-width: 750px) and (hover: none) {
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      right: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      right: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-left: 14px solid black;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
-  }
-</style>
 <script type="text/javascript">
 $(function() {
   $('.main-container').after($('.footer'));
@@ -945,7 +591,7 @@ id="see-reports-that-includes-three-global-assessments-across-the-decades-1995-2
 <a href="reports.html"><strong>Reports</strong></a> that includes three
 global assessments across the decades (1995, 2005, and 2019) each with
 stark findings of rapid biodiversity loss due to human activities.</h4>
-<div id="ipbes_reports" class="banner">
+<div class="banner">
 <img src="images/ipbes_covers.png" alt="IPBES report covers"/>
 <p>
 Source: <a href="https://eco-scan.fr/useful-sites-2/"
@@ -1009,17 +655,16 @@ id="biodiversity-loss-would-not-be-hardly-known-if-it-is-so-important."><a href=
 loss would not be hardly known if it is so important.</a></h4>
 <div id="mis6" class="collapse">
 <h4
-id="biodiversity-coverage-in-the-media-has-been-a-challenge-for-decades-and-in-turn-causes-a-lack-of-awareness-among-the-general-public-and-especially-an-ever-growing-urbanized-public.-studies-iied-2008-and-legagneux-et-al.-2018-have-shown-the-under-reported-media-coverage-of-biodiversity-loss-especially-compared-to-climate-change.-as-an-unfortunate-result-only-experts-tend-to-know-about-this-planetary-crisis.">Biodiversity
+id="biodiversity-coverage-in-the-media-has-been-a-challenge-for-decades-and-in-turn-causes-a-lack-of-awareness-among-the-general-public.-studies-iied-2008-and-legagneux-et-al.-2018-have-discussed-the-under-reported-media-coverage-of-biodiversity-loss-compared-to-climate-change.-as-an-unfortunate-result-only-experts-tend-to-know-about-this-planetary-crisis.">Biodiversity
 coverage in the media has been a challenge for decades and in turn
-causes a lack of awareness among the general public and especially an
-ever growing urbanized public. Studies (<a
+causes a lack of awareness among the general public. Studies (<a
 href="https://www.jstor.org/stable/resrep01416#metadata_info_tab_contents"
 target="_blank">IIED (2008)</a> and <a
 href="https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full"
-target="_blank">Legagneux, et al. (2018)</a>) have shown the
-under-reported media coverage of biodiversity loss especially compared
-to climate change. As an unfortunate result, only experts tend to know
-about this planetary crisis.</h4>
+target="_blank">Legagneux, et al. (2018)</a>) have discussed the
+under-reported media coverage of biodiversity loss compared to climate
+change. As an unfortunate result, only experts tend to know about this
+planetary crisis.</h4>
 <h4
 id="even-sir-robert-watson-who-either-chaired-or-co-chaired-all-three-global-biodiversity-assessments-acknowledge-in-a-guardian-op-ed-how-much-biodiversity-has-been-ignored-despite-its-severity-and-critical-importance.">Even
 Sir Robert Watson, who either chaired or co-chaired all three global
@@ -1027,7 +672,7 @@ biodiversity assessments acknowledge in a <a
 href="https://www.theguardian.com/environment/2019/sep/19/biodiversity-touches-every-aspect-of-our-lives-so-why-has-its-loss-been-ignored"
 target="_blank">Guardian op-ed</a> how much biodiversity has been
 ignored despite its severity and critical importance.</h4>
-<div id="media_chart" class="banner">
+<div class="banner">
 <img src="images/climate_biodiversity_media.jpg" alt="Climate and Biodiversity Media Area Chart"/>
 <p>
 Source: <a
@@ -1047,7 +692,9 @@ target="_blank">Frontiers - Legagneux, et al. (2018) paper</a>
 <table id="bottom_icons">
 <tr>
 <td>
-<a title="Global forest area is now approximately 68% of the estimated pre-industrial level (IPBES GA)"  tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon" /></a>
+<span
+data-text="Global forest area is now approximately 68% of the estimated pre-industrial level (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></span>
 </td>
 <td>
 <h3>
@@ -1055,7 +702,9 @@ Logging
 </h3>
 </td>
 <td>
-<a title="African elephants have declined by 30-fold over the last century (from 12 million to ~400,000) with more than 100,000 elephants killed by poachers between 2010 and 2012 (IPBES 2020)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></a>
+<span
+data-text="African elephants have declined by 30-fold over the last century (from 12 million to ~400,000) with more than 100,000 elephants killed by poachers between 2010 and 2012 (IPBES 2020)"
+tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span>
 </td>
 <td>
 <h3>
@@ -1063,7 +712,9 @@ Poaching
 </h3>
 </td>
 <td>
-<a title="33% of marine fish stocks in 2015 have been harvested at unsustainable levels; 60% are maximally sustainably fished; 7% are underfished (IPBES GA)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></a>
+<span
+data-text="33% of marine fish stocks in 2015 have been harvested at unsustainable levels; 60% are maximally sustainably fished; 7% are underfished (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></span>
 </td>
 <td>
 <h3>
@@ -1071,7 +722,9 @@ Overfishing
 </h3>
 </td>
 <td>
-<a title="The extent of seagrass meadows have decreased over 10% per decade from 1970-2000 (IPBES GA)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon" /></a>
+<span
+data-text="The extent of seagrass meadows have decreased over 10% per decade from 1970-2000 (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon" /></span>
 </td>
 <td>
 <h3>
@@ -1079,7 +732,9 @@ Dredging
 </h3>
 </td>
 <td>
-<a title="Since 1980 greenhouse gas emissions have increased 100%, raising average global temperature by at least 0.7 degree (IPBES GA)" tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></a>
+<span
+data-text="Since 1980 greenhouse gas emissions have increased 100%, raising average global temperature by at least 0.7 degree (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></span>
 </td>
 <td>
 <h3>
@@ -1089,7 +744,9 @@ Emitting
 </tr>
 <tr>
 <td>
-<a title="Tentative estimate of +/-10% of insect species are threatened with extinction (IPBES GA)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></a>
+<span
+data-text="Tentative estimate of +/-10% of insect species are threatened with extinction (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></span>
 </td>
 <td>
 <h3>
@@ -1097,7 +754,9 @@ Spraying
 </h3>
 </td>
 <td>
-<a title="300-400 million tons of heavy metals, solvents, toxic sludge and other wastes from industrial facilities are dumped annually into the world’s waters (IPBES GA)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></a>
+<span
+data-text="300-400 million tons of heavy metals, solvents, toxic sludge and other wastes from industrial facilities are dumped annually into the world’s waters (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></span>
 </td>
 <td>
 <h3>
@@ -1105,7 +764,9 @@ Dumping
 </h3>
 </td>
 <td>
-<a title="85% of wetlands present in 1700 had been lost by 2000 where loss of wetlands is currently three times faster, in percentage terms, than forest loss (IPBES GA)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></a>
+<span
+data-text="85% of wetlands present in 1700 had been lost by 2000 where loss of wetlands is currently three times faster, in percentage terms, than forest loss (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></span>
 </td>
 <td>
 <h3>
@@ -1113,7 +774,9 @@ Draining
 </h3>
 </td>
 <td>
-<a title="Average abundance of native species in most major land-based habitats has fallen by at least 20%, mostly since 1900 (IPBES GA)" tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></a>
+<span
+data-text="Average abundance of native species in most major land-based habitats has fallen by at least 20%, mostly since 1900 (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></span>
 </td>
 <td>
 <h3>
@@ -1121,7 +784,9 @@ Encroaching
 </h3>
 </td>
 <td>
-<a title="Land degradation has reduced productivity in 23 per cent of the global terrestrial area (IPBES GA)" tabindex="0"/><img src="images/stick_figure_soil_green.png" alt="soil icon" /></a>
+<span
+data-text="Land degradation has reduced productivity in 23 per cent of the global terrestrial area (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon" /></span>
 </td>
 <td>
 <h3>

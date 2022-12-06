@@ -6,367 +6,23 @@ output:
   html_document:
     includes:
       in_header: "favicon.html" 
+      css: "style.css"
 ---
 
 ```{css, echo=FALSE}
-  .main-container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  @media (max-width:1200px) and (min-width:760px) {
-    #navbar > ul > li > a {
-       font-size: 0;
-       display:inline-block;
-    }
-    .fa { font-size: initial; }
-  }
-
   .logo {
-    text-align: right;
-    margin: -100px 0 0 0;
+     text-align: right;
+     margin: -100px 0 0 0;
   }
 
   .logo img {
-    margin: 5px;
-    width: 200px;
-  }
-  
-  .nav-pills {
-     font-size: 14px;
-  }
-  .tabset {
-     width: 80%;
-  }
-  
-  .logo_container {
-     width: 100%;
-     margin: 0 auto;
-     overflow-x: auto;
-  }
-  
-  .icons, .docs {
-     width: 750px;
-     margin: 0px auto;
-  }
-  
-  .icons img {
-     padding: 10px;
-     width: 150px;
-  }
-  .icons img:hover,
-  .icons img:active,
-  .icons img:focus {
-     opacity: 0.8
-  }
-  
-  .repo_page {
-     text-align: center;
-  }
-  .repo_page img {
-     height: 500px;
-  }
-  
-  .docs img {
-     padding: 10px;
-     height: 200px;
-  }
-  .docs img:hover,
-  .docs img:active,
-  .docs img:focus {
-     opacity: 0.8
-  }
-  .framecontainer {
-     position: relative;
-     margin: 0px auto;
-     width: 560px;
-     height: 315px;
-  } 
-  
-  .framecontainer iframe {
-     position: absolute;
-     overflow-x: auto;
-     border-radius: 20px;
-	   width: 100%;
-	   height: 100%;
-  }
-  
-  .table_container {
-     width: 100%;
-  }
-  
-  #bottom_icons {
-     margin: 0px auto;
-  }
-  
-  #bottom_icons a, 
-  #bottom_icons a:active, 
-  #bottom_icons a:focus { 
-     outline: none;
-     text-align: center;
-  }
-  
-  #bottom_icons img {
-     padding: 10px;
-     width: 100px;
-  }
-  #bottom_icons img:hover {
-      opacity: 0.8
-  }
-  #bottom_icons h3 {
-     font-size: 18px;
-     text-align: center;
-  }
-  
-  .footer {
-     bottom: 0;
-     width: 100%;
-     height: 100px;
-     margin: 0px 0px -60px 0px;
-     color: #ffffff;
-     background-color: #808080;
-     border-color: #93c54b;
-     overflow-y: auto;
+     margin: 5px;
+     width: 200px;
   }
 
-  .footer_box {
-     width: 80%;
-     height: 100%;
-     margin: 0 auto;
-     display: flex;
-     justify-content: center;
-  }
-  .footer_column {
-     font: normal italic 14px Arial;
-     display: inline-block;
-     width: fit-content;
-     min-width: 15%;
-     padding: 25px 20px 20px 20px;
-  }
-  
-  #footer_label {
-     padding: 5px 0 0 0;
-     font: 16px Arial;
-  }
-  #footer_label a, 
-  #footer_label a:hover, 
-  #footer_label a:focus, 
-  #footer_label a:active {
-     color: #ffffff;
-  }
-  
-  @media screen and (min-width: 750px) and (pointer: coarse), 
-         screen and (min-width: 750px) and (hover: none)  {
-    #bottom_icons img {
-       z-index: -10;
-    }
-    
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    [title]:focus {
-      opacity: 0.7
-    }
-    
-    [title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    [title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 95%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
-  }
-  
-  @media screen and (max-width: 750px) {
-      .logo img {
-         clear: both;
-         text-align: right;
-         position: relative;
-         z-index: -1;
-         width: 40vw;
-      }
-      
-      img {
-        height: auto
-      }
-      
-      .icons, .docs {
-          width: 200px;
-      }
-      .icons tr {
-          display: block;
-          margin-bottom: .625em;
-      }
-      .icons td {
-          display: block;
-          font-size: .8em;
-          text-align: right;
-      }
-      .icons h3 {
-          font-size: 2vh;
-      }
-      .icons img {
-          width: 150px;
-      }
-      .icons td::before {
-          float: left;
-          font-weight: bold;
-          text-transform: uppercase;
-      }
-      
-      .docs tr {
-          display: block;
-          margin-bottom: .625em;
-      }
-      .docs td {
-          display: block;
-          font-size: .8em;
-          text-align: right;
-      }
-      .docs h3 {
-          font-size: 2vh;
-      }
-      .docs img {
-          width: 150px;
-      }
-      .docs td::before {
-          float: left;
-          font-weight: bold;
-          text-transform: uppercase;
-      }
-      
-      #bottom_icons img:hover,
-      #bottom_icons img:active,
-      #bottom_icons img:focus {
-         opacity: 0.8
-      }
-      #bottom_icons tr {
-          display: block;
-          margin-bottom: .625em;
-      }
-      #bottom_icons td {
-          display: block;
-          text-align: center;
-      }
-      #bottom_icons h3 {
-          font-size: 2vh;
-      }
-      #bottom_icons td.img {
-          width: 150px;
-      }
-      #bottom_icons td::before {
-          float: left;
-          font-weight: bold;
-          text-transform: uppercase;
-      }
-      
-      .footer {
-         height: auto;
-         margin: 0 0 -40px 0;
-         min-height: 100% !important;
-      }
-      .footer_box {
-         display: block;
-         padding: 0 0 10px 0;
-      }
-      .footer_column {
-          width: 100%;
-          padding: 15px 0 0 20px;
-      }
-  }
-  
-  @media screen and (max-width: 750px) and (pointer: coarse), 
-         screen and (max-width: 750px) and (hover: none) {
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      right: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      right: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-left: 14px solid black;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
+  .footer {
+     height: 100px;
+     margin: 0px 0px -60px 0px;
   }
 ```
 
@@ -736,27 +392,27 @@ RMarkdown site created by ParfaitG with source code.
 <div class="table_container">
 <table id="bottom_icons">
    <tr>
-      <td><a title="Reforestation or restoration of degraded forests and woodlands with indigenous species plays a role in addressing losses of biodiversity and ecosystem services, including through recovering the soil carbon stocks of these ecosystems (IPBES-IPCC)" tabindex="0"><img class="img" src="images/stick_figure_tree_green.png" alt="tree icon"/></a></td>
+      <td><span data-text="Reforestation or restoration of degraded forests and woodlands with indigenous species plays a role in addressing losses of biodiversity and ecosystem services, including through recovering the soil carbon stocks of these ecosystems (IPBES-IPCC)" tabindex="0"><img class="img" src="images/stick_figure_tree_green.png" alt="tree icon"/></span></td>
       <td><h3>Reforestation</h3></td>
-      <td><a title="Some recent analysis have discussed the impact of rewilding on ecosystem carbon cycling and hence climate change mitigation, given the effects animals and trophic cascades have on biomass consumption, carbon turnover, or methane emissions (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></a></td>
+      <td><span data-text="Some recent analysis have discussed the impact of rewilding on ecosystem carbon cycling and hence climate change mitigation, given the effects animals and trophic cascades have on biomass consumption, carbon turnover, or methane emissions (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span></td>
       <td><h3>Rewilding</h3></td>
-      <td><a title="Fisheries management currently does not take into account the potential role of exploited species in the carbon cycle and in biogeochemical processes, nor does it consider the potential for carbon release from sediment disturbance (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></td>
-      <td><h3>Sustainable<br/>Fishing</h3></a></td>
-      <td><a title="While cities have generally low levels of biodiversity, many efforts are undertaken to green cities with multiple co-benefits for human well-being, with the potential to connect to surrounding natural or managed areas, and contribute to both biodiversity conservation and climate change mitigation regionally, as is the case in coastal cities for example (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></a></td>
+      <td><span data-text="Fisheries management currently does not take into account the potential role of exploited species in the carbon cycle and in biogeochemical processes, nor does it consider the potential for carbon release from sediment disturbance (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></span></td>
+      <td><h3>Sustainable<br/>Fishing</h3></td>
+      <td><span data-text="Many efforts are undertaken to green cities with multiple co-benefits for human well-being, with the potential to connect to surrounding natural or managed areas, and contribute to both biodiversity conservation and climate change mitigation regionally (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></span></td>
       <td><h3>Spatial<br/>Planning</h3></td>
-      <td><a title="Eliminating subsidies that support local and national activities harmful to biodiversity can also add up to support climate change mitigation, e.g., halting deforestation, overfertilization or overfishing (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></a></td>
+      <td><span data-text="Eliminating subsidies that support local and national activities harmful to biodiversity can also add up to support climate change mitigation, e.g., halting deforestation, overfertilization or overfishing (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></span></td>
       <td><h3>Eliminate<br/>Subsidies</h3></td>
    </tr>
    <tr>
-      <td><a title="Actions like reducing pollution, making sure that exploitation is at levels that allow for resistance and resilience and managing invasive alien species can make substantial contributions to adaptive capacity of species and ecosystems (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></a></td>
+      <td><span data-text="Managing invasive alien species can make substantial contributions to adaptive capacity of species and ecosystems (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></span></td>
       <td><h3>Reduce Invasive<br/>Alien Species</h3></td>
-      <td><a title="The situation in the high-seas and areas beyond national jurisdiction (ABNJ) require Regional fisheries management organizations (RFMO) to promote solutions to ocean pollution that amplifies climate change impacts as part of the Ecosystem Approach to Fisheries implementation. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></a></td>
+      <td><span data-text="Regional fisheries management organizations [can] promote solutions to ocean pollution that amplifies climate change impacts as part of the ecosystem approach (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></span></td>
       <td><h3>Reduced<br/>Pollution</h3></td>
-      <td><a title="Because biodiversity conservation in protected areas alone is insufficient to successfully safeguard biodiversity (and as shown earlier to contribute to climate change mitigation), biodiversity mainstreaming (i.e., making it a consideration in all sectors, rather than just in its own domain) is now accorded high priority in the CBD. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></a></td> 
+      <td><span data-text="Biodiversity mainstreaming (i.e., making it a consideration in all sectors, rather than just in its own domain) is now accorded high priority in the CBD. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></span></td> 
       <td><h3><i><strong>Mainstreaming<br/>Biodiversity</strong></i></h3></td>
-      <td><a title="Ecosystem restoration provides opportunities for co-benefits for climate change mitigation and biodiversity conservation, which are maximized if restoration occurs in priority areas for both goals (IPBES-IPCC)." tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></a></td>
+      <td><span data-text="Ecosystem restoration provides opportunities for co-benefits for climate change mitigation and biodiversity conservation (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></span></td>
       <td><h3>Ecosystem<br/>Restoration<br/></h3></td>
-      <td><a title="The contribution of conventional agriculture to biodiversity loss can be addressed through alternative agricultural systems, including sustainable intensification and complete redesign of farm management systems (e.g., ecological intensification and climate-smart agriculture) (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></a></td>
+      <td><span data-text="The contribution of conventional agriculture to biodiversity loss can be addressed through alternative agricultural systems (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></span></td>
       <td><h3>Regenerative<br/>Agriculture</h3></td>
    </tr>
 </table>

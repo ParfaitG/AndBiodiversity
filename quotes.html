@@ -311,20 +311,6 @@ $(document).ready(function () {
 
 
 <style type="text/css">
-  .main-container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  @media (max-width:1200px) and (min-width:760px) {
-    #navbar > ul > li > a {
-       font-size: 0;
-       display:inline-block;
-    }
-    .fa { font-size: initial; }
-  }
-  
   .logo {
     text-align: right;
     margin: -100px 0 0 0;
@@ -335,308 +321,8 @@ $(document).ready(function () {
     width: 200px;
   }
 
-  input {
-      position: absolute;
-      opacity: 0;
-      z-index: -1;
-  }
-  .accordion-wrapper {
-      border-radius: 8px;
-      overflow: hidden;
-      width: 80%;
-      margin: 0 auto;
-  }
-  .accordion {
-      width: 100%;
-      color: white;
-      overflow: hidden;
-      margin-bottom: 16px;
-  }
-  .accordion-content:hover, 
-  .accordion-content:focus, 
-  .accordion-content:active {
-      overflow-y: auto;
-  }
-  .accordion img {
-      display: block;
-      margin: 20px auto;
-  }
-  .accordion-label {
-      border-radius: 8px;
-      display: flex;
-      -webkit-box-pack: justify;
-      justify-content: space-between;
-      padding: 16px;
-      background: rgba(128,181,51,.8);
-      font-weight: bold;
-      cursor: pointer;
-      font-size: 20px;
-  }
-  .accordion-label:hover {
-      background: rgba(128,181,51,1);
-  }
-  .accordion-label::after {
-      content: "\276F";
-      width: 16px;
-      height: 16px;
-      text-align: center;
-      -webkit-transition: all 0.3s;
-      transition: all 0.3s;
-  }
-  .accordion-content {
-      max-height: 0;
-      padding: 0 16px;
-      color: black;
-      background: white;
-      -webkit-transition: all 0.3s;
-      transition: all 0.3s;
-  }
-  .accordion-content p{
-      margin: 0;
-      font-size: 18px;
-  }
-  input:checked + .accordion-label {
-      background: rgba(128,181,51,1);
-  }
-  input:checked + .accordion-label::after {
-      -webkit-transform: rotate(90deg);
-      transform: rotate(90deg);
-  }
-  input:checked ~ .accordion-content {
-      max-height: 100vh;
-      padding: 16px;
-  }
-
-  .table_container {
-     width: 100%;
-  }
-  
-  #bottom_icons {
-     margin: 0px auto;
-  }
-  
-  #bottom_icons a, 
-  #bottom_icons a:active, 
-  #bottom_icons a:focus { 
-     outline: none;
-     text-align: center;
-  }
-  
-  #bottom_icons img {
-     padding: 5px;
-     width: 100px;
-  }
-  #bottom_icons img:hover {
-      opacity: 0.8
-  }
-  #bottom_icons h3 {
-     font-size: 18px;
-     text-align: center;
-  }
-  
   .footer {
-     bottom: 0;
-     width: 100%;
      height: 150px;
-     margin: 0px 0px -40px 0px;
-     color: #ffffff;
-     background-color: #808080;
-     border-color: #93c54b;
-     overflow-y: auto;
-  }
-
-  .footer_box {
-     width: 80%;
-     height: 100%;
-     margin: 0 auto;
-     display: flex;
-     justify-content: center;
-  }
-  .footer_column {
-     font: normal italic 14px Arial;
-     display: inline-block;
-     width: fit-content;
-     min-width: 15%;
-     padding: 25px 20px 20px 20px;
-  }
-  
-  #footer_label {
-     padding: 5px 0 0 0;
-     font: 16px Arial;
-  }
-  #footer_label a, 
-  #footer_label a:hover, 
-  #footer_label a:focus, 
-  #footer_label a:active {
-     color: #ffffff;
-  }
-  
-  @media screen and (min-width: 750px) and (pointer: coarse), 
-         screen and (min-width: 750px) and (hover: none)  {
-    #bottom_icons img {
-       z-index: -10;
-    }
-    
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    [title]:focus {
-      opacity: 0.7
-    }
-    
-    [title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    [title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 95%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
-  }
-  
-  @media screen and (max-width: 750px) {
-      img {
-         height: auto;
-      }
-      
-      .logo img {
-         clear: both;
-         text-align: right;
-         position: relative;
-         z-index: -1;
-         width: 40vw;
-      }
-      
-      #bottom_icons img:hover,
-      #bottom_icons img:active,
-      #bottom_icons img:focus {
-         opacity: 0.8
-      }
-      #bottom_icons tr {
-          display: block;
-          margin-bottom: .625em;
-      }
-      #bottom_icons td {
-          display: block;
-          text-align: center;
-      }
-      #bottom_icons h3 {
-          font-size: 2vh;
-      }
-      #bottom_icons td.img {
-          width: 150px;
-      }
-      #bottom_icons td::before {
-          float: left;
-          font-weight: bold;
-          text-transform: uppercase;
-      }
-      
-      .footer {
-         height: auto;
-         margin: 0 0 -40px 0;
-         min-height: 100% !important;
-      }
-      .footer_box {
-         display: block;
-         padding: 0 0 10px 0;
-      }
-      .footer_column {
-          width: 100%;
-          padding: 15px 0 0 20px;
-      }
-  }
-  
-  @media screen and (max-width: 750px) and (pointer: coarse), 
-         screen and (max-width: 750px) and (hover: none) {
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      right: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      right: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-left: 14px solid black;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
   }
 </style>
 <script type="text/javascript">
@@ -1797,7 +1483,9 @@ people:</h4>
 <table id="bottom_icons">
 <tr>
 <td>
-<a title="Marine and terrestrial ecosystems are the sole sinks for anthropogenic carbon emissions, with a gross sequestration of 5.6 gigatons of carbon per year (the equivalent of some 60 per cent of global anthropogenic emissions). (IPBES GA)" tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></a>
+<span
+data-text="Marine and terrestrial ecosystems are the sole sinks for anthropogenic carbon emissions, with a gross sequestration of 5.6 gigatons of carbon per year (the equivalent of some 60 per cent of global anthropogenic emissions). (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></span>
 </td>
 <td>
 <h3>
@@ -1805,7 +1493,9 @@ Carbon<br/>Sequestration
 </h3>
 </td>
 <td>
-<a title="The great expansion in the production of food, feed, fibre and bioenergy has occurred at the cost of many other contributions of nature to quality of life, including regulation of air and water quality, climate regulation and habitat provision. (IPBES GA)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></a>
+<span
+data-text="The great expansion in the production of food, feed, fibre and bioenergy has occurred at the cost of many other contributions of nature to quality of life, including regulation of air and water quality, climate regulation and habitat provision. (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span>
 </td>
 <td>
 <h3>
@@ -1813,7 +1503,9 @@ Habitat<br/>Maintenance
 </h3>
 </td>
 <td>
-<a title="Ecosystem restoration also provides multiple nature´s contribution to people, such as the regulation of water quality, regulation of the hydrological cycle, decrease the frequency and severity of floods and droughts and pollination services (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></a>
+<span
+data-text="Ecosystem restoration also provides multiple nature´s contribution to people, such as the regulation of water quality, regulation of the hydrological cycle, decrease the frequency and severity of floods and droughts and pollination services (IPBES-IPCC)"
+tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></span>
 </td>
 <td>
 <h3>
@@ -1821,7 +1513,9 @@ Water Quality<br/>Regulation
 </h3>
 </td>
 <td>
-<a title="Loss of coastal habitats and coral reefs reduces coastal protection, which increases the risk from floods and hurricanes to life and property for the 100 million to 300 million people living within coastal 100-year flood zones. (IPBES GA)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></a>
+<span
+data-text="Loss of coastal habitats and coral reefs reduces coastal protection, which increases the risk from floods and hurricanes to life and property for the 100 million to 300 million people living within coastal 100-year flood zones. (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></span>
 </td>
 <td>
 <h3>
@@ -1829,7 +1523,9 @@ Hazard<br/>Regulation
 </h3>
 </td>
 <td>
-<a title="Climate extremes disrupt food production and water supply, damage crops, infrastructure and transport networks, and reduce air quality with consequences for human health and good quality of life. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></a>
+<span
+data-text="Climate extremes disrupt food production and water supply, damage crops, infrastructure and transport networks, and reduce air quality with consequences for human health and good quality of life. (IPBES-IPCC)"
+tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></span>
 </td>
 <td>
 <h3>
@@ -1839,7 +1535,9 @@ Air<br/>Quality
 </tr>
 <tr>
 <td>
-<a title="Over 75% of global food crop types rely on animal pollination (IPBES GA)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></a>
+<span
+data-text="Over 75% of global food crop types rely on animal pollination (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></span>
 </td>
 <td>
 <h3>
@@ -1847,7 +1545,9 @@ Plant<br/>Pollination
 </h3>
 </td>
 <td>
-<a title="The capacity to sequester carbon by marine and terrestrial environments serves as a selected indicator for regulation of ocean acidification (IPBES GA)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></a>
+<span
+data-text="The capacity to sequester carbon by marine and terrestrial environments serves as a selected indicator for regulation of ocean acidification (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></span>
 </td>
 <td>
 <h3>
@@ -1855,8 +1555,10 @@ Ocean Acidification<br/>Regulation
 </h3>
 </td>
 <td>
-<a title="Protection and restoration of wetlands, peatlands and coastal habitats reduces net
-carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></a>
+<span
+data-text="Protection and restoration of wetlands, peatlands and coastal habitats reduces net
+carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 (IPBES-IPCC)"
+tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></span>
 </td>
 <td>
 <h3>
@@ -1864,7 +1566,9 @@ Climate<br/>Regulation
 </h3>
 </td>
 <td>
-<a title="Decline and disappearance of large herbivores and predators has dramatically affected the structure, fire regimes, seed dispersal, land surface albedo and nutrient availability within many ecosystems (IPBES GA)" tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></a>
+<span
+data-text="Decline and disappearance of large herbivores and predators has dramatically affected the structure, fire regimes, seed dispersal, land surface albedo and nutrient availability within many ecosystems (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></span>
 </td>
 <td>
 <h3>
@@ -1872,7 +1576,9 @@ Seed<br/>Dispersal
 </h3>
 </td>
 <td>
-<a title="Nature, through its ecological and evolutionary processes, sustains the quality of the air, fresh water and soils on which humanity depends (IPBES GA)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></a>
+<span
+data-text="Nature, through its ecological and evolutionary processes, sustains the quality of the air, fresh water and soils on which humanity depends (IPBES GA)"
+tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></span>
 </td>
 <td>
 <h3>

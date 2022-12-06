@@ -6,23 +6,10 @@ output:
   html_document:
     includes:
       in_header: "favicon.html" 
+      css: "style.css"
 ---
 
 ```{css, echo=FALSE}
-  .main-container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  @media (max-width:1200px) and (min-width:760px) {
-    #navbar > ul > li > a {
-       font-size: 0;
-       display:inline-block;
-    }
-    .fa { font-size: initial; }
-  }
-
   .logo {
     text-align: right;
     margin: -100px 0 0 0;
@@ -32,310 +19,9 @@ output:
     margin: 5px;
     width: 200px;
   }
-  .qheader {
-    font: bold 18px Arial;
-    text-align: center;
-  }
-  input {
-      position: absolute;
-      opacity: 0;
-      z-index: -1;
-  }
-  .accordion-wrapper {
-      border-radius: 8px;
-      overflow: hidden;
-      width: 80%;
-      margin: 0 auto;
-  }
-  .accordion {
-      width: 100%;
-      color: white;
-      overflow: hidden;
-      margin-bottom: 16px;
-  }
-  .accordion img {
-      display: block;
-      margin: 20px auto;
-  }
-  .accordion-label {
-      border-radius: 8px;
-      display: flex;
-      -webkit-box-pack: justify;
-      justify-content: space-between;
-      padding: 16px;
-      background: rgba(128,181,51,.8);
-      font-weight: bold;
-      cursor: pointer;
-      font-size: 20px;
-  }
-  .accordion-label:hover {
-      background: rgba(128,181,51,1);
-  }
-  .accordion-label::after {
-      content: "\276F";
-      width: 16px;
-      height: 16px;
-      text-align: center;
-      -webkit-transition: all 0.3s;
-      transition: all 0.3s;
-  }
-  .accordion-content {
-      max-height: 0;
-      padding: 0 16px;
-      color: black;
-      background: white;
-      -webkit-transition: all 0.3s;
-      transition: all 0.3s;
-  }
-  .accordion-content p{
-      margin: 0;
-      font-size: 18px;
-  }
-  .accordion-content li {
-      font-size: 18px;
-  }
-  input:checked + .accordion-label {
-      background: rgba(128,181,51,1);
-  }
-  input:checked + .accordion-label::after {
-      -webkit-transform: rotate(90deg);
-      transform: rotate(90deg);
-  }
-  input:checked ~ .accordion-content {
-      max-height: 100vh;
-      padding: 16px;
-  }
-  
-  .table_container {
-     width: 100%;
-  }
-  
-  #bottom_icons {
-     margin: 0px auto;
-  }
-  
-  #bottom_icons a, 
-  #bottom_icons a:active, 
-  #bottom_icons a:focus { 
-     outline: none;
-     text-align: center;
-  }
-  
-  #bottom_icons img {
-     padding: 10px;
-     width: 100px;
-  }
-  #bottom_icons img:hover {
-      opacity: 0.8
-  }
-  #bottom_icons h3 {
-     font-size: 18px;
-     text-align: center;
-  }
-  
-  .footer {
-     bottom: 0;
-     width: 100%;
-     height: 140px;
-     margin: 0px 0px -40px 0px;
-     color: #ffffff;
-     background-color: #808080;
-     border-color: #93c54b;
-     overflow-y: auto;
-  }
 
-  .footer_box {
-     width: 80%;
-     height: 100%;
-     margin: 0 auto;
-     display: flex;
-     justify-content: center;
-  }
-  .footer_column {
-     font: normal italic 14px Arial;
-     display: inline-block;
-     width: fit-content;
-     min-width: 15%;
-     padding: 25px 20px 20px 20px;
-  }
-  
-  #footer_label {
-     padding: 5px 0 0 0;
-     font: 16px Arial;
-  }
-  #footer_label a, 
-  #footer_label a:hover, 
-  #footer_label a:focus, 
-  #footer_label a:active {
-     color: #ffffff;
-  }
-  
-  @media screen and (min-width: 750px) and (pointer: coarse), 
-         screen and (min-width: 750px) and (hover: none)  {
-    #bottom_icons img {
-       z-index: -10;
-    }
-    
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    [title]:focus {
-      opacity: 0.7
-    }
-    
-    [title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    [title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 95%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
-  }
-  
-  @media screen and (max-width: 750px) {
-      img {
-         height: auto;
-      }
-      
-      .logo img {
-         clear: both;
-         text-align: right;
-         position: relative;
-         z-index: -1;
-         width: 40vw;
-      }
-      
-      #bottom_icons img:hover,
-      #bottom_icons img:active,
-      #bottom_icons img:focus {
-         opacity: 0.8
-      }
-      #bottom_icons tr {
-          display: block;
-          margin-bottom: .625em;
-      }
-      #bottom_icons td {
-          display: block;
-          text-align: center;
-      }
-      #bottom_icons h3 {
-          font-size: 2vh;
-      }
-      #bottom_icons td.img {
-          width: 150px;
-      }
-      #bottom_icons td::before {
-          float: left;
-          font-weight: bold;
-          text-transform: uppercase;
-      }
-      
-      .footer {
-         height: auto;
-         margin: 0 0 -40px 0;
-         min-height: 100% !important;
-      }
-      .footer_box {
-         display: block;
-         padding: 0 0 10px 0;
-      }
-      .footer_column {
-          width: 100%;
-          padding: 15px 0 0 20px;
-      }
-  }
-  
-  @media screen and (max-width: 750px) and (pointer: coarse), 
-         screen and (max-width: 750px) and (hover: none) {
-    [title] {
-      position: relative;
-      display: inline-flex;
-      justify-content: center;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      right: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n+1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      right: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-left: 14px solid black;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus {
-      opacity: 0.7
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::after {
-      content: attr(title);
-      position: absolute;
-      top: 10%;
-      left: 120%;
-      color: #fff;
-      background-color: black;
-      border-radius: 10px;
-      width: 80px;
-      padding: 3px;
-      font-size: 10px;
-      z-index: 1;
-    }
-    
-    td:nth-child(4n-1) a[title]:focus::before {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 0;
-      top: 25%;
-      left: 106%;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 14px solid black;
-      z-index: 1;
-    }
+  .footer {
+     height: 140px;
   }
 ```
 
@@ -593,27 +279,27 @@ $(function() {
 <div class="table_container">
 <table id="bottom_icons">
    <tr>
-      <td><a title="Measures such as the diversification of planted crop and forest species, agroforestry and agroecology enhance biodiversity and nature’s contributions to people in landscapes focused on the production of food, feed, fibre, or energy (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></a></td>
+      <td><span data-text="Measures such as the diversification of planted crop and forest species, agroforestry and agroecology enhance biodiversity and nature’s contributions to people in landscapes focused on the production of food, feed, fibre, or energy (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></span></td>
       <td><h3>Agroforestry</h3></td>
-      <td><a title="The 'scape approach integrates functionally intact biodiversity with provisioning of material, non-material and regulatory benefits, from local to larger scales, linking 'sharing' and 'sparing' concepts. It includes networks of protected areas and corridors, 'working' or 'managed' 'scapes modified for human use, and profoundly transformed ecosystems, such as urban and intensively farmed areas (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></td>
-      <td><h3>Wildlife<br/>Corridor</h3></a></td>
-      <td><a title="Reducing overfishing and bycatch, as well as focusing new aquaculture activities on low trophic level species (e.g., plankton feeders such as bivalve molluscs) and broadening the range of species cultivated could both increase global seafood production and reduce impact to the environment and biodiversity (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></a></td>
+      <td><span data-text="The 'scape approach includes networks of protected areas and corridors, 'working' or 'managed' 'scapes modified for human use, and profoundly transformed ecosystems, such as urban and intensively farmed areas (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span></td>
+      <td><h3>Wildlife<br/>Corridor</h3></td>
+      <td><span data-text="Reducing overfishing and bycatch, as well as focusing new aquaculture activities on low trophic level species and broadening the range of species cultivated could both increase global seafood production and reduce impact to the environment and biodiversity (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></span></td>
       <td><h3>Aquaculture</h3></td>
-      <td><a title="Nature-based solutions for coastal flood protection, such as using natural coastal habitats (vegetation or coral reefs) to provide protection from flooding during storm events, increasingly likely due to sea-level rise, is frequently preferred to engineered defences (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></a></td>
+      <td><span data-text="Nature-based solutions for coastal flood protection, such as using natural coastal habitats (vegetation or coral reefs) to provide protection from flooding during storm events (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></span></td>
       <td><h3>Coastal<br/>Restoration</h3></td>
-      <td><a title="Reducing greenhouse gas (GHGs) emissions through the development of renewable energies in the transport and energy sector are important options for mitigating climate change with the co-benefit of reducing pollutants that have deleterious effects on human health and the environment (IPBES-IPCC)." tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></a></td>
+      <td><span data-text="Reducing greenhouse gas (GHGs) emissions through the development of renewable energies in the transport and energy sector are important options for mitigating climate change (IPBES-IPCC)." tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></span></td>
       <td><h3>Decarbonization</h3></td>
    </tr>
    <tr>
-      <td><a title="Irrigated rice agriculture has evolved over centuries and led to a well-balanced food web in paddies with an insect diversity even higher than in many (pristine) temperate forests. This diversity reduces the risk of pest outbreaks and stabilizes yield. Pesticides normally rather cause pest problems than solving them. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></a></td>
+      <td><span data-text="Irrigated rice agriculture has evolved over centuries and led to a well-balanced food web in paddies with an insect diversity even higher than in many (pristine) temperate forests. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></span></td>
       <td><h3>Pest<br/>Control</h3></td>
-      <td><a title="Local management (e.g., integrated coastal zone management and marine protected areas) can play an important role to improve ocean health. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></a></td>
+      <td><span data-text="Local management (e.g., integrated coastal zone management and marine protected areas) can play an important role to improve ocean health. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></span></td>
       <td><h3>Local<br/>Management</h3></td>
-      <td><a title="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 removal (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></a></td> 
+      <td><span data-text="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></span></td> 
       <td><h3>Wetland<br/>Restoration</h3></td>
-      <td><a title="Trophic rewilding, the reintroduction of herbivores and carnivores to systems where they have been lost, is foremost discussed as a measure to enhance biodiversity and can also contribute to ecosystem restoration (IPBES-IPCC)." tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></td>
-      <td><h3>Trophic<br/>Rewilding</h3></a></td>
-      <td><a title="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms, and participates in making soils more resistant and resilient in the face of climate change. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></a></td>
+      <td><span data-text="Trophic rewilding, is a measure to enhance biodiversity and can also contribute to ecosystem restoration (IPBES-IPCC)." tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></td>
+      <td><h3>Trophic<br/>Rewilding</h3></span></td>
+      <td><span data-text="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></span></td>
       <td><h3>Agroecology</h3></td>
    </tr>
 </table>
