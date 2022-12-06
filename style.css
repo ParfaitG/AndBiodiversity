@@ -75,8 +75,8 @@
   }
   
   .card:hover {
-      border: 1px rgba(128,181,51,0.8) solid;
-      color: rgb(62, 63, 58, 0.8)
+      border: 1px rgba(128,181,51,0.5) solid;
+      color: rgb(62, 63, 58, 0.5)
   }
   .card a:hover > .cardheader {
       background: rgba(128,181,51,0.8)
@@ -295,11 +295,11 @@
   }
   
   [data-text]:hover::after {
+    position: absolute;
     content: attr(data-text);
     text-transform: none;
     text-align: center;
     line-height: normal;
-    position: absolute;
     top: -10%;
     left: 106%;
     color: #fff;
@@ -384,11 +384,11 @@
     }
     
     [data-text]:focus::after {
+      position: absolute;
       content: attr(data-text);
       text-transform: none;
       text-align: center;
       line-height: normal;
-      position: absolute;
       top: -10%;
       left: 116%;
       color: #fff;
@@ -497,20 +497,19 @@
     }
     
     td:nth-child(4n+1) span[data-text]:focus::after {
+      position: absolute;
       content: attr(data-text);
       text-transform: none;
       text-align: center;
       line-height: normal;
-      position: absolute;
       top: 10%;
-      right: 120%;
+      left: -100%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
       width: 80px;
       padding: 3px;
       font-size: 10px;
-      z-index: 10;
     }
     
     td:nth-child(4n+1) span[data-text]:focus::before {
@@ -519,11 +518,11 @@
       width: 0;
       height: 0;
       top: 25%;
-      right: 106%;
+      left: -21%;
       border-top: 12px solid transparent;
       border-bottom: 12px solid transparent;
+      border-right: 12px solid transparent;
       border-left: 14px solid black;
-      z-index: 10;
     }
     
     td:nth-child(4n-1) span[data-text]:focus {
@@ -531,11 +530,11 @@
     }
     
     td:nth-child(4n-1) span[data-text]:focus::after {
+      position: absolute;
       content: attr(data-text);
       text-transform: none;
       text-align: center;
       line-height: normal;
-      position: absolute;
       top: 10%;
       left: 120%;
       color: #fff;
@@ -544,7 +543,6 @@
       width: 80px;
       padding: 3px;
       font-size: 10px;
-      z-index: 10;
     }
     
     td:nth-child(4n-1) span[data-text]:focus::before {
@@ -553,10 +551,9 @@
       width: 0;
       height: 0;
       top: 25%;
-      left: 106%;
+      left: 107%;
       border-top: 12px solid transparent;
       border-bottom: 12px solid transparent;
       border-right: 14px solid black;
-      z-index: 10;
     }
   }
