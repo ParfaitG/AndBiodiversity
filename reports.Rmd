@@ -695,6 +695,19 @@ $(function() {
   
   </div>
 
+- #### <a href="####" data-toggle="collapse" data-target="#jrc2016">JRC: Global Diversity Atlas</a> 
+
+  <div id="jrc2016" class="collapse">  
+
+  <a href="https://esdac.jrc.ec.europa.eu/content/global-soil-biodiversity-atlas#tabs-0-description=0" target="_blank">
+    <img src="images/report_jrc2016.png" alt="JRC 2016 report cover"/>
+  </a>
+
+  #### The Atlas describes soil as habitat for the diversity of organisms that live under our feet. At the same time, it draws attention to the threats to soil ***biodiversity***, such as invasive species, pollution, intensive land use practices or climate change. The Atlas provides current solutions for a sustainable management of soils. It was coordinated by the JRC and the Global Soil Biodiversity Initiative (www.globalsoilbiodiversity.org) with more than 70 contributing organisations and several hundred individual contributions. It illustrates the diversity of soil organisms, explains their geographical and temporal distribution, the ecosystem functions and services provided by soil biota. Most importantly, it draws attention to the myriad of threats to soil ***biodiversity***. These include inappropriate land management practices (e.g. deforestation, land take for infrastructure development), agricultural systems, over-grazing, forest fires and poor water management (both irrigation and drainage). Other practices such as land conversion from grassland or forest to cropped land result in rapid loss of soil carbon, which indirectly enhances global warming. [***See* report.**](https://esdac.jrc.ec.europa.eu/content/global-soil-biodiversity-atlas#tabs-0-description=0){target="_blank"}
+
+  <br/>
+  
+  </div>
 
 - #### <a href="####" data-toggle="collapse" data-target="#wwf2016">World Wildlife Fund: Living Planet Report</a> 
 
@@ -963,6 +976,19 @@ $(function() {
   
   </div>
   
+- #### <a href="####" data-toggle="collapse" data-target="#jrc2010">European Atlas of Soil Biodiversity</a> 
+
+  <div id="jrc2010" class="collapse">  
+
+  <a href="https://esdac.jrc.ec.europa.eu/content/atlas-soil-biodiversity" target="_blank">
+    <img src="images/report_jrc2010.png" alt="JRC 2010 report cover"/>
+  </a>
+
+  #### ***Biodiversity loss*** and climate change are two of the most pressing challenges of or time. Soil ***biodiversity*** is part of the solution to both. The main goal of the atlas is to inform the general public, policy makers, land managers, teachers and the general scientific community of the unique characteristics of life in soil and raise awareness of its environmental importance and global significance. Soil contains at least one quarter to one third of all living organisms on the planet yet only around 1% of soil microorganisms have been identified compared to 80% of plants. Most terrestrial ecosystem processes that sustain life on the planet (e.g. soil fertility, nutrient cycles, greenhouse gas fluxes, pollution control, antibiotics, etc.) are in fact all driven by soil biology. However, life within the soil is complex to observe (i.e. small scale and mostly hidden away) and suffers greatly by being ‘out of sight and out of mind’. However, as identified in the EU Thematic Strategy for Soil Protection, land degradation and associated pressures are threatening soil ***biodiversity*** and, hence, the ability of the soil to perform its basic ecosystem functions and services. In addition, taking steps to protect soil ***biodiversity*** may be doubly useful as efforts to protect soil communities are very likely to help above ground habitats. [***See* report.**](https://esdac.jrc.ec.europa.eu/content/atlas-soil-biodiversity){target="_blank"}
+
+  <br/>
+  
+  </div>
   
 <br/>
 <br/>
@@ -1151,6 +1177,19 @@ $(function() {
   
   </div>
   
+- #### <a href="###" data-toggle="collapse" data-target="#wcmcatlast2000">WCMC: World Atlas of Biodiversity: Earth's Living resources in the 21st century</a> 
+
+  <div id="wcmcatlast2000" class="collapse">  
+
+  <a href="https://archive.org/details/worldatlasofbiod02groo" target="_blank">
+    <img src="images/report_wcmcatlas2000.png" alt="WCMC Atlas 2000 report cover"/>
+  </a>
+
+  #### The diversity of life is the defining feature of planet Earth. It is unique - as far as we know - in the infinity of the universe. For 11 000 years since agriculture began, humankind has increasingly appropriated the biological resources and natural productivity of lands and seas to support the expansion of civilizations and technologies. Everything that we have achieved has its origins in living animals, plants and the communities and ecosystems of which they are a part. But it is only in the past 30 years, since the United Nations Conference on the Human Environment in Stockholm in 1972, that we have begun to recognize the limits to natures gifts. We now know that our own success is placing strain on nature's ability to evolve, diversify, cleanse our air and water and provide us with the raw materials we need for food, fuel, fiber and health...The reality is that this World Atlas of Biodiversity is of greater relevance now than at any time in the past. The world's living wealth remains the cornerstone of sustainable livelihoods and quality lifestyles in both the industrialized and developing worlds. Recognition of this fact is spreading, and the value of ***biodiversity*** in people's lives, socially, economically and environmentally, has never been more apparent than it is today. [***See* report.**](https://archive.org/details/worldatlasofbiod02groo){target="_blank"}
+
+  <br/>
+  
+  </div>
   
 
 ## 1990 - 1999
