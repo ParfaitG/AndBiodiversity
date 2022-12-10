@@ -17,6 +17,18 @@
     }
   }
 
+  a[href^="http://"]:after,
+  a[href^="https://"]:after {
+    content: url(images/fa_external.png);
+    margin: 0 0 0 5px;
+  }
+
+  .collapse a::after,
+  .logo_container a::after {
+    content: '';
+    margin: 0;
+  }
+
   .logo {
     float: right;
     margin: -50px 0 0 0;
@@ -325,6 +337,12 @@
   }
     
   .stick_image img {
+     float: left;
+     margin: 5px;
+     width: 100px;
+  }
+
+  .climate_image img {
      float: left;
      margin: 5px;
      width: 100px;

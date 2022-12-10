@@ -144,8 +144,11 @@ RMarkdown site created by ParfaitG with source code.
 - #### [**Global Biodiversity Information Facility**](https://www.gbif.org/){target="_blank"}  
   #### An international network and data infrastructure funded by the world's governments and aimed at providing anyone, anywhere, open access to data about all types of life on Earth
 
-- #### [**Integrated Biodiversity Assessment Tool**](https://www.ibat-alliance.org/)
+- #### [**Integrated Biodiversity Assessment Tool**](https://www.ibat-alliance.org/){target="_blank"}  
   #### The world's most authoritative biodiversity data for your world-shaping decisions
+
+- #### [**Integrated Taxonomic Information System (ITIS)**](https://itis.gov/){target="_blank"}
+  #### Authoritative taxonomic information on plants, animals, fungi, and microbes of North America and the world. 
 
 - #### [**IPBES: Modelling impacts of drivers on biodiversity and ecosystems**](https://ipbes.net/modelling-impacts-drivers-biodiversity-ecosystems){target="_blank"}  
   #### Primer on models of biodiversity and ecosystem function with additional resources
@@ -158,9 +161,18 @@ RMarkdown site created by ParfaitG with source code.
 
 - #### [**NASA Earth Data: Biological Diversity and Ecological Forecasting**](https://www.earthdata.nasa.gov/learn/biodiversity-data-resources){target="_blank"}  
   #### NASA Earth observation data are a key component of research into the causes behind changes in biodiversity and the impacts of these changes.
+
+- #### [**Species+**](https://www.speciesplus.net/about){target="_blank"}
+  #### Species+, developed by UNEP-WCMC and the CITES Secretariat, is a website designed to assist Parties with implementing CITES, CMS and other multilateral environmental agreements (MEAs). Species+ provides a centralised portal for accessing key information on species of global concern.
   
 - #### [**UN Biodiversity Lab**](https://unbiodiversitylab.org/){target="_blank"}  
   #### Provides access to global spatial data to generate insight and impact for conservation and sustainable development
+  
+- #### [**Vertnet**](http://vertnet.org/){target="_blank"}  
+  #### NSF-funded collaborative project that makes biodiversity data free and available on the web, VertNet is a tool designed to help people discover, capture, and publish biodiversity data. 
+  
+- #### [**World Register of Marine Species (WoRMS)**](https://www.marinespecies.org/)
+  #### Editorial management system controlled by taxonomic and thematic experts that provides an authoritative and comprehensive list of names of marine organisms.
   
 - #### [**York University Ecological Footprint Initiative & Global Footprint Network**](https://data.footprintnetwork.org){target="_blank"}  
   #### Data materials and outputs assessing national footprint and biocapacity accounts across the world
@@ -169,16 +181,19 @@ RMarkdown site created by ParfaitG with source code.
 
 ### Regional
 
-- #### [**Atlas of Living Australia**](https://www.ala.org.au/)
+- #### [**AADC: Antarctic Biodiversity Database**](https://www.scar.org/resources/bio-database/){target="_blank"} 
+  ####  Australian Antarctic Data Centre (AADC) has developed a terrestrial biodiversity database that captures all recorded species observations and their locations from the Antarctic and subantarctic.
+
+- #### [**Atlas of Living Australia**](https://www.ala.org.au/){target="_blank"} 
   #### Open Access to Australia's biodiversity data
 
 - #### [**NatureServe Explorer**](https://explorer.natureserve.org/){target="_blank"}  
   #### The definitive source for information on rare and endangered species and ecosystems in the Americas.
   
-- #### [**NBN Atlas**](https://nbnatlas.org/)
+- #### [**NBN Atlas**](https://nbnatlas.org/){target="_blank"} 
   #### UK's largest collection of biodiversity information
 
-- #### [**NOAA: DIVER**](https://www.diver.orr.noaa.gov/)
+- #### [**NOAA: DIVER**](https://www.diver.orr.noaa.gov/){target="_blank"} 
   #### The DIVER (Data Integration, Visualization, Exploration, and Reporting) tool was developed by NOAA to support these natural resource damage assessment (NRDA) efforts.
   
 - #### [**USA EPA: Ecoregions Maps**](https://www.epa.gov/eco-research/ecoregions){target="_blank"}  
@@ -187,7 +202,7 @@ RMarkdown site created by ParfaitG with source code.
 <br/>
 
 ### Plants
-
+  
 - #### [**BGCI: ThreatSearch Database**](https://tools.bgci.org/threat_search.php){target="_blank"}  
   #### The most comprehensive database of conservation assessments of plants
 
@@ -197,21 +212,39 @@ RMarkdown site created by ParfaitG with source code.
 - #### [**World Flora Online**](http://www.worldfloraonline.org/){target="_blank"}  
   #### Global overview of the diversity of plant species
   
+- #### [**World Agroforestry: Resource Centre**](https://www.worldagroforestry.org/resource-centre){target="_blank"}  
+  #### Resource platform supporting the World Agroforestry research work including applications, databases, manual, models, portals, toolkits, tools, and websites.
+  
 <br/>
 
 ### Animals
 
-- #### [**BirdLife International: Data Zone**](http://datazone.birdlife.org/home)
+- #### [**AmphibiaWeb**](https://amphibiaweb.org/){target="_blank"} 
+  #### Ongoing collaboration between researchers, citizen scientists, and students around the world led by the University of California Berkeley to synthesize and share information about amphibians to enable research, education, and conservation. 
+
+- #### [**AntWeb**](https://www.antweb.org/)
+  #### AntWeb is the world's largest online database of images, specimen records, and natural history information on ants. 
+
+- #### [**AviBase**](https://avibase.bsc-eoc.org/avibase.jsp?lang=EN){target="_blank"} 
+  #### Avibase is an extensive database information system about all birds of the world, containing over 58 million records about 10,000 species and 22,000 subspecies of birds, including distribution information for 20,000 regions, taxonomy, synonyms in several languages and more. 
+
+- #### [**BirdLife International: Data Zone**](http://datazone.birdlife.org/home){target="_blank"} 
   #### Web portal for case studies, Important Bird and Biodiversity Areas (IBAs), country profiles, and case studies regarding bird species.
+
+- #### [**FishBase**](https://www.fishbase.org.au/v4){target="_blank"} 
+  #### Global biodiversity information system on fishes, covering >35,000 fish species compiled from >59,200 references in partnership with 2,480 collaborators, >325,700 common names and >61,700 pictures.
 
 - #### [**WWF: Living Planet Index**](https://livingplanetindex.org/data_portal){target="_blank"}  
   #### Dataset contains time-series of population abundance data for vertebrate species spanning years between 1970 and 2021.
 
 <br/>
 
-### Fungi
+### Other
 
-- #### [**GlobalFungi Database**](https://globalfungi.com/)
+- #### [**AlgaeBase**](https://www.algaebase.org/){target="_blank"} 
+  #### Global algal database of taxonomic, nomenclatural and distributional information.
+  
+- #### [**GlobalFungi Database**](https://globalfungi.com/){target="_blank"} 
   #### Validated collection of published data on the composition of soil fungal communities in terrestrial environments including soil and plant-associated habitats and made them publicly accessible through a user interface 
 
 <br/>
@@ -274,34 +307,41 @@ RMarkdown site created by ParfaitG with source code.
       <td><a href="https://zeroextinction.org" target="blank"><img src="images/icon_allianceforzeroextinction.png" alt="Alliance for Zero Extinction (AZE) logo" title="Alliance for Zero Extinction (AZE)"/></a></td>
       <td><a href="https://www.bgci.org/" target="blank"><img src="images/icon_bgci.png" alt="BGCI logo" title="Botanic Gardens Conservation International (BGCI)"/></a></td>
       <td><a href="https://www.biologicaldiversity.org/" target="blank"><img src="images/icon_centerbiodiversity.png" alt="Center for Biological Diversity logo" title="Center for Biological Diversity (CBD)"/></a></td>
+      <td><a href="https://www.cifor.org/" target="blank"><img src="images/icon_cifor.png" alt="CIFOR logo" title="Center for International Forestry Research (CIFOR)"/></a></td>
       <td><a href="https://cites.org/eng" target="blank"><img src="images/icon_cites.png" alt="CITES logo" title="Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)"/></a></td>
-      <td><a href="https://www.cbd.int/" target="blank"><img src="images/icon_conventionbiodiversity.png" alt="Convention on Biological Diversity logo" title="UN Convention on Biological Diversity (CBD)"/></a></td>
    </tr>
    <tr>
+      <td><a href="https://croplife.org/" target="blank"><img src="images/icon_croplife.png" alt="CropLife logo" title="CropLife International"/></a></td>
+      <td><a href="https://earth.org/" target="blank"><img src="images/icon_earthorg.png" alt="Earth.org logo" title="Earth.org"/></a></td>
+      <td><a href="https://www.cbd.int/" target="blank"><img src="images/icon_conventionbiodiversity.png" alt="Convention on Biological Diversity logo" title="UN Convention on Biological Diversity (CBD)"/></a></td>
       <td><a href="https://www.edf.org/" target="blank"><img src="images/icon_edf.png" alt="Environment Defense Fund logo" title="Environment Defense Fund"/></a></td>
       <td><a href="https://www.fauna-flora.org/" target="blank"><img src="images/icon_faunaandflora.png" alt="Fauna and Flora logo" title="Fauna and Flora International"/></a></td>
+   </tr>
+   <tr>
       <td><a href="https://www.footprintnetwork.org/" target="blank"><img src="images/icon_globalfootprintnetwork.png" alt="Global Footprint Network logo" title="Global Footprint Network"/></a></td>
       <td><a href="https://www.greenpeace.org/international/" target="blank"><img src="images/icon_greenpeace.png" alt="Greenpeace logo" title="Greenpeace"/></a></td>
       <td><a href="https://ipbes.net/" target="blank"><img src="images/icon_ipbes.png" alt="IPBES logo" title="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES)"/></a></td>
-   </tr>
-   <tr>
       <td><a href="https://www.ipcc.ch/" target="blank"><img src="images/icon_ipcc.png" alt="IPCC logo" title="Intergovernmental Panel on Climate Change (IPCC)"/></a></td>
       <td><a href="https://iucn.org/" target="blank"><img src="images/icon_iucn.png" alt="IUCN logo" title="International Union for Conservation of Nature (IUCN)"/></a></td>
+   </tr>
+   <tr>
       <td><a href="https://www.natureserve.org/" target="blank"><img src="images/icon_natureserve.png" alt="NatureServe logo" title="NatureServe"/></a></td>
       <td><a href="https://www.nature.org/" target="blank"><img src="images/icon_natureconservancy.png" alt="Nature Conservancy logo" title="Nature Conservancy"/></a></td>
       <td><a href="https://www.nrdc.org/" target="blank"><img src="images/icon_nrdc.png" alt="Natural Resources Defense Council logo" title="Natural Resources Defense Council"/></a></td>
+      <td><a href="https://oceanconservancy.org/" target="blank"><img src="images/icon_oceanconservancy.png" alt="Ocean Conservancy logo" title="Ocean Conservancy"/></a></td>
+      <td><a href="https://www.rewild.org/" target="blank"><img src="images/icon_rewild.png" alt="re:wild logo" title="re:wild"/></a></td>
    </tr>
    <tr>
-      <td><a href="https://oceanconservancy.org/" target="blank"><img src="images/icon_oceanconservancy.png" alt="Ocean Conservancy logo" title="Ocean Conservancy"/></a></td>
       <td><a href="https://www.sierraclub.org/" target="blank"><img src="images/icon_sierraclub.png" alt="Sierra Club logo" title="Sierra Club"/></a></td>
       <td><a href="https://www.unccd.int/" target="blank"><img src="images/icon_unccd.png" alt="UN Convention to Combat Desertification (UNCCD) logo" title="UN Convention to Combat Desertification "/></a></td>
       <td><a href="https://whc.unesco.org/" target="blank"><img src="images/icon_unesco.png" alt="UNESCO World Heritage logo" title="UNESCO World Heritage"/></a></td>
       <td><a href="https://www.unep.org/" target="blank"><img src="images/icon_unep.png" alt="UNEP logo" title="UN Environmental Programme (UNEP)"/></a></td>
+      <td><a href="https://www.unep-wcmc.org/en" target="blank"><img src="images/icon_wcmc.png" alt="UNEP WCMC logo" title="World Conservation Monitoring Centre (WCMC)"/></a></td> 
    </tr>
    <tr>
-      <td><a href="https://www.unep-wcmc.org/en" target="blank"><img src="images/icon_wcmc.png" alt="UNEP WCMC logo" title="World Conservation Monitoring Centre (WCMC)"/></a></td> 
       <td><a href="" target="blank"><img src="images/icon_wildlifeconservationsociety.png" alt="Wildlife Conservation Society logo" title="Wildlife Conservation Society"/></a></td>
       <td><a href="https://wildlife.org/" target="blank"><img src="images/icon_wildlifesociety.png" alt="Wildlife Society logo" title="The Wildlife Society"/></a></td>
+      <td><a href="https://www.worldagroforestry.org/" target="blank"><img src="images/icon_worldagroforestry.png" alt="World Agroforestry logo" title="World Agroforestry Centre"/></a></td>
       <td><a href="https://www.worldwildlife.org/" target="blank"><img src="images/icon_wwf.png" alt="WWF logo" title="World Wildlife Fund (WWF)"/></a></td>
       <td><a href="https://www.zsl.org/" target="blank"><img src="images/icon_zsl.png" alt="ZSL logo" title="Zoological Society of London"/></a></td> 
    </tr>
@@ -361,6 +401,14 @@ RMarkdown site created by ParfaitG with source code.
 
 <div class="framecontainer">
   <iframe src="https://player.vimeo.com/video/385534892" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
+<br/>
+
+#### World Bank: Biodiversity: Putting Nature at the Core of Development Efforts
+
+<div class="framecontainer">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PELz_amYt6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <br/>

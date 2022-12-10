@@ -152,6 +152,74 @@ meta(
 
 ---
 
+<br/>
+
+
+#### Why _And Biodiversity_? To raise awareness of nature-based solutions:
+
+<br/>
+
+
+<div class="climate_image"><img src="images/stick_figure_heatwave.png" alt="heatwave icon"/></div>
+
+#### **Heatwaves**
+
+> #### Climate change causes prolonged and intense heatwaves, ***but biodiversity*** with transpiration of trees and plants can bring a cooling effect and reduce urban heat island effects.
+
+<br/>
+
+
+<div class="climate_image"><img src="images/stick_figure_flood.png" alt="flooding icon"/></div>
+
+#### **Flooding**
+
+> #### Climate change causes more extreme weather events, ***but biodiversity*** with healthy rivers, wetlands, and coral reefs across coastlines and floodplains can absorb and buffer storm surges and flooding.
+
+<br/>
+
+<div class="climate_image"><img src="images/stick_figure_crops.png" alt="crops icon"/></div>
+
+#### **Famine**
+
+> #### Climate change causes more crop yields to decline, ***but biodiversity*** with rich soil organisms can regulate and regenerate soil health and with diverse crops and livestock can stabilize food supply. 
+
+<br/>
+
+
+<div class="climate_image"><img src="images/stick_figure_waterlevel.png" alt="low water icon"/></div>
+
+#### **Drought**
+
+> #### Climate change causes more widespread droughts, ***but biodiversity*** with healthy freshwater ecosystems can regulate water quality, flow, supply, and enhance groundwater systems.
+
+<br/>
+
+<div class="climate_image"><img src="images/stick_figure_pests.png" alt="pests icon"/></div>
+
+#### **Pests**
+
+> ####  Climate change causes spread of forest and crop pests and diseases, ***but biodiversity*** with native and diverse species in place of non-native, monocultured plantations can decrease prevalence of pests and diseases.
+
+<br/>
+
+<div class="climate_image"><img src="images/stick_figure_wildfire.png" alt="wildfire icon"/></div>
+
+#### **Wildfires**
+
+> ####  Climate change causes more extreme wildfires, ***but biodiversity*** with diverse forests in genes and species can spread risk, increase resistance to stresses, and promote resilience to forest systems.
+
+<br/>
+
+<div class="climate_image"><img src="images/stick_figure_factory.png" alt="factory icon"/></div>
+
+#### **Emissions**
+
+> ####  Climate change mostly derives from emitting carbon emissions into atmosphere, ***but biodiversity*** with healthy forests, wetlands, mangroves, seagrass, and other biomes can naturally capture and sequester carbon. 
+
+<br/>
+
+---
+
 #### Why _And Biodiversity_? To dispel common misunderstandings:
 
 <br/>
