@@ -163,7 +163,7 @@ RMarkdown site created by ParfaitG with source code.
   #### NASA Earth observation data are a key component of research into the causes behind changes in biodiversity and the impacts of these changes.
 
 - #### [**Species+**](https://www.speciesplus.net/about){target="_blank"}
-  #### Species+, developed by UNEP-WCMC and the CITES Secretariat, is a website designed to assist Parties with implementing CITES, CMS and other multilateral environmental agreements (MEAs). Species+ provides a centralised portal for accessing key information on species of global concern.
+  #### Species+, developed by UNEP-WCMC and the CITES Secretariat, provides a centralised portal for accessing key information on species of global concern to assist Parties with implementing CITES, CMS and other multilateral environmental agreements (MEAs). 
   
 - #### [**UN Biodiversity Lab**](https://unbiodiversitylab.org/){target="_blank"}  
   #### Provides access to global spatial data to generate insight and impact for conservation and sustainable development
@@ -220,7 +220,7 @@ RMarkdown site created by ParfaitG with source code.
 ### Animals
 
 - #### [**AmphibiaWeb**](https://amphibiaweb.org/){target="_blank"} 
-  #### Ongoing collaboration between researchers, citizen scientists, and students around the world led by the University of California Berkeley to synthesize and share information about amphibians to enable research, education, and conservation. 
+  #### Ongoing collaboration between researchers, citizen scientists, and students around the world to synthesize and share information about amphibians to enable research, education, and conservation. 
 
 - #### [**AntWeb**](https://www.antweb.org/)
   #### AntWeb is the world's largest online database of images, specimen records, and natural history information on ants. 
@@ -252,7 +252,7 @@ RMarkdown site created by ParfaitG with source code.
 ### Land
 
 - #### [**WWF Terrestrial Ecoregions Of The World (Biomes) in ArcGIS**](https://www.arcgis.com/apps/View/index.html?appid=d60ec415febb4874ac5e0960a6a2e448){target="_blank"}  
-  #### ArcGIS app to explorer the world's 800+ terrestial ecoregions classified in 14 different biome types
+  #### ArcGIS app to explore the world's 800+ terrestial ecoregions classified in 14 different biome types
 
 <br/>
 

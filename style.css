@@ -142,6 +142,7 @@
       color: white;
       overflow: hidden;
       margin-bottom: 16px;
+      text-align: center;
   }
   .accordion-content:hover, 
   .accordion-content:focus, 
@@ -149,8 +150,14 @@
       overflow-y: auto;
   }
   .accordion img {
-      display: block;
+      display: inline-flex;
       margin: 20px auto;
+      padding: 10px;
+      border-radius: 30px;      
+      border-top: 1px rgba(128,181,51) solid;
+      border-left: 1px rgba(128,181,51) solid;
+      border-bottom: 25px rgba(128,181,51) solid;
+      border-right: 1px rgba(128,181,51) solid;
   }
   .accordion-label {
       border-radius: 8px;
@@ -186,8 +193,9 @@
       margin: 0;
       font-size: 18px;
   }
-  .accordion-content li {
+  .accordion-content li, .accordion-content p {
       font-size: 18px;
+      text-align: left;
   }
   input:checked + .accordion-label {
       background: rgba(128,181,51,1);

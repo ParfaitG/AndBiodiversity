@@ -98,7 +98,7 @@ meta(
 
 ---
 
-#### Why _And Biodiversity_? To hopefully mainstream the issue across institutions:
+#### Why _And Biodiversity_? To mainstream the issue across domains:
 
 <br/>
 
@@ -215,6 +215,65 @@ meta(
 #### **Emissions**
 
 > ####  Climate change mostly derives from emitting carbon emissions into atmosphere, ***and biodiversity*** with healthy forests, wetlands, mangroves, seagrass, and other biomes can naturally capture and sequester carbon. 
+
+<br/>
+
+---
+
+<br/>
+
+
+#### Why _And Biodiversity_? To underscore its importance:
+
+<br/>
+
+
+<div class="climate_image"><img src="images/stick_figure_economy.png" alt="economy icon"/></div>
+
+#### **Economy**
+
+> #### Modern economies often measure the accumulation of produced capital (roads, machines, buildings, factories, and ports) and human capital (health and education) but overlook the essential natural capital ***and biodiversity*** provides such value from raw materials to regulation of resources and environment (air, food, water, climate) to support commerce and livelihoods.
+
+<br/>
+
+<div class="climate_image"><img src="images/stick_figure_society.png" alt="society icon"/></div>
+
+#### **Society**
+
+> #### A society free from conflict, inequality, and uncertainty requires a stable climate and healthy ecosystems for basic amenities, occupations, and recreation,  ***and biodiversity*** supports such requirements through functioning carbon, nitrogen, and water cycles and habitat maintenance.
+
+<br/>
+
+
+<div class="climate_image"><img src="images/stick_figure_culture.png" alt="culture icon"/></div>
+
+#### **Culture**
+
+> #### Since dawn of human civilization, species and ecosystems have been integral in culture including languages, arts, foods, customs, beliefs, and values ***and biodiversity*** (akin to human diversity) serves as this living library and heritage.
+
+<br/>
+
+<div class="climate_image"><img src="images/stick_figure_hospital.png" alt="hospital icon"/></div>
+
+#### **Health**
+
+> ####  Physical, mental, and social health and well-being require a stable climate and healthy ecosystems ***and biodiversity*** serves these needs with air, water, and food quality; medicinal supply; hazard and disease protection; recreation and inspiration.
+
+<br/>
+
+<div class="climate_image"><img src="images/stick_figure_watertower.png" alt="water tower icon"/></div>
+
+#### **Infrastructure**
+
+> ####  Robust critical infrastructure of water, energy, food, and commodity supply requires vital inputs ***and biodiversity*** provides water flow and quantiity; food pollination and seed dispersal; and natural resources such as fiber, fuel, and timber.
+
+<br/>
+
+<div class="climate_image"><img src="images/stick_figure_survival.png" alt="survival icon"/></div>
+
+#### **Survival**
+
+> ####  Essential human survival needs of air, water, food, and shelter requires a stable cimate and healthy ecosystems ***and biodiversity*** provides such habital existence for humans and many other species.
 
 <br/>
 

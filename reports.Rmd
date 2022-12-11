@@ -1241,7 +1241,7 @@ $(function() {
   <div id="unepstrategy1995" class="collapse">  
 
   <a href="https://wedocs.unep.org/handle/20.500.11822/30293" target="_blank">
-    <img src="images/report_unepstrategy1995.png" alt="UNEP Strategy 2005 report cover"/>
+    <img src="images/report_unepstrategy1995.png" alt="UNEP Strategy 1995 report cover"/>
   </a>
 
   #### ***Biodiversity***, the product of millions of years of biological evolution has always provided mankind with food, fibre, shelter, medicines and socio-cultural enrichment. Yet we are destroying vast numbers of invaluable species and genetic combinations and compromising vital terrestrial and aquatic habitats and ecosystems at a time when human dependence on genetic resources and ecological services of ecosystems is increasing rapidly due to human population growth...Such changes call for a major recasting of political principles and covenants/contracts governing international co-operation, production and consumption patterns, exchange of commodities and information, as well as transfer of technologies including biotechnology. It calls for charting a new path, with a new vision, vigour and renewed mandate. It calls for an effective implementation strategy.  [***See* report**](https://wedocs.unep.org/handle/20.500.11822/30293){target="_blank"}.
