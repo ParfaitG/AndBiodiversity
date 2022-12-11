@@ -164,7 +164,7 @@ meta(
 
 #### **Heatwaves**
 
-> #### Climate change causes prolonged and intense heatwaves, ***but biodiversity*** with transpiration of trees and plants can bring a cooling effect and reduce urban heat island effects.
+> #### Climate change causes prolonged and intense heatwaves, ***and biodiversity*** with transpiration of trees and plants can bring a coolness and reduce urban heat island effects.
 
 <br/>
 
@@ -173,7 +173,7 @@ meta(
 
 #### **Flooding**
 
-> #### Climate change causes more extreme weather events, ***but biodiversity*** with healthy rivers, wetlands, and coral reefs across coastlines and floodplains can absorb and buffer storm surges and flooding.
+> #### Climate change causes more extreme weather events, ***and biodiversity*** with healthy rivers, wetlands, and coral reefs across coastlines and floodplains can absorb and buffer storm surges and flooding.
 
 <br/>
 
@@ -181,7 +181,7 @@ meta(
 
 #### **Famine**
 
-> #### Climate change causes more crop yields to decline, ***but biodiversity*** with rich soil organisms can regulate and regenerate soil health and with diverse crops and livestock can stabilize food supply. 
+> #### Climate change causes more crop yields to decline, ***and biodiversity*** with rich soil organisms can regulate and regenerate soil health and with diverse crops and livestock can stabilize food supply. 
 
 <br/>
 
@@ -190,7 +190,7 @@ meta(
 
 #### **Drought**
 
-> #### Climate change causes more widespread droughts, ***but biodiversity*** with healthy freshwater ecosystems can regulate water quality, flow, supply, and enhance groundwater systems.
+> #### Climate change causes more widespread droughts, ***and biodiversity*** with healthy freshwater ecosystems can regulate water quality, flow, supply, and enhance groundwater systems.
 
 <br/>
 
@@ -198,7 +198,7 @@ meta(
 
 #### **Pests**
 
-> ####  Climate change causes spread of forest and crop pests and diseases, ***but biodiversity*** with native and diverse species in place of non-native, monocultured plantations can decrease prevalence of pests and diseases.
+> ####  Climate change causes spread of forest and crop pests and diseases, ***and biodiversity*** with native and diverse species in place of non-native, monocultured plantations can decrease prevalence of pests and diseases.
 
 <br/>
 
@@ -206,7 +206,7 @@ meta(
 
 #### **Wildfires**
 
-> ####  Climate change causes more extreme wildfires, ***but biodiversity*** with diverse forests in genes and species can spread risk, increase resistance to stresses, and promote resilience to forest systems.
+> ####  Climate change causes more extreme wildfires, ***and biodiversity*** with diverse forests in genes and species can spread risk, increase resistance to stresses, and promote resilience to forest systems.
 
 <br/>
 
@@ -214,7 +214,7 @@ meta(
 
 #### **Emissions**
 
-> ####  Climate change mostly derives from emitting carbon emissions into atmosphere, ***but biodiversity*** with healthy forests, wetlands, mangroves, seagrass, and other biomes can naturally capture and sequester carbon. 
+> ####  Climate change mostly derives from emitting carbon emissions into atmosphere, ***and biodiversity*** with healthy forests, wetlands, mangroves, seagrass, and other biomes can naturally capture and sequester carbon. 
 
 <br/>
 
