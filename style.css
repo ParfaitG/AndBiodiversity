@@ -189,14 +189,30 @@
       -webkit-transition: all 0.3s;
       transition: all 0.3s;
   }
-  .accordion-content p{
+  .accordion-content p {
       margin: 0;
       font-size: 18px;
+      text-align: left
   }
-  .accordion-content li, .accordion-content p {
+  .accordion-content li {
       font-size: 18px;
-      text-align: left;
+      text-align: left
   }
+  #globalmoments img, .multiple-figure {
+      height: 15vh
+  }
+  .single-figure img {
+      height: auto;
+      max-height: 40vh;
+      object-fit: cover;
+  }
+  .single-figure p {
+     color: #fff;
+     margin-top: -45px;
+     text-align: center;
+     font-size: 1.5vh;
+  }
+
   input:checked + .accordion-label {
       background: rgba(128,181,51,1);
   }
@@ -470,32 +486,52 @@
           height: 200px;
           margin: 0 0 20px 0;
       }
-      
+
+	  #globalmoments img, .multiple-figure {
+		  max-height: 100px
+	  }
+
       #bottom_icons img:hover,
       #bottom_icons img:active,
       #bottom_icons img:focus {
          opacity: 0.8
       }
-      #bottom_icons tr {
+      #bottom_icons tr,
+      .icons tr,
+      .docs tr {
           display: block;
           margin-bottom: .625em;
       }
-      #bottom_icons td {
+      #bottom_icons td,
+      .icons td,
+      .docs td {
           display: block;
           text-align: center;
       }
       #bottom_icons h3 {
           font-size: 2vh;
       }
-      #bottom_icons td.img {
+      #bottom_icons td.img,
+      .icons td.img,
+      .docs td.img {
           width: 150px;
       }
-      #bottom_icons td::before {
+      #bottom_icons td::before,
+      .icons td::before,
+      .docs td::before {
           float: left;
           font-weight: bold;
           text-transform: uppercase;
       }
-      
+      .icons, .docs {
+          width: 200px;
+      }
+
+      .framecontainer {
+          width: auto;
+          object-fit: cover
+      }
+
       .footer {
          height: auto;
          margin: 0 0 -40px 0;
