@@ -1107,6 +1107,20 @@ $(function() {
   
   </div>
 
+- #### <a href="###" data-toggle="collapse" data-target="#wbg2004">World Bank: Ensuring the Future (2004)</a> 
+
+  <div id="wbg2004" class="collapse">  
+
+  <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/455021468323358162/ensuring-the-future-the-world-bank-and-biodiversity-1988-2004" target="_blank">
+    <img src="images/report_wbg2004.png" alt="WBG 2004 report cover"/>
+  </a>
+
+  #### To date, the World Bank Group (WBG) is the largest single international funding source for ***biodiversity*** projects. A previous review of the full ***biodiversity*** portfolio, covering the period from 1988 until 1999, showed that the WBG approved \$2.6 billion for more than 200 projects worldwide to promote conservation and sustainable use of ***biodiversity*** in 85 countries and 10 regional, multi-country efforts. This update shows that by the end of June 2004 (FY04), the figure for total ***biodiversity*** investment has risen to $4.7 billion, signifying that the World Bank remains committed to ***biodiversity*** conservation as a significant part of its sustainable development agenda...Nevertheless, ***biodiversity*** —especially (but not only) in the developing world—still faces many threats, often from the very development that is designed to improve livelihoods and address poverty alleviation. A major challenge for the future is thus to mainstream ***biodiversity*** into government programs, normal development assistance, and poverty alleviation programs by promoting positive synergies, while minimizing the negative impacts to ***biodiversity*** of potentially damaging investments such as infrastructure development. [***See* report.**](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/455021468323358162/ensuring-the-future-the-world-bank-and-biodiversity-1988-2004){target="_blank"}
+
+  <br/>
+  
+  </div>
+  
 - #### <a href="###" data-toggle="collapse" data-target="#acia2004">Arctic Climate Impact Assessment (ACIA) (2004)</a> 
 
   <div id="acia2004" class="collapse">  
@@ -1208,6 +1222,20 @@ $(function() {
   
   </div>
   
+- #### <a href="###" data-toggle="collapse" data-target="#unep1998">UNEP: Freshwater biodiversity: a preliminary global assessment (1998)</a> 
+
+  <div id="unep1998" class="collapse">  
+
+  <a href="https://portals.iucn.org/library/fr/node/7566" target="_blank">
+    <img src="images/report_unep1998.png" alt="UNEP 1998 report cover"/>
+  </a>
+
+  #### Water as a resource has two key features: it is absolutely essential for human survival; the amount of water in the world is constant, so that although it is used, the stock is not globally diminished but nor can it be increased. At below global level, water is often not available where and when needed, nor in the appropriate amounts, nor with the necessary quality. The two last are particularly important to the maintenance of freshwater ***biodiversity***. The finite supply of freshwater on the Earth is now being used by a human population that has grown exponentially in the past few hundred years, and continues to grow, and which demands increasing volumes of water to service agricultural and industrial processes on which economic development depends. Freshwater systems are under growing pressure, as flow patterns are disrupted and the load of waste substances increases. Inevitably per capita shares of water for human use are decreasing and water stress is becoming more widespread [***See* report.**](https://portals.iucn.org/library/fr/node/7566){target="_blank"}
+
+  <br/>
+  
+  </div>
+  
 - #### <a href="###" data-toggle="collapse" data-target="#wcmc1997">WCMC: Industrial reliance on biodiversity (1997)</a> 
 
   <div id="wcmc1997" class="collapse">  
@@ -1294,6 +1322,20 @@ $(function() {
 
 ## Earlier
 
+- #### <a href="###" data-toggle="collapse" data-target="#nsb1989">NSB: Loss of Biological Diversity - A Global Crisis Requiring International Solutions (1989)</a> 
+
+  <div id="nsb1989" class="collapse">  
+
+  <a href="https://www.nsf.gov/nsb/publications/1989/nsb0989.pdf" target="_blank">
+    <img src="images/report_nsb1989.png" alt="NSB 1989 report cover"/>
+  </a>
+
+  #### We are at a critical juncture for the conservation and study of ***biological diversity***: such an opportunity will never occur again. Understanding and maintaining that diversity is the key to humanity's continued prosperous and stable existence on Earth. The extinction event that we are witnessing is the most catastrophic loss of species in the last 65 million years. Most importantly, it is the first major extinction event that has been caused by a single species, one that we hope will act in its own self interest to stem the tide. Unless the international community can, indeed, reverse the trend, the rate of extinction over the next few decades is likely to rise to at least 1000 times the normal background rate of extinction, and will ultimately result in the loss of a quarter or more of the species on earth. [***See* report.**](https://www.nsf.gov/nsb/publications/1989/nsb0989.pdf){target="_blank"}
+
+  <br/>
+  
+  </div>
+
 - #### <a href="###" data-toggle="collapse" data-target="#unep1989">UNEP: The State of the World Environment 1989</a> 
 
   <div id="unep1989" class="collapse">  
@@ -1303,6 +1345,20 @@ $(function() {
   </a>
 
   #### Environmental indicators reveal mixed signals. improvement, stabilization, and deterioration...Rapid destruction of natural environments is reducing the number of species and the amount of genetic variation within individual species. So ***biological diversity*** is declining. If this trend is not hailed and reversed it could have serious and far-reaching repercussions for humanity. ***Biological diversity*** must be seen as a global resource, like the atmosphere or the oceans. All nations have a common interest in it and all have a common responsibility towards it. Despite such action as has already been taken to promote conservation, there is a pressing need for a comprehensive strategy, including a global convention to provide a strong legal basis for international co-operation in conserving ***biological diversity***. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/28295){target="_blank"}.
+
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#nap1988">NAP: Biodiversity (1988)</a> 
+
+  <div id="nap1988" class="collapse">  
+
+  <a href="https://www.nationalacademies.org/our-work/national-forum-on-biodiversity" target="_blank">
+    <img src="images/report_nap1988.png" alt="NAP 1988 report cover"/>
+  </a>
+
+  #### ***Biological diversity*** must be treated more seriously as a global resource, to be indexed, used, and above all, preserved. Three circumstances conspire to give this matter an unprecedented urgency. First, exploding human populations are degrading the environment at an accelerating rate, especially in tropical countries. Second, science is discovering new uses for ***biological diversity*** in ways that can relieve both human suffering and environmental destruction. Third, much of the diversity is being irreversibly lost through extinction caused by the destruction of natural habitats, again especially in the tropics. Overall, we are locked into a race. We must hurry to acquire the knowledge on which a wise policy of conservation and development can be based for centuries to come. [***See* report.**](https://www.nationalacademies.org/our-work/national-forum-on-biodiversity){target="_blank"}
 
   <br/>
   
