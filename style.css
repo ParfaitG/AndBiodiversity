@@ -105,9 +105,11 @@
   .banner {
      text-align: center;
      margin: 5px;
+     display: block;
   }
   .banner img {
      width: 400px;
+     display: block;
      border-radius: 30px;
      margin: 10px;
      border-top: 1px rgba(128,181,51) solid;
@@ -117,13 +119,16 @@
   }
   .banner p {
      color: #fff;
-     margin-top: -32px;
+     display: block;
+     font-size: 1.5vh !important;
+     margin-top: -45px !important;
+     text-align: center !important;
   }
   .banner a:link, 
   .banner a:visited, 
   .banner a:hover, 
   .baner a:active {
-     color: #ffffff
+     color: #fff
   }
 
   input {
