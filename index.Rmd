@@ -25,13 +25,16 @@ meta(
 
 <div class="logo"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud" /></div>
 
-#### From the opening of their joint workshop report, selected IPBES and IPCC authors, stated<br/>(emphasis added):
+#### From the opening of their joint workshop report, selected IPBES and IPCC experts, stated<br/>(emphasis added):
 
 > #### Climate change ***and biodiversity loss*** are two of the most pressing issues of the Anthropocene.
 
-<br/>
+<div class="scibody" id="bottom_icons">
+<span data-text="IPBES is an intergovernmental science-policy body to assess biodiversity and ecosystem services" tabindex="0"><img src="images/icon_ipbes.png" alt="insect icon"/></span>
+<span data-text="IPCC is an intergovernmental science-policy body to assess climate change" tabindex="0"><img src="images/icon_ipcc.png" alt="insect icon"/></span>
+</div>
 
-#### This information site, _And Biodiversity_, aims to serve as a resource to study the latter crisis which often runs silent, invisible, and in the background to the general public. 
+#### This open source information site, _And Biodiversity_, aims to serve as a resource to study the latter crisis which often runs silent, invisible, and in the background to the general public. 
 
 #### For any explanation, citation, or justification regarding ***biodiversity loss***, bookmark this site and return to review the topic, major reports, figures, quotes, and resources.
 
@@ -265,7 +268,7 @@ meta(
 
 #### **Infrastructure**
 
-> ####  Robust critical infrastructure of water, energy, food, and commodity supply requires vital inputs ***and biodiversity*** provides water flow and quantiity; food pollination and seed dispersal; and natural resources such as fiber, fuel, and timber.
+> ####  Robust critical infrastructure of water, energy, food, and commodity supply requires vital inputs ***and biodiversity*** provides water flow and quantity; food pollination and seed dispersal; and natural resources such as fiber, fuel, and timber.
 
 <br/>
 
@@ -289,7 +292,7 @@ meta(
   <label class="accordion-label" for="check1">Biodiversity loss is not as immediate an issue as climate change.</label>
   <div class="accordion-content">
   <p>Although the media and general public overlook biodiversity loss for various reasons, scientists have consistently asserted the devastating consequences of continued loss of biodiversity which is accelerating at unprecedented levels in human history.</p></br>
-  <p>Such loss negatively impacts ecosystem services such as life-critical needs of food production, soil formation, water availability, air quality, climate regulation, medicines, and still others. _See_ [**Reports**](figures.html) for discussion of this crisis over the last 50 years.</p>
+  <p>Such loss negatively impacts ecosystem services such as life-critical needs of food production, soil formation, water availability, air quality, climate regulation, medicines, and still others. _See_ [**Reports**](reports.html) for discussion of this crisis over the last 50 years.</p>
   <div class="banner">
   <img src="images/biodiversity_emergency_banner.png" alt="biodiversity emergency protest banner"/>
   <p>Source: [Nature.com article](https://www.nature.com/articles/d41586-021-03781-z){target="_blank"}</p>
