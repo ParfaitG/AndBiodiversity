@@ -482,7 +482,11 @@
       img {
          height: auto;
       }
-      
+
+      .report_img {
+         height: 150px;
+      }
+
       .logo {
          float: right;
          margin: 0 0 0 0;
