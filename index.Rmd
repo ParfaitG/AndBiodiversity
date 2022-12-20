@@ -30,11 +30,11 @@ meta(
 > #### Climate change ***and biodiversity loss*** are two of the most pressing issues of the Anthropocene.
 
 <div class="scibody" id="bottom_icons">
-<span data-text="IPBES is an intergovernmental science-policy body to assess biodiversity and ecosystem services" tabindex="0"><img src="images/icon_ipbes.png" alt="insect icon"/></span>
-<span data-text="IPCC is an intergovernmental science-policy body to assess climate change" tabindex="0"><img src="images/icon_ipcc.png" alt="insect icon"/></span>
+<span data-text="IPBES is an inter-governmental science-policy body to assess biodiversity and ecosystem services" tabindex="0"><img src="images/icon_ipbes.png" alt="insect icon"/></span>
+<span data-text="IPCC is an inter-governmental science-policy body to assess climate change" tabindex="0"><img src="images/icon_ipcc.png" alt="insect icon"/></span>
 </div>
 
-#### This open source information site, _And Biodiversity_, aims to serve as a resource to study the latter crisis which often runs silent, invisible, and in the background to the general public. 
+#### This open-source information site, _And Biodiversity_, aims to serve as a resource to study the latter crisis which often runs silent, invisible, and in the background to the general public. 
 
 #### For any explanation, citation, or justification regarding ***biodiversity loss***, bookmark this site and return to review the topic, major reports, figures, quotes, and resources.
 
@@ -158,7 +158,7 @@ meta(
 <br/>
 
 
-#### Why _And Biodiversity_? To raise awareness of nature-based solutions:
+#### Why _And Biodiversity_? To raise awareness of nature-based solutions (NbS):
 
 <br/>
 
@@ -201,7 +201,7 @@ meta(
 
 #### **Pests**
 
-> ####  Climate change causes spread of forest and crop pests and diseases, ***and biodiversity*** with native and diverse species in place of non-native, monocultured plantations can decrease prevalence of pests and diseases.
+> ####  Climate change causes spread of pests and diseases in forest and crops, ***and biodiversity*** with native and diverse species in place of non-native, monocultured plantations can decrease prevalence of pests and diseases.
 
 <br/>
 
@@ -252,7 +252,7 @@ meta(
 
 #### **Culture**
 
-> #### Since dawn of human civilization, species and ecosystems have been integral in culture including languages, arts, foods, customs, beliefs, and values ***and biodiversity*** (akin to human diversity) serves as this living library and heritage.
+> #### Since the dawn of human civilization, species and ecosystems have been integral in human cultures including languages, arts, foods, customs, beliefs, and values ***and biodiversity*** (akin to human diversity) serves as this living library and heritage.
 
 <br/>
 
@@ -268,7 +268,7 @@ meta(
 
 #### **Infrastructure**
 
-> ####  Robust critical infrastructure of water, energy, food, and commodity supply requires vital inputs ***and biodiversity*** provides water flow and quantity; food pollination and seed dispersal; and natural resources such as fiber, fuel, and timber.
+> ####  Robust critical infrastructure of water, energy, food, and commodity supply requires vital inputs ***and biodiversity*** provides water flow and quantity; food pollination and seed dispersal; and natural resources for fiber, fuel, and timber.
 
 <br/>
 
@@ -276,7 +276,7 @@ meta(
 
 #### **Survival**
 
-> ####  Essential human survival needs of air, water, food, and shelter requires a stable cimate and healthy ecosystems ***and biodiversity*** provides such habital existence for humans and many other species.
+> ####  Essential human survival needs of air, water, food, and shelter requires a stable climate and healthy ecosystems ***and biodiversity*** provides such habital existence for humans and many other species.
 
 <br/>
 
@@ -286,16 +286,16 @@ meta(
 
 <br/>
 
-<div class="accordion-wrapper" id="learnmore">
+<div class="accordion-wrapper" id="misunderstandings">
 <div class="accordion">
   <input type="radio" name="radio-a" id="check1">
   <label class="accordion-label" for="check1">Biodiversity loss is not as immediate an issue as climate change.</label>
   <div class="accordion-content">
   <p>Although the media and general public overlook biodiversity loss for various reasons, scientists have consistently asserted the devastating consequences of continued loss of biodiversity which is accelerating at unprecedented levels in human history.</p></br>
-  <p>Such loss negatively impacts ecosystem services such as life-critical needs of food production, soil formation, water availability, air quality, climate regulation, medicines, and still others. _See_ [**Reports**](reports.html) for discussion of this crisis over the last 50 years.</p>
+  <p>Such loss negatively impacts ecosystem services such as life-critical needs of food production, soil formation, water availability, air quality, climate regulation, medicines, and still others. _See_ [**Reports**](reports.html) discussing this crisis over the last 50 years.</p>
   <div class="banner">
   <img src="images/biodiversity_emergency_banner.png" alt="biodiversity emergency protest banner"/>
-  <p>Source: [Nature.com article](https://www.nature.com/articles/d41586-021-03781-z){target="_blank"}</p>
+  <p class="pic-source">Source: [Nature.com article](https://www.nature.com/articles/d41586-021-03781-z){target="_blank"}</p>
   </div>
   </div>
 </div>
@@ -307,7 +307,7 @@ meta(
   <p>In fact, climate is just one of several planetary boundaries of the Earth System which includes biodiversity, ozone, freshwater, land use, nitrogen and phosophorus cycle, chemicals, and others. _See_ [**Figures**](figures.html) for other diagrams of planetary boundaries.</p>
   <div class="banner">
   <img src="images/mahm_ecological_crises.jpg" alt="multiple ecological crises diagram"/>
-  <p>Source: [MAHB post](https://mahb.stanford.edu/blog/end-being-boundaries/){target="_blank"}</p>
+  <p class="pic-source">Source: [MAHB post](https://mahb.stanford.edu/blog/end-being-boundaries/){target="_blank"}</p>
   </div>
   </div>
 </div>
@@ -341,7 +341,7 @@ meta(
   <p>_See_ [**Quotes**](quotes.html) which includes the finding from IPBES's 2019 Global Assessment: the rate of extinction is ten to hundreds of times higher than the average background rate in the last 10 million years and is accelerating.</p>
   <div class="banner">
   <img src="images/anthropocene_diagram.png" alt="Anthropocene diagram"/>
-  <p>Source: [TheConversation.com article](https://theconversation.com/an-official-welcome-to-the-anthropocene-epoch-but-who-gets-to-decide-its-here-57113){target="_blank"}</p>
+  <p class="pic-source">Source: [TheConversation.com article](https://theconversation.com/an-official-welcome-to-the-anthropocene-epoch-but-who-gets-to-decide-its-here-57113){target="_blank"}</p>
   </div>
   </div>
 </div>
@@ -353,7 +353,7 @@ meta(
   <p>Even Sir Robert Watson, who either chaired or co-chaired all three global biodiversity assessments acknowledge in a [Guardian op-ed](https://www.theguardian.com/environment/2019/sep/19/biodiversity-touches-every-aspect-of-our-lives-so-why-has-its-loss-been-ignored){target="_blank"} how much biodiversity has been ignored despite its severity and critical importance.</p>
   <div class="banner">
   <img src="images/climate_biodiversity_media.jpg" alt="Climate and Biodiversity Media Area Chart"/>
-  <p>Source: [Frontiers paper](https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full){target="_blank"}</p>
+  <p class="pic-source">Source: [Frontiers paper](https://www.frontiersin.org/articles/10.3389/fevo.2017.00175/full){target="_blank"}</p>
   </div>
   </div>
 </div>
