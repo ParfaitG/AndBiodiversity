@@ -482,7 +482,9 @@
   }
   
   @media screen and (max-width: 750px) {
-      img {
+      .accordion-content img,
+      .table_container img, 
+      .footer_column img {
          height: auto;
       }
 
