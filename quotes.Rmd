@@ -33,7 +33,7 @@ $(function() {
 
 <br/>
 
-<div class="logo"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></div>
+<div class="logo"><a href="index.html"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></a></div>
 
 #### Read, cite, and share quotes from major reports regarding biodiversity loss.
 

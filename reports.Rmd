@@ -34,7 +34,7 @@ $(function() {
 
 <br/>
 
-<div class="logo"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></div>
+<div class="logo"><a href="index.html"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></a></div>
 
 #### Review key findings and links to major global reports over the last 50+ years regarding biodiversity loss and natural environment.
 
