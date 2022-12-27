@@ -20,10 +20,6 @@ output:
     margin: 5px;
     width: 200px;
   }
-  
-  .footer {
-     height: 120px;
-  }
 ```
 
 ```{js, echo=FALSE}

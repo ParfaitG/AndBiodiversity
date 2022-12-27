@@ -19,10 +19,6 @@ output:
     margin: 5px;
     width: 200px;
   }
-
-  .footer {
-     height: 150px;
-  }
 ```
 
 ```{js, echo=FALSE}
@@ -508,8 +504,7 @@ goals, such as those embodied in the Aichi Biodiversity Targets and the 2030 Age
       <td><h3>Plant<br/>Pollination</h3></td>
       <td><span data-text="The capacity to sequester carbon by marine and terrestrial environments serves as a selected indicator for regulation of ocean acidification (IPBES GA)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></span></td>
       <td><h3>Ocean Acidification<br/>Regulation</h3></td>
-      <td><span data-text="Protection and restoration of wetlands, peatlands and coastal habitats reduces net
-carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) and provides continued or restored natural CO2 (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></span></td>
+      <td><span data-text="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere and provides continued or restored natural CO2 (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></span></td>
       <td><h3>Climate<br/>Regulation</h3></td>
       <td><span data-text="Decline and disappearance of large herbivores and predators has dramatically affected the structure, fire regimes, seed dispersal, land surface albedo and nutrient availability within many ecosystems (IPBES GA)" tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></span></td>
       <td><h3>Seed<br/>Dispersal</h3></td>

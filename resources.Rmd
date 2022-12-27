@@ -19,11 +19,6 @@ output:
      margin: 5px;
      width: 200px;
   }
-
-  .footer {
-     height: 100px;
-     margin: 0px 0px -60px 0px;
-  }
 ```
 
 ```{js, echo=FALSE}
@@ -47,14 +42,14 @@ $(function() {
 
 <br/>
 
-#### [**AndBiodiversity**](https://github.com/ParfaitG/AndBiodiversity)
+#### [**AndBiodiversity**](https://github.com/ParfaitG/AndBiodiversity){target="_blank"}
 
 RMarkdown site created by ParfaitG with source code.
 
 <br/>
 
 <div class="repo_page">
- <a href="https://github.com/ParfaitG/AndBiodiversity" target="blank">
+ <a href="https://github.com/ParfaitG/AndBiodiversity" target="_blank">
    <img src="images/github_andbiodiversity.png" alt="GitHub AndBiodiversity Mobile Image" title="GitHub AndBiodiversity Page"/>
  </a>
 </div>

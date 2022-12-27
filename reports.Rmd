@@ -19,11 +19,6 @@ output:
      margin: 5px;
      width: 200px;
   }
-  
-  .footer {
-     height: 120px;
-     margin: 0px auto -40px auto;
-  }
 ```
 
 ```{js, echo=FALSE}
@@ -102,7 +97,7 @@ $(function() {
      <img class="report_img" src="images/report_bli2022.png" alt="BLI 2022 report cover"/>
   </a>
   
-  #### Being widely distributed, relatively easy to survey, and responsive to environmental change, birds are useful ***biodiversity*** indicators, revealing wider trends in natural ecosystems...One in eight bird species is threatened with extinction, and the status of the world’s birds continues to deteriorate: species are moving ever faster towards extinction. For those not yet considered threatened, the majority are in decline and have much-depleted populations. [***See* report**](https://www.birdlife.org/papers-reports/state-of-the-worlds-birds-2022/){target="_blank"}. [***Download* report**](https://app.box.com/s/6brx9j6yo4xlzxc6uc87pgy7oqehhu0v){target="_blank"}.
+  #### Being widely distributed, relatively easy to survey, and responsive to environmental change, birds are useful ***biodiversity*** indicators, revealing wider trends in natural ecosystems...One in eight bird species is threatened with extinction, and the status of the world’s birds continues to deteriorate: species are moving ever faster towards extinction. For those not yet considered threatened, the majority are in decline and have much-depleted populations. The pressures causing these losses of our natural heritage are well understood, and the vast majority are driven by human actions. The principal threats include: agricultural expansion and intensification, unsustainable logging, invasive alien species, overexploitation and climate change...Most species are impacted by combinations of these threats, and some threats exacerbate others. [***See* report**](https://www.birdlife.org/papers-reports/state-of-the-worlds-birds-2022/){target="_blank"}. [***Download* report**](https://app.box.com/s/6brx9j6yo4xlzxc6uc87pgy7oqehhu0v){target="_blank"}.
 
   <br/>
   
@@ -583,7 +578,7 @@ $(function() {
   
   </div>
 
-- #### <a href="####" data-toggle="collapse" data-target="#ramsar2018">Ramsar: Global Wetlook Outlook - State of the World’s Wetlands</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#ramsar2018">Ramsar: Global Wetland Outlook - State of the World’s Wetlands</a> 
 
   <div id="ramsar2018" class="collapse">  
 
@@ -1581,11 +1576,9 @@ $(function() {
   
   </div>
 
----
+# {-}
 
-#
-
----
+<br/>
 
 #### Why _And Biodiversity_? To study the issues:
 
