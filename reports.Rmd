@@ -131,7 +131,7 @@ $(function() {
   
   </div>
 
-- #### <a href="####" data-toggle="collapse" data-target="#faofish2022">FAO: The State of World Fisheries and Aquaculture (SOFIA) 2022</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#faofish2022">FAO: The State of World Fisheries and Aquaculture 2022</a> 
 
   <div id="faofish2022" class="collapse">  
   
@@ -159,7 +159,7 @@ $(function() {
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#faoforests2022">FAO: The State of the World's Forests (SOFO) 2022</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#faoforests2022">FAO: The State of the World's Forests 2022</a> 
 
   <div id="faoforests2022" class="collapse">  
   
@@ -181,7 +181,7 @@ $(function() {
     <img class="report_img" src="images/report_ipcc6ar2_2022.png" alt="IPCC Sixth Assessment Part 2 report cover"/>
   </a>
   
-  #### This report recognizes the interdependence of climate, ***ecosystems and biodiversity***, and human societies (Figure SPM.1) and integrates knowledge more strongly across the natural, ecological, social and economic sciences than earlier IPCC assessments. The assessment of climate change impacts and risks as well as adaptation is set against concurrently unfolding non-climatic global trends e.g., ***biodiversity loss***, overall unsustainable consumption of natural resources, land and ecosystem degradation, rapid urbanisation, human demographic shifts, social and economic inequalities and a pandemic [***See* report**](https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/){target="_blank"}. [***Download* report**](https://app.box.com/s/npm518xp2j5mi1tp6sq6xby6h63lgcwo){target="_blank"}.
+  #### This report recognizes the interdependence of climate, ***ecosystems and biodiversity***, and human societies and integrates knowledge more strongly across the natural, ecological, social and economic sciences than earlier IPCC assessments. The assessment of climate change impacts and risks as well as adaptation is set against concurrently unfolding non-climatic global trends e.g., ***biodiversity loss***, overall unsustainable consumption of natural resources, land and ecosystem degradation, rapid urbanisation, human demographic shifts, social and economic inequalities and a pandemic. [***See* report**](https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/){target="_blank"}. [***Download* report**](https://app.box.com/s/npm518xp2j5mi1tp6sq6xby6h63lgcwo){target="_blank"}.
 
   <br/>
   
@@ -520,10 +520,10 @@ $(function() {
   <div id="unepfr2019" class="collapse">  
 
   <a href="https://www.unep.org/resources/frontiers-201819-emerging-issues-environmental-concern" target="_blank">
-    <img class="report_img" src="images/report_unepfr2019.png" alt="... report cover"/>
+    <img class="report_img" src="images/report_unepfr2019.png" alt="OECD 2019 report cover"/>
   </a>
   
-  #### The world is facing unprecedented challenges to a healthy and sustainable future. Habitat destruction, invasive species, and overexploitation are contributing to immense ***biodiversity loss***. Unsustainable, extractive industry practices further burden the environment, and by extension, human welfare. Vector-borne infectious diseases pose a major threat to global health. Rapid climate change is likely to expand the geographical range of tropical diseases and further stress already taxed species and ecosystems.[***See* report**](https://www.unep.org/resources/frontiers-201819-emerging-issues-environmental-concern){target="_blank"}. [***Download* report**](https://app.box.com/s/76vf8heur2ok1ntg1hw9vtovqj3dw9e8){target="_blank"}.
+  #### The world is facing unprecedented challenges to a healthy and sustainable future. Habitat destruction, invasive species, and overexploitation are contributing to immense ***biodiversity loss***. Unsustainable, extractive industry practices further burden the environment, and by extension, human welfare. Vector-borne infectious diseases pose a major threat to global health. Rapid climate change is likely to expand the geographical range of tropical diseases and further stress already taxed species and ecosystems. [***See* report**](https://www.unep.org/resources/frontiers-201819-emerging-issues-environmental-concern){target="_blank"}. [***Download* report**](https://app.box.com/s/76vf8heur2ok1ntg1hw9vtovqj3dw9e8){target="_blank"}.
 
   <br/>
   
@@ -572,7 +572,7 @@ $(function() {
     <img class="report_img" src="images/report_ipccsr2018.png" alt="IPCCC 2018 special report cover"/>
   </a>
 
-  #### Human activities are estimated to have caused approximately 1.0°C of global warming above pre-industrial levels, with a likely range of 0.8°C to 1.2°C. Global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate...On land, impacts on ***biodiversity and ecosystems***, including species loss and extinction, are projected to be lower at 1.5°C of global warming compared to 2°C. Limiting global warming to 1.5°C compared to 2°C is projected to lower the impacts on terrestrial, freshwater and coastal ecosystems and to retain more of their services to human. [***See* report**](https://www.ipcc.ch/sr15/){target="_blank"}. [***Download* report**](https://app.box.com/s/vvez8ipnol8wq1bu78laypbhav1w0wrq){target="_blank"}.
+  #### Human activities are estimated to have caused approximately 1.0°C of global warming above pre-industrial levels, with a likely range of 0.8°C to 1.2°C. Global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate...On land, impacts on ***biodiversity and ecosystems***, including species loss and extinction, are projected to be lower at 1.5°C of global warming compared to 2°C. Limiting global warming to 1.5°C compared to 2°C is projected to lower the impacts on terrestrial, freshwater and coastal ecosystems and to retain more of their services to humans. [***See* report**](https://www.ipcc.ch/sr15/){target="_blank"}. [***Download* report**](https://app.box.com/s/vvez8ipnol8wq1bu78laypbhav1w0wrq){target="_blank"}.
 
   <br/>
   
@@ -628,7 +628,7 @@ $(function() {
     <img class="report_img" src="images/report_faofish2018.png" alt="FAO Fisheries 2018 report cover"/>
   </a>
 
-  #### The state of marine fishery resources, based on FAO’s monitoring of assessed marine fish stocks, has continued to decline. The fraction of marine fish stocks fished within biologically sustainable levels has exhibited a decreasing trend, from 90.0 percent in 1974 to 66.9 percent in 2015. In contrast, the percentage of stocks fished at biologically unsustainable levels increased from 10 percent in 1974 to 33.1 percent in 2015, with the largest increases in the late 1970s and 1980s. In 2015, maximally sustainably fished stocks (formerly termed fully fished stocks) accounted for 59.9 percent and underfished stocks for 7.0 percent of the total assessed stocks. The underfished stocks decreased continuously from 1974 to 2015, whereas the maximally sustainably fished stocks decreased from 1974 to 1989, and then increased to 59.9 percent in 2015, partly as a result of increased implementation of management measures...The persistence of overfished stocks is an area of great concern. The United Nations Sustainable Development Goals (SDGs) include a target (14.4) or regulating har vesting, ending overfishing and restoring stocks to levels that can produce maximum sustainable yield (MSY) in the shortest time feasible. However, it seems unlikely that the world’s fisheries can rebuild the 33.1 percent of stocks that are currently overfished in the very near future, because rebuilding requires time, usually two to three times the species’ life span. [***See* report**](https://www.fao.org/publications/card/en/c/I9540EN){target="_blank"}. [***Download* report**](https://app.box.com/s/z2jh7my3mrdg5yw5s2ljktxun1qoggon){target="_blank"}.
+  #### The state of marine fishery resources, based on FAO’s monitoring of assessed marine fish stocks, has continued to decline. The fraction of marine fish stocks fished within biologically sustainable levels has exhibited a decreasing trend, from 90.0 percent in 1974 to 66.9 percent in 2015. In contrast, the percentage of stocks fished at biologically unsustainable levels increased from 10 percent in 1974 to 33.1 percent in 2015, with the largest increases in the late 1970s and 1980s. In 2015, maximally sustainably fished stocks (formerly termed fully fished stocks) accounted for 59.9 percent and underfished stocks for 7.0 percent of the total assessed stocks...The persistence of overfished stocks is an area of great concern. [***See* report**](https://www.fao.org/publications/card/en/c/I9540EN){target="_blank"}. [***Download* report**](https://app.box.com/s/z2jh7my3mrdg5yw5s2ljktxun1qoggon){target="_blank"}.
 
   <br/>
   
@@ -656,7 +656,7 @@ $(function() {
     <img class="report_img" src="images/report_faoforests2018.png" alt="FAO Forests 2018 report cover"/>
   </a>
 
-  #### Forests and trees make vital contributions both to people and the planet, bolstering livelihoods, providing clean air and water, conserving ***biodiversity*** and responding to climate change...Deforestation, chiefly caused by the conversion of forest land to agriculture and livestock areas, threatens not only the livelihoods of foresters, forest communities and indigenous peoples, but also the variet y of life on our planet. Land-use changes result in a loss of valuable habitats, land degradation, soil erosion, a decrease in clean water, and the release of carbon into the atmosphere. How to increase agricultural production and improve food security without reducing forest area is one of the great challenges of our times. [***See* report**](https://www.fao.org/publications/card/en/c/I9535EN){target="_blank"}. [***Download* report**](https://app.box.com/s/4w68w8kebtl6mkqjry32kyslubixpxsc){target="_blank"}.
+  #### Forests and trees make vital contributions both to people and the planet, bolstering livelihoods, providing clean air and water, conserving ***biodiversity*** and responding to climate change...Deforestation, chiefly caused by the conversion of forest land to agriculture and livestock areas, threatens not only the livelihoods of foresters, forest communities and indigenous peoples, but also the variety of life on our planet. Land-use changes result in a loss of valuable habitats, land degradation, soil erosion, a decrease in clean water, and the release of carbon into the atmosphere. How to increase agricultural production and improve food security without reducing forest area is one of the great challenges of our times. [***See* report**](https://www.fao.org/publications/card/en/c/I9535EN){target="_blank"}. [***Download* report**](https://app.box.com/s/4w68w8kebtl6mkqjry32kyslubixpxsc){target="_blank"}.
 
   <br/>
   
@@ -1588,7 +1588,7 @@ $(function() {
   <table id="bottom_icons">
    <tr>
       <td><span data-text="100 million hectares of agricultural expansion in the tropics occurred from 1980 to 2000, mainly cattle ranching in Latin America (+/-42 million ha), and plantations in Southeast Asia (+/-7.5 million ha, of which 80% is oil palm), half of it at the expense of intact forests (IPBES GA)" tabindex="0"><img class="report_img" src="images/stick_figure_tree_green.png" alt="tree icon"/></span></td>
-      <td><h3>Deforestation</h3></td>
+      <td><h3>De-<br/>forestation</h3></td>
       <td><span data-text="For terrestrial and freshwater ecosystems, land-use change has had the largest relative negative impact on nature since 1970, followed by the direct exploitation, in particular overexploitation, of animals, plants and other organisms, mainly via harvesting, logging, hunting and fishing. (IPBES GA)" tabindex="0"><img class="report_img" src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span></td>
       <td><h3>Over-<br/>exploitation</h3></td>
       <td><span data-text="Industrial fishing covers over 55% of ocean area (IPBES GA)" tabindex="0"><img class="report_img" src="images/stick_figure_fish_blue.png" alt="fish icon"/></span></td>

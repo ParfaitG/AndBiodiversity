@@ -313,15 +313,15 @@ $(function() {
 <table id="bottom_icons">
    <tr>
       <td><span data-text="Measures such as the diversification of planted crop and forest species, agroforestry and agroecology enhance biodiversity and nature’s contributions to people in landscapes focused on the production of food, feed, fibre, or energy (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></span></td>
-      <td><h3>Agroforestry</h3></td>
+      <td><h3>Agro-<br/>forestry</h3></td>
       <td><span data-text="The 'scape approach includes networks of protected areas and corridors, 'working' or 'managed' 'scapes modified for human use, and profoundly transformed ecosystems, such as urban and intensively farmed areas (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span></td>
       <td><h3>Wildlife<br/>Corridor</h3></td>
       <td><span data-text="Reducing overfishing and bycatch, as well as focusing new aquaculture activities on low trophic level species and broadening the range of species cultivated could both increase global seafood production and reduce impact to the environment and biodiversity (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></span></td>
-      <td><h3>Aquaculture</h3></td>
+      <td><h3>Aqua-<br/>culture</h3></td>
       <td><span data-text="Nature-based solutions for coastal flood protection, such as using natural coastal habitats (vegetation or coral reefs) to provide protection from flooding during storm events (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></span></td>
       <td><h3>Coastal<br/>Restoration</h3></td>
       <td><span data-text="Reducing greenhouse gas (GHGs) emissions through the development of renewable energies in the transport and energy sector are important options for mitigating climate change (IPBES-IPCC)." tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></span></td>
-      <td><h3>Decarbonization</h3></td>
+      <td><h3>De-<br/>carbonization</h3></td>
    </tr>
    <tr>
       <td><span data-text="Irrigated rice agriculture has evolved over centuries and led to a well-balanced food web in paddies with an insect diversity even higher than in many (pristine) temperate forests. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></span></td>
@@ -333,7 +333,7 @@ $(function() {
       <td><span data-text="Trophic rewilding, is a measure to enhance biodiversity and can also contribute to ecosystem restoration (IPBES-IPCC)." tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></td>
       <td><h3>Trophic<br/>Rewilding</h3></span></td>
       <td><span data-text="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></span></td>
-      <td><h3>Agroecology</h3></td>
+      <td><h3>Agro-<br/>ecology</h3></td>
    </tr>
 </table>
 </div>

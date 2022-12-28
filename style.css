@@ -483,7 +483,7 @@
   
   @media screen and (max-width: 750px) {
       .accordion-content img,
-      .table_container img, 
+      .table_container img,
       .footer_column img {
          height: auto;
       }
@@ -527,27 +527,38 @@
       #bottom_icons img:focus {
          opacity: 0.8
       }
-      #bottom_icons tr,
+
+      #bottom_icons tr > *{
+        display: block;
+      }
+      #bottom_icons tr {
+        display: table-cell;
+        text-align: center
+      }
+      #bottom_icons h3 {
+          font-size: 2vh;
+      }
+	  #bottom_icons img {
+		 padding: 10px;
+		 height: 75px;
+		 width: auto;
+		 z-index: -1;
+	  }
+
       .icons tr,
       .docs tr {
           display: block;
           margin-bottom: .625em;
       }
-      #bottom_icons td,
       .icons td,
       .docs td {
           display: block;
           text-align: center;
       }
-      #bottom_icons h3 {
-          font-size: 2vh;
-      }
-      #bottom_icons td.img,
       .icons td.img,
       .docs td.img {
           width: 150px;
       }
-      #bottom_icons td::before,
       .icons td::before,
       .docs td::before {
           float: left;
@@ -586,19 +597,19 @@
       justify-content: center;
     }
     
-    td:nth-child(4n+1) span[data-text]:focus,
+    tr:nth-child(1) td span[data-text]:focus,
     div span[data-text]:focus {
       opacity: 0.7
     }
     
-    td:nth-child(4n+1) span[data-text]:focus::after {
+    tr:nth-child(1) td span[data-text]:focus::after {
       position: absolute;
       content: attr(data-text);
       text-transform: none;
       text-align: center;
       line-height: normal;
       top: 10%;
-      left: -100%;
+      left: -80%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
@@ -607,24 +618,24 @@
       font-size: 10px;
     }
     
-    td:nth-child(4n+1) span[data-text]:focus::before {
+    tr:nth-child(1) td span[data-text]:focus::before {
       position: absolute;
       content: "";
       width: 0;
       height: 0;
       top: 25%;
-      left: -21%;
+      left: 5%;
       border-top: 12px solid transparent;
       border-bottom: 12px solid transparent;
       border-right: 12px solid transparent;
       border-left: 14px solid black;
     }
     
-    td:nth-child(4n-1) span[data-text]:focus {
+    tr:nth-child(2) td span[data-text]:focus {
       opacity: 0.7
     }
     
-    td:nth-child(4n-1) span[data-text]:focus::after,
+    tr:nth-child(2) td span[data-text]:focus::after,
     div span[data-text]:focus::after {
       position: absolute;
       content: attr(data-text);
@@ -632,7 +643,7 @@
       text-align: center;
       line-height: normal;
       top: 10%;
-      left: 120%;
+      left: 100%;
       color: #fff;
       background-color: black;
       border-radius: 10px;
@@ -641,14 +652,14 @@
       font-size: 10px;
     }
     
-    td:nth-child(4n-1) span[data-text]:focus::before,
+    tr:nth-child(2) td span[data-text]:focus::before,
     div span[data-text]:focus::before  {
       position: absolute;
       content: "";
       width: 0;
       height: 0;
       top: 25%;
-      left: 107%;
+      left: 87%;
       border-top: 12px solid transparent;
       border-bottom: 12px solid transparent;
       border-right: 14px solid black;

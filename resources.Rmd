@@ -436,9 +436,9 @@ RMarkdown site created by ParfaitG with source code.
 <table id="bottom_icons">
    <tr>
       <td><span data-text="Reforestation or restoration of degraded forests and woodlands with indigenous species plays a role in addressing losses of biodiversity and ecosystem services, including through recovering the soil carbon stocks of these ecosystems (IPBES-IPCC)" tabindex="0"><img class="img" src="images/stick_figure_tree_green.png" alt="tree icon"/></span></td>
-      <td><h3>Reforestation</h3></td>
+      <td><h3>Re-<br/>forestation</h3></td>
       <td><span data-text="Some recent analysis have discussed the impact of rewilding on ecosystem carbon cycling and hence climate change mitigation, given the effects animals and trophic cascades have on biomass consumption, carbon turnover, or methane emissions (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span></td>
-      <td><h3>Rewilding</h3></td>
+      <td><h3>Re-<br/>wilding</h3></td>
       <td><span data-text="Fisheries management currently does not take into account the potential role of exploited species in the carbon cycle and in biogeochemical processes, nor does it consider the potential for carbon release from sediment disturbance (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></span></td>
       <td><h3>Sustainable<br/>Fishing</h3></td>
       <td><span data-text="Many efforts are undertaken to green cities with multiple co-benefits for human well-being, with the potential to connect to surrounding natural or managed areas, and contribute to both biodiversity conservation and climate change mitigation regionally (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></span></td>

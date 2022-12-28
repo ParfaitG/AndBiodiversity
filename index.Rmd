@@ -109,7 +109,7 @@ meta(
 
 #### **Media**
 
-> #### "We continue to provide the latest coverage on politics, the economy, and the environment including climate change ***and biodiversity loss***."
+> #### "We continue to provide the latest coverage on politics, the economy, and the environment including climate change, pollution, ***and biodiversity loss***."
 
 <br/>
 
@@ -117,7 +117,7 @@ meta(
 
 #### **Politics**
 
-> #### "Balanced budget, economic growth, infrastructure, healthcare, immigration, climate change ***and biodiversity loss*** are all on the ballot this election."
+> #### "Balanced budget, economic growth, infrastructure, healthcare, immigration, climate change, pollution, ***and biodiversity loss*** are all on the ballot this election."
 
 <br/>
 
@@ -125,7 +125,7 @@ meta(
 
 #### **Business**
 
-> #### "We forecast in next fiscal year losses due to inflation, supply chain, taxation, debt restructuring, climate change ***and biodiversity loss***."
+> #### "We forecast in next fiscal year losses due to inflation, supply chain, taxation, debt restructuring, pollution, climate change, ***and biodiversity loss***."
 
 <br/>
 
@@ -133,7 +133,7 @@ meta(
 
 #### **Education**
 
-> #### "Class, following math and reading we will continue our lesson on the environment with issues very important to the Earth: climate change ***and biodiversity loss***."
+> #### "Class, following math and reading we will continue our lesson on the environment with issues very important to the Earth: climate change, pollution, ***and biodiversity loss***."
 
 <br/>
 
@@ -141,7 +141,7 @@ meta(
 
 #### **Activism**
 
-> #### "Save our planet from Global Inequality, Extreme Poverty, Infectious Diseases, Climate Change ***and Biodiversity Loss!***"
+> #### "Save our planet from Global Inequality, Extreme Poverty, Infectious Diseases, Pollution, Climate Change, ***and Biodiversity Loss!***"
 
 <br/>
 
@@ -149,7 +149,7 @@ meta(
 
 #### **Civil Society**
 
-> #### "You know I'm really starting to worry about the economy, political division, healthcare, climate change ***and biodiversity loss***."
+> #### "You know I'm really starting to worry about the economy, political division, healthcare, climate change, pollution, ***and biodiversity loss***."
 
 <br/>
 

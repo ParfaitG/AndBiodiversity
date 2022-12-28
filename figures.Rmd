@@ -196,7 +196,7 @@ pixgallery(names(figs), caption=unname(figs))
       <td><span data-text="The global biomass of wild mammals has fallen by 82 per cent since prehistory (IPBES GA)" tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></span></td>
       <td><h3>Global<br/>Biomass</h3></td>
       <td><span data-text="Over 33% of world’s land surface (and +/-75% of freshwater resources) devoted to crop or livestock production (IPBES GA)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></span></td>
-      <td><h3>Agriculture</h3></td>
+      <td><h3>Agri-<br/>culture</h3></td>
    </tr>
 </table>
 </div>
