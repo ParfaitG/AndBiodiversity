@@ -56,7 +56,7 @@ $(function() {
   </a>
 
   #### With sufficient finance, nature-based solutions (NbS) provide the means to cost-effectively reach climate, ***biodiversity*** and land degradation neutrality targets, particularly if investments simultaneously contribute to ***biodiversity***, climate and restoration targets. This "double" or "triple" win potential is particularly alluring given the current economic situation...Delayed action is no longer an option in the face of the devastating effects of climate change, the extinction crisis and severe land degradation globally. Politicians, business and finance leaders and citizens globally must transform their relationship with nature to work with it rather than against it...Private sector investment in NbS must increase by several orders of magnitude in the coming years...Nature-negative expenditures far outweigh investments in nature-based solutions...It is critical to rapidly align policies, regulation, economic activity and financial flows with ***biodiversity*** values and with the Paris Agreement. [***See* report**](https://www.unep.org/resources/report/state-finance-nature-2022){target="_blank"}. [***Download* report**](https://app.box.com/s/9qqzash0tsmu7ko9aqdkxa65ekq2dbdh){target="_blank"}.
-
+  
   <br/>
   
   </div>
@@ -84,7 +84,7 @@ $(function() {
   </a>
   
   #### Today we face the double, interlinked emergencies of human-induced climate change and the ***loss of biodiversity***, threatening the well-being of current and future generations. As our future is critically dependent on ***biodiversity*** and a stable climate, it is essential that we understand how nature’s decline and climate change are connected...Land-use change is still the biggest current threat to nature, destroying or fragmenting the natural habitats of many plant and animal species on land, in freshwater and in the sea. However, if we are unable to limit warming to 1.5°C, climate change is likely to become the dominant cause of ***biodiversity loss*** in the coming decades. [***See* report**](https://livingplanet.panda.org/en-us/){target="_blank"}. [***Download* report**](https://app.box.com/s/se8qtu19i75drevj6wzuth7ex6rn1f5c){target="_blank"}.
-
+  
   <br/>
   
   </div>
@@ -98,7 +98,7 @@ $(function() {
   </a>
   
   #### Being widely distributed, relatively easy to survey, and responsive to environmental change, birds are useful ***biodiversity*** indicators, revealing wider trends in natural ecosystems...One in eight bird species is threatened with extinction, and the status of the world’s birds continues to deteriorate: species are moving ever faster towards extinction. For those not yet considered threatened, the majority are in decline and have much-depleted populations. The pressures causing these losses of our natural heritage are well understood, and the vast majority are driven by human actions. The principal threats include: agricultural expansion and intensification, unsustainable logging, invasive alien species, overexploitation and climate change...Most species are impacted by combinations of these threats, and some threats exacerbate others. [***See* report**](https://www.birdlife.org/papers-reports/state-of-the-worlds-birds-2022/){target="_blank"}. [***Download* report**](https://app.box.com/s/6brx9j6yo4xlzxc6uc87pgy7oqehhu0v){target="_blank"}.
-
+  
   <br/>
   
   </div>
@@ -112,7 +112,7 @@ $(function() {
   </a>
   
   #### Land resources – soil, water, and ***biodiversity*** – provide the foundation for the wealth of our societies and economies. They meet the growing needs and desires for food, water, fuel, and other raw materials that shape our livelihoods and lifestyles. However, the way we currently manage and use these natural resources is threatening the health and continued survival of many species on Earth, including our own. [***See* report**](https://unccd.int/resources/global-land-outlook/glo2){target="_blank"}. [***Download* report**]( https://app.box.com/s/3qvvry3v5wcwqa43xtiyrvmdzqs5rubc){target="_blank"}.
-
+  
   <br/>
   
   </div>
@@ -131,7 +131,7 @@ $(function() {
   
   </div>
 
-- #### <a href="####" data-toggle="collapse" data-target="#faofish2022">FAO: The State of World Fisheries and Aquaculture 2022</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#faofish2022">FAO: The State of World Fisheries and Aquaculture</a> 
 
   <div id="faofish2022" class="collapse">  
   
@@ -159,7 +159,7 @@ $(function() {
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#faoforests2022">FAO: The State of the World's Forests 2022</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#faoforests2022">FAO: The State of the World's Forests</a> 
 
   <div id="faoforests2022" class="collapse">  
   
@@ -752,7 +752,7 @@ $(function() {
     <img class="report_img" src="images/report_faofish2016.png" alt="FAO Fisheries 2016 report cover"/>
   </a>
 
-  #### Many millennia after terrestrial food production shifted from hunter-gatherer activities to agriculture, aquatic food production has transitioned from being primarily based on capture of wild fish to culture of increasing numbers of farmed species. A milestone was reached in 2014 when the aquaculture sector’s contribution to the supply of fish for human consumption overtook that of wild-caught fish for the first time. Meeting the ever-growing demand for fish as food in conformit y with the 2030 Agenda will be imperative, and also immensely challenging...With capture fisher y production relatively static since the late 1980s, aquaculture has been responsible for the impressive growth in the supply of fish for human consumption...Growth in the global supply of fish for human consumption has outpaced population growth in the past five decades, increasing at an average annual rate of 3.2 percent in the period 1961–2013, double that of population growth, resulting in increasing average per   capita availability...Thus, governance needs to ensure that fisheries and aquaculture adapt to the impacts of climate change and improve the resilience of food production systems. [***See* report**](https://www.fao.org/publications/card/en/c/2c8bcf47-2214-4aeb-95b0-62ddef8a982a){target="_blank"}. [***Download* report**](https://app.box.com/s/ncfj19wldqwit836b0o56c6b7qhvb59e){target="_blank"}.
+  #### Many millennia after terrestrial food production shifted from hunter-gatherer activities to agriculture, aquatic food production has transitioned from being primarily based on capture of wild fish to culture of increasing numbers of farmed species. A milestone was reached in 2014 when the aquaculture sector’s contribution to the supply of fish for human consumption overtook that of wild-caught fish for the first time. Meeting the ever-growing demand for fish as food in conformity with the 2030 Agenda will be imperative, and also immensely challenging...With capture fishery production relatively static since the late 1980s, aquaculture has been responsible for the impressive growth in the supply of fish for human consumption...Growth in the global supply of fish for human consumption has outpaced population growth in the past five decades, increasing at an average annual rate of 3.2 percent in the period 1961–2013, double that of population growth, resulting in increasing average per capita availability...Thus, governance needs to ensure that fisheries and aquaculture adapt to the impacts of climate change and improve the resilience of food production systems. [***See* report**](https://www.fao.org/publications/card/en/c/2c8bcf47-2214-4aeb-95b0-62ddef8a982a){target="_blank"}. [***Download* report**](https://app.box.com/s/ncfj19wldqwit836b0o56c6b7qhvb59e){target="_blank"}.
 
   <br/>
   
@@ -766,7 +766,7 @@ $(function() {
     <img class="report_img" src="images/report_kew2016.png" alt="Kew 2016 report cover"/>
   </a>
 
-  #### This is the first document to collate current knowledge on the state of the world’s plants. A large team of researchers has reviewed published literature, scrutinised global databases and synthesised new datasets. The output presented here represents a status report on our knowledge of global vegetation as it stands in 2016, including a synthesis of existing information about vascular plants (Figure 1), new findings emerging from the review process, and an update on current knowledge gaps. [***See* report**](https://kew.iro.bl.uk/concern/reports/f931f1de-72c7-46b4-b57c-28eb417c53ec?locale=en){target="_blank"}. [***Download* report**](https://app.box.com/s/y75p3ur5496xbp9dxtx7c5wm7f80xsgd){target="_blank"}.
+  #### This is the first document to collate current knowledge on the state of the world’s plants. A large team of researchers has reviewed published literature, scrutinised global databases and synthesised new datasets. The output presented here represents a status report on our knowledge of global vegetation as it stands in 2016, including a synthesis of existing information about vascular plants, new findings emerging from the review process, and an update on current knowledge gaps. [***See* report**](https://kew.iro.bl.uk/concern/reports/f931f1de-72c7-46b4-b57c-28eb417c53ec?locale=en){target="_blank"}. [***Download* report**](https://app.box.com/s/y75p3ur5496xbp9dxtx7c5wm7f80xsgd){target="_blank"}.
 
   <br/>
   
@@ -780,7 +780,7 @@ $(function() {
     <img class="report_img" src="images/report_faoforests2016.png" alt="FAO Forests 2016 report cover"/>
   </a>
 
-  #### There was a net forest loss of 7 million hectares per year in tropical countries in 2000–2010 and a net gain in agricultural land of 6 million hectares per year. The greatest net loss of forests and net gain in agricultural land over the period was in the low-income group of countries, where rural populations are growing. Large-scale commercial agriculture accounts for about 40 percent of deforestation in the tropics and subtropics, local subsistence agriculture for 33 percent, infrastructure for 10 percent, urban expansion for 10 percent and mining for 7 percent. There are significant regional variations, however: for example, commercial agriculture accounts for almost 70 percent of the deforestation in Latin America but for only one-third in Africa, where small-scale agriculture is a more significant driver of deforestation. Underlying factors affecting forest conversion include population growth and changing food consumption patterns; agricultural developments, such as changing markets, technological improvements and active policy interventions; land-tenure security; and the governance of land-use change. Forest losses in 2010–2015 (most of which was natural forest) were offset partially by a combination of natural expansion, often on abandoned agricultural land (2.2 million hectares per year), and the establishment of planted forests (3.1 million hectares per year). [***See* report**](https://www.fao.org/publications/card/en/c/ffed061b-82e0-4c74-af43-1a999a443fbf){target="_blank"}. [***Download* report**](https://app.box.com/s/85u2pbki3ylkb2ucl6mb4yxuvyjhjj8b){target="_blank"}.
+  #### There was a net forest loss of 7 million hectares per year in tropical countries in 2000–2010 and a net gain in agricultural land of 6 million hectares per year. The greatest net loss of forests and net gain in agricultural land over the period was in the low-income group of countries, where rural populations are growing. Large-scale commercial agriculture accounts for about 40 percent of deforestation in the tropics and subtropics, local subsistence agriculture for 33 percent, infrastructure for 10 percent, urban expansion for 10 percent and mining for 7 percent...Underlying factors affecting forest conversion include population growth and changing food consumption patterns; agricultural developments, such as changing markets, technological improvements and active policy interventions; land-tenure security; and the governance of land-use change. [***See* report**](https://www.fao.org/publications/card/en/c/ffed061b-82e0-4c74-af43-1a999a443fbf){target="_blank"}. [***Download* report**](https://app.box.com/s/85u2pbki3ylkb2ucl6mb4yxuvyjhjj8b){target="_blank"}.
 
   <br/>
   
@@ -800,7 +800,7 @@ $(function() {
     <img class="report_img" src="images/report_faosoil2015.png" alt="FAO Soil 2015 report cover"/>
   </a>
 
-  #### The main objectives of The State of the World’s Soil Resources are: (a) to provide a global scientific assessment of current and projected soil conditions built on regional data analysis and expertise; (b) to explore the implications of these soil conditions for food security, climate change, water quality and quantity, ***biodiversity***, and human health and wellbeing; and (c) to conclude with a series of recommendations for action by policymakers and other stakeholders [***See* report**](https://www.fao.org/documents/card/en/c/c6814873-efc3-41db-b7d3-2081a10ede50/){target="_blank"}. [***Download* report**](https://app.box.com/s/mz04bqevbbzac0psg4bl89k3z9zubegj){target="_blank"}.
+  #### "Soils are fundamental to life on earth." We know more about soil than ever before, yet perhaps a smaller percentage of people than at any point in human history would understand the truth of this statement. The proportion of human labour devoted to working the soil has steadily decreased through the past century, and hence the experience of direct contact with the soil has lessened in most regions. Soil is very different in this regard from food, energy, water and air, to which each of us requires constant and secure access. Yet human society as a whole depends more than ever before on products from the soil as well as on the more intangible services it provides for maintenance of the ***biosphere***. [***See* report**](https://www.fao.org/documents/card/en/c/c6814873-efc3-41db-b7d3-2081a10ede50/){target="_blank"}. [***Download* report**](https://app.box.com/s/mz04bqevbbzac0psg4bl89k3z9zubegj){target="_blank"}.
   
   <br/>
   
@@ -861,7 +861,7 @@ $(function() {
     <img class="report_img" src="images/report_protectedplanet2014.png" alt="Protected Planet 2014 report cover"/>
   </a>
 
-  #### About 209,000 protected areas (PAs) cover 15.4% of the planet’s terrestrial and inland water areas, and 3.4 % of the oceans. 8.4% of all marine areas within national jurisdiction (0-200 nautical miles) are covered protected areas while only 0.25% of marine areas beyond national jurisdiction are protected. Protected areas do not sufficiently cover areas of particular importance for ***biodiversity*** (only 22-23% are completely covered by PAs), and many terrestrial and marine ecoregions are still poorly represented. There is good evidence that effectively managed PAs conserve ***biodiversity and habitats***, on land and sea. However, by 2013, only 29% of the area of nationally designated PAs had been assessed for Protected Area Management Effectiveness (PAME). [***See* report**](https://www.iucn.org/content/protected-planet-report-2014){target="_blank"}. [***Download* report**](https://app.box.com/s/t2uyc1r0629chn8mrrlx44013a4ov2jz){target="_blank"}.
+  #### About 209,000 protected areas (PAs) cover 15.4% of the planet’s terrestrial and inland water areas, and 3.4 % of the oceans. 8.4% of all marine areas within national jurisdiction (0-200 nautical miles) are covered protected areas while only 0.25% of marine areas beyond national jurisdiction are protected. Protected areas do not sufficiently cover areas of particular importance for ***biodiversity*** (only 22-23% are completely covered by PAs), and many terrestrial and marine ecoregions are still poorly represented. There is good evidence that effectively managed PAs conserve ***biodiversity and habitats***, on land and sea. However, by 2013, only 29% of the area of nationally designated PAs had been assessed for Protected Area Management Effectiveness. [***See* report**](https://www.iucn.org/content/protected-planet-report-2014){target="_blank"}. [***Download* report**](https://app.box.com/s/t2uyc1r0629chn8mrrlx44013a4ov2jz){target="_blank"}.
 
   <br/>
   
@@ -886,7 +886,7 @@ $(function() {
 
 ### 2012
 
-- #### <a href="####" data-toggle="collapse" data-target="#unep2012">UNEP: Fifth Global Environment Outlook Report: Environment for the Future We Want</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#unep2012">UNEP: Global Environment Outlook 5</a> 
 
   <div id="unep2012" class="collapse">  
 
@@ -894,7 +894,7 @@ $(function() {
     <img class="report_img" src="images/report_unep2012.png" alt="UNEP 2012 report cover"/>
   </a>
 
-  #### Within the Earth System – which acts as a single, self-regulating system comprised of physical, chemical, biological and human components – the effects of human activities can be detected at a planetary scale (Chapter 7). These have led scientists to define a new geological epoch, the Anthropocene, based on evidence that atmospheric, geological, hydrological, biological and other Earth System processes are being altered by human activity. The most readily recognized changes include a rise in global temperatures and sea levels, and ocean acidification, all associated with the increase in emissions of greenhouse gases, especially carbon dioxide and methane (Chapters 2 and 4). Other human-induced changes include extensive deforestation and land clearance for agriculture and urbanization, causing species extinctions as natural habitats are destroyed (Chapters 3 and 5). [***See* report**](https://www.unep.org/resources/global-environment-outlook-5){target="_blank"}. [***Download* report**](https://app.box.com/s/of1jelfupedjf5nvb03s50zmg1dlsbye){target="_blank"}.
+  #### Within the Earth System – which acts as a single, self-regulating system comprised of physical, chemical, biological and human components – the effects of human activities can be detected at a planetary scale. These have led scientists to define a new geological epoch, the Anthropocene, based on evidence that atmospheric, geological, hydrological, biological and other Earth System processes are being altered by human activity. The most readily recognized changes include a rise in global temperatures and sea levels, and ocean acidification, all associated with the increase in emissions of greenhouse gases, especially carbon dioxide and methane. Other human-induced changes include extensive deforestation and land clearance for agriculture and urbanization, causing species extinctions as natural habitats are destroyed. [***See* report**](https://www.unep.org/resources/global-environment-outlook-5){target="_blank"}. [***Download* report**](https://app.box.com/s/of1jelfupedjf5nvb03s50zmg1dlsbye){target="_blank"}.
 
   <br/>
   
@@ -969,7 +969,7 @@ $(function() {
 
 ### 2010
 
-- #### <a href="####" data-toggle="collapse" data-target="#unep2010">UNEP: Dead planet, living planet: biodiversity and ecosystem restoration for sustainable development</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#unep2010">UNEP: Dead Planet, Living Planet: Biodiversity and Ecosystem Restoration for Sustainable Development</a> 
 
   <div id="unep2010" class="collapse">  
 
@@ -997,7 +997,7 @@ $(function() {
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#jrc2010">European Atlas of Soil Biodiversity</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#jrc2010">JRC: European Atlas of Soil Biodiversity</a> 
 
   <div id="jrc2010" class="collapse">  
 
@@ -1005,7 +1005,7 @@ $(function() {
     <img class="report_img" src="images/report_jrc2010.png" alt="JRC 2010 report cover"/>
   </a>
 
-  #### ***Biodiversity loss*** and climate change are two of the most pressing challenges of or time. Soil ***biodiversity*** is part of the solution to both. The main goal of the atlas is to inform the general public, policy makers, land managers, teachers and the general scientific community of the unique characteristics of life in soil and raise awareness of its environmental importance and global significance. Soil contains at least one quarter to one third of all living organisms on the planet yet only around 1% of soil microorganisms have been identified compared to 80% of plants. Most terrestrial ecosystem processes that sustain life on the planet (e.g. soil fertility, nutrient cycles, greenhouse gas fluxes, pollution control, antibiotics, etc.) are in fact all driven by soil biology. However, life within the soil is complex to observe (i.e. small scale and mostly hidden away) and suffers greatly by being ‘out of sight and out of mind’. However, as identified in the EU Thematic Strategy for Soil Protection, land degradation and associated pressures are threatening soil ***biodiversity*** and, hence, the ability of the soil to perform its basic ecosystem functions and services. In addition, taking steps to protect soil ***biodiversity*** may be doubly useful as efforts to protect soil communities are very likely to help above ground habitats. [***See* report**](https://esdac.jrc.ec.europa.eu/content/atlas-soil-biodiversity){target="_blank"}. [***Download* report**](https://app.box.com/s/7qip4ghvrflqcwo07sp1mbtn6e88v23q){target="_blank"}.
+  #### ***Biodiversity loss*** and climate change are two of the most pressing challenges of our time. Soil ***biodiversity*** is part of the solution to both. The main goal of the atlas is to inform the general public, policy makers, land managers, teachers and the general scientific community of the unique characteristics of life in soil and raise awareness of its environmental importance and global significance. Soil contains at least one quarter to one third of all living organisms on the planet yet only around 1% of soil microorganisms have been identified compared to 80% of plants. Most terrestrial ecosystem processes that sustain life on the planet (e.g. soil fertility, nutrient cycles, greenhouse gas fluxes, pollution control, antibiotics) are in fact all driven by soil biology. However, life within the soil is complex to observe (i.e. small scale and mostly hidden away) and suffers greatly by being ‘out of sight and out of mind’. [***See* report**](https://esdac.jrc.ec.europa.eu/content/atlas-soil-biodiversity){target="_blank"}. [***Download* report**](https://app.box.com/s/7qip4ghvrflqcwo07sp1mbtn6e88v23q){target="_blank"}.
 
   <br/>
   
@@ -1577,6 +1577,14 @@ $(function() {
   </div>
 
 # {-}
+
+---
+
+### Reports Playlist
+
+<iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1547995132&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_playcount=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
+
+<sub>Note: This SoundCloud embed uses cookies in accordance to their [cookie policy](https://soundcloud.com/pages/cookies){target="_blank"}.</sub>
 
 <br/>
 
