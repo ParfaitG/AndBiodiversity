@@ -9,6 +9,22 @@ output:
       css: "style.css"
 ---
 
+```{r, echo=FALSE}
+library(metathis)
+
+meta(
+) |> meta_general(
+  description = "Online information resource to provide figures and graphs from major global reports regarding biodiversity loss."
+) |> meta_social(
+  url = "https://andbiodiversity.info/figures.html",
+  title = "And Biodiversity | Figures",
+  image = "https://www.andbiodiversity.info/images/favicon192x192.png",
+  image_alt = "The letter b in gold coloring",
+  og_type = "website",
+  og_site_name = "And Biodiversity | Figures"
+)
+```
+
 ```{css, echo=FALSE}
 
   .logo {
@@ -25,7 +41,12 @@ output:
 ```{js, echo=FALSE}
 $(function() {
   $('.main-container').after($('.footer'));
-})
+});
+
+$(document).ready(function(){
+  var random = Math.floor(Math.random() * $('.footer_box').length);
+  $('.footer_box').hide().eq(random).show();
+});
 ```
 
 <br/>
@@ -221,8 +242,48 @@ Any broad alarm of their hastening doom<br/>
 Is lost in the gloom of dust and ages...
   </div>
   <div class="footer_column"> 
--"On the Pulse of Morning" <br/>
+-"<a href="https://poets.org/poem/pulse-morning" target="_blank">On the Pulse of Morning</a>"<br/>
   Maya Angelou<br/>
+  </div>
+</div>
+
+<div class="footer_box">
+  <div class="footer_column" id="footer_label">
+  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
+  <div class="footer_column">
+To see the birth of day's transparent moon<br/>
+Far from cramped walls may fading afternoon<br/>
+Find me expectant on some rising lawn;<br/>
+Often depressed in dewy grass at dawn,
+  </div>
+  <div class="footer_column">
+Me, from sweet slumber underneath green boughs,<br/>
+Ere the stars flee may forest matins rouse,<br/>
+Afoot when the great sun in amber floods<br/>
+Pours horizontal through the steaming woods...
+  </div>
+  <div class="footer_column"> 
+-"<a href="https://www.gutenberg.org/files/617/617.txt" target="_blank">An Ode to Natural Beauty</a>"<br/>
+  Alan Seeger<br/>
+  </div>
+</div>
+
+<div class="footer_box">
+  <div class="footer_column" id="footer_label">
+  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
+  <div class="footer_column">
+Give me a land of boughs in leaf<br/>
+A land of trees that stand;<br/>
+Where trees are fallen, there is grief;<br/>
+I love no leafless land.
+  </div>
+  <div class="footer_column"> 
+-"<a href="https://kalliope.org/en/text/housman2002020508" target="_blank">Give me a land of boughs in leaf</a>"<br/>
+  A.E. Housman<br/>
   </div>
 </div>
 :::

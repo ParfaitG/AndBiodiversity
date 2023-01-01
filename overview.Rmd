@@ -9,6 +9,22 @@ output:
       css: "style.css"
 ---
 
+```{r, echo=FALSE}
+library(metathis)
+
+meta(
+) |> meta_general(
+  description = "Online information resource to provide high level overview of the other planetary emergency, biodiversity loss."
+) |> meta_social(
+  url = "https://andbiodiversity.info/overview.html",
+  title = "And Biodiversity | Overview",
+  image = "https://www.andbiodiversity.info/images/favicon192x192.png",
+  image_alt = "The letter b in gold coloring",
+  og_type = "website",
+  og_site_name = "And Biodiversity | Overview"
+)
+```
+
 ```{css, echo=FALSE}
   .logo {
     text-align: right;
@@ -24,7 +40,12 @@ output:
 ```{js, echo=FALSE}
 $(function() {
   $('.main-container').after($('.footer'));
-})
+});
+
+$(document).ready(function(){
+  var random = Math.floor(Math.random() * $('.footer_box').length);
+  $('.footer_box').hide().eq(random).show();
+});
 ```
 
 <br/>
@@ -361,6 +382,52 @@ quickened our pace more and more as the time sped by...<br/>
 -"48"<br/>
 Rabindranath Tagore<br/>
 <i>Gitanjali</i><br/>
+  </div>
+</div>
+
+<div class="footer_box">
+  <div class="footer_column" id="footer_label">
+  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
+  <div class="footer_column">
+...I am no longer deaf who hear<br/>
+The litany of Spring;<br/>
+The choir celestial of thrush and throstle,<br/>
+Of feathered breast and wing;
+  </div>
+  <div class="footer_column">
+The matin hymns of airy folk;<br/>
+The ave of the lark;<br/>
+The vesper trill of the whipporwill<br/>
+To usher in the dark...
+  </div>
+  <div class="footer_column">
+-"The Touch"<br/>
+Countee Cullen<br/>
+  </div>
+</div>
+
+<div class="footer_box">
+  <div class="footer_column" id="footer_label">
+  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
+  <div class="footer_column">
+The poetry of earth is never dead:<br/>
+When all the birds are faint with the hot sun,<br/>
+And hide in cooling trees, a voice will run<br/>
+From hedge to hedge about the new-mown mead –<br/>
+  </div>
+  <div class="footer_column">
+That is the Grasshopper’s. He takes the lead<br/>
+In summer luxury; he has never done<br/>
+With his delights, for when tired out with fun<br/>
+He rests at ease beneath some pleasant weed.
+  </div>
+  <div class="footer_column">
+-"<a href="https://poets.org/poem/grasshopper-and-cricket" target="_blank">On the Grasshopper and Cricket</a>"<br/>
+John Keats<br/>
   </div>
 </div>
 :::

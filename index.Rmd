@@ -8,19 +8,31 @@ output:
       css: "style.css"
 ---
 
-```{js, echo=FALSE}
-$(function() {
-  $('.main-container').after($('.footer'));
-})
-```
-
 ```{r, echo=FALSE}
 library(metathis)
 
 meta(
 ) |> meta_general(
   description = "Online information resource to study the other planetary crisis, biodiversity loss, with overview, reports, figures, quotes, and resources."
+) |> meta_social(
+  url = "https://andbiodiversity.info",
+  title = "And Biodiversity",
+  image = "https://www.andbiodiversity.info/images/favicon192x192.png",
+  image_alt = "The letter b in gold coloring",
+  og_type = "website",
+  og_site_name = "And Biodiversity"
 )
+```
+
+```{js, echo=FALSE}
+$(function() {
+  $('.main-container').after($('.footer'));
+});
+
+$(document).ready(function(){
+  var random = Math.floor(Math.random() * $('.footer_box').length);
+  $('.footer_box').hide().eq(random).show();
+});
 ```
 
 <div class="logo"><a href="index.html"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud" /></a></div>
@@ -418,8 +430,53 @@ That waked them into life. Even the green trees <br/>
 Partake the deep contentment...<br/>
   </div>
   <div class="footer_column"> 
--"Inscription for the Entrance to a Wood" <br/>
+-"<a href="https://poets.org/poem/inscription-entrance-wood" target="_blank">Inscription for the Entrance to a Wood</a>"<br/>
 William Cullen Bryant<br/>
+   </div>
+</div>
+
+<div class="footer_box">
+  <div class="footer_column" id="footer_label">
+  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
+  <div class="footer_column">
+I know what the caged bird feels, alas!<br/>
+When the sun is bright on the upland slopes;<br/>
+When the wind stirs soft through the springing grass,<br/>
+And the river flows like a stream of glass;
+  </div>
+  <div class="footer_column">
+When the first bird sings and the first bud opes,<br/>
+And the faint perfume from its chalice steals—<br/>
+I know what the caged bird feels!...<br/>
+  </div>
+  <div class="footer_column"> 
+-"<a href="https://poets.org/poem/sympathy" target="_blank">Sympathy"</a><br/>
+Paul Laurence Dunbar<br/>
+   </div>
+</div>
+
+<div class="footer_box">
+  <div class="footer_column" id="footer_label">
+  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
+  <div class="footer_column">
+...And sweetest - in the Gale - is heard -<br/>
+And sore must be the storm -<br/>
+That could abash the little Bird<br/>
+That kept so many warm -
+  </div>
+  <div class="footer_column">
+I’ve heard it in the chillest land -<br/>
+And on the strangest Sea -<br/>
+Yet - never - in Extremity,<br/>
+It asked a crumb - of me.<br/>
+  </div>
+  <div class="footer_column"> 
+-"<a href="https://poets.org/poem/hope-thing-feathers-254" target="_blank">Hope is the thing with feathers"</a><br/>
+Emily Dickinson<br/>
    </div>
 </div>
 :::

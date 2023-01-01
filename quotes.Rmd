@@ -9,6 +9,22 @@ output:
       css: "style.css"
 ---
 
+```{r, echo=FALSE}
+library(metathis)
+
+meta(
+) |> meta_general(
+  description = "Online information resource to provide quotes and stats from major global reports regarding biodiversity loss."
+) |> meta_social(
+  url = "https://andbiodiversity.info/quotes.html",
+  title = "And Biodiversity | Quotes",
+  image = "https://www.andbiodiversity.info/images/favicon192x192.png",
+  image_alt = "The letter b in gold coloring",
+  og_type = "website",
+  og_site_name = "And Biodiversity | Quotes"
+)
+```
+
 ```{css, echo=FALSE}
   .logo {
     text-align: right;
@@ -24,7 +40,12 @@ output:
 ```{js, echo=FALSE}
 $(function() {
   $('.main-container').after($('.footer'));
-})
+});
+
+$(document).ready(function(){
+  var random = Math.floor(Math.random() * $('.footer_box').length);
+  $('.footer_box').hide().eq(random).show();
+});
 ```
 
 <br/>
@@ -525,19 +546,67 @@ Ah, could I lay me down in this long grass<br/>
 And close my eyes, and let the quiet wind<br/>
 Blow over me—I am so tired, so tired<br/>
 Of passing pleasant places! All my life,<br/>
-Following Care along the dusty road,<br/>
   </div>
   <div class="footer_column">
+Following Care along the dusty road,<br/>
 Have I looked back at loveliness and sighed;<br/>
 Yet at my hand an unrelenting hand<br/>
 Tugged ever, and I passed. All my life long<br/>
+  </div>
+  <div class="footer_column">
 Over my shoulder have I looked at peace;<br/>
 And now I fain would lie in this long grass<br/>
 And close my eyes...<br/>
   </div>
   <div class="footer_column">
--"Journey" <br/>
+-"<a href="https://www.gutenberg.org/files/59167/59167-h/59167-h.htm#p_4" target="_blank">Journey</a>"<br/>
   Edna St. Vincent Millay<br/>
+  </div>
+</div>
+
+<div class="footer_box">
+  <div class="footer_column" id="footer_label">
+  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
+  <div class="footer_column">
+...Give a warm name for every river<br/>
+and every mountain,<br/>
+Strangers, I will also wish you happy.<br/>
+May you have a brilliant future!<br/>
+  </div>
+  <div class="footer_column">
+May you lovers eventually become spouse!<br/>
+May you enjoy happiness in this earthly world!<br/>
+I only wish to face the sea,<br/>
+with spring flowers blossoming.
+  </div>
+  <div class="footer_column">
+-"Facing the Sea with Spring Blossoms"<br/>
+Hai Zi<br/>
+  </div>
+</div>
+
+<div class="footer_box">
+  <div class="footer_column" id="footer_label">
+  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
+  <div class="footer_column">
+I’ve listened: and all the sounds I heard<br/>
+Were music —wind, and stream, and bird.<br/>
+With youth who sang from hill to hill<br/>
+I’ve listened: my heart is hungry still.<br/>
+  </div>
+  <div class="footer_column">
+I’ve looked: the morning world was green;<br/>
+Bright roofs and towers of town I’ve seen;<br/>
+And stars, wheeling through wingless night.<br/>
+I’ve looked: and my soul yet longs for light.
+  </div>
+  <div class="footer_column">
+-"Alone"<br/>
+Seigfried Sassoon<br/>
   </div>
 </div>
 :::

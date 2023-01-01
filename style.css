@@ -423,15 +423,16 @@
      padding: 25px 20px 20px 20px;
   }
   
+  .footer_box a, 
+  .footer_box a:hover, 
+  .footer_box a:focus, 
+  .footer_box a:active {
+     color: #ffffff;
+  }
+
   #footer_label {
      padding: 5px 0 0 0;
      font: 16px Arial;
-  }
-  #footer_label a, 
-  #footer_label a:hover, 
-  #footer_label a:focus, 
-  #footer_label a:active {
-     color: #ffffff;
   }
   
   @media screen and (min-width: 750px) and (pointer: coarse), 
