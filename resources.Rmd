@@ -537,12 +537,20 @@ Sarojini Naidu<br/>
   <div class="footer_column">
 A child said What is the grass?<br/>
 Fetching it to me with full hands;<br/>
-...I guess it must be the flag of my disposition,<br/>
-out of hopeful green stuff woven<br/>
+How could I answer the child?<br/>
+I do not know what it is any more than he.<br/>
   </div>
   <div class="footer_column">
+I guess it must be the flag of my disposition,<br/>
+out of hopeful green stuff woven.<br/>
+Or I guess it is the handkerchief of the Lord<br/>
 ...Or I guess the grass is itself a child,<br/>
 the produced babe of the vegetation.<br/>
+  </div>
+  <div class="footer_column">
+...Or I guess it is a uniform hieroglyphic,<br/>
+...And now it seems to me the beautiful<br/>
+uncut hair of graves.</br>
 ..The smallest sprout shows<br/>
 there is really no death...<br/>
   </div>

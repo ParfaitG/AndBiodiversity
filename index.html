@@ -331,6 +331,16 @@ $(function() {
 });
 
 $(document).ready(function(){
+  var divArray = [".mainstream", ".nbs", ".importance"];
+  for (var i = 0; i < divArray.length; i++) {
+    var blocks = $(divArray[i]);
+    for(var j = 0; j < blocks.length; j++){
+      var target = Math.floor(Math.random() * blocks.length -1) + 1;
+      var target2 = Math.floor(Math.random() * blocks.length -1) +1;
+      blocks.eq(target).before(blocks.eq(target2));
+    }
+  }
+  
   var random = Math.floor(Math.random() * $('.footer_box').length);
   $('.footer_box').hide().eq(random).show();
 });
@@ -462,92 +472,116 @@ class="section level4">
 <h4>Why <em>And Biodiversity</em>? To mainstream the issue across
 domains:</h4>
 <p><br/></p>
+<div id="media" class="mainstream">
 <div class="stick_image">
-<img src="images/stick_figure_media.png" alt="media person icon"/>
+<h4>
+<strong>Media</strong>
+</h4>
+<p><img src="images/stick_figure_media.png" alt="media icon"/></p>
 </div>
-</div>
-<div id="media" class="section level4">
-<h4><strong>Media</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="we-continue-to-provide-the-latest-coverage-on-politics-the-economy-and-the-environment-including-climate-change-pollution-and-biodiversity-loss.">“We
-continue to provide the latest coverage on politics, the economy, and
-the environment including climate change, pollution, <strong><em>and
-biodiversity loss</em></strong>.”</h4>
+“We continue to provide the latest coverage on politics, the economy,
+and the environment including climate change, pollution, <strong><em>and
+biodiversity loss</em></strong>.”
 </blockquote>
-<p><br/></p>
+<p>
+<br/>
+</p>
+</div>
+</div>
+<div id="politics" class="mainstream">
 <div class="stick_image">
-<img src="images/stick_figure_politician.png" alt="politician icon"/>
+<h4>
+<strong>Politics</strong>
+</h4>
+<p><img src="images/stick_figure_politician.png" alt="politics icon"/></p>
 </div>
-</div>
-<div id="politics" class="section level4">
-<h4><strong>Politics</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="balanced-budget-economic-growth-infrastructure-healthcare-immigration-climate-change-pollution-and-biodiversity-loss-are-all-on-the-ballot-this-election.">“Balanced
-budget, economic growth, infrastructure, healthcare, immigration,
-climate change, pollution, <strong><em>and biodiversity
-loss</em></strong> are all on the ballot this election.”</h4>
+“Balanced budget, economic growth, infrastructure, healthcare,
+immigration, climate change, pollution, <strong><em>and biodiversity
+loss</em></strong> are all on the ballot this election.”
 </blockquote>
-<p><br/></p>
+<p>
+<br/>
+</p>
+</div>
+</div>
+<div id="business" class="mainstream">
 <div class="stick_image">
-<img src="images/stick_figure_business.png" alt="business icon"/>
+<h4>
+<strong>Business</strong>
+</h4>
+<p><img src="images/stick_figure_business.png" alt="business icon"/></p>
 </div>
-</div>
-<div id="business" class="section level4">
-<h4><strong>Business</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="we-forecast-in-next-fiscal-year-losses-due-to-inflation-supply-chain-taxation-debt-restructuring-pollution-climate-change-and-biodiversity-loss.">“We
-forecast in next fiscal year losses due to inflation, supply chain,
+“We forecast in next fiscal year losses due to inflation, supply chain,
 taxation, debt restructuring, pollution, climate change, <strong><em>and
-biodiversity loss</em></strong>.”</h4>
+biodiversity loss</em></strong>.”
 </blockquote>
-<p><br/></p>
+<p>
+<br/>
+</p>
+</div>
+</div>
+<div id="education" class="mainstream">
 <div class="stick_image">
-<img src="images/stick_figure_school.png" alt="school icon"/>
+<h4>
+<strong>Education</strong>
+</h4>
+<p><img src="images/stick_figure_school.png" alt="school icon"/></p>
 </div>
-</div>
-<div id="education" class="section level4">
-<h4><strong>Education</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="class-following-math-and-reading-we-will-continue-our-lesson-on-the-environment-with-issues-very-important-to-the-earth-climate-change-pollution-and-biodiversity-loss.">“Class,
-following math and reading we will continue our lesson on the
+“Class, following math and reading we will continue our lesson on the
 environment with issues very important to the Earth: climate change,
-pollution, <strong><em>and biodiversity loss</em></strong>.”</h4>
+pollution, <strong><em>and biodiversity loss</em></strong>.”
 </blockquote>
-<p><br/></p>
+<p>
+<br/>
+</p>
+</div>
+</div>
+<div id="activism" class="mainstream">
 <div class="stick_image">
-<img src="images/stick_figure_protesters.png" alt="protester icon"/>
+<h4>
+<strong>Activism</strong>
+</h4>
+<p><img src="images/stick_figure_protesters.png" alt="protesters icon"/></p>
 </div>
-</div>
-<div id="activism" class="section level4">
-<h4><strong>Activism</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="save-our-planet-from-global-inequality-extreme-poverty-infectious-diseases-pollution-climate-change-and-biodiversity-loss">“Save
-our planet from Global Inequality, Extreme Poverty, Infectious Diseases,
-Pollution, Climate Change, <strong><em>and Biodiversity
-Loss!</em></strong>”</h4>
+“End Global Inequality and Extreme Poverty! Save our planet from Disease
+and Pollution! Stop Climate Change <strong><em>and Biodiversity
+Loss!</em></strong>”
 </blockquote>
-<p><br/></p>
+<p>
+<br/>
+</p>
+</div>
+</div>
+<div id="civil_society" class="mainstream">
 <div class="stick_image">
-<img src="images/stick_figure_talking.png" alt="people talking icon"/>
+<h4>
+<strong>Civil Society</strong>
+</h4>
+<p><img src="images/stick_figure_talking.png" alt="people talking icon"/></p>
 </div>
-</div>
-<div id="civil-society" class="section level4">
-<h4><strong>Civil Society</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="you-know-im-really-starting-to-worry-about-the-economy-political-division-healthcare-climate-change-pollution-and-biodiversity-loss.">“You
-know I’m really starting to worry about the economy, political division,
-healthcare, climate change, pollution, <strong><em>and biodiversity
-loss</em></strong>.”</h4>
+“You know I’m really starting to worry about the economy, political
+division, healthcare, climate change, pollution, <strong><em>and
+biodiversity loss</em></strong>.”
 </blockquote>
+<p>
+<br/>
+</p>
+</div>
+</div>
 <p><br/></p>
 <hr />
-<p><br/></p>
 </div>
 <div
 id="why-and-biodiversity-to-raise-awareness-of-nature-based-solutions-nbs"
@@ -555,211 +589,258 @@ class="section level4">
 <h4>Why <em>And Biodiversity</em>? To raise awareness of nature-based
 solutions (NbS):</h4>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_heatwave.png" alt="heatwave icon"/>
+<div id="heatwaves" class="nbs">
+<div class="stick_image">
+<h4>
+<strong>Heatwaves</strong>
+</h4>
+<p><img src="images/stick_figure_heatwave.png" alt="heatwave icon"/></p>
 </div>
-</div>
-<div id="heatwaves" class="section level4">
-<h4><strong>Heatwaves</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="climate-change-causes-prolonged-and-intense-heatwaves-and-biodiversity-with-transpiration-of-trees-and-plants-can-bring-a-coolness-and-reduce-urban-heat-island-effects.">Climate
-change causes prolonged and intense heatwaves, <strong><em>and
-biodiversity</em></strong> with transpiration of trees and plants can
-bring a coolness and reduce urban heat island effects.</h4>
+Climate change causes prolonged and intense heatwaves, <strong><em>and
+biodiversity loss</em></strong> with transpiration of trees and plants
+can bring a coolness and reduce urban heat island effects.”
 </blockquote>
+<p>
+<br/>
+</p>
+</div>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_flood.png" alt="flooding icon"/>
 </div>
+<div id="heatwaves" class="nbs">
+<div class="stick_image">
+<h4>
+<strong>Flooding</strong>
+</h4>
+<p><img src="images/stick_figure_flood.png" alt="flooding icon"/></p>
 </div>
-<div id="flooding" class="section level4">
-<h4><strong>Flooding</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="climate-change-causes-more-extreme-weather-events-and-biodiversity-with-healthy-rivers-wetlands-and-coral-reefs-across-coastlines-and-floodplains-can-absorb-and-buffer-storm-surges-and-flooding.">Climate
-change causes more extreme weather events, <strong><em>and
-biodiversity</em></strong> with healthy rivers, wetlands, and coral
+Climate change causes more extreme weather events, <strong><em>and
+biodiversity loss</em></strong> with healthy rivers, wetlands, and coral
 reefs across coastlines and floodplains can absorb and buffer storm
-surges and flooding.</h4>
+surges and flooding.
 </blockquote>
+<p>
+<br/>
+</p>
+</div>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_crops.png" alt="crops icon"/>
 </div>
+<div id="heatwaves" class="nbs">
+<div class="stick_image">
+<h4>
+<strong>Flooding</strong>
+</h4>
+<p><img src="images/stick_figure_crops.png" alt="crops icon"/></p>
 </div>
-<div id="famine" class="section level4">
-<h4><strong>Famine</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="climate-change-causes-more-crop-yields-to-decline-and-biodiversity-with-rich-soil-organisms-can-regulate-and-regenerate-soil-health-and-with-diverse-crops-and-livestock-can-stabilize-food-supply.">Climate
-change causes more crop yields to decline, <strong><em>and
-biodiversity</em></strong> with rich soil organisms can regulate and
-regenerate soil health and with diverse crops and livestock can
-stabilize food supply.</h4>
+Climate change causes more crop yields to decline, <strong><em>and
+biodiversity loss</em></strong> with rich soil organisms can regulate
+and regenerate soil health and with diverse crops and livestock can
+stabilize food supply.
 </blockquote>
+<p>
+<br/>
+</p>
+</div>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_waterlevel.png" alt="low water icon"/>
 </div>
+<div id="heatwaves" class="nbs">
+<div class="stick_image">
+<h4>
+<strong>Drought</strong>
+</h4>
+<p><img src="images/stick_figure_waterlevel.png" alt="low water icon"/></p>
 </div>
-<div id="drought" class="section level4">
-<h4><strong>Drought</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="climate-change-causes-more-widespread-droughts-and-biodiversity-with-healthy-freshwater-ecosystems-can-regulate-water-quality-flow-supply-and-enhance-groundwater-systems.">Climate
-change causes more widespread droughts, <strong><em>and
-biodiversity</em></strong> with healthy freshwater ecosystems can
-regulate water quality, flow, supply, and enhance groundwater
-systems.</h4>
+Climate change causes more widespread droughts, <strong><em>and
+biodiversity loss</em></strong> with healthy freshwater ecosystems can
+regulate water quality, flow, supply, and enhance groundwater systems.
 </blockquote>
+<p>
+<br/>
+</p>
+</div>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_pests.png" alt="pests icon"/>
 </div>
+<div id="heatwaves" class="nbs">
+<div class="stick_image">
+<h4>
+<strong>Pests</strong>
+</h4>
+<p><img src="images/stick_figure_pests.png" alt="pests icon"/></p>
 </div>
-<div id="pests" class="section level4">
-<h4><strong>Pests</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="climate-change-causes-spread-of-pests-and-diseases-in-forest-and-crops-and-biodiversity-with-native-and-diverse-species-in-place-of-non-native-monocultured-plantations-can-decrease-prevalence-of-pests-and-diseases.">Climate
-change causes spread of pests and diseases in forest and crops,
-<strong><em>and biodiversity</em></strong> with native and diverse
+Climate change causes spread of pests and diseases in forest and crops,
+<strong><em>and biodiversity loss</em></strong> with native and diverse
 species in place of non-native, monocultured plantations can decrease
-prevalence of pests and diseases.</h4>
+prevalence of pests and diseases.
 </blockquote>
+<p>
+<br/>
+</p>
+</div>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_wildfire.png" alt="wildfire icon"/>
 </div>
+<div id="heatwaves" class="nbs">
+<div class="stick_image">
+<h4>
+<strong>Wildfires</strong>
+</h4>
+<p><img src="images/stick_figure_wildfire.png" alt="wildfire icon"/></p>
 </div>
-<div id="wildfires" class="section level4">
-<h4><strong>Wildfires</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="climate-change-causes-more-extreme-wildfires-and-biodiversity-with-diverse-forests-in-genes-and-species-can-spread-risk-increase-resistance-to-stresses-and-promote-resilience-to-forest-systems.">Climate
-change causes more extreme wildfires, <strong><em>and
-biodiversity</em></strong> with diverse forests in genes and species can
-spread risk, increase resistance to stresses, and promote resilience to
-forest systems.</h4>
+Climate change causes more extreme wildfires, <strong><em>and
+biodiversity loss</em></strong> with diverse forests in genes and
+species can spread risk, increase resistance to stresses, and promote
+resilience to forest systems.
 </blockquote>
+<p>
+<br/>
+</p>
+</div>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_factory.png" alt="factory icon"/>
 </div>
+<div id="heatwaves" class="nbs">
+<div class="stick_image">
+<h4>
+<strong>Emissions</strong>
+</h4>
+<p><img src="images/stick_figure_factory.png" alt="factory icon"/></p>
 </div>
-<div id="emissions" class="section level4">
-<h4><strong>Emissions</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="climate-change-mostly-derives-from-emitting-carbon-emissions-into-atmosphere-and-biodiversity-with-healthy-forests-wetlands-mangroves-seagrass-and-other-biomes-can-naturally-capture-and-sequester-carbon.">Climate
-change mostly derives from emitting carbon emissions into atmosphere,
-<strong><em>and biodiversity</em></strong> with healthy forests,
-wetlands, mangroves, seagrass, and other biomes can naturally capture
-and sequester carbon.</h4>
+Climate change mostly derives from emitting carbon emissions into
+atmosphere, <strong><em>and biodiversity loss</em></strong> with healthy
+forests, wetlands, mangroves, seagrass, and other biomes can naturally
+capture and sequester carbon.
 </blockquote>
+<p>
+<br/>
+</p>
+</div>
 <p><br/></p>
+</div>
 <hr />
-<p><br/></p>
 </div>
 <div id="why-and-biodiversity-to-underscore-its-importance"
 class="section level4">
 <h4>Why <em>And Biodiversity</em>? To underscore its importance:</h4>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_economy.png" alt="economy icon"/>
+<div id="economy" class="importance">
+<div class="stick_image">
+<h4>
+<strong>Economy</strong>
+</h4>
+<p><img src="images/stick_figure_economy.png" alt="economy icon"/></p>
 </div>
-</div>
-<div id="economy" class="section level4">
-<h4><strong>Economy</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="modern-economies-often-measure-the-accumulation-of-produced-capital-roads-machines-buildings-factories-and-ports-and-human-capital-health-and-education-but-overlook-the-essential-natural-capital-and-biodiversity-provides-such-value-from-raw-materials-to-regulation-of-resources-and-environment-air-food-water-climate-to-support-commerce-and-livelihoods.">Modern
-economies often measure the accumulation of produced capital (roads,
-machines, buildings, factories, and ports) and human capital (health and
-education) but overlook the essential natural capital <strong><em>and
-biodiversity</em></strong> provides such value from raw materials to
-regulation of resources and environment (air, food, water, climate) to
-support commerce and livelihoods.</h4>
+Modern economies often measure the accumulation of produced capital
+(roads, machines, buildings, factories, and ports) and human capital
+(health and education) but overlook natural capital <strong><em>and
+biodiversity loss</em></strong> provides such value with raw materials,
+resources, and regulation of environment that support commerce and
+livelihoods.
 </blockquote>
+</div>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_society.png" alt="society icon"/>
 </div>
+<div id="society" class="importance">
+<div class="stick_image">
+<h4>
+<strong>Society</strong>
+</h4>
+<p><img src="images/stick_figure_society.png" alt="society icon"/></p>
 </div>
-<div id="society" class="section level4">
-<h4><strong>Society</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="a-society-free-from-conflict-inequality-and-uncertainty-requires-a-stable-climate-and-healthy-ecosystems-for-basic-amenities-occupations-and-recreation-and-biodiversity-supports-such-requirements-through-functioning-carbon-nitrogen-and-water-cycles-and-habitat-maintenance.">A
-society free from conflict, inequality, and uncertainty requires a
+A society free from conflict, inequality, and uncertainty requires a
 stable climate and healthy ecosystems for basic amenities, occupations,
-and recreation, <strong><em>and biodiversity</em></strong> supports such
-requirements through functioning carbon, nitrogen, and water cycles and
-habitat maintenance.</h4>
+and recreation, <strong><em>and biodiversity loss</em></strong> supports
+such requirements through functioning carbon, nitrogen, and water cycles
+and habitat maintenance.
 </blockquote>
+</div>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_culture.png" alt="culture icon"/>
 </div>
+<div id="culture" class="importance">
+<div class="stick_image">
+<h4>
+<strong>Culture</strong>
+</h4>
+<p><img src="images/stick_figure_culture.png" alt="culture icon"/></p>
 </div>
-<div id="culture" class="section level4">
-<h4><strong>Culture</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="since-the-dawn-of-human-civilization-species-and-ecosystems-have-been-integral-in-human-cultures-including-languages-arts-foods-customs-beliefs-and-values-and-biodiversity-akin-to-human-diversity-serves-as-this-living-library-and-heritage.">Since
-the dawn of human civilization, species and ecosystems have been
+Since the dawn of human civilization, species and ecosystems have been
 integral in human cultures including languages, arts, foods, customs,
-beliefs, and values <strong><em>and biodiversity</em></strong> (akin to
-human diversity) serves as this living library and heritage.</h4>
+beliefs, and values <strong><em>and biodiversity loss</em></strong>
+(akin to human diversity) serves as this living library and heritage.
 </blockquote>
+</div>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_hospital.png" alt="hospital icon"/>
 </div>
+<div id="health" class="importance">
+<div class="stick_image">
+<h4>
+<strong>Health</strong>
+</h4>
+<p><img src="images/stick_figure_hospital.png" alt="hospital icon"/></p>
 </div>
-<div id="health" class="section level4">
-<h4><strong>Health</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="physical-mental-and-social-health-and-well-being-require-a-stable-climate-and-healthy-ecosystems-and-biodiversity-serves-these-needs-with-air-water-and-food-quality-medicinal-supply-hazard-and-disease-protection-recreation-and-inspiration.">Physical,
-mental, and social health and well-being require a stable climate and
-healthy ecosystems <strong><em>and biodiversity</em></strong> serves
-these needs with air, water, and food quality; medicinal supply; hazard
-and disease protection; recreation and inspiration.</h4>
+Physical, mental, and social health and well-being require a stable
+climate and healthy ecosystems <strong><em>and biodiversity
+loss</em></strong> serves these needs with air, water, and food quality;
+medicinal supply; hazard and disease protection; recreation and
+inspiration.
 </blockquote>
+</div>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_watertower.png" alt="water tower icon"/>
 </div>
+<div id="infrastructure" class="importance">
+<div class="stick_image">
+<h4>
+<strong>Infrastructure</strong>
+</h4>
+<p><img src="images/stick_figure_watertower.png" alt="water tower icon"/></p>
 </div>
-<div id="infrastructure" class="section level4">
-<h4><strong>Infrastructure</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="robust-critical-infrastructure-of-water-energy-food-and-commodity-supply-requires-vital-inputs-and-biodiversity-provides-water-flow-and-quantity-food-pollination-and-seed-dispersal-and-natural-resources-for-fiber-fuel-and-timber.">Robust
-critical infrastructure of water, energy, food, and commodity supply
-requires vital inputs <strong><em>and biodiversity</em></strong>
-provides water flow and quantity; food pollination and seed dispersal;
-and natural resources for fiber, fuel, and timber.</h4>
+Robust critical infrastructure of water, energy, food, and commodity
+supply requires vital inputs <strong><em>and biodiversity
+loss</em></strong> provides water flow and quantity; food pollination
+and seed dispersal; and natural resources for fiber, fuel, and timber.
 </blockquote>
+</div>
 <p><br/></p>
-<div class="climate_image">
-<img src="images/stick_figure_survival.png" alt="survival icon"/>
 </div>
+<div id="survival" class="importance">
+<div class="stick_image">
+<h4>
+<strong>Survival</strong>
+</h4>
+<p><img src="images/stick_figure_survival.png" alt="survival icon"/></p>
 </div>
-<div id="survival" class="section level4">
-<h4><strong>Survival</strong></h4>
+<div class="quote">
 <blockquote>
-<h4
-id="essential-human-survival-needs-of-air-water-food-and-shelter-requires-a-stable-climate-and-healthy-ecosystems-and-biodiversity-provides-such-habital-existence-for-humans-and-many-other-species.">Essential
-human survival needs of air, water, food, and shelter requires a stable
-climate and healthy ecosystems <strong><em>and
-biodiversity</em></strong> provides such habital existence for humans
-and many other species.</h4>
+Essential human survival needs of air, water, food, and shelter requires
+a stable climate and healthy ecosystems <strong><em>and biodiversity
+loss</em></strong> provides such habital existence for humans and many
+other species.
 </blockquote>
+</div>
 <p><br/></p>
+</div>
 <hr />
+<p><br/></p>
 </div>
 <div id="why-and-biodiversity-to-dispel-common-misunderstandings"
 class="section level4">
@@ -831,10 +912,11 @@ like a new topic and not as widely accepted.</label>
 <p>
 Though the issue lacks mainstream media attention, biodiversity loss has
 been an enduring subject matter in the ecological and environment
-science literature since the 1970s. It is widely accepted in science
-with enough impetus to establish a UN convention in 1992 for global
-initiatives on the issue and intergovernmental science body in 2012 to
-assess the current knowledge on the topic for policymakers.
+science literature since the 1970s. It is widely accepted and
+well-established with enough impetus to establish a UN convention in
+1992 for global initiatives on the issue and intergovernmental science
+body in 2012 to assess the current knowledge on the topic for
+policymakers.
 </p>
 </br>
 <p>
@@ -904,8 +986,8 @@ target="_blank">TheConversation.com article</a>
 </div>
 <div class="accordion">
 <input type="radio" name="radio-a" id="check6">
-<label class="accordion-label" for="check6">Biodiversity loss would not
-be hardly known if it is so important.</label>
+<label class="accordion-label" for="check6">Biodiversity loss would be
+well known if it is so important.</label>
 <div class="accordion-content">
 <p>
 Biodiversity coverage in the media has been a challenge for decades and

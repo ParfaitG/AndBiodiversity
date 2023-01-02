@@ -111,13 +111,14 @@
   .card a:hover > .cardheader {
       background: rgba(128,181,51,0.8)
   }
-  .card a:hover > .cardbody img {
+  .card a:hover > .cardbody, .cardbody img {
       opacity: 0.8
   }
   
   .cardbody {
      padding: 2px 16px;
      white-space: normal;
+     color: #4d5156;
   }
   
   .banner {
@@ -204,7 +205,7 @@
   .accordion-content {
       max-height: 0;
       padding: 0 16px;
-      color: black;
+      color: #4d5156;
       background: white;
       -webkit-transition: all 0.3s;
       transition: all 0.3s;
@@ -384,17 +385,25 @@
     border-right: 14px solid black;
     z-index: 1;
   }
-    
+
+  .mainstream, .nbs, .importance {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+  }
+   
+  .stick_image {
+     flex: 0 0 auto;
+     width: 110px;
+  }
+
   .stick_image img {
-     float: left;
-     margin: 5px;
      width: 100px;
   }
 
-  .climate_image img {
-     float: left;
-     margin: 5px;
-     width: 100px;
+  .quote {
+     margin: 30px 0 0 0;
+     color: #4d5156;
   }
 
   .footer {
@@ -517,6 +526,17 @@
           max-width: 200px;
           height: 200px;
           margin: 0 0 20px 0;
+      }
+
+      .stick_image {
+          flex: 0 0 auto;
+          width: 85px;
+      }
+      .stick_image h4, blockquote, .accordion-content {
+          font-size: 16px
+      }
+      .stick_image img {
+          width: 80px
       }
 
 	  #globalmoments img, .multiple-figure {

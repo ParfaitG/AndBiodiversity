@@ -1047,7 +1047,7 @@ $(document).ready(function(){
     <img class="report_img" src="images/report_unep2009.png" alt="UNEP 2009 report cover"/>
   </a>
 
-  #### Climate change adds to the global challenge of ***biodiversity*** conservation.There is ample scientific evidence that climate change affects ***biodiversity***. It is threatening individual species as well as entire ecosystems, with negative consequences for human well-being. However, the links between ***biodiversity*** and climate change flow both ways. ***Biodiversity***, through the ecosystem services it supports, makes an important contribution to both climate change mitigation and adaptation. The interlinkages between ***biodiversity***, climate change, and sustainable development, have been recognized within both the Convention on Biological Diversity (CBD) and the United Nations Framework Conventionon Climate Change (UNFCCC), as well as other international fora. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/7896){target="_blank"}. [***Download* report**](https://app.box.com/s/ydxregqriegvjszf5ia7i6gh6g244b6l){target="_blank"}.
+  #### Climate change adds to the global challenge of ***biodiversity*** conservation. There is ample scientific evidence that climate change affects ***biodiversity***. It is threatening individual species as well as entire ecosystems, with negative consequences for human well-being. However, the links between ***biodiversity*** and climate change flow both ways. ***Biodiversity***, through the ecosystem services it supports, makes an important contribution to both climate change mitigation and adaptation. The interlinkages between ***biodiversity***, climate change, and sustainable development, have been recognized within both the Convention on Biological Diversity (CBD) and the United Nations Framework Convention on Climate Change (UNFCCC), as well as other international fora. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/7896){target="_blank"}. [***Download* report**](https://app.box.com/s/ydxregqriegvjszf5ia7i6gh6g244b6l){target="_blank"}.
 
   <br/>
   
@@ -1061,13 +1061,13 @@ $(document).ready(function(){
     <img class="report_img" src="images/report_unep2008.png" alt="UNEP 2008 report cover"/>
   </a>
 
-  #### Research since IPCC AR4 has served to strengthen the conclusion that ***biodiversity*** is important in mitigating climate change. This importance stems from the role of ecosystems in the carbon cycle. Ecosystems sequester carbon dioxide from the atmosphere and then store it. Human-induced changes in those ecosystems can lead either to increased sequestration of carbon dioxide or to increased emissions of carbon dioxide and other greenhouse gases. Promoting the former type of change and reducing the latter type of change can make a very significant contribution to climate change mitigation. The use of ecosystem-based mitigation policies can also contribute to sustaining a variety of ecosystem services including ***biodiversity*** conservation [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8199){target="_blank"}. [***Download* report**](https://app.box.com/s/211nw3nwh5nxppc3wtn3ij0c829hsw1w){target="_blank"}.
+  #### Research since IPCC AR4 has served to strengthen the conclusion that ***biodiversity*** is important in mitigating climate change. This importance stems from the role of ecosystems in the carbon cycle. Ecosystems sequester carbon dioxide from the atmosphere and then store it. Human-induced changes in those ecosystems can lead either to increased sequestration of carbon dioxide or to increased emissions of carbon dioxide and other greenhouse gases. Promoting the former type of change and reducing the latter type of change can make a very significant contribution to climate change mitigation. The use of ecosystem-based mitigation policies can also contribute to sustaining a variety of ecosystem services including ***biodiversity*** conservation. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8199){target="_blank"}. [***Download* report**](https://app.box.com/s/211nw3nwh5nxppc3wtn3ij0c829hsw1w){target="_blank"}.
 
   <br/>
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#ipcc2007">IPCC: AR4 Climate Change - Impacts, Adaptation, and Vulnerability (2007)</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#ipcc2007">IPCC: Fourth Assessment Report - Climate Change - Impacts, Adaptation, and Vulnerability (2007)</a> 
 
   <div id="ipcc2007" class="collapse">  
 
@@ -1095,7 +1095,7 @@ $(document).ready(function(){
   
   </div>
 
-- #### <a href="####" data-toggle="collapse" data-target="#unep2007">UNEP: Global Environment Outlook 4 (GEO-4): Environment for Development (2007)</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#unep2007">UNEP: Global Environment Outlook 4 (2007)</a> 
 
   <div id="unep2007" class="collapse">  
 
@@ -1169,7 +1169,7 @@ $(document).ready(function(){
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#acia2004">Arctic Climate Impact Assessment (ACIA) (2004)</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#acia2004">Arctic Climate Impact Assessment (2004)</a> 
 
   <div id="acia2004" class="collapse">  
 
@@ -1183,7 +1183,7 @@ $(document).ready(function(){
   
   </div>
 
-- #### <a href="####" data-toggle="collapse" data-target="#unep2003">UNEP: Global Environment Outlook 3 (GEO-3): Past, Present and Future Perspectives (2003)</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#unep2003">UNEP: Global Environment Outlook 3 (2003)</a> 
 
   <div id="unep2003" class="collapse">  
 
@@ -1205,7 +1205,7 @@ $(document).ready(function(){
     <img class="report_img" src="images/report_ci2003.png" alt="CI 2003 report cover"/>
   </a>
 
-  #### Tourism is often described as the world’s "biggest" industry on the basis of its contribution to global gross domestic product (GDP), the number of jobs it generates, and the number of clients it serves. The scale of the industry and the rate at which it continues to grow present both opportunities and threats for ***biodiversity*** conservation. ***Biodiversity*** is essential to human development because of the goods and services it provides. An estimated 40 percent of the global economy is based on biological products and processes. However, on a global scale, ***biodiversity*** is being lost at a rate many times higher than that of natural extinction. This is caused by a number of factors, including uncontrolled land conversion, climate change, pollution, unsustainable harvesting of natural resources, and the introduction of invasive species. So great is the concern over the rate of decline, and its implications for human welfare, that ***biodiversity*** was identified as one of the five priority areas for the 2002 World Summit on Sustainable Development. To determine priority areas where ***biodiversity loss*** is a serious concern, Conservation International has identified a series of ***biodiversity*** "hotspots." Theese hotspots represent priority areas for urgent conservation action on a global scale. ey are also useful for looking at the impact of tourism on ***biodiversit***. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/9399){target="_blank"}.  [***Download* report**](https://app.box.com/s/imkkjr67ca1jbwwuer1fdptdksd1rlxu){target="_blank"}.
+  #### Tourism is often described as the world’s "biggest" industry on the basis of its contribution to global gross domestic product (GDP), the number of jobs it generates, and the number of clients it serves. The scale of the industry and the rate at which it continues to grow present both opportunities and threats for ***biodiversity*** conservation. ***Biodiversity*** is essential to human development because of the goods and services it provides. An estimated 40 percent of the global economy is based on biological products and processes. However, on a global scale, ***biodiversity*** is being lost at a rate many times higher than that of natural extinction. This is caused by a number of factors, including uncontrolled land conversion, climate change, pollution, unsustainable harvesting of natural resources, and the introduction of invasive species. So great is the concern over the rate of decline, and its implications for human welfare, that ***biodiversity*** was identified as one of the five priority areas for the 2002 World Summit on Sustainable Development. To determine priority areas where ***biodiversity loss*** is a serious concern, Conservation International has identified a series of ***biodiversity*** "hotspots." These hotspots represent priority areas for urgent conservation action on a global scale. They are also useful for looking at the impact of tourism on ***biodiversity***. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/9399){target="_blank"}.  [***Download* report**](https://app.box.com/s/imkkjr67ca1jbwwuer1fdptdksd1rlxu){target="_blank"}.
 
   <br/>
   
@@ -1276,7 +1276,7 @@ $(document).ready(function(){
     <img class="report_img" src="images/report_caff2001.png" alt="CAFF 2001 report cover"/>
   </a>
 
-  #### This is the first truely circumpolar overview of Arctic ***biodiversity*** and provides a clear understanding of the importance of the Earth's largest ecoregion and its status in the face of a rapidly changing world. It observes that while much of the Arctic was in its natural state and that the impacts of human activity were relatively minor, individuals, species and ecosystems throughout the Arctic faced threats from many causes, and that the long-term consequencies of human impacts were unknown. It particularly noted that the information necessary to determine status and trends of Arctic fauna was fragmentary and almost non-existent for flora. [***See* report**](https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation){target="_blank"}. [***Download* report**](https://app.box.com/s/npb4z8osyf1j93wqcmal8at5zwxho8u9){target="_blank"}.
+  #### This is the first truly circumpolar overview of Arctic ***biodiversity*** and provides a clear understanding of the importance of the Earth's largest ecoregion and its status in the face of a rapidly changing world. It observes that while much of the Arctic was in its natural state and that the impacts of human activity were relatively minor, individuals, species and ecosystems throughout the Arctic faced threats from many causes, and that the long-term consequences of human impacts were unknown. It particularly noted that the information necessary to determine status and trends of Arctic fauna was fragmentary and almost non-existent for flora. [***See* report**](https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation){target="_blank"}. [***Download* report**](https://app.box.com/s/npb4z8osyf1j93wqcmal8at5zwxho8u9){target="_blank"}.
 
   <br/>
   
@@ -1321,7 +1321,7 @@ $(document).ready(function(){
     <img class="report_img" src="images/report_unep1998.png" alt="UNEP 1998 report cover"/>
   </a>
 
-  #### Water as a resource has two key features: it is absolutely essential for human survival; the amount of water in the world is constant, so that although it is used, the stock is not globally diminished but nor can it be increased. At below global level, water is often not available where and when needed, nor in the appropriate amounts, nor with the necessary quality. The two last are particularly important to the maintenance of freshwater ***biodiversity***. The finite supply of freshwater on the Earth is now being used by a human population that has grown exponentially in the past few hundred years, and continues to grow, and which demands increasing volumes of water to service agricultural and industrial processes on which economic development depends. Freshwater systems are under growing pressure, as flow patterns are disrupted and the load of waste substances increases. Inevitably per capita shares of water for human use are decreasing and water stress is becoming more widespread [***See* report**](https://portals.iucn.org/library/fr/node/7566){target="_blank"}. [***Download* report**](https://app.box.com/s/ba1yljxjmywlmddf08h0u14g7s3zdz3n){target="_blank"}.
+  #### Water as a resource has two key features: it is absolutely essential for human survival; the amount of water in the world is constant, so that although it is used, the stock is not globally diminished but nor can it be increased. At below global level, water is often not available where and when needed, nor in the appropriate amounts, nor with the necessary quality. The two last are particularly important to the maintenance of freshwater ***biodiversity***. The finite supply of freshwater on the Earth is now being used by a human population that has grown exponentially in the past few hundred years, and continues to grow, and which demands increasing volumes of water to service agricultural and industrial processes on which economic development depends. Freshwater systems are under growing pressure, as flow patterns are disrupted and the load of waste substances increases. Inevitably per capita shares of water for human use are decreasing and water stress is becoming more widespread. [***See* report**](https://portals.iucn.org/library/fr/node/7566){target="_blank"}. [***Download* report**](https://app.box.com/s/ba1yljxjmywlmddf08h0u14g7s3zdz3n){target="_blank"}.
 
   <br/>
   
@@ -1335,7 +1335,7 @@ $(document).ready(function(){
     <img class="report_img" src="images/report_wcmc1997.png" alt="WCMC 1997 report cover"/>
   </a>
 
-  #### The object of this study is to ascertain the extent of industrial reliance on ***biological diversity***; we are attempting to determine the extent to which ***biodiversity*** feeds directly into western industries, and the extent to which they rely upon it. There is a general consensus among environmental scientists that ***biological diversity*** plays a very important role in the activities of some of our industries. However, there is very little direct evidence of the degree to which the industries depend on this biodiversity. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8860){target="_blank"}. [***Download* report**](https://app.box.com/s/zsv8gs6xkga82jw1odn4g1ktulg3bejc){target="_blank"}.
+  #### The object of this study is to ascertain the extent of industrial reliance on ***biological diversity***; we are attempting to determine the extent to which ***biodiversity*** feeds directly into western industries, and the extent to which they rely upon it. There is a general consensus among environmental scientists that ***biological diversity*** plays a very important role in the activities of some of our industries. However, there is very little direct evidence of the degree to which the industries depend on this ***biodiversity***...The findings of the project demonstrate that ***biodiversity*** functions in two fashions, as a basic commodity and as informational input. As a commodity, ***biodiversity*** is most important in the forestry and fisheries sectors...By far the more important contribution ***biodiversity*** makes to Northern industries must be its role as an informational input in specific industries. Western society is built upon a biological foundation and two of our most important industries (agriculture and medicine) are in fact defence systems for the maintenance of this bio-foundation...***Biodiversity*** conservation is a simple matter of providing the essential foundations upon which these vital industries are built. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8860){target="_blank"}. [***Download* report**](https://app.box.com/s/zsv8gs6xkga82jw1odn4g1ktulg3bejc){target="_blank"}.
 
   <br/>
   
@@ -1349,7 +1349,7 @@ $(document).ready(function(){
     <img class="report_img" src="images/report_ceq1997.png" alt="CEQ 1997 report cover"/>
   </a>
 
-  #### Species and ecosystems provide a vast array of valuable services. For example, about one third of U.S. agricultural output is from insect-pollinated plants. Nature provides many other services, such as producing raw materials, purifying water, storing waste, and regulating climate. Despite the huge value of species and ecosystem services, many such services are threatened by human activities. Pollinators such as wild honeybees, for example, are declining as a result of habitat fragmentation, loss of nesting sites, exposure to pesticides, and many other factors...In 1997, The Nature Conservancy reported on the conservation status of 20,439 native US species, representing 13 major groups of plants and animals that have been classified and studied in sufficient detail to allow a status assessment for each of their species. The analysis revealed that, based on their global rarity, about one third of the species surveyed were in some danger of extinction...Those animals that depend on freshwater habitats—mussels, crayfish, fishes, and amphibians—are in the worst condition overall...The number of threatened and endangered species has risen steadily since 1980. Ecosystems and ***biodiversity*** are threatened by a variety of factors, including conversion of natural lands for other uses, pollution, exploitation, and invasions of non-indigenous species. [***See* report**](https://ceq.doe.gov/ceq-reports/annual_environmental_quality_reports.html){target="_blank"}. [***Download* report**](https://app.box.com/s/rg1dzgznqnzv61c63lzg1e467402hgh0){target="_blank"}.
+  #### Species and ecosystems provide a vast array of valuable services. For example, about one third of U.S. agricultural output is from insect-pollinated plants. Nature provides many other services, such as producing raw materials, purifying water, storing waste, and regulating climate. Despite the huge value of species and ecosystem services, many such services are threatened by human activities. Pollinators such as wild honeybees, for example, are declining as a result of habitat fragmentation, loss of nesting sites, exposure to pesticides, and many other factors...The analysis revealed that, based on their global rarity, about one third of the species surveyed were in some danger of extinction...Those animals that depend on freshwater habitats—mussels, crayfish, fishes, and amphibians—are in the worst condition overall...The number of threatened and endangered species has risen steadily since 1980. Ecosystems and ***biodiversity*** are threatened by a variety of factors, including conversion of natural lands for other uses, pollution, exploitation, and invasions of non-indigenous species. [***See* report**](https://ceq.doe.gov/ceq-reports/annual_environmental_quality_reports.html){target="_blank"}. [***Download* report**](https://app.box.com/s/rg1dzgznqnzv61c63lzg1e467402hgh0){target="_blank"}.
 
   <br/>
   
