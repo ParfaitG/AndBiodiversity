@@ -312,6 +312,7 @@
   
   .tabset .collapse {
      overflow: hidden;
+     color: #4d5156;
   }
   .tabset .collapse img {
      padding: 10px;
@@ -386,24 +387,32 @@
     z-index: 1;
   }
 
-  .mainstream, .nbs, .importance {
+  .mainstream, .nbs, .importance, .cites {
      display: flex;
      align-items: center;
      gap: 20px;
   }
-   
+  
+  .cites img {
+     border: none;
+     border-radius: 0;
+  }
+
   .stick_image {
      flex: 0 0 auto;
      width: 110px;
   }
 
-  .stick_image img {
+  .mainstream .stick_image img, 
+  .nbs .stick_image img,
+  .importance .stick_image img {
      width: 100px;
   }
 
   .quote {
      margin: 30px 0 0 0;
      color: #4d5156;
+     text-align: left
   }
 
   .footer {
@@ -528,15 +537,26 @@
           margin: 0 0 20px 0;
       }
 
-      .stick_image {
+     .mainstream .stick_image, 
+     .nbs .stick_image,
+     .importance .stick_image {
           flex: 0 0 auto;
-          width: 85px;
+          width: 85px
       }
       .stick_image h4, blockquote, .accordion-content {
           font-size: 16px
       }
-      .stick_image img {
+
+      .mainstream .stick_image img, 
+      .nbs .stick_image img,
+      .importance .stick_image img {
           width: 80px
+      }
+      .cites {
+          flex-direction: column;
+      }
+      .cites .quote {
+          margin: 0 0 0 0
       }
 
 	  #globalmoments img, .multiple-figure {

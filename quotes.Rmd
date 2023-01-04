@@ -66,7 +66,16 @@ $(document).ready(function(){
 <label class="accordion-label" for="check1">World Wildlife Fund Living Planet Report (2022)</label>
 <div class="accordion-content">
 
-> Today we face the double, interlinked emergencies of human-induced climate change and the loss of biodiversity, threatening the well-being of current and future generations. As our future is critically dependent on biodiversity and a stable climate, it is essential that we understand how nature’s decline and climate change are connected.
+<div id="business" class="cites">
+<div class="stick_image">
+<img class="report_img" src="images/report_wwf2022.png" alt="WWF 2022 report cover"/>
+</div>
+<div class="quote">
+<blockquote>
+Today we face the double, interlinked emergencies of human-induced climate change and the loss of biodiversity, threatening the well-being of current and future generations. As our future is critically dependent on biodiversity and a stable climate, it is essential that we understand how nature’s decline and climate change are connected.
+</blockquote>
+</div>
+</div>
 
 > Land-use change is still the biggest current threat to nature, destroying or fragmenting the natural habitats of many plant and animal species on land, in freshwater and in the sea. However, if we are unable to limit warming to 1.5°C, climate change is likely to become the dominant cause of biodiversity loss in the coming decades.
 
@@ -96,7 +105,16 @@ $(document).ready(function(){
 <label class="accordion-label" for="check2">IPBES-IPCC Biodiversity and Climate Change Workshop Report (2021)</label>
 <div class="accordion-content">
 
-> Climate change and biodiversity loss are two of the most pressing issues of the Anthropocene. While there is recognition in both scientific and policy-making circles that the two are interconnected, in practice they are largely addressed in their own domains.
+<div id="business" class="cites">
+<div class="stick_image">
+<img class="report_img" src="images/report_ipbesipcc2021.png" alt="IPBES-IPCC 2021 report cover"/>
+</div>
+<div class="quote">
+<blockquote>
+Climate change and biodiversity loss are two of the most pressing issues of the Anthropocene. While there is recognition in both scientific and policy-making circles that the two are interconnected, in practice they are largely addressed in their own domains.
+</blockquote>
+</div>
+</div>
 
 > Each issue has its own international Convention (the UN Framework Convention on Climate Change and the Convention on Biological Diversity), and each has an intergovernmental body which assesses available knowledge (the Intergovernmental Panel on Climate Change (IPCC) and the Intergovernmental Platform on Biodiversity and Ecosystem Services (IPBES)). This functional separation creates a risk of incompletely identifying, understanding and dealing with the connections between the two.
 
@@ -185,7 +203,16 @@ the inseparable nature of climate, biodiversity, and human quality of life will 
 <label class="accordion-label" for="check3">UNEP Making Peace with Nature (2021)</label>
 <div class="accordion-content">
 
-> Humanity’s environmental challenges have grown in number and severity ever since the Stockholm Conference in 1972 and now represent a planetary emergency.
+<div id="business" class="cites">
+<div class="stick_image">
+<img class="report_img" src="images/report_unepblueprint2021.png" alt="UNEP Blueprint report cover"/>
+</div>
+<div class="quote">
+<blockquote>
+Humanity’s environmental challenges have grown in number and severity ever since the Stockholm Conference in 1972 and now represent a planetary emergency.
+</blockquote>
+</div>
+</div>
 
 > Earth’s environmental emergencies and human well-being need to be addressed together to achieve sustainability. The development of the goals, targets, commitments and mechanisms under the key environmental conventions and their implementation need to be aligned to become more synergistic and effective.
 
@@ -246,7 +273,16 @@ to do the same. Yardsticks such as inclusive wealth (the sum of produced, natura
 <label class="accordion-label" for="check4">Dasgupta Review: The Economics of Biodiversity (2021)</label>
 <div class="accordion-content">
 
-> But like education and health, Nature is more than a mere economic good. Nature nurtures and nourishes us, so we will think of assets as durable entities that not only have use value, but may also have intrinsic worth. Once we make that extension, the economics of biodiversity becomes a study in portfolio management.
+<div id="business" class="cites">
+<div class="stick_image">
+<img class="report_img" src="images/report_dasgupta2021.png" alt="Dasgupta Review 2021 report cover"/>
+</div>
+<div class="quote">
+<blockquote>
+ But like education and health, Nature is more than a mere economic good. Nature nurtures and nourishes us, so we will think of assets as durable entities that not only have use value, but may also have intrinsic worth. Once we make that extension, the economics of biodiversity becomes a study in portfolio management.
+</blockquote>
+</div>
+</div>
 
 > The damage inflicted on each type of asset (buildings, forests, the atmosphere, fisheries, human health) should be interpreted as depreciation of that asset. Pollution is the reverse of conservation.
 
@@ -313,7 +349,16 @@ consider produced and human capital as primary factors of production, not explic
 <label class="accordion-label" for="check5">World Wildlife Fund Living Planet Report (2020)</label>
 <div class="accordion-content">
 
-> The global Living Planet Index continues to decline. It shows an average 68% decrease in population sizes of mammals, birds, amphibians, reptiles and fish between 1970 and 2016. A 94% decline in the LPI for the tropical subregions of the Americas is the largest fall observed in any part of the world.
+<div id="business" class="cites">
+<div class="stick_image">
+<img class="report_img" src="images/report_wwf2020.png" alt="WWF 2020 report cover"/>
+</div>
+<div class="quote">
+<blockquote>
+The global Living Planet Index continues to decline. It shows an average 68% decrease in population sizes of mammals, birds, amphibians, reptiles and fish between 1970 and 2016. A 94% decline in the LPI for the tropical subregions of the Americas is the largest fall observed in any part of the world.
+</blockquote>
+</div>
+</div>
 
 > Using the data from 20,811 populations of 4,392 species, the 2020 global LPI shows an average 68% decline in monitored populations between 1970 and 2016 (range: -73% to -62%).
 
@@ -363,7 +408,16 @@ consider produced and human capital as primary factors of production, not explic
 <label class="accordion-label" for="check6">IPBES Global Assessment (2019)</label>
 <div class="accordion-content">
 
-> Nature and its vital contributions to people, which together embody biodiversity and ecosystem functions and services, are deteriorating worldwide.
+<div id="business" class="cites">
+<div class="stick_image">
+<img class="report_img" src="images/report_ipbes2019.png" alt="IPBES 2019 report cover"/>
+</div>
+<div class="quote">
+<blockquote>
+Nature and its vital contributions to people, which together embody biodiversity and ecosystem functions and services, are deteriorating worldwide.
+</blockquote>
+</div>
+</div>
 
 > The biosphere, upon which humanity as a whole depends, is being altered to an unparalleled degree across all spatial scales. Biodiversity– the diversity within species, between species and of ecosystems – is declining faster than at any time in human history.
 
@@ -429,8 +483,6 @@ goals, such as those embodied in the Aichi Biodiversity Targets and the 2030 Age
 
 > A key component of sustainable pathways is the evolution of global financial and economic systems to build a global sustainable economy, steering away from the current, limited paradigm of economic growth.
 
-
-
 <br/>
 <br/>
 <br/>
@@ -443,7 +495,16 @@ goals, such as those embodied in the Aichi Biodiversity Targets and the 2030 Age
 <label class="accordion-label" for="check7">Millennium Ecosystem Assessment (2005)</label>
 <div class="accordion-content">
 
-> Over the past 50 years, humans have changed ecosystems more rapidly and extensively than in any comparable period of time in human history, largely to meet rapidly growing demands for food, fresh water, timber, fiber, and fuel. This has resulted in a sub-stantial and largely irreversible loss in the diversity of life on Earth.
+<div id="business" class="cites">
+<div class="stick_image">
+<img class="report_img" src="images/report_mea2005.png" alt="MEA 2005 report cover"/>
+</div>
+<div class="quote">
+<blockquote>
+Over the past 50 years, humans have changed ecosystems more rapidly and extensively than in any comparable period of time in human history, largely to meet rapidly growing demands for food, fresh water, timber, fiber, and fuel. This has resulted in a sub-stantial and largely irreversible loss in the diversity of life on Earth.
+</blockquote>
+</div>
+</div>
 
 > Approximately 60% (15 out of 24) of the ecosystem services examined during the Millennium Ecosystem Assessment are being degraded or used unsustainably, including fresh water, capture fisheries, air and water purification, and the regulation of regional and local climate, natural hazards, and pests. 
 
