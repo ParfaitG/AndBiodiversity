@@ -219,7 +219,7 @@ $(document).ready(function(){
 </div>
 <div class="quote">
 <blockquote>
-Climate change causes prolonged and intense heatwaves, <strong><em>and biodiversity loss</em></strong> with transpiration of trees and plants can bring a coolness and reduce urban heat island effects."
+Climate change causes prolonged and intense heatwaves, <strong><em>and biodiversity</em></strong> with transpiration of trees and plants can bring a coolness and reduce urban heat island effects."
 </blockquote>
 <p><br/></p>
 </div>
@@ -233,7 +233,7 @@ Climate change causes prolonged and intense heatwaves, <strong><em>and biodivers
 </div>
 <div class="quote">
 <blockquote>
-Climate change causes more extreme weather events, <strong><em>and biodiversity loss</em></strong> with healthy rivers, wetlands, and coral reefs across coastlines and floodplains can absorb and buffer storm surges and flooding.
+Climate change causes more extreme weather events, <strong><em>and biodiversity</em></strong> with healthy rivers, wetlands, and coral reefs across coastlines and floodplains can absorb and buffer storm surges and flooding.
 </blockquote>
 <p><br/></p>
 </div>
@@ -247,7 +247,7 @@ Climate change causes more extreme weather events, <strong><em>and biodiversity 
 </div>
 <div class="quote">
 <blockquote>
-Climate change causes more crop yields to decline, <strong><em>and biodiversity loss</em></strong> with rich soil organisms can regulate and regenerate soil health and with diverse crops and livestock can stabilize food supply. 
+Climate change causes more crop yields to decline, <strong><em>and biodiversity</em></strong> with rich soil organisms can regulate and regenerate soil health and with diverse crops and livestock can stabilize food supply. 
 </blockquote>
 <p><br/></p>
 </div>
@@ -261,7 +261,7 @@ Climate change causes more crop yields to decline, <strong><em>and biodiversity 
 </div>
 <div class="quote">
 <blockquote>
-Climate change causes more widespread droughts, <strong><em>and biodiversity loss</em></strong> with healthy freshwater ecosystems can regulate water quality, flow, supply, and enhance groundwater systems.
+Climate change causes more widespread droughts, <strong><em>and biodiversity</em></strong> with healthy freshwater ecosystems can regulate water quality, flow, supply, and enhance groundwater systems.
 </blockquote>
 <p><br/></p>
 </div>
@@ -275,7 +275,7 @@ Climate change causes more widespread droughts, <strong><em>and biodiversity los
 </div>
 <div class="quote">
 <blockquote>
-Climate change causes spread of pests and diseases in forest and crops, <strong><em>and biodiversity loss</em></strong> with native and diverse species in place of non-native, monocultured plantations can decrease prevalence of pests and diseases.
+Climate change causes spread of pests and diseases in forest and crops, <strong><em>and biodiversity</em></strong> with native and diverse species in place of non-native, monocultured plantations can decrease prevalence of pests and diseases.
 </blockquote>
 <p><br/></p>
 </div>
@@ -289,7 +289,7 @@ Climate change causes spread of pests and diseases in forest and crops, <strong>
 </div>
 <div class="quote">
 <blockquote>
-Climate change causes more extreme wildfires, <strong><em>and biodiversity loss</em></strong> with diverse forests in genes and species can spread risk, increase resistance to stresses, and promote resilience to forest systems.
+Climate change causes more extreme wildfires, <strong><em>and biodiversity</em></strong> with diverse forests in genes and species can spread risk, increase resistance to stresses, and promote resilience to forest systems.
 </blockquote>
 <p><br/></p>
 </div>
@@ -303,7 +303,7 @@ Climate change causes more extreme wildfires, <strong><em>and biodiversity loss<
 </div>
 <div class="quote">
 <blockquote>
-Climate change mostly derives from emitting carbon emissions into atmosphere, <strong><em>and biodiversity loss</em></strong> with healthy forests, wetlands, mangroves, seagrass, and other biomes can naturally capture and sequester carbon. 
+Climate change mostly derives from emitting carbon emissions into atmosphere, <strong><em>and biodiversity</em></strong> with healthy forests, wetlands, mangroves, seagrass, and other biomes can naturally capture and sequester carbon. 
 </blockquote>
 <p><br/></p>
 </div>
@@ -323,7 +323,7 @@ Climate change mostly derives from emitting carbon emissions into atmosphere, <s
 </div>
 <div class="quote">
 <blockquote>
-Modern economies often measure the accumulation of produced capital (roads, machines, buildings, factories, and ports) and human capital (health and education) but overlook natural capital <strong><em>and biodiversity loss</em></strong> provides such value with raw materials, resources, and regulation of environment that support commerce and livelihoods.
+Modern economies often measure the accumulation of produced capital (roads, machines, buildings, factories, and ports) and human capital (health and education) but overlook natural capital <strong><em>and biodiversity</em></strong> provides such value with raw materials, resources, and regulation of environment that support commerce and livelihoods.
 </blockquote>
 </div>
 <br/>
@@ -336,7 +336,7 @@ Modern economies often measure the accumulation of produced capital (roads, mach
 </div>
 <div class="quote">
 <blockquote>
-A society free from conflict, inequality, and uncertainty requires a stable climate and healthy ecosystems for basic amenities, occupations, and recreation, <strong><em>and biodiversity loss</em></strong> supports such requirements through functioning carbon, nitrogen, and water cycles and habitat maintenance.
+A society free from conflict, inequality, and uncertainty requires a stable climate and healthy ecosystems for basic amenities, occupations, and recreation, <strong><em>and biodiversity</em></strong> supports such requirements through functioning carbon, nitrogen, and water cycles and habitat maintenance.
 </blockquote>
 </div>
 <br/>
@@ -349,7 +349,7 @@ A society free from conflict, inequality, and uncertainty requires a stable clim
 </div>
 <div class="quote">
 <blockquote>
-Since the dawn of human civilization, species and ecosystems have been integral in human cultures including languages, arts, foods, customs, beliefs, and values <strong><em>and biodiversity loss</em></strong> (akin to human diversity) serves as this living library and heritage.
+Since the dawn of human civilization, species and ecosystems have been integral in human cultures including languages, arts, foods, customs, beliefs, and values <strong><em>and biodiversity</em></strong> (akin to human diversity) serves as this living library and heritage.
 </blockquote>
 </div>
 <br/>
@@ -362,7 +362,7 @@ Since the dawn of human civilization, species and ecosystems have been integral 
 </div>
 <div class="quote">
 <blockquote>
-Physical, mental, and social health and well-being require a stable climate and healthy ecosystems <strong><em>and biodiversity loss</em></strong> serves these needs with air, water, and food quality; medicinal supply; hazard and disease protection; recreation and inspiration.
+Physical, mental, and social health and well-being require a stable climate and healthy ecosystems <strong><em>and biodiversity</em></strong> serves these needs with air, water, and food quality; medicinal supply; hazard and disease protection; recreation and inspiration.
 </blockquote>
 </div>
 <br/>
@@ -375,7 +375,7 @@ Physical, mental, and social health and well-being require a stable climate and 
 </div>
 <div class="quote">
 <blockquote>
-Robust critical infrastructure of water, energy, food, and commodity supply requires vital inputs <strong><em>and biodiversity loss</em></strong> provides water flow and quantity; food pollination and seed dispersal; and natural resources for fiber, fuel, and timber.
+Robust critical infrastructure of water, energy, food, and commodity supply requires vital inputs <strong><em>and biodiversity</em></strong> provides water flow and quantity; food pollination and seed dispersal; and natural resources for fiber, fuel, and timber.
 </blockquote>
 </div>
 <br/>
@@ -388,7 +388,7 @@ Robust critical infrastructure of water, energy, food, and commodity supply requ
 </div>
 <div class="quote">
 <blockquote>
-Essential human survival needs of air, water, food, and shelter requires a stable climate and healthy ecosystems <strong><em>and biodiversity loss</em></strong> provides such habital existence for humans and many other species.
+Essential human survival needs of air, water, food, and shelter requires a stable climate and healthy ecosystems <strong><em>and biodiversity</em></strong> provides such habital existence for humans and many other species.
 </blockquote>
 </div>
 <br/>
