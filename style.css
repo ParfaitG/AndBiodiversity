@@ -304,11 +304,18 @@
   }
 
   .reports_banner {
+     display: flex;
+     flex-direction: column;
      text-align: center;
+     margin: 0 auto;
   }
-  .reports_banner img {
-     width: 800px;
+  .banner_img {
+     height: 100px;
+     margin: 0 5px;
   }
+  .banner_img:hover { 
+     transform: scale(3);
+   }
   
   .tabset .collapse {
      overflow: hidden;
@@ -563,6 +570,11 @@
 		  max-height: 100px
 	  }
 
+      .banner_img {
+          height: 80px;
+          margin: 0 5px;
+      }
+
       #bottom_icons img:hover,
       #bottom_icons img:active,
       #bottom_icons img:focus {
@@ -705,4 +717,8 @@
       border-bottom: 12px solid transparent;
       border-right: 14px solid black;
     }
+
+  .banner_img:focus { 
+     transform: scale(2);
+   }
   }

@@ -342,6 +342,18 @@ $(function() {
 });
 
 $(document).ready(function(){
+  var blocks = $(".banner_img");
+  for(var j = 0; j < blocks.length; j++){
+    var target = Math.floor(Math.random() * blocks.length -1) + 1;
+    var target2 = Math.floor(Math.random() * blocks.length -1) + 1;
+    blocks.eq(target).before(blocks.eq(target2));
+  }
+  
+  var blocks = $(".banner_img");
+  for(var i = 10; i < blocks.length; i++){
+    blocks.eq(i).hide();
+  }
+  
   var random = Math.floor(Math.random() * $('.footer_box').length);
   $('.footer_box').hide().eq(random).show();
 });
@@ -357,7 +369,29 @@ class="section level4">
 50+ years regarding biodiversity loss and natural environment.</h4>
 <p><br/></p>
 <div class="reports_banner">
-<img src="images/report_covers.png" alt="global report covers"/>
+<p><img class="banner_img" src="images/report_unep2022.png" alt="UNEP 2022 report cover"/>
+<img class="banner_img" src="images/report_wwf2022.png" alt="WWF 2022 report cover"/>
+<img class="banner_img" src="images/report_unccd2022.png" alt="UNCCD 2022 report cover"/>
+<img class="banner_img" src="images/report_ipcc6ar2_2022.png" alt="IPCC Sixth Assessment Part 2 report cover"/>
+<img class="banner_img" src="images/report_faofish2022.png" alt="FAO fisheries 2022 report cover"/>
+<img class="banner_img" src="images/report_ipbesvalues2022.png" alt="IPBES Values 2022 report cover"/>
+<img class="banner_img" src="images/report_faoforests2022.png" alt="FAO forests 2022 report cover"/>
+<img class="banner_img" src="images/report_sei2022.png" alt="SEI 2022 report cover"/>
+<img class="banner_img" src="images/report_ipbesipcc2021.png" alt="IPBES-IPCC 2021 report cover"/>
+<img class="banner_img" src="images/report_iucn2021.png" alt="IUCN 2021 report cover"/>
+<img class="banner_img" src="images/report_unepfinance2021.png" alt="UNEP 2021 finance report cover"/>
+<img class="banner_img" src="images/report_unepblueprint2021.png" alt="UNEP Blueprint report cover"/>
+<img class="banner_img" src="images/report_dasgupta2021.png" alt="Dasgupta Review 2021 report cover"/>
+<img class="banner_img" src="images/report_bgci2021.png" alt="BGCI 2021 report cover"/>
+<img class="banner_img" src="images/report_ramsar2021.png" alt="Ramsar 2021 report cover"/>
+<img class="banner_img" src="images/report_unepplastic2021.png" alt="UNEP Plastic 2021 report cover"/>
+<img class="banner_img" src="images/report_oecd2020.png" alt="OECD 2020 report cover"/>
+<img class="banner_img" src="images/report_cbd2020.png" alt="CBD 2020 report cover"/>
+<img class="banner_img" src="images/report_kew2020.png" alt="Kew 2020 report cover"/>
+<img class="banner_img" src="images/report_wwf2020.png" alt="WWF 2020 report cover"/>
+<img class="banner_img" src="images/report_ipbes2019.png" alt="IPBES 2019 report cover"/>
+<img class="banner_img" src="images/report_fao2019.png" alt="FAO 2019 report cover"/>
+<img class="banner_img" src="images/report_unepglobal2019.png" alt="UNEP 2019 report cover"/></p>
 </div>
 <p><br/> <br/></p>
 </div>
@@ -3091,7 +3125,7 @@ Plant Conservation Bibliography (1990)</a></h4>
 <img class="report_img" src="images/report_wcmc1990.png" alt="WCMC 1990 report cover"/>
 </a></p>
 <h4
-id="the-relatively-recent-explosion-in-green-thinking-and-policy-making-worldwide-together-with-the-concern-at-the-rate-of-loss-of-both-species-and-habitats-has-led-to-a-growing-demand-for-up-to-date-facts-and-figures-about-plant-species-and-vegetation-types-and-how-they-should-be-conserved.-fortunately-much-has-been-published-on-this-subject-in-recent-years-yet-there-has-been-no-obvious-route-for-the-conservation-and-development-community-to-gain-access-to-this-information-quickly-and-easily.-the-relevant-literature-tends-to-be-markedly-mulu--disciplinary-and-is-thinly-scattered-across-such-varied-fields-as-botany-forestry-ecology-horticulture-planning-economics-politics-and-environmental-lawthis-volume-contains-over-10000-reference-citations-to-published-literature-considered-relevant-to-international-national-or-local-plant-conservation.-see-report.-download-report.">The
+id="the-relatively-recent-explosion-in-green-thinking-and-policy-making-worldwide-together-with-the-concern-at-the-rate-of-loss-of-both-species-and-habitats-has-led-to-a-growing-demand-for-up-to-date-facts-and-figures-about-plant-species-and-vegetation-types-and-how-they-should-be-conserved.-fortunately-much-has-been-published-on-this-subject-in-recent-years-yet-there-has-been-no-obvious-route-for-the-conservation-and-development-community-to-gain-access-to-this-information-quickly-and-easily.-the-relevant-literature-tends-to-be-markedly-multi-disciplinary-and-is-thinly-scattered-across-such-varied-fields-as-botany-forestry-ecology-horticulture-planning-economics-politics-and-environmental-lawthis-volume-contains-over-10000-reference-citations-to-published-literature-considered-relevant-to-international-national-or-local-plant-conservation.-see-report.-download-report.">The
 relatively recent explosion in ‘green’ thinking and policy making
 worldwide, together with the concern at the rate of <strong><em>loss of
 both species and habitats</em></strong>, has led to a growing demand for
@@ -3100,7 +3134,7 @@ and how they should be conserved. Fortunately, much has been published
 on this subject in recent years, yet there has been no obvious route for
 the conservation and development community to gain access to this
 information quickly and easily. The relevant literature tends to be
-markedly mulu- disciplinary, and is thinly scattered across such varied
+markedly multi-disciplinary, and is thinly scattered across such varied
 fields as botany, forestry, ecology, horticulture, planning, economics,
 politics and environmental law…This volume contains over 10,000
 reference citations to published literature considered relevant to
