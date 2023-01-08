@@ -121,6 +121,20 @@
      color: #4d5156;
   }
   
+  .ncp_banner {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     margin: 0 auto;
+  }
+  .ncp_img {
+     width: 200px;
+  }
+
+  .ncp_img:hover { 
+     transform: scale(3);
+   }
+
   .banner {
      text-align: center;
      display: flex;

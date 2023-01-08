@@ -65,9 +65,9 @@ library(pixture)
 
 ```{r echo=FALSE}
 figs <- c(
-  "images/ibpes_fig_spm1.jpg" = "IPBES Global Assessment: Summary for Policymakers - Fig 1",
-  "images/ibpes_fig_spm2.png" = "IPBES Global Assessment: Summary for Policymakers - Fig 2",
-  "images/ibpes_fig_spm3.png" = "IPBES Global Assessment: Summary for Policymakers - Fig 3",
+  "images/ipbes_fig_spm1.jpg" = "IPBES Global Assessment: Summary for Policymakers - Fig 1",
+  "images/ipbes_fig_spm2.png" = "IPBES Global Assessment: Summary for Policymakers - Fig 2",
+  "images/ipbes_fig_spm3.png" = "IPBES Global Assessment: Summary for Policymakers - Fig 3",
   "images/planetary_boundaries_2009.jpg" = "Stockholm Resilience Centre: Planetary Boundary Framework (2009)",
   "images/ipbes_ipcc_fig1_2.png" = "IPBES and IPCC Workshop Report - Fig 1.2",
   "images/ipbes_ipcc_fig1_3.png" = "IPBES and IPCC Workshop Report - Fig 1.3",
