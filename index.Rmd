@@ -122,12 +122,12 @@ $(document).ready(function(){
 
 ---
 
-#### In its silent and invisible background, ***biodiversity and ecosystems*** provides crucial services through Nature's Contribution to People.
+#### In our silent and invisible background, ***biodiversity and ecosystems*** provides essential services through Nature's Contribution to People.
 
 <br/>
 
 <div class="ncp_banner">
-<h4>Regulation of Environmental Processes</h4>
+<h4><strong>Regulation of Environmental Processes<strong></h4>
 <img class="ncp_img" src="images/ipbes_ncp_1.png" alt="IPBES Nature's Contribution to People #1"/>
 <img class="ncp_img" src="images/ipbes_ncp_2.png" alt="IPBES Nature's Contribution to People #2"/>
 <img class="ncp_img" src="images/ipbes_ncp_3.png" alt="IPBES Nature's Contribution to People #3"/>
@@ -144,7 +144,7 @@ $(document).ready(function(){
 <br/>
 
 <div class="ncp_banner">
-<h4>Materials and Assistance</h4>
+<h4><strong>Materials and Assistance<strong></h4>
 <img class="ncp_img" src="images/ipbes_ncp_11.png" alt="IPBES Nature's Contribution to People #11"/>
 <img class="ncp_img" src="images/ipbes_ncp_12.png" alt="IPBES Nature's Contribution to People #12"/>
 <img class="ncp_img" src="images/ipbes_ncp_13.png" alt="IPBES Nature's Contribution to People #13"/>
@@ -154,7 +154,7 @@ $(document).ready(function(){
 <br/>
 
 <div class="ncp_banner">
-<h4>Non-Material and Other</h4>
+<h4><strong>Non-Material and Other<strong></h4>
 <img class="ncp_img" src="images/ipbes_ncp_15.png" alt="IPBES Nature's Contribution to People #15"/>
 <img class="ncp_img" src="images/ipbes_ncp_16.png" alt="IPBES Nature's Contribution to People #16"/>
 <img class="ncp_img" src="images/ipbes_ncp_17.png" alt="IPBES Nature's Contribution to People #17"/>
