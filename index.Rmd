@@ -164,7 +164,9 @@ $(document).ready(function(){
 
 <br/>
 
-<sup>Source: IPBES 2019 Global Assessment (Fig. 1)</sup>
+<span class="ncp_source">Source: IPBES 2019 Global Assessment (Fig. 1)</span>
+
+<br/>
 
 ---
 
