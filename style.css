@@ -130,6 +130,8 @@
   }
   .ncp_img {
      width: 200px;
+     border-radius: 10px;
+     border: 1px #ccc solid;
   }
   .ncp_img:hover { 
      transform: scale(3);
