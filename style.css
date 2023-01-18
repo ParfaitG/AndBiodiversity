@@ -134,8 +134,27 @@
      border: 1px #ccc solid;
   }
   .ncp_img:hover { 
+     transform: scale(2);
+   }
+
+  .driver_banner {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     column-gap: 10px;
+     text-align: center;
+     color: #4d5156;
+  }
+
+  .driver_img img {
+     height: 200px;
+     border-radius: 15px;
+     border: 1px #ccc solid;
+  }
+  .driver_img:hover { 
      transform: scale(3);
    }
+
   .ncp_source {
      border-top: 1px solid #4d5156;
      padding: 5px 0 0 0;
@@ -566,6 +585,15 @@
           margin: 0 0 20px 0;
       }
 
+      .driver_banner {
+          display: block;
+          width: 100%;
+          height: 100%;
+      }
+      .driver_img {
+          margin: 10px 0;
+      }
+
      .mainstream .stick_image, 
      .nbs .stick_image,
      .importance .stick_image {
@@ -740,7 +768,7 @@
       border-right: 14px solid black;
     }
 
-  .banner_img:focus { 
+  .banner_img:focus, .driver_img:focus { 
      transform: scale(2);
    }
   }
