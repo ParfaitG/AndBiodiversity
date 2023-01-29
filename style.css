@@ -152,7 +152,7 @@
      border: 1px #ccc solid;
   }
   .driver_img:hover { 
-     transform: scale(3);
+     transform: scale(2);
    }
 
   .ncp_source {
@@ -591,6 +591,9 @@
          margin: 0 auto;
          font-size: 10px;
       }
+      .ncp_img:hover { 
+         transform: none;
+      }
       .driver_banner {
           display: block;
           width: 100%;
@@ -598,6 +601,9 @@
       }
       .driver_img {
           margin: 10px 0;
+      }
+      .driver_img:hover { 
+          transform: none;
       }
 
      .mainstream .stick_image, 

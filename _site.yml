@@ -1,7 +1,7 @@
 name: "And Biodiversity" 
 output_dir: "."
 navbar:
-  title: "<img id=\"logo\" style=\"display:inline\" src=\"images\/favicon16x16.png\" /> | And Biodiversity"
+  title: "<img id=\"logo\" style=\"display:inline\" src=\"https://images.andbiodiversity.info\/favicon16x16.png\" /> | And Biodiversity"
   type: inverse
   right:
     - text: "home"

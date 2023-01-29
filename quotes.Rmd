@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 <br/>
 
-<div class="logo"><a href="index.html"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></a></div>
+<div class="logo"><a href="index.html"><img src="https://images.andbiodiversity.info/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></a></div>
 
 #### Read, cite, and share quotes from major reports regarding biodiversity loss.
 
@@ -68,7 +68,7 @@ $(document).ready(function(){
 
 <div id="business" class="cites">
 <div class="stick_image">
-<img class="report_img" src="images/report_wwf2022.png" alt="WWF 2022 report cover"/>
+<img class="report_img" src="https://images.andbiodiversity.info/report_wwf2022.png" alt="WWF 2022 report cover"/>
 </div>
 <div class="quote">
 <blockquote>
@@ -107,7 +107,7 @@ Today we face the double, interlinked emergencies of human-induced climate chang
 
 <div id="business" class="cites">
 <div class="stick_image">
-<img class="report_img" src="images/report_ipbesipcc2021.png" alt="IPBES-IPCC 2021 report cover"/>
+<img class="report_img" src="https://images.andbiodiversity.info/report_ipbesipcc2021.png" alt="IPBES-IPCC 2021 report cover"/>
 </div>
 <div class="quote">
 <blockquote>
@@ -205,7 +205,7 @@ the inseparable nature of climate, biodiversity, and human quality of life will 
 
 <div id="business" class="cites">
 <div class="stick_image">
-<img class="report_img" src="images/report_unepblueprint2021.png" alt="UNEP Blueprint report cover"/>
+<img class="report_img" src="https://images.andbiodiversity.info/report_unepblueprint2021.png" alt="UNEP Blueprint report cover"/>
 </div>
 <div class="quote">
 <blockquote>
@@ -275,7 +275,7 @@ to do the same. Yardsticks such as inclusive wealth (the sum of produced, natura
 
 <div id="business" class="cites">
 <div class="stick_image">
-<img class="report_img" src="images/report_dasgupta2021.png" alt="Dasgupta Review 2021 report cover"/>
+<img class="report_img" src="https://images.andbiodiversity.info/report_dasgupta2021.png" alt="Dasgupta Review 2021 report cover"/>
 </div>
 <div class="quote">
 <blockquote>
@@ -351,7 +351,7 @@ consider produced and human capital as primary factors of production, not explic
 
 <div id="business" class="cites">
 <div class="stick_image">
-<img class="report_img" src="images/report_wwf2020.png" alt="WWF 2020 report cover"/>
+<img class="report_img" src="https://images.andbiodiversity.info/report_wwf2020.png" alt="WWF 2020 report cover"/>
 </div>
 <div class="quote">
 <blockquote>
@@ -410,7 +410,7 @@ The global Living Planet Index continues to decline. It shows an average 68% dec
 
 <div id="business" class="cites">
 <div class="stick_image">
-<img class="report_img" src="images/report_ipbes2019.png" alt="IPBES 2019 report cover"/>
+<img class="report_img" src="https://images.andbiodiversity.info/report_ipbes2019.png" alt="IPBES 2019 report cover"/>
 </div>
 <div class="quote">
 <blockquote>
@@ -497,7 +497,7 @@ goals, such as those embodied in the Aichi Biodiversity Targets and the 2030 Age
 
 <div id="business" class="cites">
 <div class="stick_image">
-<img class="report_img" src="images/report_mea2005.png" alt="MEA 2005 report cover"/>
+<img class="report_img" src="https://images.andbiodiversity.info/report_mea2005.png" alt="MEA 2005 report cover"/>
 </div>
 <div class="quote">
 <blockquote>
@@ -570,27 +570,27 @@ Over the past 50 years, humans have changed ecosystems more rapidly and extensiv
 <div class="table_container">
 <table id="bottom_icons">
    <tr>
-      <td><span data-text="Marine and terrestrial ecosystems are the sole sinks for anthropogenic carbon emissions, with a gross sequestration of 5.6 gigatons of carbon per year (the equivalent of some 60 per cent of global anthropogenic emissions). (IPBES GA)" tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></span></td>
+      <td><span data-text="Marine and terrestrial ecosystems are the sole sinks for anthropogenic carbon emissions, with a gross sequestration of 5.6 gigatons of carbon per year (the equivalent of some 60 per cent of global anthropogenic emissions). (IPBES GA)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon"/></span></td>
       <td><h3>Carbon<br/>Sequestration</h3></td>
-      <td><span data-text="The great expansion in the production of food, feed, fibre and bioenergy has occurred at the cost of many other contributions of nature to quality of life, including regulation of air and water quality, climate regulation and habitat provision. (IPBES GA)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span></td>
+      <td><span data-text="The great expansion in the production of food, feed, fibre and bioenergy has occurred at the cost of many other contributions of nature to quality of life, including regulation of air and water quality, climate regulation and habitat provision. (IPBES GA)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_elephant_gray.png" alt="elephant icon"/></span></td>
       <td><h3>Habitat<br/>Maintenance</h3></td>
-      <td><span data-text="Ecosystem restoration also provides multiple nature´s contribution to people, such as the regulation of water quality, regulation of the hydrological cycle, decrease the frequency and severity of floods and droughts and pollination services (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></span></td>
+      <td><span data-text="Ecosystem restoration also provides multiple nature´s contribution to people, such as the regulation of water quality, regulation of the hydrological cycle, decrease the frequency and severity of floods and droughts and pollination services (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon"/></span></td>
       <td><h3>Water Quality<br/>Regulation</h3></td>
-      <td><span data-text="Loss of coastal habitats and coral reefs reduces coastal protection, which increases the risk from floods and hurricanes to life and property for the 100 million to 300 million people living within coastal 100-year flood zones. (IPBES GA)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></span></td>
+      <td><span data-text="Loss of coastal habitats and coral reefs reduces coastal protection, which increases the risk from floods and hurricanes to life and property for the 100 million to 300 million people living within coastal 100-year flood zones. (IPBES GA)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_kelp_green.png" alt="kelp icon"/></span></td>
       <td><h3>Hazard<br/>Regulation</h3></td>
-      <td><span data-text="Climate extremes disrupt food production and water supply, damage crops, infrastructure and transport networks, and reduce air quality with consequences for human health and good quality of life. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></span></td>
+      <td><span data-text="Climate extremes disrupt food production and water supply, damage crops, infrastructure and transport networks, and reduce air quality with consequences for human health and good quality of life. (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_atmosphere.png" alt="atmosphere icon"/></span></td>
       <td><h3>Air<br/>Quality</h3></td>
    </tr>
    <tr>
-      <td><span data-text="Over 75% of global food crop types rely on animal pollination (IPBES GA)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></span></td>
+      <td><span data-text="Over 75% of global food crop types rely on animal pollination (IPBES GA)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_insect.png" alt="insect icon"/></span></td>
       <td><h3>Plant<br/>Pollination</h3></td>
-      <td><span data-text="The capacity to sequester carbon by marine and terrestrial environments serves as a selected indicator for regulation of ocean acidification (IPBES GA)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></span></td>
+      <td><span data-text="The capacity to sequester carbon by marine and terrestrial environments serves as a selected indicator for regulation of ocean acidification (IPBES GA)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_ocean_blue.png" alt="ocean icon"/></span></td>
       <td><h3>Ocean Acidification<br/>Regulation</h3></td>
-      <td><span data-text="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere and provides continued or restored natural CO2 (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></span></td>
+      <td><span data-text="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere and provides continued or restored natural CO2 (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon"/></span></td>
       <td><h3>Climate<br/>Regulation</h3></td>
-      <td><span data-text="Decline and disappearance of large herbivores and predators has dramatically affected the structure, fire regimes, seed dispersal, land surface albedo and nutrient availability within many ecosystems (IPBES GA)" tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></span></td>
+      <td><span data-text="Decline and disappearance of large herbivores and predators has dramatically affected the structure, fire regimes, seed dispersal, land surface albedo and nutrient availability within many ecosystems (IPBES GA)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon"/></span></td>
       <td><h3>Seed<br/>Dispersal</h3></td>
-      <td><span data-text="Nature, through its ecological and evolutionary processes, sustains the quality of the air, fresh water and soils on which humanity depends (IPBES GA)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></span></td>
+      <td><span data-text="Nature, through its ecological and evolutionary processes, sustains the quality of the air, fresh water and soils on which humanity depends (IPBES GA)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon"/></span></td>
       <td><h3>Soil<br/>Formation</h3></td>
    </tr>
 </table>
@@ -599,7 +599,7 @@ Over the past 50 years, humans have changed ecosystems more rapidly and extensiv
 ::: {.footer}
 <div class="footer_box">
   <div class="footer_column" id="footer_label">
-  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"><img src="https://images.andbiodiversity.info/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
   <div class="footer_column">
@@ -627,7 +627,7 @@ And close my eyes...<br/>
 
 <div class="footer_box">
   <div class="footer_column" id="footer_label">
-  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"><img src="https://images.andbiodiversity.info/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
   <div class="footer_column">
@@ -650,7 +650,7 @@ Hai Zi<br/>
 
 <div class="footer_box">
   <div class="footer_column" id="footer_label">
-  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"><img src="https://images.andbiodiversity.info/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
   <div class="footer_column">

@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 <br/>
 
-<div class="logo"><a href="index.html"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></a></div>
+<div class="logo"><a href="index.html"><img src="https://images.andbiodiversity.info/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></a></div>
 
 #### Learn more about biodiversity loss with a high level overview.
 
@@ -64,7 +64,7 @@ $(document).ready(function(){
   <label class="accordion-label" for="check1">What?</label>
   <div class="accordion-content">
   <p>**What is biodiversity loss?**<br/>The rapid, accelerating loss of variability and abundance of life on Earth across the hierarchies of genes, species, and ecosystems including: plant and animal species; wild and domesticated varieties; and natural habitats and biomes. Such loss has been caused by human activities with direct drivers of land/sea use change, overexploitation of organisms, climate change, pollution, and invasive alien species. _See_ IPBES 2019 Global Assessment.</p>
-  <img src="images/clip_trees.png" height="120px" alt="different tree color icons"/>
+  <img src="https://images.andbiodiversity.info/clip_trees.png" height="120px" alt="different tree color icons"/>
   </div>
 </div>
 <div class="accordion">
@@ -72,7 +72,7 @@ $(document).ready(function(){
   <label class="accordion-label" for="check2">Who?</label>
   <div class="accordion-content">
   <p>**Who are affected by biodiversity loss?**<br/>Due to reliance on biodiversity for food supply, air quality, water supply, climate regulation, and other ecosystem services, all flora and fauna including humans are affected by this crisis. _See_ IPBES-IPCC co-sponsored 2021 report.</p>
-  <img src="images/clip_peoplefigureworld.png" alt="people figures around world"/>
+  <img src="https://images.andbiodiversity.info/clip_peoplefigureworld.png" alt="people figures around world"/>
   </div>
 </div>
 <div class="accordion">
@@ -80,7 +80,7 @@ $(document).ready(function(){
   <label class="accordion-label" for="check3">Where?</label>
   <div class="accordion-content">
   <p>**Where does biodiversity loss occur?**<br/>While disappearing species and damaged ecosystems vary by regions and biomes, consistent evidence indicates a global scale to biodiversity loss. _See_ World Wildlife Fund's Living Planet biennual reports.</p>
-  <img src="images/clip_globes.png" height="120px" alt="different globe color icon"/>
+  <img src="https://images.andbiodiversity.info/clip_globes.png" height="120px" alt="different globe color icon"/>
   </div>
 </div>
 <div class="accordion">
@@ -88,7 +88,7 @@ $(document).ready(function(){
   <label class="accordion-label" for="check4">When?</label>
   <div class="accordion-content">
   <p>**When did biodiversity loss start?**<br/>Since the Industrial Revolution and notably mid-20th century with the rapid rise of human population, global trade, industrial farming and fishing, and expansive urbanization, biodiversity loss has occurred at unprecedented levels in human history with signs of acceleration. _See_ all biodiversity global assessments from 1995, 2005, and 2019.</p>
-  <img src="images/clip_calendars.png" height="120px" alt="different calendar color icons"/>
+  <img src="https://images.andbiodiversity.info/clip_calendars.png" height="120px" alt="different calendar color icons"/>
   </div>
 </div>
 <div class="accordion">
@@ -96,7 +96,7 @@ $(document).ready(function(){
   <label class="accordion-label" for="check5">Why?</label>
   <div class="accordion-content">
   <p>**Why is biodiversity loss important?**<br/>For life-critical services, environmental, economic, developmental, ethical, security, and social issues, biodiversity loss plays an instrumental role from food webs to GDP accounting. _See_ the Dasgupta Review in 2021 on The Economics of Biodiversity.</p>
-  <img src="images/clip_exclamations.png" height="120px" alt="different exclamation point color icon"/>
+  <img src="https://images.andbiodiversity.info/clip_exclamations.png" height="120px" alt="different exclamation point color icon"/>
   </div>
 </div>
 <div class="accordion">
@@ -104,7 +104,7 @@ $(document).ready(function(){
   <label class="accordion-label" for="check6">How?</label>
   <div class="accordion-content">
   <p>**How can we stop biodiversity loss?**<br/>Raise awareness. Start discussions. Adjust lifestyle and diet. Avoid waste and excessive consumption. Boycott goods, services, and industries that destroy nature. Advocate for the end to forest logging, wetland draining, and other actions. Implore public and business leaders. Exercise consumer and voting power. Insist on sustainable spatial planning with nature. _See_ recommendations in most reports and papers.</p>
-  <img src="images/clip_lightbulbs.png" height="170px" alt="different light bulb color icon"/>
+  <img src="https://images.andbiodiversity.info/clip_lightbulbs.png" height="170px" alt="different light bulb color icon"/>
   </div>
 </div>
 </div>
@@ -129,8 +129,8 @@ $(document).ready(function(){
    <li>UNEP environment reports recognize species diversity and ecosystems. <em>See</em> <a href="reports.html" target="_blank"><b>Reports</b></a>.</li>
    <li>States adopt the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), an international conservation effort to protect the planet’s most endangered species. <em>See</em> <a href="https://www.unep.org/environmental-moments-unep50-timeline" target="_blank"><b>UNEP history</b></a>.</li>
   </ul>
-  <img src="images/icon_unep.png" alt="UNEP icon"/>
-  <img src="images/icon_cites.png" alt="CITES icon"/>
+  <img src="https://images.andbiodiversity.info/icon_unep.png" alt="UNEP icon"/>
+  <img src="https://images.andbiodiversity.info/icon_cites.png" alt="CITES icon"/>
   </div>
  </div>
  <div class="accordion">
@@ -142,8 +142,8 @@ $(document).ready(function(){
    <li>UN publishes the landmark World Commission on Sustainable Developments Bruntland Report, *Our Common Future*, to guide sustainable development in the face of environmental challenges. <em>See</em> <a href="reports.html" target="_blank"><b>Reports</b></a>.</li>
    <li>The Intergovernmental Panel on Climate Change (IPCC) launches to formalize the intergovernmental science-policy interface.</li>
   </ul>
-  <img src="images/report_un1987.png" alt="UN 1987 report cover"/>
-  <img src="images/icon_ipcc.png" alt="IPCC icon"/>
+  <img src="https://images.andbiodiversity.info/report_un1987.png" alt="UN 1987 report cover"/>
+  <img src="https://images.andbiodiversity.info/icon_ipcc.png" alt="IPCC icon"/>
   </div>
  </div>
  <div class="accordion">
@@ -155,9 +155,9 @@ $(document).ready(function(){
    <li>WCMC publishes the most comprehensive review of global biodiversity ever compiled, *Global Biodiversity: Status of the Earth's living resources*. <em>See</em> <a href="reports.html" target="_blank"><b>Reports</b></a>.</li>
    <li>UNEP publishes the first global biodiversity assessment, the work of over 1,500 scientists and experts from all parts of the world, to provide a snapshot of the current state of the biodiversity sciences and of the subject as perceived by the world's scientific community. <em>See</em> <a href="https://press.un.org/en/1995/19951114.he916.html" target="_blank"><b>press release</b></a>.</li>
   </ul>
-  <img src="images/icon_conventionbiodiversity.png" height="150px" alt="CBD icon"/>
-  <img src="images/report_wcmc1992.png" height="150px" alt="WCMC 1992 report cover"/>
-  <img src="images/report_unepglobal1995.png" height="150px" alt="UNEP 1995 report cover"/>
+  <img src="https://images.andbiodiversity.info/icon_conventionbiodiversity.png" height="150px" alt="CBD icon"/>
+  <img src="https://images.andbiodiversity.info/report_wcmc1992.png" height="150px" alt="WCMC 1992 report cover"/>
+  <img src="https://images.andbiodiversity.info/report_unepglobal1995.png" height="150px" alt="UNEP 1995 report cover"/>
   </div>
  </div>
  <div class="accordion">
@@ -169,9 +169,9 @@ $(document).ready(function(){
    <li>The landmark Millennium Ecosystem Assessment (MEA) publishes its findings on the consequences of ecosystem change for human well-being which involved the work of more than 1,300 experts worldwide from 2001-2005. <em>See</em> <a href="https://press.un.org/en/2005/unep302.doc.htm" target="_blank"><b>press release</b></a>.</li>
    <li>Research team lead by Johan Rockström and Will Steffen publish the Planetary Boundaries Framework that recognizes biodiversity as one of the transgressed boundaries. <em>See</em> <a href="https://www.stockholmresilience.org/research/planetary-boundaries.html" target="_blank"><b>Stockholm Resilience Center research</b></a>.</li>
   </ul>
-   <img src="images/icon_unmdg.png" alt="UN MDG icon"/>
-   <img src="images/report_mea2005.png" alt="MEA 2005 report cover"/>
-   <img src="images/planetary_boundaries_2009.jpg" alt="Planetary Boundary Framework (2009)"/>
+   <img src="https://images.andbiodiversity.info/icon_unmdg.png" alt="UN MDG icon"/>
+   <img src="https://images.andbiodiversity.info/report_mea2005.png" alt="MEA 2005 report cover"/>
+   <img src="https://images.andbiodiversity.info/planetary_boundaries_2009.jpg" alt="Planetary Boundary Framework (2009)"/>
   </div>
  </div>
  <div class="accordion">
@@ -183,9 +183,9 @@ $(document).ready(function(){
    <li>Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) launches as an independent, intergovernmental body to serve as a science-policy interface. <em>See</em> <a href="https://ipbes.net/history-establishment" target="_blank"><b>IPBES history</b></a>.</li>
    <li>IPBES publishes its landmark, comprehensive Global Assessment to assess the status and trends of biodiversity and ecosystem services over past five decades, its impact on human wellbeing, and the effectiveness of responses. <em>See</em> <a href="https://ipbes.net/news/Media-Release-Global-Assessment" target="_blank"><b>media release</b></a>.</li>
   </ul>
-   <img src="images/icon_unbiodecade.png" alt="UN Biodiversity Decade icon"/>
-   <img src="images/icon_ipbes.png" alt="IPBES icon"/>
-   <img src="images/report_ipbes2019.png" alt="IPBES Global Assessment report cover"/>
+   <img src="https://images.andbiodiversity.info/icon_unbiodecade.png" alt="UN Biodiversity Decade icon"/>
+   <img src="https://images.andbiodiversity.info/icon_ipbes.png" alt="IPBES icon"/>
+   <img src="https://images.andbiodiversity.info/report_ipbes2019.png" alt="IPBES Global Assessment report cover"/>
   </div>
  </div>
  <div class="accordion">
@@ -197,8 +197,8 @@ $(document).ready(function(){
    <li>National leaders commit to halt and reverse biodiversity loss, reverse land degradation and forest loss, and protect and conserve at least 30% of land and sea by 2030. <em>See</em> <a href="https://www.campaignfornature.org/news/category/30x30" target="_blank"><b>updates</b></a>.</li>
    <li>Conference of the Parties to the Convention on Biological Diversity (CBD) at COP15 adopt global targets by 2030 in landmark biodiversity agreement. <em>See</em> <a href="https://www.cbd.int/article/cop15-cbd-press-release-final-19dec2022" target="_blank"><b>press release</b></a>.</li>
   </ul>
-  <img src="images/report_ipbesipcc2021.png" alt="IPBES and IPCC report cover"/>
-  <img src="images/icon_cop15.png" alt="COP15 icon"/>
+  <img src="https://images.andbiodiversity.info/report_ipbesipcc2021.png" alt="IPBES and IPCC report cover"/>
+  <img src="https://images.andbiodiversity.info/icon_cop15.png" alt="COP15 icon"/>
   </div>
  </div>
 </div>
@@ -225,9 +225,9 @@ $(document).ready(function(){
    <li>Intervene at the watershed or river basin scale. <em>See</em> <a href="reports.html"><b>UNEP blueprint report</b>.</a></li>
    <li> ... <em>See</em> <a href="reports.html"><b>most reports</b>.</a></li>
   </ul>
-   <img class="multiple-figure" src="images/stick_figure_monkey_brown.png" alt="monkey icon"/>
-   <img class="multiple-figure" src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/>
-   <img class="multiple-figure" src="images/stick_figure_fish_blue.png" alt="fish icon"/>
+   <img class="multiple-figure" src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon"/>
+   <img class="multiple-figure" src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon"/>
+   <img class="multiple-figure" src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon"/>
   </div>
  </div>
  <div class="accordion">
@@ -242,9 +242,9 @@ $(document).ready(function(){
    <li>Sustainable urban planning; encouraging densification for compact communities, especially in sprawling cities. <em>See</em> <a href="reports.html"><b>UNEP blueprint report</b>.</a></li>
    <li> ... <em>See</em> <a href="reports.html"><b>most reports</b>.</a></li>
   </ul>
-   <img class="multiple-figure" src="images/stick_figure_soil_green.png" alt="soil icon"/>
-   <img class="multiple-figure" src="images/stick_figure_tree_green.png" alt="tree icon"/>
-   <img class="multiple-figure" src="images/stick_figure_fish_blue.png" alt="fish icon"/>
+   <img class="multiple-figure" src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon"/>
+   <img class="multiple-figure" src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon"/>
+   <img class="multiple-figure" src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon"/>
   </div>
  </div>
  <div class="accordion">
@@ -260,7 +260,7 @@ $(document).ready(function(){
    <li> ... <em>See</em> <a href="reports.html"><b>most reports</b>.</a></li>
   </ul>
   <div class="single-figure">
-   <img src="images/dasgupta_review_fig3.png" alt="nature capital icon"/>
+   <img src="https://images.andbiodiversity.info/dasgupta_review_fig3.png" alt="nature capital icon"/>
    <p>Dasgupta Review - Figure 3</p>
   </div>
   </div>
@@ -278,7 +278,7 @@ $(document).ready(function(){
    <li> ... <em>See</em> <a href="reports.html"><b>most reports</b>.</a></li>
   </ul>
   <div class="single-figure">
-   <img src="images/unep_makingpeace_fig6_3.png" alt="actions to restore life graph"/>
+   <img src="https://images.andbiodiversity.info/unep_makingpeace_fig6_3.png" alt="actions to restore life graph"/>
    <p>UNEP Making Peace with Nature - Fig 6.3</p>
   </div>
   </div>
@@ -296,7 +296,7 @@ $(document).ready(function(){
    <li> ... <em>See</em> <a href="reports.html"><b>most reports</b>.</a></li>
   </ul>
   <div class="single-figure">
-   <img src="images/ipbes_ipcc_fig2_2.png" alt="multifunctional scapes figure"/>
+   <img src="https://images.andbiodiversity.info/ipbes_ipcc_fig2_2.png" alt="multifunctional scapes figure"/>
    <p>IPBES-IPCC Report - Figure 2.2</p>
   </div>
   </div>
@@ -314,7 +314,7 @@ $(document).ready(function(){
    <li> ... <em>See</em> <a href="reports.html"><b>most reports</b>.</a></li>
   </ul>
   <div class="single-figure">
-   <img src="images/dasgupta_review_fig21.png" alt="dasgupta solutions figure"/>
+   <img src="https://images.andbiodiversity.info/dasgupta_review_fig21.png" alt="dasgupta solutions figure"/>
    <p>Dasgupta Review - Figure 21</p>
   </div>
   </div>
@@ -333,27 +333,27 @@ $(document).ready(function(){
 <div class="table_container">
 <table id="bottom_icons">
    <tr>
-      <td><span data-text="Measures such as the diversification of planted crop and forest species, agroforestry and agroecology enhance biodiversity and nature’s contributions to people in landscapes focused on the production of food, feed, fibre, or energy (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_tree_green.png" alt="tree icon"/></span></td>
+      <td><span data-text="Measures such as the diversification of planted crop and forest species, agroforestry and agroecology enhance biodiversity and nature’s contributions to people in landscapes focused on the production of food, feed, fibre, or energy (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon"/></span></td>
       <td><h3>Agro-<br/>forestry</h3></td>
-      <td><span data-text="The 'scape approach includes networks of protected areas and corridors, 'working' or 'managed' 'scapes modified for human use, and profoundly transformed ecosystems, such as urban and intensively farmed areas (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span></td>
+      <td><span data-text="The 'scape approach includes networks of protected areas and corridors, 'working' or 'managed' 'scapes modified for human use, and profoundly transformed ecosystems, such as urban and intensively farmed areas (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_elephant_gray.png" alt="elephant icon"/></span></td>
       <td><h3>Wildlife<br/>Corridor</h3></td>
-      <td><span data-text="Reducing overfishing and bycatch, as well as focusing new aquaculture activities on low trophic level species and broadening the range of species cultivated could both increase global seafood production and reduce impact to the environment and biodiversity (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></span></td>
+      <td><span data-text="Reducing overfishing and bycatch, as well as focusing new aquaculture activities on low trophic level species and broadening the range of species cultivated could both increase global seafood production and reduce impact to the environment and biodiversity (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon"/></span></td>
       <td><h3>Aqua-<br/>culture</h3></td>
-      <td><span data-text="Nature-based solutions for coastal flood protection, such as using natural coastal habitats (vegetation or coral reefs) to provide protection from flooding during storm events (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></span></td>
+      <td><span data-text="Nature-based solutions for coastal flood protection, such as using natural coastal habitats (vegetation or coral reefs) to provide protection from flooding during storm events (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_kelp_green.png" alt="kelp icon"/></span></td>
       <td><h3>Coastal<br/>Restoration</h3></td>
-      <td><span data-text="Reducing greenhouse gas (GHGs) emissions through the development of renewable energies in the transport and energy sector are important options for mitigating climate change (IPBES-IPCC)." tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></span></td>
+      <td><span data-text="Reducing greenhouse gas (GHGs) emissions through the development of renewable energies in the transport and energy sector are important options for mitigating climate change (IPBES-IPCC)." tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_atmosphere.png" alt="atmosphere icon"/></span></td>
       <td><h3>De-<br/>carbonization</h3></td>
    </tr>
    <tr>
-      <td><span data-text="Irrigated rice agriculture has evolved over centuries and led to a well-balanced food web in paddies with an insect diversity even higher than in many (pristine) temperate forests. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></span></td>
+      <td><span data-text="Irrigated rice agriculture has evolved over centuries and led to a well-balanced food web in paddies with an insect diversity even higher than in many (pristine) temperate forests. (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_insect.png" alt="insect icon"/></span></td>
       <td><h3>Pest<br/>Control</h3></td>
-      <td><span data-text="Local management (e.g., integrated coastal zone management and marine protected areas) can play an important role to improve ocean health. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></span></td>
+      <td><span data-text="Local management (e.g., integrated coastal zone management and marine protected areas) can play an important role to improve ocean health. (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_ocean_blue.png" alt="ocean icon"/></span></td>
       <td><h3>Local<br/>Management</h3></td>
-      <td><span data-text="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></span></td> 
+      <td><span data-text="Protection and restoration of wetlands, peatlands and coastal habitats reduces net carbon loss to the atmosphere (primarily from the oxidation of sediments and soil carbon) (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon"/></span></td> 
       <td><h3>Wetland<br/>Restoration</h3></td>
-      <td><span data-text="Trophic rewilding, is a measure to enhance biodiversity and can also contribute to ecosystem restoration (IPBES-IPCC)." tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></td>
+      <td><span data-text="Trophic rewilding, is a measure to enhance biodiversity and can also contribute to ecosystem restoration (IPBES-IPCC)." tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon"/></td>
       <td><h3>Trophic<br/>Rewilding</h3></span></td>
-      <td><span data-text="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></span></td>
+      <td><span data-text="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms. (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon"/></span></td>
       <td><h3>Agro-<br/>ecology</h3></td>
    </tr>
 </table>
@@ -362,7 +362,7 @@ $(document).ready(function(){
 ::: {.footer}
 <div class="footer_box">
   <div class="footer_column" id="footer_label">
-  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"><img src="https://images.andbiodiversity.info/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
   <div class="footer_column">
@@ -387,7 +387,7 @@ Rabindranath Tagore<br/>
 
 <div class="footer_box">
   <div class="footer_column" id="footer_label">
-  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"><img src="https://images.andbiodiversity.info/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
   <div class="footer_column">
@@ -411,7 +411,7 @@ Elizabeth Barrett Browning<br/>
 
 <div class="footer_box">
   <div class="footer_column" id="footer_label">
-  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"><img src="https://images.andbiodiversity.info/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
   <div class="footer_column">
@@ -434,7 +434,7 @@ Countee Cullen<br/>
 
 <div class="footer_box">
   <div class="footer_column" id="footer_label">
-  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"><img src="https://images.andbiodiversity.info/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
   <div class="footer_column">

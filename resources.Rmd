@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 <br/>
 
-<div class="logo"><a href="index.html"><img src="images/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></a></div>
+<div class="logo"><a href="index.html"><img src="https://images.andbiodiversity.info/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></a></div>
 
 #### Check out the many resources and affiliations regarding biodiversity.
 
@@ -71,7 +71,7 @@ RMarkdown site created by ParfaitG with source code.
 
 <div class="repo_page">
  <a href="https://github.com/ParfaitG/AndBiodiversity" target="_blank">
-   <img src="images/github_andbiodiversity.png" alt="GitHub AndBiodiversity Mobile Image" title="GitHub AndBiodiversity Page"/>
+   <img src="https://images.andbiodiversity.info/github_andbiodiversity.png" alt="GitHub AndBiodiversity Mobile Image" title="GitHub AndBiodiversity Page"/>
  </a>
 </div>
 
@@ -285,28 +285,28 @@ RMarkdown site created by ParfaitG with source code.
 <div class="logo_container">
 <table class="icons">
   <tr>
-    <td><a href="https://www.biodiversa.org/" target="_blank"><img src="images/icon_biodiversa.png" alt="Biodiversa logo" title="Biodiversa"/></a></td>
-    <td><a href="https://briwildlife.org/" target="_blank"><img src="images/icon_biodiversityresearchInstitute.png" alt="Biodiversity Research Institute logo" title="Biodiversity Research Institute"/></a></td>
-    <td><a href="https://www.biodiversitylibrary.org/" target="_blank"><img src="images/icon_biodiversityheritagelibrary.png" alt="Biodiversity Heritage Library logo" title="Biodiversity Heritage Library"/></a></td>
-    <td><a href="https://www.epa.gov/enviroatlas/enviroatlas-benefit-category-biodiversity-conservation" target="_blank"><img src="images/icon_epa.png" alt="US EPA logo" title="EPA | EnviroAtlas"/></a></td>
+    <td><a href="https://www.biodiversa.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_biodiversa.png" alt="Biodiversa logo" title="Biodiversa"/></a></td>
+    <td><a href="https://briwildlife.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_biodiversityresearchInstitute.png" alt="Biodiversity Research Institute logo" title="Biodiversity Research Institute"/></a></td>
+    <td><a href="https://www.biodiversitylibrary.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_biodiversityheritagelibrary.png" alt="Biodiversity Heritage Library logo" title="Biodiversity Heritage Library"/></a></td>
+    <td><a href="https://www.epa.gov/enviroatlas/enviroatlas-benefit-category-biodiversity-conservation" target="_blank"><img src="https://images.andbiodiversity.info/icon_epa.png" alt="US EPA logo" title="EPA | EnviroAtlas"/></a></td>
   </tr>
   <tr>
-    <td><a href="https://fwbg.org/" target="_blank"><img src="images/icon_fwbg.png" alt="Fort Worth Botanic Garden and BRIT logo" title="Fort Worth Botanic Garden and Botanical Research Institute of Texas"/></a></td>
-    <td><a href="https://www.frontiersin.org/" target="_blank"><img src="images/icon_frontiers.png" alt="Frontiers logo" title="Frontiers"/></a></td>
-    <td><a href="https://www.gbif.org" target="_blank"><img src="images/icon_gbif.png" alt="GBIF logo" title="Global Biodiversity Information Facility"/></a></td>
-    <td><a href="https://www.globalsoilbiodiversity.org/"><img src="images/icon_globalsoilbiodiversity.png" alt="Global Soil Biodiversity logo" title="Global Soil Biodiversity Initiative"/></a></td>
+    <td><a href="https://fwbg.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_fwbg.png" alt="Fort Worth Botanic Garden and BRIT logo" title="Fort Worth Botanic Garden and Botanical Research Institute of Texas"/></a></td>
+    <td><a href="https://www.frontiersin.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_frontiers.png" alt="Frontiers logo" title="Frontiers"/></a></td>
+    <td><a href="https://www.gbif.org" target="_blank"><img src="https://images.andbiodiversity.info/icon_gbif.png" alt="GBIF logo" title="Global Biodiversity Information Facility"/></a></td>
+    <td><a href="https://www.globalsoilbiodiversity.org/"><img src="https://images.andbiodiversity.info/icon_globalsoilbiodiversity.png" alt="Global Soil Biodiversity logo" title="Global Soil Biodiversity Initiative"/></a></td>
   </tr>
   <tr>
-    <td><a href="https://cce.nasa.gov/biodiversity/index.html" target="_blank"><img src="images/icon_nasabiodiversity.png" alt="NASA Biological Diversity Program logo" title="NASA | Biological Diversity"/></a></td>
-    <td><a href="https://www.nature.com/subjects/biodiversity" target="_blank"><img src="images/icon_nature.png" alt="Nature.com logo" title="Nature | Biodiversity"/></a></td>
-    <td><a href="https://www.pnas.org/topic/bio-sci" target="_blank"><img src="images/icon_pnas.png" alt="PNAS logo" title="PNAS | Biological Sciences"/></a></td>
-    <td><a href="https://www.researchgate.net/" target="_blank"><img src="images/icon_researchgate.png" alt="ResearchGate logo" title="ResearchGate"/></a></td>
+    <td><a href="https://cce.nasa.gov/biodiversity/index.html" target="_blank"><img src="https://images.andbiodiversity.info/icon_nasabiodiversity.png" alt="NASA Biological Diversity Program logo" title="NASA | Biological Diversity"/></a></td>
+    <td><a href="https://www.nature.com/subjects/biodiversity" target="_blank"><img src="https://images.andbiodiversity.info/icon_nature.png" alt="Nature.com logo" title="Nature | Biodiversity"/></a></td>
+    <td><a href="https://www.pnas.org/topic/bio-sci" target="_blank"><img src="https://images.andbiodiversity.info/icon_pnas.png" alt="PNAS logo" title="PNAS | Biological Sciences"/></a></td>
+    <td><a href="https://www.researchgate.net/" target="_blank"><img src="https://images.andbiodiversity.info/icon_researchgate.png" alt="ResearchGate logo" title="ResearchGate"/></a></td>
   </tr>
   <tr>
-    <td><a href="https://www.scientificamerican.com/environment" target="_blank"><img src="images/icon_scientificamerican.png" alt="Scientific American logo" title="Scientific American | Environment"/></a></td>
-    <td><a href="https://www.stockholmresilience.org/" target="_blank"><img src="images/icon_stockholm.png" alt="Stockholm Resilience Centre icon" title="Stockholm Resilience Centre"/></a></td>
-    <td><a href="https://biodiversity.ubc.ca/research" target="_blank"><img src="images/icon_ubc.png" alt="UBC logo" title="UBC | Biodiversity Research Centre"/></a></td>
-    <td><a href="https://www.usgs.gov/programs/science-analytics-and-synthesis-sas/biodiversity-science" target="_blank"><img src="images/icon_usgs.png" alt="USGS logo" alt="USGS | Biodiversity Science"/></a></td>
+    <td><a href="https://www.scientificamerican.com/environment" target="_blank"><img src="https://images.andbiodiversity.info/icon_scientificamerican.png" alt="Scientific American logo" title="Scientific American | Environment"/></a></td>
+    <td><a href="https://www.stockholmresilience.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_stockholm.png" alt="Stockholm Resilience Centre icon" title="Stockholm Resilience Centre"/></a></td>
+    <td><a href="https://biodiversity.ubc.ca/research" target="_blank"><img src="https://images.andbiodiversity.info/icon_ubc.png" alt="UBC logo" title="UBC | Biodiversity Research Centre"/></a></td>
+    <td><a href="https://www.usgs.gov/programs/science-analytics-and-synthesis-sas/biodiversity-science" target="_blank"><img src="https://images.andbiodiversity.info/icon_usgs.png" alt="USGS logo" alt="USGS | Biodiversity Science"/></a></td>
   </tr>
 </table>
 </div>
@@ -320,46 +320,46 @@ RMarkdown site created by ParfaitG with source code.
 <div class="logo_container">
   <table class="icons">
    <tr>
-      <td><a href="https://zeroextinction.org" target="_blank"><img src="images/icon_allianceforzeroextinction.png" alt="Alliance for Zero Extinction (AZE) logo" title="Alliance for Zero Extinction (AZE)"/></a></td>
-      <td><a href="https://www.bgci.org/" target="_blank"><img src="images/icon_bgci.png" alt="BGCI logo" title="Botanic Gardens Conservation International (BGCI)"/></a></td>
-      <td><a href="https://www.biologicaldiversity.org/" target="_blank"><img src="images/icon_centerbiodiversity.png" alt="Center for Biological Diversity logo" title="Center for Biological Diversity (CBD)"/></a></td>
-      <td><a href="https://www.cifor.org/" target="_blank"><img src="images/icon_cifor.png" alt="CIFOR logo" title="Center for International Forestry Research (CIFOR)"/></a></td>
-      <td><a href="https://cites.org/eng" target="_blank"><img src="images/icon_cites.png" alt="CITES logo" title="Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)"/></a></td>
+      <td><a href="https://zeroextinction.org" target="_blank"><img src="https://images.andbiodiversity.info/icon_allianceforzeroextinction.png" alt="Alliance for Zero Extinction (AZE) logo" title="Alliance for Zero Extinction (AZE)"/></a></td>
+      <td><a href="https://www.bgci.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_bgci.png" alt="BGCI logo" title="Botanic Gardens Conservation International (BGCI)"/></a></td>
+      <td><a href="https://www.biologicaldiversity.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_centerbiodiversity.png" alt="Center for Biological Diversity logo" title="Center for Biological Diversity (CBD)"/></a></td>
+      <td><a href="https://www.cifor.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_cifor.png" alt="CIFOR logo" title="Center for International Forestry Research (CIFOR)"/></a></td>
+      <td><a href="https://cites.org/eng" target="_blank"><img src="https://images.andbiodiversity.info/icon_cites.png" alt="CITES logo" title="Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)"/></a></td>
    </tr>
    <tr>
-      <td><a href="https://croplife.org/" target="_blank"><img src="images/icon_croplife.png" alt="CropLife logo" title="CropLife International"/></a></td>
-      <td><a href="https://earth.org/" target="_blank"><img src="images/icon_earthorg.png" alt="Earth.org logo" title="Earth.org"/></a></td>
-      <td><a href="https://www.cbd.int/" target="_blank"><img src="images/icon_conventionbiodiversity.png" alt="Convention on Biological Diversity logo" title="UN Convention on Biological Diversity (CBD)"/></a></td>
-      <td><a href="https://www.edf.org/" target="_blank"><img src="images/icon_edf.png" alt="Environment Defense Fund logo" title="Environment Defense Fund"/></a></td>
-      <td><a href="https://www.fauna-flora.org/" target="_blank"><img src="images/icon_faunaandflora.png" alt="Fauna and Flora logo" title="Fauna and Flora International"/></a></td>
+      <td><a href="https://croplife.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_croplife.png" alt="CropLife logo" title="CropLife International"/></a></td>
+      <td><a href="https://earth.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_earthorg.png" alt="Earth.org logo" title="Earth.org"/></a></td>
+      <td><a href="https://www.cbd.int/" target="_blank"><img src="https://images.andbiodiversity.info/icon_conventionbiodiversity.png" alt="Convention on Biological Diversity logo" title="UN Convention on Biological Diversity (CBD)"/></a></td>
+      <td><a href="https://www.edf.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_edf.png" alt="Environment Defense Fund logo" title="Environment Defense Fund"/></a></td>
+      <td><a href="https://www.fauna-flora.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_faunaandflora.png" alt="Fauna and Flora logo" title="Fauna and Flora International"/></a></td>
    </tr>
    <tr>
-      <td><a href="https://www.footprintnetwork.org/" target="_blank"><img src="images/icon_globalfootprintnetwork.png" alt="Global Footprint Network logo" title="Global Footprint Network"/></a></td>
-      <td><a href="https://www.greenpeace.org/international/" target="_blank"><img src="images/icon_greenpeace.png" alt="Greenpeace logo" title="Greenpeace"/></a></td>
-      <td><a href="https://ipbes.net/" target="_blank"><img src="images/icon_ipbes.png" alt="IPBES logo" title="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES)"/></a></td>
-      <td><a href="https://www.ipcc.ch/" target="_blank"><img src="images/icon_ipcc.png" alt="IPCC logo" title="Intergovernmental Panel on Climate Change (IPCC)"/></a></td>
-      <td><a href="https://iucn.org/" target="_blank"><img src="images/icon_iucn.png" alt="IUCN logo" title="International Union for Conservation of Nature (IUCN)"/></a></td>
+      <td><a href="https://www.footprintnetwork.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_globalfootprintnetwork.png" alt="Global Footprint Network logo" title="Global Footprint Network"/></a></td>
+      <td><a href="https://www.greenpeace.org/international/" target="_blank"><img src="https://images.andbiodiversity.info/icon_greenpeace.png" alt="Greenpeace logo" title="Greenpeace"/></a></td>
+      <td><a href="https://ipbes.net/" target="_blank"><img src="https://images.andbiodiversity.info/icon_ipbes.png" alt="IPBES logo" title="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES)"/></a></td>
+      <td><a href="https://www.ipcc.ch/" target="_blank"><img src="https://images.andbiodiversity.info/icon_ipcc.png" alt="IPCC logo" title="Intergovernmental Panel on Climate Change (IPCC)"/></a></td>
+      <td><a href="https://iucn.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_iucn.png" alt="IUCN logo" title="International Union for Conservation of Nature (IUCN)"/></a></td>
    </tr>
    <tr>
-      <td><a href="https://www.natureserve.org/" target="_blank"><img src="images/icon_natureserve.png" alt="NatureServe logo" title="NatureServe"/></a></td>
-      <td><a href="https://www.nature.org/" target="_blank"><img src="images/icon_natureconservancy.png" alt="Nature Conservancy logo" title="Nature Conservancy"/></a></td>
-      <td><a href="https://www.nrdc.org/" target="_blank"><img src="images/icon_nrdc.png" alt="Natural Resources Defense Council logo" title="Natural Resources Defense Council"/></a></td>
-      <td><a href="https://oceanconservancy.org/" target="_blank"><img src="images/icon_oceanconservancy.png" alt="Ocean Conservancy logo" title="Ocean Conservancy"/></a></td>
-      <td><a href="https://www.rewild.org/" target="_blank"><img src="images/icon_rewild.png" alt="re:wild logo" title="re:wild"/></a></td>
+      <td><a href="https://www.natureserve.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_natureserve.png" alt="NatureServe logo" title="NatureServe"/></a></td>
+      <td><a href="https://www.nature.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_natureconservancy.png" alt="Nature Conservancy logo" title="Nature Conservancy"/></a></td>
+      <td><a href="https://www.nrdc.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_nrdc.png" alt="Natural Resources Defense Council logo" title="Natural Resources Defense Council"/></a></td>
+      <td><a href="https://oceanconservancy.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_oceanconservancy.png" alt="Ocean Conservancy logo" title="Ocean Conservancy"/></a></td>
+      <td><a href="https://www.rewild.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_rewild.png" alt="re:wild logo" title="re:wild"/></a></td>
    </tr>
    <tr>
-      <td><a href="https://www.sierraclub.org/" target="_blank"><img src="images/icon_sierraclub.png" alt="Sierra Club logo" title="Sierra Club"/></a></td>
-      <td><a href="https://www.unccd.int/" target="_blank"><img src="images/icon_unccd.png" alt="UN Convention to Combat Desertification (UNCCD) logo" title="UN Convention to Combat Desertification "/></a></td>
-      <td><a href="https://whc.unesco.org/" target="_blank"><img src="images/icon_unesco.png" alt="UNESCO World Heritage logo" title="UNESCO World Heritage"/></a></td>
-      <td><a href="https://www.unep.org/" target="_blank"><img src="images/icon_unep.png" alt="UNEP logo" title="UN Environmental Programme (UNEP)"/></a></td>
-      <td><a href="https://www.unep-wcmc.org/en" target="_blank"><img src="images/icon_wcmc.png" alt="UNEP WCMC logo" title="World Conservation Monitoring Centre (WCMC)"/></a></td> 
+      <td><a href="https://www.sierraclub.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_sierraclub.png" alt="Sierra Club logo" title="Sierra Club"/></a></td>
+      <td><a href="https://www.unccd.int/" target="_blank"><img src="https://images.andbiodiversity.info/icon_unccd.png" alt="UN Convention to Combat Desertification (UNCCD) logo" title="UN Convention to Combat Desertification "/></a></td>
+      <td><a href="https://whc.unesco.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_unesco.png" alt="UNESCO World Heritage logo" title="UNESCO World Heritage"/></a></td>
+      <td><a href="https://www.unep.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_unep.png" alt="UNEP logo" title="UN Environmental Programme (UNEP)"/></a></td>
+      <td><a href="https://www.unep-wcmc.org/en" target="_blank"><img src="https://images.andbiodiversity.info/icon_wcmc.png" alt="UNEP WCMC logo" title="World Conservation Monitoring Centre (WCMC)"/></a></td> 
    </tr>
    <tr>
-      <td><a href="" target="_blank"><img src="images/icon_wildlifeconservationsociety.png" alt="Wildlife Conservation Society logo" title="Wildlife Conservation Society"/></a></td>
-      <td><a href="https://wildlife.org/" target="_blank"><img src="images/icon_wildlifesociety.png" alt="Wildlife Society logo" title="The Wildlife Society"/></a></td>
-      <td><a href="https://www.worldagroforestry.org/" target="_blank"><img src="images/icon_worldagroforestry.png" alt="World Agroforestry logo" title="World Agroforestry Centre"/></a></td>
-      <td><a href="https://www.worldwildlife.org/" target="_blank"><img src="images/icon_wwf.png" alt="WWF logo" title="World Wildlife Fund (WWF)"/></a></td>
-      <td><a href="https://www.zsl.org/" target="_blank"><img src="images/icon_zsl.png" alt="ZSL logo" title="Zoological Society of London"/></a></td> 
+      <td><a href="" target="_blank"><img src="https://images.andbiodiversity.info/icon_wildlifeconservationsociety.png" alt="Wildlife Conservation Society logo" title="Wildlife Conservation Society"/></a></td>
+      <td><a href="https://wildlife.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_wildlifesociety.png" alt="Wildlife Society logo" title="The Wildlife Society"/></a></td>
+      <td><a href="https://www.worldagroforestry.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_worldagroforestry.png" alt="World Agroforestry logo" title="World Agroforestry Centre"/></a></td>
+      <td><a href="https://www.worldwildlife.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_wwf.png" alt="WWF logo" title="World Wildlife Fund (WWF)"/></a></td>
+      <td><a href="https://www.zsl.org/" target="_blank"><img src="https://images.andbiodiversity.info/icon_zsl.png" alt="ZSL logo" title="Zoological Society of London"/></a></td> 
    </tr>
   </table>
 </div>
@@ -373,25 +373,25 @@ RMarkdown site created by ParfaitG with source code.
 <div class="logo_container">
   <table class="docs">
    <tr>
-      <td><a href="https://www.imdb.com/title/tt0296310" target="_blank"><img src="images/doc_blueplanet.png" alt="The Blue Planet poster" title="The Blue Planet (2001)"/></a></td>
-      <td><a href="https://www.imdb.com/title/tt14539726" target="_blank"><img src="images/doc_breakingboundaries.png" alt="Breaking Boundaries poster" title="Breaking Boundaries (2021)"/></a></td>
-      <td><a href="https://www.imdb.com/title/tt6333054/" target="_blank"><img src="images/doc_chasingcoral.png" alt="Chasing Coral poster" title="Chasing Coral (2017)"/></a></td> 
-      <td><a href="https://www.imdb.com/title/tt0365109" target="_blank"><img src="images/doc_deepblue.png" alt="Deep Blue poster" title="Deep Blue (2003)"/></a></td>
-      <td><a href="https://www.imdb.com/title/tt13099124" target="_blank"><img src="images/doc_extinctionsthefacts.png" alt="Extinctions the Facts poster" title="Extinction: the Facts (2020)"/></a></td>
+      <td><a href="https://www.imdb.com/title/tt0296310" target="_blank"><img src="https://images.andbiodiversity.info/doc_blueplanet.png" alt="The Blue Planet poster" title="The Blue Planet (2001)"/></a></td>
+      <td><a href="https://www.imdb.com/title/tt14539726" target="_blank"><img src="https://images.andbiodiversity.info/doc_breakingboundaries.png" alt="Breaking Boundaries poster" title="Breaking Boundaries (2021)"/></a></td>
+      <td><a href="https://www.imdb.com/title/tt6333054/" target="_blank"><img src="https://images.andbiodiversity.info/doc_chasingcoral.png" alt="Chasing Coral poster" title="Chasing Coral (2017)"/></a></td> 
+      <td><a href="https://www.imdb.com/title/tt0365109" target="_blank"><img src="https://images.andbiodiversity.info/doc_deepblue.png" alt="Deep Blue poster" title="Deep Blue (2003)"/></a></td>
+      <td><a href="https://www.imdb.com/title/tt13099124" target="_blank"><img src="https://images.andbiodiversity.info/doc_extinctionsthefacts.png" alt="Extinctions the Facts poster" title="Extinction: the Facts (2020)"/></a></td>
    </tr>
    <tr>
-      <td><a href="https://www.imdb.com/title/tt16986646" target="_blank"><img src="images/doc_greenplanet.png" alt="The Green Planet poster" title="The Green Planet (2022)"/></a></td> 
-      <td><a href="https://www.imdb.com/title/tt5952266" target="_blank"><img src="images/doc_ivorygame.png" alt="The Ivory Game poster" title="The Ivory Game (2016)"/></a></td>
-      <td><a href="https://www.imdb.com/title/tt11989890" target="_blank"><img src="images/doc_lifeonourplanet.png" alt="Life on Our Planet poster" title="Life on Our Planet (2020)"/></a></td> 
-      <td><a href="https://www.imdb.com/title/tt2004304" target="_blank"><img src="images/doc_missionblue.png" alt="Mission Blue poster" title="Mission Blue (2014)"/></a></td>
-      <td><a href="https://www.imdb.com/title/tt9253866" target="_blank"><img src="images/doc_ourplanet.png" alt="Our Planet poster" title="Our Planet (2014)"/></a></td>
+      <td><a href="https://www.imdb.com/title/tt16986646" target="_blank"><img src="https://images.andbiodiversity.info/doc_greenplanet.png" alt="The Green Planet poster" title="The Green Planet (2022)"/></a></td> 
+      <td><a href="https://www.imdb.com/title/tt5952266" target="_blank"><img src="https://images.andbiodiversity.info/doc_ivorygame.png" alt="The Ivory Game poster" title="The Ivory Game (2016)"/></a></td>
+      <td><a href="https://www.imdb.com/title/tt11989890" target="_blank"><img src="https://images.andbiodiversity.info/doc_lifeonourplanet.png" alt="Life on Our Planet poster" title="Life on Our Planet (2020)"/></a></td> 
+      <td><a href="https://www.imdb.com/title/tt2004304" target="_blank"><img src="https://images.andbiodiversity.info/doc_missionblue.png" alt="Mission Blue poster" title="Mission Blue (2014)"/></a></td>
+      <td><a href="https://www.imdb.com/title/tt9253866" target="_blank"><img src="https://images.andbiodiversity.info/doc_ourplanet.png" alt="Our Planet poster" title="Our Planet (2014)"/></a></td>
    </tr>
    <tr>
-      <td><a href="https://www.imdb.com/title/tt0795176" target="_blank"><img src="images/doc_planetearth.png" alt="Planet Earth poster" title="Planet Earth (2016)"/></a></td>
-      <td><a href="https://www.imdb.com/title/tt14152756" target="_blank"><img src="images/doc_seaspiracy.png" alt="Seaspiracy poster" title="Seaspiracy (2021)"/></a></td> 
-      <td><a href="https://www.imdb.com/title/tt5203824" target="_blank"><img src="images/doc_plasticocean.png" alt="A Plastic Ocean poster" title="A Plastic Ocean (2016)"/></a></td> 
-      <td><a href="https://www.imdb.com/title/tt6769208" target="_blank"><img src="images/doc_blueplanet2.png" alt="Blue Planet II poster" title="Blue Planet II (2017-2022)"/></a></td>
-      <td><a href="https://www.imdb.com/title/tt5491994" target="_blank"><img src="images/doc_planetearth2.png" alt="Planet Earth II poster" title="Planet Earth II (2016)"/></a></td>
+      <td><a href="https://www.imdb.com/title/tt0795176" target="_blank"><img src="https://images.andbiodiversity.info/doc_planetearth.png" alt="Planet Earth poster" title="Planet Earth (2016)"/></a></td>
+      <td><a href="https://www.imdb.com/title/tt14152756" target="_blank"><img src="https://images.andbiodiversity.info/doc_seaspiracy.png" alt="Seaspiracy poster" title="Seaspiracy (2021)"/></a></td> 
+      <td><a href="https://www.imdb.com/title/tt5203824" target="_blank"><img src="https://images.andbiodiversity.info/doc_plasticocean.png" alt="A Plastic Ocean poster" title="A Plastic Ocean (2016)"/></a></td> 
+      <td><a href="https://www.imdb.com/title/tt6769208" target="_blank"><img src="https://images.andbiodiversity.info/doc_blueplanet2.png" alt="Blue Planet II poster" title="Blue Planet II (2017-2022)"/></a></td>
+      <td><a href="https://www.imdb.com/title/tt5491994" target="_blank"><img src="https://images.andbiodiversity.info/doc_planetearth2.png" alt="Planet Earth II poster" title="Planet Earth II (2016)"/></a></td>
    </tr>
   </table>
 </div>
@@ -456,27 +456,27 @@ RMarkdown site created by ParfaitG with source code.
 <div class="table_container">
 <table id="bottom_icons">
    <tr>
-      <td><span data-text="Reforestation or restoration of degraded forests and woodlands with indigenous species plays a role in addressing losses of biodiversity and ecosystem services, including through recovering the soil carbon stocks of these ecosystems (IPBES-IPCC)" tabindex="0"><img class="img" src="images/stick_figure_tree_green.png" alt="tree icon"/></span></td>
+      <td><span data-text="Reforestation or restoration of degraded forests and woodlands with indigenous species plays a role in addressing losses of biodiversity and ecosystem services, including through recovering the soil carbon stocks of these ecosystems (IPBES-IPCC)" tabindex="0"><img class="img" src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon"/></span></td>
       <td><h3>Re-<br/>forestation</h3></td>
-      <td><span data-text="Some recent analysis have discussed the impact of rewilding on ecosystem carbon cycling and hence climate change mitigation, given the effects animals and trophic cascades have on biomass consumption, carbon turnover, or methane emissions (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_elephant_gray.png" alt="elephant icon"/></span></td>
+      <td><span data-text="Some recent analysis have discussed the impact of rewilding on ecosystem carbon cycling and hence climate change mitigation, given the effects animals and trophic cascades have on biomass consumption, carbon turnover, or methane emissions (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_elephant_gray.png" alt="elephant icon"/></span></td>
       <td><h3>Re-<br/>wilding</h3></td>
-      <td><span data-text="Fisheries management currently does not take into account the potential role of exploited species in the carbon cycle and in biogeochemical processes, nor does it consider the potential for carbon release from sediment disturbance (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_fish_blue.png" alt="fish icon"/></span></td>
+      <td><span data-text="Fisheries management currently does not take into account the potential role of exploited species in the carbon cycle and in biogeochemical processes, nor does it consider the potential for carbon release from sediment disturbance (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon"/></span></td>
       <td><h3>Sustainable<br/>Fishing</h3></td>
-      <td><span data-text="Many efforts are undertaken to green cities with multiple co-benefits for human well-being, with the potential to connect to surrounding natural or managed areas, and contribute to both biodiversity conservation and climate change mitigation regionally (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_kelp_green.png" alt="kelp icon"/></span></td>
+      <td><span data-text="Many efforts are undertaken to green cities with multiple co-benefits for human well-being, with the potential to connect to surrounding natural or managed areas, and contribute to both biodiversity conservation and climate change mitigation regionally (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_kelp_green.png" alt="kelp icon"/></span></td>
       <td><h3>Spatial<br/>Planning</h3></td>
-      <td><span data-text="Eliminating subsidies that support local and national activities harmful to biodiversity can also add up to support climate change mitigation, e.g., halting deforestation, overfertilization or overfishing (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_atmosphere.png" alt="atmosphere icon"/></span></td>
+      <td><span data-text="Eliminating subsidies that support local and national activities harmful to biodiversity can also add up to support climate change mitigation, e.g., halting deforestation, overfertilization or overfishing (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_atmosphere.png" alt="atmosphere icon"/></span></td>
       <td><h3>Eliminate<br/>Subsidies</h3></td>
    </tr>
    <tr>
-      <td><span data-text="Managing invasive alien species can make substantial contributions to adaptive capacity of species and ecosystems (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_insect.png" alt="insect icon"/></span></td>
+      <td><span data-text="Managing invasive alien species can make substantial contributions to adaptive capacity of species and ecosystems (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_insect.png" alt="insect icon"/></span></td>
       <td><h3>Reduce Invasive<br/>Alien Species</h3></td>
-      <td><span data-text="Regional fisheries management organizations [can] promote solutions to ocean pollution that amplifies climate change impacts as part of the ecosystem approach (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_ocean_blue.png" alt="ocean icon"/></span></td>
+      <td><span data-text="Regional fisheries management organizations [can] promote solutions to ocean pollution that amplifies climate change impacts as part of the ecosystem approach (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_ocean_blue.png" alt="ocean icon"/></span></td>
       <td><h3>Reduced<br/>Pollution</h3></td>
-      <td><span data-text="Biodiversity mainstreaming (i.e., making it a consideration in all sectors, rather than just in its own domain) is now accorded high priority in the CBD. (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_wetlands_green.png" alt="wetlands icon"/></span></td> 
+      <td><span data-text="Biodiversity mainstreaming (i.e., making it a consideration in all sectors, rather than just in its own domain) is now accorded high priority in the CBD. (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon"/></span></td> 
       <td><h3><i><strong>Mainstreaming<br/>Biodiversity</strong></i></h3></td>
-      <td><span data-text="Ecosystem restoration provides opportunities for co-benefits for climate change mitigation and biodiversity conservation (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_monkey_brown.png" alt="monkey icon"/></span></td>
+      <td><span data-text="Ecosystem restoration provides opportunities for co-benefits for climate change mitigation and biodiversity conservation (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon"/></span></td>
       <td><h3>Ecosystem<br/>Restoration<br/></h3></td>
-      <td><span data-text="The contribution of conventional agriculture to biodiversity loss can be addressed through alternative agricultural systems (IPBES-IPCC)" tabindex="0"><img src="images/stick_figure_soil_green.png" alt="soil icon"/></span></td>
+      <td><span data-text="The contribution of conventional agriculture to biodiversity loss can be addressed through alternative agricultural systems (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon"/></span></td>
       <td><h3>Regenerative<br/>Agriculture</h3></td>
    </tr>
 </table>
@@ -486,7 +486,7 @@ RMarkdown site created by ParfaitG with source code.
 ::: {.footer}
 <div class="footer_box">
   <div class="footer_column" id="footer_label">
-  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"><img src="https://images.andbiodiversity.info/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
   <div class="footer_column">
@@ -508,7 +508,7 @@ Lao Tsu<br/>
 
 <div class="footer_box">
   <div class="footer_column" id="footer_label">
-  <a href="index.html"><img src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"><img src="https://images.andbiodiversity.info/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
   <div class="footer_column">
@@ -531,7 +531,7 @@ Sarojini Naidu<br/>
 
 <div class="footer_box">
   <div class="footer_column" id="footer_label">
-  <a href="index.html"><img class="report_img" src="images/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"><img class="report_img" src="https://images.andbiodiversity.info/favicon16x16.png" alt="favicon"/></a>
   <a href="index.html"> | And Biodiversity</a>
   </div>
   <div class="footer_column">
