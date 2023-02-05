@@ -18,7 +18,7 @@ meta(
 ) |> meta_social(
   url = "https://andbiodiversity.info/overview.html",
   title = "And Biodiversity | Overview",
-  image = "https://www.andbiodiversity.info/images/favicon192x192.png",
+  image = "https://images.andbiodiversity.info/favicon192x192.png",
   image_alt = "The letter b in gold coloring",
   og_type = "website",
   og_site_name = "And Biodiversity | Overview"

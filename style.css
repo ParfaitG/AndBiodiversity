@@ -19,7 +19,7 @@
 
   a[href^="http://"]:after,
   a[href^="https://"]:after {
-    content: url(images/fa_external.png);
+    content: url(https://images.andbiodiversity.info/fa_external.png);
     margin: 0 0 0 5px;
   }
 
@@ -366,7 +366,17 @@
      padding: 10px;
      float: left;
   }
-  
+  .voiceover {
+     clear: both;
+     display: block;
+     width: 50%;
+  }
+  audio {
+     max-height: 100%;
+     max-width: 100%;
+     object-fit: contain;
+  }
+
   .table_container {
      width: 100%;
   }
@@ -557,6 +567,11 @@
 
       .report_img {
          height: 150px;
+      }
+      .voiceover {
+          clear: both;
+          display: block;
+          width: 100%;
       }
 
       .logo {
