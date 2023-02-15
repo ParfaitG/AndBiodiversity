@@ -71,18 +71,21 @@ $(document).ready(function(){
 <div class="reports_banner">
 <img class="banner_img" src="https://images.andbiodiversity.info/report_unep2022.png" alt="UNEP 2022 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_wwf2022.png" alt="WWF 2022 report cover"/>
+<img class="banner_img" src="https://images.andbiodiversity.info/report_iucn2022.png" alt="IUCN 2022 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_unccd2022.png" alt="UNCCD 2022 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_ipcc6ar2_2022.png" alt="IPCC Sixth Assessment Part 2 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_faofish2022.png" alt="FAO fisheries 2022 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_ipbesvalues2022.png" alt="IPBES Values 2022 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_faoforests2022.png" alt="FAO forests 2022 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_sei2022.png" alt="SEI 2022 report cover"/>
+<img class="banner_img" src="https://images.andbiodiversity.info/report_uneprestoration2021.png" alt="UNEP Resotration 2021 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_ipbesipcc2021.png" alt="IPBES-IPCC 2021 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_iucn2021.png" alt="IUCN 2021 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_unepfinance2021.png" alt="UNEP 2021 finance report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_unepblueprint2021.png" alt="UNEP Blueprint report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_dasgupta2021.png" alt="Dasgupta Review 2021 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_bgci2021.png" alt="BGCI 2021 report cover"/>
+<img class="banner_img" src="https://images.andbiodiversity.info/report_seea2021.png" alt="SEEA 2021 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_ramsar2021.png" alt="Ramsar 2021 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_unepplastic2021.png" alt="UNEP Plastic 2021 report cover"/>
 <img class="banner_img" src="https://images.andbiodiversity.info/report_oecd2020.png" alt="OECD 2020 report cover"/>
@@ -150,6 +153,22 @@ $(document).ready(function(){
   
   <br/>
 
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#iucn2022">IUCN: Restoration Barometer</a> 
+
+  <div id="iucn2022" class="collapse">  
+
+  <a href="https://www.iucn.org/resources/annual-reports/restoration-barometer-2022-report" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_iucn2022.png" alt="IUCN 2022 report cover"/>
+  </a>
+
+  #### The creation of a nature-positive world by 2030, which benefits planet and people, is not possible without the widespread restoration of ecosystems. Healthy ecosystems not only maintain ecological integrity and support ***biodiversity***, but also protect human health, provide clean air, water and food, help combat poverty and act as natural defences again extreme weather. There is no choice but to incorporate ecosystem restoration into national and international targets and to ensure its rapid, and sustained, implementation. But, to generate and maintain the high levels of ambition required to achieve targets, it is vital that people know what, how and where actions are being implemented. While setting targets is the first step in the restoration journey, restoration cannot be an overnight success: to ensure restoration efforts last over time requires sufficient preparatory planning, capacity building and long-term commitment from numerous actors. [***See* report**](https://www.iucn.org/resources/annual-reports/restoration-barometer-2022-report){target="_blank"}.  [***Download* report**](https://app.box.com/s/2cuw2mvzc0aypbaw01hlsh5jjyzdlsfs){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_iucn.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+      
   </div>
   
 - #### <a href="####" data-toggle="collapse" data-target="#bli2022">BLI: State of the World’s Birds 2022</a> 
@@ -286,6 +305,22 @@ $(document).ready(function(){
 
 ### 2021
 
+- #### <a href="###" data-toggle="collapse" data-target="#unep_restoration2021">UNEP: Becoming #GenerationRestoration: Ecosystem restoration for people, nature and climate</a> 
+
+  <div id="unep_restoration2021" class="collapse">  
+
+  <a href="https://www.unep.org/resources/ecosystem-restoration-people-nature-climate" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_uneprestoration2021.png" alt="UNEP Resotration 2021 report cover"/>
+  </a>
+
+  #### The world is facing severe challenges. Billions of people around the world are suffering the consequences of the climate emergency, food and water insecurity, and the COVID-19 pandemic. Ecosystems are an indispensable ally as we meet these challenges. Protecting them and managing their resources in a sustainable manner is essential. But just increasing the protection and sustainable management of our remaining natural landscapes and oceans will not be enough: the planet’s ***degraded ecosystems*** and the huge benefits that they provide must also be restored. By declaring the UN Decade on Ecosystem Restoration, governments have recognized the need to prevent, halt and reverse the ***degradation of ecosystems*** worldwide for the benefit of both people and nature. The 2021–2030 timeline underlines the urgency of the task. Without a powerful 10-year drive for restoration, we can neither achieve the climate targets of the Paris Agreement, nor the Sustainable Development Goals. This report presents the case for why we all must throw our weight behind a global restoration effort. Drawing on the latest scientific evidence, it explains the crucial role played by ecosystems from forests and farmland to rivers and oceans, and charts the losses that result from our poor stewardship of the planet. [***See* report**](https://www.unep.org/resources/ecosystem-restoration-people-nature-climate){target="_blank"}. [***Download* report**](https://app.box.com/s/pjn2bpvi7kxxvtm6v9bgjfj7r831kwoo){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_unep_restoration.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+    
+  </div>
+  
 - #### <a href="####" data-toggle="collapse" data-target="#unepplastic2021">UNEP: From Pollution to Solution: A global assessment of marine litter and plastic pollution</a> 
 
   <div id="unepplastic2021" class="collapse">  
@@ -335,6 +370,22 @@ $(document).ready(function(){
   
   </div>
   
+- #### <a href="###" data-toggle="collapse" data-target="#iucn_restoration2021">IUCN: Using ecosystem risk assessment science for ecosystem restoration</a> 
+
+  <div id="iucn_restoration2021" class="collapse">  
+
+  <a href="https://www.iucn.org/resources/publication/using-ecosystem-risk-assessment-science-ecosystem-restoration" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_iucnrestoration2021.png" alt="IUCN Restoration 2021 report cover"/>
+  </a>
+
+  #### Ecosystems form a core component of ***biodiversity***. They provide humans with multiple benefits – a stable climate and breathable air; water, food and materials; and protection from disaster and disease. Ecosystem restoration, as defined by the UN Decade on Ecosystem Restoration, includes a range of management interventions that aim to reduce impacts on and assist in the recovery of ecosystems that have been damaged, degraded or destroyed. However, restoration projects and programmes are often implemented without strategic evaluation of the degree of urgency for restoration among ecosystem types. As we expand our ambitions for restoration over the coming decade, and move to the restoration of entire ecosystems, landscapes and seascapes, the complexity of the questions we need to answer increases accordingly. This guide was developed to promote the application of the science of ecosystem risk assessment, which involves measuring the risk of ecosystem collapse, in ecosystem restoration. It explores how the IUCN Red List of Ecosystems and ecosystem restoration can be jointly deployed to reduce risk of ecosystem collapse. [***See* report**](https://www.iucn.org/resources/publication/using-ecosystem-risk-assessment-science-ecosystem-restoration){target="_blank"}. [***Download* report**](Box: https://app.box.com/s/ipdhydk93skx5v63cdwdxuwcgfpyx4ty){target="_blank"}.
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_iucn_restoration.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
 - #### <a href="####" data-toggle="collapse" data-target="#iucn2021">IUCN Red List Quadrennial Report 2017–2020</a> 
 
   <div id="iucn2021" class="collapse">  
@@ -349,6 +400,22 @@ $(document).ready(function(){
 
   <br/>
   
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#protected_planet2021">Protected Planet Report 2020</a> 
+
+  <div id="protected_planet2021" class="collapse">  
+
+  <a href="https://www.unep.org/resources/protected-planet-report-2020" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2020.png" alt="Protected Planet 2020 report cover"/>
+  </a>
+
+  #### We are entering an era of unparalleled opportunity to address the global crisis facing nature. The Protected Planet Report 2020 delivers the final report on progress achieved against Aichi Target 11. When the Parties to the Convention on Biological Diversity adopted Target 11 in 2010, they acknowledged that effective and equitable systems of protected areas are an essential tool to address the ***biodiversity*** crisis. They also made the important decision to recognise 'other effective area-based conservation measures' (OECMs) for the first time...Despite being limited to only five countries and territories, the available data on OECMs already show that they make a significant contribution to coverage and connectivity. Of the area now covered by protected areas and OECMs, 42% was added in the past decade. Although the data available at the time of publication show only 16.64% coverage of terrestrial and inland water areas by protected areas and OECMs, it is clear that with further updates the 17% coverage target will be surpassed, especially as more OECMs are identified, mapped, and reported. [***See* report**](https://www.unep.org/resources/protected-planet-report-2020){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+    
   </div>
   
 - #### <a href="####" data-toggle="collapse" data-target="#unepfinance2021">UNEP: State of Finance for Nature</a> 
@@ -381,6 +448,22 @@ $(document).ready(function(){
 
   <br/>
   
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#seea2021">UN: System of Environmental-Economic Accounting— Ecosystem Accounting</a> 
+
+  <div id="seea2021" class="collapse">  
+
+  <a href="https://seea.un.org/ecosystem-accounting" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_seea2021.png" alt="SEEA 2021 report cover"/>
+  </a>
+
+  #### It is well established that healthy ecosystems and ***biodiversity*** are fundamental to supporting and sustaining our wellbeing, our communities and our economies. However, our environment is under pressure and there are consequential risks that we face in securing and improving our livelihoods. These challenges have been recognised at local, national and global levels...In addition, there has been growing recognition that the degradation of nature is not purely an environmental issue requiring environmental policy responses; economic and social policy responses are also required. Thus, decision makers across all sectors need to consider their environmental context and the associated dependencies and impacts. Consequently, establishing agreed and ongoing measurement of changes in the state of the environment and the relationship to economic and other human activity is central to ensuring that ***ecosystems and biodiversity*** are mainstreamed in decision-making processes, including those concerning our economic and financial systems. [***See* report**](https://seea.un.org/ecosystem-accounting){target="_blank"}. [***Download* report**](https://app.box.com/s/dvqn63l05l47qn9uxw3uoijzlwan5nry){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_seea.mp3" preload="auto" type="audio/mp3"></audio>
+ 
+  <br/>
+   
   </div>
   
 - #### <a href="####" data-toggle="collapse" data-target="#ramsar2021">Ramsar: Global Wetland Outlook Special Edition 2021</a> 
@@ -431,7 +514,6 @@ $(document).ready(function(){
   
   </div>
   
-  
 <br/>
 <br/>
 
@@ -470,6 +552,22 @@ $(document).ready(function(){
   
   </div>
 
+- #### <a href="###" data-toggle="collapse" data-target="#iucn2020">IUCN: Global Ecosystem Typology 2.0</a> 
+
+  <div id="iucn2020" class="collapse">  
+
+  <a href="https://portals.iucn.org/library/node/49250" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_iucn2020.png" alt="IUCN 2020 report cover"/>
+  </a>
+
+  #### Ecosystems are critically important components of Earth’s ***biological diversity*** and as the natural capital that sustains human life and well-being. Yet all of the world’s ecosystems show hallmarks of human influence, and many are under acute risks of collapse, with consequences for habitats of species, genetic diversity, ecosystem services, sustainable development and human well-being. A systematic typology that encompasses all of Earth’s ecosystems, representing the diversity of both ecosystem function and ***biodiversity***, is essential for marshalling knowledge to inform effective action to sustain this critical natural capital. [***See* report**](https://portals.iucn.org/library/node/49250){target="_blank"}. [***Download* report**](https://app.box.com/s/6cxpjikf7hq8jvnqkvodaio8z1miymzb){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_iucn.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
 - #### <a href="####" data-toggle="collapse" data-target="#pew2020">Pew Charitable Trusts: Breaking the Plastic Wave</a> 
 
   <div id="pew2020" class="collapse">  
@@ -620,6 +718,22 @@ $(document).ready(function(){
   
   </div>
 
+- #### <a href="###" data-toggle="collapse" data-target="#un2019">UN: Global Sustainable Development Report</a> 
+
+  <div id="un2019" class="collapse">  
+
+  <a href="https://sdgs.un.org/publications/future-now-science-achieving-sustainable-development-gsdr-2019-24576" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_un2019.png" alt="UN 2019 report cover"/>
+  </a>
+
+  #### Since the adoption of the Sustainable Development Goals, there have been many positive developments. Countries have started to incorporate the Goals into national plans and strategies, and many have set up coordinating structures for coherent implementation...However, despite the initial efforts, the world is not on track for achieving most of the 169 targets that comprise the Goals. The limited success in progress towards the Goals raises strong concerns and sounds the alarm for the international community. Much more needs to happen – and quickly – to bring about the transformative changes that are required: impeding policies should urgently be reversed or modified, and recent advances that holistically promote the Goals should be scaled up in an accelerated fashion. Adding to the concern is the fact that recent trends along several dimensions with cross-cutting impacts across the entire 2030 Agenda are not even moving in the right direction. Four in particular fall into that category: rising inequalities, climate change, ***biodiversity loss*** and increasing amounts of waste from human activity that are overwhelming capacities to process them. Critically, recent analysis suggests that some of those negative trends presage a move towards the crossing of negative tipping points, which would lead to dramatic changes in the conditions of the Earth system in ways that are irreversible on time scales meaningful for society. [***See* report**](https://sdgs.un.org/publications/future-now-science-achieving-sustainable-development-gsdr-2019-24576){target="_blank"}. [***Download* report**](https://app.box.com/s/5n3x6lhedaf6dm6qsc7mh2famjdeltid){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2019_un.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
 - #### <a href="####" data-toggle="collapse" data-target="#fao2019">FAO: The State of the World's Biodiversity for Food and Agriculture </a> 
 
   <div id="fao2019" class="collapse">  
@@ -651,7 +765,6 @@ $(document).ready(function(){
   <br/>
   
   </div>
-
 
 - #### <a href="####" data-toggle="collapse" data-target="#oecd2019">OECD: Biodiversity: Finance and the Business and Economic Case for Action</a> 
 
@@ -685,12 +798,44 @@ $(document).ready(function(){
   
   </div>
   
+- #### <a href="###" data-toggle="collapse" data-target="#wwf_iucn2019">WWF and IUCN: Tangled roots and changing tides</a> 
+
+  <div id="wwf_iucn2019" class="collapse">  
+
+  <a href="https://www.mangrovealliance.org/resources/tangled-roots-and-changing-tides-mangrove-governance-for-conservation-and-sustainable-use/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_wwf_iucn2019.png" alt="WWF-IUCN 2019 report cover"/>
+  </a>
+
+  #### Despite the plethora of applicable laws, mangroves continue to deteriorate rapidly, driven by urbanization, population growth and unsustainable development. Mangroves are cleared for conversion of land for shrimp production and rice farming and other forms of aquaculture and agriculture. Their unique wood quality makes them a favoured construction material for houses and boats. Mangrove wood is also used for charcoal and firewood to meet energy needs of growing cities and local communities. Coastal infrastructure development, salt mining, oil exploration and tourism can all drive destruction and pollution of mangroves. Upstream diversion and pollution of watersources from agricultural and urban sources contribute to degradation of mangroves downstream. Existing legal tools are failing to address these and other threats leading to a global decline in mangrove health and coverage. [***See* report**](https://www.mangrovealliance.org/resources/tangled-roots-and-changing-tides-mangrove-governance-for-conservation-and-sustainable-use/){target="_blank"}. [***Download* report**](https://app.box.com/s/bv4c0fu5ya40t6bywcjepa9qdw11kgfo){target="_blank"}.
+
+  <br/>
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2019_wwf_iucn.mp3" preload="auto" type="audio/mp3"></audio>
+
+  </div>
+
 
 <br/>
 <br/>
 
 ### 2018
 
+- #### <a href="###" data-toggle="collapse" data-target="#unepiwr2018">UNEP: Inclusive Wealth 2018</a> 
+
+  <div id="unepiwr2018" class="collapse">  
+
+  <a href="https://www.unep.org/inclusive-wealth-report-2018" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepiwr2018.png" alt="UNEP IWR 2018 report cover"/>
+  </a>
+
+  #### Economies may appear to be growing when measured using GDP, but if we look at the state of the ***biosphere*** today (fresh water, ocean fisheries, the atmosphere as a carbon sink), there is strong evidence to suggest that the rates at which we are using them are unsustainable. The rate of biological extinctions today is 100 to 1,000 times the average background rate of the past several million years. Climate change is another example of an ill that has arisen in spite of – or perhaps because of – economic growth, as measured by GDP...This is why the Inclusive Wealth Index (IWI) was born...The IWI looks at each country’s stock of assets – its manufactured, human and natural capital – and assesses the changing health of these assets over a quarter of a century, a massive data set that covers almost an entire generation...The Inclusive Wealth Report (IWR) 2018 shows that 44 out of the 140 countries have suffered a decline in inclusive wealth per capita since 1992, even though GDP per capita increased in all but a handful of them. This means that these countries are not on a path to sustainable development, even if their economies, according to GDP, appear to be growing. They are depleting their stocks of natural, human or physical capital at rates that will leave future generations worse off. [***See* report**](https://www.unep.org/inclusive-wealth-report-2018){target="_blank"}. [***Download* report**](https://app.box.com/s/r0rg1bwt1r6zrdkr4o6ncucpzwflblnn){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_unep_iwr.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+    
+  </div>
+  
 - #### <a href="####" data-toggle="collapse" data-target="#ipccsr2018">IPCC: Special Report Global Warming of 1.5 ºC</a> 
 
   <div id="ipccsr2018" class="collapse">  
@@ -734,6 +879,22 @@ $(document).ready(function(){
   #### Currently, degradation of the Earth’s land surface through human activities is negatively impacting the well-being of at least 3.2 billion people, pushing the planet towards a sixth mass species extinction, and costing more than 10 per cent of the annual global gross product in loss of ***biodiversity and ecosystem services***...Unless urgent and concerted action is taken, land degradation will worsen in the face of population growth, unprecedented consumption, an increasingly globalized economy and climate change. [***See* report**](https://ipbes.net/assessment-reports/ldr){target="_blank"}. [***Download* report**](https://app.box.com/s/80gprz1nu0gcrxk3g9ji8ujy9ugzbb4b){target="_blank"}.
   
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_ipbes.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+
+- #### <a href="###" data-toggle="collapse" data-target="#protectedplanet2018">Protected Planet Report 2018: Tracking progress towards global targets for protected areas</a> 
+
+  <div id="protectedplanet2018" class="collapse">  
+
+  <a href="https://portals.iucn.org/library/node/48344" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2018.png" alt="Protected Planet 2018 report cover"/>
+  </a>
+
+  #### With two years to go until 2020, the Protected Planet Report 2018 confirms that significant progress has been made to accelerate protection of ***biodiversity*** on land and in the ocean. Based on the world’s most up to date records in the World Database on Protected Areas, managed jointly by UNEP-WCMC and IUCN, the report confirms that almost 15% of the earth’s land surface and inland waters, and just above 7% of the global ocean is now protected. However, marine areas under national jurisdiction have significantly more protection (17%) than Areas Beyond National Jurisdiction, with only slightly over 1% of protection...In particular, the ecosystem services of the world’s protected areas underpin global needs to address climate change; protect water sources and food production systems; alleviate disaster risk; and maintain health, well-being and the livelihoods of millions of people. Progress is only possible if these systems are well connected and integrated into the wider landscapes and seascapes, if they are governed equitably and managed effectively, and if they stem the ***loss of biodiversity***.  [***See* report**](https://portals.iucn.org/library/node/48344){target="_blank"}. [***Download* report**](https://app.box.com/s/3jd6gu8bct14tdgpcu1573z5ntkdgy56){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -841,6 +1002,21 @@ $(document).ready(function(){
   
   </div>
 
+- #### <a href="###" data-toggle="collapse" data-target="#unepfr2017">UNEP: Frontiers 2017: Emerging Issues of Environmental Concern</a> 
+
+  <div id="unepfr2017" class="collapse">  
+
+  <a href="https://www.unep.org/resources/frontiers-2017-emerging-issues-environmental-concern" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepfr2017.png" alt="UNEP Frontiers 2017 report cover"/>
+  </a>
+
+  #### Our oceans have been under too much stress, from too many human activities, for too many years. Today, they face a complex mixture of environmental, social and economic impacts. Overfishing and other extractive activities, coastal development, pollution and tourism are damaging essential natural habitats and reducing populations of marine species at an incredible rate. This well-documented ***degradation*** is deteriorating further due to climate change, through the effects of warmer temperatures and the acidification that results when oceans absorb carbon dioxide from the atmosphere. Since 1985, we have lost half of the world’s coral reefs. In 2016 alone, a 400-mile stretch of the Great Barrier Reef was severely damaged by coral bleaching. Of the 600 fish stocks, or subpopulations, monitored by international research bodies, 31 per cent are currently fished at unsustainable levels, largely due to illegal, unreported or unregulated activities, and 58 per cent are fully exploited...In short, we are using the ocean’s resources faster than ocean ecosystems can replenish them. It is a familiar destructive pattern: once we extract too many resources, ***weakened ecosystems*** recover more slowly. When we return for more, less of the resource is available and it is more difficult to extract. So, we put in more effort and cause more damage. Eventually, the resource is exhausted—or extinct. [***See* report**](https://www.unep.org/resources/frontiers-2017-emerging-issues-environmental-concern){target="_blank"}. [***Download* report**](https://app.box.com/s/dfgaq6lddntvgguws840l9xr7gb4113b){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2017_unep_frontiers.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
 
 <br/>
 <br/>
@@ -910,6 +1086,22 @@ $(document).ready(function(){
   <br/>
   
   </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#protectedplanet2016">Protected Planet Report 2016</a> 
+
+  <div id="protectedplanet2016" class="collapse">  
+
+  <a href="https://portals.iucn.org/library/node/46261" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2016.png" alt="Protected Planet 2016 report cover"/>
+  </a>
+
+  #### At a time when human pressures on the world’s ***species and ecosystems*** are intensifying, there is also a growing recognition that natural ecosystems make an essential contribution to human health and wellbeing. The integration of environmental sustainability into more than half of the United Nations Sustainable Development Goals clearly reflects this trend. Never has the need to conserve ***biodiversity*** and cultural heritage been greater, and more universally accepted, than today. This increased awareness has led to investments in new systems of protection around the world...The report underscores the importance of protected areas in sustaining the functions and values of natural ecosystems as well as the needs of human society. It highlights the nature-based solutions that protected areas make to critical environmental and societal challenges including climate change, food and water security, human health and well-being, and natural disasters. These functions will become ever more valuable as terrestrial, marine, coastal, and inland water ecosystems outside protected areas become compromised by over-exploitation, habitat loss and degradation. [***See* report**](https://portals.iucn.org/library/node/46261){target="_blank"}. [***Download* report**](https://app.box.com/s/qamiwn4c65ml4zub4ia13vmxlwierivc){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2016_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
 
 - #### <a href="####" data-toggle="collapse" data-target="#kew2016">Kew: State of the World's Plants</a> 
 
@@ -943,6 +1135,21 @@ $(document).ready(function(){
   
   </div>
 
+- #### <a href="###" data-toggle="collapse" data-target="#unepfr2016">UNEP: Frontiers 2016: Emerging Issues of Environmental Concern</a> 
+
+  <div id="unepfr2016" class="collapse">  
+
+  <a href="https://www.unep.org/resources/frontiers-2016-emerging-issues-environmental-concern" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepfr2016.png" alt="UNEP Frontiers 2016 report cover"/>
+  </a>
+
+  #### According to the economic theory of the “tragedy of the commons”, the earth’s natural resources become overexploited when they are considered free, whereby individuals behave against to the common good. Business as usual expects government will create a suite of laws and regulations to manage the free-for-all. However, a growing number of private sector enterprises are moving ahead of government regulation because they understand their own self-interest is realized through efforts to reduce environmental damage and even to encourage tougher environmental regulation. Climate change, ***ecosystem degradation***, water scarcity, waste management, and other environmental challenges increasingly force the private sector to consider how are damaging the environment, for example through deforestation or greenhouse gas emissions as they and their suppliers conduct business; or how they are dependent on the environment, for example by using water for agricultural production or mineral extraction and processing. These activities can expose companies to a variety of risks including market, regulatory, and reputational risks as well as the physical risks from climate-related threats. A growing number of industries and individual companies acknowledge that diminishing exposure to these material risks is in their collective self interest and requires them to reduce environmental damage. [***See* report**](https://www.unep.org/resources/frontiers-2016-emerging-issues-environmental-concern){target="_blank"}. [***Download* report**](https://app.box.com/s/4vzfn2po7jcnuq6yqbptpubqy7rhpidl){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2016_unep_frontiers.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
 
 <br/>
 <br/>
@@ -1018,7 +1225,23 @@ $(document).ready(function(){
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#protectedplanet2014">Protected Planet Report 2014: Tracking progress towards global targets for protected areas</a> 
+- #### <a href="###" data-toggle="collapse" data-target="#unepiwr2014">UNEP: Inclusive Wealth 2014</a> 
+
+  <div id="unepiwr2014" class="collapse">  
+
+  <a href="https://www.unep.org/resources/report/inclusive-wealth-report" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepiwr2014.png" alt="UNEP IWR 2014 report cover"/>
+  </a>
+
+  #### Over the past twenty years we have seen, it is true, enormous gains in economic activity and output, and indeed as well in many of the quality of life indicators comprising the HDI. On the other hand, serious questions have arisen as to the equitability and – more importantly – the sustainability of those gains...In the era of globalization and instant communication, such levels of inequality, both within and across nations, are unsustainable. Meanwhile, these gains have, as they have since the onset of Industrialization, come at a massive cost to ecosystem health, ***biodiversity***, air quality, and climate resiliency...The primary objective of the 2014 Inclusive Wealth Report (IWR 2014) is to provide quantitative information and analysis on long-term trends in global inclusive wealth (IW), and in doing so paint a picture of how nations are performing in their efforts to sustainably improve the well-being of their citizens. Another objective of the report is to further drive global efforts toward improving conceptual understanding – and quantitative evaluation – of the components of inclusive wealth that remain all-too poorly understood: natural capital and human capital. [***See* report**](https://www.unep.org/resources/report/inclusive-wealth-report){target="_blank"}. [***Download* report**](https://app.box.com/s/2obx5rqlvrur7jrad0dn49k1u1wypksm){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2014_unep_iwr.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#protectedplanet2014">Protected Planet Report 2014</a> 
 
   <div id="protectedplanet2014" class="collapse">  
 
@@ -1026,7 +1249,7 @@ $(document).ready(function(){
     <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2014.png" alt="Protected Planet 2014 report cover"/>
   </a>
 
-  #### About 209,000 protected areas (PAs) cover 15.4% of the planet’s terrestrial and inland water areas, and 3.4 % of the oceans. 8.4% of all marine areas within national jurisdiction (0-200 nautical miles) are covered protected areas while only 0.25% of marine areas beyond national jurisdiction are protected. Protected areas do not sufficiently cover areas of particular importance for ***biodiversity*** (only 22-23% are completely covered by PAs), and many terrestrial and marine ecoregions are still poorly represented. There is good evidence that effectively managed PAs conserve ***biodiversity and habitats***, on land and sea. However, by 2013, only 29% of the area of nationally designated PAs had been assessed for Protected Area Management Effectiveness. [***See* report**](https://www.iucn.org/content/protected-planet-report-2014){target="_blank"}. [***Download* report**](https://app.box.com/s/t2uyc1r0629chn8mrrlx44013a4ov2jz){target="_blank"}.
+  #### About 209,000 protected areas (PAs) cover 15.4% of the planet’s terrestrial and inland water areas, and 3.4 % of the oceans. 8.4% of all marine areas within national jurisdiction (0-200 nautical miles) are covered protected areas while only 0.25% of marine areas beyond national jurisdiction are protected. Protected areas do not sufficiently cover areas of particular importance for ***biodiversity*** (only 22-23% are completely covered by PAs), and many terrestrial and marine ecoregions are still poorly represented. There is good evidence that effectively managed PAs conserve ***biodiversity and habitats***, on land and sea. However, by 2013, only 29% of the area of nationally designated PAs had been assessed for Protected Area Management Effectiveness. [***See* report**](https://www.iucn.org/content/protected-planet-report-2014){target="_blank"}. [***Download* report**](https://app.box.com/s/3gy6gfpxmi21i9p2xxgxlzk7lpculdia){target="_blank"}.
 
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2014_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
   
@@ -1087,7 +1310,24 @@ $(document).ready(function(){
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#protectedplanet2012">Protected Planet Report 2012: Tracking progress towards global targets for protected areas</a> 
+- #### <a href="###" data-toggle="collapse" data-target="#unepiwr2012">UNEP: Inclusive Wealth 2012</a> 
+
+  <div id="unepiwr2012" class="collapse">  
+
+  <a href="https://wedocs.unep.org/handle/20.500.11822/32228" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepiwr2012.png" alt="UNEP Inclsive Wealth 2012 report cover"/>
+  </a>
+
+  #### As a whole, humanity has achieved unparalleled prosperity; great strides are being made to reduce global poverty; and technological advances are revolutionizing our lives, stamping out diseases, and transforming communication. That said, inequality remains stubbornly high, and is increasing in many countries. Short-term political and economic strategies are driving consumerism and debt, which, together with a growing global population — set to reach nearly nine billion by 2040 — is subjecting the natural environment to growing stress...Despite significant advances in the past 25 years, humanity has failed to conserve resources, safeguard ***natural ecosystems***, or otherwise ensure its own long-term viability...The United Nations University’s International Human Dimensions Programme (UNU-IHDP) and the United Nations Environment Programme (UNEP), together with other partners, have been working to find these indicators for this Inclusive Wealth Report (IWR), which proposes an approach to sustainability based on measuring natural, manufactured, human, and social forms of capital. The IWR aims to provide a comprehensive analysis of the different components of wealth by country; their links to economic development and human well-being; and policies that are based on social management of these assets. The IWR represents a crucial first step in transforming the global economic paradigm, by ensuring that we have the correct information with which to assess our economic development and well-being — and to reassess our needs and goals. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/32228){target="_blank"}. [***Download* report**](https://app.box.com/s/afrq29zvejkc99z804o1qw2nd39eceqt){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2012_unep_iwr.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+    
+  </div>
+
+  
+- #### <a href="####" data-toggle="collapse" data-target="#protectedplanet2012">Protected Planet Report 2012</a> 
 
   <div id="protectedplanet2012" class="collapse">  
 
@@ -1103,6 +1343,21 @@ $(document).ready(function(){
   
   </div>
 
+- #### <a href="###" data-toggle="collapse" data-target="#un2012">UN: Resilient people, resilient planet: a future worth choosing</a> 
+
+  <div id="un2012" class="collapse">  
+
+  <a href="https://digitallibrary.un.org/record/722600?ln=en" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_un2012.png" alt="UN 2012 report cover"/>
+  </a>
+
+  #### Today we stand at a crossroads. Continuing on the same path will put people and our planet at greatly heightened risk. The other path, we believe, provides extraordinary opportunity, but we must be committed and courageous in following it. Changing course will not be easy. But over time, we believe that following a more sustainable path will enhance human well-being, further global justice, strengthen gender equity and preserve the Earth’s life-support systems for future generations. Nearly 20 years after the Rio Earth Summit, the challenge — and opportunities — of sustainable development are more relevant than ever. Today we see with increasing clarity that economic growth, environmental protection and social equity are one and the same agenda: the sustainable development agenda. We cannot make lasting progress in one without progress on all. People are at the centre of our vision of sustainable development. Our report puts forth a series of core recommendations that, if implemented over time, will help lift large swathes of humanity out of dehumanizing poverty; bolster resilience; strengthen global equity, including gender equity; transform how we value goods and services and measure growth; preserve valuable ecosystems; enhance collaboration, coherence and accountability across sectors and institutions; and create a common framework for global sustainability. [***See* report**](https://digitallibrary.un.org/record/722600?ln=en){target="_blank"}. [***Download* report**](https://app.box.com/s/ip45vgw9i9h892yazs7s35858ljxyuve){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2012_un.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
   
 
 <br/>
