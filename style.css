@@ -24,7 +24,7 @@
   }
 
   .collapse a::after,
-  .logo_container a::after {
+  .logo_container a::after, #figs-gallery a::after {
     content: '';
     margin: 0;
   }
