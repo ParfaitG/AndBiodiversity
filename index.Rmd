@@ -168,7 +168,7 @@ $(document).ready(function(){
 
 <br/>
 
-#### But human activities are rapidly degrading ***biodiversity and ecosystems*** at an unprecedened level through five key direct drivers:
+#### But human activities are rapidly degrading ***biodiversity and ecosystems*** at an unprecedented level through five key direct drivers:
 
 <br/>
 
