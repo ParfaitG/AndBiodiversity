@@ -63,10 +63,53 @@ $(document).ready(function(){
 
 <div class="accordion">
 <input type="checkbox" name="radio-a" id="check1">
-<label class="accordion-label" for="check1">World Wildlife Fund Living Planet Report (2022)</label>
+<label class="accordion-label" for="check1">State of Finance for Nature (2022)</label>
 <div class="accordion-content">
 
-<div id="business" class="cites">
+<div id="unep2022" class="cites">
+<div class="stick_image">
+<img class="report_img" src="https://images.andbiodiversity.info/report_unep2022.png" alt="UNEP 2022 report cover"/>
+</div>
+<div class="quote">
+<blockquote>
+Most of humanity has historically fought against nature, draining wetlands, razing forests for urban development, canalising rivers and introducing monocultures with heavy use of fertilisers and pesticides. The future will have to look fundamentally different by working with nature if we are to reverse the severe loss of biodiversity, tackle the climate crisis and restore a billion hectares of healthy ecosystems that have been lost over the last few decades.
+</blockquote>
+</div>
+</div>
+
+> With sufficient finance, nature-based solutions (NbS) provide the means to cost-effectively reach climate, biodiversity and land degradation neutrality targets, particularly if investments simultaneously contribute to biodiversity, climate and restoration targets. This “double” or “triple” win potential is particularly alluring given the current economic situation.
+
+> Delayed action is no longer an option in the face of the devastating effects of climate change, the extinction crisis and severe land degradation globally. Politicians, business and finance leaders and citizens globally must transform their relationship with nature to work with it rather than against it.
+
+> If we rapidly double finance flows to NbS, we can halt biodiversity loss (measured through the Biodiversity Intactness Index below), significantly contribute to reducing emissions (5 GtCO2/year by 2025 further rising to 15 GtCO2/year by 2050 in the 1.5°C scenario) and restore close to 1 billion ha of degraded land.
+
+> Private sector investment in NbS must increase by several orders of magnitude in the coming years from the current US$26 billion per year, which represents only 17 per cent of total NbS investment. 
+
+> Government expenditure on environmentally harmful subsidies to fisheries, agriculture and fossil fuels is estimated at US$500 billion to 1 trillion per year, which is three to seven times greater than public and private investments in NbS. These flows severely undermine efforts to achieve critical environmental targets.
+
+> Investment in marine NbS constitutes only 9 per cent of total investment in NbS, which is very low given the role of theoceans in climate mitigation and supporting adaptation, food security and biodiversity conservation. 
+
+> Governments need to lock in critical targets on biodiversity loss, take urgent action to raise ambition and implement emissions reduction targets in line with the Paris Agreement and action land restoration commitments. These targets must be underpinned by broad based resource mobilisation from all sources. Public and private actors need to mobilise the necessary finance and close the finance gap while governments anchor targets in national regulation/legislation.
+
+> Increase direct finance flows to NbS through public domestic expenditure, nature-focused Official Development Assistance (ODA), ensuring that multilateral development banks (MDBs) and development finance institutions (DFIs) prioritise green finance, and providing regulation and incentives for private sector investment, particularly in nature markets and sustainable supply chains.
+
+> Companies in the real economy and financial institutions need to transition to “net zero, net positive” and equitable business models in a time-bound manner with short-term targets.
+
+> Public and private sector efforts to scale up NbS investments need to integrate just transition principles, safeguarding human rights. This includes providing social protection, land rights and decent working conditions and the participation of local and indigenous communities, including women and otherm arginalised and vulnerable groups.
+
+<br/>
+<br/>
+<br/>
+
+</div>
+</div>
+
+<div class="accordion">
+<input type="checkbox" name="radio-a" id="check2">
+<label class="accordion-label" for="check2">World Wildlife Fund Living Planet Report (2022)</label>
+<div class="accordion-content">
+
+<div id="wwf2022" class="cites">
 <div class="stick_image">
 <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2022.png" alt="WWF 2022 report cover"/>
 </div>
@@ -91,7 +134,37 @@ Today we face the double, interlinked emergencies of human-induced climate chang
 
 > Climate change and biodiversity loss are not only environmental issues, but economic, development, security, social, moral and ethical issues too – and they must therefore be addressed together along with the 17 UN Sustainable Development Goals (SDGs).
 
+> Climate change and biodiversity loss are not only environmental issues, but economic, development, security, social, moraland ethical issues too.
 
+> Unless we conserve and restore biodiversity, and limit human-induced climate change, almost none of the [17 UN Sustainable Development Goals (SDGs)] can be achieved – in particular food and water security, good health for everyone, poverty alleviation, and a more equitable world.
+
+> Everyone has a role to play in addressing these emergencies; and most now acknowledge that transformations aren eeded. This recognition now needs to be turned into action.
+
+> Human-driven global warming is changing the natural world, driving mass mortality events as well as the first extinctions of entire species. Every degree of warming is expected to increase these losses and the impact they have on people.
+
+> Warming is also changing how ecosystems function, putting into motion ecological processes that, themselves, in time cause more warming: this process is called a ‘positive climate feedback’.
+
+> Increases in wildfires, trees dying due to drought and insectoutbreaks, peatlands drying and tundra permafrost thawing, all release more CO₂ as dead plant material decomposes or is burned. This is starting to transform systems that have historically been solid carbon sinks into new carbon sources.
+
+> Once these ecological processes reach a tipping point they will become irreversible and commit our planet to continue warming at a very high rate. 
+
+> Forests are critical for stabilising our climate, but deforestation threatens this vital function as well as other ecosystem services including buffering against the impact of heatwaves, and providing freshwater to agricultural lands.
+
+> Ecological connectivity is severely threatened by the destruction and degradation of nature that fragments habitats. To counter this, connectivity conservation is rapidly emerging as a solution to restore the movement of species and the flow of natural processes.
+
+> Around the globe, it is clear that leaders in dominant societies have failed to control the human activities driving climate change and habitat loss, while Indigenous lands and waters have been successfully taken care of over millennia 80 . In Canada, Brazil and Australia, for instance, vertebrate biodiversity in Indigenous territories equals or surpasses that found within formally protected areas.
+
+> Indigenous approaches to conservation regularly place reciprocal people-place relationships at the centre of cultural and care practices. These approaches hinge on systems of Indigenous knowledge which include scientific and ecological understandings that are carried across generations through language, story, ceremony, practice and law.
+
+> With a fundamental, system-wide reorganisation across technological, economic and social factors, including paradigms, goals and values, there might still be a chance that we can reverse the trend of nature’s decline.
+
+> Economics, at its core, is the study of how people make choices under conditions of scarcity, and of the consequences of those choices for society. Simply put, we need to move to an economy that values well-being in its diverse forms, not only monetary, and one which is fully responsive to resource scarcity.
+
+> A global goal of reversing biodiversity loss to secure a nature-positive world by 2030 is necessary if we are to turn the tide on nature loss and safeguard the natural world for current and future generations. It must be our guiding star, in the same way that the goal of limiting global warming to 2°C, and preferably 1.5°C, guides our efforts on climate.
+
+> Recognition of the integrated nature of our environmental challenges in turn enables the search for win-win solutions. Again, the science is clear: immediate action to reverse biodiversity loss is essential if we are to succeed in limiting climate change to 1.5°C; and climate change is expected to become a dominant driver of biodiversity loss if left unchecked.
+
+> It will only be through identifying and pursuing solutions that tackle these connected challenges while also benefiting people that we will be able to course-correct and secure a healthier natural world, to help achieve the Sustainable Development Goals.
 
 <br/>
 <br/>
@@ -101,11 +174,11 @@ Today we face the double, interlinked emergencies of human-induced climate chang
 </div>
 
 <div class="accordion">
-<input type="checkbox" name="radio-a" id="check2">
-<label class="accordion-label" for="check2">IPBES-IPCC Biodiversity and Climate Change Workshop Report (2021)</label>
+<input type="checkbox" name="radio-a" id="check3">
+<label class="accordion-label" for="check3">IPBES-IPCC Biodiversity and Climate Change Workshop Report (2021)</label>
 <div class="accordion-content">
 
-<div id="business" class="cites">
+<div id="ipbesipcc2021" class="cites">
 <div class="stick_image">
 <img class="report_img" src="https://images.andbiodiversity.info/report_ipbesipcc2021.png" alt="IPBES-IPCC 2021 report cover"/>
 </div>
@@ -199,11 +272,11 @@ the inseparable nature of climate, biodiversity, and human quality of life will 
 
 
 <div class="accordion">
-<input type="checkbox" name="radio-a" id="check3">
-<label class="accordion-label" for="check3">UNEP Making Peace with Nature (2021)</label>
+<input type="checkbox" name="radio-a" id="check4">
+<label class="accordion-label" for="check4">UNEP Making Peace with Nature (2021)</label>
 <div class="accordion-content">
 
-<div id="business" class="cites">
+<div id="unepblueprint2021" class="cites">
 <div class="stick_image">
 <img class="report_img" src="https://images.andbiodiversity.info/report_unepblueprint2021.png" alt="UNEP Blueprint report cover"/>
 </div>
@@ -269,11 +342,11 @@ to do the same. Yardsticks such as inclusive wealth (the sum of produced, natura
 </div>
 
 <div class="accordion">
-<input type="checkbox" name="radio-a" id="check4">
-<label class="accordion-label" for="check4">Dasgupta Review: The Economics of Biodiversity (2021)</label>
+<input type="checkbox" name="radio-a" id="check5">
+<label class="accordion-label" for="check5">Dasgupta Review: The Economics of Biodiversity (2021)</label>
 <div class="accordion-content">
 
-<div id="business" class="cites">
+<div id="dasguptareview2021" class="cites">
 <div class="stick_image">
 <img class="report_img" src="https://images.andbiodiversity.info/report_dasgupta2021.png" alt="Dasgupta Review 2021 report cover"/>
 </div>
@@ -345,11 +418,11 @@ consider produced and human capital as primary factors of production, not explic
 
 
 <div class="accordion">
-<input type="checkbox" name="radio-a" id="check5">
-<label class="accordion-label" for="check5">World Wildlife Fund Living Planet Report (2020)</label>
+<input type="checkbox" name="radio-a" id="check6">
+<label class="accordion-label" for="check6">World Wildlife Fund Living Planet Report (2020)</label>
 <div class="accordion-content">
 
-<div id="business" class="cites">
+<div id="wwf2020" class="cites">
 <div class="stick_image">
 <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2020.png" alt="WWF 2020 report cover"/>
 </div>
@@ -404,11 +477,11 @@ The global Living Planet Index continues to decline. It shows an average 68% dec
 </div>
 
 <div class="accordion">
-<input type="checkbox" name="radio-a" id="check6">
-<label class="accordion-label" for="check6">IPBES Global Assessment (2019)</label>
+<input type="checkbox" name="radio-a" id="check7">
+<label class="accordion-label" for="check7">IPBES Global Assessment (2019)</label>
 <div class="accordion-content">
 
-<div id="business" class="cites">
+<div id="ipbes2019" class="cites">
 <div class="stick_image">
 <img class="report_img" src="https://images.andbiodiversity.info/report_ipbes2019.png" alt="IPBES 2019 report cover"/>
 </div>
@@ -491,11 +564,11 @@ goals, such as those embodied in the Aichi Biodiversity Targets and the 2030 Age
 </div>
 
 <div class="accordion">
-<input type="checkbox" name="radio-a" id="check7">
-<label class="accordion-label" for="check7">Millennium Ecosystem Assessment (2005)</label>
+<input type="checkbox" name="radio-a" id="check8">
+<label class="accordion-label" for="check8">Millennium Ecosystem Assessment (2005)</label>
 <div class="accordion-content">
 
-<div id="business" class="cites">
+<div id="mea2005" class="cites">
 <div class="stick_image">
 <img class="report_img" src="https://images.andbiodiversity.info/report_mea2005.png" alt="MEA 2005 report cover"/>
 </div>
