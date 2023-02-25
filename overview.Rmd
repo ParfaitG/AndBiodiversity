@@ -194,10 +194,11 @@ $(document).ready(function(){
   <div class="accordion-content">
   <ul>
    <li>IPBES and IPCC launches their first-ever collaboration with a workshop report of selected authors, stressing the interlinked nature of climate change and biodiversity loss. <em>See</em> <a href="reports.html" target="_blank"><b>Reports</b></a>.</li>
-   <li>National leaders commit to halt and reverse biodiversity loss, reverse land degradation and forest loss, and protect and conserve at least 30% of land and sea by 2030. <em>See</em> <a href="https://www.campaignfornature.org/news/category/30x30" target="_blank"><b>updates</b></a>.</li>
+   <li>UN launches the Decade on Ecosystem Restoration, the global movement to assist in the recovery of ecosystems that have been degraded or destroyed, as well as conserving intact ecosystems. <em>See</em> <a href="https://www.decadeonrestoration.org" target="_blank"><b>website</b></a>.</li>
    <li>Conference of the Parties to the Convention on Biological Diversity (CBD) at COP15 adopt global targets by 2030 in landmark biodiversity agreement. <em>See</em> <a href="https://www.cbd.int/article/cop15-cbd-press-release-final-19dec2022" target="_blank"><b>press release</b></a>.</li>
   </ul>
   <img src="https://images.andbiodiversity.info/report_ipbesipcc2021.png" alt="IPBES and IPCC report cover"/>
+  <img src="https://images.andbiodiversity.info/icon_unecodecade.png" alt="UN Ecosystem Restoration Decade icon"/>
   <img src="https://images.andbiodiversity.info/icon_cop15.png" alt="COP15 icon"/>
   </div>
  </div>

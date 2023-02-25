@@ -175,7 +175,137 @@ Today we face the double, interlinked emergencies of human-induced climate chang
 
 <div class="accordion">
 <input type="checkbox" name="radio-a" id="check3">
-<label class="accordion-label" for="check3">IPBES-IPCC Biodiversity and Climate Change Workshop Report (2021)</label>
+<label class="accordion-label" for="check3">UNCCD: Global Land Outlook (2022)</label>
+<div class="accordion-content">
+
+<div id="unccd2022" class="cites">
+<div class="stick_image">
+<img class="report_img" src="https://images.andbiodiversity.info/report_unccd2022.png" alt="UNCCD 2022 report cover"/>
+</div>
+<div class="quote">
+<blockquote>
+Land resources – soil, water, and biodiversity – provide the foundation for the wealth ofour societies and economies. They meet the growing needs and desires for food, water,fuel, and other raw materials that shape our livelihoods and lifestyles. However, theway we currently manage and use these natural resources is threatening the health andcontinued survival of many species on Earth, including our own.
+</blockquote>
+</div>
+</div>
+
+> Of nine planetary boundaries used to define a ‘safe operating space for humanity’, fourhave already been exceeded: climate change, biodiversity loss, land use change, and geochemical cycles. These breaches are directly linked to human-induced desertification, land degradation, and drought. If current trends persist, the risk of widespread, abrupt, or irreversible environmental changes will grow.
+
+> Tracking the health of nature over almost 50 years, the Living Planet Index acts as an early warning indicator by tracking trends in the abundance of mammals, fish, reptiles, birds and amphibians around the world. In its most comprehensive finding to date, this edition shows an average 69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018.
+
+> Roughly USD 44 trillion of economic output – more than half of global annual GDP– is moderately or highly reliant on natural capital. Yet governments, markets, and societies rarely account for the true value of all nature’s services that underpin human and environmental health. These include climate and water regulation, disease and pest control, waste decomposition and air purification, as well as recreation and cultural amenities.
+
+> Conserving, restoring, andusing our land resources sustainably is a global imperative: one that requires moving to acrisis footing.
+
+> At no other point in modern history has humanity faced such an array of familiar and unfamiliar risks and hazards, interacting in a hyper-connected and rapidly changing world. We cannot afford to underestimate the scale and impact of these existential threats. Rather we must work to motivate and enable all stakeholders to go beyond existing development and business models to activate a restorative agenda for people, nature, and the climate.
+
+> Land restoration is essential and urgently needed. It must be integrated with allied measures to meet future energy needs while drastically reducing greenhouse gasemissions; address food insecurity and water scarcity while shifting to more sustainable production and consumption; and accelerate a transition to a regenerative, circular economy that reduces waste and pollution.
+
+> Restoration is a proven and cost-effective solution to help reverse climate change and biodiversity loss caused by the rapid depletion of our finite natural capital stocks.
+
+> Land restoration is broadly understood as a continuum of sustainable land and water management practices that can be applied to conserve or ‘rewild’ natural areas, ‘up-scale’ nature-positive food production in rural landscapes, and ‘green’ urban areas, infrastructure, and supply chains.
+
+> The land restoration agenda is a multiple benefits strategy that reverses past land and ecosystem degradation while creating opportunities that improve livelihoods and prepareus for future challenges. 
+
+> Land is the operative link between biodiversity loss and climate change, and therefore must be the primary focus of any meaningful intervention to tackle these intertwined crises. Restoring degraded land and soil provides the most fertile ground on which to take immediate and concerted action.
+
+> Land and ecosystem restoration will help slow global warming, reduce the risk, scale, frequency, and intensity of disasters (e.g., pandemics, drought, floods), and facilitate the recovery of critical biodiversity habitat and ecological connectivity to avoid extinctions and restore the unimpeded movement of species and the flow of natural processes that sustain life on Earth.
+
+> Restoration is needed in the right places and at the right scales to better manage interconnected global emergencies. Responsible governance and land use planning will be key to protecting healthy and productive land and recuperating biodiverse, carbon-rich ecosystems to avoid dangerous tipping points.
+
+> Modern agriculture has altered the face of the planet more than any other human activity– from the production of food, animal feed, and other commodities to the marketsand supply chains that connect producers to consumers.
+
+> Making our food systems sustainable and resilient would be a significant contribution to the success of the global land, biodiversity, and climate agendas.
+
+> Globally, food systems are responsible for 80% of deforestation, 70% of freshwater use, and are the single greatest cause of terrestrial biodiversity loss. 
+
+> At the same time, soil health and biodiversity below ground – the source of almost all our food calories – has been largely neglected by the industrial agricultural revolution of the last century.
+
+> Intensive monocultures and the destruction of forests and other ecosystems for food and commodity production generate the bulk of carbon emissions associated with land use change. Nitrous oxides from fertilizer use and methane emitted by ruminant livestock comprise the largest and most potent share of agricultural greenhouse gas emissions
+
+> Top-down solutions to avoid or reduce land degradation and water scarcity are unlikely to succeed without bottom-up stakeholder engagement and the security of land tenure and resource rights. 
+
+> At the same time, trusted institutions and networks are needed tohelp build bridges that bring together different forms of capital to restore land health and create dignified jobs.
+
+> More inclusive and responsible governance can facilitate the shift to sustainable land use and management practices by building human and social capital. 
+
+> Increased transparency and accountability are prerequisites for integrated land use planning and other administrative tools that can help deliver multiple benefits at various scales while managing competing demands.
+
+> Redirecting public spending towards regenerative land management solutions offers a significant opportunity to align private sector investment with longer-term societal goals– not only for food, fuel, and raw materials, but also for green and blue infrastructure for drought and flood mitigation, renewable energy provision, biodiversity conservation, and water and waste recycling.
+
+> Territorial and landscape approaches can leverage public and private financing for large-scale or multi-sector restoration initiatives by allowing diverse groups of stakeholders to establish partnerships that pool resources, aggregate project activities, and share costs. These collaborative approaches will make land restoration initiatives more effective and attractive to donors and investors.
+
+> The stark implications of the business-as-usual scenario means that decisive action at all levels and from all actors is needed to realize the promise of the restoration scenarios contained in this Outlook. 
+
+> What is clear and unequivocal is the need for coordinated measures to meaningfully slow or reverse climate change, land degradation, and biodiversity loss to safeguard human health and livelihoods, ensure food and water security, and leave a sustainable legacy for future generations.
+
+> Ambitious land restoration targets must be backed by clear action plans and sustained financing. Countries that are disproportionately responsible for the climate, biodiversity, and environmental crises must do more to support developing countries as they restoretheir land resources and make these activities central to building healthier and more resilient societies.
+
+> The UN Decade on Ecosystem Restoration is galvanizing indigenous peoples and local communities, governments, the private sector, and civil society as part of a global movement to undertake all types of restoration, across all scales, marshalling all possible resources. This powerful 10-year ambition aims to transform land and water management practices to meet the demands of the 21st century while eradicating poverty, hunger, and malnutrition.
+
+
+<br/>
+<br/>
+<br/>
+
+</div>
+</div>
+
+<div class="accordion">
+<input type="checkbox" name="radio-a" id="check4">
+<label class="accordion-label" for="check4">UNEP: Becoming #GenerationRestoration (2021)</label>
+<div class="accordion-content">
+
+<div id="uneprestoration2022" class="cites">
+<div class="stick_image">
+<img class="report_img" src="https://images.andbiodiversity.info/report_uneprestoration2021.png" alt="UNEP Resotration 2021 report cover"/>
+</div>
+<div class="quote">
+<blockquote>
+Countries need to deliver on their existing commitments to restore 1 billion hectares of degraded land and make similar commitments for marine and coastal areas.
+</blockquote>
+</div>
+</div>
+
+> The world’s ecosystems – from oceans to forests to farmlands – are being degraded, in many cases at an accelerating rate. People living in poverty, women, indigenous peoples and other marginalized groups bear the brunt of this damage, and the COVID-19 pandemic has only worsened existing inequalities. 
+
+> While the causes of degradation are various and complex, one thing is clear: the massive economic growth of recent decades has come at the cost of ecological health.
+
+> Ecosystem restoration is needed on a large scale in order to achieve the sustainable development agenda.
+
+> The conservation of healthy ecosystems – while vitally important – is now not enough. We are using the equivalent of 1.6 Earths to maintain our current way of life, and ecosystems cannot keep up with our demands. Simply put, we need more nature.
+
+> Half of the world’s GDP is dependent on nature, and every dollar invested in restoration creates up to USD 30 dollars in economic benefits.
+
+> Restoring productive ecosystems is essential to supporting food security. Restoration through agroforestry alone has the potential to increase food security for 1.3 billion people. Restoring the populations of marine fish to deliver a maximum sustainable yield could increase fisheries production by 16.5 million tonnes, an annual value of USD 32 billion.
+
+> Actions that prevent, halt and reverse degradation are needed if we are to keep global temperatures below 2°C. Such actions can deliver one-third of the mitigation that is needed by 2030. This could involve action to better manage some 2.5 billion hectares of forest, crop and grazing land (through restoration and avoiding degradation) and
+restoration of natural cover over 230 million hectares.
+
+> Large-scale investments in dryland agriculture, mangrove protection and water management will make a vital contribution to building resilience to climate change, generating benefits around four times the original investment.
+ 
+> With careful planning, restoring 15 per cent of converted lands while stopping further conversion of natural ecosystems could avoid 60 per cent of expected species extinctions.
+
+> Adopting inclusive wealth as a more accurate measure of economic progress. This will rest on the widespread introduction of natural capital accounting.
+
+> Increasing the amount of finance for restoration, including through the elimination of perverse subsidies that incentivize further degradation and fuel climate change, and through initiatives to raise awareness of the risks posed by ecosystem degradation
+
+> Taking action on food waste, making more efficient use of agricultural land, and encouraging a shift to a more plant-based diet.
+
+> Expanding awareness of the importance of healthy ecosystems throughout our educational systems.
+
+> The restoration of ecosystems at scale is no small task, and it will take a concerted effort to truly restore the planet. The UN Decade on Ecosystem Restoration aims to catalyse a global movement among local communities, activists, women, youth, indigenous groups, private companies, financial investors, researchers and governments at all levels.
+
+<br/>
+<br/>
+<br/>
+
+</div>
+</div>
+
+<div class="accordion">
+<input type="checkbox" name="radio-a" id="check5">
+<label class="accordion-label" for="check5">IPBES-IPCC Biodiversity and Climate Change Workshop Report (2021)</label>
 <div class="accordion-content">
 
 <div id="ipbesipcc2021" class="cites">
@@ -272,8 +402,8 @@ the inseparable nature of climate, biodiversity, and human quality of life will 
 
 
 <div class="accordion">
-<input type="checkbox" name="radio-a" id="check4">
-<label class="accordion-label" for="check4">UNEP Making Peace with Nature (2021)</label>
+<input type="checkbox" name="radio-a" id="check6">
+<label class="accordion-label" for="check6">UNEP Making Peace with Nature (2021)</label>
 <div class="accordion-content">
 
 <div id="unepblueprint2021" class="cites">
@@ -342,8 +472,8 @@ to do the same. Yardsticks such as inclusive wealth (the sum of produced, natura
 </div>
 
 <div class="accordion">
-<input type="checkbox" name="radio-a" id="check5">
-<label class="accordion-label" for="check5">Dasgupta Review: The Economics of Biodiversity (2021)</label>
+<input type="checkbox" name="radio-a" id="check7">
+<label class="accordion-label" for="check7">Dasgupta Review: The Economics of Biodiversity (2021)</label>
 <div class="accordion-content">
 
 <div id="dasguptareview2021" class="cites">
@@ -418,8 +548,8 @@ consider produced and human capital as primary factors of production, not explic
 
 
 <div class="accordion">
-<input type="checkbox" name="radio-a" id="check6">
-<label class="accordion-label" for="check6">World Wildlife Fund Living Planet Report (2020)</label>
+<input type="checkbox" name="radio-a" id="check8">
+<label class="accordion-label" for="check8">World Wildlife Fund Living Planet Report (2020)</label>
 <div class="accordion-content">
 
 <div id="wwf2020" class="cites">
@@ -477,8 +607,8 @@ The global Living Planet Index continues to decline. It shows an average 68% dec
 </div>
 
 <div class="accordion">
-<input type="checkbox" name="radio-a" id="check7">
-<label class="accordion-label" for="check7">IPBES Global Assessment (2019)</label>
+<input type="checkbox" name="radio-a" id="check9">
+<label class="accordion-label" for="check9">IPBES Global Assessment (2019)</label>
 <div class="accordion-content">
 
 <div id="ipbes2019" class="cites">
@@ -564,8 +694,8 @@ goals, such as those embodied in the Aichi Biodiversity Targets and the 2030 Age
 </div>
 
 <div class="accordion">
-<input type="checkbox" name="radio-a" id="check8">
-<label class="accordion-label" for="check8">Millennium Ecosystem Assessment (2005)</label>
+<input type="checkbox" name="radio-a" id="check10">
+<label class="accordion-label" for="check10">Millennium Ecosystem Assessment (2005)</label>
 <div class="accordion-content">
 
 <div id="mea2005" class="cites">
