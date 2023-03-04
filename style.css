@@ -24,7 +24,9 @@
   }
 
   .collapse a::after,
-  .logo_container a::after, #figs-gallery a::after {
+  .logo_container a::after, 
+   #figs-gallery a::after,
+  .cites a::after {
     content: '';
     margin: 0;
   }

@@ -14,7 +14,7 @@ library(metathis)
 
 meta(
 ) |> meta_general(
-  description = "Online information resource to provide quotes and stats from major global reports regarding biodiversity loss."
+  description = "Online information resource to provide quotes and stats from major global reports regarding ***biodiversity loss***."
 ) |> meta_social(
   url = "https://andbiodiversity.info/quotes.html",
   title = "And Biodiversity | Quotes",
@@ -52,7 +52,7 @@ $(document).ready(function(){
 
 <div class="logo"><a href="index.html"><img src="https://images.andbiodiversity.info/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></a></div>
 
-#### Read, cite, and share quotes from major reports regarding biodiversity loss.
+#### Read, cite, and share quotes from major reports regarding ***biodiversity loss***.
 
 <br/>
 
@@ -68,34 +68,40 @@ $(document).ready(function(){
 
 <div id="unep2022" class="cites">
 <div class="stick_image">
+<a href="https://app.box.com/s/9qqzash0tsmu7ko9aqdkxa65ekq2dbdh" title="Click to view the report" target="_blank">
 <img class="report_img" src="https://images.andbiodiversity.info/report_unep2022.png" alt="UNEP 2022 report cover"/>
+</a>
 </div>
 <div class="quote">
 <blockquote>
-Most of humanity has historically fought against nature, draining wetlands, razing forests for urban development, canalising rivers and introducing monocultures with heavy use of fertilisers and pesticides. The future will have to look fundamentally different by working with nature if we are to reverse the severe loss of biodiversity, tackle the climate crisis and restore a billion hectares of healthy ecosystems that have been lost over the last few decades.
+Most of humanity has historically fought against nature, draining wetlands, razing forests for urban development, canalising rivers and introducing monocultures with heavy use of fertilisers and pesticides. The future will have to look fundamentally different by working with nature if we are to reverse the severe ***loss of biodiversity***, tackle the climate crisis and restore a billion hectares of healthy ecosystems that have been lost over the last few decades.
 </blockquote>
 </div>
 </div>
 
-> With sufficient finance, nature-based solutions (NbS) provide the means to cost-effectively reach climate, biodiversity and land degradation neutrality targets, particularly if investments simultaneously contribute to biodiversity, climate and restoration targets. This “double” or “triple” win potential is particularly alluring given the current economic situation.
+> With sufficient finance, nature-based solutions (NbS) provide the means to cost-effectively reach climate, ***biodiversity*** and land degradation neutrality targets, particularly if investments simultaneously contribute to biodiversity, climate and restoration targets. This “double” or “triple” win potential is particularly alluring given the current economic situation.
 
 > Delayed action is no longer an option in the face of the devastating effects of climate change, the extinction crisis and severe land degradation globally. Politicians, business and finance leaders and citizens globally must transform their relationship with nature to work with it rather than against it.
 
-> If we rapidly double finance flows to NbS, we can halt biodiversity loss (measured through the Biodiversity Intactness Index below), significantly contribute to reducing emissions (5 GtCO2/year by 2025 further rising to 15 GtCO2/year by 2050 in the 1.5°C scenario) and restore close to 1 billion ha of degraded land.
+> If we rapidly double finance flows to NbS, we can halt ***biodiversity loss*** (measured through the Biodiversity Intactness Index below), significantly contribute to reducing emissions (5 GtCO2/year by 2025 further rising to 15 GtCO2/year by 2050 in the 1.5°C scenario) and restore close to 1 billion ha of degraded land.
 
 > Private sector investment in NbS must increase by several orders of magnitude in the coming years from the current US$26 billion per year, which represents only 17 per cent of total NbS investment. 
 
 > Government expenditure on environmentally harmful subsidies to fisheries, agriculture and fossil fuels is estimated at US$500 billion to 1 trillion per year, which is three to seven times greater than public and private investments in NbS. These flows severely undermine efforts to achieve critical environmental targets.
 
-> Investment in marine NbS constitutes only 9 per cent of total investment in NbS, which is very low given the role of theoceans in climate mitigation and supporting adaptation, food security and biodiversity conservation. 
+> Investment in marine NbS constitutes only 9 per cent of total investment in NbS, which is very low given the role of theoceans in climate mitigation and supporting adaptation, food security and ***biodiversity*** conservation. 
 
-> Governments need to lock in critical targets on biodiversity loss, take urgent action to raise ambition and implement emissions reduction targets in line with the Paris Agreement and action land restoration commitments. These targets must be underpinned by broad based resource mobilisation from all sources. Public and private actors need to mobilise the necessary finance and close the finance gap while governments anchor targets in national regulation/legislation.
+> Governments need to lock in critical targets on ***biodiversity loss***, take urgent action to raise ambition and implement emissions reduction targets in line with the Paris Agreement and action land restoration commitments. These targets must be underpinned by broad based resource mobilisation from all sources. Public and private actors need to mobilise the necessary finance and close the finance gap while governments anchor targets in national regulation/legislation.
 
 > Increase direct finance flows to NbS through public domestic expenditure, nature-focused Official Development Assistance (ODA), ensuring that multilateral development banks (MDBs) and development finance institutions (DFIs) prioritise green finance, and providing regulation and incentives for private sector investment, particularly in nature markets and sustainable supply chains.
 
 > Companies in the real economy and financial institutions need to transition to “net zero, net positive” and equitable business models in a time-bound manner with short-term targets.
 
 > Public and private sector efforts to scale up NbS investments need to integrate just transition principles, safeguarding human rights. This includes providing social protection, land rights and decent working conditions and the participation of local and indigenous communities, including women and otherm arginalised and vulnerable groups.
+
+**Citation**
+
+United Nations Environment Programme (2022). State of Finance for Nature. Time to act:Doubling investment by 2025 and eliminating nature-negative finance flows. Nairobi. https://wedocs.unep.org/20.500.11822/41333
 
 <br/>
 <br/>
@@ -111,16 +117,18 @@ Most of humanity has historically fought against nature, draining wetlands, razi
 
 <div id="wwf2022" class="cites">
 <div class="stick_image">
+<a href="https://app.box.com/s/se8qtu19i75drevj6wzuth7ex6rn1f5c" title="Click to view the report" target="_blank">
 <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2022.png" alt="WWF 2022 report cover"/>
+</a>
 </div>
 <div class="quote">
 <blockquote>
-Today we face the double, interlinked emergencies of human-induced climate change and the loss of biodiversity, threatening the well-being of current and future generations. As our future is critically dependent on biodiversity and a stable climate, it is essential that we understand how nature’s decline and climate change are connected.
+Today we face the double, interlinked emergencies of human-induced climate change and the ***loss of biodiversity***, threatening the well-being of current and future generations. As our future is critically dependent on ***biodiversity*** and a stable climate, it is essential that we understand how nature’s decline and climate change are connected.
 </blockquote>
 </div>
 </div>
 
-> Land-use change is still the biggest current threat to nature, destroying or fragmenting the natural habitats of many plant and animal species on land, in freshwater and in the sea. However, if we are unable to limit warming to 1.5°C, climate change is likely to become the dominant cause of biodiversity loss in the coming decades.
+> Land-use change is still the biggest current threat to nature, destroying or fragmenting the natural habitats of many plant and animal species on land, in freshwater and in the sea. However, if we are unable to limit warming to 1.5°C, climate change is likely to become the dominant cause of ***biodiversity loss*** in the coming decades.
 
 > Tracking the health of nature over almost 50 years, the Living Planet Index acts as an early warning indicator by tracking trends in the abundance of mammals, fish, reptiles, birds and amphibians around the world. In its most comprehensive finding to date, this edition shows an average 69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018.
 
@@ -132,9 +140,9 @@ Today we face the double, interlinked emergencies of human-induced climate chang
 
 > Achieving net-zero loss for nature is certainly not enough; we need a nature- or net-positive goal to restore nature and not simply halt its loss. Firstly, because we have lost and continue to lose so much nature at such a speed that we need this higher ambition.
 
-> Climate change and biodiversity loss are not only environmental issues, but economic, development, security, social, moral and ethical issues too – and they must therefore be addressed together along with the 17 UN Sustainable Development Goals (SDGs).
+> Climate change and ***biodiversity loss*** are not only environmental issues, but economic, development, security, social, moral and ethical issues too – and they must therefore be addressed together along with the 17 UN Sustainable Development Goals (SDGs).
 
-> Climate change and biodiversity loss are not only environmental issues, but economic, development, security, social, moraland ethical issues too.
+> Climate change and ***biodiversity loss*** are not only environmental issues, but economic, development, security, social, moraland ethical issues too.
 
 > Unless we conserve and restore biodiversity, and limit human-induced climate change, almost none of the [17 UN Sustainable Development Goals (SDGs)] can be achieved – in particular food and water security, good health for everyone, poverty alleviation, and a more equitable world.
 
@@ -152,7 +160,7 @@ Today we face the double, interlinked emergencies of human-induced climate chang
 
 > Ecological connectivity is severely threatened by the destruction and degradation of nature that fragments habitats. To counter this, connectivity conservation is rapidly emerging as a solution to restore the movement of species and the flow of natural processes.
 
-> Around the globe, it is clear that leaders in dominant societies have failed to control the human activities driving climate change and habitat loss, while Indigenous lands and waters have been successfully taken care of over millennia 80 . In Canada, Brazil and Australia, for instance, vertebrate biodiversity in Indigenous territories equals or surpasses that found within formally protected areas.
+> Around the globe, it is clear that leaders in dominant societies have failed to control the human activities driving climate change and habitat loss, while Indigenous lands and waters have been successfully taken care of over millennia 80 . In Canada, Brazil and Australia, for instance, vertebrate ***biodiversity*** in Indigenous territories equals or surpasses that found within formally protected areas.
 
 > Indigenous approaches to conservation regularly place reciprocal people-place relationships at the centre of cultural and care practices. These approaches hinge on systems of Indigenous knowledge which include scientific and ecological understandings that are carried across generations through language, story, ceremony, practice and law.
 
@@ -160,11 +168,15 @@ Today we face the double, interlinked emergencies of human-induced climate chang
 
 > Economics, at its core, is the study of how people make choices under conditions of scarcity, and of the consequences of those choices for society. Simply put, we need to move to an economy that values well-being in its diverse forms, not only monetary, and one which is fully responsive to resource scarcity.
 
-> A global goal of reversing biodiversity loss to secure a nature-positive world by 2030 is necessary if we are to turn the tide on nature loss and safeguard the natural world for current and future generations. It must be our guiding star, in the same way that the goal of limiting global warming to 2°C, and preferably 1.5°C, guides our efforts on climate.
+> A global goal of reversing ***biodiversity loss*** to secure a nature-positive world by 2030 is necessary if we are to turn the tide on nature loss and safeguard the natural world for current and future generations. It must be our guiding star, in the same way that the goal of limiting global warming to 2°C, and preferably 1.5°C, guides our efforts on climate.
 
-> Recognition of the integrated nature of our environmental challenges in turn enables the search for win-win solutions. Again, the science is clear: immediate action to reverse biodiversity loss is essential if we are to succeed in limiting climate change to 1.5°C; and climate change is expected to become a dominant driver of biodiversity loss if left unchecked.
+> Recognition of the integrated nature of our environmental challenges in turn enables the search for win-win solutions. Again, the science is clear: immediate action to reverse ***biodiversity loss*** is essential if we are to succeed in limiting climate change to 1.5°C; and climate change is expected to become a dominant driver of ***biodiversity loss*** if left unchecked.
 
 > It will only be through identifying and pursuing solutions that tackle these connected challenges while also benefiting people that we will be able to course-correct and secure a healthier natural world, to help achieve the Sustainable Development Goals.
+
+**Citation**
+
+WWF (2022) Living Planet Report 2022 - Building a nature-positive society. Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, T. (Eds). WWF, Gland, Switzerland.
 
 <br/>
 <br/>
@@ -180,16 +192,18 @@ Today we face the double, interlinked emergencies of human-induced climate chang
 
 <div id="unccd2022" class="cites">
 <div class="stick_image">
+<a href="https://app.box.com/s/3qvvry3v5wcwqa43xtiyrvmdzqs5rubc" title="Click to view the report" target="_blank">
 <img class="report_img" src="https://images.andbiodiversity.info/report_unccd2022.png" alt="UNCCD 2022 report cover"/>
+</a>
 </div>
 <div class="quote">
 <blockquote>
-Land resources – soil, water, and biodiversity – provide the foundation for the wealth ofour societies and economies. They meet the growing needs and desires for food, water,fuel, and other raw materials that shape our livelihoods and lifestyles. However, theway we currently manage and use these natural resources is threatening the health andcontinued survival of many species on Earth, including our own.
+Land resources – soil, water, and ***biodiversity*** – provide the foundation for the wealth ofour societies and economies. They meet the growing needs and desires for food, water,fuel, and other raw materials that shape our livelihoods and lifestyles. However, theway we currently manage and use these natural resources is threatening the health andcontinued survival of many species on Earth, including our own.
 </blockquote>
 </div>
 </div>
 
-> Of nine planetary boundaries used to define a ‘safe operating space for humanity’, fourhave already been exceeded: climate change, biodiversity loss, land use change, and geochemical cycles. These breaches are directly linked to human-induced desertification, land degradation, and drought. If current trends persist, the risk of widespread, abrupt, or irreversible environmental changes will grow.
+> Of nine planetary boundaries used to define a ‘safe operating space for humanity’, fourhave already been exceeded: climate change, ***biodiversity loss***, land use change, and geochemical cycles. These breaches are directly linked to human-induced desertification, land degradation, and drought. If current trends persist, the risk of widespread, abrupt, or irreversible environmental changes will grow.
 
 > Tracking the health of nature over almost 50 years, the Living Planet Index acts as an early warning indicator by tracking trends in the abundance of mammals, fish, reptiles, birds and amphibians around the world. In its most comprehensive finding to date, this edition shows an average 69% decline in the relative abundance of monitored wildlife populations around the world between 1970 and 2018.
 
@@ -201,15 +215,15 @@ Land resources – soil, water, and biodiversity – provide the foundation for 
 
 > Land restoration is essential and urgently needed. It must be integrated with allied measures to meet future energy needs while drastically reducing greenhouse gasemissions; address food insecurity and water scarcity while shifting to more sustainable production and consumption; and accelerate a transition to a regenerative, circular economy that reduces waste and pollution.
 
-> Restoration is a proven and cost-effective solution to help reverse climate change and biodiversity loss caused by the rapid depletion of our finite natural capital stocks.
+> Restoration is a proven and cost-effective solution to help reverse climate change and ***biodiversity loss*** caused by the rapid depletion of our finite natural capital stocks.
 
 > Land restoration is broadly understood as a continuum of sustainable land and water management practices that can be applied to conserve or ‘rewild’ natural areas, ‘up-scale’ nature-positive food production in rural landscapes, and ‘green’ urban areas, infrastructure, and supply chains.
 
 > The land restoration agenda is a multiple benefits strategy that reverses past land and ecosystem degradation while creating opportunities that improve livelihoods and prepareus for future challenges. 
 
-> Land is the operative link between biodiversity loss and climate change, and therefore must be the primary focus of any meaningful intervention to tackle these intertwined crises. Restoring degraded land and soil provides the most fertile ground on which to take immediate and concerted action.
+> Land is the operative link between ***biodiversity loss*** and climate change, and therefore must be the primary focus of any meaningful intervention to tackle these intertwined crises. Restoring degraded land and soil provides the most fertile ground on which to take immediate and concerted action.
 
-> Land and ecosystem restoration will help slow global warming, reduce the risk, scale, frequency, and intensity of disasters (e.g., pandemics, drought, floods), and facilitate the recovery of critical biodiversity habitat and ecological connectivity to avoid extinctions and restore the unimpeded movement of species and the flow of natural processes that sustain life on Earth.
+> Land and ecosystem restoration will help slow global warming, reduce the risk, scale, frequency, and intensity of disasters (e.g., pandemics, drought, floods), and facilitate the recovery of critical ***biodiversity*** habitat and ecological connectivity to avoid extinctions and restore the unimpeded movement of species and the flow of natural processes that sustain life on Earth.
 
 > Restoration is needed in the right places and at the right scales to better manage interconnected global emergencies. Responsible governance and land use planning will be key to protecting healthy and productive land and recuperating biodiverse, carbon-rich ecosystems to avoid dangerous tipping points.
 
@@ -217,9 +231,9 @@ Land resources – soil, water, and biodiversity – provide the foundation for 
 
 > Making our food systems sustainable and resilient would be a significant contribution to the success of the global land, biodiversity, and climate agendas.
 
-> Globally, food systems are responsible for 80% of deforestation, 70% of freshwater use, and are the single greatest cause of terrestrial biodiversity loss. 
+> Globally, food systems are responsible for 80% of deforestation, 70% of freshwater use, and are the single greatest cause of terrestrial ***biodiversity loss***. 
 
-> At the same time, soil health and biodiversity below ground – the source of almost all our food calories – has been largely neglected by the industrial agricultural revolution of the last century.
+> At the same time, soil health and ***biodiversity*** below ground – the source of almost all our food calories – has been largely neglected by the industrial agricultural revolution of the last century.
 
 > Intensive monocultures and the destruction of forests and other ecosystems for food and commodity production generate the bulk of carbon emissions associated with land use change. Nitrous oxides from fertilizer use and methane emitted by ruminant livestock comprise the largest and most potent share of agricultural greenhouse gas emissions
 
@@ -231,18 +245,21 @@ Land resources – soil, water, and biodiversity – provide the foundation for 
 
 > Increased transparency and accountability are prerequisites for integrated land use planning and other administrative tools that can help deliver multiple benefits at various scales while managing competing demands.
 
-> Redirecting public spending towards regenerative land management solutions offers a significant opportunity to align private sector investment with longer-term societal goals– not only for food, fuel, and raw materials, but also for green and blue infrastructure for drought and flood mitigation, renewable energy provision, biodiversity conservation, and water and waste recycling.
+> Redirecting public spending towards regenerative land management solutions offers a significant opportunity to align private sector investment with longer-term societal goals– not only for food, fuel, and raw materials, but also for green and blue infrastructure for drought and flood mitigation, renewable energy provision, ***biodiversity*** conservation, and water and waste recycling.
 
 > Territorial and landscape approaches can leverage public and private financing for large-scale or multi-sector restoration initiatives by allowing diverse groups of stakeholders to establish partnerships that pool resources, aggregate project activities, and share costs. These collaborative approaches will make land restoration initiatives more effective and attractive to donors and investors.
 
 > The stark implications of the business-as-usual scenario means that decisive action at all levels and from all actors is needed to realize the promise of the restoration scenarios contained in this Outlook. 
 
-> What is clear and unequivocal is the need for coordinated measures to meaningfully slow or reverse climate change, land degradation, and biodiversity loss to safeguard human health and livelihoods, ensure food and water security, and leave a sustainable legacy for future generations.
+> What is clear and unequivocal is the need for coordinated measures to meaningfully slow or reverse climate change, land degradation, and ***biodiversity loss*** to safeguard human health and livelihoods, ensure food and water security, and leave a sustainable legacy for future generations.
 
 > Ambitious land restoration targets must be backed by clear action plans and sustained financing. Countries that are disproportionately responsible for the climate, biodiversity, and environmental crises must do more to support developing countries as they restoretheir land resources and make these activities central to building healthier and more resilient societies.
 
 > The UN Decade on Ecosystem Restoration is galvanizing indigenous peoples and local communities, governments, the private sector, and civil society as part of a global movement to undertake all types of restoration, across all scales, marshalling all possible resources. This powerful 10-year ambition aims to transform land and water management practices to meet the demands of the 21st century while eradicating poverty, hunger, and malnutrition.
 
+**Citation**
+
+United Nations Convention to Combat Desertification, 2022. The Global Land Outlook,second edition. UNCCD, Bonn.
 
 <br/>
 <br/>
@@ -258,7 +275,9 @@ Land resources – soil, water, and biodiversity – provide the foundation for 
 
 <div id="uneprestoration2022" class="cites">
 <div class="stick_image">
+<a href="https://app.box.com/s/pjn2bpvi7kxxvtm6v9bgjfj7r831kwoo" title="Click to view the report" target="_blank">
 <img class="report_img" src="https://images.andbiodiversity.info/report_uneprestoration2021.png" alt="UNEP Resotration 2021 report cover"/>
+</a>
 </div>
 <div class="quote">
 <blockquote>
@@ -296,6 +315,10 @@ restoration of natural cover over 230 million hectares.
 
 > The restoration of ecosystems at scale is no small task, and it will take a concerted effort to truly restore the planet. The UN Decade on Ecosystem Restoration aims to catalyse a global movement among local communities, activists, women, youth, indigenous groups, private companies, financial investors, researchers and governments at all levels.
 
+**Citation**
+
+United Nations Environment Programme (2021). Becoming #GenerationRestoration: Ecosystem restoration for people, nature and climate. Nairobi.
+
 <br/>
 <br/>
 <br/>
@@ -310,11 +333,13 @@ restoration of natural cover over 230 million hectares.
 
 <div id="ipbesipcc2021" class="cites">
 <div class="stick_image">
+<a href="https://app.box.com/s/xu7mw62ydrpqe8xcipdysn4goa5ys25l" title="Click to view the report" target="_blank">
 <img class="report_img" src="https://images.andbiodiversity.info/report_ipbesipcc2021.png" alt="IPBES-IPCC 2021 report cover"/>
+</a>
 </div>
 <div class="quote">
 <blockquote>
-Climate change and biodiversity loss are two of the most pressing issues of the Anthropocene. While there is recognition in both scientific and policy-making circles that the two are interconnected, in practice they are largely addressed in their own domains.
+Climate change and ***biodiversity loss*** are two of the most pressing issues of the Anthropocene. While there is recognition in both scientific and policy-making circles that the two are interconnected, in practice they are largely addressed in their own domains.
 </blockquote>
 </div>
 </div>
@@ -325,26 +350,26 @@ Climate change and biodiversity loss are two of the most pressing issues of the 
 
 > To be holistically effective, renewable energy development will benefit from consideration of a circular economy and, ultimately, biodiversity
 
-> The mutual reinforcing of climate change and biodiversity loss means that satisfactorily resolving either issue requires consideration of the other.
+> The mutual reinforcing of climate change and ***biodiversity loss*** means that satisfactorily resolving either issue requires consideration of the other.
 
-> These interactions can generate complex feedbacks between climate, biodiversity and humans that may produce more pronounced and less predictable outcomes. Ignoring
+> These interactions can generate complex feedbacks between climate, ***biodiversity*** and humans that may produce more pronounced and less predictable outcomes. Ignoring
 the inseparable nature of climate, biodiversity, and human quality of life will result in non-optimal solutions to either crisis.
 
-> Previous policies have largely tackled the problems of climate change and biodiversity loss independently. Policies that simultaneously address synergies between mitigating biodiversity loss and climate change, while also considering their societal impacts, offer the opportunity to maximize co-benefits and help meet development aspirations for all.
+> Previous policies have largely tackled the problems of climate change and ***biodiversity loss*** independently. Policies that simultaneously address synergies between mitigating ***biodiversity loss*** and climate change, while also considering their societal impacts, offer the opportunity to maximize co-benefits and help meet development aspirations for all.
 
 > Cross-cutting issues, intersectoral policies and regulatory frameworks are areas where strong synergies could contribute to the transformative societal change that is needed to achieve ambitious goals for biodiversity, climate mitigation and good quality of life.
 
-> In a world increasingly affected by climate change, maintaining biodiversity relies on enhanced and well-targeted conservation efforts, coordinated with and supported by strong adaptation and innovation efforts.
+> In a world increasingly affected by climate change, maintaining ***biodiversity*** relies on enhanced and well-targeted conservation efforts, coordinated with and supported by strong adaptation and innovation efforts.
 
 > A new conservation paradigm would address the simultaneous objectives of a habitable climate, self-sustaining biodiversity, and a good quality of life for all.
 
 > Nature-based solutions (NbS) can play an important role in climate mitigation, but the extent is debated, and they can only be effective with ambitious reductions in all human-caused greenhouse gas emissions. Nature-based solutions can be most effective when planned for longevity and not narrowly focussed on rapid carbon sequestration.
 
-> Avoiding and reversing the loss and degradation of carbon- and species-rich ecosystems on land and in the ocean is of highest importance for combined biodiversity protection and climate change mitigation actions with large adaptation co-benefits.
+> Avoiding and reversing the loss and degradation of carbon- and species-rich ecosystems on land and in the ocean is of highest importance for combined ***biodiversity*** protection and climate change mitigation actions with large adaptation co-benefits.
 
 > Sustainable agricultural and forestry practices can improve adaptive capacity, enhance biodiversity, increase carbon storage in farmland and forest soils and vegetation, and reduce greenhouse gas emissions.
 
-> The creation of green infrastructure in cities is increasingly being used for climate change adaptation and restoration of biodiversity with climate mitigation co-benefits.
+> The creation of green infrastructure in cities is increasingly being used for climate change adaptation and restoration of ***biodiversity*** with climate mitigation co-benefits.
 
 > In both land and marine systems, options exist to combine nature-based and technology-based measures for climate change mitigation and adaptation, while contributing to biodiversity.
 
@@ -352,35 +377,35 @@ the inseparable nature of climate, biodiversity, and human quality of life will 
 
 > Planting bioenergy crops (including trees, perennial grasses or annual crops) in monocultures over a very large share of total land area is detrimental to ecosystems, reduces supply of many other nature’s contributions to people and impedes achievement of numerous Sustainable Development Goals.
 
-> Afforestation, which involves planting trees in ecosystems that have not historically been forests, and reforestation with monocultures, especially with exotic tree species, can contribute to climate change mitigation but are often detrimental to biodiversity and do not have clear benefits for adaptation.
+> Afforestation, which involves planting trees in ecosystems that have not historically been forests, and reforestation with monocultures, especially with exotic tree species, can contribute to climate change mitigation but are often detrimental to ***biodiversity*** and do not have clear benefits for adaptation.
 
 > Technology-based measures that are effective for climate change mitigation can pose serious threats to biodiversity.
 
 > Measures intended to facilitate adaptation to one aspect of climate change without considering other aspects of sustainability may in practice be maladaptive and result in unforeseen detrimental outcomes.
 
-> Measures narrowly focusing on protection and restoration of biodiversity have generally important knock-on benefits for climate change mitigation, but those benefits may be sub-optimal compared to measures that account for both biodiversity and climate.
+> Measures narrowly focusing on protection and restoration of ***biodiversity*** have generally important knock-on benefits for climate change mitigation, but those benefits may be sub-optimal compared to measures that account for both ***biodiversity*** and climate.
 
-> Changes in per capita consumption, shift in diets, and progress towards sustainable exploitation of natural resources, including reduced post-harvest waste, could make substantial contributions to addressing the biodiversity crisis, climate change mitigation and adaptation.
+> Changes in per capita consumption, shift in diets, and progress towards sustainable exploitation of natural resources, including reduced post-harvest waste, could make substantial contributions to addressing the ***biodiversity*** crisis, climate change mitigation and adaptation.
 
-> Treating climate, biodiversity and human society as coupled systems is key to successful outcomes from policy interventions.
+> Treating climate, ***biodiversity*** and human society as coupled systems is key to successful outcomes from policy interventions.
 
 > The explicit consideration of the interactions between biodiversity, climate and society in policy decisions provides opportunities to maximize co-benefits and to minimize trade-offs and co-detrimental (mutually harmful) effects for people and nature.
 
 > When considering biodiversity-climate-society interactions, it is important to examine how the linkages between policy decisions and consequences unfold over time and how they act beyond the specific spatial context.
 
-> Assessing the range of viable solutions (‘solution space’) to achieve the intended climate mitigation, adaptation and biodiversity conservation outcomes, while positively contributing to people’s quality of life, requires recognition of differences in social-ecological contexts.
+> Assessing the range of viable solutions (‘solution space’) to achieve the intended climate mitigation, adaptation and ***biodiversity*** conservation outcomes, while positively contributing to people’s quality of life, requires recognition of differences in social-ecological contexts.
 
-> Transformative change in governance of socio-ecological systems can help create climate and biodiversity resilient development pathways.
+> Transformative change in governance of socio-ecological systems can help create climate and ***biodiversity*** resilient development pathways.
 
 > Existing governance systems often lack effective mechanisms to improve integration between climate and biodiversity, and between international and national to subnational scales.
 
-> Overall, mainstreaming of biodiversity into climate policy and vice versa, and of both into initiatives to advance human development and good quality of life, remains limited at many scales and in many sectors, although there are some promising initiatives emerging, such as jurisdictional approaches, experimental policy mixes, and rights-based approaches.
+> Overall, mainstreaming of ***biodiversity*** into climate policy and vice versa, and of both into initiatives to advance human development and good quality of life, remains limited at many scales and in many sectors, although there are some promising initiatives emerging, such as jurisdictional approaches, experimental policy mixes, and rights-based approaches.
 
-> A key outcome for successfully integrated governance of climate, biodiversity and good quality of life will be to help identify solutions for stewardship that deliver the highest co-benefits while avoiding trade-offs.
+> A key outcome for successfully integrated governance of climate, ***biodiversity*** and good quality of life will be to help identify solutions for stewardship that deliver the highest co-benefits while avoiding trade-offs.
 
 > Multi-actor and multi-scale governance are appropriate approaches to the management of multifunctional ‘scapes’ at different scales.
 
-> The imperative for rapid action on both climate change and biodiversity loss argues for governance models to move beyond state-based approaches to embrace more collaborative solutions.
+> The imperative for rapid action on both climate change and ***biodiversity loss*** argues for governance models to move beyond state-based approaches to embrace more collaborative solutions.
 
 > Transformative change can occur using leverage points in socio-ecological systems which alter future trajectories. Critical leverage points include exploring alternative visions of good quality of life, rethinking consumption and waste, shifting values related to the human-nature relationship, reducing inequalities, and promoting education and learning.
 
@@ -392,6 +417,9 @@ the inseparable nature of climate, biodiversity, and human quality of life will 
 
 > Transformative change elements identified can include effective incentives and capacity-building, improved cooperation across sectors and jurisdictions, anticipatory and pre-emptive actions, inclusive and adaptive decision-making, and strengthened environmental policy and implementation.
 
+**Citation**
+
+Pörtner, H.O., Scholes, R.J., Agard, J., Archer, E., Arneth, A., Bai, X., Barnes, D., Burrows, M., Chan, L., Cheung, W.L., Diamond, S., Donatti, C., Duarte, C., Eisenhauer, N., Foden, W., Gasalla, M. A., Handa, C., Hickler, T., Hoegh-Guldberg, O., Ichii, K., Jacob, U., Insarov, G., Kiessling, W., Leadley, P., Leemans, R., Levin, L., Lim, M., Maharaj, S., Managi, S., Marquet, P. A., McElwee, P., Midgley, G., Oberdorff, T., Obura, D., Osman, E., Pandit, R., Pascual, U., Pires, A. P. F., Popp, A., Reyes-García, V., Sankaran, M., Settele, J., Shin, Y. J., Sintayehu, D. W., Smith, P., Steiner, N., Strassburg, B., Sukumar, R., Trisos, C., Val, A.L., Wu, J., Aldrian, E., Parmesan, C., Pichs-Madruga, R., Roberts, D.C., Rogers, A.D., Díaz, S., Fischer, M., Hashimoto, S., Lavorel, S., Wu, N., Ngo, H.T. 2021. IPBES-IPCC co-sponsored workshop report on biodiversity and climate change; IPBES and IPCC, DOI:10.5281/zenodo.4782538 
 
 <br/>
 <br/>
@@ -408,7 +436,9 @@ the inseparable nature of climate, biodiversity, and human quality of life will 
 
 <div id="unepblueprint2021" class="cites">
 <div class="stick_image">
+<a href="https://app.box.com/s/uum0wukwv14efrpvaij9p4icejqk964k" title="Click to view the report" target="_blank">
 <img class="report_img" src="https://images.andbiodiversity.info/report_unepblueprint2021.png" alt="UNEP Blueprint report cover"/>
+</a>
 </div>
 <div class="quote">
 <blockquote>
@@ -427,25 +457,25 @@ Humanity’s environmental challenges have grown in number and severity ever sin
 
 > Over the last 50 years, the global economy has grown nearly fivefold, due largely to a tripling in extraction of natural resources and energy that has fuelled growth in production and consumption.
 
-> The increasingly unequal and resource-intensive model of development drives environmental decline through climate change, biodiversity loss and other forms of pollution and resource degradation.
+> The increasingly unequal and resource-intensive model of development drives environmental decline through climate change, ***biodiversity loss*** and other forms of pollution and resource degradation.
 
 > The international community has set targets, informed by science, in multi-lateral agreements for protecting natural assets and limiting harmful environmental change. Despite some progress, efforts to date have failed to meet any of the agreed targets.
 
 > Economic and financial systems fail to account for the essential benefits that humanity gets from nature and to provide incentives to manage nature wisely and maintain its value.
 
-> Climate change, loss of biodiversity, land degradation, and accumulating chemicals and waste reinforce each other and are caused by the same indirect drivers.
+> Climate change, ***loss of biodiversity***, land degradation, and accumulating chemicals and waste reinforce each other and are caused by the same indirect drivers.
 
-> As a result of the loss of biodiversity and ecosystem services, nature’s ability to support human health through regulation of air and water quality is in decline in many places, as well as its ability to provide opportunities for recreation and relaxation, which support physical and mental health and well-being. Biodiversity loss is also negatively affecting nature’s ability to supply medicines.
+> As a result of the ***loss of biodiversity*** and ecosystem services, nature’s ability to support human health through regulation of air and water quality is in decline in many places, as well as its ability to provide opportunities for recreation and relaxation, which support physical and mental health and well-being. ***biodiversity loss*** is also negatively affecting nature’s ability to supply medicines.
 
-> Global warming of more than 2°C combined with continued loss of biodiversity and increasing pollution will likely have dire consequences for humanity.
+> Global warming of more than 2°C combined with continued ***loss of biodiversity*** and increasing pollution will likely have dire consequences for humanity.
 
 > Decades of incremental efforts have not stemmed the environmental decline resulting from an expansive development model because vested and short-term interests often prevail.
 
 > Only system-wide transformation will enable humanity to achieve well-being for all within the Earth’s finite capacity to provide resources and absorb human waste. This transformation will involve a fundamental change in the technological, economic and social organization of society, including world views, norms, values and governance.
 
-> Given the interconnected nature of climate change, loss of biodiversity, land degradation, and air and water pollution, it is essential that these problems are tackled together. Response options that address multiple issues can mitigate multidimensional vulnerability, minimize trade-offs and maximize synergies.
+> Given the interconnected nature of climate change, ***loss of biodiversity***, land degradation, and air and water pollution, it is essential that these problems are tackled together. Response options that address multiple issues can mitigate multidimensional vulnerability, minimize trade-offs and maximize synergies.
 
-> The loss of biodiversity can only be halted and reversed by providing space dedicated for nature while also addressing drivers such as changing land and sea use, overexploitation, climate change, pollution and invasive alien species.
+> The ***loss of biodiversity*** can only be halted and reversed by providing space dedicated for nature while also addressing drivers such as changing land and sea use, overexploitation, climate change, pollution and invasive alien species.
 
 > The adverse effects of chemicals and waste on the environment and human health can be substantially reduced by implementing existing international chemicals conventions.
 Further progress will require strengthening the science-policy interface as the basis for evidence-based policymaking and improved management systems, along with legal and
@@ -464,6 +494,10 @@ to do the same. Yardsticks such as inclusive wealth (the sum of produced, natura
 
 > Individuals can facilitate transformation by, for instance, exercising their voting and civic rights, changing their diets and travel habits, avoiding waste of food and resources, and reducing their consumption of water and energy. They can also promote behavioural change by raising awareness in their communities. Human cooperation, innovation and knowledge-sharing will create new social and economic possibilities and opportunities in the transformation to a sustainable future.
 
+**Citation**
+
+United Nations Environment Programme (2021). Making Peace with Nature: A scientific blueprint to tackle the climate, biodiversity and pollution emergencies. Nairobi. https://www.unep.org/resources/making-peace-nature
+
 <br/>
 <br/>
 <br/>
@@ -478,11 +512,13 @@ to do the same. Yardsticks such as inclusive wealth (the sum of produced, natura
 
 <div id="dasguptareview2021" class="cites">
 <div class="stick_image">
+<a href="https://app.box.com/s/o3llo1y9awuyzkdq5p6q6xuozoblc41v" title="Click to view the report" target="_blank">
 <img class="report_img" src="https://images.andbiodiversity.info/report_dasgupta2021.png" alt="Dasgupta Review 2021 report cover"/>
+</a>
 </div>
 <div class="quote">
 <blockquote>
- But like education and health, Nature is more than a mere economic good. Nature nurtures and nourishes us, so we will think of assets as durable entities that not only have use value, but may also have intrinsic worth. Once we make that extension, the economics of biodiversity becomes a study in portfolio management.
+ But like education and health, Nature is more than a mere economic good. Nature nurtures and nourishes us, so we will think of assets as durable entities that not only have use value, but may also have intrinsic worth. Once we make that extension, the economics of ***biodiversity*** becomes a study in portfolio management.
 </blockquote>
 </div>
 </div>
@@ -511,7 +547,7 @@ to do the same. Yardsticks such as inclusive wealth (the sum of produced, natura
 
 > For unidirectional externalities, payments by beneficiaries to those holding property rights to ecosystems is an arrangement resembling market operations. Named ‘Payments for Ecosystem Services’ (PES), the underlying idea is simple enough.
 
-> Polycentric structures that are best placed to protect and promote biodiversity are thus layered institutions: global, regional, national, and community based. Each layer requires an authority at the apex to achieve coordination below and with other layers laterally.
+> Polycentric structures that are best placed to protect and promote ***biodiversity*** are thus layered institutions: global, regional, national, and community based. Each layer requires an authority at the apex to achieve coordination below and with other layers laterally.
 
 > Standard economic measures such as GDP can mislead. If the goal is to protect and promote well-being across the generations (i.e. social well-being), governments should measure inclusive wealth (a measure of societal means). Inclusive wealth is the sum of the accounting values of produced capital, human capital, and natural capital.
 
@@ -526,7 +562,7 @@ consider produced and human capital as primary factors of production, not explic
 
 > Finance plays a crucial role. A significant portion of the responsibility for helping us to shift course will fall on the global financial system. Governments, central banks, international financial institutions (such as Multilateral Development Banks) and private financial institutions all have a role to play in making the shift.
 
-> To leave Nature alone so that it is able to thrive is to invest in it. Governments have tools at their disposal to make that happen, even if through indirect means. They range from taxes, subsidies, regulations and prohibitions to Nature-specific mechanisms, such as payments for ecosystem services (Box 13) and biodiversity offsetting schemes.
+> To leave Nature alone so that it is able to thrive is to invest in it. Governments have tools at their disposal to make that happen, even if through indirect means. They range from taxes, subsidies, regulations and prohibitions to Nature-specific mechanisms, such as payments for ecosystem services (Box 13) and ***biodiversity*** offsetting schemes.
 
 > Far more global support is needed for initiatives directed at enhancing the understanding and awareness among financial institutions of Nature-related financial risks, learning and building on the advances on climate-related financial risks. Central banks and financial supervisors can support this by assessing the systemic extent of Nature-related financial risks. 
 
@@ -538,6 +574,9 @@ consider produced and human capital as primary factors of production, not explic
 
 > Establishing the natural world within educational policy would contribute to countering the shifting baseline, whereby we progressively redefine ourselves as inhabitants of an emptying world and believe that what we see is how it is and how it will continue to be.
 
+**Citation**
+
+Dasgupta, P. (2021), The Economics of Biodiversity: The Dasgupta Review. Abridged Version. (London: HM Treasury).
 
 <br/>
 <br/>
@@ -554,7 +593,9 @@ consider produced and human capital as primary factors of production, not explic
 
 <div id="wwf2020" class="cites">
 <div class="stick_image">
+<a href="https://app.box.com/s/3rllhruk7rmywsqkgkrmn8sirwd7vad5" title="Click to view the report" target="_blank">
 <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2020.png" alt="WWF 2020 report cover"/>
+</a>
 </div>
 <div class="quote">
 <blockquote>
@@ -574,30 +615,33 @@ The global Living Planet Index continues to decline. It shows an average 68% dec
 
 > That’s because in the last 50 years our world has been transformed by an explosion in global trade, consumption and human population growth, as well as an enormous move towards urbanisation. Until 1970, humanity’s Ecological Footprint was smaller than the Earth’s rate of regeneration. To feed and fuel our 21st century lifestyles, we are overusing the Earth’s biocapacity by at least 56%.
 
-> Tigers, pandas and polar bears are well-known species in the story of biodiversity decline, but what of the millions of tiny, or as-yet-undiscovered, species that are also under threat? What is happening to the life in our soils, or in plant and insect diversity? All of these provide fundamental support for life on Earth and are showing signs of stress.
+> Tigers, pandas and polar bears are well-known species in the story of ***biodiversity*** decline, but what of the millions of tiny, or as-yet-undiscovered, species that are also under threat? What is happening to the life in our soils, or in plant and insect diversity? All of these provide fundamental support for life on Earth and are showing signs of stress.
 
-> Biodiversity loss threatens food security and urgent action is needed to address the loss of the biodiversity that feeds the world. Where and how we produce food is one of the biggest human-caused threats to nature and our ecosystems, making the transformation of our global food system more important than ever.
+> ***biodiversity loss*** threatens food security and urgent action is needed to address the loss of the ***biodiversity*** that feeds the world. Where and how we produce food is one of the biggest human-caused threats to nature and our ecosystems, making the transformation of our global food system more important than ever.
 
 > The challenge is to transform agricultural and fishing practices, many of which are unsustainable today, into ones that produce the affordable and nourishing food we need while protecting and conserving biodiversity. For agriculture, this means using sustainable agroecological practices, reducing the use of chemicals, fertilisers and pesticides, and protecting our soils and pollinators.
 
-> The Status of the World’s Soil Resources 33 concluded that the loss of soil biodiversity is considered one of the major soil threats in many regions of the world. Some responses to bend the curve of biodiversity loss include sustainable use of soil genetic resources and improved soil management to safeguard soil biota as well as its multiple functions.
+> The Status of the World’s Soil Resources 33 concluded that the loss of soil ***biodiversity*** is considered one of the major soil threats in many regions of the world. Some responses to bend the curve of ***biodiversity loss*** include sustainable use of soil genetic resources and improved soil management to safeguard soil biota as well as its multiple functions.
 
 > Assessment of a sample of thousands of species representing the taxonomic and geographic breadth of global plant diversity showed that one in five (22%) are threatened with extinction, most of them in the tropics 50. Plant extinction risk is comparable to that of mammals and higher than for birds.
 
 > There is evidence of recent, rapid declines in insect abundance, diversity and biomass, but the picture is complex and most evidence comes from a few taxa and a few countries in the northern hemisphere.
 
->The transformation of our economic systems is also critical. Our economies are embedded within nature, and it is only by recognising and acting on this reality that we can protect and enhance biodiversity and improve our economic prosperity. 
+>The transformation of our economic systems is also critical. Our economies are embedded within nature, and it is only by recognising and acting on this reality that we can protect and enhance ***biodiversity*** and improve our economic prosperity. 
 
 > We can estimate the value of ‘natural capital’ – the planet’s stock of renewable and non-renewable natural resources, like plants, soils and minerals – alongside values of produced and human capital –for example, roads and skills – which together form a measure of a country’s true wealth. Data from the United Nations Environment Programme shows that, per person, our global stock of natural capital has declined by nearly 40% since the early 1990s, while produced capital has doubled and human capital has increased by 13%.
 
 > A key problem is the mismatch between the artificial ‘economic grammar’ which drives public and private policy and ‘nature’s syntax’ which determines how the real world operates.
 
-> Together this evidence shows that biodiversity conservation is more than an ethical commitment for humanity: it is a non-negotiable and strategic investment to preserve our health, wealth and security.
+> Together this evidence shows that ***biodiversity*** conservation is more than an ethical commitment for humanity: it is a non-negotiable and strategic investment to preserve our health, wealth and security.
 
-> Can we reverse these trends of decline? WWF co-founded a new research initiative – the Bending the Curve Initiative – that has developed pioneering modelling, providing a ‘proof of concept’ that we can halt, and reverse, terrestrial biodiversity loss from land-use change. And the models are all telling us the same thing: that we still have an opportunity to flatten, and reverse, the loss of nature if we take urgent and unprecedented conservation action and make transformational changes in the way we produce and consume food.
+> Can we reverse these trends of decline? WWF co-founded a new research initiative – the Bending the Curve Initiative – that has developed pioneering modelling, providing a ‘proof of concept’ that we can halt, and reverse, terrestrial ***biodiversity loss*** from land-use change. And the models are all telling us the same thing: that we still have an opportunity to flatten, and reverse, the loss of nature if we take urgent and unprecedented conservation action and make transformational changes in the way we produce and consume food.
 
 > Until now, decades of words and warnings have not changed modern human society’s business-as-usual trajectory. Yet in times of rapid upheaval and disruption new ideas, creativity, processes and opportunities for transformation can arise. The future is always uncertain but perhaps the COVID-19 pandemic will spur us on to embrace this unexpected opportunity and revolutionise how we take care of our home.
 
+**Citation**
+
+WWF (2020) Living Planet Report 2020 - Bending the curve of biodiversity loss. Almond, R.E.A., Grooten M. and Petersen, T. (Eds). WWF, Gland, Switzerland.
 
 <br/>
 <br/>
@@ -613,11 +657,13 @@ The global Living Planet Index continues to decline. It shows an average 68% dec
 
 <div id="ipbes2019" class="cites">
 <div class="stick_image">
+<a href="https://app.box.com/s/m7atrblz5f7vtzguc3gt4y0b6bm1enr4" title="Click to view the report" target="_blank">
 <img class="report_img" src="https://images.andbiodiversity.info/report_ipbes2019.png" alt="IPBES 2019 report cover"/>
+</a>
 </div>
 <div class="quote">
 <blockquote>
-Nature and its vital contributions to people, which together embody biodiversity and ecosystem functions and services, are deteriorating worldwide.
+Nature and its vital contributions to people, which together embody ***biodiversity*** and ecosystem functions and services, are deteriorating worldwide.
 </blockquote>
 </div>
 </div>
@@ -626,9 +672,9 @@ Nature and its vital contributions to people, which together embody biodiversity
 
 > Since 1970, trends in agricultural production, fish harvest, bioenergy production and harvest of materials have increased, but 14 of the 18 categories of contributions of nature that were assessed, mostly regulating and non-material contributions, have declined.
 
-> Nature across most of the globe has now been significantly altered by multiple human drivers, with the great majority of indicators of ecosystems and biodiversity showing rapid decline.
+> Nature across most of the globe has now been significantly altered by multiple human drivers, with the great majority of indicators of ecosystems and ***biodiversity*** showing rapid decline.
 
-> An average of around 25 per cent of species in assessed animal and plant groups are threatened, suggesting that around 1 million species already face extinction, many within decades, unless action is taken to reduce the intensity of drivers of biodiversity loss.
+> An average of around 25 per cent of species in assessed animal and plant groups are threatened, suggesting that around 1 million species already face extinction, many within decades, unless action is taken to reduce the intensity of drivers of ***biodiversity loss***.
 
 > 75% of terrestrial environment (66% of marine environment) "severely altered" to date by human actions.
 
@@ -666,13 +712,13 @@ change in the direct and indirect drivers differs among regions and countries.
 > Past and ongoing rapid declines in biodiversity, ecosystem functions and many of nature’s contributions to people mean that most international societal and environmental
 goals, such as those embodied in the Aichi Biodiversity Targets and the 2030 Agenda for Sustainable Development, will not be achieved based on current trajectories.
 
-> The negative trends in biodiversity and ecosystem functions are projected to continue or worsen in many future scenarios in response to indirect drivers such as rapid human population growth, unsustainable production and consumption and associated technological development.
+> The negative trends in ***biodiversity*** and ecosystem functions are projected to continue or worsen in many future scenarios in response to indirect drivers such as rapid human population growth, unsustainable production and consumption and associated technological development.
 
 > Except in scenarios that include transformative change, negative trends in nature, in ecosystem functions and in many of nature’s contributions to people are projected to continue to 2050 and beyond, due to the projected impacts of increasing land-/and sea-use change, exploitation of organisms and climate change.
 
 > Societal goals, including those related to food, water, energy, health and the achievement of human well-being for all, mitigating and adapting to climate change and conserving and sustainably using nature, can be achieved in sustainable pathways through the rapid and improved deployment of existing policy instruments and new initiatives that more effectively enlist individual and collective action for transformative change.
 
-> Since current structures often inhibit sustainable development and actually represent the indirect drivers of biodiversity loss, such fundamental, structural change is  called for. By its very nature, transformative change can expect opposition from those with interests vested in the status quo, but such opposition can be overcome for the broader public good.
+> Since current structures often inhibit sustainable development and actually represent the indirect drivers of ***biodiversity loss***, such fundamental, structural change is  called for. By its very nature, transformative change can expect opposition from those with interests vested in the status quo, but such opposition can be overcome for the broader public good.
 
 > If obstacles are overcome, a commitment to mutually supportive international goals and targets, supporting actions by indigenous peoples and local communities at the local level, new frameworks for private sector investment and innovation, inclusive and adaptive governance approaches and arrangements, multi-sectoral planning, and strategic policy mixes can help to transform the public and private sectors to achieve sustainability at the local, national and global levels.
 
@@ -680,11 +726,15 @@ goals, such as those embodied in the Aichi Biodiversity Targets and the 2030 Age
 
 > The character and trajectories of transformation will vary across contexts, with challenges and needs differing, among others, in developing and developed countries. Risks related to the inevitable uncertainties and complexities in transformations towards sustainability can be reduced through governance approaches that are integrative, inclusive, informed and adaptive.
 
-> Land-based climate change mitigation activities can be effective and support conservation goals. However, the large-scale deployment of bioenergy plantations and afforestation of non-forest ecosystems can come with negative side effects for biodiversity and ecosystem functions.
+> Land-based climate change mitigation activities can be effective and support conservation goals. However, the large-scale deployment of bioenergy plantations and afforestation of non-forest ecosystems can come with negative side effects for ***biodiversity*** and ecosystem functions.
 
 > Nature-based solutions can be cost-effective for meeting the Sustainable Development Goals in cities, which are crucial for global sustainability.
 
 > A key component of sustainable pathways is the evolution of global financial and economic systems to build a global sustainable economy, steering away from the current, limited paradigm of economic growth.
+
+**Citation**
+
+IPBES (2019): Summary for policymakers of the global assessment report on biodiversity and ecosystem services of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services. S. Díaz, J. Settele, E. S. Brondízio, H. T. Ngo, M. Guèze, J. Agard, A. Arneth, P. Balvanera, K. A. Brauman, S. H. M. Butchart, K. M. A. Chan, L. A. Garibaldi, K. Ichii, J. Liu, S. M. Subramanian, G. F. Midgley, P. Miloslavich, Z. Molnár, D. Obura, A. Pfaff, S. Polasky, A. Purvis, J. Razzaque, B. Reyers, R. Roy Chowdhury, Y. J. Shin, I. J. Visseren-Hamakers, K. J. Willis, and C. N. Zayas (eds.). IPBES secretariat, Bonn, Germany. 56 pages. https://doi.org/10.5281/zenodo.3553579 
 
 <br/>
 <br/>
@@ -700,7 +750,9 @@ goals, such as those embodied in the Aichi Biodiversity Targets and the 2030 Age
 
 <div id="mea2005" class="cites">
 <div class="stick_image">
+<a href="https://app.box.com/s/hldk1b4xqnr9hm95jx52f6pyawcjjgdj" title="Click to view the report" target="_blank">
 <img class="report_img" src="https://images.andbiodiversity.info/report_mea2005.png" alt="MEA 2005 report cover"/>
+</a>
 </div>
 <div class="quote">
 <blockquote>
@@ -709,11 +761,15 @@ Over the past 50 years, humans have changed ecosystems more rapidly and extensiv
 </div>
 </div>
 
+> The changes that have been made to ecosystems have contributed to substantial net gains in human well-being and economic development, but these gains have been achieved at growing costs in the form of the degradation of many ecosystem services, increased risks of nonlinear changes, and the exacerbation of poverty for some groups of people. These problems, unless addressed, will substantially diminish the benefits that future generations obtain from ecosystems.
+
+> The challenge of reversing the degradation of ecosystems while meeting increasing demands for their services can be partially met under some scenarios that the MA has considered, but these involve significant changes in policies, institutions, and practices that are not currently under way. 
+
 > Approximately 60% (15 out of 24) of the ecosystem services examined during the Millennium Ecosystem Assessment are being degraded or used unsustainably, including fresh water, capture fisheries, air and water purification, and the regulation of regional and local climate, natural hazards, and pests. 
 
 > There is established but incomplete evidence that changes being made in ecosystems are increasing the likelihood of nonlinear changes in ecosystems (including accelerating, abrupt, and potentially irreversible changes) that have important consequences for human well-being. 
 
-> Humans are fundamentally, and to a significant extent irreversibly, changing the diversity of life on Earth, and most of these changes represent a loss of biodiversity.
+> Humans are fundamentally, and to a significant extent irreversibly, changing the diversity of life on Earth, and most of these changes represent a ***loss of biodiversity***.
 
 > The harmful effects of the degradation of ecosystem services (the persistent decrease in the capacity of an ecosystem to deliver services) are being borne disproportionately by the poor, are contributing to growing inequities and disparities across groups of people, and are sometimes the principal factor causing poverty and social conflict.
 
@@ -727,6 +783,10 @@ Over the past 50 years, humans have changed ecosystems more rapidly and extensiv
 
 > More than two thirds of the area of 2 of the world’s 14 major terrestrial biomes and more than half of the area of 4 other biomes had been converted by 1990, primarily to agriculture.
 
+**Citation**
+
+Millennium Ecosystem Assessment, 2005. Ecosystems and Human Well-being: Synthesis.Island Press, Washington, DC.
+
 <br/>
 <br/>
 <br/>
@@ -735,9 +795,6 @@ Over the past 50 years, humans have changed ecosystems more rapidly and extensiv
 </div>
 </div>
 
-
-<br/>
-<br/>
 <br/>
 
 ---
@@ -756,7 +813,13 @@ Over the past 50 years, humans have changed ecosystems more rapidly and extensiv
 
 - #### Pörtner, H.O., Scholes, R.J., Agard, J., Archer, E., Arneth, A., Bai, X., Barnes, D., Burrows, M., Chan, L., Cheung, W.L., Diamond, S., Donatti, C., Duarte, C., Eisenhauer, N., Foden, W., Gasalla, M. A., Handa, C., Hickler, T., Hoegh-Guldberg, O., Ichii, K., Jacob, U., Insarov, G., Kiessling, W., Leadley, P., Leemans, R., Levin, L., Lim, M., Maharaj, S., Managi, S., Marquet, P. A., McElwee, P., Midgley, G., Oberdorff, T., Obura, D., Osman, E., Pandit, R., Pascual, U., Pires, A. P. F., Popp, A., Reyes-García, V., Sankaran, M., Settele, J., Shin, Y. J., Sintayehu, D. W., Smith, P., Steiner, N., Strassburg, B., Sukumar, R., Trisos, C., Val, A.L., Wu, J., Aldrian, E., Parmesan, C., Pichs-Madruga, R., Roberts, D.C., Rogers, A.D., Díaz, S., Fischer, M., Hashimoto, S., Lavorel, S., Wu, N., Ngo, H.T. 2021. IPBES-IPCC co-sponsored workshop report on biodiversity and climate change; IPBES and IPCC, DOI:10.5281/zenodo.4782538 
 
+- #### United Nations Convention to Combat Desertification, 2022. The Global Land Outlook,second edition. UNCCD, Bonn.
+
+- #### United Nations Environment Programme (2021). Becoming #GenerationRestoration: Ecosystem restoration for people, nature and climate. Nairobi.
+
 - #### United Nations Environment Programme (2021). Making Peace with Nature: A scientific blueprint to tackle the climate, biodiversity and pollution emergencies. Nairobi. https://www.unep.org/resources/making-peace-nature
+
+- #### United Nations Environment Programme (2022). State of Finance for Nature. Time to act:Doubling investment by 2025 and eliminating nature-negative finance flows. Nairobi. https://wedocs.unep.org/20.500.11822/41333
 
 - #### WWF (2020) Living Planet Report 2020 - Bending the curve of biodiversity loss. Almond, R.E.A., Grooten M. and Petersen, T. (Eds). WWF, Gland, Switzerland.
 
