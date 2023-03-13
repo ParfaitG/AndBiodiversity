@@ -17,8 +17,9 @@ meta(
 ) |> meta_social(
   url = "https://andbiodiversity.info",
   title = "And Biodiversity",
-  image = "https://images.andbiodiversity.info/favicon192x192.png",
-  image_alt = "The letter b in gold coloring",
+  image = "https://images.andbiodiversity.info/biodiversity_word_cloud.jpg",
+  image_alt = "Biodiversity word cloud",
+  og_locale = "en_US",
   og_type = "website",
   og_site_name = "And Biodiversity"
 )
