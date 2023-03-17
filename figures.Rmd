@@ -229,4 +229,29 @@ I love no leafless land.
   A.E. Housman<br/>
   </div>
 </div>
+
+<div class="footer_box">
+  <div class="footer_column" id="footer_label">
+  <a href="index.html"><img src="https://images.andbiodiversity.info/favicon16x16.png" alt="favicon"/></a>
+  <a href="index.html"> | And Biodiversity</a>
+  </div>
+  <div class="footer_column">
+...Then the chant<br/>
+Of birds, and chime of brooks, and soft caress<br/>
+Of the fresh sylvan air, made me forget<br/>
+The thoughts that broke my peace, and I began<br/>
+To gather simples by the fountain’s brink,
+  </div>
+  <div class="footer_column">
+And lose myself in day-dreams. While I stood<br/>
+In Nature’s loneliness, I was with one<br/>
+With whom I early grew familiar, one<br/>
+Who never had a frown for me, whose voice<br/>
+Never rebuked me for the hours I stole...
+  </div>
+  <div class="footer_column">
+-"<a href="https://www.poetryfoundation.org/poems/55338/a-winter-piece" target="_blank">A Winter Piece</a>"<br/>
+  William Cullen Bryant<br/>
+  </div>
+</div>
 :::
