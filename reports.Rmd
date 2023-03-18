@@ -107,70 +107,6 @@ $(document).ready(function(){
 
 ### 2022
 
-- #### <a href="####" data-toggle="collapse" data-target="#unep2022">UNEP: State of Finance for Nature 2022</a> 
-
-  <div id="unep2022" class="collapse">  
-
-  <a href="https://www.unep.org/resources/report/state-finance-nature-2022" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_unep2022.png" alt="UNEP 2022 report cover"/>
-  </a>
-
-  #### With sufficient finance, nature-based solutions (NbS) provide the means to cost-effectively reach climate, ***biodiversity*** and land degradation neutrality targets, particularly if investments simultaneously contribute to ***biodiversity***, climate and restoration targets. This "double" or "triple" win potential is particularly alluring given the current economic situation...Delayed action is no longer an option in the face of the devastating effects of climate change, the extinction crisis and severe land degradation globally. Politicians, business and finance leaders and citizens globally must transform their relationship with nature to work with it rather than against it...Private sector investment in NbS must increase by several orders of magnitude in the coming years...Nature-negative expenditures far outweigh investments in nature-based solutions...It is critical to rapidly align policies, regulation, economic activity and financial flows with ***biodiversity*** values and with the Paris Agreement. [***See* report**](https://www.unep.org/resources/report/state-finance-nature-2022){target="_blank"}. [***Download* report**](https://app.box.com/s/9qqzash0tsmu7ko9aqdkxa65ekq2dbdh){target="_blank"}.
-  
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_unep_finance.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#unep_sport_2022">UNEP: Sports for Nature</a> 
-
-  <div id="unep_sport_2022" class="collapse">  
-
-  <a href="https://www.unep.org/resources/publication/sports-nature-setting-baseline-handbook" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_unep_sport_2022.png" alt="UNEP Sport 2022 report cover"/>
-  </a>
-
-  #### Our planet is out of breath as a result of our unsustainable consumption and production patterns – fueling the fires of ***biodiversity loss***, pollution and climate change. Urgent action to conserve and restore the environment is needed, providing a healthier climate for people and planet. Outdoor sport connects us with the health of our bodies as well as that of our natural world– from the air we breathe, to the climate we train in; from the landscape we move through, to the quality of food we use to fuel our bodies. Sport is both deeply dependent and connected to nature – and thus it brings us together by reminding us that everyone has a role to play in contributing to a playing field that is in harmony with nature. [***See* report**](https://www.unep.org/resources/publication/sports-nature-setting-baseline-handbook){target="_blank"}. [***Download* report**](https://app.box.com/s/0loh4xz7twvp06zeqaznaqh3dk408395){target="_blank"}.  
-  
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_unep_sport.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#wwf2022">World Wildlife Fund: Living Planet Report</a> 
-
-  <div id="wwf2022" class="collapse">  
-  
-  <a href="https://livingplanet.panda.org/en-us/" target="_blank">
-     <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2022.png" alt="WWF 2022 report cover"/>
-  </a>
-  
-  #### Today we face the double, interlinked emergencies of human-induced climate change and the ***loss of biodiversity***, threatening the well-being of current and future generations. As our future is critically dependent on ***biodiversity*** and a stable climate, it is essential that we understand how nature’s decline and climate change are connected...Land-use change is still the biggest current threat to nature, destroying or fragmenting the natural habitats of many plant and animal species on land, in freshwater and in the sea. However, if we are unable to limit warming to 1.5°C, climate change is likely to become the dominant cause of ***biodiversity loss*** in the coming decades. [***See* report**](https://livingplanet.panda.org/en-us/){target="_blank"}. [***Download* report**](https://app.box.com/s/se8qtu19i75drevj6wzuth7ex6rn1f5c){target="_blank"}.
-  
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_wwf.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-
-  </div>
-  
-- #### <a href="###" data-toggle="collapse" data-target="#iucn2022">IUCN: Restoration Barometer</a> 
-
-  <div id="iucn2022" class="collapse">  
-
-  <a href="https://www.iucn.org/resources/annual-reports/restoration-barometer-2022-report" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_iucn2022.png" alt="IUCN 2022 report cover"/>
-  </a>
-
-  #### The creation of a nature-positive world by 2030, which benefits planet and people, is not possible without the widespread restoration of ecosystems. Healthy ecosystems not only maintain ecological integrity and support ***biodiversity***, but also protect human health, provide clean air, water and food, help combat poverty and act as natural defences again extreme weather. There is no choice but to incorporate ecosystem restoration into national and international targets and to ensure its rapid, and sustained, implementation. But, to generate and maintain the high levels of ambition required to achieve targets, it is vital that people know what, how and where actions are being implemented. While setting targets is the first step in the restoration journey, restoration cannot be an overnight success: to ensure restoration efforts last over time requires sufficient preparatory planning, capacity building and long-term commitment from numerous actors. [***See* report**](https://www.iucn.org/resources/annual-reports/restoration-barometer-2022-report){target="_blank"}.  [***Download* report**](https://app.box.com/s/2cuw2mvzc0aypbaw01hlsh5jjyzdlsfs){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_iucn.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-      
-  </div>
-  
 - #### <a href="####" data-toggle="collapse" data-target="#bli2022">BLI: State of the World’s Birds 2022</a> 
 
   <div id="bli2022" class="collapse">  
@@ -182,70 +118,6 @@ $(document).ready(function(){
   #### Being widely distributed, relatively easy to survey, and responsive to environmental change, birds are useful ***biodiversity*** indicators, revealing wider trends in natural ecosystems...One in eight bird species is threatened with extinction, and the status of the world’s birds continues to deteriorate: species are moving ever faster towards extinction. For those not yet considered threatened, the majority are in decline and have much-depleted populations. The pressures causing these losses of our natural heritage are well understood, and the vast majority are driven by human actions. The principal threats include: agricultural expansion and intensification, unsustainable logging, invasive alien species, overexploitation and climate change...Most species are impacted by combinations of these threats, and some threats exacerbate others. [***See* report**](https://www.birdlife.org/papers-reports/state-of-the-worlds-birds-2022/){target="_blank"}. [***Download* report**](https://app.box.com/s/6brx9j6yo4xlzxc6uc87pgy7oqehhu0v){target="_blank"}.
 
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_bli.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#unccd2022">UNCCD: Global Land Outlook 2</a> 
-
-  <div id="unccd2022" class="collapse">  
-
-  <a href="https://unccd.int/resources/global-land-outlook/glo2" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_unccd2022.png" alt="UNCCD 2022 report cover"/>
-  </a>
-  
-  #### Land resources – soil, water, and ***biodiversity*** – provide the foundation for the wealth of our societies and economies. They meet the growing needs and desires for food, water, fuel, and other raw materials that shape our livelihoods and lifestyles. However, the way we currently manage and use these natural resources is threatening the health and continued survival of many species on Earth, including our own. [***See* report**](https://unccd.int/resources/global-land-outlook/glo2){target="_blank"}. [***Download* report**]( https://app.box.com/s/3qvvry3v5wcwqa43xtiyrvmdzqs5rubc){target="_blank"}.
-  
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_unccd.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#ipbesvalues2022">IPBES: Assessment Report on Diverse Values and Valuation of Nature</a> 
-
-  <div id="ipbesvalues2022" class="collapse">  
-  
-  <a href="https://ipbes.net/media_release/Values_Assessment_Published" target="_blank">
-     <img class="report_img" src="https://images.andbiodiversity.info/report_ipbesvalues2022.png" alt="IPBES Values 2022 report cover"/>
-  </a>
-  
-  #### The way nature is valued in political and economic decisions is both a key driver of the global ***biodiversity crisis*** and a vital opportunity to address it...Economic and political decisions have predominantly prioritised certain values of nature, particularly market-based instrumental values of nature, such as those associated with food produced intensively. Although often privileged in policymaking, these market values do not adequately reflect how changes in nature affect people’s quality of life. Furthermore, policymaking overlooks the many non-market values associated with nature’s contributions to people, such as climate regulation and cultural identity. [***See* report**](https://ipbes.net/media_release/Values_Assessment_Published){target="_blank"}. [***Download* report**](https://app.box.com/s/26a5aqrl2nj692j90l6114z7qspb3yay){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_ipbes_values.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-
-- #### <a href="####" data-toggle="collapse" data-target="#faofish2022">FAO: The State of World Fisheries and Aquaculture</a> 
-
-  <div id="faofish2022" class="collapse">  
-  
-  <a href="https://www.fao.org/publications/sofia/2022/en/" target="_blank">
-     <img class="report_img" src="https://images.andbiodiversity.info/report_faofish2022.png" alt="FAO fisheries 2022 report cover"/>
-  </a>
-  
-  #### Fishery resources continue to decline due to overfishing, pollution, poor management and other factors, but the number of landings from biologically sustainable stocks is on the rise...Effective fisheries management has been proven to successfully rebuild stocks and increase catches within ecosystem boundaries. Improving global fisheries management remains crucial to restore ecosystems to a healthy and productive state and protect the long-term supply of aquatic foods...Aquatic animal production is forecast to grow another 14 percent by 2030. It is vital this growth goes hand in hand with safeguarding ecosystems, reducing pollution, protecting ***biodiversity*** and ensuring social equity. [***See* report**](https://www.fao.org/publications/sofia/2022/en/){target="_blank"}. [***Download* report**](https://app.box.com/s/twlka404ymx7cjm87rf8w1yzeb3dh4k5){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_fao_forests.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#ipbeswild2022">IPBES: Assessment Report on the Sustainable Use of Wild Species</a> 
-
-  <div id="ipbeswild2022" class="collapse">  
-  
-  <a href="https://ipbes.net/sustainable-use-assessment" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_ipbeswild2022.png" alt="IPBES Wild Species 2022 report cover"/>
-  </a>
-  
-  #### The use of wild species is widespread and occurs across almost all aquatic and terrestrial ecosystems, in subsistence to global economies, and is embedded in local and global systems, including for food, medicine, hygiene, energy and many other uses. Addressing the causes of unsustainable use and promoting and ensuring the sustainable use of wild species are critical for people and to address ***biodiversity decline***...The sustainable use of wild species will benefit from a transformative change in the prevailing conceptualization of nature, shifting from the human-nature dualism deeply rooted in many (but not all) cultures, to a more systemic view that humanity is part of nature. [***See* report**](https://ipbes.net/sustainable-use-assessment){target="_blank"}. [***Download* report**](https://app.box.com/s/ueuaxytgc7e7nwgl5i4ersetusqs3bi8){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_ipbes_wild_species.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -267,6 +139,54 @@ $(document).ready(function(){
   
   </div>
   
+- #### <a href="####" data-toggle="collapse" data-target="#faofish2022">FAO: The State of World Fisheries and Aquaculture</a> 
+
+  <div id="faofish2022" class="collapse">  
+  
+  <a href="https://www.fao.org/publications/sofia/2022/en/" target="_blank">
+     <img class="report_img" src="https://images.andbiodiversity.info/report_faofish2022.png" alt="FAO fisheries 2022 report cover"/>
+  </a>
+  
+  #### Fishery resources continue to decline due to overfishing, pollution, poor management and other factors, but the number of landings from biologically sustainable stocks is on the rise...Effective fisheries management has been proven to successfully rebuild stocks and increase catches within ecosystem boundaries. Improving global fisheries management remains crucial to restore ecosystems to a healthy and productive state and protect the long-term supply of aquatic foods...Aquatic animal production is forecast to grow another 14 percent by 2030. It is vital this growth goes hand in hand with safeguarding ecosystems, reducing pollution, protecting ***biodiversity*** and ensuring social equity. [***See* report**](https://www.fao.org/publications/sofia/2022/en/){target="_blank"}. [***Download* report**](https://app.box.com/s/twlka404ymx7cjm87rf8w1yzeb3dh4k5){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_fao_forests.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#ipbesvalues2022">IPBES: Assessment Report on Diverse Values and Valuation of Nature</a> 
+
+  <div id="ipbesvalues2022" class="collapse">  
+  
+  <a href="https://ipbes.net/media_release/Values_Assessment_Published" target="_blank">
+     <img class="report_img" src="https://images.andbiodiversity.info/report_ipbesvalues2022.png" alt="IPBES Values 2022 report cover"/>
+  </a>
+  
+  #### The way nature is valued in political and economic decisions is both a key driver of the global ***biodiversity crisis*** and a vital opportunity to address it...Economic and political decisions have predominantly prioritised certain values of nature, particularly market-based instrumental values of nature, such as those associated with food produced intensively. Although often privileged in policymaking, these market values do not adequately reflect how changes in nature affect people’s quality of life. Furthermore, policymaking overlooks the many non-market values associated with nature’s contributions to people, such as climate regulation and cultural identity. [***See* report**](https://ipbes.net/media_release/Values_Assessment_Published){target="_blank"}. [***Download* report**](https://app.box.com/s/26a5aqrl2nj692j90l6114z7qspb3yay){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_ipbes_values.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#ipbeswild2022">IPBES: Assessment Report on the Sustainable Use of Wild Species</a> 
+
+  <div id="ipbeswild2022" class="collapse">  
+  
+  <a href="https://ipbes.net/sustainable-use-assessment" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_ipbeswild2022.png" alt="IPBES Wild Species 2022 report cover"/>
+  </a>
+  
+  #### The use of wild species is widespread and occurs across almost all aquatic and terrestrial ecosystems, in subsistence to global economies, and is embedded in local and global systems, including for food, medicine, hygiene, energy and many other uses. Addressing the causes of unsustainable use and promoting and ensuring the sustainable use of wild species are critical for people and to address ***biodiversity decline***...The sustainable use of wild species will benefit from a transformative change in the prevailing conceptualization of nature, shifting from the human-nature dualism deeply rooted in many (but not all) cultures, to a more systemic view that humanity is part of nature. [***See* report**](https://ipbes.net/sustainable-use-assessment){target="_blank"}. [***Download* report**](https://app.box.com/s/ueuaxytgc7e7nwgl5i4ersetusqs3bi8){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_ipbes_wild_species.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
 - #### <a href="####" data-toggle="collapse" data-target="#ipcc6ar2">IPCC: Sixth Assessment Part 2: Climate Change - Impacts, Adaptation and Vulnerability</a> 
 
   <div id="ipcc6ar2" class="collapse">  
@@ -282,7 +202,23 @@ $(document).ready(function(){
   <br/>
   
   </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#iucn2022">IUCN: Restoration Barometer</a> 
 
+  <div id="iucn2022" class="collapse">  
+
+  <a href="https://www.iucn.org/resources/annual-reports/restoration-barometer-2022-report" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_iucn2022.png" alt="IUCN 2022 report cover"/>
+  </a>
+
+  #### The creation of a nature-positive world by 2030, which benefits planet and people, is not possible without the widespread restoration of ecosystems. Healthy ecosystems not only maintain ecological integrity and support ***biodiversity***, but also protect human health, provide clean air, water and food, help combat poverty and act as natural defences again extreme weather. There is no choice but to incorporate ecosystem restoration into national and international targets and to ensure its rapid, and sustained, implementation. But, to generate and maintain the high levels of ambition required to achieve targets, it is vital that people know what, how and where actions are being implemented. While setting targets is the first step in the restoration journey, restoration cannot be an overnight success: to ensure restoration efforts last over time requires sufficient preparatory planning, capacity building and long-term commitment from numerous actors. [***See* report**](https://www.iucn.org/resources/annual-reports/restoration-barometer-2022-report){target="_blank"}.  [***Download* report**](https://app.box.com/s/2cuw2mvzc0aypbaw01hlsh5jjyzdlsfs){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_iucn.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+      
+  </div>
+  
 - #### <a href="####" data-toggle="collapse" data-target="#sei2022">Stockholm Environment Institute: A Comprehensive Approach to Nitrogen in the UK</a> 
 
   <div id="sei2022" class="collapse">  
@@ -299,12 +235,220 @@ $(document).ready(function(){
   
   </div>
   
+- #### <a href="####" data-toggle="collapse" data-target="#unccd2022">UNCCD: Global Land Outlook 2</a> 
+
+  <div id="unccd2022" class="collapse">  
+
+  <a href="https://unccd.int/resources/global-land-outlook/glo2" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unccd2022.png" alt="UNCCD 2022 report cover"/>
+  </a>
+  
+  #### Land resources – soil, water, and ***biodiversity*** – provide the foundation for the wealth of our societies and economies. They meet the growing needs and desires for food, water, fuel, and other raw materials that shape our livelihoods and lifestyles. However, the way we currently manage and use these natural resources is threatening the health and continued survival of many species on Earth, including our own. [***See* report**](https://unccd.int/resources/global-land-outlook/glo2){target="_blank"}. [***Download* report**]( https://app.box.com/s/3qvvry3v5wcwqa43xtiyrvmdzqs5rubc){target="_blank"}.
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_unccd.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#unep_sport_2022">UNEP: Sports for Nature</a> 
+
+  <div id="unep_sport_2022" class="collapse">  
+
+  <a href="https://www.unep.org/resources/publication/sports-nature-setting-baseline-handbook" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unep_sport_2022.png" alt="UNEP Sport 2022 report cover"/>
+  </a>
+
+  #### Our planet is out of breath as a result of our unsustainable consumption and production patterns – fueling the fires of ***biodiversity loss***, pollution and climate change. Urgent action to conserve and restore the environment is needed, providing a healthier climate for people and planet. Outdoor sport connects us with the health of our bodies as well as that of our natural world– from the air we breathe, to the climate we train in; from the landscape we move through, to the quality of food we use to fuel our bodies. Sport is both deeply dependent and connected to nature – and thus it brings us together by reminding us that everyone has a role to play in contributing to a playing field that is in harmony with nature. [***See* report**](https://www.unep.org/resources/publication/sports-nature-setting-baseline-handbook){target="_blank"}. [***Download* report**](https://app.box.com/s/0loh4xz7twvp06zeqaznaqh3dk408395){target="_blank"}.  
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_unep_sport.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#unep2022">UNEP: State of Finance for Nature 2022</a> 
+
+  <div id="unep2022" class="collapse">  
+
+  <a href="https://www.unep.org/resources/report/state-finance-nature-2022" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unep2022.png" alt="UNEP 2022 report cover"/>
+  </a>
+
+  #### With sufficient finance, nature-based solutions (NbS) provide the means to cost-effectively reach climate, ***biodiversity*** and land degradation neutrality targets, particularly if investments simultaneously contribute to ***biodiversity***, climate and restoration targets. This "double" or "triple" win potential is particularly alluring given the current economic situation...Delayed action is no longer an option in the face of the devastating effects of climate change, the extinction crisis and severe land degradation globally. Politicians, business and finance leaders and citizens globally must transform their relationship with nature to work with it rather than against it...Private sector investment in NbS must increase by several orders of magnitude in the coming years...Nature-negative expenditures far outweigh investments in nature-based solutions...It is critical to rapidly align policies, regulation, economic activity and financial flows with ***biodiversity*** values and with the Paris Agreement. [***See* report**](https://www.unep.org/resources/report/state-finance-nature-2022){target="_blank"}. [***Download* report**](https://app.box.com/s/9qqzash0tsmu7ko9aqdkxa65ekq2dbdh){target="_blank"}.
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_unep_finance.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#wwf2022">World Wildlife Fund: Living Planet Report</a> 
+
+  <div id="wwf2022" class="collapse">  
+  
+  <a href="https://livingplanet.panda.org/en-us/" target="_blank">
+     <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2022.png" alt="WWF 2022 report cover"/>
+  </a>
+  
+  #### Today we face the double, interlinked emergencies of human-induced climate change and the ***loss of biodiversity***, threatening the well-being of current and future generations. As our future is critically dependent on ***biodiversity*** and a stable climate, it is essential that we understand how nature’s decline and climate change are connected...Land-use change is still the biggest current threat to nature, destroying or fragmenting the natural habitats of many plant and animal species on land, in freshwater and in the sea. However, if we are unable to limit warming to 1.5°C, climate change is likely to become the dominant cause of ***biodiversity loss*** in the coming decades. [***See* report**](https://livingplanet.panda.org/en-us/){target="_blank"}. [***Download* report**](https://app.box.com/s/se8qtu19i75drevj6wzuth7ex6rn1f5c){target="_blank"}.
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2022_wwf.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+
+  </div>
 
 <br/>
 <br/>
 
 ### 2021
 
+- #### <a href="####" data-toggle="collapse" data-target="#bgci2022">BGCI: The State of Trees Report</a> 
+
+  <div id="bgci2022" class="collapse">  
+
+  <a href="https://www.bgci.org/news-events/bgci-launches-the-state-of-the-worlds-trees-report/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_bgci2021.png" alt="BGCI 2021 report cover"/>
+  </a>
+
+  #### Trees are also highly signiﬁcant components of ***biodiversity*** and carbon storage in many other ecosystems such as woodlands, grasslands, as well as artiﬁcial and urban environments. The interlinked ***biodiversity crisis*** and challenge of global climate change cannot be addressed without informed management of tree species...We now know that 30% of tree species are threatened with extinction, and at least 142 tree species are recorded as extinct in the wild. The main threats to tree species are forest clearance and other forms of habitat loss, direct exploitation for timber and other products and the spread of invasive pests and diseases. Climate change is also having a clearly measurable impact. [***See* report**](https://www.bgci.org/news-events/bgci-launches-the-state-of-the-worlds-trees-report/){target="_blank"}. [***Download* report**](https://app.box.com/s/5y4w7rkzqvg9qx5vfndgkjfctoucc8dr){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_bgci.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#ipbesipcc2021">IPBES and IPCC Co-Sponsored Workshop Report</a> 
+
+  <div id="ipbesipcc2021" class="collapse">  
+  
+  <a href="https://ipbes.net/events/ipbes-ipcc-co-sponsored-workshop-biodiversity-and-climate-change" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_ipbesipcc2021.png" alt="IPBES-IPCC 2021 report cover"/>
+  </a>
+  
+
+  #### Climate change and ***biodiversity loss*** are closely interconnected and share common drivers through human activities. Both have predominantly negative impacts on human well-being and quality of life...Ignoring the inseparable nature of climate, ***biodiversity***, and human quality of life will result in non-optimal solutions to either crisis...Cross-cutting issues, intersectoral policies and regulatory frameworks are areas where strong synergies could contribute to the transformative societal change that is needed to achieve ambitious goals for ***biodiversity***, climate mitigation and good quality of life...but achieving this transformative change depends on rapid and far-reaching actions of a kind and scale never before attempted. [***See* report**](https://ipbes.net/events/ipbes-ipcc-co-sponsored-workshop-biodiversity-and-climate-change){target="_blank"} and [***see* quotes**](quotes.html). [***Download* report**](https://app.box.com/s/xu7mw62ydrpqe8xcipdysn4goa5ys25l){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_ipbes_ipcc.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
+
+- #### <a href="####" data-toggle="collapse" data-target="#ipcc6ar1">IPCC: Sixth Assessment Part 1: Climate Change - The Physical Science Basis</a> 
+
+  <div id="ipcc6ar1" class="collapse">  
+  
+  <a href="https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_ipcc6ar1_2021.png" alt="IPCC Sixth Assessment Part 1 report cover"/>
+  </a>
+
+  #### It is unequivocal that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere and ***biosphere*** have occurred. Observed increases in well-mixed greenhouse gas (GHG) concentrations since around 1750 are unequivocally caused by human activities. Since 2011 (measurements reported in AR5), concentrations have continued to increase in the atmosphere, reaching annual averages of 410 parts per million (ppm) for carbon dioxide (CO2), 1866 parts per billion (ppb) for methane (CH4), and 332 ppb for nitrous oxide (N2O) in 2019. Land and ocean have taken up a near-constant proportion (globally about 56% per year) of CO2 emissions from human activities over the past six decades, with regional differences. [***See* report**](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/){target="_blank"}. [***Download* report**](https://app.box.com/s/8szo6zfy9euwicphu5pi8yb91f2h9mju){target="_blank"}.
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_ipcc_ar6_p1.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#iucn2021">IUCN Red List Quadrennial Report 2017–2020</a> 
+
+  <div id="iucn2021" class="collapse">  
+
+  <a href="https://www.iucnredlist.org/resources/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_iucn2021.png" alt="IUCN 2021 report cover"/>
+  </a>
+
+  #### The IUCN Red List is the acknowledged authority on species extinction risk and an authoritative compendium of information on the global conservation status of species. The IUCN Red List tracks and measures the status and trends in wild species across the globe. Assessments of all major species groups such as plants, fungi, invertebrates, reptiles, and fish, continue to expand in number and scope. The IUCN Red List of Threatened Species expanded its coverage of the world’s ***biodiversity*** by 51% between 2017 and 2020. The IUCN Red List includes 128,918 species of which 35,765 (28%) are threatened with extinction. Certain groups are known to be considerably threatened, such as amphibians (41%), sharks (31%) and corals (33%) with increased extinction risks observed since 1990. [***See* report**](https://www.iucnredlist.org/resources/){target="_blank"}. [***Download* report**](https://app.box.com/s/ec1xsuxw9lderqnp3nt2xq9ff9msvcc4){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_iucn.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#iucn_restoration2021">IUCN: Using ecosystem risk assessment science for ecosystem restoration</a> 
+
+  <div id="iucn_restoration2021" class="collapse">  
+
+  <a href="https://www.iucn.org/resources/publication/using-ecosystem-risk-assessment-science-ecosystem-restoration" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_iucnrestoration2021.png" alt="IUCN Restoration 2021 report cover"/>
+  </a>
+
+  #### Ecosystems form a core component of ***biodiversity***. They provide humans with multiple benefits – a stable climate and breathable air; water, food and materials; and protection from disaster and disease. Ecosystem restoration, as defined by the UN Decade on Ecosystem Restoration, includes a range of management interventions that aim to reduce impacts on and assist in the recovery of ecosystems that have been damaged, degraded or destroyed. However, restoration projects and programmes are often implemented without strategic evaluation of the degree of urgency for restoration among ecosystem types. As we expand our ambitions for restoration over the coming decade, and move to the restoration of entire ecosystems, landscapes and seascapes, the complexity of the questions we need to answer increases accordingly. This guide was developed to promote the application of the science of ecosystem risk assessment, which involves measuring the risk of ecosystem collapse, in ecosystem restoration. It explores how the IUCN Red List of Ecosystems and ecosystem restoration can be jointly deployed to reduce risk of ecosystem collapse. [***See* report**](https://www.iucn.org/resources/publication/using-ecosystem-risk-assessment-science-ecosystem-restoration){target="_blank"}. [***Download* report**](https://app.box.com/s/ipdhydk93skx5v63cdwdxuwcgfpyx4ty){target="_blank"}.
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_iucn_restoration.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#protected_planet2021">Protected Planet Report 2020</a> 
+
+  <div id="protected_planet2021" class="collapse">  
+
+  <a href="https://www.unep.org/resources/protected-planet-report-2020" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2020.png" alt="Protected Planet 2020 report cover"/>
+  </a>
+
+  #### We are entering an era of unparalleled opportunity to address the global crisis facing nature. The Protected Planet Report 2020 delivers the final report on progress achieved against Aichi Target 11. When the Parties to the Convention on Biological Diversity adopted Target 11 in 2010, they acknowledged that effective and equitable systems of protected areas are an essential tool to address the ***biodiversity*** crisis. They also made the important decision to recognise 'other effective area-based conservation measures' (OECMs) for the first time...Despite being limited to only five countries and territories, the available data on OECMs already show that they make a significant contribution to coverage and connectivity. Of the area now covered by protected areas and OECMs, 42% was added in the past decade. Although the data available at the time of publication show only 16.64% coverage of terrestrial and inland water areas by protected areas and OECMs, it is clear that with further updates the 17% coverage target will be surpassed, especially as more OECMs are identified, mapped, and reported. [***See* report**](https://www.unep.org/resources/protected-planet-report-2020){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+    
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#ramsar2021">Ramsar: Global Wetland Outlook Special Edition 2021</a> 
+
+  <div id="ramsar2021" class="collapse">  
+
+  <a href="https://www.global-wetland-outlook.ramsar.org/report-1" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_ramsar2021.png" alt="Ramsar 2021 report cover"/>
+  </a>
+
+  #### Ecosystem degradation and careless wildlife trade both increase the risks of pandemics, with up to three quarters of new diseases being zoonotic in origin. Meanwhile, water-borne diseases ‘like infant diarrhoea’ are increased by poor wetland management and cause millions of deaths every year. Control of emergent zoonotic diseases is increasingly seen as dependent on maintenance of well-managed, intact ecosystems and native ***biodiversity***. Deterioration of wetlands is widespread, but more wetlands are still reported as in ‘good’ rather than ‘bad’ ecological character. ***Biodiversity losses*** are linked to land-use change and still rising. Wetlands are particularly impacted by sea-level rise, coral bleaching and changing hydrology, with Arctic and montane wetlands especially at risk. Wetlands need to be part of delivering climate solutions. [***See* report**](https://www.global-wetland-outlook.ramsar.org/report-1){target="_blank"}. [***Download* report**](https://app.box.com/s/z1bvngynvpvj1mps3hkyeim2xxvd18vt){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_ramsar.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#dasgupta2021">The Economics of Biodiversity: The Dasgupta Review</a> 
+
+  <div id="dasgupta2021" class="collapse">  
+  
+  <a href="https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_dasgupta2021.png" alt="Dasgupta Review 2021 report cover"/>
+  </a>
+
+  #### We are facing a global crisis. We are totally dependent upon the natural world. It supplies us with every oxygen-laden breath we take and every mouthful of food we eat. But we are currently damaging it so profoundly that many of its natural systems are now on the verge of breakdown...Nature is more than a mere economic good. Nature nurtures and nourishes us, so we will think of assets as durable entities that not only have use value, but may also have intrinsic worth. Once we make that extension, the economics of ***biodiversity*** becomes a study in portfolio management...But in addition to mobility, Nature has two properties that make the economics of ***biodiversity*** markedly different from the economics that informs our intuitions about the character of produced capital. Many of the processes that shape our natural world are *silent* and *invisible*. [***See* report**](https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review){target="_blank"} and [***see* quotes**](quotes.html). [***Download* report**](https://app.box.com/s/o3llo1y9awuyzkdq5p6q6xuozoblc41v){target="_blank"}.
+ 
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_dasgupta_review.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#seea2021">UN: System of Environmental-Economic Accounting— Ecosystem Accounting</a> 
+
+  <div id="seea2021" class="collapse">  
+
+  <a href="https://seea.un.org/ecosystem-accounting" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_seea2021.png" alt="SEEA 2021 report cover"/>
+  </a>
+
+  #### It is well established that healthy ecosystems and ***biodiversity*** are fundamental to supporting and sustaining our wellbeing, our communities and our economies. However, our environment is under pressure and there are consequential risks that we face in securing and improving our livelihoods. These challenges have been recognised at local, national and global levels...In addition, there has been growing recognition that the degradation of nature is not purely an environmental issue requiring environmental policy responses; economic and social policy responses are also required. Thus, decision makers across all sectors need to consider their environmental context and the associated dependencies and impacts. Consequently, establishing agreed and ongoing measurement of changes in the state of the environment and the relationship to economic and other human activity is central to ensuring that ***ecosystems and biodiversity*** are mainstreamed in decision-making processes, including those concerning our economic and financial systems. [***See* report**](https://seea.un.org/ecosystem-accounting){target="_blank"}. [***Download* report**](https://app.box.com/s/dvqn63l05l47qn9uxw3uoijzlwan5nry){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_seea.mp3" preload="auto" type="audio/mp3"></audio>
+ 
+  <br/>
+   
+  </div>
+  
 - #### <a href="###" data-toggle="collapse" data-target="#unep_restoration2021">UNEP: Becoming #GenerationRestoration: Ecosystem restoration for people, nature and climate</a> 
 
   <div id="unep_restoration2021" class="collapse">  
@@ -337,85 +481,20 @@ $(document).ready(function(){
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#ipcc6ar1">IPCC: Sixth Assessment Part 1: Climate Change - The Physical Science Basis</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#unepblueprint2022">UNEP: Making Peace with Nature</a> 
 
-  <div id="ipcc6ar1" class="collapse">  
+  <div id="unepblueprint2022" class="collapse">  
   
-  <a href="https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_ipcc6ar1_2021.png" alt="IPCC Sixth Assessment Part 1 report cover"/>
+  <a href="https://www.unep.org/events/unep-event/launch-unep-making-peace-nature-report" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepblueprint2021.png" alt="UNEP Blueprint report cover"/>
   </a>
 
-  #### It is unequivocal that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere and ***biosphere*** have occurred. Observed increases in well-mixed greenhouse gas (GHG) concentrations since around 1750 are unequivocally caused by human activities. Since 2011 (measurements reported in AR5), concentrations have continued to increase in the atmosphere, reaching annual averages of 410 parts per million (ppm) for carbon dioxide (CO2), 1866 parts per billion (ppb) for methane (CH4), and 332 ppb for nitrous oxide (N2O) in 2019. Land and ocean have taken up a near-constant proportion (globally about 56% per year) of CO2 emissions from human activities over the past six decades, with regional differences. [***See* report**](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/){target="_blank"}. [***Download* report**](https://app.box.com/s/8szo6zfy9euwicphu5pi8yb91f2h9mju){target="_blank"}.
-  
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_ipcc_ar6_p1.mp3" preload="auto" type="audio/mp3"></audio>
+  #### Humanity’s environmental challenges have grown in number and severity ever since the Stockholm Conference in 1972 and now represent a planetary emergency...Over the last 50 years, the global economy has grown nearly fivefold, due largely to a tripling in extraction of natural resources and energy that has fuelled growth in production and consumption. The world population has increased by a factor of two, to 7.8 billion people, and though on average prosperity has also doubled, about 1.3 billion people remain poor and some 700 million are hungry. The increasingly unequal and resource-intensive model of development drives environmental decline through climate change, ***biodiversity loss*** and other forms of pollution and resource degradation. [***See* report**](https://www.unep.org/events/unep-event/launch-unep-making-peace-nature-report){target="_blank"} and [***see* quotes**](quotes.html). [***Download* report**](https://app.box.com/s/uum0wukwv14efrpvaij9p4icejqk964k){target="_blank"}.  
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_unep.mp3" preload="auto" type="audio/mp3"></audio>
 
   <br/>
   
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#ipbesipcc2021">IPBES and IPCC Co-Sponsored Workshop Report</a> 
-
-  <div id="ipbesipcc2021" class="collapse">  
-  
-  <a href="https://ipbes.net/events/ipbes-ipcc-co-sponsored-workshop-biodiversity-and-climate-change" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_ipbesipcc2021.png" alt="IPBES-IPCC 2021 report cover"/>
-  </a>
-  
-
-  #### Climate change and ***biodiversity loss*** are closely interconnected and share common drivers through human activities. Both have predominantly negative impacts on human well-being and quality of life...Ignoring the inseparable nature of climate, ***biodiversity***, and human quality of life will result in non-optimal solutions to either crisis...Cross-cutting issues, intersectoral policies and regulatory frameworks are areas where strong synergies could contribute to the transformative societal change that is needed to achieve ambitious goals for ***biodiversity***, climate mitigation and good quality of life...but achieving this transformative change depends on rapid and far-reaching actions of a kind and scale never before attempted. [***See* report**](https://ipbes.net/events/ipbes-ipcc-co-sponsored-workshop-biodiversity-and-climate-change){target="_blank"} and [***see* quotes**](quotes.html). [***Download* report**](https://app.box.com/s/xu7mw62ydrpqe8xcipdysn4goa5ys25l){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_ipbes_ipcc.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
-  
-- #### <a href="###" data-toggle="collapse" data-target="#iucn_restoration2021">IUCN: Using ecosystem risk assessment science for ecosystem restoration</a> 
-
-  <div id="iucn_restoration2021" class="collapse">  
-
-  <a href="https://www.iucn.org/resources/publication/using-ecosystem-risk-assessment-science-ecosystem-restoration" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_iucnrestoration2021.png" alt="IUCN Restoration 2021 report cover"/>
-  </a>
-
-  #### Ecosystems form a core component of ***biodiversity***. They provide humans with multiple benefits – a stable climate and breathable air; water, food and materials; and protection from disaster and disease. Ecosystem restoration, as defined by the UN Decade on Ecosystem Restoration, includes a range of management interventions that aim to reduce impacts on and assist in the recovery of ecosystems that have been damaged, degraded or destroyed. However, restoration projects and programmes are often implemented without strategic evaluation of the degree of urgency for restoration among ecosystem types. As we expand our ambitions for restoration over the coming decade, and move to the restoration of entire ecosystems, landscapes and seascapes, the complexity of the questions we need to answer increases accordingly. This guide was developed to promote the application of the science of ecosystem risk assessment, which involves measuring the risk of ecosystem collapse, in ecosystem restoration. It explores how the IUCN Red List of Ecosystems and ecosystem restoration can be jointly deployed to reduce risk of ecosystem collapse. [***See* report**](https://www.iucn.org/resources/publication/using-ecosystem-risk-assessment-science-ecosystem-restoration){target="_blank"}. [***Download* report**](https://app.box.com/s/ipdhydk93skx5v63cdwdxuwcgfpyx4ty){target="_blank"}.
-  
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_iucn_restoration.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#iucn2021">IUCN Red List Quadrennial Report 2017–2020</a> 
-
-  <div id="iucn2021" class="collapse">  
-
-  <a href="https://www.iucnredlist.org/resources/" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_iucn2021.png" alt="IUCN 2021 report cover"/>
-  </a>
-
-  #### The IUCN Red List is the acknowledged authority on species extinction risk and an authoritative compendium of information on the global conservation status of species. The IUCN Red List tracks and measures the status and trends in wild species across the globe. Assessments of all major species groups such as plants, fungi, invertebrates, reptiles, and fish, continue to expand in number and scope. The IUCN Red List of Threatened Species expanded its coverage of the world’s ***biodiversity*** by 51% between 2017 and 2020. The IUCN Red List includes 128,918 species of which 35,765 (28%) are threatened with extinction. Certain groups are known to be considerably threatened, such as amphibians (41%), sharks (31%) and corals (33%) with increased extinction risks observed since 1990. [***See* report**](https://www.iucnredlist.org/resources/){target="_blank"}. [***Download* report**](https://app.box.com/s/ec1xsuxw9lderqnp3nt2xq9ff9msvcc4){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_iucn.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
-  
-- #### <a href="###" data-toggle="collapse" data-target="#protected_planet2021">Protected Planet Report 2020</a> 
-
-  <div id="protected_planet2021" class="collapse">  
-
-  <a href="https://www.unep.org/resources/protected-planet-report-2020" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2020.png" alt="Protected Planet 2020 report cover"/>
-  </a>
-
-  #### We are entering an era of unparalleled opportunity to address the global crisis facing nature. The Protected Planet Report 2020 delivers the final report on progress achieved against Aichi Target 11. When the Parties to the Convention on Biological Diversity adopted Target 11 in 2010, they acknowledged that effective and equitable systems of protected areas are an essential tool to address the ***biodiversity*** crisis. They also made the important decision to recognise 'other effective area-based conservation measures' (OECMs) for the first time...Despite being limited to only five countries and territories, the available data on OECMs already show that they make a significant contribution to coverage and connectivity. Of the area now covered by protected areas and OECMs, 42% was added in the past decade. Although the data available at the time of publication show only 16.64% coverage of terrestrial and inland water areas by protected areas and OECMs, it is clear that with further updates the 17% coverage target will be surpassed, especially as more OECMs are identified, mapped, and reported. [***See* report**](https://www.unep.org/resources/protected-planet-report-2020){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-    
   </div>
   
 - #### <a href="####" data-toggle="collapse" data-target="#unepfinance2021">UNEP: State of Finance for Nature</a> 
@@ -434,167 +513,38 @@ $(document).ready(function(){
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#bgci2022">BGCI: The State of Trees Report</a> 
-
-  <div id="bgci2022" class="collapse">  
-
-  <a href="https://www.bgci.org/news-events/bgci-launches-the-state-of-the-worlds-trees-report/" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_bgci2021.png" alt="BGCI 2021 report cover"/>
-  </a>
-
-  #### Trees are also highly signiﬁcant components of ***biodiversity*** and carbon storage in many other ecosystems such as woodlands, grasslands, as well as artiﬁcial and urban environments. The interlinked ***biodiversity crisis*** and challenge of global climate change cannot be addressed without informed management of tree species...We now know that 30% of tree species are threatened with extinction, and at least 142 tree species are recorded as extinct in the wild. The main threats to tree species are forest clearance and other forms of habitat loss, direct exploitation for timber and other products and the spread of invasive pests and diseases. Climate change is also having a clearly measurable impact. [***See* report**](https://www.bgci.org/news-events/bgci-launches-the-state-of-the-worlds-trees-report/){target="_blank"}. [***Download* report**](https://app.box.com/s/5y4w7rkzqvg9qx5vfndgkjfctoucc8dr){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_bgci.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
-  
-- #### <a href="###" data-toggle="collapse" data-target="#seea2021">UN: System of Environmental-Economic Accounting— Ecosystem Accounting</a> 
-
-  <div id="seea2021" class="collapse">  
-
-  <a href="https://seea.un.org/ecosystem-accounting" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_seea2021.png" alt="SEEA 2021 report cover"/>
-  </a>
-
-  #### It is well established that healthy ecosystems and ***biodiversity*** are fundamental to supporting and sustaining our wellbeing, our communities and our economies. However, our environment is under pressure and there are consequential risks that we face in securing and improving our livelihoods. These challenges have been recognised at local, national and global levels...In addition, there has been growing recognition that the degradation of nature is not purely an environmental issue requiring environmental policy responses; economic and social policy responses are also required. Thus, decision makers across all sectors need to consider their environmental context and the associated dependencies and impacts. Consequently, establishing agreed and ongoing measurement of changes in the state of the environment and the relationship to economic and other human activity is central to ensuring that ***ecosystems and biodiversity*** are mainstreamed in decision-making processes, including those concerning our economic and financial systems. [***See* report**](https://seea.un.org/ecosystem-accounting){target="_blank"}. [***Download* report**](https://app.box.com/s/dvqn63l05l47qn9uxw3uoijzlwan5nry){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_seea.mp3" preload="auto" type="audio/mp3"></audio>
- 
-  <br/>
-   
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#ramsar2021">Ramsar: Global Wetland Outlook Special Edition 2021</a> 
-
-  <div id="ramsar2021" class="collapse">  
-
-  <a href="https://www.global-wetland-outlook.ramsar.org/report-1" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_ramsar2021.png" alt="Ramsar 2021 report cover"/>
-  </a>
-
-  #### Ecosystem degradation and careless wildlife trade both increase the risks of pandemics, with up to three quarters of new diseases being zoonotic in origin. Meanwhile, water-borne diseases ‘like infant diarrhoea’ are increased by poor wetland management and cause millions of deaths every year. Control of emergent zoonotic diseases is increasingly seen as dependent on maintenance of well-managed, intact ecosystems and native ***biodiversity***. Deterioration of wetlands is widespread, but more wetlands are still reported as in ‘good’ rather than ‘bad’ ecological character. ***Biodiversity losses*** are linked to land-use change and still rising. Wetlands are particularly impacted by sea-level rise, coral bleaching and changing hydrology, with Arctic and montane wetlands especially at risk. Wetlands need to be part of delivering climate solutions. [***See* report**](https://www.global-wetland-outlook.ramsar.org/report-1){target="_blank"}. [***Download* report**](https://app.box.com/s/z1bvngynvpvj1mps3hkyeim2xxvd18vt){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_ramsar.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
-
-- #### <a href="####" data-toggle="collapse" data-target="#unepblueprint2022">UNEP: Making Peace with Nature</a> 
-
-  <div id="unepblueprint2022" class="collapse">  
-  
-  <a href="https://www.unep.org/events/unep-event/launch-unep-making-peace-nature-report" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_unepblueprint2021.png" alt="UNEP Blueprint report cover"/>
-  </a>
-
-  #### Humanity’s environmental challenges have grown in number and severity ever since the Stockholm Conference in 1972 and now represent a planetary emergency...Over the last 50 years, the global economy has grown nearly fivefold, due largely to a tripling in extraction of natural resources and energy that has fuelled growth in production and consumption. The world population has increased by a factor of two, to 7.8 billion people, and though on average prosperity has also doubled, about 1.3 billion people remain poor and some 700 million are hungry. The increasingly unequal and resource-intensive model of development drives environmental decline through climate change, ***biodiversity loss*** and other forms of pollution and resource degradation. [***See* report**](https://www.unep.org/events/unep-event/launch-unep-making-peace-nature-report){target="_blank"} and [***see* quotes**](quotes.html). [***Download* report**](https://app.box.com/s/uum0wukwv14efrpvaij9p4icejqk964k){target="_blank"}.  
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_unep.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#dasgupta2021">The Economics of Biodiversity: The Dasgupta Review</a> 
-
-  <div id="dasgupta2021" class="collapse">  
-  
-  <a href="https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_dasgupta2021.png" alt="Dasgupta Review 2021 report cover"/>
-  </a>
-
-  #### We are facing a global crisis. We are totally dependent upon the natural world. It supplies us with every oxygen-laden breath we take and every mouthful of food we eat. But we are currently damaging it so profoundly that many of its natural systems are now on the verge of breakdown...Nature is more than a mere economic good. Nature nurtures and nourishes us, so we will think of assets as durable entities that not only have use value, but may also have intrinsic worth. Once we make that extension, the economics of ***biodiversity*** becomes a study in portfolio management...But in addition to mobility, Nature has two properties that make the economics of ***biodiversity*** markedly different from the economics that informs our intuitions about the character of produced capital. Many of the processes that shape our natural world are *silent* and *invisible*. [***See* report**](https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review){target="_blank"} and [***see* quotes**](quotes.html). [***Download* report**](https://app.box.com/s/o3llo1y9awuyzkdq5p6q6xuozoblc41v){target="_blank"}.
- 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2021_dasgupta_review.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
-  
 <br/>
 <br/>
 
 ### 2020
 
+- #### <a href="####" data-toggle="collapse" data-target="#ar2020">Annual Reviews: The State of the World's Insects</a> 
 
-- #### <a href="####" data-toggle="collapse" data-target="#wwf2020">World Wildlife Fund: Living Planet Report</a> 
+  <div id="ar2020" class="collapse">  
 
-  <div id="wwf2020" class="collapse">  
-  
-  <a href="https://www.worldwildlife.org/publications/living-planet-report-2020" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2020.png" alt="WWF 2020 report cover"/>
-  </a>
-
-  #### The global Living Planet Index continues to decline. It shows an average 68% decrease in population sizes of mammals, birds, amphibians, reptiles and fish between 1970 and 2016. A 94% decline in the LPI for the tropical subregions of the Americas is the largest fall observed in any part of the world. Why does this matter? It matters because ***biodiversity*** is fundamental to human life on Earth, and the evidence is unequivocal – it is being destroyed by us at a rate unprecedented in history. Since the industrial revolution, human activities have increasingly destroyed and degraded forests, grasslands, wetlands and other important ecosystems, threatening human well-being. [***See* report**](https://www.worldwildlife.org/publications/living-planet-report-2020){target="_blank"}. [***Download* report**](https://app.box.com/s/3rllhruk7rmywsqkgkrmn8sirwd7vad5){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_wwf.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
-
-- #### <a href="####" data-toggle="collapse" data-target="#oecd2020">OECD: A Comprehensive Overview of Global Biodiversity Finance</a> 
-
-  <div id="oecd2020" class="collapse">  
-
-  <a href="https://www.oecd.org/environment/resources/biodiversityfinance.htm" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_oecd2020.png" alt="OECD 2020 report cover"/>
+  <a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-environ-012420-050035" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_ar2020.png" alt="AR 2020 report cover"/>
   </a>
   
-  #### Based on currently available data, global ***biodiversity*** finance is estimated at USD 78 - 91 billion per year (2015-2017 average). Meanwhile, governments spend approximately USD 500 billion per year in support that is potentially harmful to ***biodiversity*** i.e. five to six times more than total spending for ***biodiversity***. The total volume of finance flows that are harmful to ***biodiversity*** (i.e. encompassing all public and private expenditure) is likely to be many times larger. Various initiatives are underway to improve the assessment, tracking and reporting of ***biodiversity*** finance flows. Nevertheless, data gaps and inconsistencies persist. To address this challenge, the report provides five key recommendations. [***See* report**](https://www.oecd.org/environment/resources/biodiversityfinance.htm){target="_blank"}. [***Download* report**](https://app.box.com/s/1gpu3mq0pspm1890dccjke5f5nadzbof){target="_blank"}.
+  #### Insects are an important source of both ecosystem services and ecosystem disservices. Recent studies have indicated a worrying decline in insect species, especially in flying insects in the northern temperate region, and this has spawned much media attention. Some decline has occurred, it is clear, due to agricultural intensification, urbanization, overuse of pesticides, and global climate change. A decline would seriously affect the ecosystem services that insects provide. However, there is too little data to warrant the belief that all insects are declining everywhere. There is a pressing need for more basic research on insect diversity in the context of a changing world. [***See* report**](https://www.annualreviews.org/doi/abs/10.1146/annurev-environ-012420-050035){target="_blank"}. [***Download* report**](https://app.box.com/s/a51oxh2rge06r4hdtyzko96ub1c2oq08){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_oecd.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
-
-- #### <a href="###" data-toggle="collapse" data-target="#iucn2020">IUCN: Global Ecosystem Typology 2.0</a> 
-
-  <div id="iucn2020" class="collapse">  
-
-  <a href="https://portals.iucn.org/library/node/49250" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_iucn2020.png" alt="IUCN 2020 report cover"/>
-  </a>
-
-  #### Ecosystems are critically important components of Earth’s ***biological diversity*** and as the natural capital that sustains human life and well-being. Yet all of the world’s ecosystems show hallmarks of human influence, and many are under acute risks of collapse, with consequences for habitats of species, genetic diversity, ecosystem services, sustainable development and human well-being. A systematic typology that encompasses all of Earth’s ecosystems, representing the diversity of both ecosystem function and ***biodiversity***, is essential for marshalling knowledge to inform effective action to sustain this critical natural capital. [***See* report**](https://portals.iucn.org/library/node/49250){target="_blank"}. [***Download* report**](https://app.box.com/s/6cxpjikf7hq8jvnqkvodaio8z1miymzb){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_iucn.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_ar_insects.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#pew2020">Pew Charitable Trusts: Breaking the Plastic Wave</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#cbd2020">CBD: Global Biodiversity Outlook 5</a> 
 
-  <div id="pew2020" class="collapse">  
+  <div id="cbd2020" class="collapse">  
 
-  <a href="https://www.pewtrusts.org/en/research-and-analysis/articles/2020/07/23/breaking-the-plastic-wave-top-findings" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_pew2020.png" alt="PEW 2020 report cover"/>
+  <a href="https://www.unep.org/resources/report/global-biodiversity-outlook-5-gbo-5?_ga=2.87214558.710523140.1666576950-1438871190.1665938202" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_cbd2020.png" alt="CBD 2020 report cover"/>
   </a>
   
-  #### We estimate that 11 million metric tons of plastic entered the ocean from land in 2016, adding to the estimated 150 million metric tons of plastic already in the ocean. Plastic flows into the ocean are projected to nearly triple by 2040 to 29 million metric tons per year. Even worse, because plastic remains in the ocean for hundreds of years, or longer, and may never biodegrade, the cumulative amount of plastic stock in the ocean could grow by 450 million metric tons in the next 20 years— with severe impacts on ***biodiversity***, and ocean and human health...From coral reefs to deep sea trenches and from remote islands to the poles, plastic alters habitats, harms wildlife, and can damage ecosystem function and services. More than 800 species are already known to be affected by marine plastic pollution, including all sea turtle species, more than 40 per cent of cetacean species, and 44 per cent of marine bird species. [***See* report**](https://www.pewtrusts.org/en/research-and-analysis/articles/2020/07/23/breaking-the-plastic-wave-top-findings){target="_blank"}. [***Download* report**](https://app.box.com/s/p4bf9ij7p0cixv8foh2mdckafnymd479){target="_blank"}.
+  #### Humanity stands at a crossroads with regard to the legacy it leaves to future generations. ***Biodiversity*** is declining at an unprecedented rate, and the pressures driving this decline are intensifying. None of the Aichi Biodiversity Targets will be fully met, in turn threatening the achievement of the Sustainable Development Goals and undermining efforts to address climate change...Solutions need to seek an integrated approach that simultaneously address the conservation of the planet’s ***genetic diversity, species and ecosystems***, the capacity of nature to deliver material benefits to human societies, and the less tangible but highly-valued connections with nature that help to define our identities, cultures and beliefs. [***See* report**](https://www.unep.org/resources/report/global-biodiversity-outlook-5-gbo-5?_ga=2.87214558.710523140.1666576950-1438871190.1665938202){target="_blank"}. [***Download* report**](https://app.box.com/s/les5bdx1pufo8x3vnfccew3fgh70manm){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_pew.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-
-- #### <a href="####" data-toggle="collapse" data-target="#ipbespandemic2020">IPBES Workshop Report on Biodiversity and Pandemics</a> 
-
-  <div id="ipbespandemic2020" class="collapse">  
-
-  <a href="https://ipbes.net/pandemics" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_ipbes2020.png" alt="IPBES 2020 report cover"/>
-  </a>
-  
-  #### Pandemics have their origins in diverse microbes carried by animal reservoirs, but their emergence is entirely driven by human activities. The underlying causes of pandemics are the same global environmental changes that drive ***biodiversity loss*** and climate change. These include land-use change, agricultural expansion and intensification, and wildlife trade and consumption...Our business-as-usual approach to pandemics is based on containment and control after a disease has emerged and relies primarily on reductionist approaches to vaccine and therapeutic development rather than on reducing the drivers of pandemic risk to prevent them before they emerge. [***See* report**](https://ipbes.net/pandemics){target="_blank"}. [***Download* report**](https://app.box.com/s/9lcl2pnlkh3r1n9rr2hcs8jwyw65tr5d){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_ipbes_pandemics.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_cbd.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -616,22 +566,6 @@ $(document).ready(function(){
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#ar2020">Annual Reviews: The State of the World's Insects</a> 
-
-  <div id="ar2020" class="collapse">  
-
-  <a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-environ-012420-050035" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_ar2020.png" alt="AR 2020 report cover"/>
-  </a>
-  
-  #### Insects are an important source of both ecosystem services and ecosystem disservices. Recent studies have indicated a worrying decline in insect species, especially in flying insects in the northern temperate region, and this has spawned much media attention. Some decline has occurred, it is clear, due to agricultural intensification, urbanization, overuse of pesticides, and global climate change. A decline would seriously affect the ecosystem services that insects provide. However, there is too little data to warrant the belief that all insects are declining everywhere. There is a pressing need for more basic research on insect diversity in the context of a changing world. [***See* report**](https://www.annualreviews.org/doi/abs/10.1146/annurev-environ-012420-050035){target="_blank"}. [***Download* report**](https://app.box.com/s/a51oxh2rge06r4hdtyzko96ub1c2oq08){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_ar_insects.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-
 - #### <a href="####" data-toggle="collapse" data-target="#faoforests2020">FAO: The State of the World’s Forests</a> 
 
   <div id="faoforests2020" class="collapse">  
@@ -644,6 +578,38 @@ $(document).ready(function(){
 
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_fao_forests.mp3" preload="auto" type="audio/mp3"></audio>
 
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#ipbespandemic2020">IPBES Workshop Report on Biodiversity and Pandemics</a> 
+
+  <div id="ipbespandemic2020" class="collapse">  
+
+  <a href="https://ipbes.net/pandemics" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_ipbes2020.png" alt="IPBES 2020 report cover"/>
+  </a>
+  
+  #### Pandemics have their origins in diverse microbes carried by animal reservoirs, but their emergence is entirely driven by human activities. The underlying causes of pandemics are the same global environmental changes that drive ***biodiversity loss*** and climate change. These include land-use change, agricultural expansion and intensification, and wildlife trade and consumption...Our business-as-usual approach to pandemics is based on containment and control after a disease has emerged and relies primarily on reductionist approaches to vaccine and therapeutic development rather than on reducing the drivers of pandemic risk to prevent them before they emerge. [***See* report**](https://ipbes.net/pandemics){target="_blank"}. [***Download* report**](https://app.box.com/s/9lcl2pnlkh3r1n9rr2hcs8jwyw65tr5d){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_ipbes_pandemics.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#iucn2020">IUCN: Global Ecosystem Typology 2.0</a> 
+
+  <div id="iucn2020" class="collapse">  
+
+  <a href="https://portals.iucn.org/library/node/49250" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_iucn2020.png" alt="IUCN 2020 report cover"/>
+  </a>
+
+  #### Ecosystems are critically important components of Earth’s ***biological diversity*** and as the natural capital that sustains human life and well-being. Yet all of the world’s ecosystems show hallmarks of human influence, and many are under acute risks of collapse, with consequences for habitats of species, genetic diversity, ecosystem services, sustainable development and human well-being. A systematic typology that encompasses all of Earth’s ecosystems, representing the diversity of both ecosystem function and ***biodiversity***, is essential for marshalling knowledge to inform effective action to sustain this critical natural capital. [***See* report**](https://portals.iucn.org/library/node/49250){target="_blank"}. [***Download* report**](https://app.box.com/s/6cxpjikf7hq8jvnqkvodaio8z1miymzb){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_iucn.mp3" preload="auto" type="audio/mp3"></audio>
+  
   <br/>
   
   </div>
@@ -663,40 +629,71 @@ $(document).ready(function(){
   <br/>
   
   </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#oecd2020">OECD: A Comprehensive Overview of Global Biodiversity Finance</a> 
 
-- #### <a href="####" data-toggle="collapse" data-target="#cbd2020">CBD: Global Biodiversity Outlook 5</a> 
+  <div id="oecd2020" class="collapse">  
 
-  <div id="cbd2020" class="collapse">  
-
-  <a href="https://www.unep.org/resources/report/global-biodiversity-outlook-5-gbo-5?_ga=2.87214558.710523140.1666576950-1438871190.1665938202" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_cbd2020.png" alt="CBD 2020 report cover"/>
+  <a href="https://www.oecd.org/environment/resources/biodiversityfinance.htm" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_oecd2020.png" alt="OECD 2020 report cover"/>
   </a>
   
-  #### Humanity stands at a crossroads with regard to the legacy it leaves to future generations. ***Biodiversity*** is declining at an unprecedented rate, and the pressures driving this decline are intensifying. None of the Aichi Biodiversity Targets will be fully met, in turn threatening the achievement of the Sustainable Development Goals and undermining efforts to address climate change...Solutions need to seek an integrated approach that simultaneously address the conservation of the planet’s ***genetic diversity, species and ecosystems***, the capacity of nature to deliver material benefits to human societies, and the less tangible but highly-valued connections with nature that help to define our identities, cultures and beliefs. [***See* report**](https://www.unep.org/resources/report/global-biodiversity-outlook-5-gbo-5?_ga=2.87214558.710523140.1666576950-1438871190.1665938202){target="_blank"}. [***Download* report**](https://app.box.com/s/les5bdx1pufo8x3vnfccew3fgh70manm){target="_blank"}.
+  #### Based on currently available data, global ***biodiversity*** finance is estimated at USD 78 - 91 billion per year (2015-2017 average). Meanwhile, governments spend approximately USD 500 billion per year in support that is potentially harmful to ***biodiversity*** i.e. five to six times more than total spending for ***biodiversity***. The total volume of finance flows that are harmful to ***biodiversity*** (i.e. encompassing all public and private expenditure) is likely to be many times larger. Various initiatives are underway to improve the assessment, tracking and reporting of ***biodiversity*** finance flows. Nevertheless, data gaps and inconsistencies persist. To address this challenge, the report provides five key recommendations. [***See* report**](https://www.oecd.org/environment/resources/biodiversityfinance.htm){target="_blank"}. [***Download* report**](https://app.box.com/s/1gpu3mq0pspm1890dccjke5f5nadzbof){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_cbd.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_oecd.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#pew2020">Pew Charitable Trusts: Breaking the Plastic Wave</a> 
+
+  <div id="pew2020" class="collapse">  
+
+  <a href="https://www.pewtrusts.org/en/research-and-analysis/articles/2020/07/23/breaking-the-plastic-wave-top-findings" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_pew2020.png" alt="PEW 2020 report cover"/>
+  </a>
+  
+  #### We estimate that 11 million metric tons of plastic entered the ocean from land in 2016, adding to the estimated 150 million metric tons of plastic already in the ocean. Plastic flows into the ocean are projected to nearly triple by 2040 to 29 million metric tons per year. Even worse, because plastic remains in the ocean for hundreds of years, or longer, and may never biodegrade, the cumulative amount of plastic stock in the ocean could grow by 450 million metric tons in the next 20 years— with severe impacts on ***biodiversity***, and ocean and human health...From coral reefs to deep sea trenches and from remote islands to the poles, plastic alters habitats, harms wildlife, and can damage ecosystem function and services. More than 800 species are already known to be affected by marine plastic pollution, including all sea turtle species, more than 40 per cent of cetacean species, and 44 per cent of marine bird species. [***See* report**](https://www.pewtrusts.org/en/research-and-analysis/articles/2020/07/23/breaking-the-plastic-wave-top-findings){target="_blank"}. [***Download* report**](https://app.box.com/s/p4bf9ij7p0cixv8foh2mdckafnymd479){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_pew.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
   </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#wwf2020">World Wildlife Fund: Living Planet Report</a> 
 
+  <div id="wwf2020" class="collapse">  
+  
+  <a href="https://www.worldwildlife.org/publications/living-planet-report-2020" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2020.png" alt="WWF 2020 report cover"/>
+  </a>
+
+  #### The global Living Planet Index continues to decline. It shows an average 68% decrease in population sizes of mammals, birds, amphibians, reptiles and fish between 1970 and 2016. A 94% decline in the LPI for the tropical subregions of the Americas is the largest fall observed in any part of the world. Why does this matter? It matters because ***biodiversity*** is fundamental to human life on Earth, and the evidence is unequivocal – it is being destroyed by us at a rate unprecedented in history. Since the industrial revolution, human activities have increasingly destroyed and degraded forests, grasslands, wetlands and other important ecosystems, threatening human well-being. [***See* report**](https://www.worldwildlife.org/publications/living-planet-report-2020){target="_blank"}. [***Download* report**](https://app.box.com/s/3rllhruk7rmywsqkgkrmn8sirwd7vad5){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2020_wwf.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
 
 
 ## 2010 - 2019
 
 ### 2019
 
-- #### <a href="####" data-toggle="collapse" data-target="#ipccsr2019">IPCC: Special Report Climate Change and Land</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#fao2019">FAO: The State of the World's Biodiversity for Food and Agriculture </a> 
 
-  <div id="ipccsr2019" class="collapse">  
-  
-  <a href="https://www.ipcc.ch/srccl/" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_ipccsr2019.png" alt="IPCC 2019 special report cover"/>
+  <div id="fao2019" class="collapse">  
+
+  <a href="https://www.fao.org/state-of-biodiversity-for-food-agriculture/en/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_fao2019.png" alt="FAO 2019 report cover"/>
   </a>
 
-  #### Land provides the principal basis for human livelihoods and well-being including the supply of food, freshwater and multiple other ecosystem services, as well as ***biodiversity***. Human use directly affects more than 70% (likely 69–76%) of the global, ice-free land surface. Land also plays an important role in the climate system...Data available since 1961 show that global population growth and changes in per capita consumption of food, feed, fibre, timber and energy have caused unprecedented rates of land and freshwater use with agriculture currently accounting for ca. 70% of global fresh-water use...About a quarter of the Earth’s ice-free land area is subject to human-induced degradation. [***See* report**](https://www.ipcc.ch/srccl/){target="_blank"}. [***Download* report**](https://app.box.com/s/sjt9jxnr2raqt9eja8krd5wsqxxpxqj9){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2019_ipcc.mp3" preload="auto" type="audio/mp3"></audio>
+  #### Many key components of ***biodiversity*** for food and agriculture at genetic, species and ecosystem levels are in decline. Evidence suggests that the proportion of livestock breeds at risk of extinction is increasing, and that, for some crops and in some areas, plant diversity in farmers’ fields is decreasing and threats to diversity are increasing. Nearly a third of fish stocks are overfished and a third of freshwater fish species assessed are considered threatened. Countries report that many species that contribute to vital ecosystem services, including pollinators, natural enemies of pests, soil organisms and wild food species, are in decline as a consequence of the destruction and degradation of habitats, overexploitation, pollution and other threats. Key ecosystems that deliver numerous services essential to food and agriculture, including supply of freshwater, protection against hazards and provision of habitat for species such as fish and pollinators, are declining rapidly. [***See* report**](https://www.fao.org/state-of-biodiversity-for-food-agriculture/en/){target="_blank"}.  [***Download* report**](https://app.box.com/s/vovuw6yagaownfm5fskztrcljw9fhith){target="_blank"}.
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2019_fao.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -717,50 +714,18 @@ $(document).ready(function(){
   <br/>
   
   </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#ipccsr2019">IPCC: Special Report Climate Change and Land</a> 
 
-- #### <a href="###" data-toggle="collapse" data-target="#un2019">UN: Global Sustainable Development Report</a> 
-
-  <div id="un2019" class="collapse">  
-
-  <a href="https://sdgs.un.org/publications/future-now-science-achieving-sustainable-development-gsdr-2019-24576" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_un2019.png" alt="UN 2019 report cover"/>
+  <div id="ipccsr2019" class="collapse">  
+  
+  <a href="https://www.ipcc.ch/srccl/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_ipccsr2019.png" alt="IPCC 2019 special report cover"/>
   </a>
 
-  #### Since the adoption of the Sustainable Development Goals, there have been many positive developments. Countries have started to incorporate the Goals into national plans and strategies, and many have set up coordinating structures for coherent implementation...However, despite the initial efforts, the world is not on track for achieving most of the 169 targets that comprise the Goals. The limited success in progress towards the Goals raises strong concerns and sounds the alarm for the international community. Much more needs to happen – and quickly – to bring about the transformative changes that are required: impeding policies should urgently be reversed or modified, and recent advances that holistically promote the Goals should be scaled up in an accelerated fashion. Adding to the concern is the fact that recent trends along several dimensions with cross-cutting impacts across the entire 2030 Agenda are not even moving in the right direction. Four in particular fall into that category: rising inequalities, climate change, ***biodiversity loss*** and increasing amounts of waste from human activity that are overwhelming capacities to process them. Critically, recent analysis suggests that some of those negative trends presage a move towards the crossing of negative tipping points, which would lead to dramatic changes in the conditions of the Earth system in ways that are irreversible on time scales meaningful for society. [***See* report**](https://sdgs.un.org/publications/future-now-science-achieving-sustainable-development-gsdr-2019-24576){target="_blank"}. [***Download* report**](https://app.box.com/s/5n3x6lhedaf6dm6qsc7mh2famjdeltid){target="_blank"}.
+  #### Land provides the principal basis for human livelihoods and well-being including the supply of food, freshwater and multiple other ecosystem services, as well as ***biodiversity***. Human use directly affects more than 70% (likely 69–76%) of the global, ice-free land surface. Land also plays an important role in the climate system...Data available since 1961 show that global population growth and changes in per capita consumption of food, feed, fibre, timber and energy have caused unprecedented rates of land and freshwater use with agriculture currently accounting for ca. 70% of global fresh-water use...About a quarter of the Earth’s ice-free land area is subject to human-induced degradation. [***See* report**](https://www.ipcc.ch/srccl/){target="_blank"}. [***Download* report**](https://app.box.com/s/sjt9jxnr2raqt9eja8krd5wsqxxpxqj9){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2019_un.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#fao2019">FAO: The State of the World's Biodiversity for Food and Agriculture </a> 
-
-  <div id="fao2019" class="collapse">  
-
-  <a href="https://www.fao.org/state-of-biodiversity-for-food-agriculture/en/" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_fao2019.png" alt="FAO 2019 report cover"/>
-  </a>
-
-  #### Many key components of ***biodiversity*** for food and agriculture at genetic, species and ecosystem levels are in decline. Evidence suggests that the proportion of livestock breeds at risk of extinction is increasing, and that, for some crops and in some areas, plant diversity in farmers’ fields is decreasing and threats to diversity are increasing. Nearly a third of fish stocks are overfished and a third of freshwater fish species assessed are considered threatened. Countries report that many species that contribute to vital ecosystem services, including pollinators, natural enemies of pests, soil organisms and wild food species, are in decline as a consequence of the destruction and degradation of habitats, overexploitation, pollution and other threats. Key ecosystems that deliver numerous services essential to food and agriculture, including supply of freshwater, protection against hazards and provision of habitat for species such as fish and pollinators, are declining rapidly. [***See* report**](https://www.fao.org/state-of-biodiversity-for-food-agriculture/en/){target="_blank"}.  [***Download* report**](https://app.box.com/s/vovuw6yagaownfm5fskztrcljw9fhith){target="_blank"}.
-  
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2019_fao.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-
-- #### <a href="####" data-toggle="collapse" data-target="#unepfr2019">UNEP: Frontiers 2018/19: Emerging Issues of Environmental Concern</a> 
-
-  <div id="unepfr2019" class="collapse">  
-
-  <a href="https://www.unep.org/resources/frontiers-201819-emerging-issues-environmental-concern" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_unepfr2019.png" alt="OECD 2019 report cover"/>
-  </a>
-  
-  #### The world is facing unprecedented challenges to a healthy and sustainable future. Habitat destruction, invasive species, and overexploitation are contributing to immense ***biodiversity loss***. Unsustainable, extractive industry practices further burden the environment, and by extension, human welfare. Vector-borne infectious diseases pose a major threat to global health. Rapid climate change is likely to expand the geographical range of tropical diseases and further stress already taxed species and ecosystems. [***See* report**](https://www.unep.org/resources/frontiers-201819-emerging-issues-environmental-concern){target="_blank"}. [***Download* report**](https://app.box.com/s/76vf8heur2ok1ntg1hw9vtovqj3dw9e8){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2019_unep_frontiers.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2019_ipcc.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -777,6 +742,38 @@ $(document).ready(function(){
   #### There exists a strong business case for scaling up action on ***biodiversity***. Business impacts and dependencies on ***biodiversity*** translate into risks to business and financial organisations, including ecological risks to operations; liability risks; and regulatory, reputational, market and financial risks. Acknowledging and measuring these dependencies and impacts on ***biodiversity*** can help businesses and financial organisations manage and prevent ***biodiversity***-related risks, while harnessing new business opportunities. [***See* report**](https://www.oecd.org/env/resources/biodiversity/biodiversity-finance-and-the-economic-and-business-case-for-action.htm){target="_blank"}. [***Download* report**](https://app.box.com/s/48b023y3p0nkg6l0j39fdmmewrx7ibri){target="_blank"}.
   
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2019_oecd.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#un2019">UN: Global Sustainable Development Report</a> 
+
+  <div id="un2019" class="collapse">  
+
+  <a href="https://sdgs.un.org/publications/future-now-science-achieving-sustainable-development-gsdr-2019-24576" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_un2019.png" alt="UN 2019 report cover"/>
+  </a>
+
+  #### Since the adoption of the Sustainable Development Goals, there have been many positive developments. Countries have started to incorporate the Goals into national plans and strategies, and many have set up coordinating structures for coherent implementation...However, despite the initial efforts, the world is not on track for achieving most of the 169 targets that comprise the Goals. The limited success in progress towards the Goals raises strong concerns and sounds the alarm for the international community. Much more needs to happen – and quickly – to bring about the transformative changes that are required: impeding policies should urgently be reversed or modified, and recent advances that holistically promote the Goals should be scaled up in an accelerated fashion. Adding to the concern is the fact that recent trends along several dimensions with cross-cutting impacts across the entire 2030 Agenda are not even moving in the right direction. Four in particular fall into that category: rising inequalities, climate change, ***biodiversity loss*** and increasing amounts of waste from human activity that are overwhelming capacities to process them. Critically, recent analysis suggests that some of those negative trends presage a move towards the crossing of negative tipping points, which would lead to dramatic changes in the conditions of the Earth system in ways that are irreversible on time scales meaningful for society. [***See* report**](https://sdgs.un.org/publications/future-now-science-achieving-sustainable-development-gsdr-2019-24576){target="_blank"}. [***Download* report**](https://app.box.com/s/5n3x6lhedaf6dm6qsc7mh2famjdeltid){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2019_un.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+
+- #### <a href="####" data-toggle="collapse" data-target="#unepfr2019">UNEP: Frontiers 2018/19: Emerging Issues of Environmental Concern</a> 
+
+  <div id="unepfr2019" class="collapse">  
+
+  <a href="https://www.unep.org/resources/frontiers-201819-emerging-issues-environmental-concern" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepfr2019.png" alt="OECD 2019 report cover"/>
+  </a>
+  
+  #### The world is facing unprecedented challenges to a healthy and sustainable future. Habitat destruction, invasive species, and overexploitation are contributing to immense ***biodiversity loss***. Unsustainable, extractive industry practices further burden the environment, and by extension, human welfare. Vector-borne infectious diseases pose a major threat to global health. Rapid climate change is likely to expand the geographical range of tropical diseases and further stress already taxed species and ecosystems. [***See* report**](https://www.unep.org/resources/frontiers-201819-emerging-issues-environmental-concern){target="_blank"}. [***Download* report**](https://app.box.com/s/76vf8heur2ok1ntg1hw9vtovqj3dw9e8){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2019_unep_frontiers.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -814,103 +811,22 @@ $(document).ready(function(){
 
   </div>
 
-
 <br/>
 <br/>
 
 ### 2018
 
-- #### <a href="###" data-toggle="collapse" data-target="#unepiwr2018">UNEP: Inclusive Wealth 2018</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#faoforests2018">FAO: The State of the World's Forests</a> 
 
-  <div id="unepiwr2018" class="collapse">  
+  <div id="faoforests2018" class="collapse">  
 
-  <a href="https://www.unep.org/inclusive-wealth-report-2018" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_unepiwr2018.png" alt="UNEP IWR 2018 report cover"/>
+  <a href="https://www.fao.org/publications/card/en/c/I9535EN" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_faoforests2018.png" alt="FAO Forests 2018 report cover"/>
   </a>
 
-  #### Economies may appear to be growing when measured using GDP, but if we look at the state of the ***biosphere*** today (fresh water, ocean fisheries, the atmosphere as a carbon sink), there is strong evidence to suggest that the rates at which we are using them are unsustainable. The rate of biological extinctions today is 100 to 1,000 times the average background rate of the past several million years. Climate change is another example of an ill that has arisen in spite of – or perhaps because of – economic growth, as measured by GDP...This is why the Inclusive Wealth Index (IWI) was born...The IWI looks at each country’s stock of assets – its manufactured, human and natural capital – and assesses the changing health of these assets over a quarter of a century, a massive data set that covers almost an entire generation...The Inclusive Wealth Report (IWR) 2018 shows that 44 out of the 140 countries have suffered a decline in inclusive wealth per capita since 1992, even though GDP per capita increased in all but a handful of them. This means that these countries are not on a path to sustainable development, even if their economies, according to GDP, appear to be growing. They are depleting their stocks of natural, human or physical capital at rates that will leave future generations worse off. [***See* report**](https://www.unep.org/inclusive-wealth-report-2018){target="_blank"}. [***Download* report**](https://app.box.com/s/r0rg1bwt1r6zrdkr4o6ncucpzwflblnn){target="_blank"}.
+  #### Forests and trees make vital contributions both to people and the planet, bolstering livelihoods, providing clean air and water, conserving ***biodiversity*** and responding to climate change...Deforestation, chiefly caused by the conversion of forest land to agriculture and livestock areas, threatens not only the livelihoods of foresters, forest communities and indigenous peoples, but also the variety of life on our planet. Land-use changes result in a loss of valuable habitats, land degradation, soil erosion, a decrease in clean water, and the release of carbon into the atmosphere. How to increase agricultural production and improve food security without reducing forest area is one of the great challenges of our times. [***See* report**](https://www.fao.org/publications/card/en/c/I9535EN){target="_blank"}. [***Download* report**](https://app.box.com/s/4w68w8kebtl6mkqjry32kyslubixpxsc){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_unep_iwr.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-    
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#ipccsr2018">IPCC: Special Report Global Warming of 1.5 ºC</a> 
-
-  <div id="ipccsr2018" class="collapse">  
-
-  <a href="https://www.ipcc.ch/sr15/" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_ipccsr2018.png" alt="IPCCC 2018 special report cover"/>
-  </a>
-
-  #### Human activities are estimated to have caused approximately 1.0°C of global warming above pre-industrial levels, with a likely range of 0.8°C to 1.2°C. Global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate...On land, impacts on ***biodiversity and ecosystems***, including species loss and extinction, are projected to be lower at 1.5°C of global warming compared to 2°C. Limiting global warming to 1.5°C compared to 2°C is projected to lower the impacts on terrestrial, freshwater and coastal ecosystems and to retain more of their services to humans. [***See* report**](https://www.ipcc.ch/sr15/){target="_blank"}. [***Download* report**](https://app.box.com/s/vvez8ipnol8wq1bu78laypbhav1w0wrq){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_ipcc.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-
-- #### <a href="####" data-toggle="collapse" data-target="#ramsar2018">Ramsar: Global Wetland Outlook - State of the World’s Wetlands</a> 
-
-  <div id="ramsar2018" class="collapse">  
-
-  <a href="https://ramsar.org/document/global-wetland-outlook" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_ramsar2018.png" alt="Ramsar 2018 report cover"/>
-  </a>
-
-  #### Healthy, functioning natural wetlands are critical to human livelihoods and sustainable development. Although still covering a global area almost as large as Greenland, wetlands are declining fast, with 35% losses since 1970, where data are available. Wetland plants and animals are therefore in crisis, with a quarter of species at risk of extinction. Quality of remaining wetlands is also suffering, due to drainage, pollution, invasive species, unsustainable use, disrupted flow regimes and climate change. Yet wetland ecosystem services, ranging from food security to climate change mitigation, are enormous, far outweighing those of terrestrial ecosystems. [***See* report**](https://ramsar.org/document/global-wetland-outlook){target="_blank"}. [***Download* report**](https://app.box.com/s/71ng6ihc00bjf24uli2n7zqyqvv4gcon){target="_blank"}.
-  
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_ramsar.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#ipbes2018">IPBES: Assessment Report on Land Degradation and Restoration</a> 
-
-  <div id="ipbes2018" class="collapse">  
-
-  <a href="https://ipbes.net/assessment-reports/ldr" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_ipbes2018.png" alt="IPBES 2018 report cover"/>
-  </a>
-
-  #### Currently, degradation of the Earth’s land surface through human activities is negatively impacting the well-being of at least 3.2 billion people, pushing the planet towards a sixth mass species extinction, and costing more than 10 per cent of the annual global gross product in loss of ***biodiversity and ecosystem services***...Unless urgent and concerted action is taken, land degradation will worsen in the face of population growth, unprecedented consumption, an increasingly globalized economy and climate change. [***See* report**](https://ipbes.net/assessment-reports/ldr){target="_blank"}. [***Download* report**](https://app.box.com/s/80gprz1nu0gcrxk3g9ji8ujy9ugzbb4b){target="_blank"}.
-  
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_ipbes.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-
-- #### <a href="###" data-toggle="collapse" data-target="#protectedplanet2018">Protected Planet Report 2018: Tracking progress towards global targets for protected areas</a> 
-
-  <div id="protectedplanet2018" class="collapse">  
-
-  <a href="https://portals.iucn.org/library/node/48344" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2018.png" alt="Protected Planet 2018 report cover"/>
-  </a>
-
-  #### With two years to go until 2020, the Protected Planet Report 2018 confirms that significant progress has been made to accelerate protection of ***biodiversity*** on land and in the ocean. Based on the world’s most up to date records in the World Database on Protected Areas, managed jointly by UNEP-WCMC and IUCN, the report confirms that almost 15% of the earth’s land surface and inland waters, and just above 7% of the global ocean is now protected. However, marine areas under national jurisdiction have significantly more protection (17%) than Areas Beyond National Jurisdiction, with only slightly over 1% of protection...In particular, the ecosystem services of the world’s protected areas underpin global needs to address climate change; protect water sources and food production systems; alleviate disaster risk; and maintain health, well-being and the livelihoods of millions of people. Progress is only possible if these systems are well connected and integrated into the wider landscapes and seascapes, if they are governed equitably and managed effectively, and if they stem the ***loss of biodiversity***.  [***See* report**](https://portals.iucn.org/library/node/48344){target="_blank"}. [***Download* report**](https://app.box.com/s/3jd6gu8bct14tdgpcu1573z5ntkdgy56){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-
-- #### <a href="####" data-toggle="collapse" data-target="#wwf2018">World Wildlife Fund: Living Planet Report</a> 
-
-  <div id="wwf2018" class="collapse">  
-
-  <a href="https://www.worldwildlife.org/pages/living-planet-report-2018" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2018.png" alt="WWF 2018 report cover"/>
-  </a>
-
-  #### Exploding human consumption is the driving force behind the unprecedented planetary change we are witnessing, through the increased demand for energy, land and water. Consumption indicators – such as the Ecological Footprint – provide a picture of overall resource use. The products we consume, the supply chains behind them, the materials they use and how these are extracted and manufactured have myriad impacts on the world around us. While climate change is a growing threat, the main drivers of ***biodiversity*** decline continue to be the overexploitation of species, agriculture and land conversion. [***See* report**](https://www.worldwildlife.org/pages/living-planet-report-2018){target="_blank"}. [***Download* report**](https://app.box.com/s/uqbify05i4e9cwfwnhcn40x1xje6eofl){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_wwf.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_fao_forests.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -932,6 +848,38 @@ $(document).ready(function(){
   
   </div>
 
+- #### <a href="####" data-toggle="collapse" data-target="#ipbes2018">IPBES: Assessment Report on Land Degradation and Restoration</a> 
+
+  <div id="ipbes2018" class="collapse">  
+
+  <a href="https://ipbes.net/assessment-reports/ldr" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_ipbes2018.png" alt="IPBES 2018 report cover"/>
+  </a>
+
+  #### Currently, degradation of the Earth’s land surface through human activities is negatively impacting the well-being of at least 3.2 billion people, pushing the planet towards a sixth mass species extinction, and costing more than 10 per cent of the annual global gross product in loss of ***biodiversity and ecosystem services***...Unless urgent and concerted action is taken, land degradation will worsen in the face of population growth, unprecedented consumption, an increasingly globalized economy and climate change. [***See* report**](https://ipbes.net/assessment-reports/ldr){target="_blank"}. [***Download* report**](https://app.box.com/s/80gprz1nu0gcrxk3g9ji8ujy9ugzbb4b){target="_blank"}.
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_ipbes.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#ipccsr2018">IPCC: Special Report Global Warming of 1.5 ºC</a> 
+
+  <div id="ipccsr2018" class="collapse">  
+
+  <a href="https://www.ipcc.ch/sr15/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_ipccsr2018.png" alt="IPCCC 2018 special report cover"/>
+  </a>
+
+  #### Human activities are estimated to have caused approximately 1.0°C of global warming above pre-industrial levels, with a likely range of 0.8°C to 1.2°C. Global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate...On land, impacts on ***biodiversity and ecosystems***, including species loss and extinction, are projected to be lower at 1.5°C of global warming compared to 2°C. Limiting global warming to 1.5°C compared to 2°C is projected to lower the impacts on terrestrial, freshwater and coastal ecosystems and to retain more of their services to humans. [***See* report**](https://www.ipcc.ch/sr15/){target="_blank"}. [***Download* report**](https://app.box.com/s/vvez8ipnol8wq1bu78laypbhav1w0wrq){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_ipcc.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+
 - #### <a href="####" data-toggle="collapse" data-target="#kew2018">Kew: State of the World's Fungi</a> 
 
   <div id="kew2018" class="collapse">  
@@ -948,43 +896,74 @@ $(document).ready(function(){
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#faoforests2018">FAO: The State of the World's Forests</a> 
+- #### <a href="###" data-toggle="collapse" data-target="#protectedplanet2018">Protected Planet Report 2018: Tracking progress towards global targets for protected areas</a> 
 
-  <div id="faoforests2018" class="collapse">  
+  <div id="protectedplanet2018" class="collapse">  
 
-  <a href="https://www.fao.org/publications/card/en/c/I9535EN" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_faoforests2018.png" alt="FAO Forests 2018 report cover"/>
+  <a href="https://portals.iucn.org/library/node/48344" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2018.png" alt="Protected Planet 2018 report cover"/>
   </a>
 
-  #### Forests and trees make vital contributions both to people and the planet, bolstering livelihoods, providing clean air and water, conserving ***biodiversity*** and responding to climate change...Deforestation, chiefly caused by the conversion of forest land to agriculture and livestock areas, threatens not only the livelihoods of foresters, forest communities and indigenous peoples, but also the variety of life on our planet. Land-use changes result in a loss of valuable habitats, land degradation, soil erosion, a decrease in clean water, and the release of carbon into the atmosphere. How to increase agricultural production and improve food security without reducing forest area is one of the great challenges of our times. [***See* report**](https://www.fao.org/publications/card/en/c/I9535EN){target="_blank"}. [***Download* report**](https://app.box.com/s/4w68w8kebtl6mkqjry32kyslubixpxsc){target="_blank"}.
+  #### With two years to go until 2020, the Protected Planet Report 2018 confirms that significant progress has been made to accelerate protection of ***biodiversity*** on land and in the ocean. Based on the world’s most up to date records in the World Database on Protected Areas, managed jointly by UNEP-WCMC and IUCN, the report confirms that almost 15% of the earth’s land surface and inland waters, and just above 7% of the global ocean is now protected. However, marine areas under national jurisdiction have significantly more protection (17%) than Areas Beyond National Jurisdiction, with only slightly over 1% of protection...In particular, the ecosystem services of the world’s protected areas underpin global needs to address climate change; protect water sources and food production systems; alleviate disaster risk; and maintain health, well-being and the livelihoods of millions of people. Progress is only possible if these systems are well connected and integrated into the wider landscapes and seascapes, if they are governed equitably and managed effectively, and if they stem the ***loss of biodiversity***.  [***See* report**](https://portals.iucn.org/library/node/48344){target="_blank"}. [***Download* report**](https://app.box.com/s/3jd6gu8bct14tdgpcu1573z5ntkdgy56){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_fao_forests.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
   </div>
   
+- #### <a href="####" data-toggle="collapse" data-target="#ramsar2018">Ramsar: Global Wetland Outlook - State of the World’s Wetlands</a> 
+
+  <div id="ramsar2018" class="collapse">  
+
+  <a href="https://ramsar.org/document/global-wetland-outlook" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_ramsar2018.png" alt="Ramsar 2018 report cover"/>
+  </a>
+
+  #### Healthy, functioning natural wetlands are critical to human livelihoods and sustainable development. Although still covering a global area almost as large as Greenland, wetlands are declining fast, with 35% losses since 1970, where data are available. Wetland plants and animals are therefore in crisis, with a quarter of species at risk of extinction. Quality of remaining wetlands is also suffering, due to drainage, pollution, invasive species, unsustainable use, disrupted flow regimes and climate change. Yet wetland ecosystem services, ranging from food security to climate change mitigation, are enormous, far outweighing those of terrestrial ecosystems. [***See* report**](https://ramsar.org/document/global-wetland-outlook){target="_blank"}. [***Download* report**](https://app.box.com/s/71ng6ihc00bjf24uli2n7zqyqvv4gcon){target="_blank"}.
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_ramsar.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#unepiwr2018">UNEP: Inclusive Wealth 2018</a> 
+
+  <div id="unepiwr2018" class="collapse">  
+
+  <a href="https://www.unep.org/inclusive-wealth-report-2018" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepiwr2018.png" alt="UNEP IWR 2018 report cover"/>
+  </a>
+
+  #### Economies may appear to be growing when measured using GDP, but if we look at the state of the ***biosphere*** today (fresh water, ocean fisheries, the atmosphere as a carbon sink), there is strong evidence to suggest that the rates at which we are using them are unsustainable. The rate of biological extinctions today is 100 to 1,000 times the average background rate of the past several million years. Climate change is another example of an ill that has arisen in spite of – or perhaps because of – economic growth, as measured by GDP...This is why the Inclusive Wealth Index (IWI) was born...The IWI looks at each country’s stock of assets – its manufactured, human and natural capital – and assesses the changing health of these assets over a quarter of a century, a massive data set that covers almost an entire generation...The Inclusive Wealth Report (IWR) 2018 shows that 44 out of the 140 countries have suffered a decline in inclusive wealth per capita since 1992, even though GDP per capita increased in all but a handful of them. This means that these countries are not on a path to sustainable development, even if their economies, according to GDP, appear to be growing. They are depleting their stocks of natural, human or physical capital at rates that will leave future generations worse off. [***See* report**](https://www.unep.org/inclusive-wealth-report-2018){target="_blank"}. [***Download* report**](https://app.box.com/s/r0rg1bwt1r6zrdkr4o6ncucpzwflblnn){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_unep_iwr.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+    
+  </div>
+
+- #### <a href="####" data-toggle="collapse" data-target="#wwf2018">World Wildlife Fund: Living Planet Report</a> 
+
+  <div id="wwf2018" class="collapse">  
+
+  <a href="https://www.worldwildlife.org/pages/living-planet-report-2018" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2018.png" alt="WWF 2018 report cover"/>
+  </a>
+
+  #### Exploding human consumption is the driving force behind the unprecedented planetary change we are witnessing, through the increased demand for energy, land and water. Consumption indicators – such as the Ecological Footprint – provide a picture of overall resource use. The products we consume, the supply chains behind them, the materials they use and how these are extracted and manufactured have myriad impacts on the world around us. While climate change is a growing threat, the main drivers of ***biodiversity*** decline continue to be the overexploitation of species, agriculture and land conversion. [***See* report**](https://www.worldwildlife.org/pages/living-planet-report-2018){target="_blank"}. [***Download* report**](https://app.box.com/s/uqbify05i4e9cwfwnhcn40x1xje6eofl){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2018_wwf.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
 
 <br/>
 <br/>
 
 ### 2017
-
-- #### <a href="####" data-toggle="collapse" data-target="#unccd2017">UNCCD: Global Land Outlook 1</a> 
-
-  <div id="unccd2017" class="collapse">  
-
-  <a href="https://unccd.int/resources/global-land-outlook/glo1" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_unccd2017.png" alt="UNCCD 2017 report cover"/>
-  </a>
-  
-  #### There is rapidly escalating competition between the demand for land functions that provide food, water, and energy, and those services that support and regulate all life cycles on Earth...A significant proportion of managed and natural ecosystems are degrading...***Biodiversity loss*** and climate change further jeopardize the health and productivity of land...Land degradation decreases resilience to environmental stresses...Over 1.3 billion people are trapped on degrading agricultural land...The scale of rural transformation in recent decades has been unprecedented...whether we act as consumers, producers, corporations, or governments, a business-as-usual approach will be insufficient to address the magnitude of this challenge. [***See* report**](https://unccd.int/resources/global-land-outlook/glo1){target="_blank"}. [***Download* report**](https://app.box.com/s/620u38n45waqn2k7tq145vin2ka66zeo){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2017_unccd.mp3" preload="auto" type="audio/mp3"></audio>
- 
-  <br/>
-  
-  </div>
 
 - #### <a href="####" data-toggle="collapse" data-target="#kew2017">Kew: State of the World's Plants</a> 
 
@@ -998,6 +977,22 @@ $(document).ready(function(){
   
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2017_kew.mp3" preload="auto" type="audio/mp3"></audio>
 
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#unccd2017">UNCCD: Global Land Outlook 1</a> 
+
+  <div id="unccd2017" class="collapse">  
+
+  <a href="https://unccd.int/resources/global-land-outlook/glo1" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unccd2017.png" alt="UNCCD 2017 report cover"/>
+  </a>
+  
+  #### There is rapidly escalating competition between the demand for land functions that provide food, water, and energy, and those services that support and regulate all life cycles on Earth...A significant proportion of managed and natural ecosystems are degrading...***Biodiversity loss*** and climate change further jeopardize the health and productivity of land...Land degradation decreases resilience to environmental stresses...Over 1.3 billion people are trapped on degrading agricultural land...The scale of rural transformation in recent decades has been unprecedented...whether we act as consumers, producers, corporations, or governments, a business-as-usual approach will be insufficient to address the magnitude of this challenge. [***See* report**](https://unccd.int/resources/global-land-outlook/glo1){target="_blank"}. [***Download* report**](https://app.box.com/s/620u38n45waqn2k7tq145vin2ka66zeo){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2017_unccd.mp3" preload="auto" type="audio/mp3"></audio>
+ 
   <br/>
   
   </div>
@@ -1023,6 +1018,38 @@ $(document).ready(function(){
 
 ### 2016
 
+- #### <a href="####" data-toggle="collapse" data-target="#faoforests2016">FAO: The State of the World's Forests</a> 
+
+  <div id="faoforests2016" class="collapse">  
+
+  <a href="https://www.fao.org/publications/card/en/c/ffed061b-82e0-4c74-af43-1a999a443fbf" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_faoforests2016.png" alt="FAO Forests 2016 report cover"/>
+  </a>
+
+  #### There was a net forest loss of 7 million hectares per year in tropical countries in 2000–2010 and a net gain in agricultural land of 6 million hectares per year. The greatest net loss of forests and net gain in agricultural land over the period was in the low-income group of countries, where rural populations are growing. Large-scale commercial agriculture accounts for about 40 percent of deforestation in the tropics and subtropics, local subsistence agriculture for 33 percent, infrastructure for 10 percent, urban expansion for 10 percent and mining for 7 percent...Underlying factors affecting forest conversion include population growth and changing food consumption patterns; agricultural developments, such as changing markets, technological improvements and active policy interventions; land-tenure security; and the governance of land-use change. [***See* report**](https://www.fao.org/publications/card/en/c/ffed061b-82e0-4c74-af43-1a999a443fbf){target="_blank"}. [***Download* report**](https://app.box.com/s/85u2pbki3ylkb2ucl6mb4yxuvyjhjj8b){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2016_fao_forests.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#faofish2016">FAO: The State of World Fisheries and Aquaculture</a> 
+
+  <div id="faofish2016" class="collapse">  
+
+  <a href="https://www.fao.org/publications/card/en/c/2c8bcf47-2214-4aeb-95b0-62ddef8a982a" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_faofish2016.png" alt="FAO Fisheries 2016 report cover"/>
+  </a>
+
+  #### Many millennia after terrestrial food production shifted from hunter-gatherer activities to agriculture, aquatic food production has transitioned from being primarily based on capture of wild fish to culture of increasing numbers of farmed species. A milestone was reached in 2014 when the aquaculture sector’s contribution to the supply of fish for human consumption overtook that of wild-caught fish for the first time. Meeting the ever-growing demand for fish as food in conformity with the 2030 Agenda will be imperative, and also immensely challenging...With capture fishery production relatively static since the late 1980s, aquaculture has been responsible for the impressive growth in the supply of fish for human consumption...Growth in the global supply of fish for human consumption has outpaced population growth in the past five decades, increasing at an average annual rate of 3.2 percent in the period 1961–2013, double that of population growth, resulting in increasing average per capita availability...Thus, governance needs to ensure that fisheries and aquaculture adapt to the impacts of climate change and improve the resilience of food production systems. [***See* report**](https://www.fao.org/publications/card/en/c/2c8bcf47-2214-4aeb-95b0-62ddef8a982a){target="_blank"}. [***Download* report**](https://app.box.com/s/ncfj19wldqwit836b0o56c6b7qhvb59e){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2016_fao_fisheries.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
 - #### <a href="####" data-toggle="collapse" data-target="#ipbes2016">IPBES Assessment Report on Pollinators, Pollination and Food Production</a> 
 
   <div id="ipbes2016" class="collapse">  
@@ -1054,33 +1081,17 @@ $(document).ready(function(){
   <br/>
   
   </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#kew2016">Kew: State of the World's Plants</a> 
 
-- #### <a href="####" data-toggle="collapse" data-target="#wwf2016">World Wildlife Fund: Living Planet Report</a> 
+  <div id="kew2016" class="collapse">  
 
-  <div id="wwf2016" class="collapse">  
-
-  <a href="https://www.worldwildlife.org/pages/living-planet-report-2016" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2016.png" alt="WWF 2016 report cover"/>
+  <a href="https://kew.iro.bl.uk/concern/reports/f931f1de-72c7-46b4-b57c-28eb417c53ec?locale=en" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_kew2016.png" alt="Kew 2016 report cover"/>
   </a>
 
-  #### Under the current trajectory, the future of many living organisms in the Anthropocene is uncertain; in fact several indicators give cause for alarm. The Living Planet Index, which measures ***biodiversity*** abundance levels based on 14,152 monitored populations of 3,706 vertebrate species, shows a persistent downward trend. On average, monitored species population abundance declined by 58 per cent between 1970 and 2012. Monitored species are increasingly affected by pressures from unsustainable agriculture, fisheries, mining and other human activities that contribute to habitat loss and degradation, overexploitation, climate change and pollution. In a business-as-usual scenario, this downward trend in species populations continues into the future. [***See* report**](https://www.worldwildlife.org/pages/living-planet-report-2016){target="_blank"}. [***Download* report**](https://app.box.com/s/t2uyc1r0629chn8mrrlx44013a4ov2jz){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2016_wwf.mp3" preload="auto" type="audio/mp3"></audio>
+  #### This is the first document to collate current knowledge on the state of the world’s plants. A large team of researchers has reviewed published literature, scrutinised global databases and synthesised new datasets. The output presented here represents a status report on our knowledge of global vegetation as it stands in 2016, including a synthesis of existing information about vascular plants, new findings emerging from the review process, and an update on current knowledge gaps. [***See* report**](https://kew.iro.bl.uk/concern/reports/f931f1de-72c7-46b4-b57c-28eb417c53ec?locale=en){target="_blank"}. [***Download* report**](https://app.box.com/s/y75p3ur5496xbp9dxtx7c5wm7f80xsgd){target="_blank"}.
   
-  <br/>
-  
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#faofish2016">FAO: The State of World Fisheries and Aquaculture</a> 
-
-  <div id="faofish2016" class="collapse">  
-
-  <a href="https://www.fao.org/publications/card/en/c/2c8bcf47-2214-4aeb-95b0-62ddef8a982a" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_faofish2016.png" alt="FAO Fisheries 2016 report cover"/>
-  </a>
-
-  #### Many millennia after terrestrial food production shifted from hunter-gatherer activities to agriculture, aquatic food production has transitioned from being primarily based on capture of wild fish to culture of increasing numbers of farmed species. A milestone was reached in 2014 when the aquaculture sector’s contribution to the supply of fish for human consumption overtook that of wild-caught fish for the first time. Meeting the ever-growing demand for fish as food in conformity with the 2030 Agenda will be imperative, and also immensely challenging...With capture fishery production relatively static since the late 1980s, aquaculture has been responsible for the impressive growth in the supply of fish for human consumption...Growth in the global supply of fish for human consumption has outpaced population growth in the past five decades, increasing at an average annual rate of 3.2 percent in the period 1961–2013, double that of population growth, resulting in increasing average per capita availability...Thus, governance needs to ensure that fisheries and aquaculture adapt to the impacts of climate change and improve the resilience of food production systems. [***See* report**](https://www.fao.org/publications/card/en/c/2c8bcf47-2214-4aeb-95b0-62ddef8a982a){target="_blank"}. [***Download* report**](https://app.box.com/s/ncfj19wldqwit836b0o56c6b7qhvb59e){target="_blank"}.
-
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2016_fao_fisheries.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
@@ -1103,38 +1114,6 @@ $(document).ready(function(){
   
   </div>
 
-- #### <a href="####" data-toggle="collapse" data-target="#kew2016">Kew: State of the World's Plants</a> 
-
-  <div id="kew2016" class="collapse">  
-
-  <a href="https://kew.iro.bl.uk/concern/reports/f931f1de-72c7-46b4-b57c-28eb417c53ec?locale=en" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_kew2016.png" alt="Kew 2016 report cover"/>
-  </a>
-
-  #### This is the first document to collate current knowledge on the state of the world’s plants. A large team of researchers has reviewed published literature, scrutinised global databases and synthesised new datasets. The output presented here represents a status report on our knowledge of global vegetation as it stands in 2016, including a synthesis of existing information about vascular plants, new findings emerging from the review process, and an update on current knowledge gaps. [***See* report**](https://kew.iro.bl.uk/concern/reports/f931f1de-72c7-46b4-b57c-28eb417c53ec?locale=en){target="_blank"}. [***Download* report**](https://app.box.com/s/y75p3ur5496xbp9dxtx7c5wm7f80xsgd){target="_blank"}.
-  
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2016_fao_fisheries.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-
-- #### <a href="####" data-toggle="collapse" data-target="#faoforests2016">FAO: The State of the World's Forests</a> 
-
-  <div id="faoforests2016" class="collapse">  
-
-  <a href="https://www.fao.org/publications/card/en/c/ffed061b-82e0-4c74-af43-1a999a443fbf" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_faoforests2016.png" alt="FAO Forests 2016 report cover"/>
-  </a>
-
-  #### There was a net forest loss of 7 million hectares per year in tropical countries in 2000–2010 and a net gain in agricultural land of 6 million hectares per year. The greatest net loss of forests and net gain in agricultural land over the period was in the low-income group of countries, where rural populations are growing. Large-scale commercial agriculture accounts for about 40 percent of deforestation in the tropics and subtropics, local subsistence agriculture for 33 percent, infrastructure for 10 percent, urban expansion for 10 percent and mining for 7 percent...Underlying factors affecting forest conversion include population growth and changing food consumption patterns; agricultural developments, such as changing markets, technological improvements and active policy interventions; land-tenure security; and the governance of land-use change. [***See* report**](https://www.fao.org/publications/card/en/c/ffed061b-82e0-4c74-af43-1a999a443fbf){target="_blank"}. [***Download* report**](https://app.box.com/s/85u2pbki3ylkb2ucl6mb4yxuvyjhjj8b){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2016_fao_forests.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-
 - #### <a href="###" data-toggle="collapse" data-target="#unepfr2016">UNEP: Frontiers 2016: Emerging Issues of Environmental Concern</a> 
 
   <div id="unepfr2016" class="collapse">  
@@ -1147,6 +1126,22 @@ $(document).ready(function(){
 
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2016_unep_frontiers.mp3" preload="auto" type="audio/mp3"></audio>
 
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#wwf2016">World Wildlife Fund: Living Planet Report</a> 
+
+  <div id="wwf2016" class="collapse">  
+
+  <a href="https://www.worldwildlife.org/pages/living-planet-report-2016" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2016.png" alt="WWF 2016 report cover"/>
+  </a>
+
+  #### Under the current trajectory, the future of many living organisms in the Anthropocene is uncertain; in fact several indicators give cause for alarm. The Living Planet Index, which measures ***biodiversity*** abundance levels based on 14,152 monitored populations of 3,706 vertebrate species, shows a persistent downward trend. On average, monitored species population abundance declined by 58 per cent between 1970 and 2012. Monitored species are increasingly affected by pressures from unsustainable agriculture, fisheries, mining and other human activities that contribute to habitat loss and degradation, overexploitation, climate change and pollution. In a business-as-usual scenario, this downward trend in species populations continues into the future. [***See* report**](https://www.worldwildlife.org/pages/living-planet-report-2016){target="_blank"}. [***Download* report**](https://app.box.com/s/t2uyc1r0629chn8mrrlx44013a4ov2jz){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2016_wwf.mp3" preload="auto" type="audio/mp3"></audio>
+  
   <br/>
   
   </div>
@@ -1209,17 +1204,33 @@ $(document).ready(function(){
 
 ### 2014
 
-- #### <a href="####" data-toggle="collapse" data-target="#wwf2014">World Wildlife Fund: Living Planet Report</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#cbd2014">CBD: Global Biodiversity Outlook 4</a> 
 
-  <div id="wwf2014" class="collapse">  
+  <div id="cbd2014" class="collapse">  
 
-  <a href="https://www.worldwildlife.org/pages/living-planet-report-2014" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2014.png" alt="WWF 2014 report cover"/>
+  <a href="https://www.cbd.int/gbo4/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_cbd2014.png" alt="CBD 2014 report cover"/>
   </a>
 
-  #### A range of indicators reflecting humanity’s heavy demand upon the planet shows that we are using nature’s gifts as if we had more than just one Earth at our disposal. By taking more from our ecosystems and natural processes than can be replenished, we are jeopardizing our future. Nature conservation and sustainable development go hand-in-hand. They are not only about preserving ***biodiversity*** and wild places, but just as much about safeguarding the future of humanity – our well-being, economy, food security and social stability – indeed, our very survival. [***See* report**](https://www.worldwildlife.org/pages/living-planet-report-2014){target="_blank"}. [***Download* report**](https://app.box.com/s/k26n5jbpnzpwf81e7bgl8f9y2y0vrhmv){target="_blank"}.
+  #### There has been significant progress towards meeting some components of the majority of the Aichi Biodiversity Targets. Some target components, such as conserving at least 17 per cent of terrestrial and inland water areas, are on track to be met. However, in most cases this progress will not be sufficient to achieve the targets set for 2020, and additional action is required to keep the Strategic Plan for Biodiversity 2011–2020 on course. Key potential actions for accelerating progress towards each target are listed below. Extrapolations for a range of indicators suggest that based on current trends, pressures on ***biodiversity*** will continue to increase at least until 2020, and that the status of ***biodiversity*** will continue to decline. This is despite the fact that society’s responses to the ***loss of biodiversity*** are increasing dramatically, and based on national plans and commitments are expected to continue to increase for the remainder of this decade. [***See* report**](https://www.cbd.int/gbo4/){target="_blank"}. [***Download* report**](https://app.box.com/s/j2tk5f80u3fa9t3s06gzuc0vt0rq7rsd){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2014_wwf.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2014_cbd.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#protectedplanet2014">Protected Planet Report 2014</a> 
+
+  <div id="protectedplanet2014" class="collapse">  
+
+  <a href="https://www.iucn.org/content/protected-planet-report-2014" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2014.png" alt="Protected Planet 2014 report cover"/>
+  </a>
+
+  #### About 209,000 protected areas (PAs) cover 15.4% of the planet’s terrestrial and inland water areas, and 3.4 % of the oceans. 8.4% of all marine areas within national jurisdiction (0-200 nautical miles) are covered protected areas while only 0.25% of marine areas beyond national jurisdiction are protected. Protected areas do not sufficiently cover areas of particular importance for ***biodiversity*** (only 22-23% are completely covered by PAs), and many terrestrial and marine ecoregions are still poorly represented. There is good evidence that effectively managed PAs conserve ***biodiversity and habitats***, on land and sea. However, by 2013, only 29% of the area of nationally designated PAs had been assessed for Protected Area Management Effectiveness. [***See* report**](https://www.iucn.org/content/protected-planet-report-2014){target="_blank"}. [***Download* report**](https://app.box.com/s/3gy6gfpxmi21i9p2xxgxlzk7lpculdia){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2014_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -1241,33 +1252,17 @@ $(document).ready(function(){
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#protectedplanet2014">Protected Planet Report 2014</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#wwf2014">World Wildlife Fund: Living Planet Report</a> 
 
-  <div id="protectedplanet2014" class="collapse">  
+  <div id="wwf2014" class="collapse">  
 
-  <a href="https://www.iucn.org/content/protected-planet-report-2014" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2014.png" alt="Protected Planet 2014 report cover"/>
+  <a href="https://www.worldwildlife.org/pages/living-planet-report-2014" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2014.png" alt="WWF 2014 report cover"/>
   </a>
 
-  #### About 209,000 protected areas (PAs) cover 15.4% of the planet’s terrestrial and inland water areas, and 3.4 % of the oceans. 8.4% of all marine areas within national jurisdiction (0-200 nautical miles) are covered protected areas while only 0.25% of marine areas beyond national jurisdiction are protected. Protected areas do not sufficiently cover areas of particular importance for ***biodiversity*** (only 22-23% are completely covered by PAs), and many terrestrial and marine ecoregions are still poorly represented. There is good evidence that effectively managed PAs conserve ***biodiversity and habitats***, on land and sea. However, by 2013, only 29% of the area of nationally designated PAs had been assessed for Protected Area Management Effectiveness. [***See* report**](https://www.iucn.org/content/protected-planet-report-2014){target="_blank"}. [***Download* report**](https://app.box.com/s/3gy6gfpxmi21i9p2xxgxlzk7lpculdia){target="_blank"}.
+  #### A range of indicators reflecting humanity’s heavy demand upon the planet shows that we are using nature’s gifts as if we had more than just one Earth at our disposal. By taking more from our ecosystems and natural processes than can be replenished, we are jeopardizing our future. Nature conservation and sustainable development go hand-in-hand. They are not only about preserving ***biodiversity*** and wild places, but just as much about safeguarding the future of humanity – our well-being, economy, food security and social stability – indeed, our very survival. [***See* report**](https://www.worldwildlife.org/pages/living-planet-report-2014){target="_blank"}. [***Download* report**](https://app.box.com/s/k26n5jbpnzpwf81e7bgl8f9y2y0vrhmv){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2014_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-
-- #### <a href="####" data-toggle="collapse" data-target="#cbd2014">CBD: Global Biodiversity Outlook 4</a> 
-
-  <div id="cbd2014" class="collapse">  
-
-  <a href="https://www.cbd.int/gbo4/" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_cbd2014.png" alt="CBD 2014 report cover"/>
-  </a>
-
-  #### There has been significant progress towards meeting some components of the majority of the Aichi Biodiversity Targets. Some target components, such as conserving at least 17 per cent of terrestrial and inland water areas, are on track to be met. However, in most cases this progress will not be sufficient to achieve the targets set for 2020, and additional action is required to keep the Strategic Plan for Biodiversity 2011–2020 on course. Key potential actions for accelerating progress towards each target are listed below. Extrapolations for a range of indicators suggest that based on current trends, pressures on ***biodiversity*** will continue to increase at least until 2020, and that the status of ***biodiversity*** will continue to decline. This is despite the fact that society’s responses to the ***loss of biodiversity*** are increasing dramatically, and based on national plans and commitments are expected to continue to increase for the remainder of this decade. [***See* report**](https://www.cbd.int/gbo4/){target="_blank"}. [***Download* report**](https://app.box.com/s/j2tk5f80u3fa9t3s06gzuc0vt0rq7rsd){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2014_cbd.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2014_wwf.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -1278,6 +1273,38 @@ $(document).ready(function(){
 
 ### 2012
 
+- #### <a href="####" data-toggle="collapse" data-target="#protectedplanet2012">Protected Planet Report 2012</a> 
+
+  <div id="protectedplanet2012" class="collapse">  
+
+  <a href="https://www.iucn.org/content/protected-planet-report-2012" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2012.png" alt="Protected Planet 2014 report cover"/>
+  </a>
+
+  #### The Protected Planet Report is a new initiative that tracks global progress towards Target 11 of the Convention on Biological Diversity’s (CBD) Aichi Biodiversity Targets. Achieving this ambitious target, which calls for at least 17% of the world’s terrestrial areas and 10% of marine areas to be equitably managed and conserved by 2020, will require strong and effective partnerships: this report is an excellent example. [***See* report**](https://www.iucn.org/content/protected-planet-report-2012){target="_blank"}. [***Download* report**](https://app.box.com/s/sslp16h757bmym6mafatdmkmurehwrep){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2012_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#un2012">UN: Resilient people, resilient planet: a future worth choosing</a> 
+
+  <div id="un2012" class="collapse">  
+
+  <a href="https://digitallibrary.un.org/record/722600?ln=en" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_un2012.png" alt="UN 2012 report cover"/>
+  </a>
+
+  #### Today we stand at a crossroads. Continuing on the same path will put people and our planet at greatly heightened risk. The other path, we believe, provides extraordinary opportunity, but we must be committed and courageous in following it. Changing course will not be easy. But over time, we believe that following a more sustainable path will enhance human well-being, further global justice, strengthen gender equity and preserve the Earth’s life-support systems for future generations. Nearly 20 years after the Rio Earth Summit, the challenge — and opportunities — of sustainable development are more relevant than ever. Today we see with increasing clarity that economic growth, environmental protection and social equity are one and the same agenda: the sustainable development agenda. We cannot make lasting progress in one without progress on all. People are at the centre of our vision of sustainable development. Our report puts forth a series of core recommendations that, if implemented over time, will help lift large swathes of humanity out of dehumanizing poverty; bolster resilience; strengthen global equity, including gender equity; transform how we value goods and services and measure growth; preserve valuable ecosystems; enhance collaboration, coherence and accountability across sectors and institutions; and create a common framework for global sustainability. [***See* report**](https://digitallibrary.un.org/record/722600?ln=en){target="_blank"}. [***Download* report**](https://app.box.com/s/ip45vgw9i9h892yazs7s35858ljxyuve){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2012_un.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
+  
 - #### <a href="####" data-toggle="collapse" data-target="#unep2012">UNEP: Global Environment Outlook 5</a> 
 
   <div id="unep2012" class="collapse">  
@@ -1289,22 +1316,6 @@ $(document).ready(function(){
   #### Within the Earth System – which acts as a single, self-regulating system comprised of physical, chemical, biological and human components – the effects of human activities can be detected at a planetary scale. These have led scientists to define a new geological epoch, the Anthropocene, based on evidence that atmospheric, geological, hydrological, biological and other Earth System processes are being altered by human activity. The most readily recognized changes include a rise in global temperatures and sea levels, and ocean acidification, all associated with the increase in emissions of greenhouse gases, especially carbon dioxide and methane. Other human-induced changes include extensive deforestation and land clearance for agriculture and urbanization, causing species extinctions as natural habitats are destroyed. [***See* report**](https://www.unep.org/resources/global-environment-outlook-5){target="_blank"}. [***Download* report**](https://app.box.com/s/of1jelfupedjf5nvb03s50zmg1dlsbye){target="_blank"}.
 
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2012_unep.mp3" preload="auto" type="audio/mp3"></audio>
-  
-  <br/>
-  
-  </div>
-  
-- #### <a href="####" data-toggle="collapse" data-target="#wwf2012">World Wildlife Fund: Living Planet Report</a> 
-
-  <div id="wwf2012" class="collapse">  
-
-  <a href="https://wwf.panda.org/discover/knowledge_hub/all_publications/living_planet_report_timeline/lpr_2012/" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2012.png" alt="WWF 2012 report cover"/>
-  </a>
-
-  #### Within the vast immensity of the universe, a thin layer of life encircles a planet. Bound by rock below and space above, millions of diverse species thrive. Together, they form the ecosystems and habitats we so readily recognize as planet Earth – and which, in turn, supply a multitude of ecosystem services upon which people, and all life, depend. Ever-growing human demand for resources, however, is putting tremendous pressures on ***biodiversity***. This threatens the continued provision of ecosystem services, which not only further threatens ***biodiversity*** but also our own species’ future security, health and well-being. [***See* report**](https://wwf.panda.org/discover/knowledge_hub/all_publications/living_planet_report_timeline/lpr_2012/){target="_blank"}. [***Download* report**](https://app.box.com/s/xke341l9iowep297tlvx9nozl8sx4uqr){target="_blank"}.
-  
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2012_wwf.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -1325,62 +1336,28 @@ $(document).ready(function(){
   <br/>
     
   </div>
-
   
-- #### <a href="####" data-toggle="collapse" data-target="#protectedplanet2012">Protected Planet Report 2012</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#wwf2012">World Wildlife Fund: Living Planet Report</a> 
 
-  <div id="protectedplanet2012" class="collapse">  
+  <div id="wwf2012" class="collapse">  
 
-  <a href="https://www.iucn.org/content/protected-planet-report-2012" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_protectedplanet2012.png" alt="Protected Planet 2014 report cover"/>
+  <a href="https://wwf.panda.org/discover/knowledge_hub/all_publications/living_planet_report_timeline/lpr_2012/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_wwf2012.png" alt="WWF 2012 report cover"/>
   </a>
 
-  #### The Protected Planet Report is a new initiative that tracks global progress towards Target 11 of the Convention on Biological Diversity’s (CBD) Aichi Biodiversity Targets. Achieving this ambitious target, which calls for at least 17% of the world’s terrestrial areas and 10% of marine areas to be equitably managed and conserved by 2020, will require strong and effective partnerships: this report is an excellent example. [***See* report**](https://www.iucn.org/content/protected-planet-report-2012){target="_blank"}. [***Download* report**](https://app.box.com/s/sslp16h757bmym6mafatdmkmurehwrep){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2012_protected_planet.mp3" preload="auto" type="audio/mp3"></audio>
+  #### Within the vast immensity of the universe, a thin layer of life encircles a planet. Bound by rock below and space above, millions of diverse species thrive. Together, they form the ecosystems and habitats we so readily recognize as planet Earth – and which, in turn, supply a multitude of ecosystem services upon which people, and all life, depend. Ever-growing human demand for resources, however, is putting tremendous pressures on ***biodiversity***. This threatens the continued provision of ecosystem services, which not only further threatens ***biodiversity*** but also our own species’ future security, health and well-being. [***See* report**](https://wwf.panda.org/discover/knowledge_hub/all_publications/living_planet_report_timeline/lpr_2012/){target="_blank"}. [***Download* report**](https://app.box.com/s/xke341l9iowep297tlvx9nozl8sx4uqr){target="_blank"}.
+  
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2012_wwf.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
   </div>
-
-- #### <a href="###" data-toggle="collapse" data-target="#un2012">UN: Resilient people, resilient planet: a future worth choosing</a> 
-
-  <div id="un2012" class="collapse">  
-
-  <a href="https://digitallibrary.un.org/record/722600?ln=en" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_un2012.png" alt="UN 2012 report cover"/>
-  </a>
-
-  #### Today we stand at a crossroads. Continuing on the same path will put people and our planet at greatly heightened risk. The other path, we believe, provides extraordinary opportunity, but we must be committed and courageous in following it. Changing course will not be easy. But over time, we believe that following a more sustainable path will enhance human well-being, further global justice, strengthen gender equity and preserve the Earth’s life-support systems for future generations. Nearly 20 years after the Rio Earth Summit, the challenge — and opportunities — of sustainable development are more relevant than ever. Today we see with increasing clarity that economic growth, environmental protection and social equity are one and the same agenda: the sustainable development agenda. We cannot make lasting progress in one without progress on all. People are at the centre of our vision of sustainable development. Our report puts forth a series of core recommendations that, if implemented over time, will help lift large swathes of humanity out of dehumanizing poverty; bolster resilience; strengthen global equity, including gender equity; transform how we value goods and services and measure growth; preserve valuable ecosystems; enhance collaboration, coherence and accountability across sectors and institutions; and create a common framework for global sustainability. [***See* report**](https://digitallibrary.un.org/record/722600?ln=en){target="_blank"}. [***Download* report**](https://app.box.com/s/ip45vgw9i9h892yazs7s35858ljxyuve){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2012_un.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
-  
 
 <br/>
 <br/>
 
 ### 2011
 
-- #### <a href="####" data-toggle="collapse" data-target="#teeb2011">UNEP: The Economics of Ecosystems and Biodiversity in National and International Policy Making</a> 
-
-  <div id="teeb2011" class="collapse">  
-
-  <a href="https://wedocs.unep.org/handle/20.500.11822/28231" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_teeb2011.png" alt="TEEB 2011 report cover"/>
-  </a>
-
-  #### Damage to global ***biodiversity*** is acute and accelerating. While the overarching driver is linked to pressures from steadily rising consumption and production, we make the problem worse by excluding nature's value from our decisions - and miss opportunities for solutions. *The Economics of Ecosystems and Biodiversity in National and International Policy  Making*  provides a toolkit and a way forward. New momentum is under way to develop more balanced and accountable approaches based on nature's values and fairer distribution of its benefits. This book presents an evidence base of experience and best practices from around the world. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/28231){target="_blank"}. [***Download* report**](https://app.box.com/s/53j3f1bxq4emyth9wsq1uxn5lnkeefdy){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2011_unep_teeb.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
-  
 - #### <a href="####" data-toggle="collapse" data-target="#cbd2011">CBD: Global Biodiversity Outlook 3</a> 
 
   <div id="cbd2011" class="collapse">  
@@ -1397,27 +1374,26 @@ $(document).ready(function(){
   
   </div>
   
+- #### <a href="####" data-toggle="collapse" data-target="#teeb2011">UNEP: The Economics of Ecosystems and Biodiversity in National and International Policy Making</a> 
+
+  <div id="teeb2011" class="collapse">  
+
+  <a href="https://wedocs.unep.org/handle/20.500.11822/28231" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_teeb2011.png" alt="TEEB 2011 report cover"/>
+  </a>
+
+  #### Damage to global ***biodiversity*** is acute and accelerating. While the overarching driver is linked to pressures from steadily rising consumption and production, we make the problem worse by excluding nature's value from our decisions - and miss opportunities for solutions. *The Economics of Ecosystems and Biodiversity in National and International Policy  Making*  provides a toolkit and a way forward. New momentum is under way to develop more balanced and accountable approaches based on nature's values and fairer distribution of its benefits. This book presents an evidence base of experience and best practices from around the world. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/28231){target="_blank"}. [***Download* report**](https://app.box.com/s/53j3f1bxq4emyth9wsq1uxn5lnkeefdy){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2011_unep_teeb.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
 
 <br/>
 <br/>
 
 ### 2010
-
-- #### <a href="####" data-toggle="collapse" data-target="#unep2010">UNEP: Dead Planet, Living Planet: Biodiversity and Ecosystem Restoration for Sustainable Development</a> 
-
-  <div id="unep2010" class="collapse">  
-
-  <a href="https://wedocs.unep.org/handle/20.500.11822/7895" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_unep2010.png" alt="UNEP 2010 report cover"/>
-  </a>
-
-  #### ***Biodiversity*** and ecosystems deliver crucial services to humankind – from food security to keeping our waters clean, buffering against extreme weather, providing medicines to recreation and adding to the foundation of human culture. Together these services have been estimated to be worth over 21–72 trillion USD every year – comparable to the World Gross National Income of 58 trillion USD in 2008. Human society is however living well beyond the carrying capacity of the planet and currently over 60% of ecosystem services and their ***biodiversity*** are degrading, compromising sustainability, well being, health and security. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/7895){target="_blank"}. [***Download* report**](https://app.box.com/s/fg2lrezbvwp0n2avhu0mc13yg13atgco){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2010_unep.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
 
 - #### <a href="####" data-toggle="collapse" data-target="#caff2010">CAFF: Arctic Biodiversity Trends - Selected Indicators of Change</a> 
 
@@ -1446,6 +1422,22 @@ $(document).ready(function(){
   #### ***Biodiversity loss*** and climate change are two of the most pressing challenges of our time. Soil ***biodiversity*** is part of the solution to both. The main goal of the atlas is to inform the general public, policy makers, land managers, teachers and the general scientific community of the unique characteristics of life in soil and raise awareness of its environmental importance and global significance. Soil contains at least one quarter to one third of all living organisms on the planet yet only around 1% of soil microorganisms have been identified compared to 80% of plants. Most terrestrial ecosystem processes that sustain life on the planet (e.g. soil fertility, nutrient cycles, greenhouse gas fluxes, pollution control, antibiotics) are in fact all driven by soil biology. However, life within the soil is complex to observe (i.e. small scale and mostly hidden away) and suffers greatly by being ‘out of sight and out of mind’. [***See* report**](https://esdac.jrc.ec.europa.eu/content/atlas-soil-biodiversity){target="_blank"}. [***Download* report**](https://app.box.com/s/7qip4ghvrflqcwo07sp1mbtn6e88v23q){target="_blank"}.
 
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2010_jrc.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#unep2010">UNEP: Dead Planet, Living Planet: Biodiversity and Ecosystem Restoration for Sustainable Development</a> 
+
+  <div id="unep2010" class="collapse">  
+
+  <a href="https://wedocs.unep.org/handle/20.500.11822/7895" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unep2010.png" alt="UNEP 2010 report cover"/>
+  </a>
+
+  #### ***Biodiversity*** and ecosystems deliver crucial services to humankind – from food security to keeping our waters clean, buffering against extreme weather, providing medicines to recreation and adding to the foundation of human culture. Together these services have been estimated to be worth over 21–72 trillion USD every year – comparable to the World Gross National Income of 58 trillion USD in 2008. Human society is however living well beyond the carrying capacity of the planet and currently over 60% of ecosystem services and their ***biodiversity*** are degrading, compromising sustainability, well being, health and security. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/7895){target="_blank"}. [***Download* report**](https://app.box.com/s/fg2lrezbvwp0n2avhu0mc13yg13atgco){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2010_unep.mp3" preload="auto" type="audio/mp3"></audio>
 
   <br/>
   
@@ -1589,22 +1581,6 @@ $(document).ready(function(){
   <br/>
   
 ### 2000 - 2004
-
-- #### <a href="####" data-toggle="collapse" data-target="#wbg2004">World Bank: Ensuring the Future (2004)</a> 
-
-  <div id="wbg2004" class="collapse">  
-
-  <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/455021468323358162/ensuring-the-future-the-world-bank-and-biodiversity-1988-2004" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_wbg2004.png" alt="WBG 2004 report cover"/>
-  </a>
-
-  #### To date, the World Bank Group (WBG) is the largest single international funding source for ***biodiversity*** projects. A previous review of the full ***biodiversity*** portfolio, covering the period from 1988 until 1999, showed that the WBG approved \$2.6 billion for more than 200 projects worldwide to promote conservation and sustainable use of ***biodiversity*** in 85 countries and 10 regional, multi-country efforts. This update shows that by the end of June 2004 (FY04), the figure for total ***biodiversity*** investment has risen to $4.7 billion, signifying that the World Bank remains committed to ***biodiversity*** conservation as a significant part of its sustainable development agenda...Nevertheless, ***biodiversity*** —especially (but not only) in the developing world—still faces many threats, often from the very development that is designed to improve livelihoods and address poverty alleviation. A major challenge for the future is thus to mainstream ***biodiversity*** into government programs, normal development assistance, and poverty alleviation programs by promoting positive synergies, while minimizing the negative impacts to ***biodiversity*** of potentially damaging investments such as infrastructure development. [***See* report**](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/455021468323358162/ensuring-the-future-the-world-bank-and-biodiversity-1988-2004){target="_blank"}. [***Download* report**](https://app.box.com/s/0x85rxu3r1slfrhllknohu79bb8occla){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2004_wbg.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
   
 - #### <a href="####" data-toggle="collapse" data-target="#acia2004">Arctic Climate Impact Assessment (2004)</a> 
 
@@ -1622,17 +1598,17 @@ $(document).ready(function(){
   
   </div>
 
-- #### <a href="####" data-toggle="collapse" data-target="#unep2003">UNEP: Global Environment Outlook 3 (2003)</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#wbg2004">World Bank: Ensuring the Future (2004)</a> 
 
-  <div id="unep2003" class="collapse">  
+  <div id="wbg2004" class="collapse">  
 
-  <a href="https://wedocs.unep.org/handle/20.500.11822/8609" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_unep2003.png" alt="UNEP 2003 report cover"/>
+  <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/455021468323358162/ensuring-the-future-the-world-bank-and-biodiversity-1988-2004" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_wbg2004.png" alt="WBG 2004 report cover"/>
   </a>
 
-  #### Global ***biodiversity*** is being lost at a rate many times higher than that of natural extinction due to land conversion, climate change, pollution, unsustainable harvesting of natural resources and the introduction of exotic species. Land conversion is most intensive in tropical forests and less intensive in temperate, boreal and arctic regions; atmospheric nitrogen deposition is largest in northern temperate areas close to cities; introduction of exotic species is related to patterns of human activity. Human population growth together with unsustainable patterns of consumption, increasing production of waste and pollutants, urban development and international conflict are further contributory factors to ***biodiversity loss***. Over the past three decades, decline and extinction of species have emerged as major environmental issues. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8609){target="_blank"}. [***Download* report**](https://app.box.com/s/et0pebeh06vue6ibwekkp72u8606xb08){target="_blank"}.
+  #### To date, the World Bank Group (WBG) is the largest single international funding source for ***biodiversity*** projects. A previous review of the full ***biodiversity*** portfolio, covering the period from 1988 until 1999, showed that the WBG approved \$2.6 billion for more than 200 projects worldwide to promote conservation and sustainable use of ***biodiversity*** in 85 countries and 10 regional, multi-country efforts. This update shows that by the end of June 2004 (FY04), the figure for total ***biodiversity*** investment has risen to $4.7 billion, signifying that the World Bank remains committed to ***biodiversity*** conservation as a significant part of its sustainable development agenda...Nevertheless, ***biodiversity*** —especially (but not only) in the developing world—still faces many threats, often from the very development that is designed to improve livelihoods and address poverty alleviation. A major challenge for the future is thus to mainstream ***biodiversity*** into government programs, normal development assistance, and poverty alleviation programs by promoting positive synergies, while minimizing the negative impacts to ***biodiversity*** of potentially damaging investments such as infrastructure development. [***See* report**](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/455021468323358162/ensuring-the-future-the-world-bank-and-biodiversity-1988-2004){target="_blank"}. [***Download* report**](https://app.box.com/s/0x85rxu3r1slfrhllknohu79bb8occla){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2003_unep.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2004_wbg.mp3" preload="auto" type="audio/mp3"></audio>
 
   <br/>
   
@@ -1653,23 +1629,23 @@ $(document).ready(function(){
   <br/>
   
   </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#unep2003">UNEP: Global Environment Outlook 3 (2003)</a> 
 
-- #### <a href="####" data-toggle="collapse" data-target="#wcmcatlast2002">WCMC: World Atlas of Biodiversity: Earth's Living resources in the 21st century (2002)</a> 
+  <div id="unep2003" class="collapse">  
 
-  <div id="wcmcatlast2002" class="collapse">  
-
-  <a href="https://archive.org/details/worldatlasofbiod02groo" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_wcmcatlas2002.png" alt="WCMC Atlas 2002 report cover"/>
+  <a href="https://wedocs.unep.org/handle/20.500.11822/8609" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unep2003.png" alt="UNEP 2003 report cover"/>
   </a>
 
-  #### The diversity of life is the defining feature of planet Earth. It is unique - as far as we know - in the infinity of the universe. For 11 000 years since agriculture began, humankind has increasingly appropriated the biological resources and natural productivity of lands and seas to support the expansion of civilizations and technologies. Everything that we have achieved has its origins in living animals, plants and the communities and ecosystems of which they are a part. But it is only in the past 30 years, since the United Nations Conference on the Human Environment in Stockholm in 1972, that we have begun to recognize the limits to natures gifts. We now know that our own success is placing strain on nature's ability to evolve, diversify, cleanse our air and water and provide us with the raw materials we need for food, fuel, fiber and health...The reality is that this World Atlas of Biodiversity is of greater relevance now than at any time in the past. The world's living wealth remains the cornerstone of sustainable livelihoods and quality lifestyles in both the industrialized and developing worlds. Recognition of this fact is spreading, and the value of ***biodiversity*** in people's lives, socially, economically and environmentally, has never been more apparent than it is today. [***See* report**](https://archive.org/details/worldatlasofbiod02groo){target="_blank"}. [***Download* report**](https://app.box.com/s/yjq087l7bcmbnhqn031arfppn0aefq6k){target="_blank"}.
+  #### Global ***biodiversity*** is being lost at a rate many times higher than that of natural extinction due to land conversion, climate change, pollution, unsustainable harvesting of natural resources and the introduction of exotic species. Land conversion is most intensive in tropical forests and less intensive in temperate, boreal and arctic regions; atmospheric nitrogen deposition is largest in northern temperate areas close to cities; introduction of exotic species is related to patterns of human activity. Human population growth together with unsustainable patterns of consumption, increasing production of waste and pollutants, urban development and international conflict are further contributory factors to ***biodiversity loss***. Over the past three decades, decline and extinction of species have emerged as major environmental issues. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8609){target="_blank"}. [***Download* report**](https://app.box.com/s/et0pebeh06vue6ibwekkp72u8606xb08){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2002_wcmc.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2003_unep.mp3" preload="auto" type="audio/mp3"></audio>
 
   <br/>
   
   </div>
-  
+
 - #### <a href="####" data-toggle="collapse" data-target="#ipcc2002">IPCC: Climate Change and Biodiversity: Technical Paper V (2002)</a> 
 
   <div id="ipcc2002" class="collapse">  
@@ -1686,22 +1662,38 @@ $(document).ready(function(){
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#wcmc2001">WCMC: The 25 Largest Un-fragmented Wilderness Areas in the Arctic (2001)</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#wcmcatlast2002">WCMC: World Atlas of Biodiversity: Earth's Living resources in the 21st century (2002)</a> 
 
-  <div id="wcmc2001" class="collapse">  
+  <div id="wcmcatlast2002" class="collapse">  
 
-  <a href="https://wedocs.unep.org/handle/20.500.11822/8309" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_wcmc2001.png" alt="WCMC 2001 report cover"/>
+  <a href="https://archive.org/details/worldatlasofbiod02groo" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_wcmcatlas2002.png" alt="WCMC Atlas 2002 report cover"/>
   </a>
 
-  #### The main purpose of this project was to explore where the last remote wilderness areas, resorts for nature, man and ***biodiversity*** can be found in the Arctic, as well as the pressures they are subjected to and their main threats. Since the Arctic Environment Protection Strategy (AEPS), the awareness of large undisturbed areas in the Arctic has grown, as well as the realisation of the threats and the speed of fragmentation...All 25 sites have been described in terras of general features, ***biodiversity*** and major threats possibly leading to further fragmentation. It seemed to be too big a task to describe all the features of ***biodiversity***. In the report we focused on globally threatened and endemic or semi-endemic species with almost their entire distribution in the actual wilderness area or only one more site. In addition we listed species and where available population status for species very much reliant on large, undisturbed territories. These include mainly large bird predators and carnivores, but also migrating species among the mammals or those living in large herds, such as reindeer, musk, ox and others, particularly vulnerable to fragmentation. Among the threats we mostly focused on the exploitation of mineral resources, but also exploitation of forest and hydropower, as well as the developments in tourism. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8309){target="_blank"}. [***Download* report**](https://app.box.com/s/v0hcbygn7i81nmc4rct6vcp0n8yzo3ta){target="_blank"}.
+  #### The diversity of life is the defining feature of planet Earth. It is unique - as far as we know - in the infinity of the universe. For 11 000 years since agriculture began, humankind has increasingly appropriated the biological resources and natural productivity of lands and seas to support the expansion of civilizations and technologies. Everything that we have achieved has its origins in living animals, plants and the communities and ecosystems of which they are a part. But it is only in the past 30 years, since the United Nations Conference on the Human Environment in Stockholm in 1972, that we have begun to recognize the limits to natures gifts. We now know that our own success is placing strain on nature's ability to evolve, diversify, cleanse our air and water and provide us with the raw materials we need for food, fuel, fiber and health...The reality is that this World Atlas of Biodiversity is of greater relevance now than at any time in the past. The world's living wealth remains the cornerstone of sustainable livelihoods and quality lifestyles in both the industrialized and developing worlds. Recognition of this fact is spreading, and the value of ***biodiversity*** in people's lives, socially, economically and environmentally, has never been more apparent than it is today. [***See* report**](https://archive.org/details/worldatlasofbiod02groo){target="_blank"}. [***Download* report**](https://app.box.com/s/yjq087l7bcmbnhqn031arfppn0aefq6k){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2001_wcmc.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2002_wcmc.mp3" preload="auto" type="audio/mp3"></audio>
 
   <br/>
   
   </div>
   
+- #### <a href="####" data-toggle="collapse" data-target="#caff2001">CAFF: Arctic Flora and Fauna: Status and Conservation (2001)</a> 
+
+  <div id="caff2001" class="collapse">  
+
+  <a href="https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_caff2001.png" alt="CAFF 2001 report cover"/>
+  </a>
+
+  #### This is the first truly circumpolar overview of Arctic ***biodiversity*** and provides a clear understanding of the importance of the Earth's largest ecoregion and its status in the face of a rapidly changing world. It observes that while much of the Arctic was in its natural state and that the impacts of human activity were relatively minor, individuals, species and ecosystems throughout the Arctic faced threats from many causes, and that the long-term consequences of human impacts were unknown. It particularly noted that the information necessary to determine status and trends of Arctic fauna was fragmentary and almost non-existent for flora. [***See* report**](https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation){target="_blank"}. [***Download* report**](https://app.box.com/s/npb4z8osyf1j93wqcmal8at5zwxho8u9){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2001_caff.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
+
 - #### <a href="####" data-toggle="collapse" data-target="#cbd2001">CBD: Global Biodiversity Outlook 1 (2001)</a> 
 
   <div id="cbd2001" class="collapse">  
@@ -1718,18 +1710,17 @@ $(document).ready(function(){
   
   </div>
 
+- #### <a href="####" data-toggle="collapse" data-target="#wcmc2001">WCMC: The 25 Largest Un-fragmented Wilderness Areas in the Arctic (2001)</a> 
 
-- #### <a href="####" data-toggle="collapse" data-target="#caff2001">CAFF: Arctic Flora and Fauna: Status and Conservation (2001)</a> 
+  <div id="wcmc2001" class="collapse">  
 
-  <div id="caff2001" class="collapse">  
-
-  <a href="https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_caff2001.png" alt="CAFF 2001 report cover"/>
+  <a href="https://wedocs.unep.org/handle/20.500.11822/8309" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_wcmc2001.png" alt="WCMC 2001 report cover"/>
   </a>
 
-  #### This is the first truly circumpolar overview of Arctic ***biodiversity*** and provides a clear understanding of the importance of the Earth's largest ecoregion and its status in the face of a rapidly changing world. It observes that while much of the Arctic was in its natural state and that the impacts of human activity were relatively minor, individuals, species and ecosystems throughout the Arctic faced threats from many causes, and that the long-term consequences of human impacts were unknown. It particularly noted that the information necessary to determine status and trends of Arctic fauna was fragmentary and almost non-existent for flora. [***See* report**](https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation){target="_blank"}. [***Download* report**](https://app.box.com/s/npb4z8osyf1j93wqcmal8at5zwxho8u9){target="_blank"}.
+  #### The main purpose of this project was to explore where the last remote wilderness areas, resorts for nature, man and ***biodiversity*** can be found in the Arctic, as well as the pressures they are subjected to and their main threats. Since the Arctic Environment Protection Strategy (AEPS), the awareness of large undisturbed areas in the Arctic has grown, as well as the realisation of the threats and the speed of fragmentation...All 25 sites have been described in terras of general features, ***biodiversity*** and major threats possibly leading to further fragmentation. It seemed to be too big a task to describe all the features of ***biodiversity***. In the report we focused on globally threatened and endemic or semi-endemic species with almost their entire distribution in the actual wilderness area or only one more site. In addition we listed species and where available population status for species very much reliant on large, undisturbed territories. These include mainly large bird predators and carnivores, but also migrating species among the mammals or those living in large herds, such as reindeer, musk, ox and others, particularly vulnerable to fragmentation. Among the threats we mostly focused on the exploitation of mineral resources, but also exploitation of forest and hydropower, as well as the developments in tourism. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8309){target="_blank"}. [***Download* report**](https://app.box.com/s/v0hcbygn7i81nmc4rct6vcp0n8yzo3ta){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2001_caff.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2001_wcmc.mp3" preload="auto" type="audio/mp3"></audio>
 
   <br/>
   
@@ -1786,22 +1777,6 @@ $(document).ready(function(){
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#wcmc1997">WCMC: Industrial reliance on biodiversity (1997)</a> 
-
-  <div id="wcmc1997" class="collapse">  
-
-  <a href="https://wedocs.unep.org/handle/20.500.11822/8860" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_wcmc1997.png" alt="WCMC 1997 report cover"/>
-  </a>
-
-  #### The object of this study is to ascertain the extent of industrial reliance on ***biological diversity***; we are attempting to determine the extent to which ***biodiversity*** feeds directly into western industries, and the extent to which they rely upon it. There is a general consensus among environmental scientists that ***biological diversity*** plays a very important role in the activities of some of our industries. However, there is very little direct evidence of the degree to which the industries depend on this ***biodiversity***...The findings of the project demonstrate that ***biodiversity*** functions in two fashions, as a basic commodity and as informational input. As a commodity, ***biodiversity*** is most important in the forestry and fisheries sectors...By far the more important contribution ***biodiversity*** makes to Northern industries must be its role as an informational input in specific industries. Western society is built upon a biological foundation and two of our most important industries (agriculture and medicine) are in fact defence systems for the maintenance of this bio-foundation...***Biodiversity*** conservation is a simple matter of providing the essential foundations upon which these vital industries are built. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8860){target="_blank"}. [***Download* report**](https://app.box.com/s/zsv8gs6xkga82jw1odn4g1ktulg3bejc){target="_blank"}.
-
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/1997_wcmc.mp3" preload="auto" type="audio/mp3"></audio>
-
-  <br/>
-  
-  </div>
-
 - #### <a href="####" data-toggle="collapse" data-target="#ceq1997">CEQ: Environmental Quality Report (1997)</a> 
 
   <div id="ceq1997" class="collapse">  
@@ -1818,22 +1793,38 @@ $(document).ready(function(){
   
   </div>
   
-- #### <a href="####" data-toggle="collapse" data-target="#unepglobal1995">UNEP: Global Biodiversity Assessment (1995)</a> 
+- #### <a href="####" data-toggle="collapse" data-target="#wcmc1997">WCMC: Industrial reliance on biodiversity (1997)</a> 
 
-  <div id="unepglobal1995" class="collapse">  
+  <div id="wcmc1997" class="collapse">  
 
-  <a href="https://wedocs.unep.org/handle/20.500.11822/29355" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_unepglobal1995.png" alt="UNEP Global 1995 report cover"/>
+  <a href="https://wedocs.unep.org/handle/20.500.11822/8860" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_wcmc1997.png" alt="WCMC 1997 report cover"/>
   </a>
 
-  #### It is clear that even if the above-mentioned numbers should be regarded as only crude estimates, current extinction rates are dramatically higher than background extinction rates. For every species that goes extinct, many populations have become extinct (termed local extinction or extirpation)...Causes of extinction, i.e. those factors that make populations vulnerable to extinction in the first place, include habitat degradation (loss, change in quality and fragmentation), over-exploitation and persecution, and introductions of alien species...The rich complexity of both the physical environment and the interactions among organisms and species appears to be crucial for the maintenance and generation of ***biodiversity***. Thus, the ecosystem and its component communities appear to be very appropriate targets for conservation, because they take into account explicitly the many ecological interactions between organisms and their biotic and abiotic natural environment. A space-orientated approach up to the landscape scale may be the most appropriate tool with which to conserve the vast majority of ***biological diversity***. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/29355){target="_blank"}. [***Download* report**](https://app.box.com/s/ezzx28bhpcykj1rxhw75yt1fmlex3fp3){target="_blank"}.
+  #### The object of this study is to ascertain the extent of industrial reliance on ***biological diversity***; we are attempting to determine the extent to which ***biodiversity*** feeds directly into western industries, and the extent to which they rely upon it. There is a general consensus among environmental scientists that ***biological diversity*** plays a very important role in the activities of some of our industries. However, there is very little direct evidence of the degree to which the industries depend on this ***biodiversity***...The findings of the project demonstrate that ***biodiversity*** functions in two fashions, as a basic commodity and as informational input. As a commodity, ***biodiversity*** is most important in the forestry and fisheries sectors...By far the more important contribution ***biodiversity*** makes to Northern industries must be its role as an informational input in specific industries. Western society is built upon a biological foundation and two of our most important industries (agriculture and medicine) are in fact defence systems for the maintenance of this bio-foundation...***Biodiversity*** conservation is a simple matter of providing the essential foundations upon which these vital industries are built. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/8860){target="_blank"}. [***Download* report**](https://app.box.com/s/zsv8gs6xkga82jw1odn4g1ktulg3bejc){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/1995_unep_global.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/1997_wcmc.mp3" preload="auto" type="audio/mp3"></audio>
 
   <br/>
   
   </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#uk_bap_1995">Biodiversity: The UK Steering Group Report Volume 1 (1995)</a> 
 
+  <div id="uk_bap_1995" class="collapse">  
+
+  <a href="https://hub.jncc.gov.uk/assets/9c2e576a-31b7-4bae-a620-972d99177a1f" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_uk_bap_1995.png" alt="UK BAP 1995 report cover"/>
+  </a>
+
+  #### There are many reasons why we should conserve ***biodiversity***. We should hand on to the next generation an environment no less rich than the one we ourselves inherited; species which have evolved over many thousands of years may be lost very quickly and cannot be recreated; natural processes help to protect our planet, and in maintaining the productivity of our crops, we depend on a reservoir of wild relatives, and a pool of genetic material that we can go back to, in order to reinforce our selection. We have lost over 100 species in the UK this century, including 7% of our dragonflies, 5% of our butterflies and more than 2% of our fish and mammals. We acknowledge that policies are now more sensitive to the needs of ***biodiversity***, but more needs to be done to protect and enhance what we have. To improve air quality, we need to reduce pollutant emissions focusing on photochemical pollution and particulates. The use of water for domestic, agricultural and industrial processes can affect ***biodiversity*** in a variety of ways. Systems for producing, transmitting and using energy have a direct or indirect impact on ***biodiversity***, particularly those associated with electricity generation and transport. Agricultural and fisheries practices, minerals and aggregates extraction, urbanisation and an expanding transport network also impact upon ***biodiversity***. [***See* report**](https://hub.jncc.gov.uk/assets/9c2e576a-31b7-4bae-a620-972d99177a1f){target="_blank"}. [***Download* report**](https://app.box.com/s/8sg2f2yt8wb276s0jowx9otmd4qmjlmq){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/1995_uk.mp3" preload="auto" type="audio/mp3"></audio>
+
+  <br/>
+  
+  </div>
+  
 - #### <a href="####" data-toggle="collapse" data-target="#unepstrategy1995">UNEP: Biodiversity Programme and Implementation Strategy (1995)</a> 
 
   <div id="unepstrategy1995" class="collapse">  
@@ -1849,18 +1840,18 @@ $(document).ready(function(){
   <br/>
   
   </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#unepglobal1995">UNEP: Global Biodiversity Assessment (1995)</a> 
 
-- #### <a href="####" data-toggle="collapse" data-target="#uk_bap_1995">Biodiversity: The UK Steering Group Report Volume 1 (1995)</a> 
+  <div id="unepglobal1995" class="collapse">  
 
-  <div id="uk_bap_1995" class="collapse">  
-
-  <a href="https://hub.jncc.gov.uk/assets/9c2e576a-31b7-4bae-a620-972d99177a1f" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_uk_bap_1995.png" alt="UK BAP 1995 report cover"/>
+  <a href="https://wedocs.unep.org/handle/20.500.11822/29355" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepglobal1995.png" alt="UNEP Global 1995 report cover"/>
   </a>
 
-  #### There are many reasons why we should conserve ***biodiversity***. We should hand on to the next generation an environment no less rich than the one we ourselves inherited; species which have evolved over many thousands of years may be lost very quickly and cannot be recreated; natural processes help to protect our planet, and in maintaining the productivity of our crops, we depend on a reservoir of wild relatives, and a pool of genetic material that we can go back to, in order to reinforce our selection. We have lost over 100 species in the UK this century, including 7% of our dragonflies, 5% of our butterflies and more than 2% of our fish and mammals. We acknowledge that policies are now more sensitive to the needs of ***biodiversity***, but more needs to be done to protect and enhance what we have. To improve air quality, we need to reduce pollutant emissions focusing on photochemical pollution and particulates. The use of water for domestic, agricultural and industrial processes can affect ***biodiversity*** in a variety of ways. Systems for producing, transmitting and using energy have a direct or indirect impact on ***biodiversity***, particularly those associated with electricity generation and transport. Agricultural and fisheries practices, minerals and aggregates extraction, urbanisation and an expanding transport network also impact upon ***biodiversity***. [***See* report**](https://hub.jncc.gov.uk/assets/9c2e576a-31b7-4bae-a620-972d99177a1f){target="_blank"}. [***Download* report**](https://app.box.com/s/8sg2f2yt8wb276s0jowx9otmd4qmjlmq){target="_blank"}.
+  #### It is clear that even if the above-mentioned numbers should be regarded as only crude estimates, current extinction rates are dramatically higher than background extinction rates. For every species that goes extinct, many populations have become extinct (termed local extinction or extirpation)...Causes of extinction, i.e. those factors that make populations vulnerable to extinction in the first place, include habitat degradation (loss, change in quality and fragmentation), over-exploitation and persecution, and introductions of alien species...The rich complexity of both the physical environment and the interactions among organisms and species appears to be crucial for the maintenance and generation of ***biodiversity***. Thus, the ecosystem and its component communities appear to be very appropriate targets for conservation, because they take into account explicitly the many ecological interactions between organisms and their biotic and abiotic natural environment. A space-orientated approach up to the landscape scale may be the most appropriate tool with which to conserve the vast majority of ***biological diversity***. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/29355){target="_blank"}. [***Download* report**](https://app.box.com/s/ezzx28bhpcykj1rxhw75yt1fmlex3fp3){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/1995_uk.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/1995_unep_global.mp3" preload="auto" type="audio/mp3"></audio>
 
   <br/>
   
