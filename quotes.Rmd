@@ -52,12 +52,433 @@ $(document).ready(function(){
 
 <div class="logo"><a href="index.html"><img src="https://images.andbiodiversity.info/biodiversity_word_cloud.jpg" alt="biodiversity word cloud"/></a></div>
 
-#### Read, cite, and share quotes from major reports regarding ***biodiversity loss***.
+#### Listen to speeches, interviews, talks, and messages of environmental leaders and experts on ***biodiversity loss***.
 
 <br/>
 
----
+<div class="speeches">
 
+#### International Organization Leaders
+
+- #### <a href="####" data-toggle="collapse" data-target="#guterres2021">Antonio Guterres: UNEP Making Peace with Nature Report Release 2021</a> 
+
+  <div id="guterres2021" class="collapse">  
+  
+  <a href="https://www.unep.org/events/unep-event/launch-unep-making-peace-nature-report" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_unep.png" alt="UNEP Icon"/>
+  </a>
+  
+  #### I want to be clear. Without nature's help, we will not thrive or even survive. For too long, we have been waging a suicidal and senseless war on nature. The result is three interlinked environmental crises, climate disruption, ***biodiversity loss***, and pollution, that threaten our viability as a species. And they are caused by unsustainable production and consumption. Human well-being lies in protecting the health of the planet and it is time to re-evaluate and reset our relationship with nature. And this report can help us to do so. Today, around the world we are overexploiting and degrading the environment on land and sea. The atmosphere and ocean have become dumping grounds for our wastes. And governments are still paying more to exploit nature than to protect it. Globally, countries spend more some $4-6 billion a year on subsidies that damage the environment. And the interlinked climate, ***biodiversity***, and pollution crisis require urgent action from the whole of society from governments, but also from international organizations, from businesses, from cities, and individuals. People's choices matter. ... [***Hear* message**](https://www.unep.org/events/unep-event/launch-unep-making-peace-nature-report){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_guterres_peace_with_nature_2021.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+
+- #### <a href="####" data-toggle="collapse" data-target="#guterres2022">Antonio Guterres: Convention on Biological Diversity (CBD) COP15 Remarks 2022</a> 
+
+  <div id="guterres2022" class="collapse">  
+  
+  <a href="https://www.un.org/sg/en/content/sg/speeches/2022-12-06/secretary-generals-remarks-the-un-biodiversity-conference-%E2%80%94-cop15" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_conventionbiodiversity.png" alt="CBD Icon"/>
+  </a>
+  
+  #### Nature is humanity's best friend. Without nature, we have nothing. Without nature, we are nothing. Nature is our life-supporting system. It is the source and sustainer of the air we breathe, the food we eat, the energy we use, jobs, and economic activities we count on, the species that enrich humna life, and the landscapes and waterscapes we call home. And yet humanity seems hell-bent on destruction. We are waging war on nature. This conference is about the urgent task of making peace because today we are out of harmony with nature. In fact, we are playing an entirely different song. Around the world for hundreds of years we have conducted a cacophony of chaos, played with instruments of destruction. Deforestation and desertification are created waste lands of once thriving ecosystems. Our land, water, and air are poisoned by chemicals and pesticides and choked with plastics. Our addiction to fossil fuels has thrown our climate into chaos from heatwaves and forest fires to communities parched by heat and drought or inundated by terrifying floods...Ecosystems have become play-things of profits. With our bottomless appetite for unchecked, unequal economic growth, humanity has become a weapon of mass extinction. We are treating nature like a toilet and ultimately we are committing suicide by nature because the loss of nature and ***biodiversity*** comes with a steep cost...My friends it's time to forge a peace pact with nature. [***Hear* message**](https://www.un.org/sg/en/content/sg/speeches/2022-12-06/secretary-generals-remarks-the-un-biodiversity-conference-%E2%80%94-cop15){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_guterres_biodiversity_cop15_2022.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#moon2010">Ban Ki Moon: International Year of Biodiversity 2010</a> 
+
+  <div id="moon2010" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=7oldXRuDe_U" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_unbiodecade.png" alt="CBD Icon"/>
+  </a>
+  
+  #### Our lives are dependent on ***biological diversity***. Species and ecosystems are disappearing at an unsustainable rate. We humans are the cause. We stand to lose a wide variety of environmental goods and services that we take for granted. The consequences of economies and people will be profound...we need new vision and new efforts. Business as usual is not an option... [***Hear* message**](https://www.youtube.com/watch?v=7oldXRuDe_U){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_moon_biodiversity_year_2010.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#mrema_carbon_brief_2022">Elizabeth Mrema: Carbon Brief Interview 2022</a> 
+
+  <div id="mrema_carbon_brief_2022" class="collapse">  
+  
+  <a href="https://www.carbonbrief.org/the-carbon-brief-interview-un-biodiversity-chief-elizabeth-maruma-mrema/" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_conventionbiodiversity.png" alt="CBD Icon"/>
+  </a>
+  
+  #### There is no way they can be tackled in silos. Otherwise climate/global warming will continue, ***biodiversity loss*** will continue. And the recent years have clearly demonstrated that climate change and loss of ***biodiversity*** are intrinsically connected. And because they are connected, solutions to climate change...climate change is looking at nature-based solutions for climate change so it means ***biodiversity*** is providing solutions for climate change. Therefore, you cannot deal with climate change without nature and we cannot deal with nature and ***biodiversity*** without climate change. Thirty percent of climate mitigation and adaptation to reduce greenhouse gas emissions will come from ***biodiversity*** nature... [***Hear* message**](https://www.carbonbrief.org/the-carbon-brief-interview-un-biodiversity-chief-elizabeth-maruma-mrema/){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_mrema_carbon_brief_2022.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#mrema_climate_thought_2022">Elizabeth Mrema: Climate Thought Leader 2022</a> 
+
+  <div id="mrema_climate_thought_2022" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=LzBVFVKOs58" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_conventionbiodiversity.png" alt="CBD Icon"/>
+  </a>
+  
+  #### I grew up seeing our villages full of trees, very bushy, very cool, plenty of water. Water would be flowing throughout the year like in small streams. Water would be flowing in our banana plants which is our staple food in every each homesteads. But as I continue to grow, by the time I reached later secondary level, later university, the outlook began changing. The bush, the forest, you see more holes and spaces. The weather kept changing. And as I speak, even those rivers that I see when I get home when you see the water flowing in the streams in backyard have completely dried up. This is what made me begin asking questions to myself, what is going on?...But we know ***biodiversity*** just like all other environmental issues -they are cross-cutting issues. The challenges are cross-cutting. And therefore, governments alone or national level environmental ministries alone will not be able to solve all the challenges or to implement all the targets as expected...So, you can see even biodiversity, climate change is a primary loss of its loss and yet that same climate change depends on ***biodiversity*** as part of the solution. So, clearly the two are linked, cannot be separated, and this is what we are seeing more and more being spoken... [***Hear* message**](https://www.youtube.com/watch?v=LzBVFVKOs58){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_mrema_climate_thought_2022.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#mrema_stockholm_2022">Elizabeth Mrema: Stockholm50 Enhancing Synergies between the Rio Conventions</a> 
+
+  <div id="mrema_stockholm_2022" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=-t_-JXiXEoc" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_stockholm50.png" alt="Stockholm50 Icon"/>
+  </a>
+  
+  #### We just need to reflect thirty years ago when climate change convention, ***biodiversity*** convention, land degradation convention or to combat desertification rather were adopted. So while we are celebrating 50 years of the Human Environment Stockholm Conference, we are also celebrating 30 years this year of the three conventions. Yes, in 1992 they were negotiated as three different conventions but over the years and I think today probably I would like to hear anybody here who would say that if we are talking of solving climate change, we can solve climate change without dealing with the loss of ***biodiversity*** or without dealing with land degradation. So clearly now we are seeing these three planetary boundaries, they are intrinsically connected and actually solutions to one will have also contribute to the other and to the three all contributing to the achievements of the Sustainability Development Goals... [***Hear* message**](https://www.youtube.com/watch?v=-t_-JXiXEoc){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_mrema_stockholm50_2022.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#thiaw2022">Ibrahim Thiaw: Stockholm50 Enhancing Synergies between the Rio Conventions</a> 
+
+  <div id="thiaw2022" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=-t_-JXiXEoc" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_stockholm50.png" alt="Stockholm50 Icon"/>
+  </a>
+  
+  #### In my childhood, when I wake up I do some fishing, I do some livestock stuff, I do some farming, I do some activities from my village. I do not see my day divided between the desertification convention, the ***biodiversity*** convention, or the climate convention. My day is integrated. I have some milk, I have some fish, I have some millet. My life is basically determined by how much I can generate from the one planet, from the one land that is mine. And that is really how I see the focal points of the three conventions and more conventions, working together as one family to generate the income that is necessary for them to live decently on this planet. We only have one planet. And this is not a slogan... [***Hear* message**](https://www.youtube.com/watch?v=-t_-JXiXEoc){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_thiaw_stockholm50_2022.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#andersen_solutions_2023">Inger Andersen: Remarks at Authors' Meeting on the Seventh Global Environment Outlook 2023</a> 
+
+  <div id="andersen_solutions_2023" class="collapse">  
+  
+  <a href="https://www.unep.org/news-and-stories/speech/science-and-solutions-resilient-future" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_unep.png" alt="UNEP Icon"/>
+  </a>
+  
+  #### The aim now is to create a very different GEO from those that came before. Look, we all know the planet is in crisis because the science including previous years have told us in exhaustive details. We know that the triple planetary crisis, the crisis of climate change, nature, nature and ***biodiversity loss***, and pollution and waste crisis are threatening to sweep humanity backwards. What we need to do now is to lay out exactly how to reverse this tide so that we can surge forwards in a world of equity and prosperity. The world already knows the many of the solutions to the challenges that the planet and humanity are facing: renewables, food system reform, energy efficiency, ecosystem restoration, and much, much more. Solutions can be found quickly and implemented to help build resilience to climate change, solutions that can kickstart the long-term system transformation that will wash us up on the shores of a net zero, nature positive, and resilient world. Yet to be honest we haven't put these solutions into practice at a meaningful scale and speed...I also ask you why we have not made that progress that you know we should have made, to look at the barriers to transformation, to figure out how we tear them down... [***Hear* message**](https://www.unep.org/news-and-stories/speech/science-and-solutions-resilient-future){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_andersen_unep_geo_2023.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#andersen_unepfi_2020">Inger Andersen: UN Environment Finance Initiative Global Roundtable 2020 on Sustainable Finance</a> 
+
+  <div id="andersen_unepfi_2020" class="collapse">  
+  
+  <a href="https://www.unepfi.org/events/unepfi-roundtable/grt2020/venue-2/" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_unep.png" alt="UNEP Icon"/>
+  </a>
+  
+  #### In UNEP, we speak of the three planetary crises: the climate crisis, the nature crisis, and the pollution and waste crisis. And driven by decades of unsustainable production and consumption, these crises are destroying our natural systems upon which our economies and societies are built. We humans have altered over 75% of the terrestrial surface of our planet and we risk losing one million species on Earth. Climate change continues unabated. The science is clear and yet we remain unprepared when shocks associated with these crises occur. So, what do we need to do? We need to refresh our memories of the commitments that we have made around the world: to stabilize the climate, to protect the natural world, to stem pollution. And thereafter, we need to make very real and meaningful actions to  meet the goals that we have agreed. Such meaningful action also means shifting gear in financial sector, altering investment flows away from unsustainable production and consumption patterns: no more financing of coal; deforestation-free food, fuel, and fiber; a regulatory environment that limits pollution and protection our environment and nature... [***Hear* message**](https://www.unepfi.org/events/unepfi-roundtable/grt2020/venue-2/){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_andersen_sustainable_finance_2020.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#lambertini2021">Marco Lambertini: Convention on Biological Diversity (CBD) COP15 HLS Plenary Message 2021</a> 
+
+  <div id="lambertini2021" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=dbgkPu1jIlI" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_wwf.png" alt="WWF Icon"/>
+  </a>
+  
+  #### The evidence of our impact on the planet has never been greater. And so the awareness of the consequences not just on the natural world but on our lives, our society, our economy, our health. We need action and urgently. Science has never been clearer but we need action measured with the right ambition. That is why we need to embrace a global goal for nature like we have for climate. Global goal for nature, nature positive by 2030, so that by the end of the decade we have more nature than today not less: more forest, more fishes in the oceans and rivers, more pollinators in our countryside, more ***biodiversity*** worldwide. A global goal for nature, nature positive by 2030, that will unite government, businesses, and consumers to protect more at least 30% of land and sea, to restore more of what lost and degraded, and to drive to sustainable practices in key economic sectors that today are responsible for nature loss. Top of the list: agriculture, fishing, infrastructure, forestry, and extractive.... [***Hear* message**](https://www.youtube.com/watch?v=dbgkPu1jIlI){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_lambertini_biodiversity_cop15_2021.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+
+- #### <a href="####" data-toggle="collapse" data-target="#sarmad2022">Ovais Sarmad: Stockholm50 Enhancing Synergies between the Rio Conventions 2022</a> 
+
+  <div id="sarmad2022" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=-t_-JXiXEoc" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_stockholm50.png" alt="Stockholm50 Icon"/>
+  </a>
+  
+  #### We have 50 years since the Stockholm Declaration and 30 years since Rio Convention and there are several other numbers that float around, COP26 last year, 27 this year, 15 for the two conventions. All that what that means is all those number of years have passed since the recognition, the acknowledgment with the issue we are all trying to do deal with and not much has changed during that time in terms of the emergency, in terms of the urgency of addressing those three areas of environment: climate, ***biodiversity***, and desertification, land degradation and so. All our conventions are linked, interlinked, interdependent. And we coordinate and work very, very closely with each other but not enough because there is still lot that needs to be done. And you have facilities like GEF that provides lots of impetus to provide that coordination. One very good example was recently at GEF6...is that taking the integrated approach and programming to breaking the silos and harnessing the maximum benefits of the three Rio conventions. And I think that is a very, very good example and more needs to be done in that regard... [***Hear* message**](https://www.youtube.com/watch?v=-t_-JXiXEoc){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_sarmad_stockholm50_2022.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#zurita2021">Patricia Zurita: Convention on Biological Diversity (CBD) COP15 HLS Plenary Speech</a> 
+
+  <div id="zurita2021" class="collapse">  
+  
+  <a href="https://www.birdlife.org/news/2021/10/13/we-must-seize-this-opportunity-birdlife-ceo-speaks-at-un-biodiversity-conference/" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_birdlife.png" alt="Birdlife Icon"/>
+  </a>
+  
+  #### We know, you know, nature is in crisis. The science is unequivocal. Our very survival is at risk as well as entire ecosystems and more than a million other species. The ***biodiversity*** and pandemic crisis are in deadly lockstep with the climate crisis. We all know and agree we need, we demand, a strong post-2020 global ***biodiversity*** framework. These must set and achieve clear, measurable milestones and targets to achieve the mission of being nature positive, that is, halting and reversing the loss of ***biodiversity*** by conserving and restoring it by 2030...Now must be the turning point where we stop trashing and destroying nature. Now is the moment to overwhelmingly redress our dangerous and violent relationship with the planet and demand from ourselves, our governments, and all players action not words. Many young people have a finely tuned ear for what they call blah blah blah. My daughters have an uncanny ability to see through our words. Let us prove them wrong. Prove to my daughters and your children and grandchildren that transformational change is not empty words but concrete and measurable action in our daily lives and our daily acts. Ambitions and aspirations alone will not save nature, will not reverse climate change, and will not prevent the next pandemic. Only action will... [***Hear* message**](https://www.birdlife.org/news/2021/10/13/we-must-seize-this-opportunity-birdlife-ceo-speaks-at-un-biodiversity-conference/){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_zurita_biodiversity_cop15_2021.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+  <br/>
+  
+#### Thought Leaders and Influencers
+
+- #### <a href="####" data-toggle="collapse" data-target="#attenborough2022">David Attenborough and Inger Andersen UNEP Interview 2022</a> 
+
+  <div id="attenborough2022" class="collapse">  
+  
+  <a href="https://www.unep.org/news-and-stories/press-release/david-attenborough-receives-uns-most-distinguished-environment-award" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_unep.png" alt="UNEP Icon"/>
+  </a>
+  
+  #### You know the United Nations, we are in a new era. The United Nations, without them, we will never solve the environmental crisis. The world has to get together. We are living in a new era in which nationalism is simply not enough. Nationalism...we must wave goodbye to it. We must feel we are all citizens of this one planet because unless we do we will not solve the problems...We know what the problems are and we know how to solve them. All we lack is unified action. These problems cannot be solved by one nation, no matter how big that one single nation is. The air we breathe was within hours ago across another continent. We are all one...The most evocative pictures you can present are pictures of animals. They are understood around the world. A picture with a gorilla with a baby moves the hearts of every single human being on this planet. And we now have the technical devices in which we can present these things so that people can see what fantastic riches the world has and we can explain how we depend on them, how we are part of them, and that when we are saving them, we are saving ourselves... [***Hear* message**](https://www.unep.org/news-and-stories/press-release/david-attenborough-receives-uns-most-distinguished-environment-award
+){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_attenborough_anderson_interview_2022.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#attenborough2021">David Attenborough: UNFCCC COP26 Speech 2021</a> 
+
+  <div id="attenborough2021" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=o7EpiXViSIQ" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_unfccc.png" alt="UNFCCC Icon"/>
+  </a>
+  
+  #### ...A new industrial revolution powered by a million sustainable innovations is essential and is indeed already beginning. We will all share in the benefits: affordable clean energy, healthier and enough food to sustain us all. Nature is a key ally. Wherever we restore the wild, it will recapture carbon and help us bring back balance to our planet. And as we work to build a better world, we must acknowledge no nation has completed its development because no advanced nation is yet sustainable. All have a journey still to compete so that all nations have a good standard of living and modest footprint...We are a force powerful enough to destabilize our planet. Surely, working together we are powerful enough to save it. In my lifetime I have witnessed a terrible decline. In yours, you could and should witness a wonderful recovery... [***Hear* message**](https://www.youtube.com/watch?v=o7EpiXViSIQ){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_attenborough_cop26_2021.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#goodall2021">Jane Goodall: Message for Earth Day 2021</a> 
+
+  <div id="goodall2021" class="collapse">  
+  
+  <a href="https://news.janegoodall.org/2021/04/21/dr-jane-goodalls-message-for-earth-day-2021/" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_goodallinstitute.png" alt="Jane Goodall Institute Icon"/>
+  </a>
+  
+  #### Earth Day 2021. It should be a day to celebrate the existence of planet Earth with is amazing ***diversity of plants and animal species***, its beautiful forests, oceans, rivers, wetlands, and prairies, and all of its wonderful habitats -a small green and blue sphere circling the sun...So, Earth Day is a day to reflect not only on the wonders of our planet but also the harm we humans have inflicted on it...I was somewhere in space looking down on my sister Earth so threatened by human activities. The waves of the sea seemed to be asking me to clean the water from the pollution and plastic, and the fish wanted to be saved from huge drift nets, and all the animals of the ocean were desperate for a way to escape the non-stop terrible sonar noise. It was making their lives unbearable. The trees were reaching towards me with their branches even as giant machines were slicing through their living trunks and the forest were weeping with tears of sap, begging to be saved. The tall golden grass of one of the small remaining patches of prairies were sighing in the wind and everywhere the animals were reaching towards me, frogs and water birds pleaded as their homes were relentlessly drained for yet another industrial complex. Elephants and rhinos, lions and tigers, pangolins, bears, and sharks cried out as they were killed for their tusks and horns and scales, bile and fins... [***Hear* message**](https://news.janegoodall.org/2021/04/21/dr-jane-goodalls-message-for-earth-day-2021/){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_goodall_earth_day_2021.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+  <br/>
+  
+#### Scientists and Experts
+
+- #### <a href="####" data-toggle="collapse" data-target="#portner2021">Hans-Otto Pörtner: IPBES-IPCC Workshop on Biodiversity and Climate Change</a> 
+
+  <div id="portner2021" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=tWDztGuxTHE" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/report_ipbesipcc2021.png" alt="IPBES IPCC Report Icon"/>
+  </a>
+  
+  #### Climate change and ***biodiversity loss*** are indeed two of the biggest challenges of the Anthropocene. At the same time, they are interconnected...they are under the same problem of human interference in how the planet functions. And they are interdependent as climate influences ***biodiversity*** and vice versa. So from a scientific point of view, it is therefore key to bring climate and ***biodiversity*** together. It is beneficial also to bring them together at the political level and to design solution policies based on synergies between the two...human well-being depends on solving these issues... [***Hear* message**](https://www.youtube.com/watch?v=tWDztGuxTHE){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_portner_ipbes_ipcc_2020.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+  
+- #### <a href="####" data-toggle="collapse" data-target="#baste2021">Ivar Baste: Ask a Scientist 2021</a> 
+
+  <div id="baste2021" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=ZJzZtQXPPJ0" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_unep.png" alt="UNEP Icon"/>
+  </a>
+  
+  #### So what is the most important environmental issue? Well actually, the most important environmental issue is that we have to transform our relationship with nature so that we address the climate crisis, the ***biodiversity crisis***, and the pollution and waste crisis. So we are on track to a global warming of 3 degrees within this century, that is quite disastrous actually, 1 million of 8 million plants and animal species are at risk of extinction. We really depend on them and is also a senseless thing to move towards. Finally, on pollution 9 million lives every year are lost prematurely to air pollution, water pollution and toxic substances. And besides are waters and oceans are choking with plastic. So these are interrelated crisis actually, reinforcing each other and a result of same underlying driver which is the tremendous expansion of human activities over the last century... [***Hear* message**](https://www.youtube.com/watch?v=ZJzZtQXPPJ0){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_baste_ask_a_scientist_2021.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#rockstrom2022">Johan Rockström: Nature Positive for a Net Zero Future 2022</a> 
+
+  <div id="rockstrom2022" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=ZAbM6J_uP2I" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_potsdam.png" alt="Potsdam Institute Icon"/>
+  </a>
+  
+  #### This is to give you the scientific update on why action on climate change requires also investments in a massive scale in nature positive which includes multiple benefits for ***biodiversity***, climate stability, and the planetary resilience. We are today in the midst of the Anthropocene, a geological epoch where we are now the dominating force of change on the entire planet. We know that this is playing out in four interconnected crises. We are all talking about the climate crisis. We are in the tail end, hopefully, of the COVID-19 crisis, a pandemic that originates from unsustainable exploitation of nature habitats with a zoonosis that spills over from wildlife via domestic animals to humans. We have the Ukraine geopolitical instability in the world. We are also having the ecological crisis and this is a crisis today of massive scale. We are in the sixth mass extinction of species. The intergovernmental platform on ***biodiversity*** and ecosystem services concludes the drama: we are at risk o losing 1 million of 8 million known species; 70% of the populations of animal species have been lost in one generation since 1970. We are undermining the functions in the Earth System that can provide good lives, well-being, and development for humanity... [***Hear* message**](<LINK>){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_rockstrom_nature_positive_2022.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+
+- #### <a href="####" data-toggle="collapse" data-target="#dasgupta2022">Partha Dasgupta: Economic Value of Nature 2022</a> 
+
+  <div id="dasgupta2022" class="collapse">  
+  
+  <a href="https://www.unep.org/news-and-stories/story/renowned-economist-strives-calculate-value-nature" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_unep.png" alt="UNEP Icon"/>
+  </a>
+  
+  #### It is the beauty the drew me first. All around you are these nature's factories: the birds that go pollinate, squirrels taking nuts and burying them, and all the things that are under our ground. This bewildering tapestry of things that are happening, many of which are unobservable, invisible, and yet they are making the atmosphere in which we humans can survive but nature does not appear in economics. Let's make that quite clear...When you read economic forecasts they talk about investments in factories and employment rates, GDP growth. They never mention what is happening in the ecosystems. So, I tried to reconstruct economics by placing the human economy as embedded in nature. My intention is on the productivity of nature and showing how economic possibilities are entirely dependent on this finite entity we call nature. Global demand for nature's goods and services exceed nature's ability to supply them on a sustainable basis...GDP will not count that destruction. You can have a growing GDP but put huge pressure on the biosphere, leading to ***biodiversity loss***, climate change... [***Hear* message**](https://www.unep.org/news-and-stories/story/renowned-economist-strives-calculate-value-nature){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_dasgupta_nature_value_2022.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#scholes2020">Robert Scholes: IPBES-IPCC Workshop on Biodiversity and Climate Change</a> 
+
+  <div id="scholes2020" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=tWDztGuxTHE" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/report_ipbesipcc2021.png" alt="IPBES IPCC Report Icon"/>
+  </a>
+  
+  #### Like him and many of the other participants, I've worked on both sides of the climate and ***biodiversity*** fence and now I am especially enthusiastic about working to make sure that the fence in fact disappears and we have one seamless message...The meeting report...will provide a very important input into ongoing and future assessments by both IPCC and IPBES. This will then inform policy and provide science-based evidence and options how to develop solutions that keep both areas in mind and avoid maladaptation where one issue may benefit at the expense of the other. This is particularly important within the context of risk management within an uncertain future environment... [***Hear* message**](https://www.youtube.com/watch?v=tWDztGuxTHE){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_scholes_ipbes_ipcc_2020.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+
+- #### <a href="####" data-toggle="collapse" data-target="#watson2019">Robert Watson: Climate Change and Biodiversity Loss Talk 2019</a> 
+
+  <div id="watson2019" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=TAwqbtUmNTY" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_ipbes.png" alt="IPBES Icon"/>
+  </a>
+  
+  #### We humans are destroying ***biodiversity***. We are degrading our ecosystems. We're causing land degradation and we are changing the Earth's climate. These are not just environmental issues. They are development issues, they are economic issues, they are social, security, and ethical issues. And this is what we have to get across to people. They really are fundamental to human well-being whether you are in a rich country or a poor country. And unfortunately, most of the problems being caused by the rich countries and the people most adversely affected are poor people in developing countries. There are 20 or so-called ***biodiversity*** Aichi targets...they will not be met by most countries in most parts of the world. The 1.5 to 2 degree target of the Paris Agreement will not be met not with the current pledges anyway. And the time for action is clearly now and in fact the time for action was ten years ago, twenty years ago, and thirty years ago. And the message is a whole bunch of big environmental assessments. There's GEO6 run by UNEP. There's Intergovernmental Panel on Climate Change. There's IPBES. And we are all saying the same things. We need rapid, transformative changes across the world if we are going to deal with climate, loss of biodiversity, and land degradation. And if we don't deal with them, we will not meet most of the UN Sustainability Goals.... [***Hear* message**](https://www.youtube.com/watch?v=TAwqbtUmNTY){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_watson_climate_and_biodiversity_2019.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#diaz2020">Sandra Diaz: GGBC Annual Biodiversity Lecture 2020</a> 
+
+  <div id="diaz2020" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=DM-MVenSN_g" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_ipbes.png" alt="IPBES Icon"/>
+  </a>
+  
+  #### I will start with our most fundamental message and that message is: nature and the contributions it provides are fundamental to all people around the world. People no matter who they are, no matter where they are, are sustained inextricably and interwoven with the fabric of life. We refer to this fabric of life simply as nature all the way from the most pristine and remote forest to your garden. Nature provides materials for fetals, physical and cultural continuity and underpins all dimensions of human health, and support identity. Nature is the basis for our images and our stories. We are not truly ourselves without nature. And many of these contributions are not satisfactorily replaceable by human assets. But paradoxically, there is now incontestable evidence that nature and many its present contributions to human quality of life and its capacity to continue providing such benefits in the future are deteriorating fast worldwide. It's true that more food and energy and raw materials than ever before are now being supplied to people across distant regions. But this comes at a price. Globally, since the 70s, out of 18 general categories of nature's contributions to people assessed by IPBES, 14 have declined. This means that the increases in production and associated waste are undermining nature's capacity to regulate processes and regenerate itself, the capacity of nature to provide non-material contributions to people, and increasingly ensure nature's ability to provide all contributions in the future including materials ones... [***Hear* message**](https://www.youtube.com/watch?v=DM-MVenSN_g){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_diaz_ggbc_lecture_2020.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#diaz2022">Sandra Diaz: Think Globally, Act Locally Conversation 2022</a> 
+
+  <div id="diaz2022" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=2evanT7zPro" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_conicet.png" alt="CONICET Icon"/>
+  </a>
+  
+  #### People often ask me how do I rate the ***biodiversity crisis*** as compared to the climate change crisis and the poverty and inequality crisis? I think people like this question because they see ***biodiversity*** as the animals and plants are quite separate from us. From science tells us that living nature is much more than an inventory of species. Living nature as you say is the fabric of life, the living fabric of the planet, the interrelated in which all the living including us humans are interwoven. And this living fabric is the essential to functioning of planet and to human well-being. Unfortunately, we have now incontestable evidence that the living fabric of the Earth is being unraveled fast. And the ultimate reason why this is happening is the present dominant model of appropriating nature, doing business, and relating to each other. So, runaway climate change, massive ***biodiversity loss***, and intolerable social and environmental inequalities among people are simply the three most serious symptoms of same root problem. Therefore, they cannot be an appropriate solution for these three existential challenges without tackling them together in a coordinated way and without realizing that the living fabric of the Earth is at the core of the three challenges... [***Hear* message**](https://www.youtube.com/watch?v=2evanT7zPro){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_diaz_conversation_2022.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#steffan2022">Will Stefan: Planetary Boundaries 2022 Update</a> 
+
+  <div id="steffan2022" class="collapse">  
+  
+  <a href="https://www.youtube.com/watch?v=B1vSWPsjknI" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/planetary_boundaries_2022.png" alt="Planetary Boundaries 2022 Icon"/>
+  </a>
+  
+  #### But we tend to forget we are transforming the ***biosphere*** directly just as much and perhaps even more than we are transforming the climate. There was a big equivalent study...published in 2019, the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services. They came up with a number of very important conclusions from this very exhaustive study. Here are the most important. Nature is now declining at rates unprecedented in human history. About 1 million animal and plant species, that's out of a total of about 8 or 9 animal and plant species, are now threatened with extinction. In other words, we have now entered the Sixth Great Mass Extinction event in the history of Earth. And they sum it up by the web of life on Earth on which we all depend are getting smaller and increasingly frayed... [***Hear* message**](https://www.youtube.com/watch?v=B1vSWPsjknI){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/steffan_planetary_boundaries_2022.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#steffan2012">Will Steffan: On Sustainability 2012</a> 
+
+  <div id="steffan2012" class="collapse">  
+  
+  <a href="https://www.cifor.org/knowledge/video/PlcuqfNzYSQ" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_cifor.png" alt="CIFOR Icon"/>
+  </a>
+  
+  #### When people talk about sustainability, it is very common to hear the three pillars that is: economic, social, and environmental. And again, this goes back to our earlier conversation about trade-offs. People say well maybe we have to trade off some environmental value because we need to develop economically or maybe we maybe we need to not develop economically here because it is too damaging to ***biodiversity*** and environment so we have to trade them off. What we did when we looked at the planetary boundaries in particular and may also work at other scales is that they are not three equal pillars that you trade off. It is in fact what we call a nested hierarchy. Think of three circles one inside the other one. The big circle on the outside is the environment. And if you don't think that is important, think about how you are going to try to live when the environment really goes bad if we lose oxygen in the atmosphere, if we have a climate that isn't stable, if we can't derive ecosystem services because we lost too much biodiversity. So I like to tell people don't use the word environment, use the word life-support system because that is what it is. We are dependent on it for our very existence... [***Hear* message**](https://www.cifor.org/knowledge/video/PlcuqfNzYSQ){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/steffan_sustainability_2012.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+</div>
+  
+<br/>
+<br/>
+
+
+#### Read, cite, and share quotes from major reports regarding ***biodiversity loss***.
+
+---
 
 <div class="accordion-wrapper">
 
