@@ -349,14 +349,22 @@
   .reports_banner {
      display: flex;
      flex-direction: column;
+     flex-flow: wrap;
      text-align: center;
      margin: 0 auto;
+     justify-content: center;
   }
-  .banner_img {
+  .report_banner_img {
      height: 100px;
      margin: 0 5px;
   }
-  .banner_img:hover { 
+  .quote_img_container {
+     flex-flow: wrap;
+  }
+  .quote_banner_img {
+     height: 60px;
+  }
+  .report_banner_img:hover, .quote_banner_img:hover { 
      transform: scale(3);
    }
   
@@ -658,9 +666,13 @@
           max-height: 100px
       }
 
-      .banner_img {
+      .report_banner_img {
           height: 80px;
           margin: 0 5px;
+      }
+
+      .quote_banner_img {
+          height: 30px;
       }
 
       #bottom_icons img:hover,

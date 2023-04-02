@@ -56,6 +56,22 @@ $(document).ready(function(){
 
 <br/>
 
+<div class="reports_banner">
+<div class="quote_img_container"><img class="quote_banner_img" src="https://images.andbiodiversity.info/icon_birdlife.png" alt="Birdlife Icon"/></div>
+<div class="quote_img_container"><img class="quote_banner_img" src="https://images.andbiodiversity.info/icon_cifor.png" alt="CIFOR Icon"/></div>
+<div class="quote_img_container"><img class="quote_banner_img" src="https://images.andbiodiversity.info/icon_conventionbiodiversity.png" alt="CBD Icon"/></div>
+<div class="quote_img_container"><img class="quote_banner_img" src="https://images.andbiodiversity.info/icon_goodallinstitute.png" alt="Jane Goodall Institute Icon"/></div>
+<div class="quote_img_container"><img class="quote_banner_img" src="https://images.andbiodiversity.info/icon_ipbes.png" alt="IPBES Icon"/></div>
+<div class="quote_img_container"><img class="quote_banner_img" src="https://images.andbiodiversity.info/icon_potsdam.png" alt="Potsdam Institute Icon"/></div>
+<div class="quote_img_container"><img class="quote_banner_img" src="https://images.andbiodiversity.info/icon_stockholm50.png" alt="Stockholm50 Icon"/></div>
+<div class="quote_img_container"><img class="quote_banner_img" src="https://images.andbiodiversity.info/icon_unep.png" alt="UNEP Icon"/></div>
+<div class="quote_img_container"><img class="quote_banner_img" src="https://images.andbiodiversity.info/icon_unfccc.png" alt="UNFCCC Icon"/></div>
+<div class="quote_img_container"><img class="quote_banner_img" src="https://images.andbiodiversity.info/icon_wwf.png" alt="WWF Icon"/></div>
+</div>
+
+<br/>
+<br/>
+
 <div class="speeches">
 
 #### International Organization Leaders
@@ -84,7 +100,7 @@ $(document).ready(function(){
      <img class="speech_img" src="https://images.andbiodiversity.info/icon_conventionbiodiversity.png" alt="CBD Icon"/>
   </a>
   
-  #### Nature is humanity's best friend. Without nature, we have nothing. Without nature, we are nothing. Nature is our life-supporting system. It is the source and sustainer of the air we breathe, the food we eat, the energy we use, jobs, and economic activities we count on, the species that enrich humna life, and the landscapes and waterscapes we call home. And yet humanity seems hell-bent on destruction. We are waging war on nature. This conference is about the urgent task of making peace because today we are out of harmony with nature. In fact, we are playing an entirely different song. Around the world for hundreds of years we have conducted a cacophony of chaos, played with instruments of destruction. Deforestation and desertification are created waste lands of once thriving ecosystems. Our land, water, and air are poisoned by chemicals and pesticides and choked with plastics. Our addiction to fossil fuels has thrown our climate into chaos from heatwaves and forest fires to communities parched by heat and drought or inundated by terrifying floods...Ecosystems have become play-things of profits. With our bottomless appetite for unchecked, unequal economic growth, humanity has become a weapon of mass extinction. We are treating nature like a toilet and ultimately we are committing suicide by nature because the loss of nature and ***biodiversity*** comes with a steep cost...My friends it's time to forge a peace pact with nature. [***Hear* message**](https://www.un.org/sg/en/content/sg/speeches/2022-12-06/secretary-generals-remarks-the-un-biodiversity-conference-%E2%80%94-cop15){target="_blank"}.
+  #### Nature is humanity's best friend. Without nature, we have nothing. Without nature, we are nothing. Nature is our life-supporting system. It is the source and sustainer of the air we breathe, the food we eat, the energy we use, jobs, and economic activities we count on, the species that enrich human life, and the landscapes and waterscapes we call home. And yet humanity seems hell-bent on destruction. We are waging war on nature. This conference is about the urgent task of making peace because today we are out of harmony with nature. In fact, we are playing an entirely different song. Around the world for hundreds of years we have conducted a cacophony of chaos, played with instruments of destruction. Deforestation and desertification are creating waste lands of once thriving ecosystems. Our land, water, and air are poisoned by chemicals and pesticides and choked with plastics. Our addiction to fossil fuels has thrown our climate into chaos from heatwaves and forest fires to communities parched by heat and drought or inundated by terrifying floods...Ecosystems have become play-things of profits. With our bottomless appetite for unchecked, unequal economic growth, humanity has become a weapon of mass extinction. We are treating nature like a toilet and ultimately we are committing suicide by nature because the loss of nature and ***biodiversity*** comes with a steep cost...My friends it's time to forge a peace pact with nature. [***Hear* message**](https://www.un.org/sg/en/content/sg/speeches/2022-12-06/secretary-generals-remarks-the-un-biodiversity-conference-%E2%80%94-cop15){target="_blank"}.
 
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_guterres_biodiversity_cop15_2022.mp3" preload="auto" type="audio/mp3"></audio>
   
@@ -100,7 +116,7 @@ $(document).ready(function(){
      <img class="speech_img" src="https://images.andbiodiversity.info/icon_unbiodecade.png" alt="CBD Icon"/>
   </a>
   
-  #### Our lives are dependent on ***biological diversity***. Species and ecosystems are disappearing at an unsustainable rate. We humans are the cause. We stand to lose a wide variety of environmental goods and services that we take for granted. The consequences of economies and people will be profound...we need new vision and new efforts. Business as usual is not an option... [***Hear* message**](https://www.youtube.com/watch?v=7oldXRuDe_U){target="_blank"}.
+  #### Our lives are dependent on ***biological diversity***. Species and ecosystems are disappearing at an unsustainable rate. We humans are the cause. We stand to lose a wide variety of environmental goods and services that we take for granted. The consequences of economies and people will be profound especially for the world's poorest people. In 2002, world leaders agreed to substantially reduce the rate of ***biodiversity loss*** by 2010. We know already that the ***biodiversity*** target will not be met. We need new vision and new efforts. Business as usual is not an option. For this international year of biodiversity, I call on every country and each citizen of our planet to join together in the global alliance to protect life on Earth. ***Biodiversity*** is life. ***Biodiversity*** is our life. [***Hear* message**](https://www.youtube.com/watch?v=7oldXRuDe_U){target="_blank"}.
 
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_moon_biodiversity_year_2010.mp3" preload="auto" type="audio/mp3"></audio>
   
@@ -284,6 +300,22 @@ $(document).ready(function(){
   #### ...A new industrial revolution powered by a million sustainable innovations is essential and is indeed already beginning. We will all share in the benefits: affordable clean energy, healthier and enough food to sustain us all. Nature is a key ally. Wherever we restore the wild, it will recapture carbon and help us bring back balance to our planet. And as we work to build a better world, we must acknowledge no nation has completed its development because no advanced nation is yet sustainable. All have a journey still to compete so that all nations have a good standard of living and modest footprint...We are a force powerful enough to destabilize our planet. Surely, working together we are powerful enough to save it. In my lifetime I have witnessed a terrible decline. In yours, you could and should witness a wonderful recovery... [***Hear* message**](https://www.youtube.com/watch?v=o7EpiXViSIQ){target="_blank"}.
 
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_attenborough_cop26_2021.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="####" data-toggle="collapse" data-target="#goodall2022">Jane Goodall: Message for Earth Day 2022</a> 
+
+  <div id="goodall2022" class="collapse">  
+  
+  <a href="https://news.janegoodall.org/2022/04/21/jane-earth-day-22/" target="_blank">
+     <img class="speech_img" src="https://images.andbiodiversity.info/icon_goodallinstitute.png" alt="Jane Goodall Institute Icon"/>
+  </a>
+  
+  #### Hello, today is Earth Day. It's a day to think about the planet, Mother Earth. I am sure that all of you have seen photos of planet Earth shot from space: a small green and blue globe surrounded by the cold black immensity of space. What is so wonderful about this little planet of ours is that during the millions of years of evolution it supports such a ***rich variety of lifeforms*** from microscopic bacteria and algae to whales and elephants and the giant redwoods. There are some species that live in the Earth such as earthworms and naked mole rats, others that fly like butterflies and beetles and birds and bats. Some spend all or almost all their time in trees like sloths and galegos and spider monkeys. Some move ever so slowly across the land like tortoises while others like cheetahs can run really fast. Then there are all those who spend their entire lives in the water: the corals and fish and whales, while others like otters and penguins spend time on land but are really good swimmers. Then think about the hundreds and thousands of plants and trees and fungi and ferns. What an amazing tapestry of living things! We humans are just one species but oh dear our footprint on the planet is gigantic... [***Hear* message**](https://news.janegoodall.org/2022/04/21/jane-earth-day-22/){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/speech_goodall_earth_day_2022.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -477,6 +509,23 @@ $(document).ready(function(){
 
 
 #### Read, cite, and share quotes from major reports regarding ***biodiversity loss***.
+
+<br/>
+
+<div class="reports_banner">
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_unep2022.png" alt="UNEP 2022 report cover"/>
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_wwf2022.png" alt="WWF 2022 report cover"/>
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_unccd2022.png" alt="UNCCD 2022 report cover"/>
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_uneprestoration2021.png" alt="UNEP Restoration 2021 report cover"/>
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_ipbesipcc2021.png" alt="IPBES-IPCC 2021 report cover"/>
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_unepblueprint2021.png" alt="UNEP Blueprint report cover"/>
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_dasgupta2021.png" alt="Dasgupta Review 2021 report cover"/>
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_wwf2020.png" alt="WWF 2020 report cover"/>
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_ipbes2019.png" alt="IPBES 2019 report cover"/>
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_mea2005.png" alt="MEA 2005 report cover"/>
+</div>
+
+<br/>
 
 ---
 
