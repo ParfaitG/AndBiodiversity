@@ -11,6 +11,7 @@ output:
 
 ```{r, echo=FALSE}
 library(metathis)
+library(DT)
 
 meta(
 ) |> meta_general(
@@ -192,8 +193,36 @@ RMarkdown site created by ParfaitG with source code.
   
 - #### [**York University Ecological Footprint Initiative & Global Footprint Network**](https://data.footprintnetwork.org){target="_blank"}  
   #### Data materials and outputs assessing national footprint and biocapacity accounts across the world
-  
-<br/>
+
+---
+
+#### **IUCN RedList by Kingdom and Class**
+[**Data Source**](https://www.iucnredlist.org/statistics){target="_blank"}
+
+```{r echo=FALSE}
+redlist_df <- read.csv(
+  paste0(
+    "https://s3.us-east-2.amazonaws.com/media.andbiodiversity.info/",
+    "data_iucn_redlist_species.csv"
+  ),
+  check.names = FALSE
+)
+
+DT::datatable(
+  data = redlist_df,
+  options = list(scrollX = TRUE, searching=FALSE, columnDefs = list(list(
+    targets = "_all",
+    render = JS(
+      "function(data, type, row, meta) {",
+      "return type === 'display' && data != null && data.length > 30 ?",
+      "'<span title=\"' + data + '\">' + data.substr(0, 30) + '...</span>' : data;",
+      "}")
+  ))),
+  rownames = FALSE
+) |> formatStyle("Wiki Description","white-space"="nowrap")
+```
+
+---
 
 ### Regional
 
@@ -230,8 +259,36 @@ RMarkdown site created by ParfaitG with source code.
   
 - #### [**World Agroforestry: Resource Centre**](https://www.worldagroforestry.org/resource-centre){target="_blank"}  
   #### Resource platform supporting the World Agroforestry research work including applications, databases, manual, models, portals, toolkits, tools, and websites.
-  
-<br/>
+
+---
+
+#### **BGCI Plant Threat Summary by Major Group**
+[**Data Source**](https://tools.bgci.org/threat_search.php){target="_blank"}  
+
+```{r echo=FALSE}
+bgci_plant_threat_df <- read.csv(
+  paste0(
+    "https://s3.us-east-2.amazonaws.com/media.andbiodiversity.info/",
+    "data_bgci_plant_threats.csv"
+  ),
+  check.names = FALSE
+)
+
+DT::datatable(
+  data = bgci_plant_threat_df,
+  options = list(scrollX = TRUE, searching=FALSE, columnDefs = list(list(
+    targets = "_all",
+    render = JS(
+      "function(data, type, row, meta) {",
+      "return type === 'display' && data != null && data.length > 30 ?",
+      "'<span title=\"' + data + '\">' + data.substr(0, 30) + '...</span>' : data;",
+      "}")
+  ))),
+  rownames = FALSE
+)
+```
+
+---
 
 ### Animals
 
@@ -270,14 +327,41 @@ RMarkdown site created by ParfaitG with source code.
 - #### [**WWF Terrestrial Ecoregions Of The World (Biomes) in ArcGIS**](https://www.arcgis.com/apps/View/index.html?appid=d60ec415febb4874ac5e0960a6a2e448){target="_blank"}  
   #### ArcGIS app to explore the world's 800+ terrestial ecoregions classified in 14 different biome types
 
-<br/>
+---
+
+#### **WWF Terrestrial Ecoregions of the World**
+[**Data Source**](https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world){target="_blank"}
+
+```{r echo=FALSE}
+eco_regions_df <- read.csv(
+  paste0(
+    "https://s3.us-east-2.amazonaws.com/media.andbiodiversity.info/",
+    "data_wwf_terrestrial_ecoregions.csv"
+  ),
+  check.names = FALSE
+)
+
+DT::datatable(
+  data = eco_regions_df,
+  options = list(scrollX = TRUE, searching=FALSE, columnDefs = list(list(
+    targets = "_all",
+    render = JS(
+      "function(data, type, row, meta) {",
+      "return type === 'display' && data != null && data.length > 30 ?",
+      "'<span title=\"' + data + '\">' + data.substr(0, 30) + '...</span>' : data;",
+      "}")
+  ))),
+  rownames = FALSE
+)
+```
+
+---
 
 ### Ocean
 
 - #### [**Ocean Biodiversity Information System (OBIS)**](https://obis.org/){target="_blank"}  
   #### Global open-access data and information clearing-house on marine biodiversity for science, conservation and sustainable
 
-<br/>
 <br/>
 
 ## Research
@@ -467,7 +551,6 @@ RMarkdown site created by ParfaitG with source code.
 
 #
 
-<br/>
 <br/>
 
 ---
