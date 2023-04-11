@@ -492,7 +492,7 @@ DT::datatable(
 #### IPBES Global Assessment Animation: Direct Drivers of Biodiversity Loss
 
 <div class="framecontainer">
-  <iframe src="https://player.vimeo.com/video/334457422" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe sandbox="allow-same-origin allow-scripts allow-presentation" src="https://player.vimeo.com/video/334457422" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br/>
@@ -500,7 +500,7 @@ DT::datatable(
 #### Greenpeace: Biodiversity loss from land use
 
 <div class="framecontainer">
-  <iframe src="https://player.vimeo.com/video/385534892" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe sandbox="allow-same-origin allow-scripts allow-presentation" src="https://player.vimeo.com/video/385534892" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br/>
@@ -508,7 +508,7 @@ DT::datatable(
 #### OECD: The Impact of Nitrogen Pollution
 
 <div class="framecontainer">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZvKXHQM6soo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe sandbox="allow-same-origin allow-scripts allow-presentation" src="https://www.youtube.com/embed/ZvKXHQM6soo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br/>
@@ -516,7 +516,7 @@ DT::datatable(
 #### Royal Society: Why is Biodiversity Important?
 
 <div class="framecontainer">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/GlWNuzrqe7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe sandbox="allow-same-origin allow-scripts allow-presentation" src="https://www.youtube.com/embed/GlWNuzrqe7U" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br/>
@@ -524,7 +524,7 @@ DT::datatable(
 #### UNCCD: Desertification
 
 <div class="framecontainer">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/_j1t9mdVic4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></iframe>
+  <iframe sandbox="allow-same-origin allow-scripts allow-presentation" src="https://www.youtube.com/embed/_j1t9mdVic4" title="YouTube video player" frameborder="0" allowfullscreen></iframe></iframe>
 </div>
 
 <br/>
@@ -532,7 +532,7 @@ DT::datatable(
 #### World Bank: Biodiversity: Putting Nature at the Core of Development Efforts
 
 <div class="framecontainer">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/PELz_amYt6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe sandbox="allow-same-origin allow-scripts allow-presentation" src="https://www.youtube.com/embed/PELz_amYt6s" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br/>
@@ -540,7 +540,7 @@ DT::datatable(
 #### WWF: Untangled: Biodiversity Loss
 
 <div class="framecontainer">
-  <iframe src="https://www.youtube.com/embed/KM0EZP5ijbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe sandbox="allow-same-origin allow-scripts allow-presentation" src="https://www.youtube.com/embed/KM0EZP5ijbA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br/>
