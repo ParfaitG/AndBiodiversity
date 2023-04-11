@@ -210,7 +210,7 @@ redlist_df <- read.csv(
 
 DT::datatable(
   data = redlist_df,
-  options = list(scrollX = TRUE, searching=FALSE, columnDefs = list(list(
+  options = list(dom='lftip', filter="top", scrollX = TRUE, columnDefs = list(list(
     targets = "_all",
     render = JS(
       "function(data, type, row, meta) {",
@@ -276,7 +276,7 @@ bgci_plant_threat_df <- read.csv(
 
 DT::datatable(
   data = bgci_plant_threat_df,
-  options = list(scrollX = TRUE, searching=FALSE, columnDefs = list(list(
+  options = list(dom='lftip', searching=TRUE, scrollX = TRUE, columnDefs = list(list(
     targets = "_all",
     render = JS(
       "function(data, type, row, meta) {",
@@ -343,7 +343,7 @@ eco_regions_df <- read.csv(
 
 DT::datatable(
   data = eco_regions_df,
-  options = list(scrollX = TRUE, searching=FALSE, columnDefs = list(list(
+  options = list(dom='lftip', scrollX = TRUE, columnDefs = list(list(
     targets = "_all",
     render = JS(
       "function(data, type, row, meta) {",

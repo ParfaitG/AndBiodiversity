@@ -190,7 +190,7 @@
      margin-top: -45px !important;
      text-align: center !important;
   }
-  input {
+  .accordion input {
       position: absolute;
       opacity: 0;
       z-index: -1;
@@ -282,14 +282,14 @@
      font-size: 1.5vh;
   }
 
-  input:checked + .accordion-label {
+  .accordion input:checked + .accordion-label {
       background: rgba(128,181,51,1);
   }
-  input:checked + .accordion-label::after {
+  .accordion input:checked + .accordion-label::after {
       -webkit-transform: rotate(90deg);
       transform: rotate(90deg);
   }
-  input:checked ~ .accordion-content {
+  .accordion input:checked ~ .accordion-content {
       max-height: 100vh;
       padding: 16px;
   }
