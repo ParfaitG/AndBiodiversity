@@ -26,7 +26,8 @@
   .collapse a::after,
   .logo_container a::after, 
    #figs-gallery a::after,
-  .cites a::after {
+  .cites a::after,
+  .humor-column a::after{
     content: '';
     margin: 0;
   }
@@ -168,6 +169,8 @@
      text-align: center;
      display: flex;
      flex-direction: column;
+     align-items: center;
+     justify-content: center;
   }
   .banner img {
      width: 350px;
@@ -185,11 +188,12 @@
   .banner a:active {
      color: #fff
   }
-  .banner p {
+  .banner .pic-source {
      color: #fff;
      margin-top: -45px !important;
      text-align: center !important;
   }
+
   .accordion input {
       position: absolute;
       opacity: 0;
@@ -493,6 +497,45 @@
      float: left;
   }
 
+  .humor-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .humor-column {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .humor-column img {
+     height: 200px;
+     border-radius: 30px;
+     border-top: 1px rgba(128,181,51) solid;
+     border-left: 1px rgba(128,181,51) solid;
+     border-bottom: 25px rgba(128,181,51) solid;
+     border-right: 1px rgba(128,181,51) solid;
+  }
+  .humor-column img:hover { 
+     transform: scale(2);
+   }
+
+  .humor-column a:link, 
+  .humor-column a:visited, 
+  .humor-column a:hover, 
+  .humor-column a:active {
+     color: #fff
+  }
+  .humor-column .humor-source {
+     color: #fff;
+     margin-top: -20px !important;
+     text-align: center !important;
+  }
+
   .footer {
      bottom: 0;
      width: 100%;
@@ -714,17 +757,26 @@
       }
       .icons td::before,
       .docs td::before {
-          float: left;
-          font-weight: bold;
-          text-transform: uppercase;
+         float: left;
+         font-weight: bold;
+         text-transform: uppercase;
       }
       .icons, .docs {
-          width: 200px;
+         width: 200px;
       }
 
       .framecontainer {
-          width: auto;
-          object-fit: cover
+         width: auto;
+         object-fit: cover
+      }
+      .humor-row {
+         justify-content: center;
+      }
+      .humor-column img {
+         height: auto;
+      }
+     .humor-column img:hover { 
+         transform: none;
       }
 
       .footer {
@@ -818,3 +870,5 @@
       border-right: 14px solid black;
     }
   }
+
+
