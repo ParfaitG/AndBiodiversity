@@ -609,22 +609,22 @@ DT::datatable(
 
 <div class="humor-row">
 <div class="humor-column">
-<a href="http://www.seppo.net/cartoons/displayimage.php?pid=1555" target="_blank">
-<img src="http://www.seppo.net/cartoons/albums/cartoons/nature/conservation/normal_pandemia_pangolin_e.jpg" alt="Cartoon on children questioning the pandemic source"/>
+<a href="https://www.martinpm.info/tag/biodiversity/" target="_blank">
+<img src="https://www.martinpm.info/wp-content/uploads/2023/02/COP15_-_Capsule4ENG_p002b-800x800.jpg" alt="COP15 Comic on Protecting 30% of Earth and Nature Positive"/>
 </a>
-<p class="humor-source">Source: [Seppo.net](http://www.seppo.net/cartoons/displayimage.php?pid=1555){target="_blank"}</p>
+<p class="humor-source">Source: [Martin PM](https://www.martinpm.info/tag/biodiversity/){target="_blank"}</p>
+</div>
+<div class="humor-column">
+<a href="https://greenfinanceobservatory.org/cartoons-2/joke2/" target="_blank">
+<img src="https://i0.wp.com/greenfinanceobservatory.org/wp-content/uploads/2020/10/joke2.png?ssl=1" alt="Cartoon on nature capital"/>
+</a>
+<p class="humor-source">Source: [Green Finance Observatory](https://greenfinanceobservatory.org/cartoons-2/joke2/){target="_blank"}</p>
 </div>
 <div class="humor-column">
 <a href="https://conservationbytes.com/2013/06/03/cartoon-guide-to-biodiversity-loss-xix/" target="_blank">
 <img src="https://coreybradshaw.files.wordpress.com/2011/12/fantasy-creatures.jpg?w=510" alt="Cartoon on fantasy creatures in future"/>
 </a>
 <p class="humor-source">Source: [Conservation Bytes](https://conservationbytes.com/2013/06/03/cartoon-guide-to-biodiversity-loss-xix/){target="_blank"}</p>
-</div>
-<div class="humor-column">
-<a href="https://www.cagle.com/tag/sustainable-development/" target="_blank">
-<img src="https://image.cagle.com/225047/750/225047.png" alt="Cartoon on contradiction of sustainable development"/>
-</a>
-<p class="humor-source">Source: [Cagle](https://www.cagle.com/tag/sustainable-development/){target="_blank"}</p>
 </div>
 </div>
 
@@ -636,10 +636,10 @@ DT::datatable(
 <p class="humor-source">Source: [Conservation Bytes](https://coreybradshaw.files.wordpress.com/2015/04/entering-the-holocene.jpg){target="_blank"}</p>
 </div>
 <div class="humor-column">
-<a href="https://www.martinpm.info/tag/biodiversity/" target="_blank">
-<img src="https://www.martinpm.info/wp-content/uploads/2023/02/COP15_-_Capsule4ENG_p002b-800x800.jpg" alt="COP15 Comic on Protecting 30% of Earth and Nature Positive"/>
+<a href="https://www.cagle.com/tag/sustainable-development/" target="_blank">
+<img src="https://image.cagle.com/225047/750/225047.png" alt="Cartoon on contradiction of sustainable development"/>
 </a>
-<p class="humor-source">Source: [Martin PM](https://www.martinpm.info/tag/biodiversity/){target="_blank"}</p>
+<p class="humor-source">Source: [Cagle](https://www.cagle.com/tag/sustainable-development/){target="_blank"}</p>
 </div>
 <div class="humor-column">
 <a href="https://conservationbytes.com/2011/12/30/cartoon-guide-to-biodiversity-loss-xiv/" target="_blank">
