@@ -350,6 +350,22 @@
      height: 100%;
   }
 
+  .icons_banner {
+     display: flex;
+     flex-direction: column;
+     flex-flow: wrap;
+     text-align: center;
+     margin: 0 auto;
+     justify-content: center;
+  }
+  .icon_banner_img {
+     height: 50px;
+     margin: 0;
+  }
+  .icon_banner_img:hover {
+    opacity: 0.7
+  }
+
   .reports_banner {
      display: flex;
      flex-direction: column;
