@@ -69,8 +69,6 @@ $(document).ready(function(){
 
 ---
 
-<br/>
-
 <div class="accordion-wrapper" id="learnmore">
 <div class="accordion">
   <input type="radio" name="radio-a" id="check1" checked>

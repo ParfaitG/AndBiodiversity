@@ -70,8 +70,6 @@ $(document).ready(function(){
 
 ---
 
-<br/>
-
 ```{r echo=FALSE}
 library(pixture)
 ```

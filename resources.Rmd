@@ -15,7 +15,7 @@ library(DT)
 
 meta(
 ) |> meta_general(
-  description = "Online information resource to provide external links to news, resources, and affiliations regarding biodiversity loss."
+  description = "Online information resource to provide external links to news, data, resources, and affiliations regarding biodiversity loss."
 ) |> meta_social(
   url = "https://andbiodiversity.info/resources.html",
   title = "And Biodiversity | Resources",
@@ -68,7 +68,7 @@ $(document).ready(function(){
 <img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon" title="soil"/>
 </div>
 
-<br/>
+---
 
 # {.tabset .tabset-fade .tabset-pills}
 
@@ -563,124 +563,120 @@ DT::datatable(
 ## Humor
 
 <div class="humor-container">
-<div class="humor-row">
+
 <div class="humor-column">
 <a href="https://www.cagle.com/paresh-nath/2019/05/extinction-issue" target="_blank">
 <img src="https://image.cagle.com/225393/750/225393.png" alt="Political cartoon on biodiversity with giant elephant in room"/>
 </a>
 <p class="humor-source">Source: [Cagle](https://www.cagle.com/paresh-nath/2019/05/extinction-issue){target="_blank"}</p>
+
+<a href="https://www.greenhumour.com/2022/11/" target="_blank">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjr2TDBtA5Ym8wtMKX5saNmA6CncJeekaL8Qxq70PF7RS2v6xIbvjZfRimNR4WvNM6U-OVC5aeDtAZ3jcqwEkw2Mg_5wl47QDn2qyVGCPitizEEtIe98hOMq9u2T2G2tJhTAevNk9gua1njGU2OYcTQF7390JmmturBGyl0JdR8YYeLSfuGvz_FM6HpPQ/s16000/16th%20november%20graygreen_1gh.jpg" alt="Cartoon on Nature-Based Solutions"/>
+</a>
+<p class="humor-source">Source: [Green Humour](https://www.greenhumour.com/2022/11/){target="_blank"}</p>
+
+<a href="https://conservationbytes.com/2017/04/26/cartoon-guide-to-biodiversity-loss-xli/" target="_blank">
+<img src="https://coreybradshaw.files.wordpress.com/2015/11/12196187_544242802395561_744714913392894310_n.jpg?w=510" alt="Cartoon on palm oil tree planting"/>
+</a>
+<p class="humor-source">Source: [Conservation Bytes](https://conservationbytes.com/2017/04/26/cartoon-guide-to-biodiversity-loss-xli/){target="_blank"}</p>
+
+<a href="https://www.martinpm.info/tag/biodiversity/" target="_blank">
+<img src="https://www.martinpm.info/wp-content/uploads/2023/02/COP15_-_Capsule4ENG_p002b-800x800.jpg" alt="COP15 Comic on Protecting 30% of Earth and Nature Positive"/>
+</a>
+<p class="humor-source">Source: [Martin PM](https://www.martinpm.info/tag/biodiversity/){target="_blank"}</p>
+
+<a href="https://coreybradshaw.files.wordpress.com/2015/04/entering-the-holocene.jpg" target="_blank">
+<img src="https://coreybradshaw.files.wordpress.com/2015/04/entering-the-holocene.jpg?w=510" alt="Cartoon on Earth leaving the holocene"/>
+</a>
+<p class="humor-source">Source: [Conservation Bytes](https://coreybradshaw.files.wordpress.com/2015/04/entering-the-holocene.jpg){target="_blank"}</p>
+
+<a href="https://www.cartooningforpeace.org/en/editos/save-biodiversity/" target="_blank">
+<img src="https://www.cartooningforpeace.org/wp-content/uploads/2019/05/02-ANTONIO-RODRIGUEZ-ENVIRONNEMENT-BIODIVERSITE-190509-e1557411403376.jpg" alt="Cartoon of animals standing on unstable cliff"/>
+</a>
+<p class="humor-source">Source: [Cartooning for Peace](https://www.cartooningforpeace.org/en/editos/save-biodiversity/){target="_blank"}</p>
+
 </div>
+
+
 <div class="humor-column">
 <a href="https://www.ramsar.org/activity/world-wetlands-day-2010" target="_blank">
 <img src="https://www.ramsar.org/sites/default/files/wwd2010-comic-e.jpg" alt="Cartoon on wetland protection"/>
 </a>
 <p class="humor-source">Source: [Ramsar](https://www.ramsar.org/activity/world-wetlands-day-2010){target="_blank"}</p>
-</div>
-</div>
 
-<div class="humor-row">
-<div class="humor-column">
-<a href="https://www.greenhumour.com/2022/11/" target="_blank">
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjr2TDBtA5Ym8wtMKX5saNmA6CncJeekaL8Qxq70PF7RS2v6xIbvjZfRimNR4WvNM6U-OVC5aeDtAZ3jcqwEkw2Mg_5wl47QDn2qyVGCPitizEEtIe98hOMq9u2T2G2tJhTAevNk9gua1njGU2OYcTQF7390JmmturBGyl0JdR8YYeLSfuGvz_FM6HpPQ/s16000/16th%20november%20graygreen_1gh.jpg" alt="Cartoon on Nature-Based Solutions"/>
-</a>
-<p class="humor-source">Source: [Green Humour](https://www.greenhumour.com/2022/11/){target="_blank"}</p>
-</div>
-<div class="humor-column">
 <a href="https://sustainabilityillustrated.com/en/sustainability-cartoons/" target="_blank">
 <img src="https://sustainabilityillustrated.com/en/files/2019/04/Ocean-International-Waters.png" alt="Cartoon on Ocean Pollution"/>
 </a>
 <p class="humor-source">Source: [Sustainability Illustrated](https://sustainabilityillustrated.com/en/sustainability-cartoons/){target="_blank"}</p>
+
+<a href="https://www.cagle.com/tag/asian-carp/" target="_blank">
+<img src="https://image.cagle.com/132539/750/132539.png" alt="Cartoon on invasive species"/>
+</a>
+<p class="humor-source">Source: [Cagle](https://www.cagle.com/tag/asian-carp/){target="_blank"}</p>
+
+<a href="https://greenfinanceobservatory.org/cartoons-2/joke2/" target="_blank">
+<img src="https://i0.wp.com/greenfinanceobservatory.org/wp-content/uploads/2020/10/joke2.png?ssl=1" alt="Cartoon on nature capital"/>
+</a>
+<p class="humor-source">Source: [Green Finance Observatory](https://greenfinanceobservatory.org/cartoons-2/joke2/){target="_blank"}</p>
+
+<a href="https://www.cartooningforpeace.org/en/editos/save-biodiversity/" target="_blank">
+<img src="https://www.cartooningforpeace.org/wp-content/uploads/2019/05/04-MAARTEN-WOLTERINK-ENVIRONNEMENT-BIODIVERSITE-EXTINCTION-190509Online255-e1557411507882.jpg" alt="Cartoon of human hand erasing a sketch of a rhinoceros"/>
+</a>
+<p class="humor-source">Source: [Cartooning for Peace](https://www.cartooningforpeace.org/en/editos/save-biodiversity/){target="_blank"}</p>
+
+<a href="https://www.cagle.com/tag/sustainable-development/" target="_blank">
+<img src="https://image.cagle.com/225047/750/225047.png" alt="Cartoon on contradiction of sustainable development"/>
+</a>
+<p class="humor-source">Source: [Cagle](https://www.cagle.com/tag/sustainable-development/){target="_blank"}</p>
+
+<a href="https://coreybradshaw.files.wordpress.com/2015/04/entering-the-holocene.jpg?w=510" target="_blank">
+<img src="https://coreybradshaw.files.wordpress.com/2015/04/biodiversity.gif?w=510" alt="Cartoon on past and future species"/>
+</a>
+<p class="humor-source">Source: [Conservation Bytes](https://coreybradshaw.files.wordpress.com/2015/04/entering-the-holocene.jpg?w=510){target="_blank"}</p>
+
+<a href="https://conservationbytes.com/2011/03/22/cartoon-guide-to-biodiversity-loss-xi/" target="_blank">
+<img src="https://coreybradshaw.files.wordpress.com/2010/10/growth-destruction.jpg" target="_blank">
+</a>
+<p class="humor-source">Source: [Conservation Bytes](https://conservationbytes.com/2011/03/22/cartoon-guide-to-biodiversity-loss-xi/){target="_blank"}</p>
+
 </div>
+
 <div class="humor-column">
 <a href="https://www.cagle.com/tag/deforestation/page/3/" target="_blank">
 <img src="https://image.cagle.com/224480/750/224480.png" alt="Cartoon on Ocean Pollution"/>
 </a>
 <p class="humor-source">Source: [Cagle](https://www.cagle.com/tag/deforestation/page/3/){target="_blank"}</p>
-</div>
-</div>
 
-<div class="humor-row">
-<div class="humor-column">
-<a href="https://conservationbytes.com/2017/04/26/cartoon-guide-to-biodiversity-loss-xli/" target="_blank">
-<img src="https://coreybradshaw.files.wordpress.com/2015/11/12196187_544242802395561_744714913392894310_n.jpg?w=510" alt="Cartoon on palm oil tree planting"/>
-</a>
-<p class="humor-source">Source: [Conservation Bytes](https://conservationbytes.com/2017/04/26/cartoon-guide-to-biodiversity-loss-xli/){target="_blank"}</p>
-</div>
-<div class="humor-column">
-<a href="https://www.cagle.com/tag/asian-carp/" target="_blank">
-<img src="https://image.cagle.com/132539/750/132539.png" alt="Cartoon on invasive species"/>
-</a>
-<p class="humor-source">Source: [Cagle](https://www.cagle.com/tag/asian-carp/){target="_blank"}</p>
-</div>
-<div class="humor-column">
 <a href="https://sustainabilityillustrated.com/en/2018/04/17/carbon-offset/" target="_blank">
 <img src="https://sustainabilityillustrated.com/en/files/2018/04/Carbon-Offset-EN.png" alt="Cartoon on carbon offsets"/>
 </a>
 <p class="humor-source">Source: [Sustainability Illustrated](https://sustainabilityillustrated.com/en/2018/04/17/carbon-offset/){target="_blank"}</p>
-</div>
-</div>
 
-<div class="humor-row">
-<div class="humor-column">
-<a href="https://www.martinpm.info/tag/biodiversity/" target="_blank">
-<img src="https://www.martinpm.info/wp-content/uploads/2023/02/COP15_-_Capsule4ENG_p002b-800x800.jpg" alt="COP15 Comic on Protecting 30% of Earth and Nature Positive"/>
-</a>
-<p class="humor-source">Source: [Martin PM](https://www.martinpm.info/tag/biodiversity/){target="_blank"}</p>
-</div>
-<div class="humor-column">
-<a href="https://greenfinanceobservatory.org/cartoons-2/joke2/" target="_blank">
-<img src="https://i0.wp.com/greenfinanceobservatory.org/wp-content/uploads/2020/10/joke2.png?ssl=1" alt="Cartoon on nature capital"/>
-</a>
-<p class="humor-source">Source: [Green Finance Observatory](https://greenfinanceobservatory.org/cartoons-2/joke2/){target="_blank"}</p>
-</div>
-<div class="humor-column">
 <a href="https://conservationbytes.com/2013/06/03/cartoon-guide-to-biodiversity-loss-xix/" target="_blank">
 <img src="https://coreybradshaw.files.wordpress.com/2011/12/fantasy-creatures.jpg?w=510" alt="Cartoon on fantasy creatures in future"/>
 </a>
 <p class="humor-source">Source: [Conservation Bytes](https://conservationbytes.com/2013/06/03/cartoon-guide-to-biodiversity-loss-xix/){target="_blank"}</p>
-</div>
-</div>
 
-<div class="humor-row">
-<div class="humor-column">
-<a href="https://coreybradshaw.files.wordpress.com/2015/04/entering-the-holocene.jpg" target="_blank">
-<img src="https://coreybradshaw.files.wordpress.com/2015/04/entering-the-holocene.jpg?w=510" alt="Cartoon on Earth leaving the holocene"/>
-</a>
-<p class="humor-source">Source: [Conservation Bytes](https://coreybradshaw.files.wordpress.com/2015/04/entering-the-holocene.jpg){target="_blank"}</p>
-</div>
-<div class="humor-column">
-<a href="https://www.cagle.com/tag/sustainable-development/" target="_blank">
-<img src="https://image.cagle.com/225047/750/225047.png" alt="Cartoon on contradiction of sustainable development"/>
-</a>
-<p class="humor-source">Source: [Cagle](https://www.cagle.com/tag/sustainable-development/){target="_blank"}</p>
-</div>
-<div class="humor-column">
 <a href="https://conservationbytes.com/2011/12/30/cartoon-guide-to-biodiversity-loss-xiv/" target="_blank">
 <img src="https://coreybradshaw.files.wordpress.com/2011/04/bp_dec10_deforestation_tt.jpg" alt="Cartoon on deforestation"/>
 </a>
 <p class="humor-source">Source: [Conservation Bytes](https://conservationbytes.com/2011/12/30/cartoon-guide-to-biodiversity-loss-xiv/){target="_blank"}</p>
-</div>
-</div>
 
-<div class="humor-row">
-<div class="humor-column">
-<a href="https://sustainabilityillustrated.com/en/2018/06/12/more-plastic-than-fish-in-2050/" target="_blank">
-<img src="https://sustainabilityillustrated.com/en/files/2018/06/Plastic-Ocean-Cartoon.png" alt="Cartoon on fish vs plastic ratio across time"/>
-</a>
-<p class="humor-source">Source: [Sustainability Illustrated](https://sustainabilityillustrated.com/en/2018/06/12/more-plastic-than-fish-in-2050/){target="_blank"}</p>
-</div>
-<div class="humor-column">
-<a href="https://coreybradshaw.files.wordpress.com/2015/04/entering-the-holocene.jpg?w=510" target="_blank">
-<img src="https://coreybradshaw.files.wordpress.com/2015/04/biodiversity.gif?w=510" alt="Cartoon on past and future species"/>
-</a>
-<p class="humor-source">Source: [Conservation Bytes](https://coreybradshaw.files.wordpress.com/2015/04/entering-the-holocene.jpg?w=510){target="_blank"}</p>
-</div>
-<div class="humor-column">
 <a href="https://conservationbytes.com/2017/04/26/cartoon-guide-to-biodiversity-loss-xli/" target="_blank">
 <img src="https://coreybradshaw.files.wordpress.com/2015/07/1qe5xu-aust-79.jpg?w=510" alt="Cartoon on species for zoo visit"/>
 </a>
 <p class="humor-source">Source: [Conservation Bytes](https://conservationbytes.com/2017/04/26/cartoon-guide-to-biodiversity-loss-xli/){target="_blank"}</p>
-</div>
+
+<a href="https://sustainabilityillustrated.com/en/2018/06/12/more-plastic-than-fish-in-2050/" target="_blank">
+<img src="https://sustainabilityillustrated.com/en/files/2018/06/Plastic-Ocean-Cartoon.png" alt="Cartoon on fish vs plastic ratio across time"/>
+</a>
+<p class="humor-source">Source: [Sustainability Illustrated](https://sustainabilityillustrated.com/en/2018/06/12/more-plastic-than-fish-in-2050/){target="_blank"}</p>
+
+<a href="https://www.greenhumour.com/2016/11/" target="_blank">
+<img src="https://4.bp.blogspot.com/-Q5I3nWEjAAg/WDmJ7_N_y8I/AAAAAAAAId4/1joRD2S-lZkUeh50ZtJBhiu4YduPju1lQCLcB/s1600/oil%2Bpalm%2Bvs%2Brainforests%2Bvertical%2Bcopy%2Bcopy.JPG" alt="Cartoon on monoculture tree planting"/>
+</a>
+<p class="humor-source">Source: [Green Humour](https://www.greenhumour.com/2016/11/"){target="_blank"}</p>
+
 </div>
 </div>
 

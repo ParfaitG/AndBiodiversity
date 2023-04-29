@@ -66,7 +66,20 @@ $(document).ready(function(){
 
 #### Review key findings and links to major global reports over the last 50+ years regarding biodiversity loss and natural environment.
 
-<br/>
+<div class="icons_banner">
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon" title="tree"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_elephant_gray.png" alt="elephant icon" title="elephant"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon" title="fish"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_kelp_green.png" alt="kelp icon" title="kelp"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_atmosphere.png" alt="atmosphere" title="atmosphere"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_insect.png" alt="insect icon" title="insect"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_ocean_blue.png" alt="ocean icon" title="ocean"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon" title="wetlands"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon" title="monkey"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon" title="soil"/>
+</div>
+
+---
 
 <div class="reports_banner">
 <img class="report_banner_img" src="https://images.andbiodiversity.info/report_unwater2023.png" alt="UN Water 2023 report cover"/>
