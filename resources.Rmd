@@ -189,6 +189,9 @@ RMarkdown site created by ParfaitG with source code.
 - #### [**IUCN Red List of Threatened Species**](https://www.iucnredlist.org/resources/grid){target="_blank"}  
   #### The most comprehensive information source on the global extinction risk status of animal, fungus and plant species
 
+- #### [**Map of Life**](https://mol.org){target="_blank"}
+  #### Map of Life assembles and integrates different sources of data describing species distributions worldwide. These data include expert species range maps, species occurrence points, ecoregions, and protected areas from providers like IUCN, WWF, GBIF, and more. 
+
 - #### [**NASA Earth Data: Biological Diversity and Ecological Forecasting**](https://www.earthdata.nasa.gov/learn/biodiversity-data-resources){target="_blank"}  
   #### NASA Earth observation data are a key component of research into the causes behind changes in biodiversity and the impacts of these changes.
 
