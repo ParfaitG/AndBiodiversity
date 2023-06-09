@@ -149,6 +149,20 @@ $(document).ready(function(){
   
   </div>
   
+- #### <a href="###" data-toggle="collapse" data-target="#shareaction2023">ShareAction: Point of No Returns 2023 Part IV: Climate and Biodiversity</a> 
+
+  <div id="shareaction2023" class="collapse">  
+
+  <a href="https://shareaction.org/reports/point-of-no-returns-2023-part-iv-climate-and-biodiversity" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_shareaction2023.png" alt="ShareAction 2023 report cover"/>
+  </a>
+
+  #### Our environment is being radically altered by human activity, and we are rapidly running out of time to secure a sustainable and liveable future for people and planet. Climate change has already widely impacted both people and nature and will only accelerate if action is not taken now. ***Biodiversity***, and its systems that help sustain human life, are rapidly deteriorating worldwide. Species loss is so great that the sixth mass extinction event in Earth’s history is under way...However, business and finance have not yet acknowledged that ***biodiversity loss*** is as important as climate change...We cannot secure thriving natural ecosystems without a net zero economy, and this requires the finance sector to play an active role...We found that asset managers need stronger and more comprehensive interim net-zero targets, consistent with limiting temperature rise to 1.5C. These must go hand in hand with asset managers directing capital towards the climate transition. Asset managers’ recognition of the importance of ***biodiversity***has grown since our 2020 survey, but their responses to the ***biodiversity crisis*** remain considerably weaker than their responses to climate change. There are few commitments on ***biodiversity***, and risk assessments remain inadequate. In many cases, firms have not yet understood the links between these issues. [***See* report**](https://shareaction.org/reports/point-of-no-returns-2023-part-iv-climate-and-biodiversity){target="_blank"}. [***Download* report**](https://app.box.com/s/h4a0r3lm324ipeskrr2p41s1usvw1o6f){target="_blank"}.
+
+  <br/>
+  
+  </div>
+  
 - #### <a href="###" data-toggle="collapse" data-target="#unep_mangrove2023">UNEP: Decades of Mangrove Forest Change</a> 
 
   <div id="unep_mangrove2023" class="collapse">  
