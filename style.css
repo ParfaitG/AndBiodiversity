@@ -78,11 +78,18 @@
      min-height: 220px;
      display: inline-block;
      font-size: 16px;
-     border: 1px rgba(128,181,51) solid;
      margin: 0 5px;
-     border-radius: 30px;
      overflow: hidden;
   }
+  .pagecard {
+     border: 1px rgba(128,181,51) solid;
+     border-radius: 30px;
+  }
+  .extcard {
+     border: 1px #A8A8A8 solid;
+     border-radius: 30px;
+  }
+
   .card a:link, 
   .card a:visited, 
   .card a:hover, 
@@ -92,7 +99,6 @@
   }
   .cardheader {
      height: 15%;
-     background: rgba(128,181,51);
      font-weight: bold;
      color: white;
      text-align: center;
@@ -106,14 +112,31 @@
      color: #ffffff;
      text-decoration: none;
   }
-  
-  .card:hover {
+  .pagecardheader {
+     background: rgba(128,181,51);
+  }
+  .extcardheader {
+     background: #A8A8A8;
+  }
+
+  .pagecard:hover {
       border: 1px rgba(128,181,51,0.5) solid;
       color: rgb(62, 63, 58, 0.5)
   }
-  .card a:hover > .cardheader {
+  .pagecard a:hover > .pagecardheader {
       background: rgba(128,181,51,0.8)
   }
+
+  .extcard:hover {
+      border: 1px rgb(255,0,0,0.5) solid
+  }
+  .extcard:hover > .cardbody b {
+      color: red;
+  }
+  .extcard:hover > .extcardheader {
+      background: rgb(255,0,0,0.8)
+  }
+
   .card a:hover > .cardbody, .cardbody img {
       opacity: 0.8
   }
@@ -663,10 +686,16 @@
           height: 100%;
           margin: 0 auto;
       }
-      .card { 
+      .pagecard { 
           width: 50%;
           max-width: 200px;
           height: 200px;
+          margin: 0 0 20px 0;
+      }
+      .extcard { 
+          width: 60%;
+          max-width: 220px;
+          height: 420px;
           margin: 0 0 20px 0;
       }
 
