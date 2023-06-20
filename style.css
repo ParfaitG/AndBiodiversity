@@ -140,7 +140,7 @@
   .card a:hover > .cardbody, .cardbody img {
       opacity: 0.8
   }
-  
+ 
   .cardbody {
      padding: 2px 16px;
      white-space: normal;
@@ -698,13 +698,26 @@
           height: 420px;
           margin: 0 0 20px 0;
       }
+      .extcard img {
+          height: 150px
+      }
 
       .ncp_source {
-         border-top: 1px solid #4d5156;
          padding: 5px 0 0 0;
          margin: 0 auto;
          font-size: 10px;
+         position: relative;
+         border: none;
       }
+      .ncp_source:after {
+	     content: '';
+         position: absolute;
+         top: 0px;
+	     left: 0px;
+	     width: 100%;
+         border-top: 1px solid #4d5156;
+	  }
+
       .ncp_img:hover { 
          transform: none;
       }
