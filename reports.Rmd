@@ -67,16 +67,16 @@ $(document).ready(function(){
 #### Review key findings and links to major global reports over the last 50+ years regarding biodiversity loss and natural environment.
 
 <div class="icons_banner">
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon" title="tree"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_elephant_gray.png" alt="elephant icon" title="elephant"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon" title="fish"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_kelp_green.png" alt="kelp icon" title="kelp"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_atmosphere.png" alt="atmosphere" title="atmosphere"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_insect.png" alt="insect icon" title="insect"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_ocean_blue.png" alt="ocean icon" title="ocean"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon" title="wetlands"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon" title="monkey"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon" title="soil"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon" title="Plantae: Makes up 82% of biomass on Earth holding 450 gigatonnes of carbon"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_elephant_gray.png" alt="elephant icon" title="Elephantidae: Largest existing land animal"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon" title="Fish: Comprises 50% of living vertebrate species"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_kelp_green.png" alt="kelp icon" title="Kelp: Neither plant nor animal that serves as food and habitat"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_atmosphere.png" alt="atmosphere" title="Atmosphere: Layer of gases that sustains life on Earth"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_insect.png" alt="insect icon" title="Insecta: Comprises of over 5 million species as most diverse class on Earth"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_ocean_blue.png" alt="ocean icon" title="Ocean: Covers 72% of surface of Earth and supplies over half of oxygen to planet"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon" title="Wetlands: Water saturated ecosystem that serves as major food source and carbon store"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon" title="Simians: Largest frugivorous vertebrates that can maintain plant diversity with seed dispersal"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon" title="Pedosphere: Mixture of mineral or organic material that support life of plants and soil organisms"/>
 </div>
 
 ---
@@ -121,6 +121,20 @@ $(document).ready(function(){
 
 ### 2023
 
+- #### <a href="###" data-toggle="collapse" data-target="#icimod2023">ICIMOD: Water, ice, society, and ecosystems in the Hindu Kush Himalaya</a> 
+
+  <div id="icimod2023" class="collapse">  
+
+  <a href="https://hkh.icimod.org/hi-wise/hi-wise-report/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_icimod2023.png" alt="ICIMOD 2023 report cover"/>
+  </a>
+
+  #### The cryosphere of the Hindu Kush Himalayan (HKH) is an important source of water for maintaining ecosystem health, supporting ***biological diversity***, and providing ecosystem services. This ***biodiversity***-rich region – 40% of which is under protected area coverage – is characterised by interconnected and diverse ecosystems. Sixty percent of the region features seasonal cryosphere (snow, glacier, permafrost, and glacial lakes) – a major source of water and other ecosystem services...As a fragile ecosystem, the HKH is extremely sensitive to climate change. Widespread shrinking of the cryosphere – attributable to climate change – is resulting in glacier mass loss, snow cover reduction, shrinkage of permafrost area, changes in hydrology, and increased natural hazards and disasters. Cascading impacts have been reported in most ecosystems, affecting most inhabitant species. A visible range shift of species to higher elevations, ecosystem degradation and changes, decrease in habitat suitability, species decline and extinction, and invasion by alien species have been reported, with significant negative impacts on the flow of ecosystem services, both increasing the vulnerabilities of ***biodiversity*** and people and affecting their wellbeing...Future scenarios paint an alarming picture at the ecosystem and species levels – increased ecosystem vulnerability and lowered ecosystem services flows will result in disruptions to social–ecological resilience. There is increasing documentation of the cascading effects of cryosphere loss on ecosystems, including ecosystem degradation and changes in species structure and composition. [***See* report**](https://hkh.icimod.org/hi-wise/hi-wise-report/){target="_blank"}. [***Download* report**](https://app.box.com/s/btctqyy0xa3xim0fj5ho46fgmfeqem8m){target="_blank"}.
+
+  <br/>
+  
+  </div>
+  
 - #### <a href="###" data-toggle="collapse" data-target="#ipcc2023">IPCC: Synthesis Report for the Sixth Assessment</a> 
 
   <div id="ipcc2023" class="collapse">  

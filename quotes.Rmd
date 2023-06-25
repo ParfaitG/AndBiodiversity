@@ -55,16 +55,16 @@ $(document).ready(function(){
 #### Listen to speeches, interviews, talks, and messages of environmental leaders and experts on biodiversity loss.
 
 <div class="icons_banner">
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon" title="tree"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_elephant_gray.png" alt="elephant icon" title="elephant"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon" title="fish"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_kelp_green.png" alt="kelp icon" title="kelp"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_atmosphere.png" alt="atmosphere" title="atmosphere"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_insect.png" alt="insect icon" title="insect"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_ocean_blue.png" alt="ocean icon" title="ocean"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon" title="wetlands"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon" title="monkey"/>
-<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon" title="soil"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon" title="Plantae: Makes up 82% of biomass on Earth holding 450 gigatonnes of carbon"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_elephant_gray.png" alt="elephant icon" title="Elephantidae: Largest existing land animal"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon" title="Fish: Comprises 50% of living vertebrate species"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_kelp_green.png" alt="kelp icon" title="Kelp: Neither plant nor animal that serves as food and habitat"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_atmosphere.png" alt="atmosphere" title="Atmosphere: Layer of gases that sustains life on Earth"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_insect.png" alt="insect icon" title="Insecta: Comprises of over 5 million species as most diverse class on Earth"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_ocean_blue.png" alt="ocean icon" title="Ocean: Covers 72% of surface of Earth and supplies over half of oxygen to planet"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon" title="Wetlands: Water saturated ecosystem that serves as major food source and carbon store"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon" title="Simians: Largest frugivorous vertebrates that can maintain plant diversity with seed dispersal"/>
+<img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon" title="Pedosphere: Mixture of mineral or organic material that support life of plants and soil organisms"/>
 </div>
 
 ---
