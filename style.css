@@ -458,17 +458,16 @@
      font-size: 18px;
   }
   
-  [data-text] {
+  span[data-text] {
     position: relative;
     display: inline-flex;
     justify-content: center;
   }
   
-  [data-text]:hover {
+  span[data-text]:hover {
     opacity: 0.7
-  }
-  
-  [data-text]:hover::after {
+  }  
+  span[data-text]:hover::after {
     position: absolute;
     content: attr(data-text);
     text-transform: none;
@@ -484,8 +483,7 @@
     font-size: 12px;
     z-index: 10;
   }
-
-  [data-text]:hover::before {
+  span[data-text]:hover::before {
     position: absolute;
     content: "";
     width: 0;
@@ -496,6 +494,51 @@
     border-bottom: 12px solid transparent;
     border-right: 14px solid black;
     z-index: 1;
+  }
+
+  .icons_banner img {
+     z-index: -1;
+  }
+  span[nature-text]:hover {
+     opacity: 0.7
+  }
+  span[nature-text] {
+     position: relative;
+     display: inline-flex;
+     justify-content: center;
+  }
+  span[nature-text]:hover::after {
+     position: absolute;
+     content: attr(nature-text);
+     text-transform: none;
+     text-align: center;
+     line-height: normal;
+     top: 110%;
+     left: -15%;
+     color: #fff;
+     background-color: black;
+     border-radius: 10px;
+     width: 80px;
+     padding: 5px;
+     font-size: 11px;
+     z-index: 10;
+  }
+   span[nature-text]:hover::before {
+     position: absolute;
+     content: "";
+     width: 0;
+     height: 0;
+     top: 75%;
+     left: 40%;
+     border-top: 12px solid transparent;
+     border-bottom: 12px solid transparent;
+     border-right: 14px solid black;
+     z-index: 1;
+     -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+     -o-transform: rotate(90deg);
+     -ms-transform: rotate(90deg);
+     transform: rotate(90deg);
   }
 
   .mainstream, .nbs, .importance, .cites {
@@ -611,17 +654,17 @@
        z-index: -1;
     }
     
-    [data-text] {
+    span[data-text] {
       position: relative;
       display: inline-flex;
       justify-content: center;
     }
     
-    [data-text]:focus {
+    span[data-text]:focus {
       opacity: 0.7
     }
     
-    [data-text]:focus::after {
+    span[data-text]:focus::after {
       position: absolute;
       content: attr(data-text);
       text-transform: none;
@@ -636,9 +679,8 @@
       padding: 3px;
       font-size: 10px;
       z-index: 10;
-    }
-    
-    [data-text]:focus::before {
+    }    
+    span[data-text]:focus::before {
       position: absolute;
       content: "";
       width: 0;
@@ -651,21 +693,50 @@
       z-index: 1;
     }
 
-	[title] {
-		position: relative;
-		display: inline-flex;
-		justify-content: center;
-	}
-	[title]:focus::after {
-		content: attr(title);
-		position: absolute;
-		top: 90%;
-		color: #000;
-		background-color: #fff;
-		border: 1px solid;
-		width: fit-content;
-		padding: 3px;
-	}
+    .icons_banner img {
+       z-index: -1;
+    }
+    span[nature-text]:focus {
+      opacity: 0.7
+    }
+    span[nature-text] {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+    }
+    span[nature-text]:focus::after {
+      position: absolute;
+      content: attr(nature-text);
+      text-transform: none;
+      text-align: center;
+      line-height: normal;
+      top: 110%;
+      left: -15%;
+      color: #fff;
+      background-color: black;
+      border-radius: 10px;
+      width: 80px;
+      padding: 4px;
+      font-size: 10px;
+      z-index: 10;
+    }
+    span[nature-text]:focus::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      top: 75%;
+      left: 40%;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 14px solid black;
+      z-index: 1;
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
   }
   
   @media screen and (max-width: 750px) {
@@ -726,13 +797,13 @@
          border: none;
       }
       .ncp_source:after {
-	     content: '';
+         content: '';
          position: absolute;
          top: 0px;
-	     left: 0px;
-	     width: 100%;
+         left: 0px;
+         width: 100%;
          border-top: 1px solid #4d5156;
-	  }
+      }
 
       .ncp_img:hover { 
          transform: none;
@@ -784,10 +855,10 @@
           height: 30px;
       }
 
-	  .icon_banner_img {
-		 height: 30px;
-		 margin: 0;
-	  }
+      .icon_banner_img {
+         height: 30px;
+         margin: 0;
+      }
 
       #bottom_icons img:hover,
       #bottom_icons img:active,
@@ -869,7 +940,7 @@
 
   @media screen and (max-width: 750px) and (pointer: coarse), 
          screen and (max-width: 750px) and (hover: none) {
-    [data-text] {
+    span[data-text] {
       position: relative;
       display: inline-flex;
       justify-content: center;
@@ -941,6 +1012,51 @@
       border-top: 12px solid transparent;
       border-bottom: 12px solid transparent;
       border-right: 14px solid black;
+    }
+
+    .icons_banner img {
+       z-index: -1;
+    }
+    span[nature-text]:focus {
+      opacity: 0.7
+    }
+    span[nature-text] {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+    }
+    span[nature-text]:focus::after {
+      position: absolute;
+      content: attr(nature-text);
+      text-transform: none;
+      text-align: center;
+      line-height: normal;
+      top: 140%;
+      left: -35%;
+      color: #fff;
+      background-color: black;
+      border-radius: 10px;
+      width: 80px;
+      padding: 4px;
+      font-size: 10px;
+      z-index: 10;
+    }
+    span[nature-text]:focus::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      top: 75%;
+      left: 40%;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 14px solid black;
+      z-index: 1;
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
     }
   }
 
