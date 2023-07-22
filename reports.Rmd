@@ -67,16 +67,16 @@ $(document).ready(function(){
 #### Review key findings and links to major global reports over the last 50+ years regarding biodiversity loss and natural environment.
 
 <div class="icons_banner">
-<span nature-text="Plantae: Makes up 82% of biomass on Earth holding 450 gigatonnes of carbon" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon"/></span>
-<span nature-text="Elephantidae: Largest existing land animal" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_elephant_gray.png" alt="elephant icon" /></span>
-<span nature-text="Actinopterygii (Fish): Comprises 50% of living vertebrate species" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon" /></span>
-<span nature-text="Phaeophyceae (Kelp): Neither plant nor animal that serves as food and habitat" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_kelp_green.png" alt="kelp icon"/></span>
-<span nature-text="Atmosphere: Layer of gases that sustains life on Earth" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_atmosphere.png" alt="atmosphere" /></span>
-<span nature-text="Insecta: Comprises of over 5 million species as most diverse class on Earth" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_insect.png" alt="insect icon" /></span>
-<span nature-text="Ocean: Covers 72% of surface of Earth and supplies over half of oxygen to planet" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_ocean_blue.png" alt="ocean icon" /></span>
-<span nature-text="Wetlands: Water saturated ecosystem that serves as major food source and carbon store" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon" /></span>
-<span nature-text="Simiiformes (Monkey): Largest frugivorous vertebrates that can maintain plant diversity with seed dispersal" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon" /></span>
-<span nature-text="Pedosphere (Soil): Mixture of mineral or organic material that support life of plants and soil organisms" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon" /></span>
+<span nature-text="Plantae: Only organisms that can carry out photo-synthesis, how all energy in the biosphere becomes available to living things" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon"/></span>
+<span nature-text="Elephantidae: As herbivores and migratory species, elephants disperse seeds and fertilizes nutrients" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_elephant_gray.png" alt="elephant icon" /></span>
+<span nature-text="Actinopterygii (Fish): Fish contribute and recycle essential nutrients for marine vegetation" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon" /></span>
+<span nature-text="Phaeophyceae (Kelp): Productive ecosystem absorbing carbon, providing shelter, protecting coastlines, and fueling the food web" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_kelp_green.png" alt="kelp icon"/></span>
+<span nature-text="Atmosphere: Plays crucial role in water, carbon, and nitrogen cycles for sustaining life on Earth" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_atmosphere.png" alt="atmosphere" /></span>
+<span nature-text="Insecta: Creates the biological foundation for all terrestrial ecosystems in nutrients, pollination, and seed dispersal" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_insect.png" alt="insect icon" /></span>
+<span nature-text="Ocean: Home to over 90% of the species on Earth" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_ocean_blue.png" alt="ocean icon" /></span>
+<span nature-text="Wetlands: Highly variable ecosystem existing as swamps, marshes, peatlands, bogs, and others" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon" /></span>
+<span nature-text="Simiiformes (Monkey): Through their travels and digestive system, monkeys can regenerate soil and plants in various ecosystems" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon" /></span>
+<span nature-text="Pedosphere (Soil): Serves as interface between lithosphere, biosphere, hydosphere, and atmosphere" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon" /></span>
 </div>
 
 ---
@@ -121,6 +121,20 @@ $(document).ready(function(){
 
 ### 2023
 
+- #### <a href="###" data-toggle="collapse" data-target="#gef2023">GEF: Innovative Finance for Nature and People</a> 
+
+  <div id="gef2023" class="collapse">  
+
+  <a href="https://www.thegef.org/newsroom/publications/innovative-finance-nature-and-people" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_gef2023.png" alt="GEF 2023 report cover"/>
+  </a>
+
+  #### Concerted efforts are needed to close the significant gap in global ***biodiversity*** financing. Accordingly, the Kunming-Montreal Global Biodiversity Framework includes a commitment by the Parties to the Convention on Biological Diversity (CBD) to substantially and progressively, increase the level of financial investments from all sources, including public, private, domestic, and international, to \$200 billion 3 per year by 2030, while substantially and progressively reducing incentives, including subsidies harmful for ***biodiversity***, by at least \$500 billion per year by 2030. Public finance is crucial yet insufficient and not sustainable: it needs to be used wisely to catalyze additional private finance and increased action and effectiveness, and mobilize public resources effectively. A range of innovative financing instruments are being deployed in both developed and developing countries, including efforts supporting forest dwellers, payments for ecosystem services (PES), blended finance, debt-for-nature swaps and other debt instruments, carbon markets and the emerging concept of nature certificates. Among them, the report focuses on (1) the up-scaling of high-integrity, ***biodiversity***-positive carbon credits and (2) the development of nature certificate schemes. Both instruments have are generating considerable interest at the moment – both among policy makers and corporates. [***See* report**](https://www.thegef.org/newsroom/publications/innovative-finance-nature-and-people){target="_blank"}. [***Download* report**](https://app.box.com/s/pvo8dwi6iok1sy2tlhp09zxrapz3ywmo){target="_blank"}.
+
+  <br/>
+  
+  </div>
+  
 - #### <a href="###" data-toggle="collapse" data-target="#icimod2023">ICIMOD: Water, ice, society, and ecosystems in the Hindu Kush Himalaya</a> 
 
   <div id="icimod2023" class="collapse">  
@@ -144,6 +158,20 @@ $(document).ready(function(){
   </a>
 
   #### Human activities, principally through emissions of greenhouse gases, have unequivocally caused global warming, with global surface temperature reaching 1.1°C above 1850-1900 in 2011-2020. Global greenhouse gas emissions have continued to increase over 2010-2019, with unequal historical and ongoing contributions arising from unsustainable energy use, land use and land-use change, lifestyles and patterns of consumption and production across regions, between and within countries, and between individuals...Climate change has caused substantial damages, and increasingly irreversible19 losses, in terrestrial, freshwater, cryospheric and coastal and open ocean ecosystems. The extent and magnitude of climate change impacts are larger than estimated in previous assessments...In addition, multiple climatic and non-climatic risk drivers such as ***biodiversity loss*** or violent conflict will interact, resulting in compounding overall risk and risks cascading across sectors and regions. [***See* report**](https://www.ipcc.ch/report/ar6/syr/){target="_blank"}. [***Download* report**](https://app.box.com/s/vx30cdd8d94374mh6rrc45mbinb75bvj){target="_blank"}.
+
+  <br/>
+  
+  </div>
+
+- #### <a href="###" data-toggle="collapse" data-target="#iucntransport2023">IUCN: Addressing ecological connectivity in the development of roads, railways and canals</a> 
+
+  <div id="iucntransport2023" class="collapse">  
+
+  <a href="https://portals.iucn.org/library/node/51263" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_iucntransport2023.png" alt="IUCN transport 2023 report cover"/>
+  </a>
+
+  #### The unprecedented rate of linear transport infrastructure (LTI) development such as roads, railways and canals is a key driver of global ***biodiversity*** decline. Direct impacts have been documented around the world: primarily habitat degradation, fragmentation and loss, direct species mortality, and the creation of physical barriers and filters to wildlife movement and ecological flows. In addition, other impacts can occur, such as pollution due to noise, light, vibration and chemicals, air and water quality degradation, the spread of invasive alien species and changes in hydrology and microclimate...Without proper safeguards for ***biodiversity*** and ecological connectivity, given the present speed and scale of expansion, there lies a high potential to unravel the progress made over the past five decades to designate, design and manage [protected and conserved areas] (PCAs) embedded in ecological networks. Thus, the future will require planners and decision-makers to strike a balance between the anticipated socio-economic benefits of LTI with the challenges of safeguarding healthy ecosystems, ecological connectivity and ***biodiversity***. [***See* report**](https://portals.iucn.org/library/node/51263){target="_blank"}. [***Download* report**](https://app.box.com/s/qkq5eedwxvzdt3p17um6eup55a8f2vvz){target="_blank"}.
 
   <br/>
   
@@ -205,6 +233,19 @@ $(document).ready(function(){
   
   </div>
 
+- #### <a href="###" data-toggle="collapse" data-target="#unepfinance2023">UNEP: State of Finance for Nature in Cities 2023</a> 
+
+  <div id="unepfinance2023" class="collapse">  
+
+  <a href="https://wedocs.unep.org/handle/20.500.11822/41935" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepfinance2023.png" alt="UNEP finance 2023 report cover"/>
+  </a>
+
+  #### The State of Finance for Nature 2022 (SFN 2022) finds that a rapid doubling of finance flows to nature-based solution (NbS) can halt ***biodiversity loss***, reduce emissions by 5 GtCO2 per year by 2025, and help restore nearly 1 billion hectares of degraded land. Policymakers are increasingly recognizing the role of cities in reaching these global environmental targets and are eager to expand funding at local level. Target 12i of the Global Biodiversity Framework (GBF) adopted in December 2022 acknowledges the importance of the local level in mainstreaming the conservation and sustainable use of ***biodiversity*** for inclusive and sustainable urbanisation. Experts agree that while exemplary programs exist to support Target 12, overall funding of urban NbS is insufficient. The SFN 2022 report estimates the annual finance gap as USD 230 billion in 2025, increasing to USD 520 million by 2050. Urban NbS should form a significant component of this given that the Green Climate Fund asserts that "Seventy per cent of known climate solutions are located within the boundaries of subnational authorities." National governments have become more willing to funnel sovereign funds and international loans to local governments for NbS because of their growing awareness of how NbS is a cost-effective measure to achieve global and national climate and ***biodiversity*** goals. To take full advantage of increases in urban NbS financing, cities need technical and financial support to (1) restructure local governance to coordinate cross- departmental NbS efforts; (2) upscale existing programs; (3) improve alignment of national and sub-national priorities for NbS investment; and (4) develop project criteria that incorporate NbS from inception to implementation. [***See* report**](https://wedocs.unep.org/handle/20.500.11822/41935){target="_blank"}. [***Download* report**](https://app.box.com/s/44vw9c1w4q0y43qp5r170b4xxvgg13bi){target="_blank"}.
+
+  <br/>
+  
+  </div>
 
 - #### <a href="###" data-toggle="collapse" data-target="#un_water2023">United Nations: World Water Development Report</a> 
 
