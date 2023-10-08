@@ -246,8 +246,22 @@ $(document).ready(function(){
   <br/>
   
   </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#un_gsdr2023">UN: Global Sustainable Development Report</a> 
 
-- #### <a href="###" data-toggle="collapse" data-target="#un_water2023">United Nations: World Water Development Report</a> 
+  <div id="un_gsdr2023" class="collapse">  
+
+  <a href="https://sdgs.un.org/gsdr/gsdr2023" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_un2023.png" alt="UN GSDR report cover"/>
+  </a>
+
+  #### At the halfway point of the 2030 Agenda for Sustainable Development, the world is far off track as shown in the figure which captures current status of the Sustainable Development Goals. Without urgent course correction and acceleration, humanity will face prolonged periods of crisis and uncertainty – triggered by and reinforcing poverty, inequality, hunger, disease, conflict and disaster. At a global level, the “Leave no one behind” principle is at significant risk...In 2023, the situation is much more worrisome owing to slow implementation and a confluence of crises. For Goals in which progress was too slow in 2019, countries have not accelerated enough, and for others, including food security, climate action and protecting ***biodiversity***, the world is still moving in the wrong direction...These crises are not independent events; they are intertwined through multiple environmental, economic and social strands, each fuelling the other’s intensities. Addressing interconnections was a starting point for elaborating the 2030 Agenda. This Report shows how these interconnections offer opportunities to act in an integrated way to release positive synergies and achieve the Sustainable Development Goals. [***See* report**](https://sdgs.un.org/gsdr/gsdr2023){target="_blank"}. [***Download* report**](https://app.box.com/s/j07n21rwxpyqip4lzwldmdebeh6kxesw){target="_blank"}.
+
+  <br/>
+  
+  </div>
+
+- #### <a href="###" data-toggle="collapse" data-target="#un_water2023">UN: World Water Development Report</a> 
 
   <div id="un_water2023" class="collapse">  
 
