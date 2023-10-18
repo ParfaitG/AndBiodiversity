@@ -82,6 +82,8 @@ $(document).ready(function(){
 ---
 
 <div class="reports_banner">
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_kew2023.png" alt="Kew 2023 report cover"/>
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_un2023.png" alt="UN GSDR 2023 report cover"/>
 <img class="report_banner_img" src="https://images.andbiodiversity.info/report_unwater2023.png" alt="UN Water 2023 report cover"/>
 <img class="report_banner_img" src="https://images.andbiodiversity.info/report_unepkelp2023.png" alt="UNEP Kelp 2023 report cover"/>
 <img class="report_banner_img" src="https://images.andbiodiversity.info/report_unepmangrove2023.png" alt="UNEP Mangrove 2023 report cover"/>
@@ -172,6 +174,20 @@ $(document).ready(function(){
   </a>
 
   #### The unprecedented rate of linear transport infrastructure (LTI) development such as roads, railways and canals is a key driver of global ***biodiversity*** decline. Direct impacts have been documented around the world: primarily habitat degradation, fragmentation and loss, direct species mortality, and the creation of physical barriers and filters to wildlife movement and ecological flows. In addition, other impacts can occur, such as pollution due to noise, light, vibration and chemicals, air and water quality degradation, the spread of invasive alien species and changes in hydrology and microclimate...Without proper safeguards for ***biodiversity*** and ecological connectivity, given the present speed and scale of expansion, there lies a high potential to unravel the progress made over the past five decades to designate, design and manage [protected and conserved areas] (PCAs) embedded in ecological networks. Thus, the future will require planners and decision-makers to strike a balance between the anticipated socio-economic benefits of LTI with the challenges of safeguarding healthy ecosystems, ecological connectivity and ***biodiversity***. [***See* report**](https://portals.iucn.org/library/node/51263){target="_blank"}. [***Download* report**](https://app.box.com/s/qkq5eedwxvzdt3p17um6eup55a8f2vvz){target="_blank"}.
+
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#kew2023">Kew: State of the World's Plants and Fungi</a> 
+
+  <div id="kew2023" class="collapse">  
+
+  <a href="https://www.kew.org/science/state-of-the-worlds-plants-and-fungi" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_kew2023.png" alt="Kew 2023 report cover"/>
+  </a>
+
+  #### It is imperative that we take action to tackle the current nature crisis, for the simple reason that all life on earth depends on ***biodiversity***. the resources and services that nature provides – from food to fresh water – have arisen through eons of ecosystem-building by microbes (including fungi), plants and animals, and their interactions with geochemical processes. because we are currently degrading ecosystems, releasing greenhouse gases into the air and polluting water resources at such a rapid rate, we risk destabilising the global equilibrium that these evolutionary processes have established. effectively managing the plants and fungi that form the building blocks of our habitable planet is key to halting wider ***biodiversity loss*** and restoring earth’s ecosystems to full function. [***See* report**](https://www.kew.org/science/state-of-the-worlds-plants-and-fungi){target="_blank"}. [***Download* report**](https://app.box.com/s/bnvn3mj19740rlobjnkjz5jpvxi4wtas){target="_blank"}.
 
   <br/>
   
