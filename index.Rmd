@@ -288,12 +288,12 @@ $(document).ready(function(){
 <br/>
 
 <div class="pb_banner">
-<div class="pb_img"><img src="pb_biodiversity.png" alt="Planetary Boundary of Biodiversity"/></div>
-<div class="pb_img"><img src="pb_climate.png" alt="Planetary Boundary of Climate"/></div>
-<div class="pb_img"><img src="pb_novel_entities.png" alt="Planetary Boundary of Novel Entities"/></div>
-<div class="pb_img"><img src="pb_biogeochemical.png" alt="Planetary Boundary of Biogeochemical Flows"/></div>
-<div class="pb_img"><img src="pb_freshwater.png" alt="Planetary Boundary of Freshwater Use"/></div>
-<div class="pb_img"><img src="pb_land_system.png" alt="Planetary Boundary of Land System Change"/></div>
+<div class="pb_img"><img src="https://images.andbiodiversity.info/pb_biodiversity.png" alt="Planetary Boundary of Biodiversity"/></div>
+<div class="pb_img"><img src="https://images.andbiodiversity.info/pb_climate.png" alt="Planetary Boundary of Climate"/></div>
+<div class="pb_img"><img src="https://images.andbiodiversity.info/pb_novel_entities.png" alt="Planetary Boundary of Novel Entities"/></div>
+<div class="pb_img"><img src="https://images.andbiodiversity.info/pb_biogeochemical.png" alt="Planetary Boundary of Biogeochemical Flows"/></div>
+<div class="pb_img"><img src="https://images.andbiodiversity.info/pb_freshwater.png" alt="Planetary Boundary of Freshwater Use"/></div>
+<div class="pb_img"><img src="https://images.andbiodiversity.info/pb_land_system.png" alt="Planetary Boundary of Land System Change"/></div>
 </div>
 
 <br/>
