@@ -172,7 +172,7 @@
      color: #4d5156;
   }
 
-  .driver_img img, .pb_banner img {
+  .driver_img img, .pb_img img {
      height: 200px;
      border-radius: 15px;
      border: 1px #ccc solid;
@@ -811,15 +811,15 @@
       .ncp_img:hover { 
          transform: none;
       }
-      .driver_banner {
+      .driver_banner, .pb_banner {
           display: block;
           width: 100%;
           height: 100%;
       }
-      .driver_img {
+      .driver_img, .pb_img {
           margin: 10px 0;
       }
-      .driver_img:hover { 
+      .driver_img:hover, .pb_img:hover { 
           transform: none;
       }
 

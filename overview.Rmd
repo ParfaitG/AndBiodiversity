@@ -64,7 +64,7 @@ $(document).ready(function(){
 <span nature-text="Ocean: Absorbs gases from atmosphere to help regulate Earth's temperature" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_ocean_blue.png" alt="ocean icon" /></span>
 <span nature-text="Wetlands: Highly productive ecosystems for water quality, erosion control, habitat, and other services" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_wetlands_green.png" alt="wetlands icon" /></span>
 <span nature-text="Simiiformes (Monkey): With abilities to communicate, use tools, and problem solve, monkeys are generally considered intelligent" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon" /></span>
-<span nature-text="Pedosphere (Soil): Stores twice almost as much carbon as all plants and trees even atmosphere combined" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon" /></span>
+<span nature-text="Pedosphere (Soil): Stores twice almost as much carbon as all plants and trees even atmosphere combined" tabindex="0"><img class="icon_banner_img" src="https://images.andbiodiversity.info/stick_figure_soil_green.png?20231108" alt="soil icon" /></span>
 </div>
 
 ---
@@ -254,7 +254,7 @@ $(document).ready(function(){
    <li>Sustainable urban planning; encouraging densification for compact communities, especially in sprawling cities. <em>See</em> <a href="reports.html"><b>UNEP blueprint report</b>.</a></li>
    <li> ... <em>See</em> <a href="reports.html"><b>most reports</b>.</a></li>
   </ul>
-   <img class="multiple-figure" src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon"/>
+   <img class="multiple-figure" src="https://images.andbiodiversity.info/stick_figure_soil_green.png?20231108" alt="soil icon"/>
    <img class="multiple-figure" src="https://images.andbiodiversity.info/stick_figure_tree_green.png" alt="tree icon"/>
    <img class="multiple-figure" src="https://images.andbiodiversity.info/stick_figure_fish_blue.png" alt="fish icon"/>
   </div>
@@ -365,7 +365,7 @@ $(document).ready(function(){
       <td><h3>Wetland<br/>Restoration</h3></td>
       <td><span data-text="Trophic rewilding, is a measure to enhance biodiversity and can also contribute to ecosystem restoration (IPBES-IPCC)." tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_monkey_brown.png" alt="monkey icon"/></td>
       <td><h3>Trophic<br/>Rewilding</h3></span></td>
-      <td><span data-text="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms. (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_soil_green.png" alt="soil icon"/></span></td>
+      <td><span data-text="Reducing tillage, using less pesticides and increasing organic material input enhances the abundance and diversity of soil organisms. (IPBES-IPCC)" tabindex="0"><img src="https://images.andbiodiversity.info/stick_figure_soil_green.png?20231108" alt="soil icon"/></span></td>
       <td><h3>Agro-<br/>ecology</h3></td>
    </tr>
 </table>
