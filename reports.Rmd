@@ -87,7 +87,7 @@ $(document).ready(function(){
 <img class="report_banner_img" src="https://images.andbiodiversity.info/report_unwater2023.png" alt="UN Water 2023 report cover"/>
 <img class="report_banner_img" src="https://images.andbiodiversity.info/report_unepkelp2023.png" alt="UNEP Kelp 2023 report cover"/>
 <img class="report_banner_img" src="https://images.andbiodiversity.info/report_unepmangrove2023.png" alt="UNEP Mangrove 2023 report cover"/>
-<img class="report_banner_img" src="https://images.andbiodiversity.info/report_unep2022.png" alt="UNEP 2022 report cover"/>
+<img class="report_banner_img" src="https://images.andbiodiversity.info/report_unepfinance2022.png" alt="UNEP 2022 report cover"/>
 <img class="report_banner_img" src="https://images.andbiodiversity.info/report_wwf2022.png" alt="WWF 2022 report cover"/>
 <img class="report_banner_img" src="https://images.andbiodiversity.info/report_iucn2022.png" alt="IUCN 2022 report cover"/>
 <img class="report_banner_img" src="https://images.andbiodiversity.info/report_unccd2022.png" alt="UNCCD 2022 report cover"/>
@@ -134,6 +134,22 @@ $(document).ready(function(){
   #### Concerted efforts are needed to close the significant gap in global ***biodiversity*** financing. Accordingly, the Kunming-Montreal Global Biodiversity Framework includes a commitment by the Parties to the Convention on Biological Diversity (CBD) to substantially and progressively, increase the level of financial investments from all sources, including public, private, domestic, and international, to \$200 billion per year by 2030, while substantially and progressively reducing incentives, including subsidies harmful for ***biodiversity***, by at least \$500 billion per year by 2030. Public finance is crucial yet insufficient and not sustainable: it needs to be used wisely to catalyze additional private finance and increased action and effectiveness, and mobilize public resources effectively. A range of innovative financing instruments are being deployed in both developed and developing countries, including efforts supporting forest dwellers, payments for ecosystem services (PES), blended finance, debt-for-nature swaps and other debt instruments, carbon markets and the emerging concept of nature certificates. Among them, the report focuses on (1) the up-scaling of high-integrity, ***biodiversity***-positive carbon credits and (2) the development of nature certificate schemes. Both instruments have are generating considerable interest at the moment – both among policy makers and corporates. [**Visit source**](https://www.thegef.org/newsroom/publications/innovative-finance-nature-and-people){target="_blank"}. [**View report**](https://app.box.com/s/pvo8dwi6iok1sy2tlhp09zxrapz3ywmo){target="_blank"}.
 
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2023_gef.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#gsi2023">GSI: Global Tipping Points 2023</a> 
+
+  <div id="gsi2023" class="collapse">  
+
+  <a href="https://global-tipping-points.org/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_gsi2023.png" alt="GSI 2023 report cover"/>
+  </a>
+
+  #### Human-driven habitat loss, pollution, exploitation and, increasingly, climate change are degrading ecosystems across the planet, some of which can pass tipping points beyond which a ‘regime shift’ to an alternative (and often less diverse or beneficial) ecosystem state occurs. Evidence for tipping points emerges across many biomes. In forests, large parts of the Amazon rainforest could tip to degraded forest or impoverished savanna, while tipping in boreal forests is possible but more uncertain, and whether current temperate forest disturbance could lead to tipping is unclear. In open savannas and drylands, drying could lead to desertification in some areas, while in others encroachment by trees and shrubs could see these ***biodiverse ecosystems*** shift to a forested or degraded state. Nutrient pollution and warming can trigger lakes to switch to an algae-dominated low-oxygen state. Coral reefs are already experiencing tipping points, as more frequent warming-driven bleaching events, along with pollution, extreme weather events and diseases, tip them to degraded algae-dominated states. Mangroves and seagrasses are at risk of regional tipping, along with kelp forests, marine food webs and some fisheries, which are known to be able to collapse. Together, these tipping points threaten the livelihoods of millions of people, and some thresholds are likely imminent. Stabilising climate is critical for reducing the likelihood of widespread ecosystem tipping points, but tackling other pressures can also help increase ecological resilience, push back tipping and support human well-being. [***See* report**](https://global-tipping-points.org/){target="_blank"}. [***Download* report**](https://app.box.com/s/o3jo2nvm6p2cf0tc8erpubexx2mv0ypp){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2023_gsi.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -251,6 +267,22 @@ $(document).ready(function(){
   
   </div>
   
+- #### <a href="###" data-toggle="collapse" data-target="#uknature2023">State of Nature Partnership: State of Nature 2023</a> 
+
+  <div id="uknature2023" class="collapse">  
+
+  <a href="https://stateofnature.org.uk/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_uknature2023.png" alt="UK State of Nature 2023 report cover"/>
+  </a>
+
+  #### The UK, like most other countries worldwide, has experienced a significant loss of ***biodiversity***. The trends in nature presented here cover, at most, 50 years, but these follow on from major changes to the UK’s nature over previous centuries. As a result, the UK is now one of the most nature-depleted countries on Earth. The main causes of these declines are clear, as are many ways in which we can reduce impacts and help struggling species. The evidence from the last 50 years shows that on land and in freshwater, significant and ongoing changes in the way we manage our land for agriculture, and the effects of climate change, are having the biggest impacts on our wildlife. At sea, and around our coasts, the main pressures on nature are unsustainable fishing, climate change and marine development. More broadly there has been growing recognition of the value of nature, including its role in tackling climate change, and the need for its conservation among the public and policymakers alike. With each report our monitoring of change improves and we have never had a better understanding of the state of nature. Yet, despite progress in ecosystem restoration, conserving species, and moving towards nature-friendly land and sea use, the UK’s nature and wider environment continues, overall, to decline and degrade. The UK has set ambitious targets to address nature loss through the Global Biodiversity Framework, and although our knowledge of how to do this is excellent, the size of the response and investment remains far from what is needed given the scale and pace of the crisis. [***See* report**](https://stateofnature.org.uk/){target="_blank"}. [***Download* report**](https://app.box.com/s/do8eog0f3t89vzpdq85y3sxvmh26vqt2){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2023_state_of_nature.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
 - #### <a href="###" data-toggle="collapse" data-target="#unep_mangrove2023">UNEP: Decades of Mangrove Forest Change</a> 
 
   <div id="unep_mangrove2023" class="collapse">  
@@ -282,18 +314,34 @@ $(document).ready(function(){
   <br/>
   
   </div>
-
-- #### <a href="###" data-toggle="collapse" data-target="#unepfinance2023">UNEP: State of Finance for Nature in Cities 2023</a> 
+  
+- #### <a href="###" data-toggle="collapse" data-target="#unepfinance2023">UNEP: State of Finance for Nature 2023</a> 
 
   <div id="unepfinance2023" class="collapse">  
 
-  <a href="https://wedocs.unep.org/handle/20.500.11822/41935" target="_blank">
+  <a href="https://www.unep.org/resources/state-finance-nature-2023" target="_blank">
     <img class="report_img" src="https://images.andbiodiversity.info/report_unepfinance2023.png" alt="UNEP finance 2023 report cover"/>
+  </a>
+
+  #### The State of Finance for Nature (SFN) annual report series tracks finance flows to nature-based solutions (NbS) and compares them to the finance needed to maximise the potential of NbS to help tackle climate, ***biodiversity*** and degradation challenges. For the first time, this edition estimates the scale of nature-negative finance flows from both public and private sector sources globally. The figure is daunting – almost US$7 trillion per year - and is likely to be an underestimate given it includes only direct impacts. Private finance flows that have a direct negative impact on nature are US$5 trillion, which is 140 times larger than private investments into NbS...NbS provide critical investment opportunities as they are cost-effective and provide multiple benefits...However, despite the sizeable investment potential of NbS, the single most impactful action to reduce and halt nature loss is the realignment of nature-negative finance flows. Due to their massive scale, realignment of public and private nature negative finance flows will have a very significant impact and is necessary to avoid undermining investment in NbS...In short, a major turnaround for nature is needed. Unless the real economy and financial system reduce financing of nature-negative activities (i.e. greening finance), actions to scale up investment in NbS (i.e. financing green) will be insufficient to tackle the climate, ***biodiversity*** and degradation crises.  [***See* report**](https://www.unep.org/resources/state-finance-nature-2023){target="_blank"}. [***Download* report**](https://app.box.com/s/8pbij2gh8bjl731pb9evv5y44od7r1xj){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2023_unep_finance.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+
+- #### <a href="###" data-toggle="collapse" data-target="#unepfinancecities2023">UNEP: State of Finance for Nature in Cities 2023</a> 
+
+  <div id="unepfinancecities2023" class="collapse">  
+
+  <a href="https://wedocs.unep.org/handle/20.500.11822/41935" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepfinancecities2023.png" alt="UNEP finance in cities 2023 report cover"/>
   </a>
 
   #### The State of Finance for Nature 2022 finds that a rapid doubling of finance flows to nature-based solution (NbS) can halt ***biodiversity loss***, reduce emissions by 5 GtCO2 per year by 2025, and help restore nearly 1 billion hectares of degraded land. Policymakers are increasingly recognizing the role of cities in reaching these global environmental targets and are eager to expand funding at local level. Target 12i of the Global Biodiversity Framework (GBF) adopted in December 2022 acknowledges the importance of the local level in mainstreaming the conservation and sustainable use of ***biodiversity*** for inclusive and sustainable urbanisation. Experts agree that while exemplary programs exist to support Target 12, overall funding of urban NbS is insufficient. The SFN 2022 report estimates the annual finance gap as USD 230 billion in 2025, increasing to USD 520 billion by 2050. Urban NbS should form a significant component of this given that the Green Climate Fund asserts that "Seventy per cent of known climate solutions are located within the boundaries of subnational authorities." National governments have become more willing to funnel sovereign funds and international loans to local governments for NbS because of their growing awareness of how NbS is a cost-effective measure to achieve global and national climate and ***biodiversity*** goals. [**Visit source**](https://wedocs.unep.org/handle/20.500.11822/41935){target="_blank"}. [**View report**](https://app.box.com/s/44vw9c1w4q0y43qp5r170b4xxvgg13bi){target="_blank"}.
 
-  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2023_unep_finance.mp3" preload="auto" type="audio/mp3"></audio>
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2023_unep_finance_cities.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -326,6 +374,22 @@ $(document).ready(function(){
   #### Water use has been increasing globally by roughly 1% per year over the last 40 years and is expected to grow at a similar rate through to 2050, driven by a combination of population growth, socio-economic development and changing consumption patterns. The bulk of this increase is concentrated in middle- and lower-income countries, particularly in emerging economies. Water scarcity is becoming endemic as a result of the local impact of physical water stress, coupled with the acceleration and spreading of freshwater pollution...Co-benefits generated through ecosystem-based approaches provide a strong justification for nature-based solutions. Water utilities are mainly interested in reducing infrastructure risks, ensuring compliance and reducing costs. Climate adaptation benefits, such as flood mitigation, are particularly attractive to rural communities. Additional benefits include ***biodiversity*** conservation, and jobs and training opportunities. This diversity and scale of benefits forge strong interests among a broader scope of stakeholders and potential partners. [**Visit source**](https://www.unesco.org/reports/wwdr/2023/en/download){target="_blank"}. [**View report**](https://app.box.com/s/fbhegy9g7drv83hwa91btw8amf1d36wg){target="_blank"}.
 
   <audio controls class="voiceover" src="https://media.andbiodiversity.info/2023_un_water.mp3" preload="auto" type="audio/mp3"></audio>
+  
+  <br/>
+  
+  </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#usgcrp2023">USGCRP: Fifth National Climate Assessment</a> 
+
+  <div id="usgcrp2023" class="collapse">  
+
+  <a href="https://nca2023.globalchange.gov/" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_usgcrp2023.png" alt="USGCRP 2023 report cover"/>
+  </a>
+
+  #### Together with other stressors, climate change is harming the health and resilience of ecosystems, leading to reductions in ***biodiversity and ecosystem services***. Increasing temperatures continue to shift habitat ranges as species expand into new regions or disappear from unfavorable areas, altering where people can hunt, catch, or gather economically important and traditional food sources. Degradation and extinction of local flora and fauna in vulnerable ecosystems like coral reefs and montane rainforests are expected in the near term, especially where climate changes favor invasive species or increase susceptibility to pests and pathogens. Without significant emissions reductions, rapid shifts in environmental conditions are expected to lead to irreversible ecological transformations by mid- to late century. [***See* report**](https://nca2023.globalchange.gov/){target="_blank"}. [***Download* report**](https://app.box.com/s/fg1wr3qhijw9yh01x91zyblqc4lp876g){target="_blank"}.
+
+  <audio controls class="voiceover" src="https://media.andbiodiversity.info/2023_usgcrp.mp3" preload="auto" type="audio/mp3"></audio>
   
   <br/>
   
@@ -501,7 +565,7 @@ $(document).ready(function(){
   <div id="unep2022" class="collapse">  
 
   <a href="https://www.unep.org/resources/report/state-finance-nature-2022" target="_blank">
-    <img class="report_img" src="https://images.andbiodiversity.info/report_unep2022.png" alt="UNEP 2022 report cover"/>
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepfinance2022.png" alt="UNEP 2022 report cover"/>
   </a>
 
   #### With sufficient finance, nature-based solutions (NbS) provide the means to cost-effectively reach climate, ***biodiversity*** and land degradation neutrality targets, particularly if investments simultaneously contribute to ***biodiversity***, climate and restoration targets. This "double" or "triple" win potential is particularly alluring given the current economic situation...Delayed action is no longer an option in the face of the devastating effects of climate change, the extinction crisis and severe land degradation globally. Politicians, business and finance leaders and citizens globally must transform their relationship with nature to work with it rather than against it...Private sector investment in NbS must increase by several orders of magnitude in the coming years...Nature-negative expenditures far outweigh investments in nature-based solutions...It is critical to rapidly align policies, regulation, economic activity and financial flows with ***biodiversity*** values and with the Paris Agreement. [**Visit source**](https://www.unep.org/resources/report/state-finance-nature-2022){target="_blank"}. [**View report**](https://app.box.com/s/9qqzash0tsmu7ko9aqdkxa65ekq2dbdh){target="_blank"}.
