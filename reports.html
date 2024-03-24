@@ -13,7 +13,7 @@
 
 <title>And Biodiversity | Reports</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
@@ -47,8 +47,8 @@
 <meta property="og:type" content="website"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="And Biodiversity | Reports"/>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="icon" type="image/png" sizes="192x192" href="https://images.andbiodiversity.info/favicon192x192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://images.andbiodiversity.info/favicon32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://images.andbiodiversity.info/favicon16x16.png">
@@ -162,11 +162,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -195,8 +199,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -204,16 +208,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -438,10 +435,152 @@ class="section level1 tabset tabset-fade tabset-pills">
 <div id="section-1" class="section level2">
 <h2>2020-2029</h2>
 <div id="section-2" class="section level3">
+<h3>2024</h3>
+<ul>
+<li><h4
+id="cms-state-of-the-worlds-migratory-species"><a href="javascript:void(0)" data-toggle="collapse" data-target="#cms2024">CMS:
+State of the World’s Migratory Species</a></h4>
+<div id="cms2024" class="collapse">
+<p><a href="https://www.cms.int/en/publication/state-worlds-migratory-species-report" target="_blank">
+<img class="report_img" src="https://images.andbiodiversity.info/report_cms2024.png" alt="CMS 2024 report cover"/>
+</a></p>
+<h4
+id="migratory-species-are-found-all-over-the-world---on-land-in-the-water-and-in-the-skies.-traversing-thousands-of-miles-these-species-rely-on-a-diverse-range-of-habitats-for-feeding-breeding-and-resting-and-in-turn-play-an-essential-role-in-the-maintenance-of-healthy-and-functional-ecosystemsthe-available-evidence-suggests-that-the-conservation-status-of-many-cms-listed-species-is-deteriorating.-one-in-five-cms-species-are-threatened-with-extinction-and-a-substantial-proportion-44-are-undergoing-population-declinesthe-deteriorating-status-of-migratory-species-is-being-driven-by-intense-levels-of-anthropogenic-pressure.-due-to-their-mobility-their-reliance-on-multiple-habitats-and-their-dependence-on-connectivity-between-different-sites-migratory-species-are-exposed-to-a-diverse-range-of-threats-caused-by-human-activity.-most-migratory-species-are-affected-by-a-combination-of-threats-which-often-interact-to-exacerbate-one-another.-habitat-loss-degradation-and-fragmentation-primarily-driven-by-agriculture-and-overexploitation-hunting-and-fishing-both-targeted-and-incidental-represent-the-two-most-pervasive-threats-to-migratory-species-and-their-habitats-according-to-the-iucn-red-list-of-threatened-species.-pollution-including-pesticides-plastics-heavy-metals-and-excess-nutrients-as-well-as-underwater-noise-and-light-pollution-represents-a-further-source-of-pressure-facing-many-species.-the-impacts-of-climate-change-are-already-being-felt-by-many-migratory-species-and-these-impacts-are-expected-to-increase-considerably-over-the-coming-decades-not-just-as-a-direct-threat-to-species-but-also-as-an-amplifier-of-other-threats.-visit-source.-view-report.">Migratory
+species are found all over the world - on land, in the water and in the
+skies. Traversing thousands of miles, these species rely on a diverse
+range of habitats for feeding, breeding and resting, and in turn, play
+an essential role in the maintenance of healthy and functional
+<strong><em>ecosystems</em></strong>…The available evidence suggests
+that the conservation status of many CMS-listed species is
+deteriorating. One in five CMS species are threatened with extinction
+and a substantial proportion (44%) are undergoing population
+declines…The deteriorating status of migratory species is being driven
+by intense levels of anthropogenic pressure. Due to their mobility,
+their reliance on multiple habitats, and their dependence on
+connectivity between different sites, migratory species are exposed to a
+diverse range of threats caused by human activity. Most migratory
+species are affected by a combination of threats, which often interact
+to exacerbate one another. Habitat loss, degradation and fragmentation
+(primarily driven by agriculture), and overexploitation (hunting and
+fishing, both targeted and incidental) represent the two most pervasive
+threats to migratory species and their habitats according to the IUCN
+Red List of Threatened Species™. Pollution, including pesticides,
+plastics, heavy metals and excess nutrients, as well as underwater noise
+and light pollution, represents a further source of pressure facing many
+species. The impacts of climate change are already being felt by many
+migratory species, and these impacts are expected to increase
+considerably over the coming decades, not just as a direct threat to
+species but also as an amplifier of other threats. <a
+href="https://www.cms.int/en/publication/state-worlds-migratory-species-report"
+target="_blank"><strong>Visit source</strong></a>. <a
+href="https://app.box.com/s/4cy0oy5fnwjxnrvcnqe6wdgba1bun60w"
+target="_blank"><strong>View report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
+<li><h4
+id="gri-101-biodiversity-2024"><a href="javascript:void(0)" data-toggle="collapse" data-target="#gri2024">GRI
+101: Biodiversity 2024</a></h4>
+<div id="gri2024" class="collapse">
+<p><a href="https://www.globalreporting.org/standards/standards-development/topic-standard-project-for-biodiversity/" target="_blank">
+<img class="report_img" src="https://images.andbiodiversity.info/report_gri2024.png" alt="GRI 2024 report cover"/>
+</a></p>
+<h4
+id="gri-101-biodiversity-2024-contains-disclosures-for-organizations-to-report-information-about-their-biodiversity-related-impacts-and-how-they-manage-these-impactsthe-activities-of-an-organization-can-exacerbate-the-direct-drivers-of-biodiversity-loss-such-as-land-and-sea-use-change-exploitation-of-natural-resources-climate-change-pollution-and-the-introduction-of-invasive-alien-species.-direct-drivers-have-impacts-on-species-and-ecosystems-while-affecting-people-who-rely-on-ecosystem-services-for-their-livelihood.-an-organization-can-have-impacts-on-biodiversity-through-its-activities-the-activities-of-its-business-relationships-or-a-combination-of-both.-these-impacts-can-also-extend-beyond-the-geographic-locations-of-the-organizations-activities.-visit-source.-view-report."><em>GRI
+101: Biodiversity 2024</em> contains disclosures for organizations to
+report information about their
+<strong><em>biodiversity</em></strong>-related impacts, and how they
+manage these impacts…The activities of an organization can exacerbate
+the direct drivers of <strong><em>biodiversity loss</em></strong>, such
+as land and sea use change, exploitation of natural resources, climate
+change, pollution, and the introduction of invasive alien species.
+Direct drivers have impacts on species and ecosystems while affecting
+people who rely on ecosystem services for their livelihood. An
+organization can have impacts on <strong><em>biodiversity</em></strong>
+through its activities, the activities of its business relationships, or
+a combination of both. These impacts can also extend beyond the
+geographic locations of the organization’s activities. <a
+href="https://www.globalreporting.org/standards/standards-development/topic-standard-project-for-biodiversity/"
+target="_blank"><strong>Visit source</strong></a>. <a
+href="https://app.box.com/s/jdcyco171sj2encjvzszgivbu6f2cnft"
+target="_blank"><strong>View report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
+<li><h4
+id="unep-global-resources-outlook-2024"><a href="javascript:void(0)" data-toggle="collapse" data-target="#gro2024">UNEP:
+Global Resources Outlook 2024</a></h4>
+<div id="gro2024" class="collapse">
+<p><a href="https://www.unep.org/resources/Global-Resource-Outlook-2024" target="_blank">
+<img class="report_img" src="https://images.andbiodiversity.info/report_unepgro2024.png" alt="UNEP GRO report cover"/>
+</a></p>
+<h4
+id="the-scale-of-impacts-linked-to-the-way-material-resources-are-extracted-and-processed-for-our-global-economy-are-astounding-over-55-per-cent-of-greenhouse-gas-emissions-driving-us-to-the-brink-of-climate-catastrophe-up-to-40-per-cent-of-particulate-matter-health-related-impacts-costing-over-200-million-disability-adjusted-life-years-every-year-and-over-90-per-cent-of-total-land-use-related-biodiversity-loss-that-is-the-lynchpin-of-vibrant-ecosystems-and-life-on-earth.-if-not-addressed-the-impacts-of-our-resource-use-will-derail-all-hope-of-meeting-multilateral-environmental-agreements-like-the-united-nations-framework-convention-on-climate-change-the-united-nations-convention-to-combat-desertification-and-the-convention-on-biological-diversity.-despite-this-our-insatiable-use-of-resources-has-tripled-over-the-last-fifty-years.-as-nations-continue-their-urbanisation-and-industrialization-and-the-global-middle-class-expands-there-is-a-corresponding-uptick-in-material-use-waste-emissions-as-well-as-water-and-land-consumption.-if-we-do-not-change-we-could-see-resource-use-up-by-60-per-cent-from-2020-levels-by-2060.-our-current-deeply-unsustainable-systems-of-consumption-and-production-will-cumulate-in-catastrophic-impacts-on-the-earth-systems-and-ecological-processes-that-underpin-human-well-being-and-the-diversity-of-life-on-our-planet.-visit-source.-view-report.">The
+scale of impacts linked to the way material resources are extracted and
+processed for our global economy are astounding — over 55 per cent of
+greenhouse gas emissions driving us to the brink of climate catastrophe,
+up to 40 per cent of particulate matter health related impacts costing
+over 200 million disability-adjusted life years every year, and over 90
+per cent of total land use related <strong><em>biodiversity
+loss</em></strong> that is the lynchpin of vibrant ecosystems and life
+on Earth. If not addressed, the impacts of our resource use will derail
+all hope of meeting Multilateral Environmental Agreements like the
+United Nations Framework Convention on Climate Change, the United
+Nations Convention to Combat Desertification and the Convention on
+Biological Diversity. Despite this, our insatiable use of resources has
+tripled over the last fifty years. As nations continue their
+urbanisation and industrialization, and the global middle class expands,
+there is a corresponding uptick in material use, waste, emissions, as
+well as water and land consumption. If we do not change, we could see
+resource use up by 60 per cent from 2020 levels by 2060. Our current
+deeply unsustainable systems of consumption and production will cumulate
+in catastrophic impacts on the earth systems and ecological processes
+that underpin human well-being and the <strong><em>diversity of
+life</em></strong> on our planet. <a
+href="https://www.unep.org/resources/Global-Resource-Outlook-2024"
+target="_blank"><strong>Visit source</strong></a>. <a
+href="https://app.box.com/s/yen9a33ggaeabvwi8ks4uc9pdj008yv2"
+target="_blank"><strong>View report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
+<li><h4
+id="wef-global-risks-report-2024"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wef2024">WEF:
+Global Risks Report 2024</a></h4>
+<div id="wef2024" class="collapse">
+<p><a href="https://www.weforum.org/publications/global-risks-report-2024/" target="_blank">
+<img class="report_img" src="https://images.andbiodiversity.info/report_wef2024.png" alt="WEF 2024 report cover"/>
+</a></p>
+<h4
+id="the-global-risks-report-2024-presents-the-findings-of-the-global-risks-perception-survey-grps-which-captures-insights-from-nearly-1500-global-experts.-the-report-analyses-global-risks-through-three-time-frames-to-support-decision-makers-in-balancing-current-crises-and-longer-term-prioritiesgrps-respondents-disagree-about-the-urgency-of-environmental-risks-in-particular-biodiversity-loss-and-ecosystem-collapse-and-critical-change-to-earth-systems.-younger-respondents-tend-to-rank-these-risks-far-more-highly-over-the-two-year-period-compared-to-older-age-groups-with-both-risks-featuring-in-their-top-10-rankings-in-the-short-term.-the-private-sector-highlights-these-risks-as-top-concerns-over-the-longer-term-in-contrast-to-respondents-from-civil-society-or-government-who-prioritize-these-risks-over-shorter-time-frames.-this-dissonance-in-perceptions-of-urgency-among-key-decision-makers-implies-sub-optimal-alignment-and-decision-making-heightening-the-risk-of-missing-key-moments-of-intervention-which-would-result-in-long-term-changes-to-planetary-systems.-visit-source.-view-report."><em>The
+Global Risks Report 2024</em> presents the findings of the Global Risks
+Perception Survey (GRPS), which captures insights from nearly 1,500
+global experts. The report analyses global risks through three time
+frames to support decision-makers in balancing current crises and
+longer-term priorities…GRPS respondents disagree about the urgency of
+environmental risks, in particular <strong><em>biodiversity loss and
+ecosystem collapse</em></strong> and critical change to Earth systems.
+Younger respondents tend to rank these risks far more highly over the
+two-year period compared to older age groups, with both risks featuring
+in their top 10 rankings in the short term. The private sector
+highlights these risks as top concerns over the longer term, in contrast
+to respondents from civil society or government who prioritize these
+risks over shorter time frames. This dissonance in perceptions of
+urgency among key decision-makers implies sub-optimal alignment and
+decision-making, heightening the risk of missing key moments of
+intervention, which would result in long-term changes to planetary
+systems. <a
+href="https://www.weforum.org/publications/global-risks-report-2024/"
+target="_blank"><strong>Visit source</strong></a>. <a
+href="https://app.box.com/s/vno3zdctfitfgwlrau1el5xakz5f5lgl"
+target="_blank"><strong>View report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
+</ul>
+<p><br/> <br/></p>
+</div>
+<div id="section-3" class="section level3">
 <h3>2023</h3>
 <ul>
 <li><h4
-id="gef-innovative-finance-for-nature-and-people"><a href="###" data-toggle="collapse" data-target="#gef2023">GEF:
+id="gef-innovative-finance-for-nature-and-people"><a href="javascript:void(0)" data-toggle="collapse" data-target="#gef2023">GEF:
 Innovative Finance for Nature and People</a></h4>
 <div id="gef2023" class="collapse">
 <p><a href="https://www.thegef.org/newsroom/publications/innovative-finance-nature-and-people" target="_blank">
@@ -480,7 +619,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="gsi-global-tipping-points-2023"><a href="###" data-toggle="collapse" data-target="#gsi2023">GSI:
+id="gsi-global-tipping-points-2023"><a href="javascript:void(0)" data-toggle="collapse" data-target="#gsi2023">GSI:
 Global Tipping Points 2023</a></h4>
 <div id="gsi2023" class="collapse">
 <p><a href="https://global-tipping-points.org/" target="_blank">
@@ -520,7 +659,7 @@ target="_blank"><strong><em>Download</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="icimod-water-ice-society-and-ecosystems-in-the-hindu-kush-himalaya"><a href="###" data-toggle="collapse" data-target="#icimod2023">ICIMOD:
+id="icimod-water-ice-society-and-ecosystems-in-the-hindu-kush-himalaya"><a href="javascript:void(0)" data-toggle="collapse" data-target="#icimod2023">ICIMOD:
 Water, ice, society, and ecosystems in the Hindu Kush Himalaya</a></h4>
 <div id="icimod2023" class="collapse">
 <p><a href="https://hkh.icimod.org/hi-wise/hi-wise-report/" target="_blank">
@@ -556,7 +695,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipbes-thematic-assessment-report-on-invasive-alien-species-and-their-control"><a href="###" data-toggle="collapse" data-target="#ibpes2023">IPBES:
+id="ipbes-thematic-assessment-report-on-invasive-alien-species-and-their-control"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ibpes2023">IPBES:
 Thematic Assessment Report on Invasive Alien Species and their
 Control</a></h4>
 <div id="ibpes2023" class="collapse">
@@ -592,7 +731,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipcc-synthesis-report-for-the-sixth-assessment"><a href="###" data-toggle="collapse" data-target="#ipcc2023">IPCC:
+id="ipcc-synthesis-report-for-the-sixth-assessment"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipcc2023">IPCC:
 Synthesis Report for the Sixth Assessment</a></h4>
 <div id="ipcc2023" class="collapse">
 <p><a href="https://www.ipcc.ch/report/ar6/syr/" target="_blank">
@@ -624,7 +763,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="iucn-addressing-ecological-connectivity-in-the-development-of-roads-railways-and-canals"><a href="###" data-toggle="collapse" data-target="#iucntransport2023">IUCN:
+id="iucn-addressing-ecological-connectivity-in-the-development-of-roads-railways-and-canals"><a href="javascript:void(0)" data-toggle="collapse" data-target="#iucntransport2023">IUCN:
 Addressing ecological connectivity in the development of roads, railways
 and canals</a></h4>
 <div id="iucntransport2023" class="collapse">
@@ -661,7 +800,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="kew-state-of-the-worlds-plants-and-fungi"><a href="###" data-toggle="collapse" data-target="#kew2023">Kew:
+id="kew-state-of-the-worlds-plants-and-fungi"><a href="javascript:void(0)" data-toggle="collapse" data-target="#kew2023">Kew:
 State of the World’s Plants and Fungi</a></h4>
 <div id="kew2023" class="collapse">
 <p><a href="https://www.kew.org/science/state-of-the-worlds-plants-and-fungi" target="_blank">
@@ -691,7 +830,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="natureserve-biodiversity-in-focus-united-states-edition"><a href="###" data-toggle="collapse" data-target="#ns2023">NatureServe:
+id="natureserve-biodiversity-in-focus-united-states-edition"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ns2023">NatureServe:
 Biodiversity in Focus: United States Edition</a></h4>
 <div id="ns2023" class="collapse">
 <p><a href="https://www.natureserve.org/bif" target="_blank">
@@ -730,7 +869,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="shareaction-point-of-no-returns-2023-part-iv-climate-and-biodiversity"><a href="###" data-toggle="collapse" data-target="#shareaction2023">ShareAction:
+id="shareaction-point-of-no-returns-2023-part-iv-climate-and-biodiversity"><a href="javascript:void(0)" data-toggle="collapse" data-target="#shareaction2023">ShareAction:
 Point of No Returns 2023 Part IV: Climate and Biodiversity</a></h4>
 <div id="shareaction2023" class="collapse">
 <p><a href="https://shareaction.org/reports/point-of-no-returns-2023-part-iv-climate-and-biodiversity" target="_blank">
@@ -768,7 +907,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="state-of-nature-partnership-state-of-nature-2023"><a href="###" data-toggle="collapse" data-target="#uknature2023">State
+id="state-of-nature-partnership-state-of-nature-2023"><a href="javascript:void(0)" data-toggle="collapse" data-target="#uknature2023">State
 of Nature Partnership: State of Nature 2023</a></h4>
 <div id="uknature2023" class="collapse">
 <p><a href="https://stateofnature.org.uk/" target="_blank">
@@ -808,7 +947,7 @@ target="_blank"><strong><em>Download</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-decades-of-mangrove-forest-change"><a href="###" data-toggle="collapse" data-target="#unep_mangrove2023">UNEP:
+id="unep-decades-of-mangrove-forest-change"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep_mangrove2023">UNEP:
 Decades of Mangrove Forest Change</a></h4>
 <div id="unep_mangrove2023" class="collapse">
 <p><a href="https://www.unep.org/resources/report/decades-mangrove-forest-change-what-does-it-mean-nature-people-and-climate" target="_blank">
@@ -841,7 +980,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-into-the-blue-securing-a-sustainable-future-for-kelp-forests"><a href="###" data-toggle="collapse" data-target="#unepkelp2023">UNEP:
+id="unep-into-the-blue-securing-a-sustainable-future-for-kelp-forests"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepkelp2023">UNEP:
 Into the Blue: Securing a Sustainable Future for Kelp Forests</a></h4>
 <div id="unepkelp2023" class="collapse">
 <p><a href="https://www.unep.org/resources/report/blue-securing-sustainable-future-kelp-forests" target="_blank">
@@ -874,7 +1013,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-state-of-finance-for-nature-2023"><a href="###" data-toggle="collapse" data-target="#unepfinance2023">UNEP:
+id="unep-state-of-finance-for-nature-2023"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepfinance2023">UNEP:
 State of Finance for Nature 2023</a></h4>
 <div id="unepfinance2023" class="collapse">
 <p><a href="https://www.unep.org/resources/state-finance-nature-2023" target="_blank">
@@ -913,7 +1052,7 @@ target="_blank"><strong><em>Download</em> report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-state-of-finance-for-nature-in-cities-2023"><a href="###" data-toggle="collapse" data-target="#unepfinancecities2023">UNEP:
+id="unep-state-of-finance-for-nature-in-cities-2023"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepfinancecities2023">UNEP:
 State of Finance for Nature in Cities 2023</a></h4>
 <div id="unepfinancecities2023" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/41935" target="_blank">
@@ -951,7 +1090,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="un-global-sustainable-development-report"><a href="###" data-toggle="collapse" data-target="#un_gsdr2023">UN:
+id="un-global-sustainable-development-report"><a href="javascript:void(0)" data-toggle="collapse" data-target="#un_gsdr2023">UN:
 Global Sustainable Development Report</a></h4>
 <div id="un_gsdr2023" class="collapse">
 <p><a href="https://sdgs.un.org/gsdr/gsdr2023" target="_blank">
@@ -983,7 +1122,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="un-world-water-development-report"><a href="###" data-toggle="collapse" data-target="#un_water2023">UN:
+id="un-world-water-development-report"><a href="javascript:void(0)" data-toggle="collapse" data-target="#un_water2023">UN:
 World Water Development Report</a></h4>
 <div id="un_water2023" class="collapse">
 <p><a href="https://www.unesco.org/reports/wwdr/2023/en/download" target="_blank">
@@ -1016,7 +1155,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="usgcrp-fifth-national-climate-assessment"><a href="###" data-toggle="collapse" data-target="#usgcrp2023">USGCRP:
+id="usgcrp-fifth-national-climate-assessment"><a href="javascript:void(0)" data-toggle="collapse" data-target="#usgcrp2023">USGCRP:
 Fifth National Climate Assessment</a></h4>
 <div id="usgcrp2023" class="collapse">
 <p><a href="https://nca2023.globalchange.gov/" target="_blank">
@@ -1045,14 +1184,107 @@ target="_blank"><strong><em>Download</em> report</strong></a>.</h4>
 </audio>
 <p><br/></p>
 </div></li>
+<li><h4
+id="wef-global-risks-report-2023"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wef2023">WEF:
+Global Risks Report 2023</a></h4>
+<div id="wef2023" class="collapse">
+<p><a href="https://www.weforum.org/publications/global-risks-report-2023/" target="_blank">
+<img class="report_img" src="https://images.andbiodiversity.info/report_wef2023.png" alt="WEF 2023 report cover"/>
+</a></p>
+<h4
+id="the-next-decade-will-be-characterized-by-environmental-and-societal-crises-driven-by-underlying-geopolitical-and-economic-trends.-costof-living-crisis-is-ranked-as-the-most-severe-global-risk-over-the-next-two-years-peaking-in-the-short-term.-biodiversity-loss-and-ecosystem-collapse-is-viewed-as-one-of-the-fastest-deteriorating-global-risks-over-the-next-decade-and-all-six-environmental-risks-feature-in-the-top-10-risks-over-the-next-10-yearsas-current-crises-diverts-resources-from-risks-arising-over-the-medium-to-longer-term-the-burdens-on-natural-ecosystems-will-grow-given-their-still-undervalued-role-in-the-global-economy-and-overall-planetary-health.-nature-loss-and-climate-change-are-intrinsically-interlinked-a-failure-in-one-sphere-will-cascade-into-the-other.-without-significant-policy-change-or-investment-the-interplay-between-climate-change-impacts-biodiversity-loss-food-security-and-natural-resource-consumption-will-accelerate-ecosystem-collapse-threaten-food-supplies-and-livelihoods-in-climate-vulnerable-economies-amplify-the-impacts-of-natural-disasters-and-limit-further-progress-on-climate-mitigation.-visit-source.-view-report.">The
+next decade will be characterized by environmental and societal crises,
+driven by underlying geopolitical and economic trends. “Costof-living
+crisis” is ranked as the most severe global risk over the next two
+years, peaking in the short term. “<strong><em>Biodiversity loss and
+ecosystem collapse</em></strong>” is viewed as one of the fastest
+deteriorating global risks over the next decade, and all six
+environmental risks feature in the top 10 risks over the next 10
+years…As current crises diverts resources from risks arising over the
+medium to longer term, the burdens on natural ecosystems will grow given
+their still undervalued role in the global economy and overall planetary
+health. Nature loss and climate change are intrinsically interlinked – a
+failure in one sphere will cascade into the other. Without significant
+policy change or investment, the interplay between climate change
+impacts, <strong><em>biodiversity loss</em></strong>, food security and
+natural resource consumption will accelerate ecosystem collapse,
+threaten food supplies and livelihoods in climate-vulnerable economies,
+amplify the impacts of natural disasters, and limit further progress on
+climate mitigation. <a
+href="https://www.weforum.org/publications/global-risks-report-2023/"
+target="_blank"><strong>Visit source</strong></a>. <a
+href="https://app.box.com/s/ydxwp73qjeuvhalrsdsms4qzi2x8hecn"
+target="_blank"><strong>View report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
+<li><h4
+id="world-bank-detox-development"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wbdetox2023">World
+Bank: Detox Development</a></h4>
+<div id="wbdetox2023" class="collapse">
+<p><a href="https://openknowledge.worldbank.org/entities/publication/4217c71d-6cbc-46b6-942c-3e4651900d29" target="_blank">
+<img class="report_img" src="https://images.andbiodiversity.info/report_worldbank_detox_2023.png" alt="World Bank Detox 2024 report cover"/>
+</a></p>
+<h4
+id="detox-development-repurposing-environmentally-harmful-subsidies-examines-how-subsidy-reform-can-help-safeguard-the-worlds-foundational-natural-assetsclean-air-land-and-oceans.-these-assets-are-critical-for-human-health-and-nutrition-and-underpin-much-of-the-global-economy.-but-subsidies-for-fossil-fuels-agriculture-and-fisheries-are-driving-the-degradation-of-these-assets-and-harming-people-the-planet-and-economies.-these-subsidies-exceed-us7-trillion-per-yearor-about-8-percent-of-global-gross-domestic-product.-this-includes-both-explicit-subsidieswhich-are-direct-public-expenditures-totaling-about-us1.25-trillionand-implicit-subsidieswhich-measure-the-societal-impacts-of-externalities-and-amount-to-more-than-us6-trillion.-visit-source.-view-report."><em>Detox
+Development: Repurposing Environmentally Harmful Subsidies</em> examines
+how subsidy reform can help safeguard the world’s foundational
+<strong><em>natural assets</em></strong>—clean air, land, and oceans.
+These assets are critical for human health and nutrition and underpin
+much of the global economy. But subsidies for fossil fuels, agriculture,
+and fisheries are driving the degradation of these assets and harming
+people, the planet, and economies. These subsidies exceed US$7 trillion
+per year—or about 8 percent of global gross domestic product. This
+includes both explicit subsidies—which are direct public expenditures
+totaling about US$1.25 trillion—and implicit subsidies—which measure the
+societal impacts of externalities and amount to more than US$6 trillion.
+<a
+href="https://openknowledge.worldbank.org/entities/publication/4217c71d-6cbc-46b6-942c-3e4651900d29"
+target="_blank"><strong>Visit source</strong></a>. <a
+href="https://app.box.com/s/84u32227omfbr5uzmyq51oeydwuxa999"
+target="_blank"><strong>View report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
+<li><h4
+id="world-bank-natures-frontiers"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wbfrontiers2023">World
+Bank: Nature’s Frontiers</a></h4>
+<div id="wbfrontiers2023" class="collapse">
+<p><a href="https://www.worldbank.org/en/publication/natures-frontiers#Data" target="_blank">
+<img class="report_img" src="https://images.andbiodiversity.info/report_worldbank_frontiers2023.png" alt="World Bank Frontiers 2023 report cover"/>
+</a></p>
+<h4
+id="the-great-expansion-of-economic-activity-since-the-end-of-world-war-ii-has-caused-an-unprecedented-rise-in-living-standards-but-it-has-also-caused-rapid-changes-in-earth-systems.-nearly-all-types-of-natural-capitalthe-worlds-stock-of-resources-and-services-provided-by-natureare-in-decline.-clean-air-abundant-and-clean-water-fertile-soils-productive-fisheries-dense-forests-and-healthy-oceans-are-critical-for-healthy-lives-and-healthy-economies.-mounting-pressures-however-suggest-that-the-trend-of-declining-natural-capital-may-cast-a-long-shadow-into-the-futuresignificant-efficiency-gaps-exist-in-the-use-of-land-in-countries-at-all-income-levels-and-in-all-regionsmore-efficient-use-of-land-could-sequester-an-additional-85.6-billion-metric-tons-of-carbon-dioxide-equivalent-with-no-adverse-economic-impactsbetter-allocation-and-management-of-land-water-and-other-inputs-could-lead-to-increases-in-agriculture-grazing-and-forestry-annual-income-by-approximately-us329-billionand-enough-food-production-increases-to-feed-the-world-until-2050without-net-loss-of-forests-and-natural-habitats.-visit-source.-view-report.">The
+great expansion of economic activity since the end of World War II has
+caused an unprecedented rise in living standards, but it has also caused
+rapid changes in earth systems. Nearly all types of <strong><em>natural
+capital</em></strong>—the world’s stock of resources and services
+provided by nature—are in decline. Clean air, abundant and clean water,
+fertile soils, productive fisheries, dense forests, and healthy oceans
+are critical for healthy lives and healthy economies. Mounting
+pressures, however, suggest that the trend of declining
+<strong><em>natural capital</em></strong> may cast a long shadow into
+the future…Significant efficiency gaps exist in the use of land in
+countries at all income levels and in all regions…More efficient use of
+land could sequester an additional 85.6 billion metric tons of carbon
+dioxide equivalent with no adverse economic impacts…Better allocation
+and management of land, water, and other inputs could lead to increases
+in agriculture, grazing, and forestry annual income by approximately
+US$329 billion—and enough food production increases to feed the world
+until 2050—without net <strong><em>loss of forests and natural
+habitats</em></strong>. <a
+href="https://www.worldbank.org/en/publication/natures-frontiers#Data"
+target="_blank"><strong>Visit source</strong></a>. <a
+href="https://app.box.com/s/xs70hs51u4k01hdusfx7scbakfp5ibuw"
+target="_blank"><strong>View report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
 </ul>
 <p><br/> <br/></p>
 </div>
-<div id="section-3" class="section level3">
+<div id="section-4" class="section level3">
 <h3>2022</h3>
 <ul>
 <li><h4
-id="bli-state-of-the-worlds-birds-2022"><a href="####" data-toggle="collapse" data-target="#bli2022">BLI:
+id="bli-state-of-the-worlds-birds-2022"><a href="javascript:void(0)" data-toggle="collapse" data-target="#bli2022">BLI:
 State of the World’s Birds 2022</a></h4>
 <div id="bli2022" class="collapse">
 <p><a href="https://www.birdlife.org/papers-reports/state-of-the-worlds-birds-2022/" target="_blank">
@@ -1082,7 +1314,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="fao-the-state-of-the-worlds-forests"><a href="####" data-toggle="collapse" data-target="#faoforests2022">FAO:
+id="fao-the-state-of-the-worlds-forests"><a href="javascript:void(0)" data-toggle="collapse" data-target="#faoforests2022">FAO:
 The State of the World’s Forests</a></h4>
 <div id="faoforests2022" class="collapse">
 <p><a href="https://www.fao.org/publications/sofo/2022/en/" target="_blank">
@@ -1107,7 +1339,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="fao-the-state-of-world-fisheries-and-aquaculture"><a href="####" data-toggle="collapse" data-target="#faofish2022">FAO:
+id="fao-the-state-of-world-fisheries-and-aquaculture"><a href="javascript:void(0)" data-toggle="collapse" data-target="#faofish2022">FAO:
 The State of World Fisheries and Aquaculture</a></h4>
 <div id="faofish2022" class="collapse">
 <p><a href="https://www.fao.org/publications/sofia/2022/en/" target="_blank">
@@ -1135,7 +1367,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipbes-assessment-report-on-diverse-values-and-valuation-of-nature"><a href="####" data-toggle="collapse" data-target="#ipbesvalues2022">IPBES:
+id="ipbes-assessment-report-on-diverse-values-and-valuation-of-nature"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipbesvalues2022">IPBES:
 Assessment Report on Diverse Values and Valuation of Nature</a></h4>
 <div id="ipbesvalues2022" class="collapse">
 <p><a href="https://ipbes.net/media_release/Values_Assessment_Published" target="_blank">
@@ -1163,7 +1395,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipbes-assessment-report-on-the-sustainable-use-of-wild-species"><a href="####" data-toggle="collapse" data-target="#ipbeswild2022">IPBES:
+id="ipbes-assessment-report-on-the-sustainable-use-of-wild-species"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipbeswild2022">IPBES:
 Assessment Report on the Sustainable Use of Wild Species</a></h4>
 <div id="ipbeswild2022" class="collapse">
 <p><a href="https://ipbes.net/sustainable-use-assessment" target="_blank">
@@ -1190,7 +1422,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipcc-sixth-assessment-part-2-climate-change---impacts-adaptation-and-vulnerability"><a href="####" data-toggle="collapse" data-target="#ipcc6ar2">IPCC:
+id="ipcc-sixth-assessment-part-2-climate-change---impacts-adaptation-and-vulnerability"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipcc6ar2">IPCC:
 Sixth Assessment Part 2: Climate Change - Impacts, Adaptation and
 Vulnerability</a></h4>
 <div id="ipcc6ar2" class="collapse">
@@ -1218,7 +1450,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="iucn-restoration-barometer"><a href="###" data-toggle="collapse" data-target="#iucn2022">IUCN:
+id="iucn-restoration-barometer"><a href="javascript:void(0)" data-toggle="collapse" data-target="#iucn2022">IUCN:
 Restoration Barometer</a></h4>
 <div id="iucn2022" class="collapse">
 <p><a href="https://www.iucn.org/resources/annual-reports/restoration-barometer-2022-report" target="_blank">
@@ -1250,7 +1482,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="stockholm-environment-institute-a-comprehensive-approach-to-nitrogen-in-the-uk"><a href="####" data-toggle="collapse" data-target="#sei2022">Stockholm
+id="stockholm-environment-institute-a-comprehensive-approach-to-nitrogen-in-the-uk"><a href="javascript:void(0)" data-toggle="collapse" data-target="#sei2022">Stockholm
 Environment Institute: A Comprehensive Approach to Nitrogen in the
 UK</a></h4>
 <div id="sei2022" class="collapse">
@@ -1283,7 +1515,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unccd-global-land-outlook-2"><a href="####" data-toggle="collapse" data-target="#unccd2022">UNCCD:
+id="unccd-global-land-outlook-2"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unccd2022">UNCCD:
 Global Land Outlook 2</a></h4>
 <div id="unccd2022" class="collapse">
 <p><a href="https://unccd.int/resources/global-land-outlook/glo2" target="_blank">
@@ -1306,7 +1538,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-sports-for-nature"><a href="####" data-toggle="collapse" data-target="#unep_sport_2022">UNEP:
+id="unep-sports-for-nature"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep_sport_2022">UNEP:
 Sports for Nature</a></h4>
 <div id="unep_sport_2022" class="collapse">
 <p><a href="https://www.unep.org/resources/publication/sports-nature-setting-baseline-handbook" target="_blank">
@@ -1334,7 +1566,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-state-of-finance-for-nature-2022"><a href="####" data-toggle="collapse" data-target="#unep2022">UNEP:
+id="unep-state-of-finance-for-nature-2022"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep2022">UNEP:
 State of Finance for Nature 2022</a></h4>
 <div id="unep2022" class="collapse">
 <p><a href="https://www.unep.org/resources/report/state-finance-nature-2022" target="_blank">
@@ -1367,7 +1599,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="world-wildlife-fund-living-planet-report"><a href="####" data-toggle="collapse" data-target="#wwf2022">World
+id="world-wildlife-fund-living-planet-report"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wwf2022">World
 Wildlife Fund: Living Planet Report</a></h4>
 <div id="wwf2022" class="collapse">
 <p><a href="https://livingplanet.panda.org/en-us/" target="_blank">
@@ -1397,11 +1629,11 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 <p><br/> <br/></p>
 </div>
-<div id="section-4" class="section level3">
+<div id="section-5" class="section level3">
 <h3>2021</h3>
 <ul>
 <li><h4
-id="bcg-biodiversity-crisis-is-a-business-crisis"><a href="###" data-toggle="collapse" data-target="#bcg_2021">BCG:
+id="bcg-biodiversity-crisis-is-a-business-crisis"><a href="javascript:void(0)" data-toggle="collapse" data-target="#bcg_2021">BCG:
 Biodiversity Crisis is a Business Crisis</a></h4>
 <div id="bcg_2021" class="collapse">
 <p><a href="https://www.bcg.com/publications/2021/biodiversity-loss-business-implications-responses" target="_blank">
@@ -1439,7 +1671,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="bgci-the-state-of-trees-report"><a href="####" data-toggle="collapse" data-target="#bgci2022">BGCI:
+id="bgci-the-state-of-trees-report"><a href="javascript:void(0)" data-toggle="collapse" data-target="#bgci2022">BGCI:
 The State of Trees Report</a></h4>
 <div id="bgci2022" class="collapse">
 <p><a href="https://www.bgci.org/news-events/bgci-launches-the-state-of-the-worlds-trees-report/" target="_blank">
@@ -1468,7 +1700,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="gcrmn-status-of-coral-reefs-of-the-world-2020"><a href="###" data-toggle="collapse" data-target="#gcrmn2021">GCRMN:
+id="gcrmn-status-of-coral-reefs-of-the-world-2020"><a href="javascript:void(0)" data-toggle="collapse" data-target="#gcrmn2021">GCRMN:
 Status of Coral Reefs of the World: 2020</a></h4>
 <div id="gcrmn2021" class="collapse">
 <p><a href="https://gcrmn.net/2020-report/" target="_blank">
@@ -1505,7 +1737,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipbes-and-ipcc-co-sponsored-workshop-report"><a href="####" data-toggle="collapse" data-target="#ipbesipcc2021">IPBES
+id="ipbes-and-ipcc-co-sponsored-workshop-report"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipbesipcc2021">IPBES
 and IPCC Co-Sponsored Workshop Report</a></h4>
 <div id="ipbesipcc2021" class="collapse">
 <p><a href="https://ipbes.net/events/ipbes-ipcc-co-sponsored-workshop-biodiversity-and-climate-change" target="_blank">
@@ -1536,7 +1768,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipcc-sixth-assessment-part-1-climate-change---the-physical-science-basis"><a href="####" data-toggle="collapse" data-target="#ipcc6ar1">IPCC:
+id="ipcc-sixth-assessment-part-1-climate-change---the-physical-science-basis"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipcc6ar1">IPCC:
 Sixth Assessment Part 1: Climate Change - The Physical Science
 Basis</a></h4>
 <div id="ipcc6ar1" class="collapse">
@@ -1566,7 +1798,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="iucn-red-list-quadrennial-report-20172020"><a href="####" data-toggle="collapse" data-target="#iucn2021">IUCN
+id="iucn-red-list-quadrennial-report-20172020"><a href="javascript:void(0)" data-toggle="collapse" data-target="#iucn2021">IUCN
 Red List Quadrennial Report 2017–2020</a></h4>
 <div id="iucn2021" class="collapse">
 <p><a href="https://www.iucnredlist.org/resources/" target="_blank">
@@ -1595,7 +1827,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="iucn-using-ecosystem-risk-assessment-science-for-ecosystem-restoration"><a href="###" data-toggle="collapse" data-target="#iucn_restoration2021">IUCN:
+id="iucn-using-ecosystem-risk-assessment-science-for-ecosystem-restoration"><a href="javascript:void(0)" data-toggle="collapse" data-target="#iucn_restoration2021">IUCN:
 Using ecosystem risk assessment science for ecosystem
 restoration</a></h4>
 <div id="iucn_restoration2021" class="collapse">
@@ -1630,7 +1862,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="protected-planet-report-2020"><a href="###" data-toggle="collapse" data-target="#protected_planet2021">Protected
+id="protected-planet-report-2020"><a href="javascript:void(0)" data-toggle="collapse" data-target="#protected_planet2021">Protected
 Planet Report 2020</a></h4>
 <div id="protected_planet2021" class="collapse">
 <p><a href="https://www.unep.org/resources/protected-planet-report-2020" target="_blank">
@@ -1662,7 +1894,7 @@ target="_blank"><strong>Visit source</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ramsar-global-wetland-outlook-special-edition-2021"><a href="####" data-toggle="collapse" data-target="#ramsar2021">Ramsar:
+id="ramsar-global-wetland-outlook-special-edition-2021"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ramsar2021">Ramsar:
 Global Wetland Outlook Special Edition 2021</a></h4>
 <div id="ramsar2021" class="collapse">
 <p><a href="https://www.global-wetland-outlook.ramsar.org/report-1" target="_blank">
@@ -1692,7 +1924,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="the-economics-of-biodiversity-the-dasgupta-review"><a href="####" data-toggle="collapse" data-target="#dasgupta2021">The
+id="the-economics-of-biodiversity-the-dasgupta-review"><a href="javascript:void(0)" data-toggle="collapse" data-target="#dasgupta2021">The
 Economics of Biodiversity: The Dasgupta Review</a></h4>
 <div id="dasgupta2021" class="collapse">
 <p><a href="https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review" target="_blank">
@@ -1724,7 +1956,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="un-system-of-environmental-economic-accounting-ecosystem-accounting"><a href="###" data-toggle="collapse" data-target="#seea2021">UN:
+id="un-system-of-environmental-economic-accounting-ecosystem-accounting"><a href="javascript:void(0)" data-toggle="collapse" data-target="#seea2021">UN:
 System of Environmental-Economic Accounting— Ecosystem
 Accounting</a></h4>
 <div id="seea2021" class="collapse">
@@ -1758,7 +1990,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-becoming-generationrestoration-ecosystem-restoration-for-people-nature-and-climate"><a href="###" data-toggle="collapse" data-target="#unep_restoration2021">UNEP:
+id="unep-becoming-generationrestoration-ecosystem-restoration-for-people-nature-and-climate"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep_restoration2021">UNEP:
 Becoming #GenerationRestoration: Ecosystem restoration for people,
 nature and climate</a></h4>
 <div id="unep_restoration2021" class="collapse">
@@ -1796,7 +2028,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-from-pollution-to-solution-a-global-assessment-of-marine-litter-and-plastic-pollution"><a href="####" data-toggle="collapse" data-target="#unepplastic2021">UNEP:
+id="unep-from-pollution-to-solution-a-global-assessment-of-marine-litter-and-plastic-pollution"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepplastic2021">UNEP:
 From Pollution to Solution: A global assessment of marine litter and
 plastic pollution</a></h4>
 <div id="unepplastic2021" class="collapse">
@@ -1827,7 +2059,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-making-peace-with-nature"><a href="####" data-toggle="collapse" data-target="#unepblueprint2022">UNEP:
+id="unep-making-peace-with-nature"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepblueprint2022">UNEP:
 Making Peace with Nature</a></h4>
 <div id="unepblueprint2022" class="collapse">
 <p><a href="https://www.unep.org/events/unep-event/launch-unep-making-peace-nature-report" target="_blank">
@@ -1857,7 +2089,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-state-of-finance-for-nature"><a href="####" data-toggle="collapse" data-target="#unepfinance2021">UNEP:
+id="unep-state-of-finance-for-nature"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepfinance2021">UNEP:
 State of Finance for Nature</a></h4>
 <div id="unepfinance2021" class="collapse">
 <p><a href="https://www.unep.org/resources/state-finance-nature" target="_blank">
@@ -1883,14 +2115,44 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </audio>
 <p><br/></p>
 </div></li>
+<li><h4
+id="world-bank-the-economic-case-for-nature"><a href="javascript:void(0)" data-toggle="collapse" data-target="#worldbank2021">World
+Bank: The Economic Case for Nature</a></h4>
+<div id="worldbank2021" class="collapse">
+<p><a href="https://www.worldbank.org/en/topic/environment/publication/the-economic-case-for-nature" target="_blank">
+<img class="report_img" src="https://images.andbiodiversity.info/report_worldbank2021.png" alt="World Bank 2021 report cover"/>
+</a></p>
+<h4
+id="the-global-decline-of-biodiversity-and-ecosystem-services-is-a-development-issue-economies-particularly-in-low-income-countries-cannot-afford-the-risk-of-collapse-in-the-services-provided-by-nature.-the-analysis-in-this-report-the-first-of-its-kind-shows-that-by-a-conservative-estimate-a-collapse-in-select-services-such-as-wild-pollination-provision-of-food-from-marine-fisheries-and-timber-from-native-forests-could-result-in-a-significant-decline-in-global-gdp-2.7-trillion-in-2030.-relative-impacts-are-most-pronounced-in-low-income-and-lower-middle-income-countries-where-drops-in-2030-gdp-may-be-more-than-10-percentnature-smart-policies-can-reduce-the-risk-of-ecosystem-collapse-and-are-win-win-policies-in-terms-of-biodiversity-and-economic-outcomesthe-nature-and-climate-change-agendas-are-complementary-and-there-are-synergies-to-be-exploited-to-foster-green-resilient-and-inclusive-development.-visit-source.-view-report.">The
+global decline of <strong><em>biodiversity and ecosystem
+services</em></strong> is a development issue: Economies, particularly
+in low-income countries, cannot afford the risk of collapse in the
+services provided by nature. The analysis in this report, the
+first-of-its-kind, shows that by a conservative estimate a collapse in
+select services such as wild pollination, provision of food from marine
+fisheries and timber from native forests, could result in a significant
+decline in global GDP: $2.7 trillion in 2030. Relative impacts are most
+pronounced in low-income and lower-middle-income countries, where drops
+in 2030 GDP may be more than 10 percent…Nature-smart policies can reduce
+the risk of <strong><em>ecosystem collapse</em></strong> and are
+“win-win” policies in terms of biodiversity and economic outcomes…The
+nature and climate change agendas are complementary and there are
+synergies to be exploited to foster green, resilient, and inclusive
+development. <a
+href="https://www.worldbank.org/en/topic/environment/publication/the-economic-case-for-nature"
+target="_blank"><strong>Visit source</strong></a>. <a
+href="https://app.box.com/s/5hmuxal11qw0vmbuxsk88ozciuc2htm7"
+target="_blank"><strong>View report</strong></a>.</h4>
+<p><br/></p>
+</div></li>
 </ul>
 <p><br/> <br/></p>
 </div>
-<div id="section-5" class="section level3">
+<div id="section-6" class="section level3">
 <h3>2020</h3>
 <ul>
 <li><h4
-id="annual-reviews-the-state-of-the-worlds-insects"><a href="####" data-toggle="collapse" data-target="#ar2020">Annual
+id="annual-reviews-the-state-of-the-worlds-insects"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ar2020">Annual
 Reviews: The State of the World’s Insects</a></h4>
 <div id="ar2020" class="collapse">
 <p><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-environ-012420-050035" target="_blank">
@@ -1917,7 +2179,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="cbd-global-biodiversity-outlook-5"><a href="####" data-toggle="collapse" data-target="#cbd2020">CBD:
+id="cbd-global-biodiversity-outlook-5"><a href="javascript:void(0)" data-toggle="collapse" data-target="#cbd2020">CBD:
 Global Biodiversity Outlook 5</a></h4>
 <div id="cbd2020" class="collapse">
 <p><a href="https://www.unep.org/resources/report/global-biodiversity-outlook-5-gbo-5?_ga=2.87214558.710523140.1666576950-1438871190.1665938202" target="_blank">
@@ -1946,7 +2208,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="eea-carbon-stocks-and-sequestration-in-terrestrial-and-marine-ecosystems"><a href="###" data-toggle="collapse" data-target="#eea2020">EEA:
+id="eea-carbon-stocks-and-sequestration-in-terrestrial-and-marine-ecosystems"><a href="javascript:void(0)" data-toggle="collapse" data-target="#eea2020">EEA:
 Carbon stocks and sequestration in terrestrial and marine
 ecosystems</a></h4>
 <div id="eea2020" class="collapse">
@@ -1983,7 +2245,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="fao-the-state-of-world-fisheries-and-aquaculture-1"><a href="####" data-toggle="collapse" data-target="#faofish2020">FAO:
+id="fao-the-state-of-world-fisheries-and-aquaculture-1"><a href="javascript:void(0)" data-toggle="collapse" data-target="#faofish2020">FAO:
 The State of World Fisheries and Aquaculture</a></h4>
 <div id="faofish2020" class="collapse">
 <p><a href="https://www.fao.org/publications/card/en/c/CA9229EN" target="_blank">
@@ -2018,7 +2280,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="fao-the-state-of-the-worlds-forests-1"><a href="####" data-toggle="collapse" data-target="#faoforests2020">FAO:
+id="fao-the-state-of-the-worlds-forests-1"><a href="javascript:void(0)" data-toggle="collapse" data-target="#faoforests2020">FAO:
 The State of the World’s Forests</a></h4>
 <div id="faoforests2020" class="collapse">
 <p><a href="https://www.fao.org/publications/card/en/c/CA8642EN" target="_blank">
@@ -2054,7 +2316,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipbes-workshop-report-on-biodiversity-and-pandemics"><a href="####" data-toggle="collapse" data-target="#ipbespandemic2020">IPBES
+id="ipbes-workshop-report-on-biodiversity-and-pandemics"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipbespandemic2020">IPBES
 Workshop Report on Biodiversity and Pandemics</a></h4>
 <div id="ipbespandemic2020" class="collapse">
 <p><a href="https://ipbes.net/pandemics" target="_blank">
@@ -2081,7 +2343,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="iucn-global-ecosystem-typology-2.0"><a href="###" data-toggle="collapse" data-target="#iucn2020">IUCN:
+id="iucn-global-ecosystem-typology-2.0"><a href="javascript:void(0)" data-toggle="collapse" data-target="#iucn2020">IUCN:
 Global Ecosystem Typology 2.0</a></h4>
 <div id="iucn2020" class="collapse">
 <p><a href="https://portals.iucn.org/library/node/49250" target="_blank">
@@ -2108,7 +2370,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="kew-state-of-the-worlds-plants-and-fungi-1"><a href="####" data-toggle="collapse" data-target="#kew2020">Kew:
+id="kew-state-of-the-worlds-plants-and-fungi-1"><a href="javascript:void(0)" data-toggle="collapse" data-target="#kew2020">Kew:
 State of the World’s Plants and Fungi</a></h4>
 <div id="kew2020" class="collapse">
 <p><a href="https://www.kew.org/science/state-of-the-worlds-plants-and-fungi" target="_blank">
@@ -2133,7 +2395,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="oecd-a-comprehensive-overview-of-global-biodiversity-finance"><a href="####" data-toggle="collapse" data-target="#oecd2020">OECD:
+id="oecd-a-comprehensive-overview-of-global-biodiversity-finance"><a href="javascript:void(0)" data-toggle="collapse" data-target="#oecd2020">OECD:
 A Comprehensive Overview of Global Biodiversity Finance</a></h4>
 <div id="oecd2020" class="collapse">
 <p><a href="https://www.oecd.org/environment/resources/biodiversityfinance.htm" target="_blank">
@@ -2163,7 +2425,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="pew-charitable-trusts-breaking-the-plastic-wave"><a href="####" data-toggle="collapse" data-target="#pew2020">Pew
+id="pew-charitable-trusts-breaking-the-plastic-wave"><a href="javascript:void(0)" data-toggle="collapse" data-target="#pew2020">Pew
 Charitable Trusts: Breaking the Plastic Wave</a></h4>
 <div id="pew2020" class="collapse">
 <p><a href="https://www.pewtrusts.org/en/research-and-analysis/articles/2020/07/23/breaking-the-plastic-wave-top-findings" target="_blank">
@@ -2194,7 +2456,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-out-of-the-blue-the-value-of-seagrasses-to-the-environment-and-to-people"><a href="###" data-toggle="collapse" data-target="#unep_seagrass2020">UNEP:
+id="unep-out-of-the-blue-the-value-of-seagrasses-to-the-environment-and-to-people"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep_seagrass2020">UNEP:
 Out of the Blue: The Value of Seagrasses to the Environment and to
 People</a></h4>
 <div id="unep_seagrass2020" class="collapse">
@@ -2235,7 +2497,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="world-wildlife-fund-living-planet-report-1"><a href="####" data-toggle="collapse" data-target="#wwf2020">World
+id="world-wildlife-fund-living-planet-report-1"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wwf2020">World
 Wildlife Fund: Living Planet Report</a></h4>
 <div id="wwf2020" class="collapse">
 <p><a href="https://www.worldwildlife.org/publications/living-planet-report-2020" target="_blank">
@@ -2265,13 +2527,13 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 </div>
 </div>
-<div id="section-6" class="section level2">
+<div id="section-7" class="section level2">
 <h2>2010 - 2019</h2>
-<div id="section-7" class="section level3">
+<div id="section-8" class="section level3">
 <h3>2019</h3>
 <ul>
 <li><h4
-id="fao-the-state-of-the-worlds-biodiversity-for-food-and-agriculture"><a href="####" data-toggle="collapse" data-target="#fao2019">FAO:
+id="fao-the-state-of-the-worlds-biodiversity-for-food-and-agriculture"><a href="javascript:void(0)" data-toggle="collapse" data-target="#fao2019">FAO:
 The State of the World’s Biodiversity for Food and Agriculture </a></h4>
 <div id="fao2019" class="collapse">
 <p><a href="https://www.fao.org/state-of-biodiversity-for-food-agriculture/en/" target="_blank">
@@ -2303,7 +2565,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipbes-global-assessment-on-biodiversity-and-ecosystem-services"><a href="####" data-toggle="collapse" data-target="#ipbes2019">IPBES
+id="ipbes-global-assessment-on-biodiversity-and-ecosystem-services"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipbes2019">IPBES
 Global Assessment on Biodiversity and Ecosystem Services</a></h4>
 <div id="ipbes2019" class="collapse">
 <p><a href="https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/" target="_blank">
@@ -2335,7 +2597,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipcc-special-report-climate-change-and-land"><a href="####" data-toggle="collapse" data-target="#ipccsr2019">IPCC:
+id="ipcc-special-report-climate-change-and-land"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipccsr2019">IPCC:
 Special Report Climate Change and Land</a></h4>
 <div id="ipccsr2019" class="collapse">
 <p><a href="https://www.ipcc.ch/srccl/" target="_blank">
@@ -2362,7 +2624,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="oecd-biodiversity-finance-and-the-business-and-economic-case-for-action"><a href="####" data-toggle="collapse" data-target="#oecd2019">OECD:
+id="oecd-biodiversity-finance-and-the-business-and-economic-case-for-action"><a href="javascript:void(0)" data-toggle="collapse" data-target="#oecd2019">OECD:
 Biodiversity: Finance and the Business and Economic Case for
 Action</a></h4>
 <div id="oecd2019" class="collapse">
@@ -2390,7 +2652,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="un-global-sustainable-development-report-1"><a href="###" data-toggle="collapse" data-target="#un2019">UN:
+id="un-global-sustainable-development-report-1"><a href="javascript:void(0)" data-toggle="collapse" data-target="#un2019">UN:
 Global Sustainable Development Report</a></h4>
 <div id="un2019" class="collapse">
 <p><a href="https://sdgs.un.org/publications/future-now-science-achieving-sustainable-development-gsdr-2019-24576" target="_blank">
@@ -2428,7 +2690,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-frontiers-201819-emerging-issues-of-environmental-concern"><a href="####" data-toggle="collapse" data-target="#unepfr2019">UNEP:
+id="unep-frontiers-201819-emerging-issues-of-environmental-concern"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepfr2019">UNEP:
 Frontiers 2018/19: Emerging Issues of Environmental Concern</a></h4>
 <div id="unepfr2019" class="collapse">
 <p><a href="https://www.unep.org/resources/frontiers-201819-emerging-issues-environmental-concern" target="_blank">
@@ -2453,7 +2715,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-global-environment-outlook-6"><a href="####" data-toggle="collapse" data-target="#unepglobal2019">UNEP:
+id="unep-global-environment-outlook-6"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepglobal2019">UNEP:
 Global Environment Outlook 6</a></h4>
 <div id="unepglobal2019" class="collapse">
 <p><a href="https://www.unep.org/resources/global-environment-outlook-6" target="_blank">
@@ -2484,7 +2746,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="wwf-and-iucn-tangled-roots-and-changing-tides"><a href="###" data-toggle="collapse" data-target="#wwf_iucn2019">WWF
+id="wwf-and-iucn-tangled-roots-and-changing-tides"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wwf_iucn2019">WWF
 and IUCN: Tangled roots and changing tides</a></h4>
 <div id="wwf_iucn2019" class="collapse">
 <p><a href="https://www.mangrovealliance.org/resources/tangled-roots-and-changing-tides-mangrove-governance-for-conservation-and-sustainable-use/" target="_blank">
@@ -2516,11 +2778,11 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 <p><br/> <br/></p>
 </div>
-<div id="section-8" class="section level3">
+<div id="section-9" class="section level3">
 <h3>2018</h3>
 <ul>
 <li><h4
-id="fao-the-state-of-the-worlds-forests-2"><a href="####" data-toggle="collapse" data-target="#faoforests2018">FAO:
+id="fao-the-state-of-the-worlds-forests-2"><a href="javascript:void(0)" data-toggle="collapse" data-target="#faoforests2018">FAO:
 The State of the World’s Forests</a></h4>
 <div id="faoforests2018" class="collapse">
 <p><a href="https://www.fao.org/publications/card/en/c/I9535EN" target="_blank">
@@ -2548,7 +2810,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="fao-the-state-of-world-fisheries-and-aquaculture-2"><a href="####" data-toggle="collapse" data-target="#faofish2018">FAO:
+id="fao-the-state-of-world-fisheries-and-aquaculture-2"><a href="javascript:void(0)" data-toggle="collapse" data-target="#faofish2018">FAO:
 The State of World Fisheries and Aquaculture</a></h4>
 <div id="faofish2018" class="collapse">
 <p><a href="https://www.fao.org/publications/card/en/c/I9540EN" target="_blank">
@@ -2576,7 +2838,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipbes-assessment-report-on-land-degradation-and-restoration"><a href="####" data-toggle="collapse" data-target="#ipbes2018">IPBES:
+id="ipbes-assessment-report-on-land-degradation-and-restoration"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipbes2018">IPBES:
 Assessment Report on Land Degradation and Restoration</a></h4>
 <div id="ipbes2018" class="collapse">
 <p><a href="https://ipbes.net/assessment-reports/ldr" target="_blank">
@@ -2601,7 +2863,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipcc-special-report-global-warming-of-1.5-ºc"><a href="####" data-toggle="collapse" data-target="#ipccsr2018">IPCC:
+id="ipcc-special-report-global-warming-of-1.5-ºc"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipccsr2018">IPCC:
 Special Report Global Warming of 1.5 ºC</a></h4>
 <div id="ipccsr2018" class="collapse">
 <p><a href="https://www.ipcc.ch/sr15/" target="_blank">
@@ -2627,7 +2889,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="kew-state-of-the-worlds-fungi"><a href="####" data-toggle="collapse" data-target="#kew2018">Kew:
+id="kew-state-of-the-worlds-fungi"><a href="javascript:void(0)" data-toggle="collapse" data-target="#kew2018">Kew:
 State of the World’s Fungi</a></h4>
 <div id="kew2018" class="collapse">
 <p><a href="https://kew.iro.bl.uk/concern/reports/e30de436-455d-410e-8605-8c533a0398ce?locale=en" target="_blank">
@@ -2660,7 +2922,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="protected-planet-report-2018-tracking-progress-towards-global-targets-for-protected-areas"><a href="###" data-toggle="collapse" data-target="#protectedplanet2018">Protected
+id="protected-planet-report-2018-tracking-progress-towards-global-targets-for-protected-areas"><a href="javascript:void(0)" data-toggle="collapse" data-target="#protectedplanet2018">Protected
 Planet Report 2018: Tracking progress towards global targets for
 protected areas</a></h4>
 <div id="protectedplanet2018" class="collapse">
@@ -2695,7 +2957,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ramsar-global-wetland-outlook---state-of-the-worlds-wetlands"><a href="####" data-toggle="collapse" data-target="#ramsar2018">Ramsar:
+id="ramsar-global-wetland-outlook---state-of-the-worlds-wetlands"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ramsar2018">Ramsar:
 Global Wetland Outlook - State of the World’s Wetlands</a></h4>
 <div id="ramsar2018" class="collapse">
 <p><a href="https://ramsar.org/document/global-wetland-outlook" target="_blank">
@@ -2722,7 +2984,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-inclusive-wealth-2018"><a href="###" data-toggle="collapse" data-target="#unepiwr2018">UNEP:
+id="unep-inclusive-wealth-2018"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepiwr2018">UNEP:
 Inclusive Wealth 2018</a></h4>
 <div id="unepiwr2018" class="collapse">
 <p><a href="https://www.unep.org/inclusive-wealth-report-2018" target="_blank">
@@ -2758,7 +3020,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="world-wildlife-fund-living-planet-report-2"><a href="####" data-toggle="collapse" data-target="#wwf2018">World
+id="world-wildlife-fund-living-planet-report-2"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wwf2018">World
 Wildlife Fund: Living Planet Report</a></h4>
 <div id="wwf2018" class="collapse">
 <p><a href="https://www.worldwildlife.org/pages/living-planet-report-2018" target="_blank">
@@ -2786,11 +3048,11 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 <p><br/> <br/></p>
 </div>
-<div id="section-9" class="section level3">
+<div id="section-10" class="section level3">
 <h3>2017</h3>
 <ul>
 <li><h4
-id="kew-state-of-the-worlds-plants"><a href="####" data-toggle="collapse" data-target="#kew2017">Kew:
+id="kew-state-of-the-worlds-plants"><a href="javascript:void(0)" data-toggle="collapse" data-target="#kew2017">Kew:
 State of the World’s Plants</a></h4>
 <div id="kew2017" class="collapse">
 <p><a href="https://kew.iro.bl.uk/concern/reports/2e0d292a-c3da-49ea-a500-32a4f9aff281?locale=en" target="_blank">
@@ -2815,7 +3077,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unccd-global-land-outlook-1"><a href="####" data-toggle="collapse" data-target="#unccd2017">UNCCD:
+id="unccd-global-land-outlook-1"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unccd2017">UNCCD:
 Global Land Outlook 1</a></h4>
 <div id="unccd2017" class="collapse">
 <p><a href="https://unccd.int/resources/global-land-outlook/glo1" target="_blank">
@@ -2843,7 +3105,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-frontiers-2017-emerging-issues-of-environmental-concern"><a href="###" data-toggle="collapse" data-target="#unepfr2017">UNEP:
+id="unep-frontiers-2017-emerging-issues-of-environmental-concern"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepfr2017">UNEP:
 Frontiers 2017: Emerging Issues of Environmental Concern</a></h4>
 <div id="unepfr2017" class="collapse">
 <p><a href="https://www.unep.org/resources/frontiers-2017-emerging-issues-environmental-concern" target="_blank">
@@ -2884,11 +3146,11 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 <p><br/> <br/></p>
 </div>
-<div id="section-10" class="section level3">
+<div id="section-11" class="section level3">
 <h3>2016</h3>
 <ul>
 <li><h4
-id="fao-the-state-of-the-worlds-forests-3"><a href="####" data-toggle="collapse" data-target="#faoforests2016">FAO:
+id="fao-the-state-of-the-worlds-forests-3"><a href="javascript:void(0)" data-toggle="collapse" data-target="#faoforests2016">FAO:
 The State of the World’s Forests</a></h4>
 <div id="faoforests2016" class="collapse">
 <p><a href="https://www.fao.org/publications/card/en/c/ffed061b-82e0-4c74-af43-1a999a443fbf" target="_blank">
@@ -2918,7 +3180,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="fao-the-state-of-world-fisheries-and-aquaculture-3"><a href="####" data-toggle="collapse" data-target="#faofish2016">FAO:
+id="fao-the-state-of-world-fisheries-and-aquaculture-3"><a href="javascript:void(0)" data-toggle="collapse" data-target="#faofish2016">FAO:
 The State of World Fisheries and Aquaculture</a></h4>
 <div id="faofish2016" class="collapse">
 <p><a href="https://www.fao.org/publications/card/en/c/2c8bcf47-2214-4aeb-95b0-62ddef8a982a" target="_blank">
@@ -2952,7 +3214,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipbes-assessment-report-on-pollinators-pollination-and-food-production"><a href="####" data-toggle="collapse" data-target="#ipbes2016">IPBES
+id="ipbes-assessment-report-on-pollinators-pollination-and-food-production"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipbes2016">IPBES
 Assessment Report on Pollinators, Pollination and Food
 Production</a></h4>
 <div id="ipbes2016" class="collapse">
@@ -2982,7 +3244,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="jrc-global-diversity-atlas"><a href="####" data-toggle="collapse" data-target="#jrc2016">JRC:
+id="jrc-global-diversity-atlas"><a href="javascript:void(0)" data-toggle="collapse" data-target="#jrc2016">JRC:
 Global Diversity Atlas</a></h4>
 <div id="jrc2016" class="collapse">
 <p><a href="https://esdac.jrc.ec.europa.eu/content/global-soil-biodiversity-atlas#tabs-0-description=0" target="_blank">
@@ -3017,7 +3279,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="kew-state-of-the-worlds-plants-1"><a href="####" data-toggle="collapse" data-target="#kew2016">Kew:
+id="kew-state-of-the-worlds-plants-1"><a href="javascript:void(0)" data-toggle="collapse" data-target="#kew2016">Kew:
 State of the World’s Plants</a></h4>
 <div id="kew2016" class="collapse">
 <p><a href="https://kew.iro.bl.uk/concern/reports/f931f1de-72c7-46b4-b57c-28eb417c53ec?locale=en" target="_blank">
@@ -3041,7 +3303,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="protected-planet-report-2016"><a href="###" data-toggle="collapse" data-target="#protectedplanet2016">Protected
+id="protected-planet-report-2016"><a href="javascript:void(0)" data-toggle="collapse" data-target="#protectedplanet2016">Protected
 Planet Report 2016</a></h4>
 <div id="protectedplanet2016" class="collapse">
 <p><a href="https://portals.iucn.org/library/node/46261" target="_blank">
@@ -3076,7 +3338,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-frontiers-2016-emerging-issues-of-environmental-concern"><a href="###" data-toggle="collapse" data-target="#unepfr2016">UNEP:
+id="unep-frontiers-2016-emerging-issues-of-environmental-concern"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepfr2016">UNEP:
 Frontiers 2016: Emerging Issues of Environmental Concern</a></h4>
 <div id="unepfr2016" class="collapse">
 <p><a href="https://www.unep.org/resources/frontiers-2016-emerging-issues-environmental-concern" target="_blank">
@@ -3114,7 +3376,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="world-wildlife-fund-living-planet-report-3"><a href="####" data-toggle="collapse" data-target="#wwf2016">World
+id="world-wildlife-fund-living-planet-report-3"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wwf2016">World
 Wildlife Fund: Living Planet Report</a></h4>
 <div id="wwf2016" class="collapse">
 <p><a href="https://www.worldwildlife.org/pages/living-planet-report-2016" target="_blank">
@@ -3145,11 +3407,11 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 <p><br/> <br/></p>
 </div>
-<div id="section-11" class="section level3">
+<div id="section-12" class="section level3">
 <h3>2015</h3>
 <ul>
 <li><h4
-id="fao-status-of-the-worlds-soil-resources"><a href="####" data-toggle="collapse" data-target="#faosoil2015">FAO:
+id="fao-status-of-the-worlds-soil-resources"><a href="javascript:void(0)" data-toggle="collapse" data-target="#faosoil2015">FAO:
 Status of the World’s Soil Resources</a></h4>
 <div id="faosoil2015" class="collapse">
 <p><a href="https://www.fao.org/documents/card/en/c/c6814873-efc3-41db-b7d3-2081a10ede50/" target="_blank">
@@ -3177,7 +3439,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipbes-conceptual-framework---connecting-nature-and-people"><a href="####" data-toggle="collapse" data-target="#ipbes2015">IPBES
+id="ipbes-conceptual-framework---connecting-nature-and-people"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipbes2015">IPBES
 Conceptual Framework - Connecting Nature and People</a></h4>
 <div id="ipbes2015" class="collapse">
 <p><a href="https://ipbes.net/document-library-catalogue/ipbes-conceptual-framework-connecting-nature-and-people" target="_blank">
@@ -3207,7 +3469,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="who-and-cbd-connecting-global-priorities-biodiversity-and-human-health"><a href="####" data-toggle="collapse" data-target="#whocbd2015">WHO
+id="who-and-cbd-connecting-global-priorities-biodiversity-and-human-health"><a href="javascript:void(0)" data-toggle="collapse" data-target="#whocbd2015">WHO
 and CBD: Connecting Global Priorities: Biodiversity and Human
 Health</a></h4>
 <div id="whocbd2015" class="collapse">
@@ -3237,11 +3499,11 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 <p><br/> <br/></p>
 </div>
-<div id="section-12" class="section level3">
+<div id="section-13" class="section level3">
 <h3>2014</h3>
 <ul>
 <li><h4
-id="cbd-global-biodiversity-outlook-4"><a href="####" data-toggle="collapse" data-target="#cbd2014">CBD:
+id="cbd-global-biodiversity-outlook-4"><a href="javascript:void(0)" data-toggle="collapse" data-target="#cbd2014">CBD:
 Global Biodiversity Outlook 4</a></h4>
 <div id="cbd2014" class="collapse">
 <p><a href="https://www.cbd.int/gbo4/" target="_blank">
@@ -3273,7 +3535,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="protected-planet-report-2014"><a href="####" data-toggle="collapse" data-target="#protectedplanet2014">Protected
+id="protected-planet-report-2014"><a href="javascript:void(0)" data-toggle="collapse" data-target="#protectedplanet2014">Protected
 Planet Report 2014</a></h4>
 <div id="protectedplanet2014" class="collapse">
 <p><a href="https://www.iucn.org/content/protected-planet-report-2014" target="_blank">
@@ -3302,7 +3564,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-inclusive-wealth-2014"><a href="###" data-toggle="collapse" data-target="#unepiwr2014">UNEP:
+id="unep-inclusive-wealth-2014"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepiwr2014">UNEP:
 Inclusive Wealth 2014</a></h4>
 <div id="unepiwr2014" class="collapse">
 <p><a href="https://www.unep.org/resources/report/inclusive-wealth-report" target="_blank">
@@ -3337,7 +3599,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="world-wildlife-fund-living-planet-report-4"><a href="####" data-toggle="collapse" data-target="#wwf2014">World
+id="world-wildlife-fund-living-planet-report-4"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wwf2014">World
 Wildlife Fund: Living Planet Report</a></h4>
 <div id="wwf2014" class="collapse">
 <p><a href="https://www.worldwildlife.org/pages/living-planet-report-2014" target="_blank">
@@ -3365,11 +3627,11 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 <p><br/> <br/></p>
 </div>
-<div id="section-13" class="section level3">
+<div id="section-14" class="section level3">
 <h3>2012</h3>
 <ul>
 <li><h4
-id="protected-planet-report-2012"><a href="####" data-toggle="collapse" data-target="#protectedplanet2012">Protected
+id="protected-planet-report-2012"><a href="javascript:void(0)" data-toggle="collapse" data-target="#protectedplanet2012">Protected
 Planet Report 2012</a></h4>
 <div id="protectedplanet2012" class="collapse">
 <p><a href="https://www.iucn.org/content/protected-planet-report-2012" target="_blank">
@@ -3392,7 +3654,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="un-resilient-people-resilient-planet-a-future-worth-choosing"><a href="###" data-toggle="collapse" data-target="#un2012">UN:
+id="un-resilient-people-resilient-planet-a-future-worth-choosing"><a href="javascript:void(0)" data-toggle="collapse" data-target="#un2012">UN:
 Resilient people, resilient planet: a future worth choosing</a></h4>
 <div id="un2012" class="collapse">
 <p><a href="https://digitallibrary.un.org/record/722600?ln=en" target="_blank">
@@ -3429,7 +3691,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-global-environment-outlook-5"><a href="####" data-toggle="collapse" data-target="#unep2012">UNEP:
+id="unep-global-environment-outlook-5"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep2012">UNEP:
 Global Environment Outlook 5</a></h4>
 <div id="unep2012" class="collapse">
 <p><a href="https://www.unep.org/resources/global-environment-outlook-5" target="_blank">
@@ -3458,7 +3720,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-inclusive-wealth-2012"><a href="###" data-toggle="collapse" data-target="#unepiwr2012">UNEP:
+id="unep-inclusive-wealth-2012"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepiwr2012">UNEP:
 Inclusive Wealth 2012</a></h4>
 <div id="unepiwr2012" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/32228" target="_blank">
@@ -3498,7 +3760,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="world-wildlife-fund-living-planet-report-5"><a href="####" data-toggle="collapse" data-target="#wwf2012">World
+id="world-wildlife-fund-living-planet-report-5"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wwf2012">World
 Wildlife Fund: Living Planet Report</a></h4>
 <div id="wwf2012" class="collapse">
 <p><a href="https://wwf.panda.org/discover/knowledge_hub/all_publications/living_planet_report_timeline/lpr_2012/" target="_blank">
@@ -3527,11 +3789,11 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 <p><br/> <br/></p>
 </div>
-<div id="section-14" class="section level3">
+<div id="section-15" class="section level3">
 <h3>2011</h3>
 <ul>
 <li><h4
-id="cbd-global-biodiversity-outlook-3"><a href="####" data-toggle="collapse" data-target="#cbd2011">CBD:
+id="cbd-global-biodiversity-outlook-3"><a href="javascript:void(0)" data-toggle="collapse" data-target="#cbd2011">CBD:
 Global Biodiversity Outlook 3</a></h4>
 <div id="cbd2011" class="collapse">
 <p><a href="https://www.cbd.int/gbo3/" target="_blank">
@@ -3560,7 +3822,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-the-economics-of-ecosystems-and-biodiversity-in-national-and-international-policy-making"><a href="####" data-toggle="collapse" data-target="#teeb2011">UNEP:
+id="unep-the-economics-of-ecosystems-and-biodiversity-in-national-and-international-policy-making"><a href="javascript:void(0)" data-toggle="collapse" data-target="#teeb2011">UNEP:
 The Economics of Ecosystems and Biodiversity in National and
 International Policy Making</a></h4>
 <div id="teeb2011" class="collapse">
@@ -3590,11 +3852,11 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 <p><br/> <br/></p>
 </div>
-<div id="section-15" class="section level3">
+<div id="section-16" class="section level3">
 <h3>2010</h3>
 <ul>
 <li><h4
-id="caff-arctic-biodiversity-trends---selected-indicators-of-change"><a href="####" data-toggle="collapse" data-target="#caff2010">CAFF:
+id="caff-arctic-biodiversity-trends---selected-indicators-of-change"><a href="javascript:void(0)" data-toggle="collapse" data-target="#caff2010">CAFF:
 Arctic Biodiversity Trends - Selected Indicators of Change</a></h4>
 <div id="caff2010" class="collapse">
 <p><a href="https://www.caff.is/assessment-series/162-arctic-biodiversity-trends-2010-selected-indicators-of-change" target="_blank">
@@ -3622,7 +3884,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="jrc-european-atlas-of-soil-biodiversity"><a href="####" data-toggle="collapse" data-target="#jrc2010">JRC:
+id="jrc-european-atlas-of-soil-biodiversity"><a href="javascript:void(0)" data-toggle="collapse" data-target="#jrc2010">JRC:
 European Atlas of Soil Biodiversity</a></h4>
 <div id="jrc2010" class="collapse">
 <p><a href="https://esdac.jrc.ec.europa.eu/content/atlas-soil-biodiversity" target="_blank">
@@ -3654,7 +3916,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-dead-planet-living-planet-biodiversity-and-ecosystem-restoration-for-sustainable-development"><a href="####" data-toggle="collapse" data-target="#unep2010">UNEP:
+id="unep-dead-planet-living-planet-biodiversity-and-ecosystem-restoration-for-sustainable-development"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep2010">UNEP:
 Dead Planet, Living Planet: Biodiversity and Ecosystem Restoration for
 Sustainable Development</a></h4>
 <div id="unep2010" class="collapse">
@@ -3684,13 +3946,13 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/> <br/></p>
 </div>
 </div>
-<div id="section-16" class="section level2">
+<div id="section-17" class="section level2">
 <h2>2000 - 2009</h2>
-<div id="section-17" class="section level3">
+<div id="section-18" class="section level3">
 <h3>2005 - 2009</h3>
 <ul>
 <li><h4
-id="unep-review-of-the-literature-on-the-links-between-biodiversity-and-climate-change-2009"><a href="####" data-toggle="collapse" data-target="#unep2009">UNEP:
+id="unep-review-of-the-literature-on-the-links-between-biodiversity-and-climate-change-2009"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep2009">UNEP:
 Review of the literature on the links between biodiversity and climate
 change (2009)</a></h4>
 <div id="unep2009" class="collapse">
@@ -3722,7 +3984,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-the-linkages-between-biodiversity-and-climate-change-mitigation-a-review-of-the-recent-scientific-literature-2008"><a href="####" data-toggle="collapse" data-target="#unep2008">UNEP:
+id="unep-the-linkages-between-biodiversity-and-climate-change-mitigation-a-review-of-the-recent-scientific-literature-2008"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep2008">UNEP:
 The linkages between biodiversity and climate change mitigation: A
 review of the recent scientific literature (2008)</a></h4>
 <div id="unep2008" class="collapse">
@@ -3752,7 +4014,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipcc-fourth-assessment-report---climate-change---impacts-adaptation-and-vulnerability-2007"><a href="####" data-toggle="collapse" data-target="#ipcc2007">IPCC:
+id="ipcc-fourth-assessment-report---climate-change---impacts-adaptation-and-vulnerability-2007"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipcc2007">IPCC:
 Fourth Assessment Report - Climate Change - Impacts, Adaptation, and
 Vulnerability (2007)</a></h4>
 <div id="ipcc2007" class="collapse">
@@ -3781,7 +4043,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="stern-review-report-on-the-economics-of-climate-change-2007"><a href="####" data-toggle="collapse" data-target="#stern2007">Stern
+id="stern-review-report-on-the-economics-of-climate-change-2007"><a href="javascript:void(0)" data-toggle="collapse" data-target="#stern2007">Stern
 Review Report on the Economics of Climate Change (2007)</a></h4>
 <div id="stern2007" class="collapse">
 <p><a href="https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/https:/www.hm-treasury.gov.uk/stern_review_report.htm" target="_blank">
@@ -3810,7 +4072,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-global-environment-outlook-4-2007"><a href="####" data-toggle="collapse" data-target="#unep2007">UNEP:
+id="unep-global-environment-outlook-4-2007"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep2007">UNEP:
 Global Environment Outlook 4 (2007)</a></h4>
 <div id="unep2007" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/7646" target="_blank">
@@ -3840,7 +4102,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="wcmc-crossroads-of-life-on-earth---exploring-means-to-meet-the-2010-biodiversity-target-2007"><a href="####" data-toggle="collapse" data-target="#wcmc2007">WCMC:
+id="wcmc-crossroads-of-life-on-earth---exploring-means-to-meet-the-2010-biodiversity-target-2007"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wcmc2007">WCMC:
 Crossroads of Life on Earth - Exploring means to meet the 2010
 Biodiversity Target (2007)</a></h4>
 <div id="wcmc2007" class="collapse">
@@ -3874,7 +4136,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="cbd-global-biodiversity-outlook-2-2006"><a href="####" data-toggle="collapse" data-target="#cbd2006">CBD:
+id="cbd-global-biodiversity-outlook-2-2006"><a href="javascript:void(0)" data-toggle="collapse" data-target="#cbd2006">CBD:
 Global Biodiversity Outlook 2 (2006)</a></h4>
 <div id="cbd2006" class="collapse">
 <p><a href="https://www.cbd.int/gbo2/" target="_blank">
@@ -3905,7 +4167,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="millennium-ecosystem-assessment-2005"><a href="####" data-toggle="collapse" data-target="#mea2005">Millennium
+id="millennium-ecosystem-assessment-2005"><a href="javascript:void(0)" data-toggle="collapse" data-target="#mea2005">Millennium
 Ecosystem Assessment (2005)</a></h4>
 <div id="mea2005" class="collapse">
 <p><a href="https://www.millenniumassessment.org/en/Condition.html" target="_blank">
@@ -3941,11 +4203,11 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <br/></li>
 </ul>
 </div>
-<div id="section-18" class="section level3">
+<div id="section-19" class="section level3">
 <h3>2000 - 2004</h3>
 <ul>
 <li><h4
-id="arctic-climate-impact-assessment-2004"><a href="####" data-toggle="collapse" data-target="#acia2004">Arctic
+id="arctic-climate-impact-assessment-2004"><a href="javascript:void(0)" data-toggle="collapse" data-target="#acia2004">Arctic
 Climate Impact Assessment (2004)</a></h4>
 <div id="acia2004" class="collapse">
 <p><a href="https://acia.amap.no/" target="_blank">
@@ -3976,7 +4238,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="world-bank-ensuring-the-future-2004"><a href="####" data-toggle="collapse" data-target="#wbg2004">World
+id="world-bank-ensuring-the-future-2004"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wbg2004">World
 Bank: Ensuring the Future (2004)</a></h4>
 <div id="wbg2004" class="collapse">
 <p><a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/455021468323358162/ensuring-the-future-the-world-bank-and-biodiversity-1988-2004" target="_blank">
@@ -4014,7 +4276,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="conservation-international-tourism-and-biodiversity-mapping-tourisms-global-footprint-2003"><a href="####" data-toggle="collapse" data-target="#ci2003">Conservation
+id="conservation-international-tourism-and-biodiversity-mapping-tourisms-global-footprint-2003"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ci2003">Conservation
 International: Tourism and Biodiversity: Mapping Tourism’s Global
 Footprint (2003)</a></h4>
 <div id="ci2003" class="collapse">
@@ -4055,7 +4317,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-global-environment-outlook-3-2003"><a href="####" data-toggle="collapse" data-target="#unep2003">UNEP:
+id="unep-global-environment-outlook-3-2003"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep2003">UNEP:
 Global Environment Outlook 3 (2003)</a></h4>
 <div id="unep2003" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/8609" target="_blank">
@@ -4085,7 +4347,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ipcc-climate-change-and-biodiversity-technical-paper-v-2002"><a href="####" data-toggle="collapse" data-target="#ipcc2002">IPCC:
+id="ipcc-climate-change-and-biodiversity-technical-paper-v-2002"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ipcc2002">IPCC:
 Climate Change and Biodiversity: Technical Paper V (2002)</a></h4>
 <div id="ipcc2002" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/32705" target="_blank">
@@ -4117,7 +4379,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="wcmc-world-atlas-of-biodiversity-earths-living-resources-in-the-21st-century-2002"><a href="####" data-toggle="collapse" data-target="#wcmcatlast2002">WCMC:
+id="wcmc-world-atlas-of-biodiversity-earths-living-resources-in-the-21st-century-2002"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wcmcatlast2002">WCMC:
 World Atlas of Biodiversity: Earth’s Living resources in the 21st
 century (2002)</a></h4>
 <div id="wcmcatlast2002" class="collapse">
@@ -4154,7 +4416,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="caff-arctic-flora-and-fauna-status-and-conservation-2001"><a href="####" data-toggle="collapse" data-target="#caff2001">CAFF:
+id="caff-arctic-flora-and-fauna-status-and-conservation-2001"><a href="javascript:void(0)" data-toggle="collapse" data-target="#caff2001">CAFF:
 Arctic Flora and Fauna: Status and Conservation (2001)</a></h4>
 <div id="caff2001" class="collapse">
 <p><a href="https://www.caff.is/assessment-series/167-arctic-flora-and-fauna-status-and-conservation" target="_blank">
@@ -4182,7 +4444,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="cbd-global-biodiversity-outlook-1-2001"><a href="####" data-toggle="collapse" data-target="#cbd2001">CBD:
+id="cbd-global-biodiversity-outlook-1-2001"><a href="javascript:void(0)" data-toggle="collapse" data-target="#cbd2001">CBD:
 Global Biodiversity Outlook 1 (2001)</a></h4>
 <div id="cbd2001" class="collapse">
 <p><a href="https://www.cbd.int/gbo1/" target="_blank">
@@ -4210,7 +4472,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="wcmc-the-25-largest-un-fragmented-wilderness-areas-in-the-arctic-2001"><a href="####" data-toggle="collapse" data-target="#wcmc2001">WCMC:
+id="wcmc-the-25-largest-un-fragmented-wilderness-areas-in-the-arctic-2001"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wcmc2001">WCMC:
 The 25 Largest Un-fragmented Wilderness Areas in the Arctic
 (2001)</a></h4>
 <div id="wcmc2001" class="collapse">
@@ -4249,7 +4511,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="wcmc-a-global-overview-of-protected-areas-on-the-world-heritage-list-of-particular-importance-for-biodiversity-2000"><a href="####" data-toggle="collapse" data-target="#wcmc2000">WCMC:
+id="wcmc-a-global-overview-of-protected-areas-on-the-world-heritage-list-of-particular-importance-for-biodiversity-2000"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wcmc2000">WCMC:
 A Global Overview of Protected Areas on the World Heritage List of
 Particular Importance for Biodiversity (2000)</a></h4>
 <div id="wcmc2000" class="collapse">
@@ -4281,11 +4543,11 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 </div>
 </div>
-<div id="section-19" class="section level2">
+<div id="section-20" class="section level2">
 <h2>1990 - 1999</h2>
 <ul>
 <li><h4
-id="unep-cultural-and-spiritual-values-of-biodiversity-1999"><a href="####" data-toggle="collapse" data-target="#unep1999">UNEP:
+id="unep-cultural-and-spiritual-values-of-biodiversity-1999"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep1999">UNEP:
 Cultural and spiritual values of biodiversity (1999)</a></h4>
 <div id="unep1999" class="collapse">
 <p><a href="https://www.unep.org/resources/publication/cultural-and-spiritual-values-biodiversity" target="_blank">
@@ -4313,7 +4575,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-freshwater-biodiversity-a-preliminary-global-assessment-1998"><a href="####" data-toggle="collapse" data-target="#unep1998">UNEP:
+id="unep-freshwater-biodiversity-a-preliminary-global-assessment-1998"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep1998">UNEP:
 Freshwater biodiversity: a preliminary global assessment (1998)</a></h4>
 <div id="unep1998" class="collapse">
 <p><a href="https://portals.iucn.org/library/fr/node/7566" target="_blank">
@@ -4345,7 +4607,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="ceq-environmental-quality-report-1997"><a href="####" data-toggle="collapse" data-target="#ceq1997">CEQ:
+id="ceq-environmental-quality-report-1997"><a href="javascript:void(0)" data-toggle="collapse" data-target="#ceq1997">CEQ:
 Environmental Quality Report (1997)</a></h4>
 <div id="ceq1997" class="collapse">
 <p><a href="https://ceq.doe.gov/ceq-reports/annual_environmental_quality_reports.html" target="_blank">
@@ -4379,7 +4641,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="wcmc-industrial-reliance-on-biodiversity-1997"><a href="####" data-toggle="collapse" data-target="#wcmc1997">WCMC:
+id="wcmc-industrial-reliance-on-biodiversity-1997"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wcmc1997">WCMC:
 Industrial reliance on biodiversity (1997)</a></h4>
 <div id="wcmc1997" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/8860" target="_blank">
@@ -4418,7 +4680,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="biodiversity-the-uk-steering-group-report-volume-1-1995"><a href="####" data-toggle="collapse" data-target="#uk_bap_1995">Biodiversity:
+id="biodiversity-the-uk-steering-group-report-volume-1-1995"><a href="javascript:void(0)" data-toggle="collapse" data-target="#uk_bap_1995">Biodiversity:
 The UK Steering Group Report Volume 1 (1995)</a></h4>
 <div id="uk_bap_1995" class="collapse">
 <p><a href="https://hub.jncc.gov.uk/assets/9c2e576a-31b7-4bae-a620-972d99177a1f" target="_blank">
@@ -4458,7 +4720,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-biodiversity-programme-and-implementation-strategy-1995"><a href="####" data-toggle="collapse" data-target="#unepstrategy1995">UNEP:
+id="unep-biodiversity-programme-and-implementation-strategy-1995"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepstrategy1995">UNEP:
 Biodiversity Programme and Implementation Strategy (1995)</a></h4>
 <div id="unepstrategy1995" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/30293" target="_blank">
@@ -4488,7 +4750,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-global-biodiversity-assessment-1995"><a href="####" data-toggle="collapse" data-target="#unepglobal1995">UNEP:
+id="unep-global-biodiversity-assessment-1995"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unepglobal1995">UNEP:
 Global Biodiversity Assessment (1995)</a></h4>
 <div id="unepglobal1995" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/29355" target="_blank">
@@ -4523,7 +4785,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-global-biodiversity-1993"><a href="####" data-toggle="collapse" data-target="#unep1993">UNEP:
+id="unep-global-biodiversity-1993"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep1993">UNEP:
 Global Biodiversity (1993)</a></h4>
 <div id="unep1993" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/29137" target="_blank">
@@ -4559,7 +4821,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-the-world-environment-1972-1992-two-decades-of-challenge-1992"><a href="####" data-toggle="collapse" data-target="#unep1992">UNEP:
+id="unep-the-world-environment-1972-1992-two-decades-of-challenge-1992"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep1992">UNEP:
 The World Environment 1972-1992: Two Decades of Challenge
 (1992)</a></h4>
 <div id="unep1992" class="collapse">
@@ -4595,7 +4857,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="wcmc-global-biodiversity-status-of-the-earths-living-resources-1992"><a href="####" data-toggle="collapse" data-target="#wcmc1992">WCMC:
+id="wcmc-global-biodiversity-status-of-the-earths-living-resources-1992"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wcmc1992">WCMC:
 Global Biodiversity: status of the Earth’s living resources
 (1992)</a></h4>
 <div id="wcmc1992" class="collapse">
@@ -4629,7 +4891,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-the-state-of-the-world-environment-1991"><a href="####" data-toggle="collapse" data-target="#unep1991">UNEP:
+id="unep-the-state-of-the-world-environment-1991"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep1991">UNEP:
 The State of the World Environment (1991)</a></h4>
 <div id="unep1991" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/28276" target="_blank">
@@ -4664,7 +4926,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="world-plant-conservation-bibliography-1990"><a href="####" data-toggle="collapse" data-target="#wcmc1990">World
+id="world-plant-conservation-bibliography-1990"><a href="javascript:void(0)" data-toggle="collapse" data-target="#wcmc1990">World
 Plant Conservation Bibliography (1990)</a></h4>
 <div id="wcmc1990" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/8320" target="_blank">
@@ -4699,7 +4961,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <h2>Earlier</h2>
 <ul>
 <li><h4
-id="nsb-loss-of-biological-diversity---a-global-crisis-requiring-international-solutions-1989"><a href="####" data-toggle="collapse" data-target="#nsb1989">NSB:
+id="nsb-loss-of-biological-diversity---a-global-crisis-requiring-international-solutions-1989"><a href="javascript:void(0)" data-toggle="collapse" data-target="#nsb1989">NSB:
 Loss of Biological Diversity - A Global Crisis Requiring International
 Solutions (1989)</a></h4>
 <div id="nsb1989" class="collapse">
@@ -4729,7 +4991,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-the-state-of-the-world-environment-1989"><a href="####" data-toggle="collapse" data-target="#unep1989">UNEP:
+id="unep-the-state-of-the-world-environment-1989"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep1989">UNEP:
 The State of the World Environment 1989</a></h4>
 <div id="unep1989" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/28295" target="_blank">
@@ -4759,7 +5021,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="nap-biodiversity-1988"><a href="####" data-toggle="collapse" data-target="#nap1988">NAP:
+id="nap-biodiversity-1988"><a href="javascript:void(0)" data-toggle="collapse" data-target="#nap1988">NAP:
 Biodiversity (1988)</a></h4>
 <div id="nap1988" class="collapse">
 <p><a href="https://www.nationalacademies.org/our-work/national-forum-on-biodiversity" target="_blank">
@@ -4788,7 +5050,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="un-report-of-the-world-commission-on-environment-and-development-our-common-future-1987"><a href="####" data-toggle="collapse" data-target="#un1987">UN:
+id="un-report-of-the-world-commission-on-environment-and-development-our-common-future-1987"><a href="javascript:void(0)" data-toggle="collapse" data-target="#un1987">UN:
 Report of the World Commission on Environment and Development: Our
 Common Future (1987)</a></h4>
 <div id="un1987" class="collapse">
@@ -4825,7 +5087,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-the-world-environment-1972---1982-1982"><a href="####" data-toggle="collapse" data-target="#unep1982">UNEP:
+id="unep-the-world-environment-1972---1982-1982"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep1982">UNEP:
 The World Environment 1972 - 1982 (1982)</a></h4>
 <div id="unep1982" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/30379" target="_blank">
@@ -4855,7 +5117,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="unep-the-state-of-the-environment-1975"><a href="####" data-toggle="collapse" data-target="#unep1975">UNEP:
+id="unep-the-state-of-the-environment-1975"><a href="javascript:void(0)" data-toggle="collapse" data-target="#unep1975">UNEP:
 The State of the Environment 1975</a></h4>
 <div id="unep1975" class="collapse">
 <p><a href="https://wedocs.unep.org/handle/20.500.11822/28254" target="_blank">
@@ -4885,7 +5147,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="un-report-of-the-united-nations-conference-on-the-human-environment---stockholm-june-5-16-1972"><a href="####" data-toggle="collapse" data-target="#un1972">UN:
+id="un-report-of-the-united-nations-conference-on-the-human-environment---stockholm-june-5-16-1972"><a href="javascript:void(0)" data-toggle="collapse" data-target="#un1972">UN:
 Report of the United Nations Conference on the Human Environment -
 Stockholm, June 5-16, 1972</a></h4>
 <div id="un1972" class="collapse">
@@ -4916,7 +5178,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="un-problems-of-the-human-environment-report-of-the-secretary-general-1969"><a href="####" data-toggle="collapse" data-target="#un1969">UN:
+id="un-problems-of-the-human-environment-report-of-the-secretary-general-1969"><a href="javascript:void(0)" data-toggle="collapse" data-target="#un1969">UN:
 Problems of the human environment: report of the Secretary-General
 (1969)</a></h4>
 <div id="un1969" class="collapse">
@@ -4949,7 +5211,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 <p><br/></p>
 </div></li>
 <li><h4
-id="un-activities-of-united-nations-organizations-and-programmes-relevant-to-the-human-environment-1968"><a href="####" data-toggle="collapse" data-target="#un1968">UN:
+id="un-activities-of-united-nations-organizations-and-programmes-relevant-to-the-human-environment-1968"><a href="javascript:void(0)" data-toggle="collapse" data-target="#un1968">UN:
 Activities of United Nations Organizations and Programmes Relevant to
 the Human Environment (1968)</a></h4>
 <div id="un1968" class="collapse">
@@ -4980,7 +5242,7 @@ target="_blank"><strong>View report</strong></a>.</h4>
 </ul>
 </div>
 </div>
-<div id="section-20" class="section level1 unnumbered">
+<div id="section-21" class="section level1 unnumbered">
 <h1 class="unnumbered"></h1>
 <hr />
 <p><br/></p>
