@@ -150,6 +150,20 @@ $(document).ready(function(){
   <br/>
   
   </div>
+  
+- #### <a href="###" data-toggle="collapse" data-target="#unepfood2024">UNEP: Food Waste Index Report 2024</a> 
+
+  <div id="unepfood2024" class="collapse">  
+
+  <a href="https://www.unep.org/resources/publication/food-waste-index-report-2024" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepfood2024.png" alt="UNEP Food report cover"/>
+  </a>
+
+  #### Food waste is a market failure that results in the throwing away of more than US$1 trillion worth of food every year. It is also an environmental failure: food waste generates an estimated 8–10 per cent of global greenhouse gas emissions (including from both loss and waste), and it takes up the equivalent of nearly 30 per cent of the world’s agricultural land. The conversion of ***natural ecosystems*** for agriculture has been the leading cause of habitat loss. Just as urgently, food waste is failing people: even as food is being thrown away at scale, up to 783 million people are affected by hunger each year, and 150 million children under the age of five suffer stunted growth and development due to a chronic lack of essential nutrients in their diets...The connection between food waste and ***biodiversity loss***, moreover, is now recognized in the Kunming-Montreal Global Biodiversity Framework, which specifically calls out halving global food waste by 2030 in target 16. [**Visit source**](https://www.unep.org/resources/publication/food-waste-index-report-2024){target="_blank"}. [**View report**](https://app.box.com/s/iwqtgsxoikrxtwdj9q7y11opbpr6b7kg){target="_blank"}.
+
+  <br/>
+  
+  </div>
 
 - #### <a href="javascript:void(0)" data-toggle="collapse" data-target="#gro2024">UNEP: Global Resources Outlook 2024</a> 
 
