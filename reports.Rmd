@@ -137,6 +137,20 @@ $(document).ready(function(){
   
   </div>
   
+- #### <a href="###" data-toggle="collapse" data-target="#eea2024">EEA: Europe Climate Risk Assessment</a> 
+
+  <div id="eea2024" class="collapse">  
+
+  <a href="https://www.eea.europa.eu/publications/european-climate-risk-assessment" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_eea2024.png" alt="EEA 2024 report cover"/>
+  </a>
+
+  #### Human activities have led to unprecedented global warming. The average global temperature in the 12-month period between February 2023 and January 2024 exceeded pre-industrial levels by 1.5°C. 2023 was the warmest year on record over more than 100,000 years globally, at 1.48°C above pre-industrial levels, with the world's ocean temperature also reaching new heights. Europe is the fastest-warming continent; since the 1980s, warming on the continent was about twice the global rate...Climate-related hazards (e.g. heatwaves, prolonged droughts and floods) in interaction with non-climatic risk drivers (e.g. ***ecosystem fragmentation***, pollution, unsustainable agricultural practices and water management, land use and settlement patterns, and social inequalities) threaten Europe's food security, public health, ***ecosystems***, infrastructure and economy. Climate impacts can cascade from one system or region to another, including from the outside world to Europe and from Europe to the outside world. Cascading climate risks can lead to system-wide challenges affecting whole societies, with vulnerable social groups particularly implicated. [**Visit source**](https://www.eea.europa.eu/publications/european-climate-risk-assessment){target="_blank"}. [**View report**](https://app.box.com/s/gfd2e4j0y7p6db88epmgtp0on6yn212r){target="_blank"}.
+
+  <br/>
+  
+  </div>
+  
 - #### <a href="javascript:void(0)" data-toggle="collapse" data-target="#gri2024">GRI 101: Biodiversity 2024</a> 
 
   <div id="gri2024" class="collapse">  
