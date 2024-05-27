@@ -165,6 +165,20 @@ $(document).ready(function(){
   
   </div>
   
+- #### <a href="###" data-toggle="collapse" data-target="#unccdrangelands2024">UNCCD: Global Land Outlook Rangelands Report</a> 
+
+  <div id="unccdrangelands2024" class="collapse">  
+
+  <a href="https://www.unccd.int/resources/global-land-outlook/glo-rangelands-report" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unccdrangelands2024.png" alt="UNCCD GLO Rangelands report cover"/>
+  </a>
+
+  #### Rangelands operate as complex social-ecological systems with critical values, processes, goods, and services. They are diverse, multifunctional, and encompass a wide variety of ecosystems (e.g., drylands, grasslands, savannahs) that have co-evolved with human communities. Covering over 50 per cent of the Earth’s land surface, rangelands are comprised of grasses, herbaceous plants, and shrubs that are grazed by livestock and/or wildlife. In addition to meat, dairy, fibre, and other animal products, rangelands and their ***biodiversity*** underpin critical ecosystem services from local to global scales (e.g., nutrient/water cycling, carbon sequestration, animal/human health). Despite the extraordinary diversity and intrinsic value of rangelands and pastoralist systems, they rarely feature in global policy discussions or national development priorities. Rangelands provide important environmental, social, and economic benefits that are often taken for granted, in part due to the lack of understanding of their extent, condition, use, value, and diversity. While there are many threats to rangeland health, one is the imbalance in the supply and demand for animal forage which leads to overgrazing, invasive species, and bush encroachment as well as the increased risk of drought and wildfires. [**Visit source**](https://www.unccd.int/resources/global-land-outlook/glo-rangelands-report){target="_blank"}. [**View report**](https://app.box.com/s/gsgrq11ezkd0oyasorjdnsid9hadj8na){target="_blank"}.
+
+  <br/>
+  
+  </div>
+  
 - #### <a href="###" data-toggle="collapse" data-target="#unepfood2024">UNEP: Food Waste Index Report 2024</a> 
 
   <div id="unepfood2024" class="collapse">  
