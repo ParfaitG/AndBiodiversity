@@ -155,6 +155,34 @@ $(document).ready(function(){
   
   </div>
   
+- #### <a href="javascript:void(0)" data-toggle="collapse" data-target="#faofish2024">FAO: The State of World Fisheries and Aquaculture 2024</a> 
+
+  <div id="faofish2024" class="collapse">
+
+  <a href="https://openknowledge.fao.org/items/39252084-8b0b-4492-b527-a431d5ded151" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_faofish2024.png" alt="FAO Fisheries 2024 report cover"/>
+  </a>
+
+  World fisheries and aquaculture production hit a new high in 2022. Successful initiatives should be upscaled to consolidate the vital role of aquatic foods for global food security, nutrition and livelihoods...Aquaculture can meet the rising global demand for aquatic foods. Future expansion must prioritize sustainability and benefit regions and communities most in need...Global capture fisheries production remains stable, but sustainability of fishery resources is a cause for concern. Urgent action is needed to accelerate fishery stock conservation and rebuilding...Aquatic food systems are directly related to many [Global ***Biodiversity*** Framework] targets such as management of aquatic spaces; reduction of species extinction risk; sustainability of use and trade of wild aquatic species; and actions to deter and mitigate the impacts of invasive alien species. FAO is working across stakeholder groups to identify the opportunities and challenges for the timely implementation of the framework in aquatic food systems. [**Visit source**](https://openknowledge.fao.org/items/39252084-8b0b-4492-b527-a431d5ded151){target="_blank"}. [**View report**](https://app.box.com/s/4vtmpv4qi1nq610ydadwqwkauoanbg9w){target="_blank"}.
+
+  <br/>
+
+  </div>
+
+- #### <a href="javascript:void(0)" data-toggle="collapse" data-target="#faoforests2024">FAO: The State of the World’s Forests 2024</a> 
+
+  <div id="faoforests2024" class="collapse">
+
+  <a href="https://openknowledge.fao.org/items/a5e89941-d8fb-4936-82db-ddb37829f4e0" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_faoforests2024.png" alt="FAO Forests 2024 report cover"/>
+  </a>
+
+  The world is facing mounting threats on multiple fronts, and time is running out to take the action needed to avert them. The 2030 Agenda for Sustainable Development, with 17 Sustainable Development Goals (SDGs) at its heart, envisions a world free of poverty, hunger, disease and want and where all life can thrive. But urgent action is required if we are to achieve the SDGs...Forests and trees offer cost-effective solutions to the climate ***and biodiversity*** crises, and they are integral to the transformation to MORE efficient, inclusive, resilient and sustainable agrifood systems for better production, better nutrition, a better environment and a better life, leaving no one behind...The rapid pace of change, and the urgency of addressing global challenges, demand inventive solutions that are diverse, flexible and adaptable and can be scaled up quickly. It is imperative, therefore, to tap into human creativity and embrace innovation, including in the forest sector. [**Visit source**](https://openknowledge.fao.org/items/a5e89941-d8fb-4936-82db-ddb37829f4e0){target="_blank"}. [**View report**](https://app.box.com/s/j9vhgitq2bilc9o8h1e2fzq8rx355jdn){target="_blank"}.
+
+  <br/>
+
+  </div>
+
 - #### <a href="javascript:void(0)" data-toggle="collapse" data-target="#gri2024">GRI 101: Biodiversity 2024</a> 
 
   <div id="gri2024" class="collapse">  
@@ -211,9 +239,23 @@ $(document).ready(function(){
   
   </div>
   
+- #### <a href="javascript:void(0)" data-toggle="collapse" data-target="#unepnewhorizons">UNEP: Navigating New Horizons</a> 
+
+  <div id="unepnewhorizons" class="collapse">
+
+  <a href="https://www.unep.org/resources/global-foresight-report" target="_blank">
+    <img class="report_img" src="https://images.andbiodiversity.info/report_unepnewhorizons2024.png" alt="UNEP New Horizons report cover"/>
+  </a>
+
+  The world is already on the verge of what may be termed 'polycrisis'—where global crises are not just amplifying and accelerating but also appear to be synchronizing. The triple planetary crisis of climate change, nature and ***biodiversity loss***, and pollution and waste is feeding into human crises such as conflict for territory and resources, displacement and deteriorating health. The speed of change is staggering. Social norms, employment, leisure and our relationship with nature are all inexorably shifting. The rapid development of new technologies and artificial intelligence (AI) are influencing all facets of life. Overlapping and interrelated factors will influence the environment— these include competition for natural resources, new forms of conflict, mass forced displacement and migration, persistent widening inequalities, declining trust and weakened institutions, the prevalence of mis/disinformation and an increasing global multipolarity. This new global context is giving rise to a series of critical shifts, emerging issues and potential threats that may or may not eventuate, but which the world needs to keep a watching brief on due to their potential to significantly disrupt different sectors and hence affect planetary health and human wellbeing.  [**Visit source**](https://www.unep.org/resources/global-foresight-report){target="_blank"}. [**View report**](https://app.box.com/s/clv4x59n9kxn3ijvcmosih8ursgjhllg){target="_blank"}.
+
+  <br/>
+
+  </div>
+
 - #### <a href="javascript:void(0)" data-toggle="collapse" data-target="#wef2024">WEF: Global Risks Report 2024</a> 
 
-  <div id="wef2024" class="collapse">  
+  <div id="wef2024" class="collapse">
 
   <a href="https://www.weforum.org/publications/global-risks-report-2024/" target="_blank">
     <img class="report_img" src="https://images.andbiodiversity.info/report_wef2024.png" alt="WEF 2024 report cover"/>
@@ -222,9 +264,9 @@ $(document).ready(function(){
   _The Global Risks Report 2024_ presents the findings of the Global Risks Perception Survey (GRPS), which captures insights from nearly 1,500 global experts. The report analyses global risks through three time frames to support decision-makers in balancing current crises and longer-term priorities...GRPS respondents disagree about the urgency of environmental risks, in particular ***biodiversity loss and ecosystem collapse*** and critical change to Earth systems. Younger respondents tend to rank these risks far more highly over the two-year period compared to older age groups, with both risks featuring in their top 10 rankings in the short term. The private sector highlights these risks as top concerns over the longer term, in contrast to respondents from civil society or government who prioritize these risks over shorter time frames. This dissonance in perceptions of urgency among key decision-makers implies sub-optimal alignment and decision-making, heightening the risk of missing key moments of intervention, which would result in long-term changes to planetary systems.  [**Visit source**](https://www.weforum.org/publications/global-risks-report-2024/){target="_blank"}. [**View report**](https://app.box.com/s/vno3zdctfitfgwlrau1el5xakz5f5lgl){target="_blank"}.
 
   <br/>
-  
+
   </div>
-  
+
 <br/>
 <br/>
   
